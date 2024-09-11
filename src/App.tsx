@@ -1,11 +1,22 @@
 import React, { useState } from 'react'
 import './App.css'
+import Analysis from './components/Analysis'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Analysis')
 
   const handleNavClick = (pageName: string) => {
     setCurrentPage(pageName)
+  }
+
+  const renderContent = () => {
+    switch (currentPage) {
+      case 'Analysis':
+        return <Analysis />;
+      // ... other cases for different pages
+      default:
+        return <p>This is the {currentPage} page. Select a different option from the menu to change pages.</p>;
+    }
   }
 
   return (
@@ -32,7 +43,7 @@ function App() {
           <h1>{currentPage}</h1>
         </header>
         <div className="content-body">
-          <p>This is the {currentPage} page. Select a different option from the menu to change pages.</p>
+          {renderContent()}
         </div>
       </main>
     </div>
