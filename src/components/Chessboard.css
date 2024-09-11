@@ -1,0 +1,12 @@
+.chessboard-container {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows: repeat(8, 12.5%);
+  width: 100%;
+  height: 100%;
+}

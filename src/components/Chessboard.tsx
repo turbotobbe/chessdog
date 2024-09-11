@@ -1,5 +1,6 @@
 import React from 'react';
 import Square from './Square';
+import './Chessboard.css';
 
 const Chessboard: React.FC = () => {
   const renderSquares = () => {
@@ -14,16 +15,10 @@ const Chessboard: React.FC = () => {
   };
 
   return (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(8, 50px)',
-        gridTemplateRows: 'repeat(8, 50px)',
-        width: '400px',
-        height: '400px',
-      }}
-    >
-      {renderSquares()}
+    <div className="chessboard-container">
+      <div className="chessboard">
+        {renderSquares()}
+      </div>
     </div>
   );
 };

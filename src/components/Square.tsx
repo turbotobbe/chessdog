@@ -1,21 +1,12 @@
 import React from 'react';
+import './Square.css';
 
 interface SquareProps {
   isLight: boolean;
 }
 
 const Square: React.FC<SquareProps> = ({ isLight }) => {
-  const backgroundColor = isLight ? '#f0d9b5' : '#b58863';
-
-  return (
-    <div
-      style={{
-        width: '50px',
-        height: '50px',
-        backgroundColor,
-      }}
-    />
-  );
+  return <div className={`square ${isLight ? 'light' : 'dark'}`} />;
 };
 
 export default Square;
