@@ -1,11 +1,15 @@
 import React from 'react';
 import Chessboard from './Chessboard';
 import './Analysis.css';
+import { BoardSetup } from '../models/BoardSetup';
 
 const Analysis: React.FC = () => {
+    const boardSetup = new BoardSetup();
+    boardSetup.setDefaultSetup();
+   console.log(boardSetup.getBoard());
   return (
     <div className="analysis-container">
-      <Chessboard />
+      <Chessboard boardSetup={boardSetup} />
     </div>
   );
 };

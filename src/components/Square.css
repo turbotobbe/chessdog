@@ -10,3 +10,59 @@
 .square.dark {
   background-color: #b58863;
 }
+
+.piece.wk,
+.piece.wq,
+.piece.wr,
+.piece.wb,
+.piece.wn,
+.piece.wp,
+.piece.bk,
+.piece.bq,
+.piece.br,
+.piece.bb,
+.piece.bn,
+.piece.bp {
+    background-color: transparent;
+    background-size: 100%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.piece.wk {
+    background-image: url('../assets/wk.png');
+}
+.piece.wq {
+    background-image: url('../assets/wq.png');
+}
+.piece.wr {
+    background-image: url('../assets/wr.png');
+}
+.piece.wb {
+    background-image: url('../assets/wb.png');
+}
+.piece.wn {
+    background-image: url('../assets/wn.png');
+}
+.piece.wp {
+    background-image: url('../assets/wp.png');
+}
+.piece.bk {
+    background-image: url('../assets/bk.png');
+}
+.piece.bq {
+    background-image: url('../assets/bq.png');
+}
+.piece.br {
+    background-image: url('../assets/br.png');
+}
+.piece.bb {
+    background-image: url('../assets/bb.png');
+}
+.piece.bn {
+    background-image: url('../assets/bn.png');
+}
+.piece.bp {
+    background-image: url('../assets/bp.png');
+}
