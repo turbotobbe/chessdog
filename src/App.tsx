@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import Analysis from './components/Analysis'
 
@@ -21,8 +21,11 @@ function App() {
 
   return (
     <div className="app-container">
-      <nav className="sidebar">
+      <div className="logo">
         <h2>ChessDrills</h2>
+      </div>
+      <div className="menu">
+      <nav className="sidebar">
         <ul>
           <li className={currentPage === 'Analysis' ? 'active' : ''}>
             <a href="#" onClick={() => handleNavClick('Analysis')}>Analysis</a>
@@ -38,13 +41,12 @@ function App() {
           </li>
         </ul>
       </nav>
-      <main className="content">
-        <header className="content-header">
-          <h1>{currentPage}</h1>
-        </header>
-        <div className="content-body">
-          {renderContent()}
-        </div>
+      </div>
+      <header className="head">
+        <h1>{currentPage}</h1>
+      </header>
+      <main className="main">
+        {renderContent()}
       </main>
     </div>
   )

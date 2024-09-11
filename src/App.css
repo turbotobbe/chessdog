@@ -1,6 +1,45 @@
 .app-container {
-  display: flex;
+  display: grid;
+  grid-template-areas:
+    "logo head"
+    "menu main";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr;
   height: 100vh;
+}
+
+.logo {
+  grid-area: logo;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  align-content: center;
+}
+.logo h2 {
+  margin: 0;
+  padding: 20px;
+}
+.menu {
+  grid-area: menu;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  overflow-y: auto;
+}
+
+.head {
+  grid-area: head;
+  background-color: #2a2a2a;
+  border-bottom: 1px solid #333;
+}
+.head h1 {
+  margin: 0;
+  padding: 20px;
+}
+
+.main {
+  grid-area: main;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+  overflow-y: auto;
 }
 
 .sidebar {
