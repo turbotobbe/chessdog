@@ -1,10 +1,40 @@
-import React from 'react'
+import React, { useState } from 'react'
+import './App.css'
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('Analysis')
+
+  const handleNavClick = (pageName: string) => {
+    setCurrentPage(pageName)
+  }
+
   return (
-    <div>
-      <h1>Welcome to ChessDrills</h1>
-      <p>This is a basic React app created with Vite.</p>
+    <div className="app-container">
+      <nav className="sidebar">
+        <h2>ChessDrills</h2>
+        <ul>
+          <li className={currentPage === 'Analysis' ? 'active' : ''}>
+            <a href="#" onClick={() => handleNavClick('Analysis')}>Analysis</a>
+          </li>
+          <li className={currentPage === 'Drills' ? 'active' : ''}>
+            <a href="#" onClick={() => handleNavClick('Drills')}>Drills</a>
+          </li>
+          <li className={currentPage === 'Progress' ? 'active' : ''}>
+            <a href="#" onClick={() => handleNavClick('Progress')}>Progress</a>
+          </li>
+          <li className={currentPage === 'Settings' ? 'active' : ''}>
+            <a href="#" onClick={() => handleNavClick('Settings')}>Settings</a>
+          </li>
+        </ul>
+      </nav>
+      <main className="content">
+        <header className="content-header">
+          <h1>{currentPage}</h1>
+        </header>
+        <div className="content-body">
+          <p>This is the {currentPage} page. Select a different option from the menu to change pages.</p>
+        </div>
+      </main>
     </div>
   )
 }
