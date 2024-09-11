@@ -22,6 +22,7 @@ export class BoardSetup {
   }
 
   setDefaultSetup(): void {
+    this.clearBoard();
     this.setPiece(0,0,'wr');
     this.setPiece(0,7,'wr');
     this.setPiece(7,0,'br');
@@ -44,9 +45,55 @@ export class BoardSetup {
     }
   }
 
+  setQueenEndGameSetup(): void {
+    this.clearBoard();
+    // store all coordinates of the board in an array
+    const coordinates = [];
+    for (let row = 0; row < 8; row++) {
+      for (let col = 0; col < 8; col++) {
+        coordinates.push([row, col]);
+      }
+    }
+    // shuffle the coordinates
+    coordinates.sort(() => Math.random() - 0.5);
+    console.log(coordinates);
+    
+    // get first coordinate
+    const [row, col] = coordinates[0];
+    this.setPiece(row, col, 'wk');
+    coordinates.splice(0, 1);
+
+    // get second coordinate
+    const [row2, col2] = coordinates[0];
+    this.setPiece(row2, col2, 'wq');
+    coordinates.splice(0, 1);
+
+    let done = false;
+    while (!done) {
+        // get third coordinate
+        const [row3, col3] = coordinates[0];
+        coordinates.splice(0, 1);
+
+        // check if the piece is in the same row, column, or diagonal as the queen
+        if (row3 === row || col3 === col || Math.abs(row3 - row) === Math.abs(col3 - col)) {
+            continue;
+        }
+
+        // check if the piece is adjecent to the king
+        if (Math.abs(row3 - row) <= 1 && Math.abs(col3 - col) <= 1) {
+            continue;
+        }
+
+        this.setPiece(row3, col3, 'bk');
+        done = true;
+    }
+    
+  }
+
   clearBoard(): void {
     this.board = Array(8).fill(null).map(() => Array(8).fill(null));
   }
+
   getBoard(): (PieceName | undefined)[][] {
     return this.board.map(row => row.map(piece => piece ?? undefined));
   }

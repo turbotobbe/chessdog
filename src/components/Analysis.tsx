@@ -5,13 +5,14 @@ import { BoardSetup } from '../models/BoardSetup';
 
 const Analysis: React.FC = () => {
     const boardSetup = new BoardSetup();
-    boardSetup.setDefaultSetup();
-   console.log(boardSetup.getBoard());
-  return (
-    <div className="analysis-container">
-      <Chessboard boardSetup={boardSetup} />
-    </div>
-  );
+    //boardSetup.setDefaultSetup();
+    boardSetup.setQueenEndGameSetup();
+    console.log(boardSetup.getBoard());
+    return (
+        <div className="analysis-container">
+            <Chessboard boardSetup={boardSetup} />
+        </div>
+    );
 };
 
 export default Analysis;
