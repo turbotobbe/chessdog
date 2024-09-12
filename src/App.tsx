@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Analysis from './components/Analysis'
-import chessdogLogo from './assets/chessdog.jpg'
+import chessdogLogo from '@/assets/chessdog.jpg'
 import {
   Box,
   Typography,
