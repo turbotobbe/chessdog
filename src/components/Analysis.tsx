@@ -2,7 +2,7 @@ import React from 'react';
 import Chessboard from './Chessboard';
 import './Analysis.css';
 import { BoardSetup } from '../models/BoardSetup';
-import { getDefaultBoard, getRandomBoard } from '../utils/boardUtil';
+import { getDefaultBoard } from '../utils/boardUtil';
 
 const Analysis: React.FC = () => {
     const boardSetup = new BoardSetup();
