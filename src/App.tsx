@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="app-container">
       <div className="logo">
-        <h2>ChessDrills</h2>
+        <h2>ChessDog</h2>
       </div>
       <div className="menu">
       <nav className="sidebar">
