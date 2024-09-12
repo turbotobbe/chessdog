@@ -1,9 +1,9 @@
 import React from 'react';
 import { Box, Grid } from '@mui/material';
 import SquareEl from './Square';
-import { BoardState, files, ranksReverse } from '../models/BoardState';
+import { BoardState, files, ranksReverse, toSquareId } from '../models/BoardState';
 
-const Chessboard: React.FC<{ state: BoardState }> = ({ state }) => {
+const Chessboard: React.FC<{ board: BoardState }> = ({ board }) => {
 
 
   return (
@@ -21,12 +21,12 @@ const Chessboard: React.FC<{ state: BoardState }> = ({ state }) => {
         aspectRatio: '1 / 1'
       }}>
         <Grid container>
-          {ranksReverse.map((rank, rankIndex) =>
-            files.map((file, fileIndex) => (
-              <Grid item xs={1.5} key={`${rankIndex}-${fileIndex}`} sx={{ height: '12.5%' }}>
+          {ranksReverse.map((rank) =>
+            files.map((file) => (
+              <Grid item xs={1.5} key={toSquareId({file: file, rank: rank})} sx={{ height: '12.5%' }}>
                 <SquareEl
-                  square={{file: file, rank: rank}}
-                  pieceId={state.getPieceIdAtSquare({file: file, rank: rank}) || undefined}
+                  squareId={toSquareId({file: file, rank: rank})}
+                  pieceId={board.getPieceIdAtSquare(toSquareId({file: file, rank: rank})) || undefined}
                 />
               </Grid>
             ))

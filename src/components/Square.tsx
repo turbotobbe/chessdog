@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '@mui/material';
-import { files, PieceId, ranks, Square } from '../models/BoardState';
+import { files, PieceId, ranks, SquareId, toPieceInfo, toSquareInfo } from '../models/BoardState';
 
 import bb from '@/assets/bb.png';
 import bk from '@/assets/bk.png';
@@ -16,69 +16,39 @@ import wq from '@/assets/wq.png';
 import wr from '@/assets/wr.png';
 
 interface SquareElProps {
-  square: Square;
+  squareId: SquareId;
   pieceId?: PieceId;
 }
 
 const selectImage = (piece: PieceId) => {
-  switch (piece) {
-    case 'bb1':
-    case 'bb2':
-      return bb;
-    case 'bk':
-      return bk;
-    case 'bn1':
-    case 'bn2':
-      return bn;
-    case 'bp1':
-    case 'bp2':
-    case 'bp3':
-    case 'bp4':
-    case 'bp5':
-    case 'bp6':
-    case 'bp7':
-    case 'bp8':
-      return bp;
-    case 'bq':
-      return bq;
-    case 'br1':
-    case 'br2':
-      return br;
-    case 'wb1':
-    case 'wb2':
-      return wb;
-    case 'wk':
-      return wk;
-    case 'wn1':
-    case 'wn2':
-      return wn;
-    case 'wp1':
-    case 'wp2':
-    case 'wp3':
-    case 'wp4':
-    case 'wp5':
-    case 'wp6':
-    case 'wp7':
-    case 'wp8':
-      return wp;
-    case 'wq':
-      return wq;
-    case 'wr1':
-    case 'wr2':
-      return wr;
+  const pieceInfo = toPieceInfo(piece);
+  switch (pieceInfo.piece) {
+    case 'b':
+      return pieceInfo.color === 'b' ? bb : wb;
+    case 'k':
+      return pieceInfo.color === 'b' ? bk : wk;
+    case 'n':
+      return pieceInfo.color === 'b' ? bn : wn;
+    case 'p':
+      return pieceInfo.color === 'b' ? bp : wp;
+    case 'q':
+      return pieceInfo.color === 'b' ? bq : wq;
+    case 'r':
+      return pieceInfo.color === 'b' ? br : wr;
     default:
-      return null;
-  }
+      return undefined;
+  } 
 }
 
-const SquareEl: React.FC<SquareElProps> = ({ square, pieceId }) => {
+const SquareEl: React.FC<SquareElProps> = ({ squareId, pieceId }) => {
+  const square = toSquareInfo(squareId);
   const rankIndex = ranks.indexOf(square.rank);
   const fileIndex = files.indexOf(square.file);
   const isLight = (rankIndex + fileIndex) % 2 !== 0;
 
   return (
     <Box
-      className={`square-${square.file}${square.rank}`}
+      className={`square-${squareId}`}
       sx={{
         width: '100%',
         paddingBottom: '100%',
