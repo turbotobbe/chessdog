@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '@mui/material';
-import { PieceName } from '../models/BoardSetup';
+import { PieceName } from '../models/BoardState';
 
 interface SquareProps {
   isLight: boolean;

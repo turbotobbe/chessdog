@@ -5,62 +5,109 @@
 // the position must be a valid position
 // the function must return the board setup
 
-import { PieceName } from "../models/BoardSetup";
+import { BoardState, files, PieceName, ranks, Square } from "../models/BoardState";
+
+
+export function getDefaultBoard(): BoardState {
+    const board = new BoardState();
+    board.setPiece({file: 'a', rank: '1'}, 'wr');
+    board.setPiece({file: 'b', rank: '1'}, 'wn');
+    board.setPiece({file: 'c', rank: '1'}, 'wb');
+    board.setPiece({file: 'd', rank: '1'}, 'wq');
+    board.setPiece({file: 'e', rank: '1'}, 'wk');
+    board.setPiece({file: 'f', rank: '1'}, 'wb');
+    board.setPiece({file: 'g', rank: '1'}, 'wn');
+    board.setPiece({file: 'h', rank: '1'}, 'wr');
+
+    board.setPiece({file: 'a', rank: '2'}, 'wp');
+    board.setPiece({file: 'b', rank: '2'}, 'wp');
+    board.setPiece({file: 'c', rank: '2'}, 'wp');
+    board.setPiece({file: 'd', rank: '2'}, 'wp');
+    board.setPiece({file: 'e', rank: '2'}, 'wp');
+    board.setPiece({file: 'f', rank: '2'}, 'wp');
+    board.setPiece({file: 'g', rank: '2'}, 'wp');
+    board.setPiece({file: 'h', rank: '2'}, 'wp');
+
+    board.setPiece({file: 'a', rank: '7'}, 'bp');
+    board.setPiece({file: 'b', rank: '7'}, 'bp');
+    board.setPiece({file: 'c', rank: '7'}, 'bp');
+    board.setPiece({file: 'd', rank: '7'}, 'bp');
+    board.setPiece({file: 'e', rank: '7'}, 'bp');
+    board.setPiece({file: 'f', rank: '7'}, 'bp');
+    board.setPiece({file: 'g', rank: '7'}, 'bp');
+    board.setPiece({file: 'h', rank: '7'}, 'bp');
+
+    board.setPiece({file: 'a', rank: '8'}, 'br');
+    board.setPiece({file: 'b', rank: '8'}, 'bn');
+    board.setPiece({file: 'c', rank: '8'}, 'bb');
+    board.setPiece({file: 'd', rank: '8'}, 'bq');
+    board.setPiece({file: 'e', rank: '8'}, 'bk');
+    board.setPiece({file: 'f', rank: '8'}, 'bb');
+    board.setPiece({file: 'g', rank: '8'}, 'bn');
+    board.setPiece({file: 'h', rank: '8'}, 'br');
+
+    return board;
+}
+
+export function getRandomBoard(pieces: PieceName[]): BoardState {
+
+    let initialSolution: Solution = {
+        state: new BoardState(),
+        pieces: pieces,
+        squares: []
+    };
+
+    // generate the board squares
+    initialSolution.squares = [{ rank: ranks[0], file: files[0] }];
+    for (let rank of ranks) {
+        for (let file of files) {
+            initialSolution.squares.push({ rank: rank, file: file });
+        }
+    }
+
+    // shuffle the board squares
+    initialSolution.squares.sort(() => Math.random() - 0.5);
+
+    const solvedSolution = putPieces(initialSolution);
+
+    if (solvedSolution === undefined) {
+        return initialSolution.state;
+    }
+
+    return solvedSolution.state;
+}
+
 
 // object to store a solution
 interface Solution {
-    board: (PieceName | null)[][];
+    state: BoardState;
     pieces: PieceName[];
-    coordinates: [number, number][];
+    squares: Square[]
 }
 
-function isValidPosition(board: (PieceName | null)[][], piece: PieceName, row: number, col: number): boolean {
+function cloneSolution(solution: Solution): Solution {
+    return {
+        state: solution.state.clone(), // Assuming we add a clone method to BoardState
+        pieces: [...solution.pieces],
+        squares: solution.squares.map(square => ({...square}))
+    };
+}
+
+function isValidPosition(state: BoardState, piece: PieceName, square: Square): boolean {
 
     // check if the position is already occupied
-    if (board[row][col] !== null) {
+    if (state.getPiece(square) !== null) {
         return false;
     }
 
-    // check if white pawns are on the first row    
-    if (piece === 'wp' && row === 0) {
+    // check if white pawns are on the first rank    
+    if (piece === 'wp' && square.rank === '1') {
         return false;
     }
 
     // check if black pawns are on the last row
-    if (piece === 'bp' && row === 7) {
+    if (piece === 'bp' && square.rank === '8') {
         return false;
-    }
-
-    // check if the white bishop is on the same color square
-    if (piece === 'wb' && (row + col) % 2 === 0) {
-        return false;
-    }
-
-    // check if the black bishop is on the same color square
-    if (piece === 'bb' && (row + col) % 2 === 0) {
-        return false;
-    }
-
-    // check if the kings are adjecent to each other
-    if (piece === 'bk' || piece === 'wk') {
-        let thisKingRow = row;
-        let thisKingCol = col;
-        // find the white king on the board
-        let thatKingRow = -1;
-        let thatKingCol = -1;
-        for (let i = 0; i < 8; i++) {
-            for (let j = 0; j < 8; j++) {
-                if (board[i][j] === 'wk' || board[i][j] === 'bk') {
-                    thatKingRow = i;
-                    thatKingCol = j;
-                }
-            }
-        }
-        let colDistance = Math.abs(thisKingCol - thatKingCol);
-        let rowDistance = Math.abs(thisKingRow - thatKingRow);
-        if (colDistance < 2 && rowDistance < 2) {
-            return false;
-        }
     }
 
     return true;
@@ -75,35 +122,34 @@ function putPieces(initialSolution: Solution): Solution | undefined {
     }
 
     // clone the solution
-    const sugestedSolution = JSON.parse(JSON.stringify(initialSolution)); 
+    const suggestedSolution: Solution = cloneSolution(initialSolution);
 
     // get next piece
-    const piece = sugestedSolution.pieces[0];
-    sugestedSolution.pieces.splice(0, 1);
+    const piece = suggestedSolution.pieces[0];
+    suggestedSolution.pieces.splice(0, 1);
 
     // try every coordinate, accept the first valid one
-    for (let i = 0; i < sugestedSolution.coordinates.length; i++) {
-        let coordinate = sugestedSolution.coordinates[i];
-        const [row, col] = coordinate;
+    for (let i = 0; i < suggestedSolution.squares.length; i++) {
+        let square = suggestedSolution.squares[i];
 
         // check if the position is already occupied (should not happen)
-        if (sugestedSolution.board[row][col] !== null) {
+        if (suggestedSolution.state.getPiece(square) !== null) {
             continue;
         }
 
         // check if this position is valid for the piece
-        if (!isValidPosition(sugestedSolution.board, piece, row, col)) {
+        if (!isValidPosition(suggestedSolution.state, piece, square)) {
             continue;
         }
 
         // all good, put the piece on the board
-        sugestedSolution.board[row][col] = piece;
+        suggestedSolution.state.setPiece(square, piece);
 
         // remove the coordinate from the list
-        sugestedSolution.coordinates.splice(i, 1);
+        suggestedSolution.squares.splice(i, 1);
 
         // continue with the rest of the pieces
-        const solvedSolution = putPieces(sugestedSolution);
+        const solvedSolution = putPieces(suggestedSolution);
 
         // check if we found a complete solution
         if (solvedSolution !== undefined) {
@@ -114,65 +160,11 @@ function putPieces(initialSolution: Solution): Solution | undefined {
         }
 
         // remove the piece from the board
-        sugestedSolution.board[row][col] = null;
+        suggestedSolution.state.setPiece(square, null);
 
         // put the coordinate back in the list 
-        sugestedSolution.coordinates.splice(i, 0, coordinate);
+        suggestedSolution.squares.splice(i, 0, square);
     }
 
     return undefined;
-}
-
-export function getRandomBoard(pieces: PieceName[]): (PieceName | null)[][] | undefined {
-
-    let initialSolution: Solution = {
-        board: Array(8).fill(null).map(() => Array(8).fill(null)),
-        pieces: pieces,
-        coordinates: []
-    };
-
-    // genenerate the board coordinates
-    initialSolution.coordinates = [];
-    for (let row = 0; row < 8; row++) {
-        for (let col = 0; col < 8; col++) {
-            initialSolution.coordinates.push([row, col]);
-        }
-    }
-
-    // shuffle the board coordinates
-    initialSolution.coordinates.sort(() => Math.random() - 0.5);
-
-    const solvedSolution = putPieces(initialSolution);
-
-    if (solvedSolution === undefined) {
-        return undefined;
-    }
-
-    return solvedSolution.board;
-}
-
-export function getDefaultBoard(): (PieceName | null)[][] {
-    const board = Array(8).fill(null).map(() => Array(8).fill(null));
-    board[0][0] = 'wr';
-    board[0][7] = 'wr';
-    board[7][0] = 'br';
-    board[7][7] = 'br';
-    board[0][1] = 'wn';
-    board[0][6] = 'wn';
-    board[7][1] = 'bn';
-    board[7][6] = 'bn';
-    board[0][2] = 'wb';
-    board[0][5] = 'wb';
-    board[7][2] = 'bb';
-    board[7][5] = 'bb';
-    board[0][3] = 'wq';
-    board[0][4] = 'wk';
-    board[7][3] = 'bq';
-    board[7][4] = 'bk';
-    for (let col = 0; col < 8; col++) {
-      board[1][col] = 'wp';
-      board[6][col] = 'bp';
-    }
-
-    return board;
 }
