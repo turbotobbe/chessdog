@@ -1,17 +1,13 @@
 import React from 'react';
 import { Box, Paper, Typography } from '@mui/material';
 import Chessboard from './Chessboard';
-import { getRandomBoard } from '../utils/boardUtil';
+import { getDefaultBoard } from '../utils/boardUtil';
 
 const Analysis: React.FC = () => {
 
-    // const initialState = getDefaultBoard();
-    const initialState = getRandomBoard(['wp', 'wp', 'wp', 'wp', 'wp', 'wp', 'wp', 'wp', 'bp', 'bp', 'bp', 'bp', 'bp', 'bp', 'bp', 'bp']);
+    const initialState = getDefaultBoard();
+    // const initialState = getRandomBoard(['wk', 'wq', 'bk']);
     console.log(initialState);
-    // initialState.setBoard(getDefaultBoard());
-    // initialState.setBoard(getRandomBoard(['wp', 'wp', 'wp', 'wp', 'wp', 'wp', 'wp', 'wp']));
-
-    // const [state, setState] = useState(initialState);
     
     return (
         <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'stretch', gap: 2, height: '100%' }}>
