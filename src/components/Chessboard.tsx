@@ -1,38 +1,48 @@
 import React from 'react';
+import { Box, Grid } from '@mui/material';
 import Square from './Square';
-import './Chessboard.css';
-import { BoardSetup } from '../models/BoardSetup';
+import { PieceName } from '../models/BoardSetup';
 
-interface ChessboardProps {
-  boardSetup: BoardSetup;
-}
-
-const Chessboard: React.FC<ChessboardProps> = ({ boardSetup }) => {
-
-  const renderSquares = () => {
-    const squares = [];
-    for (let row = 7; row >= 0; row--) {
-      for (let col = 0; col < 8; col++) {
-        const isLight = (row + col) % 2 !== 0;  // Change this line
-        const piece = boardSetup.getPiece(row, col);
-        squares.push(
-          <Square 
-            key={`${row}-${col}`} 
-            isLight={isLight} 
-            piece={piece}
-          />
-        );
-      }
-    }
-    return squares;
-  };
+const Chessboard: React.FC = () => {
+  const initialBoard: (PieceName | null)[][] = [
+    ['br', 'bn', 'bb', 'bq', 'bk', 'bb', 'bn', 'br'],
+    ['bp', 'bp', 'bp', 'bp', 'bp', 'bp', 'bp', 'bp'],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    ['wp', 'wp', 'wp', 'wp', 'wp', 'wp', 'wp', 'wp'],
+    ['wr', 'wn', 'wb', 'wq', 'wk', 'wb', 'wn', 'wr'],
+  ];
 
   return (
-    <div className="chessboard-container">
-      <div className="chessboard">
-        {renderSquares()}
-      </div>
-    </div>
+    <Box sx={{ 
+      width: '100%', 
+      height: '100%', 
+      display: 'flex', 
+      alignItems: 'center', 
+      justifyContent: 'center' 
+    }}>
+      <Box sx={{ 
+        height: '100%', 
+        maxHeight: '100%',
+        maxWidth: '100%',
+        aspectRatio: '1 / 1'
+      }}>
+        <Grid container>
+          {initialBoard.map((row, rowIndex) =>
+            row.map((piece, colIndex) => (
+              <Grid item xs={1.5} key={`${rowIndex}-${colIndex}`} sx={{ height: '12.5%' }}>
+                <Square
+                  isLight={(rowIndex + colIndex) % 2 === 0}
+                  piece={piece as PieceName}
+                />
+              </Grid>
+            ))
+          )}
+        </Grid>
+      </Box>
+    </Box>
   );
 };
 
