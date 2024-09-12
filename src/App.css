@@ -12,8 +12,24 @@
   grid-area: logo;
   background-color: #1a1a1a;
   color: #ffffff;
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
+
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* In case the image doesn't load, this styles the fallback text */
+.logo noscript {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .logo h2 {
   margin: 0;
   padding: 20px;

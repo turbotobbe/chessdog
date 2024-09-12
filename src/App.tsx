@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Analysis from './components/Analysis'
+import chessdogLogo from './assets/chessdog.jpg' // Import the image
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Analysis')
@@ -22,7 +23,9 @@ function App() {
   return (
     <div className="app-container">
       <div className="logo">
-        <h2>ChessDog</h2>
+        <img src={chessdogLogo} alt="ChessDog" />
+        {/* Fallback text in case the image doesn't load */}
+        <noscript>ChessDog</noscript>
       </div>
       <div className="menu">
       <nav className="sidebar">
