@@ -6,7 +6,8 @@ import { getDefaultBoard } from '../utils/boardUtil';
 const Analysis: React.FC = () => {
 
     const initialState = getDefaultBoard();
-    // const initialState = getRandomBoard(['wk', 'wq', 'bk']);
+    // const initialState = getRandomBoard(['wr1']);
+    // const initialState = getDummyBoard();
     console.log(initialState);
     
     return (

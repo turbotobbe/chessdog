@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '@mui/material';
-import { files, PieceId, ranks, SquareId, toPieceInfo, toSquareInfo } from '../models/BoardState';
+import { lightSquareIds, PieceInfo, PieceState, SquareId } from '../models/BoardState';
 
 import bb from '@/assets/bb.png';
 import bk from '@/assets/bk.png';
@@ -17,34 +17,31 @@ import wr from '@/assets/wr.png';
 
 interface SquareElProps {
   squareId: SquareId;
-  pieceId?: PieceId;
+  pieceState?: PieceState;
 }
 
-const selectImage = (piece: PieceId) => {
-  const pieceInfo = toPieceInfo(piece);
-  switch (pieceInfo.piece) {
+const selectImage = (pieceInfo: PieceInfo) => {
+  switch (pieceInfo.pieceName) {
     case 'b':
-      return pieceInfo.color === 'b' ? bb : wb;
+      return pieceInfo.colorName === 'b' ? bb : wb;
     case 'k':
-      return pieceInfo.color === 'b' ? bk : wk;
+      return pieceInfo.colorName === 'b' ? bk : wk;
     case 'n':
-      return pieceInfo.color === 'b' ? bn : wn;
+      return pieceInfo.colorName === 'b' ? bn : wn;
     case 'p':
-      return pieceInfo.color === 'b' ? bp : wp;
+      return pieceInfo.colorName === 'b' ? bp : wp;
     case 'q':
-      return pieceInfo.color === 'b' ? bq : wq;
+      return pieceInfo.colorName === 'b' ? bq : wq;
     case 'r':
-      return pieceInfo.color === 'b' ? br : wr;
+      return pieceInfo.colorName === 'b' ? br : wr;
     default:
       return undefined;
   } 
 }
 
-const SquareEl: React.FC<SquareElProps> = ({ squareId, pieceId }) => {
-  const square = toSquareInfo(squareId);
-  const rankIndex = ranks.indexOf(square.rank);
-  const fileIndex = files.indexOf(square.file);
-  const isLight = (rankIndex + fileIndex) % 2 !== 0;
+const SquareEl: React.FC<SquareElProps> = ({ squareId, pieceState }) => {
+
+  const isLightSquare = lightSquareIds.includes(squareId);
 
   return (
     <Box
@@ -53,15 +50,15 @@ const SquareEl: React.FC<SquareElProps> = ({ squareId, pieceId }) => {
         width: '100%',
         paddingBottom: '100%',
         position: 'relative',
-        backgroundColor: isLight ? '#F0D9B5' : '#B58863',
+        backgroundColor: isLightSquare ? '#F0D9B5' : '#B58863',
       }}
     >
-      {pieceId && (
+      {pieceState && (
         <Box
-          className={`piece-${pieceId}`}
+          className={`piece-${pieceState.pieceInfo.id}`}
           component="img"
-          src={selectImage(pieceId) || undefined}
-          alt={pieceId}
+          src={selectImage(pieceState.pieceInfo) || undefined}
+          alt={pieceState.pieceInfo.id}
           sx={{
             position: 'absolute',
             top: 0,
