@@ -104,14 +104,12 @@ export function getRandomBoard(pieceIds: PieceId[]): BoardState {
 
     // shuffle the board squares
     initialSolution.squareIds.sort(() => Math.random() - 0.5);
-
     const solvedSolution = putPieces(initialSolution);
 
     if (solvedSolution === undefined) {
         return initialSolution.boardState;
     }
 
-    console.log(solvedSolution.boardState);
     calculateValidMoves(solvedSolution.boardState);
     return solvedSolution.boardState;
 }
