@@ -130,7 +130,7 @@ function cloneSolution(solution: Solution): Solution {
     };
 }
 
-function calculateValidMoves(boardState: BoardState): void {
+export function calculateValidMoves(boardState: BoardState): void {
     for (const squareId of squareIds) {
         const pieceState = boardState.getPiece(squareId);
         if (pieceState) {

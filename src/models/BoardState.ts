@@ -1,4 +1,4 @@
-import { toPieceInfo, toSquareInfo } from "@/utils/boardUtil";
+import { calculateValidMoves, toPieceInfo, toSquareInfo } from "@/utils/boardUtil";
 
 export type ColorName = 'w' | 'b';
 export type PieceName = 'k' | 'q' | 'r' | 'b' | 'n' | 'p';
@@ -99,7 +99,7 @@ export class PieceState {
 export class BoardState {
 
   private pieceIds: PieceId[] = [...pieceIds];
-  private board: PieceState[][] = Array.from({ length: 8 }, () => Array(8).fill(null));
+  private board: (PieceState | null)[][] = Array.from({ length: 8 }, () => Array(8).fill(null));
 
   constructor() {
     
@@ -126,6 +126,40 @@ export class BoardState {
     const fileIndex = files.indexOf(square.fileName);
     const rankIndex = ranks.indexOf(square.rankName);
     return this.board[rankIndex][fileIndex];
+  }
+
+  movePiece(sourceSquareId: SquareId, targetSquareId: SquareId): void {
+
+    // get the piece
+    const piece = this.getPiece(sourceSquareId);
+    if (!piece) {
+      throw new Error(`No piece at ${sourceSquareId}`);
+    }
+
+    // check if the move is valid
+    if (!piece.getValidMoves().includes(targetSquareId)) {
+      throw new Error(`Piece ${piece.pieceInfo.colorName}${piece.pieceInfo.pieceName}${piece.pieceInfo.number} cannot move from ${sourceSquareId} to ${targetSquareId}`);
+    }
+
+    // remove any piece that is captured
+    const targetPieceState = this.getPiece(targetSquareId);
+    if (targetPieceState) {
+      this.pieceIds.push(targetPieceState.pieceInfo.id);
+    }
+
+    // remove the piece from the source square
+    const sourceSquare = toSquareInfo(sourceSquareId);
+    const sourceFileIndex = files.indexOf(sourceSquare.fileName);
+    const sourceRankIndex = ranks.indexOf(sourceSquare.rankName);
+    this.board[sourceRankIndex][sourceFileIndex] = null;
+
+    // set the piece on the board
+    const targetSquare = toSquareInfo(targetSquareId);
+    const targetFileIndex = files.indexOf(targetSquare.fileName);
+    const targetRankIndex = ranks.indexOf(targetSquare.rankName);
+    this.board[targetRankIndex][targetFileIndex] = piece;
+
+    calculateValidMoves(this);
   }
 
   clearBoard(): void {

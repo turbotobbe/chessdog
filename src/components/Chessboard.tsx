@@ -14,18 +14,32 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
     setSelectedSquare(squareId);
   };
 
-  // const handleMouseUp = () => {
-  //   setSelectedSquare(null);
-  // };
+  const handleDragStart = (event: React.DragEvent, squareId: SquareId) => {
+    setSelectedSquare(squareId);
+  };
 
-  // useEffect(() => {
-  //   // Add global mouseup event listener
-  //   document.addEventListener('mouseup', handleMouseUp);
-  //   return () => {
-  //     // Remove the listener when the component unmounts
-  //     document.removeEventListener('mouseup', handleMouseUp);
-  //   };
-  // }, []);
+  const handleDragOver = (event: React.DragEvent) => {
+    event.preventDefault();
+  };
+
+  const handleDrop = (event: React.DragEvent, targetSquareId: SquareId) => {
+    event.preventDefault();
+    if (selectedSquare) {
+        console.log(`Move from ${selectedSquare} to ${targetSquareId}`);
+        try {
+            boardState.movePiece(selectedSquare, targetSquareId);
+            console.log(boardState);
+            // rerender the board
+            setSelectedSquare(null);
+        } catch (error: unknown) {
+            if (error instanceof Error) {
+                console.log(error.message);
+            } else {
+                console.log('An unknown error occurred');
+            }
+        }
+    }
+  };
 
   const boardSquares: SquareId[][] = [
     ['a8', 'b8', 'c8', 'd8', 'e8', 'f8', 'g8', 'h8'],
@@ -64,6 +78,9 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
                   isSelected={selectedSquare === squareId}
                   isValidMove={selectedSquare !== null && boardState.getPiece(selectedSquare)?.getValidMoves().includes(squareId) || false}
                   onMouseDown={() => handleMouseDown(squareId)}
+                  onDragStart={(e) => handleDragStart(e, squareId)}
+                  onDragOver={handleDragOver}
+                  onDrop={(e) => handleDrop(e, squareId)}
                 />
               </Grid>
             ))

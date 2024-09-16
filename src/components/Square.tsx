@@ -20,7 +20,10 @@ interface SquareElProps {
   pieceState?: PieceState;
   isSelected: boolean;
   isValidMove: boolean;
-  onMouseDown: () => void;
+  onMouseDown: (event: React.MouseEvent) => void;
+  onDragStart: (event: React.DragEvent) => void;
+  onDragOver: (event: React.DragEvent) => void;
+  onDrop: (event: React.DragEvent) => void;
 }
 
 const selectImage = (pieceInfo: PieceInfo) => {
@@ -47,7 +50,10 @@ const SquareEl: React.FC<SquareElProps> = ({
   pieceState,
   isSelected,
   isValidMove,
-  onMouseDown
+  onMouseDown,
+  onDragStart,
+  onDragOver,
+  onDrop
  }) => {
   const isLightSquare = lightSquareIds.includes(squareId);
 
@@ -58,10 +64,11 @@ const SquareEl: React.FC<SquareElProps> = ({
         width: '100%',
         paddingBottom: '100%',
         position: 'relative',
-        // backgroundColor: isLightSquare ? '#F0D9B5' : '#B58863',
-        cursor: 'pointer', // Add this to show it's clickable
+        cursor: 'pointer',
       }}
-      onMouseDown={onMouseDown}
+      onMouseDown={(e) => onMouseDown(e)}
+      onDragOver={(e) => onDragOver(e)}
+      onDrop={(e) => onDrop(e)}
     >
       {pieceState && (
         <Box
@@ -77,6 +84,8 @@ const SquareEl: React.FC<SquareElProps> = ({
             height: '100%',
             objectFit: 'contain',
           }}
+          draggable
+          onDragStart={(e) => onDragStart(e)}
         />
       )}
     </Box>
