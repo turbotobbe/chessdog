@@ -17,13 +17,15 @@ import wr from '@/assets/wr.png';
 
 interface SquareElProps {
   squareId: SquareId;
-  pieceState?: PieceState;
   isSelected: boolean;
+  isHovered: boolean;
   isValidMove: boolean;
+  onMouseUp: (event: React.MouseEvent) => void;
   onMouseDown: (event: React.MouseEvent) => void;
   onDragStart: (event: React.DragEvent) => void;
   onDragOver: (event: React.DragEvent) => void;
   onDrop: (event: React.DragEvent) => void;
+  pieceState?: PieceState;
 }
 
 const selectImage = (pieceInfo: PieceInfo) => {
@@ -42,37 +44,41 @@ const selectImage = (pieceInfo: PieceInfo) => {
       return pieceInfo.colorName === 'b' ? br : wr;
     default:
       return undefined;
-  } 
+  }
 }
 
 const SquareEl: React.FC<SquareElProps> = ({
   squareId,
-  pieceState,
   isSelected,
+  isHovered,
   isValidMove,
+  onMouseUp,
   onMouseDown,
   onDragStart,
   onDragOver,
-  onDrop
- }) => {
+  onDrop,
+  pieceState,
+}) => {
   const isLightSquare = lightSquareIds.includes(squareId);
 
   return (
     <Box
-      className={`square ${isLightSquare ? 'light' : 'dark'} square-${squareId} ${isSelected ? 'selected' : ''}  ${isValidMove ? 'valid-move' : ''}`}
+      className={`square ${isLightSquare ? 'light' : 'dark'} square-${squareId} ${isSelected ? 'selected' : ''} ${isHovered ? 'hovered' : ''} ${isValidMove ? 'valid-move' : ''}`}
       sx={{
         width: '100%',
         paddingBottom: '100%',
         position: 'relative',
-        cursor: 'pointer',
+        cursor: 'default',
       }}
-      onMouseDown={(e) => onMouseDown(e)}
-      onDragOver={(e) => onDragOver(e)}
+      onDragOver={(e) => {
+        e.preventDefault();
+        onDragOver(e);
+      }}
       onDrop={(e) => onDrop(e)}
     >
       {pieceState && (
         <Box
-          className={`piece-${pieceState.pieceInfo.id}`}
+          className={`piece piece-${pieceState.pieceInfo.id}`}
           component="img"
           src={selectImage(pieceState.pieceInfo) || undefined}
           alt={pieceState.pieceInfo.id}
@@ -83,9 +89,33 @@ const SquareEl: React.FC<SquareElProps> = ({
             width: '100%',
             height: '100%',
             objectFit: 'contain',
+            cursor: 'grab',
+            userSelect: 'none',
           }}
           draggable
-          onDragStart={(e) => onDragStart(e)}
+          onMouseUp={(e) => {
+            e.stopPropagation();
+            onMouseUp(e);
+          }}
+          onMouseDown={(e) => {
+            e.stopPropagation();
+            onMouseDown(e);
+          }}
+          onDragStart={(e) => {
+            e.currentTarget.classList.add('dragging');
+
+            const pieceImage = new Image();
+            pieceImage.src = selectImage(pieceState.pieceInfo) || '';
+
+            // Ensure the image is fully loaded before using it
+            pieceImage.onload = () => {
+              e.dataTransfer.setDragImage(pieceImage, 0, 0);
+            };
+            onDragStart(e);
+          }}
+          onDragEnd={(e) => {
+            e.currentTarget.classList.remove('dragging');
+          }}
         />
       )}
     </Box>

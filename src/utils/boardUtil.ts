@@ -166,14 +166,31 @@ function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo
     const rankIndex = ranks.indexOf(squareInfo.rankName);
 
     const dir = pieceInfo.colorName === 'w' ? 1 : -1;
-    const candidates = [
-        { dx: 0, dy: dir*1 },  // forward
-    ];
-    if (pieceInfo.colorName === 'w' && squareInfo.rankName === '2') {
-        candidates.push({ dx: 0, dy: dir * 2 }); // double forward
+    const candidates = [];
+
+    const stepOneDelta = { dx: 0, dy: dir * 1 };
+    const stepOneIndecies = {x: fileIndex+stepOneDelta.dx, y: rankIndex+stepOneDelta.dy}
+
+    // only add square if square is empty
+    if (stepOneIndecies.x >= 0 && stepOneIndecies.x < 8 && stepOneIndecies.y >= 0 && stepOneIndecies.y < 8) {
+        const stepOneSquareId = toSquareId(stepOneIndecies.x, stepOneIndecies.y) as SquareId;
+        const stepOnePieceState = boardState.getPiece(stepOneSquareId);
+        if (stepOnePieceState == null) {
+            candidates.push(stepOneDelta);
+        }
     }
-    if (pieceInfo.colorName === 'b' && squareInfo.rankName === '7') {
-        candidates.push({ dx: 0, dy: dir * 2 }); // double forward
+
+    // only add square if square is empty
+    if ((pieceInfo.colorName === 'w' && squareInfo.rankName === '2') || (pieceInfo.colorName === 'b' && squareInfo.rankName === '7')   ) {
+        const stepTwoDelta = { dx: 0, dy: dir * 2 };
+        const stepTwoIndecies = {x: fileIndex+stepTwoDelta.dx, y: rankIndex+stepTwoDelta.dy}
+        if (stepTwoIndecies.x >= 0 && stepTwoIndecies.x < 8 && stepTwoIndecies.y >= 0 && stepTwoIndecies.y < 8) {
+            const stepTwoSquareId = toSquareId(stepTwoIndecies.x, stepTwoIndecies.y) as SquareId;
+            const stepTwoPieceState = boardState.getPiece(stepTwoSquareId);
+            if (stepTwoPieceState == null) {
+                candidates.push(stepTwoDelta);
+            }
+        }
     }
 
     // only add square if square is occupied by opponent

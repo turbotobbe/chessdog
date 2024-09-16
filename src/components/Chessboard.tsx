@@ -5,21 +5,32 @@ import { BoardState, SquareId } from '../models/BoardState';
 
 const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
   const [selectedSquare, setSelectedSquare] = useState<SquareId | null>(null);
+  const [hoveredSquare, setHoveredSquare] = useState<SquareId | null>(null);
 
   useEffect(() => {
     console.log('Selected square:', selectedSquare);
   }, [selectedSquare]);
 
+  const handleMouseUp = () => {
+    setSelectedSquare(null);
+    setHoveredSquare(null);
+  };
+
   const handleMouseDown = (squareId: SquareId) => {
     setSelectedSquare(squareId);
+    setHoveredSquare(null);
   };
 
   const handleDragStart = (event: React.DragEvent, squareId: SquareId) => {
-    setSelectedSquare(squareId);
+    // setSelectedSquare(squareId);
+    // event.preventDefault();
+    event.dataTransfer.effectAllowed = 'move';
   };
 
-  const handleDragOver = (event: React.DragEvent) => {
-    event.preventDefault();
+  const handleDragOver = (event: React.DragEvent, squareId: SquareId) => {
+    // event.preventDefault();
+    event.dataTransfer.dropEffect = 'move';
+    setHoveredSquare(squareId);
   };
 
   const handleDrop = (event: React.DragEvent, targetSquareId: SquareId) => {
@@ -31,6 +42,7 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
             console.log(boardState);
             // rerender the board
             setSelectedSquare(null);
+            setHoveredSquare(null);
         } catch (error: unknown) {
             if (error instanceof Error) {
                 console.log(error.message);
@@ -76,10 +88,12 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
                   squareId={squareId}
                   pieceState={boardState.getPiece(squareId) || undefined}
                   isSelected={selectedSquare === squareId}
+                  isHovered={hoveredSquare === squareId}
                   isValidMove={selectedSquare !== null && boardState.getPiece(selectedSquare)?.getValidMoves().includes(squareId) || false}
+                  onMouseUp={() => handleMouseUp()}
                   onMouseDown={() => handleMouseDown(squareId)}
                   onDragStart={(e) => handleDragStart(e, squareId)}
-                  onDragOver={handleDragOver}
+                  onDragOver={(e)=>handleDragOver(e, squareId)}
                   onDrop={(e) => handleDrop(e, squareId)}
                 />
               </Grid>

@@ -2,26 +2,17 @@
   width: 100%;
   height: 100%;
 }
+
+/* Base square colors */
 .square.light {
   background-color: #f0d9b5;
-}
-
-.square.light.selected {
-  box-shadow: inset 0 0 6px 6px white;
 }
 
 .square.dark {
   background-color: #b58863;
 }
 
-.square.dark.selected {
-  box-shadow: inset 0 0 6px 6px white;
-}
-
-.square.valid-move {
-  position: relative;
-}
-
+/* Valid move indicator */
 .square.valid-move::after {
   content: '';
   position: absolute;
@@ -30,62 +21,48 @@
   transform: translate(-50%, -50%);
   width: 40%;
   height: 40%;
-  background-color: rgba(30, 30, 30, .5);
   border-radius: 50%;
+  background-color: rgba(30, 30, 30, 0.3); /* Default color */
 }
 
-.piece.wk,
-.piece.wq,
-.piece.wr,
-.piece.wb,
-.piece.wn,
-.piece.wp,
-.piece.bk,
-.piece.bq,
-.piece.br,
-.piece.bb,
-.piece.bn,
-.piece.bp {
-    background-color: transparent;
-    background-size: 100%;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+/* Specific valid move colors for light and dark squares */
+.square.light.valid-move::after {
+  background-color: #b58863;
 }
 
-.piece.wk {
-    background-image: url('../assets/wk.png');
+.square.dark.valid-move::after {
+  background-color: #f0d9b5;
 }
-.piece.wq {
-    background-image: url('../assets/wq.png');
+
+/* Hover state for valid moves */
+.square.valid-move.hovered {
+  background-color: inherit; /* Keeps background color based on square type */
 }
-.piece.wr {
-    background-image: url('../assets/wr.png');
+
+.square.light.valid-move.hovered {
+  background-color: #e0c890; /* Soft yellow for light squares */
 }
-.piece.wb {
-    background-image: url('../assets/wb.png');
+
+.square.dark.valid-move.hovered {
+  background-color: #d1a774; /* Warm brown for dark squares */
 }
-.piece.wn {
-    background-image: url('../assets/wn.png');
+
+/* Preserve valid move circle color on hover */
+.square.light.valid-move.hovered::after {
+  background-color: #b58863; /* Dark square color for light squares */
 }
-.piece.wp {
-    background-image: url('../assets/wp.png');
+
+.square.dark.valid-move.hovered::after {
+  background-color: #f0d9b5; /* Light square color for dark squares */
 }
-.piece.bk {
-    background-image: url('../assets/bk.png');
+
+/* Selected square */
+.square.selected {
+  background-color: #87b6e0; /* Medium blue */
 }
-.piece.bq {
-    background-image: url('../assets/bq.png');
+.piece {
+  z-index: 2;
 }
-.piece.br {
-    background-image: url('../assets/br.png');
-}
-.piece.bb {
-    background-image: url('../assets/bb.png');
-}
-.piece.bn {
-    background-image: url('../assets/bn.png');
-}
-.piece.bp {
-    background-image: url('../assets/bp.png');
+img.dragging {
+  opacity: 0.5;
 }
