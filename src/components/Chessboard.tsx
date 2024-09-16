@@ -10,9 +10,22 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
     console.log('Selected square:', selectedSquare);
   }, [selectedSquare]);
 
-  const handleBoardClick = () => {
-    console.log('Board clicked');
+  const handleMouseDown = (squareId: SquareId) => {
+    setSelectedSquare(squareId);
   };
+
+  // const handleMouseUp = () => {
+  //   setSelectedSquare(null);
+  // };
+
+  // useEffect(() => {
+  //   // Add global mouseup event listener
+  //   document.addEventListener('mouseup', handleMouseUp);
+  //   return () => {
+  //     // Remove the listener when the component unmounts
+  //     document.removeEventListener('mouseup', handleMouseUp);
+  //   };
+  // }, []);
 
   const boardSquares: SquareId[][] = [
     ['a8', 'b8', 'c8', 'd8', 'e8', 'f8', 'g8', 'h8'],
@@ -27,7 +40,6 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
 
   return (
     <Box 
-      onClick={handleBoardClick}
       sx={{
         width: '100%',
         height: '100%',
@@ -51,7 +63,7 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
                   pieceState={boardState.getPiece(squareId) || undefined}
                   isSelected={selectedSquare === squareId}
                   isValidMove={selectedSquare !== null && boardState.getPiece(selectedSquare)?.getValidMoves().includes(squareId) || false}
-                  onClick={() => setSelectedSquare(squareId)}
+                  onMouseDown={() => handleMouseDown(squareId)}
                 />
               </Grid>
             ))

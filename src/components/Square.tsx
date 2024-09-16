@@ -20,7 +20,7 @@ interface SquareElProps {
   pieceState?: PieceState;
   isSelected: boolean;
   isValidMove: boolean;
-  onClick: () => void;
+  onMouseDown: () => void;
 }
 
 const selectImage = (pieceInfo: PieceInfo) => {
@@ -47,14 +47,9 @@ const SquareEl: React.FC<SquareElProps> = ({
   pieceState,
   isSelected,
   isValidMove,
-  onClick
+  onMouseDown
  }) => {
   const isLightSquare = lightSquareIds.includes(squareId);
-
-  const handleClick = () => {
-    console.log('Square clicked:', squareId);
-    onClick();
-  };
 
   return (
     <Box
@@ -66,7 +61,7 @@ const SquareEl: React.FC<SquareElProps> = ({
         // backgroundColor: isLightSquare ? '#F0D9B5' : '#B58863',
         cursor: 'pointer', // Add this to show it's clickable
       }}
-      onClick={handleClick}
+      onMouseDown={onMouseDown}
     >
       {pieceState && (
         <Box
