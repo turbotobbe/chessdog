@@ -5,11 +5,18 @@
 
 /* Base square colors */
 .square.light {
-  background-color: #f0d9b5;
+  background-color: var(--board-brown-light);
 }
 
 .square.dark {
-  background-color: #b58863;
+  background-color: var(--board-brown-dark);
+}
+
+.square.light.last-move {
+  background-color: var(--board-yellow-light);
+}
+.square.dark.last-move {
+  background-color: var(--board-yellow-dark);
 }
 
 /* Valid move indicator */

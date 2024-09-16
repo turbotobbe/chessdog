@@ -92,6 +92,7 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
                   isHovered={hoveredSquare === squareId}
                   isValidMove={selectedSquare !== null && boardState.getPiece(selectedSquare)?.getValidMoves().includes(squareId) || false}
                   isCaptureMove={selectedSquare !== null && boardState.getPiece(selectedSquare)?.getCaptureMoves().includes(squareId) || false}
+                  isLastMove={boardState.getLastMove()?.sourceSquareId === squareId || boardState.getLastMove()?.targetSquareId === squareId}
                   onMouseUp={() => handleMouseUp()}
                   onMouseDown={() => handleMouseDown(squareId)}
                   onDragStart={(e) => handleDragStart(e, squareId)}

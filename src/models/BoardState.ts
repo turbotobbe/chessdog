@@ -109,9 +109,18 @@ export class BoardState {
 
   private pieceIds: PieceId[] = [...pieceIds];
   private board: (PieceState | null)[][] = Array.from({ length: 8 }, () => Array(8).fill(null));
+  private lastMove: { sourceSquareId: SquareId, targetSquareId: SquareId } | null = null;
 
   constructor() {
     
+  }
+
+  getLastMove(): { sourceSquareId: SquareId, targetSquareId: SquareId } | null {
+    return this.lastMove;
+  }
+
+  setLastMove(sourceSquareId: SquareId, targetSquareId: SquareId): void {
+    this.lastMove = { sourceSquareId, targetSquareId };
   }
 
   setPiece(squareId: SquareId, pieceId: PieceId): void {
@@ -167,6 +176,9 @@ export class BoardState {
     const targetFileIndex = files.indexOf(targetSquare.fileName);
     const targetRankIndex = ranks.indexOf(targetSquare.rankName);
     this.board[targetRankIndex][targetFileIndex] = piece;
+
+    // remember the move
+    this.setLastMove(sourceSquareId, targetSquareId);
 
     calculateMoves(this);
   }

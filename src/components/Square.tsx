@@ -21,6 +21,7 @@ interface SquareElProps {
   isHovered: boolean;
   isValidMove: boolean;
   isCaptureMove: boolean;
+  isLastMove: boolean;
   onMouseUp: (event: React.MouseEvent) => void;
   onMouseDown: (event: React.MouseEvent) => void;
   onDragStart: (event: React.DragEvent) => void;
@@ -54,6 +55,7 @@ const SquareEl: React.FC<SquareElProps> = ({
   isHovered,
   isValidMove,
   isCaptureMove,
+  isLastMove,
   onMouseUp,
   onMouseDown,
   onDragStart,
@@ -63,9 +65,16 @@ const SquareEl: React.FC<SquareElProps> = ({
 }) => {
   const isLightSquare = lightSquareIds.includes(squareId);
 
+  const classNames = ['square', `square-${squareId}`];
+  classNames.push(isLightSquare?'light':'dark')
+  classNames.push(isSelected?'selected':'')
+  classNames.push(isHovered?'hovered':'')
+  classNames.push(isValidMove?'valid-move':'')
+  classNames.push(isCaptureMove?'capture-move':'')
+  classNames.push(isLastMove?'last-move':'')
   return (
     <Box
-      className={`square ${isLightSquare ? 'light' : 'dark'} square-${squareId} ${isSelected ? 'selected' : ''} ${isHovered ? 'hovered' : ''} ${isValidMove ? 'valid-move' : ''} ${isCaptureMove ? 'capture-move' : ''}`}
+      className={classNames.filter(className => className !== '').join(' ')}
       sx={{
         width: '100%',
         paddingBottom: '100%',

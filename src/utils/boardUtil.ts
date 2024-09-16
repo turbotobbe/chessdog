@@ -166,10 +166,10 @@ export function calculateMoves(boardState: BoardState): void {
                 } else {
                     pieceState.setValidMoves([...pieceState.getValidMoves(), squareId]);
                 }
-            }   
+            }
         }
     }
-    console.log(boardState);  
+    console.log(boardState);
 }
 
 function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo: PieceInfo): SquareId[] {
@@ -181,7 +181,7 @@ function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo
     const candidates = [];
 
     const stepOneDelta = { dx: 0, dy: dir * 1 };
-    const stepOneIndecies = {x: fileIndex+stepOneDelta.dx, y: rankIndex+stepOneDelta.dy}
+    const stepOneIndecies = { x: fileIndex + stepOneDelta.dx, y: rankIndex + stepOneDelta.dy }
 
     // only add square if square is empty
     if (stepOneIndecies.x >= 0 && stepOneIndecies.x < 8 && stepOneIndecies.y >= 0 && stepOneIndecies.y < 8) {
@@ -193,9 +193,9 @@ function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo
     }
 
     // only add square if square is empty
-    if ((pieceInfo.colorName === 'w' && squareInfo.rankName === '2') || (pieceInfo.colorName === 'b' && squareInfo.rankName === '7')   ) {
+    if ((pieceInfo.colorName === 'w' && squareInfo.rankName === '2') || (pieceInfo.colorName === 'b' && squareInfo.rankName === '7')) {
         const stepTwoDelta = { dx: 0, dy: dir * 2 };
-        const stepTwoIndecies = {x: fileIndex+stepTwoDelta.dx, y: rankIndex+stepTwoDelta.dy}
+        const stepTwoIndecies = { x: fileIndex + stepTwoDelta.dx, y: rankIndex + stepTwoDelta.dy }
         if (stepTwoIndecies.x >= 0 && stepTwoIndecies.x < 8 && stepTwoIndecies.y >= 0 && stepTwoIndecies.y < 8) {
             const stepTwoSquareId = toSquareId(stepTwoIndecies.x, stepTwoIndecies.y) as SquareId;
             const stepTwoPieceState = boardState.getPiece(stepTwoSquareId);
@@ -207,30 +207,76 @@ function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo
 
     // only add square if square is occupied by opponent
     const captureLeftDelta = { dx: -1, dy: dir * 1 }
-    const captureLeftIndecies = {x: fileIndex+captureLeftDelta.dx, y: rankIndex+captureLeftDelta.dy}
+    const captureLeftIndecies = { x: fileIndex + captureLeftDelta.dx, y: rankIndex + captureLeftDelta.dy }
     if (captureLeftIndecies.x >= 0 && captureLeftIndecies.x < 8 && captureLeftIndecies.y >= 0 && captureLeftIndecies.y < 8) {
-        const captureLeftSquareId = toSquareId(fileIndex+captureLeftDelta.dx, rankIndex+captureLeftDelta.dy) as SquareId;
+        const captureLeftSquareId = toSquareId(fileIndex + captureLeftDelta.dx, rankIndex + captureLeftDelta.dy) as SquareId;
         const captureLeftPieceState = boardState.getPiece(captureLeftSquareId);
         if (captureLeftPieceState && captureLeftPieceState.pieceInfo.colorName !== pieceInfo.colorName) {
-                candidates.push(captureLeftDelta);
+            candidates.push(captureLeftDelta);
         }
-    }   
+    }
 
     // only add square if square is occupied by opponent
     const captureRightDelta = { dx: 1, dy: dir * 1 }
-    const captureRightIndecies = {x: fileIndex+captureRightDelta.dx, y: rankIndex+captureRightDelta.dy}
+    const captureRightIndecies = { x: fileIndex + captureRightDelta.dx, y: rankIndex + captureRightDelta.dy }
     if (captureRightIndecies.x >= 0 && captureRightIndecies.x < 8 && captureRightIndecies.y >= 0 && captureRightIndecies.y < 8) {
-        const captureRightSquareId = toSquareId(fileIndex+captureRightDelta.dx, rankIndex+captureRightDelta.dy) as SquareId;
+        const captureRightSquareId = toSquareId(fileIndex + captureRightDelta.dx, rankIndex + captureRightDelta.dy) as SquareId;
         const captureRightPieceState = boardState.getPiece(captureRightSquareId);
         if (captureRightPieceState && captureRightPieceState.pieceInfo.colorName !== pieceInfo.colorName) {
             candidates.push(captureRightDelta);
         }
     }
 
+    // // en passant
+    // if (isEnPassantMove(boardState, squareId, pieceInfo)) {
+    //     const lastMove = boardState.getLastMove();
+    //     if (lastMove) {
+    //         const lastMoveSourceSquareInfo = toSquareInfo(lastMove.sourceSquareId);
+    //         const lastMoveSourceFileIndex = files.indexOf(lastMoveSourceSquareInfo.fileName);
+    //         candidates.push({ dx: (lastMoveSourceFileIndex - fileIndex), dy: dir * 1 });
+    //     }
+    // }
+
     return candidates.flatMap(dir =>
         getMovesFromCandidates(boardState, fileIndex, rankIndex, dir.dx, dir.dy, pieceInfo.colorName)
     );
 }
+
+// export function isEnPassantMove(boardState: BoardState, squareId: SquareId, pieceInfo: PieceInfo): boolean {
+//     const squareInfo = toSquareInfo(squareId);
+//     // en passant
+//     const lastMove = boardState.getLastMove();
+//     if (lastMove) {
+//         const lastMoveSourceSquareInfo = toSquareInfo(lastMove.sourceSquareId);
+//         const lastMoveTargetSquareInfo = toSquareInfo(lastMove.targetSquareId);
+
+//         const lastMovePieceState = boardState.getPiece(lastMove.targetSquareId);
+//         const movedPieceIsPawn = lastMovePieceState?.pieceInfo.pieceName === 'p';
+//         const movedPieceColor = lastMovePieceState?.pieceInfo.colorName;
+
+//         // Check if the last move was a pawn moving two squares forward
+//         const isEnPassantMove = movedPieceIsPawn &&
+//             ((movedPieceColor === 'w' && lastMoveSourceSquareInfo.rankName === '2' && lastMoveTargetSquareInfo.rankName === '4') ||
+//                 (movedPieceColor === 'b' && lastMoveSourceSquareInfo.rankName === '7' && lastMoveTargetSquareInfo.rankName === '5'));
+
+//         if (isEnPassantMove) {
+//             const lastMoveSourceFileIndex = files.indexOf(lastMoveSourceSquareInfo.fileName);
+//             const currentFileIndex = files.indexOf(squareInfo.fileName);
+
+//             // Ensure the move is in the adjacent file
+//             const isAdjacentFile = Math.abs(lastMoveSourceFileIndex - currentFileIndex) === 1;
+
+//             if (isAdjacentFile) {
+//                 // Check if the current square is the correct rank for capturing
+//                 const isCorrectRankForEnPassant = (pieceInfo.colorName === 'w' && squareInfo.rankName === '5') ||
+//                     (pieceInfo.colorName === 'b' && squareInfo.rankName === '4');
+
+//                 return isCorrectRankForEnPassant;
+//             }
+//         }
+//     }
+//     return false;
+// }
 
 function getValidRookMoves(boardState: BoardState, squareId: SquareId, pieceInfo: PieceInfo): SquareId[] {
     const squareInfo = toSquareInfo(squareId);
