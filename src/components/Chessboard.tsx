@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Box, Grid } from '@mui/material';
 import SquareEl from './Square';
 import { BoardState, SquareId } from '../models/BoardState';
 
-const Chessboard: React.FC<{ board: BoardState }> = ({ board }) => {
+const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
+  const [selectedSquare, setSelectedSquare] = useState<SquareId | null>(null);
+
+  useEffect(() => {
+    console.log('Selected square:', selectedSquare);
+  }, [selectedSquare]);
+
+  const handleBoardClick = () => {
+    console.log('Board clicked');
+  };
 
   const boardSquares: SquareId[][] = [
     ['a8', 'b8', 'c8', 'd8', 'e8', 'f8', 'g8', 'h8'],
@@ -17,13 +26,16 @@ const Chessboard: React.FC<{ board: BoardState }> = ({ board }) => {
   ];
 
   return (
-    <Box sx={{
-      width: '100%',
-      height: '100%',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center'
-    }}>
+    <Box 
+      onClick={handleBoardClick}
+      sx={{
+        width: '100%',
+        height: '100%',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}
+    >
       <Box sx={{
         height: '100%',
         maxHeight: '100%',
@@ -36,7 +48,10 @@ const Chessboard: React.FC<{ board: BoardState }> = ({ board }) => {
               <Grid item xs={1.5} key={squareId} sx={{ height: '12.5%' }}>
                 <SquareEl
                   squareId={squareId}
-                  pieceState={board.getPiece(squareId) || undefined}
+                  pieceState={boardState.getPiece(squareId) || undefined}
+                  isSelected={selectedSquare === squareId}
+                  isValidMove={selectedSquare !== null && boardState.getPiece(selectedSquare)?.getValidMoves().includes(squareId) || false}
+                  onClick={() => setSelectedSquare(squareId)}
                 />
               </Grid>
             ))

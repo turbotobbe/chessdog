@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from '@mui/material';
 import { lightSquareIds, PieceInfo, PieceState, SquareId } from '../models/BoardState';
-
+import './Square.css';
 import bb from '@/assets/bb.png';
 import bk from '@/assets/bk.png';
 import bn from '@/assets/bn.png';
@@ -18,6 +18,9 @@ import wr from '@/assets/wr.png';
 interface SquareElProps {
   squareId: SquareId;
   pieceState?: PieceState;
+  isSelected: boolean;
+  isValidMove: boolean;
+  onClick: () => void;
 }
 
 const selectImage = (pieceInfo: PieceInfo) => {
@@ -39,19 +42,31 @@ const selectImage = (pieceInfo: PieceInfo) => {
   } 
 }
 
-const SquareEl: React.FC<SquareElProps> = ({ squareId, pieceState }) => {
-
+const SquareEl: React.FC<SquareElProps> = ({
+  squareId,
+  pieceState,
+  isSelected,
+  isValidMove,
+  onClick
+ }) => {
   const isLightSquare = lightSquareIds.includes(squareId);
+
+  const handleClick = () => {
+    console.log('Square clicked:', squareId);
+    onClick();
+  };
 
   return (
     <Box
-      className={`square-${squareId}`}
+      className={`square ${isLightSquare ? 'light' : 'dark'} square-${squareId} ${isSelected ? 'selected' : ''}  ${isValidMove ? 'valid-move' : ''}`}
       sx={{
         width: '100%',
         paddingBottom: '100%',
         position: 'relative',
-        backgroundColor: isLightSquare ? '#F0D9B5' : '#B58863',
+        // backgroundColor: isLightSquare ? '#F0D9B5' : '#B58863',
+        cursor: 'pointer', // Add this to show it's clickable
       }}
+      onClick={handleClick}
     >
       {pieceState && (
         <Box

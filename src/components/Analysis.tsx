@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Box, Paper, Typography } from '@mui/material';
 import Chessboard from './Chessboard';
-import { getDefaultBoard, getRandomBoard } from '../utils/boardUtil';
+import { getDefaultBoard } from '../utils/boardUtil';
 import { BoardState } from '@/models/BoardState';
 
 const Analysis: React.FC = () => {
@@ -11,7 +11,9 @@ const Analysis: React.FC = () => {
     useEffect(() => {
         if (!initializedRef.current) {
             // Generate the random board only once when the component mounts
-            const initialState = getRandomBoard(['wr1']);
+            // const initialState = getRandomBoard(['wr1']);
+            const initialState = getDefaultBoard();
+            
             setBoardState(initialState);
             console.log(initialState); // Log only when the board is initially created
             initializedRef.current = true;
@@ -25,7 +27,7 @@ const Analysis: React.FC = () => {
     return (
         <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'stretch', gap: 2, height: '100%' }}>
             <Paper elevation={1} sx={{ flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <Chessboard board={boardState} />
+                <Chessboard boardState={boardState} />
             </Paper>
             <Paper elevation={1} sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
                 <Typography variant="h6" sx={{ p: 2 }}>
