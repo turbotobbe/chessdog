@@ -22,7 +22,7 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
     console.log(boardState.getPiece(squareId));
   };
 
-  const handleDragStart = (event: React.DragEvent, squareId: SquareId) => {
+  const handleDragStart = (event: React.DragEvent) => {
     // setSelectedSquare(squareId);
     // event.preventDefault();
     event.dataTransfer.effectAllowed = 'move';
@@ -95,7 +95,7 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
                   isLastMove={boardState.getLastMove()?.sourceSquareId === squareId || boardState.getLastMove()?.targetSquareId === squareId}
                   onMouseUp={() => handleMouseUp()}
                   onMouseDown={() => handleMouseDown(squareId)}
-                  onDragStart={(e) => handleDragStart(e, squareId)}
+                  onDragStart={(e) => handleDragStart(e)}
                   onDragOver={(e)=>handleDragOver(e, squareId)}
                   onDrop={(e) => handleDrop(e, squareId)}
                 />
