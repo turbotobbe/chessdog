@@ -22,7 +22,7 @@ body, #root {
   --board-red-light: #e08787;
   --board-red-dark: #b56363;
 
-  --board-yellow-light: #e0e087;
+  --board-yellow-light: rgb(255, 255, 51);
   --board-yellow-dark: #b5b563;
 
 }
