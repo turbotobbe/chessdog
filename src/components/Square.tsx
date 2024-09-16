@@ -20,6 +20,7 @@ interface SquareElProps {
   isSelected: boolean;
   isHovered: boolean;
   isValidMove: boolean;
+  isCaptureMove: boolean;
   onMouseUp: (event: React.MouseEvent) => void;
   onMouseDown: (event: React.MouseEvent) => void;
   onDragStart: (event: React.DragEvent) => void;
@@ -52,6 +53,7 @@ const SquareEl: React.FC<SquareElProps> = ({
   isSelected,
   isHovered,
   isValidMove,
+  isCaptureMove,
   onMouseUp,
   onMouseDown,
   onDragStart,
@@ -63,7 +65,7 @@ const SquareEl: React.FC<SquareElProps> = ({
 
   return (
     <Box
-      className={`square ${isLightSquare ? 'light' : 'dark'} square-${squareId} ${isSelected ? 'selected' : ''} ${isHovered ? 'hovered' : ''} ${isValidMove ? 'valid-move' : ''}`}
+      className={`square ${isLightSquare ? 'light' : 'dark'} square-${squareId} ${isSelected ? 'selected' : ''} ${isHovered ? 'hovered' : ''} ${isValidMove ? 'valid-move' : ''} ${isCaptureMove ? 'capture-move' : ''}`}
       sx={{
         width: '100%',
         paddingBottom: '100%',

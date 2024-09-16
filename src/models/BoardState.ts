@@ -1,4 +1,4 @@
-import { calculateValidMoves, toPieceInfo, toSquareInfo } from "@/utils/boardUtil";
+import { calculateMoves, toPieceInfo, toSquareInfo } from "@/utils/boardUtil";
 
 export type ColorName = 'w' | 'b';
 export type PieceName = 'k' | 'q' | 'r' | 'b' | 'n' | 'p';
@@ -75,23 +75,32 @@ export const darkSquareIds: SquareId[] = [
 
 export class PieceState {
   pieceInfo: PieceInfo;
-  moveToSquareIds: SquareId[] = [];
-
+  validMoveSquareIds: SquareId[] = [];
+  captureMoveSquareIds: SquareId[] = [];
   constructor(pieceId: PieceId) {
     this.pieceInfo = toPieceInfo(pieceId);
   }
 
   setValidMoves(moveToSquareIds: SquareId[]): void {
-    this.moveToSquareIds = [...moveToSquareIds];
+    this.validMoveSquareIds = [...moveToSquareIds];
   }
 
   getValidMoves(): SquareId[] {
-    return [...this.moveToSquareIds];
+    return [...this.validMoveSquareIds];
+  }
+
+  setCaptureMoves(captureMoveSquareIds: SquareId[]): void {
+    this.captureMoveSquareIds = [...captureMoveSquareIds];
+  }
+
+  getCaptureMoves(): SquareId[] {
+    return [...this.captureMoveSquareIds];
   }
 
   clone(): PieceState {
     const piece = new PieceState(this.pieceInfo.id);
-    piece.moveToSquareIds = [...this.moveToSquareIds];
+    piece.validMoveSquareIds = [...this.validMoveSquareIds];
+    piece.captureMoveSquareIds = [...this.captureMoveSquareIds];
     return piece;
   }
 }
@@ -137,7 +146,7 @@ export class BoardState {
     }
 
     // check if the move is valid
-    if (!piece.getValidMoves().includes(targetSquareId)) {
+    if (!piece.getValidMoves().includes(targetSquareId) && !piece.getCaptureMoves().includes(targetSquareId)) {
       throw new Error(`Piece ${piece.pieceInfo.colorName}${piece.pieceInfo.pieceName}${piece.pieceInfo.number} cannot move from ${sourceSquareId} to ${targetSquareId}`);
     }
 
@@ -159,7 +168,7 @@ export class BoardState {
     const targetRankIndex = ranks.indexOf(targetSquare.rankName);
     this.board[targetRankIndex][targetFileIndex] = piece;
 
-    calculateValidMoves(this);
+    calculateMoves(this);
   }
 
   clearBoard(): void {

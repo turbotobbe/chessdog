@@ -19,13 +19,26 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
   border-radius: 50%;
-  background-color: rgba(30, 30, 30, 0.3); /* Default color */
+  background-color: rgba(30, 30, 30, 0.3); /* dot */
 }
 
-/* Specific valid move colors for light and dark squares */
+.square.capture-move::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Larger size to stand out */
+  height: 80%;
+  border-radius: 50%;
+  background-color: rgba(30, 30, 30, 0.3); /* dot */
+}
+
+/* 
+
 .square.light.valid-move::after {
   background-color: #b58863;
 }
@@ -34,32 +47,33 @@
   background-color: #f0d9b5;
 }
 
-/* Hover state for valid moves */
+
 .square.valid-move.hovered {
-  background-color: inherit; /* Keeps background color based on square type */
+  background-color: inherit;
 }
 
 .square.light.valid-move.hovered {
-  background-color: #e0c890; /* Soft yellow for light squares */
+  background-color: #e0c890;
 }
 
 .square.dark.valid-move.hovered {
-  background-color: #d1a774; /* Warm brown for dark squares */
+  background-color: #d1a774; 
 }
 
-/* Preserve valid move circle color on hover */
+
 .square.light.valid-move.hovered::after {
-  background-color: #b58863; /* Dark square color for light squares */
+  background-color: #b58863; 
 }
 
 .square.dark.valid-move.hovered::after {
-  background-color: #f0d9b5; /* Light square color for dark squares */
+  background-color: #f0d9b5; 
 }
 
-/* Selected square */
+
 .square.selected {
-  background-color: #87b6e0; /* Medium blue */
-}
+  background-color: #87b6e0;
+} */
+
 .piece {
   z-index: 2;
 }

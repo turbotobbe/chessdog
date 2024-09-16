@@ -45,7 +45,7 @@ export function getDummyBoard(): BoardState {
     boardState.setPiece('f8', 'wb1');
     boardState.setPiece('f6', 'wb2');
 
-    calculateValidMoves(boardState);
+    calculateMoves(boardState);
 
     return boardState;
 }
@@ -89,7 +89,7 @@ export function getDefaultBoard(): BoardState {
     boardState.setPiece('g7', 'bp7');
     boardState.setPiece('h7', 'bp8');
 
-    calculateValidMoves(boardState);
+    calculateMoves(boardState);
 
     return boardState;
 }
@@ -110,7 +110,7 @@ export function getRandomBoard(pieceIds: PieceId[]): BoardState {
         return initialSolution.boardState;
     }
 
-    calculateValidMoves(solvedSolution.boardState);
+    calculateMoves(solvedSolution.boardState);
     return solvedSolution.boardState;
 }
 
@@ -130,34 +130,46 @@ function cloneSolution(solution: Solution): Solution {
     };
 }
 
-export function calculateValidMoves(boardState: BoardState): void {
+export function calculateMoves(boardState: BoardState): void {
     for (const squareId of squareIds) {
         const pieceState = boardState.getPiece(squareId);
         if (pieceState) {
+            pieceState.setCaptureMoves([])
+            pieceState.setValidMoves([])
+            const validMoves: SquareId[] = [];
             switch (pieceState.pieceInfo.pieceName) {
                 case 'p':
-                    pieceState.setValidMoves(getValidPawnMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidPawnMoves(boardState, squareId, pieceState.pieceInfo));
                     break;
                 case 'r':
-                    pieceState.setValidMoves(getValidRookMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidRookMoves(boardState, squareId, pieceState.pieceInfo));
                     break;
                 case 'n':
-                    pieceState.setValidMoves(getValidKnightMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidKnightMoves(boardState, squareId, pieceState.pieceInfo));
                     break;
                 case 'b':
-                    pieceState.setValidMoves(getValidBishopMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidBishopMoves(boardState, squareId, pieceState.pieceInfo));
                     break;
                 case 'q':
-                    pieceState.setValidMoves(getValidQueenMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidQueenMoves(boardState, squareId, pieceState.pieceInfo));
                     break;
                 case 'k':
-                    pieceState.setValidMoves(getValidKingMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidKingMoves(boardState, squareId, pieceState.pieceInfo));
                     break;
                 default:
                     break;
             }
+            for (const squareId of validMoves) {
+                const targetPieceState = boardState.getPiece(squareId);
+                if (targetPieceState && targetPieceState.pieceInfo.colorName !== pieceState.pieceInfo.colorName) {
+                    pieceState.setCaptureMoves([...pieceState.getCaptureMoves(), squareId]);
+                } else {
+                    pieceState.setValidMoves([...pieceState.getValidMoves(), squareId]);
+                }
+            }   
         }
     }
+    console.log(boardState);  
 }
 
 function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo: PieceInfo): SquareId[] {

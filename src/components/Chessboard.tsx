@@ -19,6 +19,7 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
   const handleMouseDown = (squareId: SquareId) => {
     setSelectedSquare(squareId);
     setHoveredSquare(null);
+    console.log(boardState.getPiece(squareId));
   };
 
   const handleDragStart = (event: React.DragEvent, squareId: SquareId) => {
@@ -90,6 +91,7 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
                   isSelected={selectedSquare === squareId}
                   isHovered={hoveredSquare === squareId}
                   isValidMove={selectedSquare !== null && boardState.getPiece(selectedSquare)?.getValidMoves().includes(squareId) || false}
+                  isCaptureMove={selectedSquare !== null && boardState.getPiece(selectedSquare)?.getCaptureMoves().includes(squareId) || false}
                   onMouseUp={() => handleMouseUp()}
                   onMouseDown={() => handleMouseDown(squareId)}
                   onDragStart={(e) => handleDragStart(e, squareId)}
