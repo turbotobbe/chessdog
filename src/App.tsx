@@ -59,7 +59,7 @@ function App() {
         </Box>
       }
       <List sx={{ marginTop: isMobile ? '3rem' : '0px' }} disablePadding>
-        {['Analysis', 'Drills', 'Progress', 'Settings'].map((text) => (
+        {['Analysis', 'Basics', 'Openings', 'Tactics', 'Endgames', 'Puzzles'].map((text) => (
           <ListItem key={text}>
             <ListItemButton
               selected={currentPage === text}
