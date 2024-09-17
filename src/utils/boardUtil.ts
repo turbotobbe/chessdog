@@ -131,40 +131,54 @@ function cloneSolution(solution: Solution): Solution {
 }
 
 export function calculateMoves(boardState: BoardState): void {
-    for (const squareId of squareIds) {
-        const pieceState = boardState.getPiece(squareId);
+    for (const sourceSquareId of squareIds) {
+        const pieceState = boardState.getPiece(sourceSquareId);
         if (pieceState) {
             pieceState.setCaptureMoves([])
             pieceState.setValidMoves([])
             const validMoves: SquareId[] = [];
             switch (pieceState.pieceInfo.pieceName) {
                 case 'p':
-                    validMoves.push(...getValidPawnMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidPawnMoves(boardState, sourceSquareId, pieceState.pieceInfo));
                     break;
                 case 'r':
-                    validMoves.push(...getValidRookMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidRookMoves(boardState, sourceSquareId, pieceState.pieceInfo));
                     break;
                 case 'n':
-                    validMoves.push(...getValidKnightMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidKnightMoves(boardState, sourceSquareId, pieceState.pieceInfo));
                     break;
                 case 'b':
-                    validMoves.push(...getValidBishopMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidBishopMoves(boardState, sourceSquareId, pieceState.pieceInfo));
                     break;
                 case 'q':
-                    validMoves.push(...getValidQueenMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidQueenMoves(boardState, sourceSquareId, pieceState.pieceInfo));
                     break;
                 case 'k':
-                    validMoves.push(...getValidKingMoves(boardState, squareId, pieceState.pieceInfo));
+                    validMoves.push(...getValidKingMoves(boardState, sourceSquareId, pieceState.pieceInfo));
                     break;
                 default:
                     break;
             }
-            for (const squareId of validMoves) {
-                const targetPieceState = boardState.getPiece(squareId);
-                if (targetPieceState && targetPieceState.pieceInfo.colorName !== pieceState.pieceInfo.colorName) {
-                    pieceState.setCaptureMoves([...pieceState.getCaptureMoves(), squareId]);
+            for (const targetSquareId of validMoves) {
+
+                // pawns are special, if not straight move, then it must be a capture
+                if (pieceState.pieceInfo.pieceName === 'p') {
+
+                    const sourceSquareInfo = toSquareInfo(sourceSquareId);
+                    const targetSquareInfo = toSquareInfo(targetSquareId);
+
+                    if (sourceSquareInfo.fileName !== targetSquareInfo.fileName) {
+                        pieceState.setCaptureMoves([...pieceState.getCaptureMoves(), targetSquareId]);
+                    } else {
+                        pieceState.setValidMoves([...pieceState.getValidMoves(), targetSquareId]);
+                    }
                 } else {
-                    pieceState.setValidMoves([...pieceState.getValidMoves(), squareId]);
+                    const targetPieceState = boardState.getPiece(targetSquareId);
+                    if (targetPieceState && targetPieceState.pieceInfo.colorName !== pieceState.pieceInfo.colorName) {
+                        pieceState.setCaptureMoves([...pieceState.getCaptureMoves(), targetSquareId]);
+                    } else {
+                        pieceState.setValidMoves([...pieceState.getValidMoves(), targetSquareId]);
+                    }
                 }
             }
         }
@@ -227,56 +241,107 @@ function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo
         }
     }
 
-    // // en passant
-    // if (isEnPassantMove(boardState, squareId, pieceInfo)) {
-    //     const lastMove = boardState.getLastMove();
-    //     if (lastMove) {
-    //         const lastMoveSourceSquareInfo = toSquareInfo(lastMove.sourceSquareId);
-    //         const lastMoveSourceFileIndex = files.indexOf(lastMoveSourceSquareInfo.fileName);
-    //         candidates.push({ dx: (lastMoveSourceFileIndex - fileIndex), dy: dir * 1 });
-    //     }
-    // }
-
-    return candidates.flatMap(dir =>
+    const validMoves = candidates.flatMap(dir =>
         getMovesFromCandidates(boardState, fileIndex, rankIndex, dir.dx, dir.dy, pieceInfo.colorName)
     );
+
+    // en passant
+    if (isEnPassantMove(boardState, squareId, pieceInfo)) {
+        console.log(`isEnPassantMove: ${squareId} ${pieceInfo.id} ${boardState.getLastMove()?.sourceSquareId} ${boardState.getLastMove()?.targetSquareId}`);
+        const lastMove = boardState.getLastMove();
+        if (lastMove) {
+            const lastMoveSourceSquareId = lastMove.sourceSquareId;
+            const lastMoveSquareInfo = toSquareInfo(lastMoveSourceSquareId);
+            const lastMoveSquareFileIndex = files.indexOf(lastMoveSquareInfo.fileName);
+            let lastMoveSquareRankIndex = ranks.indexOf(lastMoveSquareInfo.rankName);
+
+            if (lastMoveSquareInfo.rankName === '2') {
+                lastMoveSquareRankIndex += 1;
+            } else {
+                lastMoveSquareRankIndex -= 1;
+            }
+
+            const enPassantSquareId = toSquareId(lastMoveSquareFileIndex, lastMoveSquareRankIndex) as SquareId;
+            validMoves.push(enPassantSquareId);
+        }
+        
+        console.log(`validMoves: ${validMoves}`);
+    }
+    
+    return validMoves;
 }
 
-// export function isEnPassantMove(boardState: BoardState, squareId: SquareId, pieceInfo: PieceInfo): boolean {
-//     const squareInfo = toSquareInfo(squareId);
-//     // en passant
-//     const lastMove = boardState.getLastMove();
-//     if (lastMove) {
-//         const lastMoveSourceSquareInfo = toSquareInfo(lastMove.sourceSquareId);
-//         const lastMoveTargetSquareInfo = toSquareInfo(lastMove.targetSquareId);
+export function isEnPassantMove(boardState: BoardState, squareId: SquareId, pieceInfo: PieceInfo): boolean {
 
-//         const lastMovePieceState = boardState.getPiece(lastMove.targetSquareId);
-//         const movedPieceIsPawn = lastMovePieceState?.pieceInfo.pieceName === 'p';
-//         const movedPieceColor = lastMovePieceState?.pieceInfo.colorName;
+    console.log(`isEnPassantMove: ${squareId} ${pieceInfo.id} ${boardState.getLastMove()?.sourceSquareId} ${boardState.getLastMove()?.targetSquareId}`);
+    const squareInfo = toSquareInfo(squareId);
 
-//         // Check if the last move was a pawn moving two squares forward
-//         const isEnPassantMove = movedPieceIsPawn &&
-//             ((movedPieceColor === 'w' && lastMoveSourceSquareInfo.rankName === '2' && lastMoveTargetSquareInfo.rankName === '4') ||
-//                 (movedPieceColor === 'b' && lastMoveSourceSquareInfo.rankName === '7' && lastMoveTargetSquareInfo.rankName === '5'));
+    // check if the piece is a pawn
+    if (pieceInfo.pieceName !== 'p') {
+        return false;
+    }
 
-//         if (isEnPassantMove) {
-//             const lastMoveSourceFileIndex = files.indexOf(lastMoveSourceSquareInfo.fileName);
-//             const currentFileIndex = files.indexOf(squareInfo.fileName);
+    if (pieceInfo.colorName === 'w') {
+        // check if the white pawn is on the 5th rank
+        if (squareInfo.rankName !== '5') {
+            return false;
+        }
+    } else {
+        // check if the black pawn is on the 4th rank
+        if (squareInfo.rankName !== '4') {
+            return false;
+        }
+    }
+    console.log('gooooo')
+    // en passant
+    const lastMove = boardState.getLastMove();
+    if (!lastMove) {
+        return false;
+    }
+    const lastMoveSourceSquareInfo = toSquareInfo(lastMove.sourceSquareId);
+    const lastMoveTargetSquareInfo = toSquareInfo(lastMove.targetSquareId);
 
-//             // Ensure the move is in the adjacent file
-//             const isAdjacentFile = Math.abs(lastMoveSourceFileIndex - currentFileIndex) === 1;
+    const lastMovePieceState = boardState.getPiece(lastMove.targetSquareId);
+    const movedPieceColor = lastMovePieceState?.pieceInfo.colorName;
 
-//             if (isAdjacentFile) {
-//                 // Check if the current square is the correct rank for capturing
-//                 const isCorrectRankForEnPassant = (pieceInfo.colorName === 'w' && squareInfo.rankName === '5') ||
-//                     (pieceInfo.colorName === 'b' && squareInfo.rankName === '4');
+    // check if the last move was a pawn
+    if (lastMovePieceState?.pieceInfo.pieceName !== 'p') {
+        return false;
+    }
+    console.log('gooooo')
 
-//                 return isCorrectRankForEnPassant;
-//             }
-//         }
-//     }
-//     return false;
-// }
+    if (movedPieceColor === 'w') {
+
+        // check if the last move was a white pawn moving two squares forward
+        if (lastMoveSourceSquareInfo.rankName !== '2') {
+            return false;
+        }
+        if (lastMoveTargetSquareInfo.rankName !== '4') {
+            return false;
+        }
+    } else {
+
+        // check if the last move was a black pawn moving two squares forward
+        if (lastMoveSourceSquareInfo.rankName !== '7') {
+            return false;
+        }
+        if (lastMoveTargetSquareInfo.rankName !== '5') {
+            return false;
+        }
+    }
+    console.log('gooooo')
+
+    const squareFileIndex = files.indexOf(squareInfo.fileName);
+    const lastMoveSourceSquareFileIndex = files.indexOf(lastMoveSourceSquareInfo.fileName);
+    console.log(`squareFileIndex: ${squareFileIndex} lastMoveSourceSquareFileIndex: ${lastMoveSourceSquareFileIndex}`)
+    // check if the last move is on the same file as the current square
+    if (Math.abs(squareFileIndex - lastMoveSourceSquareFileIndex) !== 1) {
+        return false;
+    }
+    console.log('gooooo')
+
+    return true;
+}
 
 function getValidRookMoves(boardState: BoardState, squareId: SquareId, pieceInfo: PieceInfo): SquareId[] {
     const squareInfo = toSquareInfo(squareId);

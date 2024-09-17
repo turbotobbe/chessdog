@@ -262,9 +262,9 @@ const Analysis: React.FC = () => {
                         gridColumn: '2 / 3',
                         p: 2
                     }}>
-                    <Typography variant="body2">
+                    {/* <Typography variant="body2">
                         &copy; {new Date().getFullYear()} Chess Dog. All rights reserved.
-                    </Typography>
+                    </Typography> */}
                 </Paper>
             </Box>
         </HotKeys>

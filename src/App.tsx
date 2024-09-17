@@ -125,7 +125,7 @@ function App() {
         {/* Main content */}
         <Box
           component="main"
-          sx={{ flexGrow: 1, bgcolor: 'background.default', mt: isMobile ? 8 : 0 }}
+          sx={{ flexGrow: 1, bgcolor: 'background.default', mt: isMobile ? 8 : 0, overflow: 'auto' }}
         >
           {renderContent()}
         </Box>

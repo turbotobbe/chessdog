@@ -1,4 +1,4 @@
-import { calculateMoves, toPieceInfo, toSquareInfo } from "@/utils/boardUtil";
+import { calculateMoves, toPieceInfo, toSquareId, toSquareInfo } from "@/utils/boardUtil";
 
 export type ColorName = 'w' | 'b';
 export type PieceName = 'k' | 'q' | 'r' | 'b' | 'n' | 'p';
@@ -114,7 +114,7 @@ export class BoardState {
   private lastMove: { sourceSquareId: SquareId, targetSquareId: SquareId } | null = null;
 
   constructor() {
-    
+
   }
 
   isWhitesTurn(): boolean {
@@ -137,7 +137,7 @@ export class BoardState {
       throw new Error(`Piece ${pieceId} not found`);
     }
     this.pieceIds.splice(pieceIndex, 1);
-    
+
     // set piece on board
     const square = toSquareInfo(squareId);
     const fileIndex = files.indexOf(square.fileName);
@@ -172,22 +172,51 @@ export class BoardState {
       throw new Error(`Piece ${piece.pieceInfo.colorName}${piece.pieceInfo.pieceName}${piece.pieceInfo.number} cannot move from ${sourceSquareId} to ${targetSquareId}`);
     }
 
-    // remove any piece that is captured
-    const targetPieceState = this.getPiece(targetSquareId);
-    if (targetPieceState) {
-      this.pieceIds.push(targetPieceState.pieceInfo.id);
-    }
-
-    // remove the piece from the source square
     const sourceSquare = toSquareInfo(sourceSquareId);
     const sourceFileIndex = files.indexOf(sourceSquare.fileName);
     const sourceRankIndex = ranks.indexOf(sourceSquare.rankName);
-    this.board[sourceRankIndex][sourceFileIndex] = null;
-
-    // set the piece on the board
     const targetSquare = toSquareInfo(targetSquareId);
     const targetFileIndex = files.indexOf(targetSquare.fileName);
     const targetRankIndex = ranks.indexOf(targetSquare.rankName);
+    const targetPieceState = this.getPiece(targetSquareId);
+
+    // check if en passant move
+    if (piece.pieceInfo.pieceName === 'p') {
+
+      console.log('en passant');
+
+      // check if diagonal move and target is empty
+      if (sourceSquare.fileName !== targetSquare.fileName && targetPieceState === null) {
+
+        console.log('en passant');
+
+        const enPassantTargetFileIndex = targetFileIndex;
+        const enPassantTargetRankIndex = ranks.indexOf(targetSquare.rankName === '3' ? '4' : '5');
+        const enPassantTargetSquareId = toSquareId(enPassantTargetFileIndex, enPassantTargetRankIndex);
+        const enPassantPieceState = this.getPiece(enPassantTargetSquareId);
+
+        // remove any piece that is captured on the target square
+        if (enPassantPieceState) {
+
+          console.log('en passant');
+          this.pieceIds.push(enPassantPieceState.pieceInfo.id);
+          this.board[enPassantTargetRankIndex][enPassantTargetFileIndex] = null;
+        }
+
+        this.board[enPassantTargetRankIndex][enPassantTargetFileIndex] = null;
+      }
+    }
+
+    // remove any piece that is captured on the target square
+    if (targetPieceState) {
+      this.pieceIds.push(targetPieceState.pieceInfo.id);
+      this.board[targetRankIndex][targetFileIndex] = null;
+    }
+
+    // remove the piece from the source square
+    this.board[sourceRankIndex][sourceFileIndex] = null;
+
+    // set the piece on the board (remove previous)
     this.board[targetRankIndex][targetFileIndex] = piece;
 
     // remember the move
@@ -199,10 +228,10 @@ export class BoardState {
   }
 
   clearBoard(): void {
-    this.pieceIds = {...pieceIds};
+    this.pieceIds = { ...pieceIds };
     this.board = Array.from({ length: 8 }, () => Array(8).fill(null));
   }
-  
+
   clone(): BoardState {
     const state = new BoardState();
     state.pieceIds = [...this.pieceIds];
