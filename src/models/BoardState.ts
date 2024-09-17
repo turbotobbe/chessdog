@@ -107,12 +107,18 @@ export class PieceState {
 
 export class BoardState {
 
+  private whitesTurn: boolean = true;
+
   private pieceIds: PieceId[] = [...pieceIds];
   private board: (PieceState | null)[][] = Array.from({ length: 8 }, () => Array(8).fill(null));
   private lastMove: { sourceSquareId: SquareId, targetSquareId: SquareId } | null = null;
 
   constructor() {
     
+  }
+
+  isWhitesTurn(): boolean {
+    return this.whitesTurn;
   }
 
   getLastMove(): { sourceSquareId: SquareId, targetSquareId: SquareId } | null {
@@ -148,6 +154,13 @@ export class BoardState {
 
   movePiece(sourceSquareId: SquareId, targetSquareId: SquareId): void {
 
+    if (this.getPiece(sourceSquareId)?.pieceInfo.colorName === 'w' && !this.isWhitesTurn()) {
+      throw new Error(`It's not whites move`);
+    }
+    if (this.getPiece(sourceSquareId)?.pieceInfo.colorName === 'b' && this.isWhitesTurn()) {
+      throw new Error(`It's not blacks move`);
+    }
+
     // get the piece
     const piece = this.getPiece(sourceSquareId);
     if (!piece) {
@@ -181,6 +194,8 @@ export class BoardState {
     this.setLastMove(sourceSquareId, targetSquareId);
 
     calculateMoves(this);
+
+    this.whitesTurn = !this.whitesTurn;
   }
 
   clearBoard(): void {

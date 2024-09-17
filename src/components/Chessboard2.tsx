@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Box, Grid } from '@mui/material';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import DraggablePiece from './DraggablePiece';
 import DroppableSquare from './DroppableSquare';
-
-const Chessboard2: React.FC<{ boardState: any }> = ({ boardState }) => {
+import { BoardState, SquareId } from '@/models/BoardState';
+import './Chessboard2.css';
+const Chessboard2: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
+  const [selectedSquareId, setSelectedPieceId] = useState<SquareId | null>(null);
 
   // Simple 8x8 chessboard setup
-  const boardSquares = [
+  const boardSquares: SquareId[][] = [
     ['a8', 'b8', 'c8', 'd8', 'e8', 'f8', 'g8', 'h8'],
     ['a7', 'b7', 'c7', 'd7', 'e7', 'f7', 'g7', 'h7'],
     ['a6', 'b6', 'c6', 'd6', 'e6', 'f6', 'g6', 'h6'],
@@ -19,11 +21,44 @@ const Chessboard2: React.FC<{ boardState: any }> = ({ boardState }) => {
     ['a1', 'b1', 'c1', 'd1', 'e1', 'f1', 'g1', 'h1'],
   ];
 
-  function renderSquare(squareId: string) {
-    const pieceState = boardState.getPiece(squareId);
+  function handleMouseDown(squareId: SquareId) {
+    console.log('Mouse down on:', squareId);
+    setSelectedPieceId(squareId);
+    // setIsDragging(true);
+  }
 
+  function handleMouseUp() {
+    console.log('Mouse up');
+    setSelectedPieceId(null);
+    // setIsDragging(false);
+  }
+
+  function handleDrop(squareId: SquareId, pieceId: string) {
+    console.log(`Piece ${pieceId} dropped on square ${squareId}`);
+    if (selectedSquareId) {
+        try {
+            boardState.movePiece(selectedSquareId, squareId); 
+            setSelectedPieceId(null);
+            console.log(boardState);
+        } catch (error: unknown) {
+            if (error instanceof Error) {
+                console.log(error.message);
+            } else {
+                console.log('An unknown error occurred');
+            }
+        }
+    }
+  }
+
+  function renderSquare(squareId: SquareId) {
+    const pieceState = boardState.getPiece(squareId);
     return (
-      <DroppableSquare squareId={squareId}>
+      <DroppableSquare
+        isLastMove={boardState.getLastMove()?.sourceSquareId === squareId || boardState.getLastMove()?.targetSquareId === squareId}
+        isValidMove={selectedSquareId && boardState.getPiece(selectedSquareId)?.getValidMoves().includes(squareId) || false}
+        isCaptureMove={selectedSquareId && boardState.getPiece(selectedSquareId)?.getCaptureMoves().includes(squareId) || false}
+        squareId={squareId}
+        handleDrop={handleDrop}>
         {/* Render the piece if it's present */}
         {pieceState && <DraggablePiece pieceInfo={pieceState.pieceInfo} />}
       </DroppableSquare>
@@ -66,6 +101,8 @@ const Chessboard2: React.FC<{ boardState: any }> = ({ boardState }) => {
                     alignItems: 'center',
                     justifyContent: 'center'
                   }}
+                  onMouseDown={() => handleMouseDown(squareId)}
+                  onMouseUp={() => handleMouseUp()}
                 >
                   {renderSquare(squareId)}
                 </Grid>

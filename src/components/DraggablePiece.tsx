@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useDrag } from 'react-dnd';
 
 import wk from '../assets/wk.png';
@@ -18,7 +18,7 @@ import { PieceInfo } from '@/models/BoardState';
 import { Box } from '@mui/material';
 
 function getPieceImage(piece: PieceInfo) {
-
+    
     switch (piece.pieceName) {
         case 'k':
             return piece.colorName === 'w' ? wk : bk;
@@ -36,7 +36,8 @@ function getPieceImage(piece: PieceInfo) {
 }
 
 const DraggablePiece: React.FC<{ pieceInfo: PieceInfo }> = ({ pieceInfo }) => {
-  const [{ isDragging }, drag] = useDrag({
+
+    const [{ isDragging }, drag] = useDrag({
     type: 'piece',
     item: { type: 'piece', id: pieceInfo.id },
     collect: (monitor) => ({
@@ -44,9 +45,10 @@ const DraggablePiece: React.FC<{ pieceInfo: PieceInfo }> = ({ pieceInfo }) => {
     }),
   });
 
-  console.log(pieceInfo);
   return (
-    <Box ref={drag} sx={{
+    <Box
+     ref={drag}
+     sx={{
         opacity: isDragging ? 0.25 : 1,
         width: '100%',
         height: '100%',
@@ -54,7 +56,8 @@ const DraggablePiece: React.FC<{ pieceInfo: PieceInfo }> = ({ pieceInfo }) => {
         top: 0,
         left: 0,
         zIndex: 1000,
-    }}>
+    }}
+>
       <img src={getPieceImage(pieceInfo)} alt={`${pieceInfo.colorName}${pieceInfo.pieceName}`} style={{ width: '100%', height: '100%' }} />
       
     </Box>
