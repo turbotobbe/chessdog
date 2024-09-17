@@ -1,21 +1,11 @@
-import { useState } from 'react'
-import './App.css'
-import Analysis from './components/Analysis'
+import { useState } from 'react';
+import { AppBar, Box, createTheme, CssBaseline, Drawer, IconButton, List, ListItem, ListItemButton, ListItemText, ThemeProvider, Toolbar, Typography, useMediaQuery, useTheme } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 import chessdogLogo from '@/assets/chessdog.jpg'
-import {
-  Box,
-  Typography,
-  List,
-  ListItem,
-  ListItemButton,
-  ListItemText,
-  AppBar,
-  Toolbar,
-  Drawer,
-  ThemeProvider,
-  createTheme,
-  CssBaseline,
-} from '@mui/material'
+import Analysis from './components/Analysis';
+import './App.css'
+
+const drawerWidth = 240;
 
 // Create a custom dark theme
 const darkTheme = createTheme({
@@ -36,11 +26,19 @@ const darkTheme = createTheme({
 });
 
 function App() {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+
+  const [mobileOpen, setMobileOpen] = useState(false);
   const [currentPage, setCurrentPage] = useState('Analysis')
 
   const handleNavClick = (pageName: string) => {
     setCurrentPage(pageName)
   }
+
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
+  };
 
   const renderContent = () => {
     switch (currentPage) {
@@ -52,63 +50,88 @@ function App() {
     }
   }
 
+  // Sidebar content
+  const drawer = (
+    <Box sx={{}}>
+      {!isMobile &&
+        <Box sx={{ p: 2 }}>
+          <img src={chessdogLogo} alt="ChessDog" style={{ maxWidth: '100%', height: 'auto' }} />
+        </Box>
+      }
+      <List sx={{ marginTop: isMobile ? '3rem' : '0px' }} disablePadding>
+        {['Analysis', 'Drills', 'Progress', 'Settings'].map((text) => (
+          <ListItem key={text}>
+            <ListItemButton
+              selected={currentPage === text}
+              onClick={() => handleNavClick(text)}
+              sx={{
+                '&.Mui-selected': {
+                  backgroundColor: 'primary.main',
+                  '&:hover': {
+                    backgroundColor: 'primary.dark',
+                  },
+                },
+              }}
+            >
+              <ListItemText primary={text} />
+            </ListItemButton>
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  );
+
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Box sx={{ display: 'flex', height: '100vh', overflow: 'hidden' }}>
-        <Drawer
-          variant="permanent"
-          anchor="left"
-          sx={{
-            width: 200,
-            flexShrink: 0,
-            '& .MuiDrawer-paper': {
-              width: 200,
-              boxSizing: 'border-box',
-              backgroundColor: 'background.paper',
-              color: 'text.primary',
-            },
-          }}
-        >
-          <Box sx={{ p: 2 }}>
-            <img src={chessdogLogo} alt="ChessDog" style={{ maxWidth: '100%', height: 'auto' }} />
-          </Box>
-          <List>
-            {['Analysis', 'Drills', 'Progress', 'Settings'].map((text) => (
-              <ListItem key={text} disablePadding>
-                <ListItemButton
-                  selected={currentPage === text}
-                  onClick={() => handleNavClick(text)}
-                  sx={{
-                    '&.Mui-selected': {
-                      backgroundColor: 'primary.main',
-                      '&:hover': {
-                        backgroundColor: 'primary.dark',
-                      },
-                    },
-                  }}
-                >
-                  <ListItemText primary={text} />
-                </ListItemButton>
-              </ListItem>
-            ))}
-          </List>
-        </Drawer>
-        <Box component="main" sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
-          <AppBar position="static" color="transparent" elevation={0}>
+      <Box sx={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row' }}>
+
+        {/* AppBar for mobile view */}
+        {isMobile && (
+          <AppBar position="fixed" sx={{ zIndex: theme.zIndex.drawer + 1 }}>
             <Toolbar>
-              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                {currentPage}
+              <IconButton
+                color="inherit"
+                aria-label="open drawer"
+                edge="start"
+                onClick={handleDrawerToggle}
+              >
+                <MenuIcon />
+              </IconButton>
+              <Typography variant="h6" noWrap>
+                ChessDog
               </Typography>
             </Toolbar>
           </AppBar>
-          <Box sx={{ flexGrow: 1, overflow: 'auto', p: 2 }}>
-            {renderContent()}
-          </Box>
+        )}
+
+        {/* Sidebar Drawer */}
+        <Drawer
+          variant={isMobile ? 'temporary' : 'permanent'}
+          open={isMobile ? mobileOpen : true}
+          onClose={handleDrawerToggle}
+          sx={{
+            width: isMobile ? '100%' : drawerWidth,
+            flexShrink: 0,
+            '& .MuiDrawer-paper': {
+              width: isMobile ? '100%' : drawerWidth,
+              boxSizing: 'border-box',
+            },
+          }}
+        >
+          {drawer}
+        </Drawer>
+
+        {/* Main content */}
+        <Box
+          component="main"
+          sx={{ flexGrow: 1, bgcolor: 'background.default', mt: isMobile ? 8 : 0 }}
+        >
+          {renderContent()}
         </Box>
       </Box>
     </ThemeProvider>
-  )
+  );
 }
 
-export default App
+export default App;

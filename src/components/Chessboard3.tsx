@@ -35,8 +35,7 @@ const pieceImage = (pieceInfo: PieceInfo) => {
 }
 
 
-const Chessboard3: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
-    const [asWhite, setAsWhite] = useState<boolean>(true);
+const Chessboard3: React.FC<{ boardState: BoardState, asWhite: boolean, movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId) => void }> = ({ boardState, asWhite, movePiece }) => {
     const [movedFromSquareId, setMovedFromSquareId] = useState<SquareId | null>('b7');
     const [movedToSquareId, setMovedToSquareId] = useState<SquareId | null>('f2');
     const [validMoves, setValidMoves] = useState<SquareId[]>(['b3', 'b4', 'b5']);
@@ -71,7 +70,7 @@ const Chessboard3: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
 
                     // check if selected square is a valid (or capture) move
                     if (previousPiece.getValidMoves().includes(selectedSquareId) || previousPiece.getCaptureMoves().includes(selectedSquareId)) {
-                        boardState.movePiece(previousSquareId, selectedSquareId);
+                        movePiece(previousSquareId, selectedSquareId);
                         setPreviousSquareId(null);
                         setSelectedSquareId(null);
                         return;
@@ -108,7 +107,7 @@ const Chessboard3: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
     };
 
     return (
-        <Box className="chessboard" >
+        <Box className="chessboard">
             <Box className="grid" >
                 {Array.from({ length: 8 }, (_, rankIndex) =>
                     Array.from({ length: 8 }, (_, fileIndex) => {

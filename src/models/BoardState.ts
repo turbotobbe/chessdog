@@ -207,6 +207,7 @@ export class BoardState {
     const state = new BoardState();
     state.pieceIds = [...this.pieceIds];
     state.board = this.board.map(row => row.map(piece => piece?.clone() ?? null));
+    state.whitesTurn = this.isWhitesTurn();
     return state;
   }
 
