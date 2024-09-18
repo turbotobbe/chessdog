@@ -6,6 +6,7 @@ import DraggablePiece from './DraggablePiece';
 import DroppableSquare from './DroppableSquare';
 import { BoardState, SquareId } from '@/models/BoardState';
 import './Chessboard2.css';
+import { movePiece } from '@/utils/boardUtil';
 const Chessboard2: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
   const [selectedSquareId, setSelectedPieceId] = useState<SquareId | null>(null);
 
@@ -37,9 +38,10 @@ const Chessboard2: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
     console.log(`Piece ${pieceId} dropped on square ${squareId}`);
     if (selectedSquareId) {
         try {
-            boardState.movePiece(selectedSquareId, squareId); 
+          // TODO: movePiece should return a new BoardState object
+            const newBoardState = movePiece(boardState,selectedSquareId, squareId); 
             setSelectedPieceId(null);
-            console.log(boardState);
+            console.log(newBoardState);
         } catch (error: unknown) {
             if (error instanceof Error) {
                 console.log(error.message);

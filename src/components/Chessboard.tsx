@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Box, Grid } from '@mui/material';
 import SquareEl from './Square';
 import { BoardState, SquareId } from '../models/BoardState';
+import { movePiece } from '@/utils/boardUtil';
 
 const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
   const [selectedSquare, setSelectedSquare] = useState<SquareId | null>(null);
@@ -39,8 +40,9 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
     if (selectedSquare) {
         console.log(`Move from ${selectedSquare} to ${targetSquareId}`);
         try {
-            boardState.movePiece(selectedSquare, targetSquareId);
-            console.log(boardState);
+          // TODO: movePiece should return a new BoardState objectc
+          const newBoardState = movePiece(boardState, selectedSquare, targetSquareId);
+            console.log(newBoardState);
             // rerender the board
             setSelectedSquare(null);
             setHoveredSquare(null);
