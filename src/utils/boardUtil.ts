@@ -183,7 +183,7 @@ export function calculateMoves(boardState: BoardState): void {
             }
         }
     }
-    console.log(boardState);
+    // console.log(boardState);
 }
 
 function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo: PieceInfo): SquareId[] {
@@ -247,7 +247,6 @@ function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo
 
     // en passant
     if (isEnPassantMove(boardState, squareId, pieceInfo)) {
-        // console.log(`isEnPassantMove: ${squareId} ${pieceInfo.id} ${boardState.getLastMove()?.sourceSquareId} ${boardState.getLastMove()?.targetSquareId}`);
         const lastMove = boardState.getLastMove();
         if (lastMove) {
             const lastMoveSourceSquareId = lastMove.sourceSquareId;
@@ -264,8 +263,6 @@ function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo
             const enPassantSquareId = toSquareId(lastMoveSquareFileIndex, lastMoveSquareRankIndex) as SquareId;
             validMoves.push(enPassantSquareId);
         }
-        
-        console.log(`validMoves: ${validMoves}`);
     }
     
     return validMoves;
@@ -273,7 +270,6 @@ function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo
 
 export function isEnPassantMove(boardState: BoardState, squareId: SquareId, pieceInfo: PieceInfo): boolean {
 
-    // console.log(`isEnPassantMove: ${squareId} ${pieceInfo.id} ${boardState.getLastMove()?.sourceSquareId} ${boardState.getLastMove()?.targetSquareId}`);
     const squareInfo = toSquareInfo(squareId);
 
     // check if the piece is a pawn
@@ -292,7 +288,7 @@ export function isEnPassantMove(boardState: BoardState, squareId: SquareId, piec
             return false;
         }
     }
-    console.log('gooooo')
+
     // en passant
     const lastMove = boardState.getLastMove();
     if (!lastMove) {
@@ -308,7 +304,6 @@ export function isEnPassantMove(boardState: BoardState, squareId: SquareId, piec
     if (lastMovePieceState?.pieceInfo.pieceName !== 'p') {
         return false;
     }
-    console.log('gooooo')
 
     if (movedPieceColor === 'w') {
 
@@ -329,16 +324,14 @@ export function isEnPassantMove(boardState: BoardState, squareId: SquareId, piec
             return false;
         }
     }
-    console.log('gooooo')
 
     const squareFileIndex = files.indexOf(squareInfo.fileName);
     const lastMoveSourceSquareFileIndex = files.indexOf(lastMoveSourceSquareInfo.fileName);
-    console.log(`squareFileIndex: ${squareFileIndex} lastMoveSourceSquareFileIndex: ${lastMoveSourceSquareFileIndex}`)
+
     // check if the last move is on the same file as the current square
     if (Math.abs(squareFileIndex - lastMoveSourceSquareFileIndex) !== 1) {
         return false;
     }
-    console.log('gooooo')
 
     return true;
 }
@@ -627,8 +620,6 @@ export function movePiece(boardState: BoardState, sourceSquareId: SquareId, targ
         // check if diagonal move and target is empty
         if (sourceSquare.fileName !== targetSquare.fileName && targetPieceState === null) {
   
-          console.log('en passant');
-  
           const enPassantTargetFileIndex = targetFileIndex;
           const enPassantTargetRankIndex = ranks.indexOf(targetSquare.rankName === '3' ? '4' : '5');
           const enPassantTargetSquareId = toSquareId(enPassantTargetFileIndex, enPassantTargetRankIndex);
@@ -637,7 +628,6 @@ export function movePiece(boardState: BoardState, sourceSquareId: SquareId, targ
           // remove any piece that is captured on the en passant target square
           if (enPassantPieceState) {
   
-            console.log('en passant');
             clonedBoardState.pushPieceId(enPassantPieceState.pieceInfo.id);
             clonedBoardState.putPiece(toSquareId(enPassantTargetFileIndex, enPassantTargetRankIndex), null);
           }

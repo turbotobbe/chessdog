@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Box, Button, Paper, Typography } from '@mui/material';
 import { getDefaultBoard, movePiece } from '../utils/boardUtil';
 import { BoardState, SquareId } from '@/models/BoardState';
@@ -26,46 +26,44 @@ const Analysis: React.FC = () => {
 
     const handlers = {
         PREVIOUS: () => {
-            console.log('previous');
             handlePreviousPage();
         },
         NEXT: () => {
-            console.log('next');
             handleNextPage();
         },
         FIRST: () => {
-            console.log('first');
             handleFirstPage();
         },
         LAST: () => {
-            console.log('last');
             handleLastPage();
         },
     };
 
-    const handleResetBoard = useCallback(() => {
-        setBoardStates(_ => {
-            const initialState = getDefaultBoard();
-            const newBoardStates = [initialState];
-            setCurrentBoardStateIndex(0);
-            return newBoardStates;
-        });
-    }, [currentBoardStateIndex, boardStates])
+    const handleResetBoard = () => {
+        setCurrentBoardStateIndex(_ => {
+            setBoardStates(_ => {
+                const initialState = getDefaultBoard();
+                const newBoardStates = [initialState];
+                return newBoardStates;
+            })
+            return 0;
+        })
+    }
 
-    const handleFirstPage = useCallback(() => {
+    const handleFirstPage = () => {
         setBoardStates(currentBoardStates => {
             setCurrentBoardStateIndex(currentIndex => {
                 console.log(`handleFirstPage ${currentIndex} ${currentBoardStates.length}`);
-                if (boardStates.length > 0 && currentIndex !== 0) {
+                if (currentBoardStates.length > 0 && currentIndex !== 0) {
                     return 0;
                 }
                 return currentIndex;
             })
             return currentBoardStates;
         });
-    }, [currentBoardStateIndex, boardStates])
+    }
 
-    const handlePreviousPage = useCallback(() => {
+    const handlePreviousPage = () => {
         setBoardStates(currentBoardStates => {
             setCurrentBoardStateIndex(currentIndex => {
                 console.log(`handlePreviousPage ${currentIndex} ${currentBoardStates.length}`);
@@ -76,9 +74,9 @@ const Analysis: React.FC = () => {
             })
             return currentBoardStates;
         });
-    }, [currentBoardStateIndex, boardStates])
+    }
 
-    const handleNextPage = useCallback(() => {
+    const handleNextPage = () => {
         setBoardStates(currentBoardStates => {
             setCurrentBoardStateIndex(currentIndex => {
                 console.log(`handleNextPage ${currentIndex} ${currentBoardStates.length}`);
@@ -89,9 +87,9 @@ const Analysis: React.FC = () => {
             });
             return currentBoardStates;
         });
-    }, [currentBoardStateIndex, boardStates]);
+    }
 
-    const handleLastPage = useCallback(() => {
+    const handleLastPage = () => {
         setBoardStates(currentBoardStates => {
             setCurrentBoardStateIndex(currentIndex => {
                 console.log(`handleLastPage ${currentIndex} ${currentBoardStates.length}`);
@@ -102,36 +100,41 @@ const Analysis: React.FC = () => {
             })
             return currentBoardStates;
         });
-    }, [currentBoardStateIndex, boardStates])
+    }
 
-    const handleMovePiece = useCallback((sourceSquareId: SquareId, targetSquareId: SquareId) => {
-        setBoardStates(prevBoardStates => {
-            console.log('movePiece', sourceSquareId, targetSquareId, prevBoardStates.length, currentBoardStateIndex);
+    const handleMovePiece = (sourceSquareId: SquareId, targetSquareId: SquareId) => {
+        setBoardStates(currentBoardStates => {
+            let newBoardStates = currentBoardStates;
 
-            // check if there are at least one state in the array
-            if (prevBoardStates.length === 0) {
-                console.warn('no board states available to move pieces.');
-                return prevBoardStates;
-            }
+            setCurrentBoardStateIndex(currentIndex => {
+                console.log(`handleMovePiece ${currentIndex} ${currentBoardStates.length} ${sourceSquareId} ${targetSquareId}`);
 
-            // Clone the current board state
-            const currentBoardState = prevBoardStates[currentBoardStateIndex];
-            try {
-                const newBoardState = movePiece(currentBoardState, sourceSquareId, targetSquareId)
+                if (currentBoardStates.length === 0) {
+                    console.warn('No board states available to move pieces.');
+                    return currentIndex;
+                }
 
-                // Create a new array without mutating the previous state
-                const newBoardStates = [...prevBoardStates, newBoardState];
+                const currentBoardState = currentBoardStates[currentIndex];
 
-                // Update both state variables together
-                setCurrentBoardStateIndex(newBoardStates.length - 1); // Set to the last index after adding the new state
+                try {
+                    const newBoardState = movePiece(currentBoardState, sourceSquareId, targetSquareId);
 
-                return newBoardStates;
-            } catch (error) {
-                console.error('error moving piece', error);
-            }
-            return prevBoardStates;
-        })
-    }, [currentBoardStateIndex, boardStates])
+                    // Create a new array with states up to the current index, plus the new state
+                    newBoardStates = [
+                        ...currentBoardStates.slice(0, currentIndex + 1),
+                        newBoardState
+                    ];
+
+                    return newBoardStates.length - 1; // New index
+                } catch (error) {
+                    console.error('Error moving piece:', error);
+                    return currentIndex;
+                }
+            });
+
+            return newBoardStates; // Return the new board states
+        });
+    }
 
     useEffect(() => {
         if (!initializedRef.current) {
@@ -140,13 +143,9 @@ const Analysis: React.FC = () => {
         }
     }, []);
 
-    useEffect(() => {
-        console.log(`state index: ${currentBoardStateIndex}, length: ${boardStates.length}`);
-    }, [currentBoardStateIndex]);
-
-    useEffect(() => {
-        console.log(`length index: ${currentBoardStateIndex}, length: ${boardStates.length}`);
-    }, [boardStates]);
+    // useEffect(() => {
+    //     console.log(`update index: ${currentBoardStateIndex}, length: ${boardStates.length}`);
+    // }, [currentBoardStateIndex, boardStates]);
 
     if (currentBoardStateIndex < 0) {
         return <div>Loading...</div>;
