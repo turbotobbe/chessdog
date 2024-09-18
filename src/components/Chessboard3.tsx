@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box } from '@mui/material';
-import { BoardState, files, lightSquareIds, PieceInfo, ranks, SquareId } from '@/models/BoardState';
+import { BoardState, files, lightSquareIds, pieceFullNames, PieceInfo, PieceState, ranks, SquareId } from '@/models/BoardState';
 import './Chessboard3.css';
 import wk from '../assets/wk.png';
 import wq from '../assets/wq.png';
@@ -14,145 +14,163 @@ import br from '../assets/br.png';
 import bb from '../assets/bb.png';
 import bn from '../assets/bn.png';
 import bp from '../assets/bp.png';
+import { DndProvider, DragPreviewImage, useDrag, useDrop } from 'react-dnd';
+import { HTML5Backend } from 'react-dnd-html5-backend';
+import { toSquareId } from '@/utils/boardUtil';
 
-const pieceImage = (pieceInfo: PieceInfo) => {
-    switch (pieceInfo.pieceName) {
-        case 'p':
-            return pieceInfo.colorName === 'w' ? <img className='piece' src={wp} alt='white pawn'/> : <img className='piece' src={bp} alt='black pawn'/>;
-        case 'n':
-            return pieceInfo.colorName === 'w' ? <img className='piece' src={wn} alt='white knight'/> : <img className='piece' src={bn} alt='black knight'/>;
-        case 'b':
-            return pieceInfo.colorName === 'w' ? <img className='piece' src={wb} alt='white bishop'/> : <img className='piece' src={bb} alt='black bishop'/>;
-        case 'r':   
-            return pieceInfo.colorName === 'w' ? <img className='piece' src={wr} alt='white rook'/> : <img className='piece' src={br} alt='black rook'/>;
-        case 'q':
-            return pieceInfo.colorName === 'w' ? <img className='piece' src={wq} alt='white queen'/> : <img className='piece' src={bq} alt='black queen'/>;
-        case 'k':
-            return pieceInfo.colorName === 'w' ? <img className='piece' src={wk} alt='white king'/> : <img className='piece' src={bk} alt='black king'/>;
-        default:
-            return '';
-    }   
+const ItemTypes = {
+    PIECE: 'piece'
+}
+const pieceImages = {
+    'p': { 'w': wp, 'b': bp },
+    'n': { 'w': wn, 'b': bn },
+    'b': { 'w': wb, 'b': bb },
+    'r': { 'w': wr, 'b': br },
+    'q': { 'w': wq, 'b': bq },
+    'k': { 'w': wk, 'b': bk }
+};
+
+const BoardPiece: React.FC<{ squareId: SquareId, pieceInfo: PieceInfo, canDrag: boolean }> = ({ squareId, pieceInfo, canDrag }) => {
+
+    const [{ isDragging }, drag] = useDrag(() => ({
+        type: ItemTypes.PIECE,
+        item: { squareId },
+        collect: (monitor) => ({
+            isDragging: !!monitor.isDragging()
+        })
+    }), [squareId])
+
+
+    const pieceImage = pieceImages[pieceInfo.pieceName]?.[pieceInfo.colorName];
+    if (!pieceImage) return null;
+
+    const altText = `${pieceInfo.colorName === 'w' ? 'white' : 'black'} ${pieceFullNames[pieceInfo.pieceName]}`;
+
+    return (
+        <>
+            <img
+                ref={canDrag ? drag : null}
+                className={`piece ${isDragging ? 'dragging' : ''}`}
+                src={pieceImage}
+                alt={altText}
+            />
+        </>
+    );
 }
 
 
-const Chessboard3: React.FC<{ boardState: BoardState, asWhite: boolean, movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId) => void }> = ({ boardState, asWhite, movePiece }) => {
-    const [movedFromSquareId, setMovedFromSquareId] = useState<SquareId | null>('b7');
-    const [movedToSquareId, setMovedToSquareId] = useState<SquareId | null>('f2');
-    const [validMoves, setValidMoves] = useState<SquareId[]>(['b3', 'b4', 'b5']);
-    const [captureMoves, setCaptureMoves] = useState<SquareId[]>(['b6', 'c2']);
+const BoardSquare: React.FC<{
+    squareId: SquareId,
+    boardState: BoardState,
+    movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId) => void
+}> = ({
+    squareId,
+    boardState,
+    movePiece,
+}) => {
 
-    const [previousSquareId, setPreviousSquareId] = useState<SquareId | null>(null);
-    const [selectedSquareId, setSelectedSquareId] = useState<SquareId | null>(null);
+        // mark square
+        const isLightSquare = lightSquareIds.includes(squareId);
+        const classNames = ['square', squareId, isLightSquare ? 'white' : 'black'];
 
-    useEffect(() => {
+        // mark last move square
         const lastMove = boardState.getLastMove();
         if (lastMove) {
-            setMovedFromSquareId(lastMove.sourceSquareId);
-            setMovedToSquareId(lastMove.targetSquareId);
-        } else {
-            setMovedFromSquareId(null);
-            setMovedToSquareId(null);
-        }
-    }, [boardState, selectedSquareId]);
-
-    useEffect(() => {
-
-        const isWhitesTurn = boardState.isWhitesTurn();
-
-        // check if we should make a move (by click sequence)
-        if (previousSquareId && selectedSquareId) {
-            const previousPiece = boardState.getPiece(previousSquareId);
-            if (previousPiece) {
-
-                // check if previous click was on a movable piece
-                const isPreviousWhitePiece = previousPiece.pieceInfo.colorName === 'w';
-                if (isWhitesTurn === isPreviousWhitePiece) {
-
-                    // check if selected square is a valid (or capture) move
-                    if (previousPiece.getValidMoves().includes(selectedSquareId) || previousPiece.getCaptureMoves().includes(selectedSquareId)) {
-                        movePiece(previousSquareId, selectedSquareId);
-                        setPreviousSquareId(null);
-                        setSelectedSquareId(null);
-                        return;
-                    }
-                }
+            if (lastMove.targetSquareId === squareId) {
+                classNames.push('moved-to');
+            }
+            if (lastMove.sourceSquareId === squareId) {
+                classNames.push('moved-from');
             }
         }
 
-        // check if this is a valid click (not initial state)
-        if (selectedSquareId) {
-            const selectedPiece = boardState.getPiece(selectedSquareId);
-            if (selectedPiece) {
-
-                // check if the selected square contains a movable piece
-                const isSelectedWhitePiece = selectedPiece.pieceInfo.colorName === 'w';
-                if (isWhitesTurn === isSelectedWhitePiece) {
-
-                    // update valid (and capture) moves
-                    setValidMoves(selectedPiece.getValidMoves());
-                    setCaptureMoves(selectedPiece.getCaptureMoves());
-                    return;
-                }
+        function handleCanDrop(squareId: SquareId, draggedSquareId: SquareId, boardState: BoardState): boolean {
+            const draggedPiece = boardState.getPiece(draggedSquareId);
+            if (!draggedPiece) {
+                return false;
             }
+            if (draggedPiece.pieceInfo.colorName !== 'w' && boardState.isWhitesTurn()) {
+                return false;
+            }
+            if (draggedPiece.pieceInfo.colorName !== 'b' && !boardState.isWhitesTurn()) {
+                return false;
+            }
+            if (draggedPiece.validMoveSquareIds.includes(squareId)) {
+                return true;
+            }
+            if (draggedPiece.captureMoveSquareIds.includes(squareId)) {
+                return true;
+            }
+            return false;
         }
 
-        // nothing to do
-        setValidMoves([]);
-        setCaptureMoves([]);
-    }, [boardState, selectedSquareId]);
+        const [{ isOver, canDrop }, drop] = useDrop(
+            () => ({
+                accept: ItemTypes.PIECE,
+                canDrop: (item: { squareId: SquareId }) => handleCanDrop(squareId, item.squareId, boardState),
+                drop: (item: { squareId: SquareId }) => movePiece(item.squareId, squareId),
+                collect: (monitor) => ({
+                    isOver: !!monitor.isOver(),
+                    canDrop: !!monitor.canDrop()
+                })
+            }),
+            [squareId, boardState]
+        )
 
-    const handleSquareClick = (squareId: SquareId) => {
-        setPreviousSquareId(selectedSquareId);
-        setSelectedSquareId(squareId);
-    };
+        if (isOver) {
+            classNames.push('hover');
+        }
+        if (canDrop) {
+            classNames.push('valid-move');
+        }
 
-    return (
-        <Box className="chessboard">
-            <Box className="grid" >
-                {Array.from({ length: 8 }, (_, rankIndex) =>
-                    Array.from({ length: 8 }, (_, fileIndex) => {
-                        const file = asWhite ? files[fileIndex] : files[7 - fileIndex];
-                        const rank = asWhite ? ranks[7 - rankIndex] : ranks[rankIndex];
-                        const squareId: SquareId = `${file}${rank}`;
-                        const isLightSquare = lightSquareIds.includes(squareId);
-                        const classNames = ['square', isLightSquare ? 'white' : 'black', `${file}${rank}`];
-                        if (squareId === movedFromSquareId) {
-                            classNames.push('moved-from');
-                        }
-                        if (squareId === movedToSquareId) {
-                            classNames.push('moved-to');
-                        }
-                        if (validMoves.includes(squareId)) {
-                            classNames.push('valid-move');
-                        }
-                        if (captureMoves.includes(squareId)) {
-                            classNames.push('capture-move');
-                        }
-                        const piece = boardState.getPiece(squareId);
-                        if (piece) {
-                            const isWhitesTurn = boardState.isWhitesTurn();
-                            const isWhitePiece = piece.pieceInfo.colorName === 'w';
-                            const hasPieceTurn = isWhitePiece === isWhitesTurn;
-                            if (hasPieceTurn) {
-                                if (squareId === selectedSquareId) {
-                                    classNames.push('selected');
-                                }        
-                                classNames.push('has-turn');
-                            }
-                        }
-
-                        return (
-                            <Box key={`${rank}-${file}`} className={classNames.join(' ')}
-                                onClick={() => handleSquareClick(squareId)}
-                            >
-                                {piece && pieceImage(piece.pieceInfo)}
-                            </Box>
-                        );
-                    })
-                )}
+        const piece = boardState.getPiece(squareId);
+        let canDrag = false;
+        if (piece) {    
+            canDrag = (piece.pieceInfo.colorName === 'w' && boardState.isWhitesTurn()) ||
+                      (piece.pieceInfo.colorName === 'b' && !boardState.isWhitesTurn());
+            console.log(`canDrag: ${piece.pieceInfo.id} ${canDrag}`);
+        }
+       
+        return (
+            <Box key={squareId} className={classNames.join(' ')} ref={drop} >
+                {piece && <BoardPiece squareId={squareId} pieceInfo={piece.pieceInfo} canDrag={canDrag} />}
             </Box>
-        </Box>
-    );
-};
+        );
+    }
+
+const Chessboard3: React.FC<{
+    boardState: BoardState,
+    asWhite: boolean,
+    movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId) => void
+}> = ({
+    boardState,
+    asWhite,
+    movePiece
+}) => {
+
+        return (
+            <DndProvider backend={HTML5Backend}>
+                <Box className="chessboard">
+                    <Box className="grid" >
+                        {Array.from({ length: 8 }, (_, row) =>
+                            Array.from({ length: 8 }, (_, col) => {
+                                const fileIndex = asWhite ? col : 7 - col;
+                                const rankIndex = asWhite ? 7 - row : row;
+                                const squareId: SquareId = toSquareId(fileIndex, rankIndex);
+                                console.log(`squareId: ${squareId}, asWhite: ${asWhite}`);
+                                return <BoardSquare
+                                    key={squareId}
+                                    squareId={squareId}
+                                    boardState={boardState}
+                                    movePiece={movePiece}
+                                />
+                            })
+                        )}
+                    </Box>
+                </Box>
+            </DndProvider>
+        );
+    };
 
 export default Chessboard3;

@@ -75,7 +75,7 @@
 }
 .square.valid-move:hover,
 .square.capture-move:hover,
-.square.selected {
+.square.hover {
     border: 4px solid rgb(256, 256, 256, .9);
 }
 .square.has-turn {
@@ -86,4 +86,7 @@
     width: 100%;
     height: 100%;
     z-index: 1000;
+}
+.piece.dragging {
+    opacity: 0.5;
 }

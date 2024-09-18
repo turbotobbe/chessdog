@@ -73,6 +73,15 @@ export const darkSquareIds: SquareId[] = [
   'h2', 'h4', 'h6', 'h8',
 ];
 
+export const pieceFullNames: Record<PieceName, string> = {
+  'k': 'king',
+  'q': 'queen',
+  'r': 'rook',
+  'b': 'bishop',
+  'n': 'knight',
+  'p': 'pawn'
+};
+
 export class PieceState {
   pieceInfo: PieceInfo;
   validMoveSquareIds: SquareId[] = [];
