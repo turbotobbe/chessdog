@@ -34,6 +34,7 @@ function App() {
 
   const handleNavClick = (pageName: string) => {
     setCurrentPage(pageName)
+    setMobileOpen(false)
   }
 
   const handleDrawerToggle = () => {
@@ -58,7 +59,7 @@ function App() {
           <img src={chessdogLogo} alt="ChessDog" style={{ maxWidth: '100%', height: 'auto' }} />
         </Box>
       }
-      <List sx={{ marginTop: isMobile ? '3rem' : '0px' }} disablePadding>
+      <List sx={{ marginTop: isMobile ? '4rem' : '0px' }} disablePadding>
         {['Analysis', 'Basics', 'Openings', 'Tactics', 'Endgames', 'Puzzles'].map((text) => (
           <ListItem key={text}>
             <ListItemButton
