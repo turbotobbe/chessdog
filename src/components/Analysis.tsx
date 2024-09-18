@@ -9,7 +9,13 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import FlipIcon from '@mui/icons-material/Flip';
 import RestartAltIcon from '@mui/icons-material/RestartAlt';
 import Chessboard3 from './Chessboard3';
-import { HotKeys } from 'react-hotkeys';
+import { HotKeys, configure } from 'react-hotkeys';
+
+configure({
+    ignoreRepeatedEventsWhenKeyHeldDown: false,
+    stopEventPropagationAfterHandling: true,
+    // logLevel: 'debug',
+})
 
 const Analysis: React.FC = () => {
     const [boardStates, setBoardStates] = useState<BoardState[]>([]);
@@ -44,6 +50,12 @@ const Analysis: React.FC = () => {
             setBoardStates(_ => {
                 const initialState = getDefaultBoard();
                 const newBoardStates = [initialState];
+                const moves = [['a2', 'a3'], ['a7', 'a6'], ['b2', 'b3'], ['b7', 'b6'], ['c2', 'c3'], ['c7', 'c6'], ['d2', 'd3'], ['d7', 'd6'], ['e2', 'e3'], ['e7', 'e6'], ['f2', 'f3'], ['f7', 'f6'], ['g2', 'g3'], ['g7', 'g6'], ['h2', 'h3'], ['h7', 'h6']];
+                moves.push(['a3', 'a4'], ['a6', 'a5'], ['b3', 'b4'], ['b6', 'b5'], ['c3', 'c4'], ['c6', 'c5'], ['d3', 'd4'], ['d6', 'd5'], ['e3', 'e4'], ['e6', 'e5'], ['f3', 'f4'], ['f6', 'f5'], ['g3', 'g4'], ['g6', 'g5'], ['h3', 'h4'], ['h6', 'h5']); 
+                for (const move of moves) {
+                    const newBoardState = movePiece(newBoardStates[newBoardStates.length - 1], move[0] as SquareId, move[1] as SquareId);
+                    newBoardStates.push(newBoardState);
+                }
                 return newBoardStates;
             })
             return 0;
