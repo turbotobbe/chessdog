@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { AppBar, Box, Drawer, IconButton, Toolbar, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import './App.css';
@@ -14,7 +14,10 @@ function BrowserApp() {
   const currentPage = useCurrentPage();
 
   const [mobileOpen, setMobileOpen] = useState(false);
-  // const [value, setValue] = useState(0);
+  //
+  useEffect(() => {
+    setMobileOpen(false);
+  }, [currentPage]);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
