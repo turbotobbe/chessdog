@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Box } from '@mui/material';
-import { BoardState, files, lightSquareIds, pieceFullNames, PieceInfo, PieceState, ranks, SquareId } from '@/models/BoardState';
+import { BoardState, lightSquareIds, pieceFullNames, PieceInfo, SquareId } from '@/models/BoardState';
+
 import './Chessboard3.css';
 import wk from '../assets/wk.png';
 import wq from '../assets/wq.png';
@@ -14,9 +15,12 @@ import br from '../assets/br.png';
 import bb from '../assets/bb.png';
 import bn from '../assets/bn.png';
 import bp from '../assets/bp.png';
-import { DndProvider, DragPreviewImage, useDrag, useDrop } from 'react-dnd';
+import { DndProvider, useDrag, useDrop } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
+import { TouchBackend } from 'react-dnd-touch-backend';
+
 import { toSquareId } from '@/utils/boardUtil';
+import { useIsTouchDevice } from '@/contexts/IsTouchDevice';
 
 const ItemTypes = {
     PIECE: 'piece'
@@ -126,12 +130,12 @@ const BoardSquare: React.FC<{
 
         const piece = boardState.getPiece(squareId);
         let canDrag = false;
-        if (piece) {    
+        if (piece) {
             canDrag = (piece.pieceInfo.colorName === 'w' && boardState.isWhitesTurn()) ||
-                      (piece.pieceInfo.colorName === 'b' && !boardState.isWhitesTurn());
+                (piece.pieceInfo.colorName === 'b' && !boardState.isWhitesTurn());
             console.log(`canDrag: ${piece.pieceInfo.id} ${canDrag}`);
         }
-       
+
         return (
             <Box key={squareId} className={classNames.join(' ')} ref={drop} >
                 {piece && <BoardPiece squareId={squareId} pieceInfo={piece.pieceInfo} canDrag={canDrag} />}
@@ -149,8 +153,10 @@ const Chessboard3: React.FC<{
     movePiece
 }) => {
 
+        const { isTouchDevice } = useIsTouchDevice();
+        console.log(`isTouchDevice: ${isTouchDevice}`);
         return (
-            <DndProvider backend={HTML5Backend}>
+            <DndProvider backend={isTouchDevice ? TouchBackend : HTML5Backend}>
                 <Box className="chessboard">
                     <Box className="grid" >
                         {Array.from({ length: 8 }, (_, row) =>

@@ -8,21 +8,3 @@ body, #root {
   max-width: 100%;
   height: auto;
 }
-
-:root {
-  --board-brown-light: #f0d9b5;
-  --board-brown-dark: #b58863;
-
-  --board-blue-light: #87b6e0;
-  --board-blue-dark: #1c4587;
-
-  --board-green-light: #b5ceb5;
-  --board-green-dark: #87b687;
-
-  --board-red-light: #e08787;
-  --board-red-dark: #b56363;
-
-  --board-yellow-light: rgb(255, 255, 51);
-  --board-yellow-dark: #b5b563;
-
-}
