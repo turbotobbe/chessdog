@@ -4,6 +4,7 @@ import chessdogLogo from '@/assets/chessdog.jpg';
 import { isMobile } from 'react-device-detect';
 
 export type PageName = 'Home' | 'Analysis' | 'Basics' | 'Openings' | 'Tactics' | 'Endgames' | 'Puzzles'
+export const pageNames: PageName[] = ['Analysis', 'Basics', 'Openings', 'Tactics', 'Endgames', 'Puzzles'];
 
 interface SiteMenuProps {
     onNavClick: (pageName: PageName) => void;
@@ -17,7 +18,7 @@ const SiteMenu: React.FC<SiteMenuProps> = ({ onNavClick, currentPage }) => {
     const pageNames: PageName[] = ['Analysis', 'Basics', 'Openings', 'Tactics', 'Endgames', 'Puzzles'];
 
     return (
-        <Box>
+        <Box className='sitemenu'>
             {!isMobile && (
                 <ButtonBase
                     onClick={()=>onNavClick('Home')}
@@ -41,6 +42,24 @@ const SiteMenu: React.FC<SiteMenuProps> = ({ onNavClick, currentPage }) => {
                 </ButtonBase>
             )}
             <List dense disablePadding>
+                {isMobile && 
+                    <ListItem >
+                        <ListItemButton
+                            selected={currentPage === 'Home'}
+                            onClick={() => onNavClick('Home')}
+                            sx={{
+                                '&.Mui-selected': {
+                                    backgroundColor: 'primary.main',
+                                    '&:hover': {
+                                        backgroundColor: 'primary.dark',
+                                    },
+                                },
+                            }}
+                        >
+                            <ListItemText primary="Home" />
+                        </ListItemButton>
+                    </ListItem>
+                }
                 {pageNames.map((text) => (
                     <ListItem key={text}>
                         <ListItemButton

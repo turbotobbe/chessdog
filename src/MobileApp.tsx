@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { AppBar, Box, ButtonBase, Drawer, IconButton, Toolbar, Typography, useTheme } from '@mui/material';
+import { AppBar, BottomNavigation, Box, ButtonBase, Drawer, IconButton, Toolbar, Typography, useTheme } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import Analysis from './components/Analysis';
 import './App.css';
 import SiteMenu, { PageName } from './components/SiteMeny';
+import HomePage from './pages/HomePage';
 
 function BrowserApp() {
 
@@ -24,19 +25,14 @@ function BrowserApp() {
   const renderContent = () => {
     switch (currentPage) {
       case 'Home':
-        return (
-          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-            <Typography variant="h4">Welcome to ChessDog</Typography>
-            <Typography variant="body1">Select an option from the menu to get started.</Typography>
-          </Box>
-        );
+        return <HomePage />;
       case 'Analysis':
         return <Analysis />;
       // ... other cases for different pages
       default:
         return (
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-            <Typography variant="h4">Welcome to ChessDog</Typography>
+            <Typography variant="h1">{currentPage}</Typography>
             <Typography variant="body1">This is the {currentPage} page.</Typography>
           </Box>
         );
@@ -44,10 +40,14 @@ function BrowserApp() {
   }
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-
-      {/* AppBar for mobile view */}
-      <AppBar position="fixed" sx={{ zIndex: theme.zIndex.drawer + 1 }}>
+    <Box sx={{ 
+      display: 'flex', 
+      flexDirection: 'column', 
+      height: '100vh',
+      overflow: 'hidden'
+    }}>
+      {/* AppBar */}
+      <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -57,17 +57,15 @@ function BrowserApp() {
           >
             <MenuIcon />
           </IconButton>
-          <ButtonBase onClick={() => handleNavClick('Home')} sx={{ textAlign: 'left', width: 'auto' }}>
-            <Typography variant="h6" noWrap>
-              ChessDog
-            </Typography>
-          </ButtonBase>
+          <Typography variant="h6" noWrap>
+            ChessDog
+          </Typography>
         </Toolbar>
       </AppBar>
 
       {/* Sidebar Drawer */}
       <Drawer
-        variant={'temporary'}
+        variant="temporary"
         open={mobileOpen}
         onClose={handleDrawerToggle}
         sx={{
@@ -76,21 +74,32 @@ function BrowserApp() {
           '& .MuiDrawer-paper': {
             width: '100%',
             boxSizing: 'border-box',
+            top: '56px', // Height of AppBar
+            height: 'calc(100% - 56px)', // Full height minus AppBar height
           },
         }}
       >
-        <Box sx={{ mt: 8 }}>
+        <Box sx={{ mt: 1 }}>
           <SiteMenu onNavClick={handleNavClick} currentPage={currentPage} />
         </Box>
       </Drawer>
 
-      {/* Main content */}
-      <Box
-        component="main"
-        sx={{ flexGrow: 1, bgcolor: 'background.default', mt: 8, overflow: 'auto' }}
-      >
+      {/* Main content area */}
+      <Box sx={{ 
+        flexGrow: 1, 
+        overflow: 'auto',
+        mt: '56px', // Add top margin to account for fixed AppBar
+        height: 'calc(100% - 56px - 56px)', // Subtract AppBar and BottomNavigation heights
+      }}>
         {renderContent()}
       </Box>
+
+      {/* BottomNavigation */}
+      <BottomNavigation
+        // ... BottomNavigation props
+      >
+        {/* ... BottomNavigation items ... */}
+      </BottomNavigation>
     </Box>
   );
 }

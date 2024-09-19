@@ -3,6 +3,7 @@ import { Box, Drawer, Typography } from '@mui/material';
 import Analysis from './components/Analysis';
 import './App.css';
 import SiteMenu, { PageName } from './components/SiteMeny';
+import HomePage from './pages/HomePage';
 
 const drawerWidth = 240;
 
@@ -17,12 +18,7 @@ const BrowserApp: React.FC<{}> = ({ }) => {
   const renderContent = () => {
     switch (currentPage) {
       case 'Home':
-        return (
-          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
-            <Typography variant="h4">Welcome to ChessDog</Typography>
-            <Typography variant="body1">Select an option from the menu to get started.</Typography>
-          </Box>
-        );
+        return <HomePage />;
       case 'Analysis':
         return <Analysis />;
       // ... other cases for different pages
@@ -37,8 +33,7 @@ const BrowserApp: React.FC<{}> = ({ }) => {
   }
 
   return (
-    <Box sx={{ display: 'flex', flexDirection: 'row' }}>
-
+    <Box sx={{ display: 'flex', height: '100vh' }}>
       {/* Sidebar Drawer */}
       <Drawer
         variant={'permanent'}
@@ -52,12 +47,18 @@ const BrowserApp: React.FC<{}> = ({ }) => {
         }}
       >
         <SiteMenu onNavClick={handleNavClick} currentPage={currentPage} />
-        </Drawer>
+      </Drawer>
 
       {/* Main content */}
       <Box
         component="main"
-        sx={{ flexGrow: 1, bgcolor: 'background.default', overflow: 'auto' }}
+        sx={{ 
+          flexGrow: 1, 
+          bgcolor: 'background.default', 
+          overflow: 'auto',
+          display: 'flex',
+          flexDirection: 'column'
+        }}
       >
         {renderContent()}
       </Box>
