@@ -3,7 +3,7 @@
       { "source": "/(.*)", "destination": "/" }
     ],
     "redirects": [
-      { "source": "/assets/*", "destination": "/assets/:path*", "statusCode": 200 },
+      { "source": "/assets/:path*", "destination": "/assets/:path*", "statusCode": 200 },
       { "source": "/favicon.ico", "destination": "/favicon.ico", "statusCode": 200 },
       { "source": "/manifest.json", "destination": "/manifest.json", "statusCode": 200 }
     ],
