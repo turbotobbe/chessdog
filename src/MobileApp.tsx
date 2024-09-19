@@ -14,7 +14,7 @@ function BrowserApp() {
   const currentPage = useCurrentPage();
 
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [value, setValue] = useState(0);
+  // const [value, setValue] = useState(0);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
