@@ -1,52 +1,32 @@
 import { useState } from 'react';
-import { AppBar, BottomNavigation, Box, ButtonBase, Drawer, IconButton, Toolbar, Typography, useTheme } from '@mui/material';
+import { AppBar, Box, Drawer, IconButton, Toolbar, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import Analysis from './components/Analysis';
 import './App.css';
-import SiteMenu, { PageName } from './components/SiteMeny';
+import SiteMenu, { analysisPageInfo, basicsPageInfo, endgamesPageInfo, noPageInfo, openingsPageInfo, puzzlesPageInfo, tacticsPageInfo } from './components/SiteMenu';
 import HomePage from './pages/HomePage';
+import AnalysisPage from './pages/AnalysisPage';
+import MessagePage from './pages/MessagePage';
+import { Route, Routes } from 'react-router-dom';
+import { useCurrentPage } from './contexts/CurrentPage';
 
 function BrowserApp() {
 
+  const currentPage = useCurrentPage();
+
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [currentPage, setCurrentPage] = useState<PageName>('Home')
-
-  const theme = useTheme();
-
-  const handleNavClick = (pageName: PageName) => {
-    setCurrentPage(pageName)
-    setMobileOpen(false)
-  }
+  const [value, setValue] = useState(0);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
 
-  const renderContent = () => {
-    switch (currentPage) {
-      case 'Home':
-        return <HomePage />;
-      case 'Analysis':
-        return <Analysis />;
-      // ... other cases for different pages
-      default:
-        return (
-          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-            <Typography variant="h1">{currentPage}</Typography>
-            <Typography variant="body1">This is the {currentPage} page.</Typography>
-          </Box>
-        );
-    }
-  }
-
   return (
-    <Box sx={{ 
-      display: 'flex', 
-      flexDirection: 'column', 
+    <Box sx={{
+      display: 'flex',
+      flexDirection: 'column',
       height: '100vh',
       overflow: 'hidden'
     }}>
-      {/* AppBar */}
       <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
         <Toolbar>
           <IconButton
@@ -63,7 +43,6 @@ function BrowserApp() {
         </Toolbar>
       </AppBar>
 
-      {/* Sidebar Drawer */}
       <Drawer
         variant="temporary"
         open={mobileOpen}
@@ -80,26 +59,40 @@ function BrowserApp() {
         }}
       >
         <Box sx={{ mt: 1 }}>
-          <SiteMenu onNavClick={handleNavClick} currentPage={currentPage} />
+          <SiteMenu currentPageName={currentPage.currentPageName} />
         </Box>
       </Drawer>
 
-      {/* Main content area */}
-      <Box sx={{ 
-        flexGrow: 1, 
+      <Box sx={{
+        flexGrow: 1,
         overflow: 'auto',
         mt: '56px', // Add top margin to account for fixed AppBar
         height: 'calc(100% - 56px - 56px)', // Subtract AppBar and BottomNavigation heights
       }}>
-        {renderContent()}
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path={analysisPageInfo.path} element={<AnalysisPage />} />
+          <Route path={basicsPageInfo.path} element={<MessagePage title={basicsPageInfo.name} message='This is the basics page.' />} />
+          <Route path={openingsPageInfo.path} element={<MessagePage title={openingsPageInfo.name} message='This is the openings page.' />} />
+          <Route path={tacticsPageInfo.path} element={<MessagePage title={tacticsPageInfo.name} message='This is the tactics page.' />} />
+          <Route path={endgamesPageInfo.path} element={<MessagePage title={endgamesPageInfo.name} message='This is the endgames page.' />} />
+          <Route path={puzzlesPageInfo.path} element={<MessagePage title={puzzlesPageInfo.name} message='This is the puzzles page.' />} />
+          <Route path="*" element={<MessagePage title={noPageInfo.name} message='Page not found.' />} />
+        </Routes>
       </Box>
 
-      {/* BottomNavigation */}
-      <BottomNavigation
-        // ... BottomNavigation props
+      {/* <BottomNavigation
+        value={value}
+        onChange={(event, newValue) => {
+          setValue(newValue);
+        }}
+        showLabels
+        sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }}
       >
-        {/* ... BottomNavigation items ... */}
-      </BottomNavigation>
+        {[homePageInfo, analysisPageInfo, basicsPageInfo].map(pageInfo => (
+          <BottomNavigationAction key={pageInfo.name} label={pageInfo.name} icon={<HomeIcon />} component={Link} to={pageInfo.path} />
+        ))}
+      </BottomNavigation> */}
     </Box>
   );
 }

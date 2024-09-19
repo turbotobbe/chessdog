@@ -6,6 +6,8 @@ import { BrowserView, MobileView } from 'react-device-detect'
 import { IsTouchDeviceProvider } from './contexts/IsTouchDevice'
 import MobileApp from './MobileApp'
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material'
+import { CurrentPageProvider } from './contexts/CurrentPage'
+import { BrowserRouter } from 'react-router-dom'
 
 // Create a custom dark theme
 const darkTheme = createTheme({
@@ -28,15 +30,19 @@ const darkTheme = createTheme({
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <IsTouchDeviceProvider>
-      <ThemeProvider theme={darkTheme}>
-        <CssBaseline />
-        <BrowserView>
-          <BrowserApp />
-        </BrowserView>
-        <MobileView>
-          <MobileApp />
-        </MobileView>
-      </ThemeProvider>
+      <BrowserRouter>
+        <CurrentPageProvider>
+          <ThemeProvider theme={darkTheme}>
+            <CssBaseline />
+            <BrowserView>
+              <BrowserApp />
+            </BrowserView>
+            <MobileView>
+              <MobileApp />
+            </MobileView>
+          </ThemeProvider>
+        </CurrentPageProvider>
+      </BrowserRouter>
     </IsTouchDeviceProvider>
   </React.StrictMode>,
 )

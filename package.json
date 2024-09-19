@@ -21,7 +21,8 @@
     "react-dnd-html5-backend": "^16.0.1",
     "react-dnd-touch-backend": "^16.0.1",
     "react-dom": "^18.3.1",
-    "react-hotkeys": "^2.0.0"
+    "react-hotkeys": "^2.0.0",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "@types/node": "^22.5.5",

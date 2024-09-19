@@ -1,0 +1,19 @@
+{
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ],
+    "redirects": [
+      { "source": "/assets/*", "destination": "/assets/:path*", "statusCode": 200 },
+      { "source": "/favicon.ico", "destination": "/favicon.ico", "statusCode": 200 },
+      { "source": "/manifest.json", "destination": "/manifest.json", "statusCode": 200 }
+    ],
+    "headers": [
+      {
+        "source": "/assets/(.*)",
+        "headers": [
+          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        ]
+      }
+    ]
+  }
+  

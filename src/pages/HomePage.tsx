@@ -1,6 +1,6 @@
 import React from 'react';
-import { Box, Typography, Container, Grid, Paper, Card, CardContent, CardHeader, CardActions, Button } from '@mui/material';
-import { pageNames } from '@/components/SiteMeny';
+import { Box, Typography, Container, Grid, Card, CardContent, CardHeader, CardActions, Button } from '@mui/material';
+import { menuPageInfos } from '@/components/SiteMenu';
 
 const HomePage: React.FC = () => {
     return (
@@ -27,17 +27,17 @@ const HomePage: React.FC = () => {
             {/* Sections for menu items */}
             <Container maxWidth="lg">
                 <Grid container spacing={4}>
-                    {pageNames.map((section) => (
-                        <Grid item xs={12} md={6} key={section}>
+                    {menuPageInfos.map((pageInfo) => (
+                        <Grid item xs={12} md={6} key={pageInfo.name}>
                             <Card>
                                 <CardHeader
-                                    title={section}
+                                    title={pageInfo.name}
                                 />
                                 <CardContent>
-                                {getDescriptionForSection(section)}
+                                {getDescriptionForSection(pageInfo.name)}
                                 </CardContent>
                                 <CardActions>
-                                    <Button variant='contained'>Explore {section} →</Button>
+                                    <Button variant='contained'>Explore {pageInfo.name} →</Button>
                                 </CardActions>
                             </Card>
                         </Grid>
