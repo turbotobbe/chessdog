@@ -1,4 +1,4 @@
-import { toPieceInfo, toSquareInfo } from "@/utils/boardUtil";
+import { toPieceInfo, toSquareInfo } from "@/utils/board";
 
 export type ColorName = 'w' | 'b';
 export type PieceName = 'k' | 'q' | 'r' | 'b' | 'n' | 'p';

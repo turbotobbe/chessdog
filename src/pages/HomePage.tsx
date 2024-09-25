@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, Container, Grid, Card, CardContent, CardHeader, CardActions, Button } from '@mui/material';
-import { menuPageInfos } from '@/components/SiteMenu';
+import { menuPageInfos } from '@/components/SiteMenuEl';
 
 const HomePage: React.FC = () => {
     return (

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Box, Button, Paper, Typography } from '@mui/material';
-import { getDefaultBoard, movePiece } from '../utils/boardUtil';
+import { getDefaultBoard, movePiece } from '../utils/board';
 import { BoardState, SquareId } from '@/models/BoardState';
 import FirstPageIcon from '@mui/icons-material/FirstPage';
 import LastPageIcon from '@mui/icons-material/LastPage';
@@ -8,7 +8,7 @@ import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import FlipIcon from '@mui/icons-material/Flip';
 import RestartAltIcon from '@mui/icons-material/RestartAlt';
-import Chessboard3 from './Chessboard3';
+import BoardEl from '../components/BoardEl';
 import { HotKeys, configure } from 'react-hotkeys';
 
 configure({
@@ -203,7 +203,7 @@ const Analysis: React.FC = () => {
                         p: 2
                     }}>
 
-                    <Chessboard3 boardState={boardStates[currentBoardStateIndex]} asWhite={asWhite} movePiece={handleMovePiece} />
+                    <BoardEl boardState={boardStates[currentBoardStateIndex]} asWhite={asWhite} movePiece={handleMovePiece} />
 
                 </Paper>
 

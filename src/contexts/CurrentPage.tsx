@@ -1,4 +1,4 @@
-import { noPageInfo, pageInfos, PageName } from '@/components/SiteMenu';
+import { noPageInfo, pageInfos, PageName } from '@/components/SiteMenuEl';
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 

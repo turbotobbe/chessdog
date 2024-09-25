@@ -6,7 +6,14 @@ const AnalysisPage: React.FC<{ title: string; message: string }> = ({
     message
 }) => {
     return (
-        <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+        <Box sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            minHeight: '100vh',
+            boxSizing: 'border-box'
+        }}>
             <Typography variant="h4">{title}</Typography>
             <Typography variant="body1">{message}</Typography>
         </Box>

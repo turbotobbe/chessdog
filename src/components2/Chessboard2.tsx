@@ -6,7 +6,7 @@ import DraggablePiece from './DraggablePiece';
 import DroppableSquare from './DroppableSquare';
 import { BoardState, SquareId } from '@/models/BoardState';
 import './Chessboard2.css';
-import { movePiece } from '@/utils/boardUtil';
+import { movePiece } from '@/utils/board';
 const Chessboard2: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
   const [selectedSquareId, setSelectedPieceId] = useState<SquareId | null>(null);
 

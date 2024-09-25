@@ -9,12 +9,15 @@ import { createTheme, CssBaseline, ThemeProvider } from '@mui/material'
 import { CurrentPageProvider } from './contexts/CurrentPage'
 import { BrowserRouter } from 'react-router-dom'
 
-// Create a custom dark theme
+
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
-      main: '#8B4513', // SaddleBrown - a chess-inspired color
+      main: '#8B4513', // SaddleBrown - a chess-inspired accent color
+    },
+    secondary: {
+      main: '#90A4AE', // Blue Grey 300 - a neutral, versatile color
     },
     background: {
       default: '#121212',

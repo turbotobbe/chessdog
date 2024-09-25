@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, ListItem, ListItemButton, ListItemText, ButtonBase, Box } from '@mui/material';
+import { List, ListItem, ListItemButton, ListItemText, Drawer, Toolbar, useTheme } from '@mui/material';
 import chessdogLogo from '@/assets/chessdog.jpg';
 import { isMobile } from 'react-device-detect';
 import { Link } from 'react-router-dom';
@@ -63,42 +63,47 @@ export const menuPageInfos: PageInfo[] = [
     puzzlesPageInfo
 ];
 
-interface SiteMenuProps {
+interface SiteMenuElProps {
     currentPageName: PageName;
 }
+const drawerWidth = 140;
 
-const drawerWidth = 240;
-
-const SiteMenu: React.FC<SiteMenuProps> = ({ currentPageName }) => {
-
+const SiteMenuEl: React.FC<SiteMenuElProps> = ({ currentPageName }) => {
+    const theme = useTheme();
+    const appBarHeight = theme.mixins.toolbar.minHeight;
     return (
-        <Box className='sitemenu'>
+        <Drawer
+            variant={isMobile ? 'temporary' : 'permanent'}
+            open={true}
+            sx={{
+                width: isMobile ? '100%' : drawerWidth,
+                flexShrink: 0,
+                '& .MuiDrawer-paper': {
+                    width: isMobile ? '100%' : drawerWidth,
+                    boxSizing: 'border-box',
+                },
+            }}
+        >
             {!isMobile && (
-                <ButtonBase
-                    component={Link}
-                    to={homePageInfo.path}
-                    sx={{
-                        width: '100%',
-                        p: 2,
-                        '&:hover': {
-                            backgroundColor: 'action.hover',
-                        },
-                    }}
-                >
-                    <img
-                        src={chessdogLogo}
-                        alt="ChessDog"
-                        style={{
-                            width: '100%',
-                            height: 'auto',
-                            maxWidth: `${drawerWidth - 32}px`
-                        }}
-                    />
-                </ButtonBase>
+                <Toolbar disableGutters>
+                    <Link to={homePageInfo.path}>
+                        <img
+                            src={chessdogLogo}
+                            alt="ChessDog"
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                            }}
+                        />
+                    </Link>
+                </Toolbar>
             )}
-            <List dense disablePadding>
-                {isMobile && 
-                    <ListItem>
+
+            <List dense disablePadding sx={{
+                marginTop: isMobile ? `${appBarHeight}px` : 0
+            }}>
+                <ListItem disablePadding>
+                    {isMobile && (
                         <ListItemButton
                             selected={currentPageName === homePageInfo.name}
                             component={Link}
@@ -114,10 +119,11 @@ const SiteMenu: React.FC<SiteMenuProps> = ({ currentPageName }) => {
                         >
                             <ListItemText primary={homePageInfo.name} />
                         </ListItemButton>
-                    </ListItem>
-                }
+
+                    )}
+                </ListItem>
                 {menuPageInfos.map((pageInfo) => (
-                    <ListItem key={pageInfo.name}>
+                    <ListItem key={pageInfo.name} disablePadding>
                         <ListItemButton
                             selected={currentPageName === pageInfo.name}
                             component={Link}
@@ -131,13 +137,14 @@ const SiteMenu: React.FC<SiteMenuProps> = ({ currentPageName }) => {
                                 },
                             }}
                         >
-                                <ListItemText primary={pageInfo.name} />
+                            <ListItemText primary={pageInfo.name} />
                         </ListItemButton>
                     </ListItem>
                 ))}
             </List>
-        </Box>
+        </Drawer>
+
     );
 };
 
-export default SiteMenu;
+export default SiteMenuEl;

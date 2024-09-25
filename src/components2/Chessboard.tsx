@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Box, Grid } from '@mui/material';
 import SquareEl from './Square';
 import { BoardState, SquareId } from '../models/BoardState';
-import { movePiece } from '@/utils/boardUtil';
+import { movePiece } from '@/utils/board';
 
 const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
   const [selectedSquare, setSelectedSquare] = useState<SquareId | null>(null);

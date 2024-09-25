@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { AppBar, Box, Drawer, IconButton, Toolbar, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import './App.css';
-import SiteMenu, { analysisPageInfo, basicsPageInfo, endgamesPageInfo, noPageInfo, openingsPageInfo, puzzlesPageInfo, tacticsPageInfo } from './components/SiteMenu';
+
+import SiteMenuEl, { analysisPageInfo, basicsPageInfo, endgamesPageInfo, noPageInfo, openingsPageInfo, puzzlesPageInfo, tacticsPageInfo } from './components/SiteMenuEl';
 import HomePage from './pages/HomePage';
-import AnalysisPage from './pages/AnalysisPage';
+import MobilAnalysisPage from './pages/MobilAnalysisPage';
 import MessagePage from './pages/MessagePage';
 import { Route, Routes } from 'react-router-dom';
 import { useCurrentPage } from './contexts/CurrentPage';
@@ -62,7 +62,7 @@ function BrowserApp() {
         }}
       >
         <Box sx={{ mt: 1 }}>
-          <SiteMenu currentPageName={currentPage.currentPageName} />
+          <SiteMenuEl currentPageName={currentPage.currentPageName} />
         </Box>
       </Drawer>
 
@@ -74,7 +74,7 @@ function BrowserApp() {
       }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path={analysisPageInfo.path} element={<AnalysisPage />} />
+          <Route path={analysisPageInfo.path} element={<MobilAnalysisPage />} />
           <Route path={basicsPageInfo.path} element={<MessagePage title={basicsPageInfo.name} message='This is the basics page.' />} />
           <Route path={openingsPageInfo.path} element={<MessagePage title={openingsPageInfo.name} message='This is the openings page.' />} />
           <Route path={tacticsPageInfo.path} element={<MessagePage title={tacticsPageInfo.name} message='This is the tactics page.' />} />
