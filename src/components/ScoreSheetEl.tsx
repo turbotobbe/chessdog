@@ -1,7 +1,7 @@
-import { PgnMove } from "@/utils/pgn";
+import { PgnTurn } from "@/utils/pgn";
 import { Box, SxProps, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from "@mui/material";
 
-const ScoreSheetEl: React.FC<{ sx?: SxProps, moves: PgnMove[] }> = ({ sx, moves }) => {
+const ScoreSheetEl: React.FC<{ sx?: SxProps, moves: PgnTurn[] }> = ({ sx, moves }) => {
     return (
         <Box sx={{
             display: 'inline-block',

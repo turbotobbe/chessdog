@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, SxProps } from '@mui/material';
-import { BoardState, SquareId } from '@/models/BoardState';
+
 import './BoardEl.css';
 // import './Chessboard3.css';
 import { DndProvider } from 'react-dnd';
@@ -10,10 +10,12 @@ import { TouchBackend } from 'react-dnd-touch-backend';
 import { toSquareId } from '@/utils/board';
 import { useIsTouchDevice } from '@/contexts/IsTouchDevice';
 import BoardSquareEl from './BoardSquareEl';
+import { SquareId } from '@/types/chess';
+import { ChessGameState } from '@/models/chess';
 
 type BoardElProps = {
     sx?: SxProps,
-    boardState: BoardState,
+    chessGameState: ChessGameState,
     asWhite: boolean,
     movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId) => void
 }
@@ -21,7 +23,7 @@ type BoardElProps = {
 
 const BoardEl: React.FC<BoardElProps> = ({
     sx,
-    boardState,
+    chessGameState,
     asWhite,
     movePiece
 }) => {
@@ -51,7 +53,7 @@ const BoardEl: React.FC<BoardElProps> = ({
                         return <BoardSquareEl
                             key={squareId}
                             squareId={squareId}
-                            boardState={boardState}
+                            chessGameState={chessGameState}
                             movePiece={movePiece}
                         />
                     })

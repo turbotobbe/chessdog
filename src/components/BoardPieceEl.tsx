@@ -1,6 +1,5 @@
-import { SquareId, PieceInfo, pieceFullNames } from "@/models/BoardState";
 import { useDrag } from "react-dnd";
-
+import { SquareId, pieceFullNames } from "../types/chess";
 import wk from '../assets/wk.png';
 import wq from '../assets/wq.png';
 import wr from '../assets/wr.png';
@@ -13,6 +12,7 @@ import br from '../assets/br.png';
 import bb from '../assets/bb.png';
 import bn from '../assets/bn.png';
 import bp from '../assets/bp.png';
+import { ChessPieceState } from "@/models/chess";
 
 const pieceImages = {
     'p': { 'w': wp, 'b': bp },
@@ -25,10 +25,10 @@ const pieceImages = {
 
 type BoardPieceElProps = {
     squareId: SquareId,
-    pieceInfo: PieceInfo,
+    pieceState: ChessPieceState,
     canDrag: boolean,
 }
-const BoardPieceEl: React.FC<BoardPieceElProps> = ({ squareId, pieceInfo, canDrag }) => {
+const BoardPieceEl: React.FC<BoardPieceElProps> = ({ squareId, pieceState, canDrag }) => {
     // const [position, setPosition] = useState({ top: 0, left: 0 });
 
     const [{ isDragging }, drag] = useDrag(() => ({
@@ -39,10 +39,10 @@ const BoardPieceEl: React.FC<BoardPieceElProps> = ({ squareId, pieceInfo, canDra
         })
     }), [squareId])
 
-    const pieceImage = pieceImages[pieceInfo.pieceName]?.[pieceInfo.colorName];
+    const pieceImage = pieceImages[pieceState.pieceName]?.[pieceState.colorName];
     if (!pieceImage) return null;
 
-    const altText = `${pieceInfo.colorName === 'w' ? 'white' : 'black'} ${pieceFullNames[pieceInfo.pieceName]}`;
+    const altText = `${pieceState.colorName === 'w' ? 'white' : 'black'} ${pieceFullNames[pieceState.pieceName]}`;
     return (
         <img 
             ref={canDrag ? drag : null} 

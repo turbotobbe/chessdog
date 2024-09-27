@@ -5,7 +5,8 @@
 // the position must be a valid position
 // the function must return the board setup
 
-import { BoardState, PieceId, SquareId, squareIds, RankName, FileName, PieceInfo, ColorName, PieceName, SquareInfo, ranks, files } from "../models/BoardState";
+import { a1, b1, c1, d1, e1, f1, g1, h1, a2, b2, c2, d2, e2, f2, g2, h2, a8, b8, c8, d8, e8, f8, g8, h8, a7, b7, c7, d7, e7, f7, g7, h7, blackKing, blackKingsideBishop, blackKingsideKnight, blackKingsideRook, blackPawn1, blackPawn2, blackPawn3, blackPawn4, blackPawn5, blackPawn6, blackPawn7, blackPawn8, blackQueen, blackQueensideBishop, blackQueensideKnight, blackQueensideRook, ColorName, FileName, files, PieceInfo, PieceName, RankName, ranks, SquareId, squareIds, SquareInfo, whiteKing, whiteKingsideKnight, whiteKingsideRook, whitePawn1, whitePawn2, whitePawn3, whitePawn4, whitePawn5, whitePawn6, whitePawn7, whitePawn8, whiteQueen, whiteQueensideBishop, whiteQueensideKnight, whiteQueensideRook, PieceId, whiteKingsideBishop } from "@/types/chess";
+import { BoardState, PieceState } from "../models/BoardState";
 
 
 export function toPieceInfo(pieceId: PieceId): PieceInfo {
@@ -21,7 +22,9 @@ export function toSquareInfo(squareId: SquareId): SquareInfo {
     return {
         id: squareId,
         fileName: squareId.charAt(0) as FileName,
-        rankName: squareId.charAt(1) as RankName
+        rankName: squareId.charAt(1) as RankName,
+        fileIndex: files.indexOf(squareId.charAt(0) as FileName),
+        rankIndex: ranks.indexOf(squareId.charAt(1) as RankName)
     };
 }
 
@@ -30,67 +33,56 @@ export function toSquareId(fileIndex: number, rankIndex: number): SquareId {
 }
 
 
-export function getDummyBoard(): BoardState {
+export function getEmptyBoard(): BoardState {
     const boardState = new BoardState();
-
-    boardState.setPiece('b2', 'wp2');
-    boardState.setPiece('a3', 'bn1');
-    boardState.setPiece('a1', 'bn2');
-    boardState.setPiece('c3', 'bb1');
-    boardState.setPiece('c1', 'bb2');
-
-    boardState.setPiece('e7', 'bp6');
-    boardState.setPiece('d8', 'wn1');
-    boardState.setPiece('d6', 'wn2');
-    boardState.setPiece('f8', 'wb1');
-    boardState.setPiece('f6', 'wb2');
-
     calculateMoves(boardState);
-
     return boardState;
 }
 
 export function getDefaultBoard(): BoardState {
     const boardState = new BoardState();
+    boardState.initialize([
+        [a1, whiteQueensideRook],
+        [b1, whiteQueensideKnight],
+        [c1, whiteQueensideBishop],
+        [d1, whiteQueen],
+        [e1, whiteKing],
+        [f1, whiteKingsideBishop],
+        [g1, whiteKingsideKnight],
+        [h1, whiteKingsideRook],
 
-    boardState.setPiece('a1', 'wr1');
-    boardState.setPiece('b1', 'wn1');
-    boardState.setPiece('c1', 'wb1');
-    boardState.setPiece('d1', 'wq1');
-    boardState.setPiece('e1', 'wk1');
-    boardState.setPiece('f1', 'wb2');
-    boardState.setPiece('g1', 'wn2');
-    boardState.setPiece('h1', 'wr2');
+        [a2, whitePawn1],
+        [b2, whitePawn2],
+        [c2, whitePawn3],
+        [d2, whitePawn4],
+        [e2, whitePawn5],
+        [f2, whitePawn6],
+        [g2, whitePawn7],
+        [h2, whitePawn8],
 
-    boardState.setPiece('a2', 'wp1');
-    boardState.setPiece('b2', 'wp2');
-    boardState.setPiece('c2', 'wp3');
-    boardState.setPiece('d2', 'wp4');
-    boardState.setPiece('e2', 'wp5');
-    boardState.setPiece('f2', 'wp6');
-    boardState.setPiece('g2', 'wp7');
-    boardState.setPiece('h2', 'wp8');
+        [a8, blackQueensideRook],
+        [b8, blackQueensideKnight],
+        [c8, blackQueensideBishop],
+        [d8, blackQueen],
+        [e8, blackKing],
+        [f8, blackKingsideBishop],
+        [g8, blackKingsideKnight],
+        [h8, blackKingsideRook],
 
-    boardState.setPiece('a8', 'br1');
-    boardState.setPiece('b8', 'bn1');
-    boardState.setPiece('c8', 'bb1');
-    boardState.setPiece('d8', 'bq1');
-    boardState.setPiece('e8', 'bk1');
-    boardState.setPiece('f8', 'bb2');
-    boardState.setPiece('g8', 'bn2');
-    boardState.setPiece('h8', 'br2');
+        [a7, blackPawn1],
+        [b7, blackPawn2],
+        [c7, blackPawn3],
+        [d7, blackPawn4],
+        [e7, blackPawn5],
+        [f7, blackPawn6],
+        [g7, blackPawn7],
+        [h7, blackPawn8],
+    ])
 
-    boardState.setPiece('a7', 'bp1');
-    boardState.setPiece('b7', 'bp2');
-    boardState.setPiece('c7', 'bp3');
-    boardState.setPiece('d7', 'bp4');
-    boardState.setPiece('e7', 'bp5');
-    boardState.setPiece('f7', 'bp6');
-    boardState.setPiece('g7', 'bp7');
-    boardState.setPiece('h7', 'bp8');
+    updateMoves(boardState, true);
+    // calculateMoves(boardState);
 
-    calculateMoves(boardState);
-
+    // console.log(boardState);
     return boardState;
 }
 
@@ -130,60 +122,100 @@ function cloneSolution(solution: Solution): Solution {
     };
 }
 
-export function calculateMoves(boardState: BoardState): void {
-    for (const sourceSquareId of squareIds) {
-        const pieceState = boardState.getPiece(sourceSquareId);
-        if (pieceState) {
-            pieceState.setCaptureMoves([])
-            pieceState.setValidMoves([])
-            const validMoves: SquareId[] = [];
-            switch (pieceState.pieceInfo.pieceName) {
-                case 'p':
-                    validMoves.push(...getValidPawnMoves(boardState, sourceSquareId, pieceState.pieceInfo));
-                    break;
-                case 'r':
-                    validMoves.push(...getValidRookMoves(boardState, sourceSquareId, pieceState.pieceInfo));
-                    break;
-                case 'n':
-                    validMoves.push(...getValidKnightMoves(boardState, sourceSquareId, pieceState.pieceInfo));
-                    break;
-                case 'b':
-                    validMoves.push(...getValidBishopMoves(boardState, sourceSquareId, pieceState.pieceInfo));
-                    break;
-                case 'q':
-                    validMoves.push(...getValidQueenMoves(boardState, sourceSquareId, pieceState.pieceInfo));
-                    break;
-                case 'k':
-                    validMoves.push(...getValidKingMoves(boardState, sourceSquareId, pieceState.pieceInfo));
-                    break;
-                default:
-                    break;
-            }
-            for (const targetSquareId of validMoves) {
+export function areKingsInCheck(boardState: BoardState): { white: boolean, black: boolean } {
+    const checks = {
+        white: false,
+        black: false
+    }
 
-                // pawns are special, if not straight move, then it must be a capture
-                if (pieceState.pieceInfo.pieceName === 'p') {
+    const whiteKingSquareId = boardState.whiteKingSquareId;
+    if (whiteKingSquareId) {
+        for (const sourceSquareId of squareIds) {
+            const pieceState = boardState.getPiece(sourceSquareId);
+            if (pieceState && pieceState.pieceInfo.colorName === 'b') {
+                // if (pieceState.pieceInfo.pieceName === 'q') {
+                //     console.log(`White king is at ${whiteKingSquareId}`);
+                //     console.log(`Checking ${pieceState.pieceInfo.id} at ${sourceSquareId}`);
+                //     console.log(`Valid moves: ${pieceState.validMoveSquareIds}`);
+                // }
 
-                    const sourceSquareInfo = toSquareInfo(sourceSquareId);
-                    const targetSquareInfo = toSquareInfo(targetSquareId);
-
-                    if (sourceSquareInfo.fileName !== targetSquareInfo.fileName) {
-                        pieceState.setCaptureMoves([...pieceState.getCaptureMoves(), targetSquareId]);
-                    } else {
-                        pieceState.setValidMoves([...pieceState.getValidMoves(), targetSquareId]);
-                    }
-                } else {
-                    const targetPieceState = boardState.getPiece(targetSquareId);
-                    if (targetPieceState && targetPieceState.pieceInfo.colorName !== pieceState.pieceInfo.colorName) {
-                        pieceState.setCaptureMoves([...pieceState.getCaptureMoves(), targetSquareId]);
-                    } else {
-                        pieceState.setValidMoves([...pieceState.getValidMoves(), targetSquareId]);
-                    }
+                if (pieceState.validMoveSquareIds.includes(whiteKingSquareId)) {
+                    // console.log(`white king ${whiteKingSquareId} in check by valid move by ${pieceState.pieceInfo.id} at ${sourceSquareId}`);
+                    checks.white = true;
                 }
             }
         }
     }
-    // console.log(boardState);
+
+    const blackKingSquareId = boardState.blackKingSquareId;
+    if (blackKingSquareId) {
+        for (const sourceSquareId of squareIds) {
+            const pieceState = boardState.getPiece(sourceSquareId);
+            if (pieceState && pieceState.pieceInfo.colorName === 'w') {
+                if (pieceState.validMoveSquareIds.includes(blackKingSquareId)) {
+                    // console.log(`black king ${blackKingSquareId} in check by valid move by ${pieceState.pieceInfo.id} at ${sourceSquareId}`);
+                    checks.black = true;
+                }
+            }
+        }
+    }
+
+    if (checks.black || checks.white) {
+        console.log(checks);
+    }
+    return checks;
+}
+
+// Add this new function
+function simulateMovePiece(boardState: BoardState, sourceSquareId: SquareId, targetSquareId: SquareId): BoardState {
+    const clonedBoardState = boardState.clone();
+    // Temporarily set the turn to match the moving piece's color
+    const movingPiece = clonedBoardState.getPiece(sourceSquareId);
+    if (movingPiece) {
+        clonedBoardState.whitesTurn = movingPiece.pieceInfo.colorName === 'w';
+    }
+    // Perform the full move
+    const resultBoard = movePiece(clonedBoardState, sourceSquareId, targetSquareId, false);
+    // Reset the turn to the original state
+    resultBoard.whitesTurn = boardState.whitesTurn;
+    return resultBoard;
+}
+
+export function calculateMoves(boardState: BoardState): [SquareId, SquareId[]][] {
+
+    const allPossibleMoves: [SquareId, SquareId[]][] = [];
+    for (const sourceSquareId of squareIds) {
+        const pieceState = boardState.getPiece(sourceSquareId);
+        if (pieceState) {
+            let possibleMoves: SquareId[] = [];
+            switch (pieceState.pieceInfo.pieceName) {
+                case 'p':
+                    possibleMoves = getValidPawnMoves(boardState, sourceSquareId, pieceState.pieceInfo);
+                    break;
+                case 'r':
+                    possibleMoves = getValidRookMoves(boardState, sourceSquareId, pieceState.pieceInfo);
+                    break;
+                case 'n':
+                    possibleMoves = getValidKnightMoves(boardState, sourceSquareId, pieceState.pieceInfo);
+                    break;
+                case 'b':
+                    possibleMoves = getValidBishopMoves(boardState, sourceSquareId, pieceState.pieceInfo);
+                    break;
+                case 'q':
+                    possibleMoves = getValidQueenMoves(boardState, sourceSquareId, pieceState.pieceInfo);
+                    console.log(`Valid moves for ${pieceState.pieceInfo.id} at ${sourceSquareId}:`, possibleMoves);
+                    break;
+                case 'k':
+                    possibleMoves = getValidKingMoves(boardState, sourceSquareId, pieceState.pieceInfo);
+                    break;
+                default:
+                    break;
+            }
+            allPossibleMoves.push([sourceSquareId, possibleMoves]);
+        }
+    }
+
+    return allPossibleMoves;
 }
 
 function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo: PieceInfo): SquareId[] {
@@ -264,7 +296,7 @@ function getValidPawnMoves(boardState: BoardState, squareId: SquareId, pieceInfo
             validMoves.push(enPassantSquareId);
         }
     }
-    
+
     return validMoves;
 }
 
@@ -426,9 +458,55 @@ function getValidKingMoves(boardState: BoardState, squareId: SquareId, pieceInfo
         { dx: -1, dy: 1 }, // up-left
         { dx: -1, dy: -1 }, // down-left
     ];
-    return candidates.flatMap(dir =>
+    const targetSquarIds = candidates.flatMap(dir =>
         getMovesFromCandidates(boardState, fileIndex, rankIndex, dir.dx, dir.dy, pieceInfo.colorName)
     );
+
+    // Check for castling
+    if (pieceInfo.colorName === 'w') {
+
+        // can king castle
+        if (squareId === 'e1' && !boardState.hasPieceMoved(whiteKing)) {
+
+            // can king side rook castle
+            const kingsideRook = boardState.getPiece('h1');
+            if (kingsideRook && kingsideRook.pieceInfo.pieceName === 'r' && !boardState.hasPieceMoved(whiteKingsideRook)) {
+                if (!boardState.getPiece('f1') && !boardState.getPiece('g1')) {
+                    targetSquarIds.push('g1');
+                }
+            }
+
+            // can queen side rook castle
+            const queensideRook = boardState.getPiece('a1');
+            if (queensideRook && queensideRook.pieceInfo.pieceName === 'r' && !boardState.hasPieceMoved(whiteQueensideRook)) {
+                if (!boardState.getPiece('b1') && !boardState.getPiece('c1') && !boardState.getPiece('d1')) {
+                    targetSquarIds.push('c1');
+                }
+            }
+        }
+    } else if (pieceInfo.colorName === 'b') {
+
+        // can king castle
+        if (squareId === 'e8' && !boardState.hasPieceMoved(blackKing)) {
+
+            // can king side rook castle
+            const kingsideRook = boardState.getPiece('h8');
+            if (kingsideRook && kingsideRook.pieceInfo.pieceName === 'r' && !boardState.hasPieceMoved(blackKingsideRook)) {
+                if (!boardState.getPiece('f8') && !boardState.getPiece('g8')) {
+                    targetSquarIds.push('g8');
+                }
+            }
+
+            // can queen side rook castle
+            const queensideRook = boardState.getPiece('a8');
+            if (queensideRook && queensideRook.pieceInfo.pieceName === 'r' && !boardState.hasPieceMoved(blackQueensideRook)) {
+                if (!boardState.getPiece('b8') && !boardState.getPiece('c8') && !boardState.getPiece('d8')) {
+                    targetSquarIds.push('c8');
+                }
+            }
+        }
+    }
+    return targetSquarIds;
 }
 
 
@@ -564,8 +642,9 @@ function putPieces(initialSolution: Solution): Solution | undefined {
         console.log(`trying ${pieceId} at ${squareId}`);
         // check if this position is valid for the piece
         if (isValidPosition(suggestedSolution.boardState, pieceId, squareId)) {
+
             // all good, put the piece on the board
-            suggestedSolution.boardState.setPiece(squareId, pieceId);
+            suggestedSolution.boardState.putPiece(squareId, new PieceState(pieceId));
 
             // continue with the rest of the pieces
             const solvedSolution = putPieces(suggestedSolution);
@@ -585,73 +664,156 @@ function putPieces(initialSolution: Solution): Solution | undefined {
     return undefined;
 }
 
-export function movePiece(boardState: BoardState, sourceSquareId: SquareId, targetSquareId: SquareId): BoardState {
+export function movePiece(boardState: BoardState, sourceSquareId: SquareId, targetSquareId: SquareId, recalculateMoves: boolean = true): BoardState {
     const clonedBoardState = boardState.clone();
 
-    if (boardState.getPiece(sourceSquareId)?.pieceInfo.colorName === 'w' && !boardState.isWhitesTurn()) {
+    if (clonedBoardState.getPiece(sourceSquareId)?.pieceInfo.colorName === 'w' && !clonedBoardState.whitesTurn) {
         throw new Error(`It's not whites move`);
-      }
-      if (boardState.getPiece(sourceSquareId)?.pieceInfo.colorName === 'b' && boardState.isWhitesTurn()) {
+    }
+    if (clonedBoardState.getPiece(sourceSquareId)?.pieceInfo.colorName === 'b' && clonedBoardState.whitesTurn) {
         throw new Error(`It's not blacks move`);
-      }
-  
-      // get the piece
-      const piece = boardState.getPiece(sourceSquareId);
-      if (!piece) {
+    }
+
+    // get the piece
+    const piece = clonedBoardState.getPiece(sourceSquareId);
+    if (!piece) {
         throw new Error(`No piece at ${sourceSquareId}`);
-      }
-  
-      // check if the move is valid
-      if (!piece.getValidMoves().includes(targetSquareId) && !piece.getCaptureMoves().includes(targetSquareId)) {
+    }
+
+    // check if the move is valid
+    if (!piece.validMoveSquareIds.includes(targetSquareId)) {
         throw new Error(`Piece ${piece.pieceInfo.colorName}${piece.pieceInfo.pieceName}${piece.pieceInfo.number} cannot move from ${sourceSquareId} to ${targetSquareId}`);
-      }
-  
-      const sourceSquare = toSquareInfo(sourceSquareId);
-      const sourceFileIndex = files.indexOf(sourceSquare.fileName);
-      const sourceRankIndex = ranks.indexOf(sourceSquare.rankName);
-      const targetSquare = toSquareInfo(targetSquareId);
-      const targetFileIndex = files.indexOf(targetSquare.fileName);
-      const targetRankIndex = ranks.indexOf(targetSquare.rankName);
-      const targetPieceState = boardState.getPiece(targetSquareId);
-  
-      // check if en passant move
-      if (piece.pieceInfo.pieceName === 'p') {
-  
+    }
+
+    const sourceSquare = toSquareInfo(sourceSquareId);
+    const sourceFileIndex = files.indexOf(sourceSquare.fileName);
+    const sourceRankIndex = ranks.indexOf(sourceSquare.rankName);
+    const targetSquare = toSquareInfo(targetSquareId);
+    const targetFileIndex = files.indexOf(targetSquare.fileName);
+    const targetRankIndex = ranks.indexOf(targetSquare.rankName);
+    const targetPieceState = clonedBoardState.getPiece(targetSquareId);
+
+    // capture pieces
+    if (targetPieceState) {
+        console.log(`capture move ${targetSquareId}`);
+        clonedBoardState.capturePiece(targetPieceState.pieceInfo.id);
+    }
+
+    // move the piece
+    clonedBoardState.movePiece(sourceSquareId, targetSquareId);
+
+    // check if en passant move
+    if (piece.pieceInfo.pieceName === 'p') {
+
         // check if diagonal move and target is empty
         if (sourceSquare.fileName !== targetSquare.fileName && targetPieceState === null) {
-  
-          const enPassantTargetFileIndex = targetFileIndex;
-          const enPassantTargetRankIndex = ranks.indexOf(targetSquare.rankName === '3' ? '4' : '5');
-          const enPassantTargetSquareId = toSquareId(enPassantTargetFileIndex, enPassantTargetRankIndex);
-          const enPassantPieceState = boardState.getPiece(enPassantTargetSquareId);
-  
-          // remove any piece that is captured on the en passant target square
-          if (enPassantPieceState) {
-  
-            clonedBoardState.pushPieceId(enPassantPieceState.pieceInfo.id);
-            clonedBoardState.putPiece(toSquareId(enPassantTargetFileIndex, enPassantTargetRankIndex), null);
-          }
+
+            const enPassantTargetFileIndex = targetFileIndex;
+            const enPassantTargetRankIndex = ranks.indexOf(targetSquare.rankName === '3' ? '4' : '5');
+            const enPassantTargetSquareId = toSquareId(enPassantTargetFileIndex, enPassantTargetRankIndex);
+            const enPassantPieceState = clonedBoardState.getPiece(enPassantTargetSquareId);
+
+            // remove any piece that is captured on the en passant target square
+            if (enPassantPieceState) {
+                clonedBoardState.capturePiece(enPassantPieceState.pieceInfo.id);
+            }
         }
     }
 
-    // remove any piece that is captured on the target square
-    if (targetPieceState) {
-        clonedBoardState.pushPieceId(targetPieceState.pieceInfo.id);
-        clonedBoardState.putPiece(toSquareId(targetFileIndex, targetRankIndex), null);
+    // check if castle move
+    if (piece.pieceInfo.pieceName === 'k' && Math.abs(sourceFileIndex - targetFileIndex) === 2) {
+        // castle kingside
+        if (targetFileIndex === 6) {
+            // move rook
+            clonedBoardState.movePiece(toSquareId(7, sourceRankIndex), toSquareId(5, sourceRankIndex));
+        }
+
+        // castle queenside
+        if (targetFileIndex === 2) {
+            // move rook
+            clonedBoardState.movePiece(toSquareId(0, sourceRankIndex), toSquareId(3, sourceRankIndex));
+        }
     }
-
-    // remove the piece from the source square
-    clonedBoardState.putPiece(toSquareId(sourceFileIndex, sourceRankIndex), null);
-
-    // set the piece on the board (remove previous)
-    clonedBoardState.putPiece(toSquareId(targetFileIndex, targetRankIndex), piece);
 
     // remember the move
     clonedBoardState.setLastMove(sourceSquareId, targetSquareId);
 
-    calculateMoves(clonedBoardState);
+    const checks = areKingsInCheck(boardState);
+    boardState.whiteKingInCheck = checks.white;
+    boardState.blackKingInCheck = checks.black;
+    console.log(`white king in check: ${boardState.whiteKingInCheck}`);
+    console.log(`black king in check: ${boardState.blackKingInCheck}`);
 
-    clonedBoardState.setIsWhitesTurn(!boardState.isWhitesTurn());
+    updateMoves(clonedBoardState, recalculateMoves);
+
+    clonedBoardState.whitesTurn = !boardState.whitesTurn;
 
     return clonedBoardState;
+}
+
+export function updateMoves(boardState: BoardState, recalculateMoves: boolean = true): void {
+
+    // check if the move puts the king in check
+    if (recalculateMoves) {
+        const initialBoardState = boardState.clone();
+        const allPossibleMoves = calculateMoves(boardState);
+        console.log("all possible moves");
+        console.log(allPossibleMoves);
+
+        // invalidate all moves
+        for (const squareId of squareIds) {
+            const pieceState = boardState.getPiece(squareId);
+            if (pieceState) {
+                pieceState.validMoveSquareIds = [];
+            }
+        }
+
+        // set all valid moves initially
+        for (const possibleMoves of allPossibleMoves) {
+            const [sourceSquareId, targetSquareIds] = possibleMoves;
+            const pieceState = initialBoardState.getPiece(sourceSquareId);
+            if (!pieceState) {
+                throw new Error(`No piece at ${sourceSquareId}`);
+            }
+            pieceState.validMoveSquareIds = targetSquareIds;
+        }
+        console.log("initial board state");
+        console.log(initialBoardState);
+
+        // try out all moves and test for check
+
+        for (const possibleMoves of allPossibleMoves) {
+            const [sourceSquareId, targetSquareIds] = possibleMoves;
+            const pieceState = boardState.getPiece(sourceSquareId);
+            if (!pieceState) {
+                throw new Error(`No piece at ${sourceSquareId}`);
+            }
+            for (const targetSquareId of targetSquareIds) {
+                const clonedBoardState = initialBoardState.clone();
+                const simulatesBoardState = simulateMovePiece(clonedBoardState, sourceSquareId, targetSquareId);
+                console.log(`simulated move ${sourceSquareId} ${targetSquareId} ${simulatesBoardState.whiteKingInCheck} ${simulatesBoardState.blackKingInCheck}`);
+                if (simulatesBoardState.whiteKingInCheck) {
+                    console.log(`move ${sourceSquareId} ${targetSquareId} puts white king in check`);
+                } else if (simulatesBoardState.blackKingInCheck) {
+                    console.log(`move ${sourceSquareId} ${targetSquareId} puts black king in check`);
+                } else {
+                    pieceState.validMoveSquareIds.push(targetSquareId);
+                }
+            }
+            // pieceState.validMoveSquareIds = []
+            // for (const targetSquareId of targetSquareIds) {
+            //     console.log(`${sourceSquareId} ${targetSquareId}`);
+            //     const clonedBoardState = initialBoardState.clone();
+            //     const simulatesBoardState = simulateMovePiece(clonedBoardState, sourceSquareId, targetSquareId);
+            //     console.log(`simulated move ${sourceSquareId} ${targetSquareId} ${simulatesBoardState.whiteKingInCheck} ${simulatesBoardState.blackKingInCheck}`);
+            //     if (simulatesBoardState.whiteKingInCheck) {
+            //         console.log(`move ${sourceSquareId} ${targetSquareId} puts white king in check`);
+            //     } else if (simulatesBoardState.blackKingInCheck) {
+            //         console.log(`move ${sourceSquareId} ${targetSquareId} puts black king in check`);
+            //     } else {
+            //         pieceState.validMoveSquareIds.push(targetSquareId);
+            //     }
+            // }
+        }
+    }
 }

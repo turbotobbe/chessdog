@@ -1,32 +1,14 @@
-import { Autocomplete, Box, Button, CircularProgress, IconButton, Paper, SxProps, Tab, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tabs, TextareaAutosize, TextField, Typography, useColorScheme, useTheme } from '@mui/material';
+import { Autocomplete, Box, Button, CircularProgress, IconButton, Paper, SxProps, Tab, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tabs, TextField, Typography, useTheme } from '@mui/material';
 import React, { useEffect, useState } from 'react';
-import FlipIcon from '@mui/icons-material/Flip';
-import FirstPageIcon from '@mui/icons-material/FirstPage';
-import LastPageIcon from '@mui/icons-material/LastPage';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 
 import UploadFileIcon from '@mui/icons-material/UploadFile';
-import RestartAltIcon from '@mui/icons-material/RestartAlt';
 import DeleteIcon from '@mui/icons-material/Delete';
-import LightModeIcon from '@mui/icons-material/LightMode';
-import wp from '../assets/wp.png';
-import wr from '../assets/wr.png';
-import wn from '../assets/wn.png';
-import wb from '../assets/wb.png';
-import wq from '../assets/wq.png';
-import wk from '../assets/wk.png';
-import bp from '../assets/bp.png';
-import br from '../assets/br.png';
-import bn from '../assets/bn.png';
-import bb from '../assets/bb.png';
-import bq from '../assets/bq.png';
-import bk from '../assets/bk.png';
 import { ChessComGame } from '@/types/chess';
 
 import titledPlayers from '../assets/titled_players.json';
-import { parsePgn, PgnMove } from '@/utils/pgn';
-import AnalysisSourceComponent from '@/components/AnalysisSourceComponent';
+import { parsePgn, PgnTurn } from '@/utils/pgn';
 import BoardPaperEl from '@/components/BoardPaperEl';
 
 const loggedInUser = 'PhonkCheck'
@@ -249,7 +231,7 @@ const PgnSource: React.FC<{ sx?: SxProps }> = ({ sx }) => {
 //         </Box>
 //     )
 // }
-const AnalysisBody: React.FC<{ sx?: SxProps, setMoves: (moves: PgnMove[]) => void }> = ({ sx, setMoves }) => {
+const AnalysisBody: React.FC<{ sx?: SxProps, setMoves: (moves: PgnTurn[]) => void }> = ({ sx, setMoves }) => {
     const [open, setOpen] = useState(false);
     const [options, setOptions] = useState<string[]>([]);
     const [loading, setLoading] = useState(false);
@@ -340,7 +322,7 @@ const AnalysisBody: React.FC<{ sx?: SxProps, setMoves: (moves: PgnMove[]) => voi
             if (pgnTextField) {
                 pgnTextField.value = selectedGame.pgn;
                 const moves = parsePgn(selectedGame.pgn);
-                setMoves(moves);
+                setMoves(moves.turns);
             }
         } else {
             setMoves([]);
@@ -530,7 +512,7 @@ const AnalysisFooter: React.FC<{ sx?: SxProps }> = ({ sx }) => {
 
 
 
-const AnalysisComponent: React.FC<{ setMoves: (moves: PgnMove[]) => void }> = ({ setMoves }) => {
+const AnalysisComponent: React.FC<{ setMoves: (moves: PgnTurn[]) => void }> = ({ setMoves }) => {
     return (
         <Paper className='analysis-paper'
             elevation={1}
@@ -560,7 +542,7 @@ const AnalysisComponent: React.FC<{ setMoves: (moves: PgnMove[]) => void }> = ({
 
 const BrowserAnalysisPage: React.FC = () => {
     const theme = useTheme();
-    const [moves, setMoves] = useState<PgnMove[]>([]);
+    const [moves, setMoves] = useState<PgnTurn[]>([]);
     return (
         <Box
             sx={{

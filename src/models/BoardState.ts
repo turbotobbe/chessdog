@@ -1,148 +1,95 @@
 import { toPieceInfo, toSquareInfo } from "@/utils/board";
-
-export type ColorName = 'w' | 'b';
-export type PieceName = 'k' | 'q' | 'r' | 'b' | 'n' | 'p';
-export type FileName = 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h';
-export type RankName = '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8';
-
-export type PieceId =
-  'wk1' | 'wq1' | 'wr1' | 'wr2' | 'wn1' | 'wn2' | 'wb1' | 'wb2' | 'wp1' | 'wp2' | 'wp3' | 'wp4' | 'wp5' | 'wp6' | 'wp7' | 'wp8' |
-  'bk1' | 'bq1' | 'br1' | 'br2' | 'bn1' | 'bn2' | 'bb1' | 'bb2' | 'bp1' | 'bp2' | 'bp3' | 'bp4' | 'bp5' | 'bp6' | 'bp7' | 'bp8';
-
-export type SquareId =
-  'a1' | 'a2' | 'a3' | 'a4' | 'a5' | 'a6' | 'a7' | 'a8' |
-  'b1' | 'b2' | 'b3' | 'b4' | 'b5' | 'b6' | 'b7' | 'b8' |
-  'c1' | 'c2' | 'c3' | 'c4' | 'c5' | 'c6' | 'c7' | 'c8' |
-  'd1' | 'd2' | 'd3' | 'd4' | 'd5' | 'd6' | 'd7' | 'd8' |
-  'e1' | 'e2' | 'e3' | 'e4' | 'e5' | 'e6' | 'e7' | 'e8' |
-  'f1' | 'f2' | 'f3' | 'f4' | 'f5' | 'f6' | 'f7' | 'f8' |
-  'g1' | 'g2' | 'g3' | 'g4' | 'g5' | 'g6' | 'g7' | 'g8' |
-  'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'h7' | 'h8';
-
-export type SquareInfo = {
-  id: SquareId;
-  fileName: FileName;
-  rankName: RankName;
-}
-
-export type PieceInfo = {
-  id: PieceId;
-  colorName: ColorName;
-  pieceName: PieceName;
-  number: number;
-}
-
-export const files: FileName[] = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
-export const ranks: RankName[] = ['1', '2', '3', '4', '5', '6', '7', '8'];
-
-export const pieceIds: PieceId[] = [
-  'wk1', 'wq1', 'wr1', 'wr2', 'wn1', 'wn2', 'wb1', 'wb2', 'wp1', 'wp2', 'wp3', 'wp4', 'wp5', 'wp6', 'wp7', 'wp8',
-  'bk1', 'bq1', 'br1', 'br2', 'bn1', 'bn2', 'bb1', 'bb2', 'bp1', 'bp2', 'bp3', 'bp4', 'bp5', 'bp6', 'bp7', 'bp8',
-];
-
-export const squareIds: SquareId[] = [
-  'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8',
-  'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7', 'b8',
-  'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8',
-  'd1', 'd2', 'd3', 'd4', 'd5', 'd6', 'd7', 'd8',
-  'e1', 'e2', 'e3', 'e4', 'e5', 'e6', 'e7', 'e8',
-  'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8',
-  'g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'g7', 'g8',
-  'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'h7', 'h8',
-];
-
-export const lightSquareIds: SquareId[] = [
-  'a2', 'a4', 'a6', 'a8',
-  'b1', 'b3', 'b5', 'b7',
-  'c2', 'c4', 'c6', 'c8',
-  'd1', 'd3', 'd5', 'd7',
-  'e2', 'e4', 'e6', 'e8',
-  'f1', 'f3', 'f5', 'f7',
-  'g2', 'g4', 'g6', 'g8',
-  'h1', 'h3', 'h5', 'h7',
-];
-
-export const darkSquareIds: SquareId[] = [
-  'a1', 'a3', 'a5', 'a7',
-  'b2', 'b4', 'b6', 'b8',
-  'c1', 'c3', 'c5', 'c7',
-  'd2', 'd4', 'd6', 'd8',
-  'e1', 'e3', 'e5', 'e7',
-  'f2', 'f4', 'f6', 'f8',
-  'g1', 'g3', 'g5', 'g7',
-  'h2', 'h4', 'h6', 'h8',
-];
-
-export const pieceFullNames: Record<PieceName, string> = {
-  'k': 'king',
-  'q': 'queen',
-  'r': 'rook',
-  'b': 'bishop',
-  'n': 'knight',
-  'p': 'pawn'
-};
+import { SquareId, PieceId, PieceInfo, files, pieceIds, ranks } from "@/types/chess";
 
 export class PieceState {
-  pieceInfo: PieceInfo;
-  validMoveSquareIds: SquareId[] = [];
-  captureMoveSquareIds: SquareId[] = [];
+  public pieceInfo: PieceInfo;
+  public validMoveSquareIds: SquareId[] = [];
+
   constructor(pieceId: PieceId) {
     this.pieceInfo = toPieceInfo(pieceId);
-  }
-
-  setValidMoves(moveToSquareIds: SquareId[]): void {
-    this.validMoveSquareIds = [...moveToSquareIds];
-  }
-
-  getValidMoves(): SquareId[] {
-    return [...this.validMoveSquareIds];
-  }
-
-  setCaptureMoves(captureMoveSquareIds: SquareId[]): void {
-    this.captureMoveSquareIds = [...captureMoveSquareIds];
-  }
-
-  getCaptureMoves(): SquareId[] {
-    return [...this.captureMoveSquareIds];
   }
 
   clone(): PieceState {
     const piece = new PieceState(this.pieceInfo.id);
     piece.validMoveSquareIds = [...this.validMoveSquareIds];
-    piece.captureMoveSquareIds = [...this.captureMoveSquareIds];
     return piece;
   }
 }
 
 export class BoardState {
 
-  private whitesTurn: boolean = true;
+  public whitesTurn: boolean = true;
+  public whiteKingSquareId: SquareId | null = null;
+  public blackKingSquareId: SquareId | null = null;
+  public hasMoved: PieceId[] = [];
 
-  private pieceIds: PieceId[] = [...pieceIds];
+  public whiteKingInCheck: boolean = false;
+  public blackKingInCheck: boolean = false;
+
+  private inactivePieceIds: PieceId[] = [...pieceIds];
   private board: (PieceState | null)[][] = Array.from({ length: 8 }, () => Array(8).fill(null));
   private lastMove: { sourceSquareId: SquareId, targetSquareId: SquareId } | null = null;
 
   constructor() {
-
+    // Remove this console.log statement
+    // console.log('----------');
+    // console.log(this.inactivePieceIds);
+    // console.log('----------');
   }
 
-  setIsWhitesTurn(whitesTurn: boolean): void {
-    this.whitesTurn = whitesTurn;
+  addMovedPiece(pieceId: PieceId): void {
+    if (!this.hasMoved.includes(pieceId)) {
+      this.hasMoved.push(pieceId);
+    }
   }
 
-  isWhitesTurn(): boolean {
-    return this.whitesTurn;
+  hasPieceMoved(pieceId: PieceId): boolean {
+    return this.hasMoved.includes(pieceId);
   }
 
-  pushPieceId(pieceId: PieceId): void {
-    this.pieceIds.push(pieceId);
+  updateKingSquareIds(pieceState: PieceState | null, squareId: SquareId): void {
+    if (pieceState?.pieceInfo.pieceName === 'k') {
+      if (pieceState.pieceInfo.colorName === 'w') {
+        this.whiteKingSquareId = squareId;
+      } else {
+        this.blackKingSquareId = squareId;
+      }
+    }
+  }
+  capturePiece(pieceId: PieceId): void {
+
+    // find and remove the piece from the board
+    for (let rankIndex = 0; rankIndex < 8; rankIndex++) {
+      for (let fileIndex = 0; fileIndex < 8; fileIndex++) {
+        const piece = this.board[rankIndex][fileIndex];
+        if (piece?.pieceInfo.id === pieceId) {
+          this.board[rankIndex][fileIndex] = null;
+          this.inactivePieceIds.push(pieceId);
+          return;
+        }
+      }
+    }
+    throw new Error(`Piece ${pieceId} not found on board!`);
   }
 
+  movePiece(sourceSquareId: SquareId, targetSquareId: SquareId): void {
+    const sourcePieceState = this.getPiece(sourceSquareId);
+    if (!sourcePieceState) {
+      throw new Error(`Piece ${sourceSquareId} not found on board!`);
+    }
+    this.putPiece(targetSquareId, sourcePieceState);
+    this.putPiece(sourceSquareId, null);
+    this.addMovedPiece(sourcePieceState.pieceInfo.id);
+    this.updateKingSquareIds(sourcePieceState, targetSquareId);
+  }
+  
   putPiece(squareId: SquareId, pieceState: PieceState | null): void {
     const square = toSquareInfo(squareId);
     const fileIndex = files.indexOf(square.fileName);
     const rankIndex = ranks.indexOf(square.rankName);
     this.board[rankIndex][fileIndex] = pieceState;
+    this.inactivePieceIds = this.inactivePieceIds.filter(id => id !== pieceState?.pieceInfo.id);
+    this.updateKingSquareIds(pieceState, squareId);
   }
 
   getLastMove(): { sourceSquareId: SquareId, targetSquareId: SquareId } | null {
@@ -153,20 +100,27 @@ export class BoardState {
     this.lastMove = { sourceSquareId, targetSquareId };
   }
 
-  setPiece(squareId: SquareId, pieceId: PieceId): void {
+  initialize(squareIdToPieceId: [SquareId, PieceId][]): void {
+    for (const [squareId, pieceId] of squareIdToPieceId) {
+      // Remove this console.log statement
+      // console.log(squareId, pieceId, this.inactivePieceIds);
+      const pieceIndex = this.inactivePieceIds.indexOf(pieceId);
+      if (pieceIndex === -1) {
+        console.error(`Piece ${pieceId} not found in inactivePieceIds:`, this.inactivePieceIds);
+        throw new Error(`Piece ${pieceId} not found`);
+      }
+      // activate the piece
+      this.inactivePieceIds.splice(pieceIndex, 1);
 
-    // get pieces from unused pieces
-    const pieceIndex = this.pieceIds.indexOf(pieceId);
-    if (pieceIndex === -1) {
-      throw new Error(`Piece ${pieceId} not found`);
+      // set piece on board
+      const square = toSquareInfo(squareId as SquareId);
+      const fileIndex = files.indexOf(square.fileName);
+      const rankIndex = ranks.indexOf(square.rankName);
+      const pieceState  = new PieceState(pieceId);
+      this.board[rankIndex][fileIndex] = pieceState;
+
+      this.updateKingSquareIds(pieceState, squareId);
     }
-    this.pieceIds.splice(pieceIndex, 1);
-
-    // set piece on board
-    const square = toSquareInfo(squareId);
-    const fileIndex = files.indexOf(square.fileName);
-    const rankIndex = ranks.indexOf(square.rankName);
-    this.board[rankIndex][fileIndex] = new PieceState(pieceId);
   }
 
   getPiece(squareId: SquareId): PieceState | null {
@@ -176,16 +130,17 @@ export class BoardState {
     return this.board[rankIndex][fileIndex];
   }
 
-  clearBoard(): void {
-    this.pieceIds = { ...pieceIds };
-    this.board = Array.from({ length: 8 }, () => Array(8).fill(null));
-  }
-
   clone(): BoardState {
     const state = new BoardState();
-    state.pieceIds = [...this.pieceIds];
+    state.inactivePieceIds = [...this.inactivePieceIds];
     state.board = this.board.map(row => row.map(piece => piece?.clone() ?? null));
-    state.whitesTurn = this.isWhitesTurn();
+    state.whitesTurn = this.whitesTurn;
+    state.hasMoved = [...this.hasMoved];
+    state.lastMove = this.lastMove ? { ...this.lastMove } : null;
+    state.whiteKingSquareId = this.whiteKingSquareId;
+    state.blackKingSquareId = this.blackKingSquareId;
+    state.whiteKingInCheck = this.whiteKingInCheck;
+    state.blackKingInCheck = this.blackKingInCheck;
     return state;
   }
 

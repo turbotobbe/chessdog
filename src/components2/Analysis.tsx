@@ -203,7 +203,7 @@ const Analysis: React.FC = () => {
                         p: 2
                     }}>
 
-                    <BoardEl boardState={boardStates[currentBoardStateIndex]} asWhite={asWhite} movePiece={handleMovePiece} />
+                    <BoardEl chessGameState={boardStates[currentBoardStateIndex]} asWhite={asWhite} movePiece={handleMovePiece} />
 
                 </Paper>
 

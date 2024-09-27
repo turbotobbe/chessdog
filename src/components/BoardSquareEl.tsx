@@ -1,18 +1,20 @@
-import { BoardState, lightSquareIds, SquareId } from "@/models/BoardState"
+import { BoardState } from "@/models/BoardState"
 import { Box } from "@mui/material"
 import { useDrop } from "react-dnd"
 import BoardPieceEl from "./BoardPieceEl"
+import { SquareId, lightSquareIds } from "@/types/chess"
+import { ChessGameState } from "@/models/chess"
 
 type BoardSquareElProps = {
     squareId: SquareId,
-    boardState: BoardState,
+    chessGameState: ChessGameState,
     movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId) => void
 }
 
 
 const BoardSquareEl: React.FC<BoardSquareElProps> = ({
     squareId,
-    boardState,
+    chessGameState,
     movePiece,
 }) => {
 
@@ -21,31 +23,27 @@ const BoardSquareEl: React.FC<BoardSquareElProps> = ({
     const classNames = ['square', squareId, isLightSquare ? 'white' : 'black'];
 
     // mark last move square
-    const lastMove = boardState.getLastMove();
-    if (lastMove) {
-        if (lastMove.targetSquareId === squareId) {
+    if (chessGameState.lastMove) {
+        if (chessGameState.lastMove.toSquareId === squareId) {
             classNames.push('moved-to');
         }
-        if (lastMove.sourceSquareId === squareId) {
+        if (chessGameState.lastMove.fromSquareId === squareId) {
             classNames.push('moved-from');
         }
     }
 
-    function handleCanDrop(squareId: SquareId, draggedSquareId: SquareId, boardState: BoardState): boolean {
-        const draggedPiece = boardState.getPiece(draggedSquareId);
+    function handleCanDrop(squareId: SquareId, draggedSquareId: SquareId, chessGameState: ChessGameState): boolean {
+        const draggedPiece = chessGameState.getPieceAt(draggedSquareId);
         if (!draggedPiece) {
             return false;
         }
-        if (draggedPiece.pieceInfo.colorName !== 'w' && boardState.isWhitesTurn()) {
+        if (draggedPiece.colorName !== 'w' && chessGameState.whitesTurn) {
             return false;
         }
-        if (draggedPiece.pieceInfo.colorName !== 'b' && !boardState.isWhitesTurn()) {
+            if (draggedPiece.colorName !== 'b' && !chessGameState.whitesTurn) {
             return false;
         }
         if (draggedPiece.validMoveSquareIds.includes(squareId)) {
-            return true;
-        }
-        if (draggedPiece.captureMoveSquareIds.includes(squareId)) {
             return true;
         }
         return false;
@@ -54,14 +52,14 @@ const BoardSquareEl: React.FC<BoardSquareElProps> = ({
     const [{ isOver, canDrop }, drop] = useDrop(
         () => ({
             accept: "piece",
-            canDrop: (item: { squareId: SquareId }) => handleCanDrop(squareId, item.squareId, boardState),
+            canDrop: (item: { squareId: SquareId }) => handleCanDrop(squareId, item.squareId, chessGameState),
             drop: (item: { squareId: SquareId }) => movePiece(item.squareId, squareId),
             collect: (monitor) => ({
                 isOver: !!monitor.isOver(),
                 canDrop: !!monitor.canDrop()
             })
         }),
-        [squareId, boardState]
+        [squareId, chessGameState]
     )
 
     if (isOver) {
@@ -71,11 +69,11 @@ const BoardSquareEl: React.FC<BoardSquareElProps> = ({
         classNames.push('valid-move');
     }
 
-    const piece = boardState.getPiece(squareId);
+    const pieceState = chessGameState.getPieceAt(squareId);
     let canDrag = false;
-    if (piece) {
-        canDrag = (piece.pieceInfo.colorName === 'w' && boardState.isWhitesTurn()) ||
-            (piece.pieceInfo.colorName === 'b' && !boardState.isWhitesTurn());
+    if (pieceState) {
+        canDrag = (pieceState.colorName === 'w' && chessGameState.whitesTurn) ||
+            (pieceState.colorName === 'b' && !chessGameState.whitesTurn);
     }
 
     return (
@@ -90,7 +88,7 @@ const BoardSquareEl: React.FC<BoardSquareElProps> = ({
                 backgroundColor: isLightSquare ? 'var(--board-brown-light)' : 'var(--board-brown-dark)',
             }}
         >
-            {piece && <BoardPieceEl squareId={squareId} pieceInfo={piece.pieceInfo} canDrag={canDrag} />}
+            {pieceState && <BoardPieceEl squareId={squareId} pieceState={pieceState} canDrag={canDrag} />}
         </Box>
     );
 }
