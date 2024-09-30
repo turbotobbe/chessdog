@@ -303,6 +303,18 @@ test('promotion', () => {
     
 })
 
+test('promotion with check', () => {
+    let chessGameState = getDefaultChessGameState();
+    const pgnText = "1. e4 1... d5 2. exd5 2... c5 3. d6 3... Qa5 4. d7+ 4... Kd8 5. c3 5... Kc7 6. d8=Q+"
+    chessGameState = handlePgn(chessGameState, pgnText);
+
+    expect(chessGameState.getPieceAt(chess.d8)?.pieceName).toBe('q'); // white queen on d8
+    expect(chessGameState.getPieceAt(chess.c7)?.pieceName).toBe('k'); // black king on c7
+    expect(chessGameState.whiteKingInCheck).toBe(false);
+    expect(chessGameState.blackKingInCheck).toBe(true);
+    expect(chessGameState.getPieceAt(chess.c7)?.validMoveSquareIds.sort()).toEqual([chess.c6, chess.d8].sort());
+})
+
 test('Queen moves', () => {
     const chessGameState = new ChessGameState();
     // Place a white queen on e4

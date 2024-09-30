@@ -153,7 +153,7 @@ const handleMovePiece = (sourceSquareId: SquareId, targetSquareId: SquareId) => 
                     toSquareId: targetSquareId,
                     promotionPieceName: 'q'
                 });
-
+                console.log(newBoardState.pgnMoves);
                 // Create a new array with states up to the current index, plus the new state
                 newBoardStates = [
                     ...currentBoardStates.slice(0, currentIndex + 1),
