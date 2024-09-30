@@ -1,4 +1,3 @@
-
 export interface ChessComGame {
     url: string;
     pgn: string;

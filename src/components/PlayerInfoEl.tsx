@@ -4,21 +4,22 @@ import CapturesEl from "./CapturesEl";
 import wk from '../assets/wk.png';
 import bk from '../assets/bk.png';
 import { useEffect, useState } from "react";
+import { PieceId } from "@/types/chess";
 
 interface PlayerInfoElProps {
     sx?: SxProps,
     color: string,
     name: string,
-    captures: { src: string; alt: string }[],
-    value: number,
+    pieceIds: PieceId[],
+    pieceValue: number,
     clock: string,
 }
 const PlayerInfoEl: React.FC<PlayerInfoElProps> = ({
     sx,
     color,
     name,
-    captures,
-    value,
+    pieceIds: pieceIds,
+    pieceValue: pieceValue,
     clock
 }) => {
     const [time, setTime] = useState<string>('');
@@ -104,7 +105,7 @@ const PlayerInfoEl: React.FC<PlayerInfoElProps> = ({
                 gridColumn: '2 / 3',
                 gridRow: '2 / 3',
             }}>{name}</Typography>
-            <CapturesEl color={color} pieces={captures} value={value} />
+            <CapturesEl color={color} pieceIds={pieceIds} pieceValue={pieceValue} />
             <Typography variant='h4' className={`player-info-time`} sx={{
                 gridColumn: '3 / 4',
                 gridRow: '1 / 3',

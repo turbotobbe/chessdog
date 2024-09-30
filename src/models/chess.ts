@@ -59,7 +59,8 @@ export class ChessGameState {
     private board: (ChessPieceState | null)[][] = Array.from({ length: 8 }, () => Array(8).fill(null));
 
     // initialize the inactive pieces
-    private capturedPieceIds: PieceId[] = [];
+    public capturedWhitePieceIds: PieceId[] = [];  
+    public capturedBlackPieceIds: PieceId[] = [];
     private movedPieceIds: PieceId[] = [];
 
     public whitesTurn: boolean = true;
@@ -89,8 +90,12 @@ export class ChessGameState {
         this.updateKingPositions();
     }
 
-    getCapturedPieceIds(): PieceId[] {
-        return this.capturedPieceIds;
+    getCapturedWhitePieceIds(): PieceId[] {
+        return this.capturedWhitePieceIds;
+    }
+
+    getCapturedBlackPieceIds(): PieceId[] {
+        return this.capturedBlackPieceIds;
     }
 
     getPieceAt(squareId: SquareId): ChessPieceState | null {
@@ -108,7 +113,11 @@ export class ChessGameState {
         const squareInfo = asSquareInfo(squareId);
         const pieceInfo = this.getPieceAt(squareId);
         if (pieceInfo) {
-            this.capturedPieceIds.push(pieceInfo.id);
+            if (pieceInfo.colorName === 'w') {
+                this.capturedWhitePieceIds.push(pieceInfo.id);
+            } else {
+                this.capturedBlackPieceIds.push(pieceInfo.id);
+            }
             this.board[squareInfo.rankIndex][squareInfo.fileIndex] = null;
         }
         this.updateKingPositions();
@@ -147,7 +156,8 @@ export class ChessGameState {
         cloneChessGameState.blackKingInCheckMate = this.blackKingInCheckMate;
         cloneChessGameState.isStalemate = this.isStalemate;
         cloneChessGameState.board = this.board.map(row => row.map(piece => piece ? piece.clone() : null));
-        cloneChessGameState.capturedPieceIds = [...this.capturedPieceIds];
+        cloneChessGameState.capturedWhitePieceIds = [...this.capturedWhitePieceIds];
+        cloneChessGameState.capturedBlackPieceIds = [...this.capturedBlackPieceIds];
         cloneChessGameState.movedPieceIds = [...this.movedPieceIds];
         cloneChessGameState.lastMove = { fromSquareId: this.lastMove.fromSquareId, toSquareId: this.lastMove.toSquareId };
         cloneChessGameState.pgnMoves = [...this.pgnMoves];

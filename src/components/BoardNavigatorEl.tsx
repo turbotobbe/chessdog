@@ -4,7 +4,7 @@ import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import LastPageIcon from '@mui/icons-material/LastPage';
 
-const BoardPlayerEl: React.FC<{ sx?: SxProps }> = ({ sx }) => {
+const BoardNavigatorEl: React.FC<{ sx?: SxProps }> = ({ sx }) => {
     return (
         <Box sx={{
             gridArea: 'se',
@@ -30,4 +30,4 @@ const BoardPlayerEl: React.FC<{ sx?: SxProps }> = ({ sx }) => {
     )
 }
 
-export default BoardPlayerEl;
+export default BoardNavigatorEl;

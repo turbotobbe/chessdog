@@ -69,6 +69,7 @@ const BoardSquareEl: React.FC<BoardSquareElProps> = ({
     }
 
     const pieceState = chessGameState.getPieceAt(squareId);
+    
     let canDrag = false;
     if (pieceState) {
         if (pieceState.pieceName === 'k') {
@@ -100,7 +101,12 @@ const BoardSquareEl: React.FC<BoardSquareElProps> = ({
                 backgroundColor: isLightSquare ? 'var(--board-brown-light)' : 'var(--board-brown-dark)',
             }}
         >
-            {pieceState && <BoardPieceEl squareId={squareId} pieceState={pieceState} canDrag={canDrag} />}
+            {pieceState && <BoardPieceEl
+                squareId={squareId}
+                colorName={pieceState.colorName}
+                pieceName={pieceState.pieceName}
+                canDrag={canDrag}
+            />}
         </Box>
     );
 }

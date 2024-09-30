@@ -570,7 +570,7 @@ const BrowserAnalysisPage: React.FC = () => {
                     name: 'Mr.White'
                 }} black={{
                     name: 'Mr.Black'
-                }} whitePlayerName={''} blackPlayerName={''} />
+                }} />
 
                 <AnalysisComponent setMoves={setMoves} />
 

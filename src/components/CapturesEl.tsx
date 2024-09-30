@@ -1,24 +1,16 @@
 import { Box, Typography } from "@mui/material";
 
-import wp from '../assets/wp.png';
-import wr from '../assets/wr.png';
-import wn from '../assets/wn.png';
-import wb from '../assets/wb.png';
-import wq from '../assets/wq.png';
-// import wk from '../assets/wk.png';
-import bp from '../assets/bp.png';
-import br from '../assets/br.png';
-import bn from '../assets/bn.png';
-import bb from '../assets/bb.png';
-import bq from '../assets/bq.png';
-// import bk from '../assets/bk.png';
+import { PieceId, PieceInfo } from "@/types/chess";
+
+import { asPieceInfo } from "@/models/chess";
+import { asImageSrc, asImageAlt } from "@/utils/images";
 
 type PieceCollectionElProps = {
-    pieces: { src: string; alt: string }[]
+    pieceInfos: PieceInfo[]
 }
 
 const PieceCollectionEl: React.FC<PieceCollectionElProps> = ({
-    pieces,
+    pieceInfos: pieces,
 }) => (
     <Box
         className={`piece-collection`}
@@ -31,8 +23,8 @@ const PieceCollectionEl: React.FC<PieceCollectionElProps> = ({
         {pieces.map((piece, index) => (
             <img
                 key={index}
-                src={piece.src}
-                alt={piece.alt}
+                src={asImageSrc(piece.colorName, piece.pieceName)}
+                alt={asImageAlt(piece.colorName, piece.pieceName)}
                 style={{
                     height: '100%',
                     width: 'auto',
@@ -48,13 +40,13 @@ const PieceCollectionEl: React.FC<PieceCollectionElProps> = ({
 
 type CapturesElProps = {
     color: string,
-    pieces: { src: string; alt: string }[],
-    value: number
+    pieceIds: PieceId[],
+    pieceValue: number
 }
 
 const CapturesEl: React.FC<CapturesElProps> = ({
-    pieces,
-    value
+    pieceIds,
+    pieceValue
 }) => (
     <Box
         className="captures"
@@ -64,17 +56,17 @@ const CapturesEl: React.FC<CapturesElProps> = ({
             height: '100%',
             width: '100%',
         }}>
-        {[[wp, bp], [wn, bn], [wb, bb], [wr, br], [wq, bq]].map(([w, b], index) => {
-            const filteredPieces = pieces.filter((piece: { src: string; alt: string }) => piece.src === w || piece.src === b);
+        {['p', 'n', 'b', 'r', 'q'].map((pieceName, index) => {
+            const filteredPieces = pieceIds.map(asPieceInfo).filter((pieceInfo) => pieceInfo.pieceName === pieceName);
             if (filteredPieces.length > 0) {
                 return <PieceCollectionEl
-                 key={index} pieces={filteredPieces} />
+                    key={index} pieceInfos={filteredPieces} />
             }
         })}
-        {value > 0 && <Typography
+        {pieceValue > 0 && <Typography
             className={`captures-value`}
             variant="body1"
-            ml={1}>+{value}</Typography>}
+            ml={1}>+{pieceValue}</Typography>}
 
     </Box>
 )

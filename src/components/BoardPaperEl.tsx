@@ -1,36 +1,18 @@
 import { Paper } from "@mui/material";
 import PlayerInfoEl from "./PlayerInfoEl";
 import { useEffect, useState } from "react";
-
-import wp from '../assets/wp.png';
-import wr from '../assets/wr.png';
-import wn from '../assets/wn.png';
-import wb from '../assets/wb.png';
-import wq from '../assets/wq.png';
-// import wk from '../assets/wk.png';
-import bp from '../assets/bp.png';
-import br from '../assets/br.png';
-import bn from '../assets/bn.png';
-import bb from '../assets/bb.png';
-import bq from '../assets/bq.png';
-// import bk from '../assets/bk.png';
-import { ChessGameState, getDefaultChessGameState, nextChessGameState } from "@/models/chess";
-
+import { asPieceInfo, ChessGameState, getDefaultChessGameState, nextChessGameState } from "@/models/chess";
 import { PgnTurn } from "@/utils/pgn";
-
-
 import BoardEl from "./BoardEl";
 import { PieceId, SquareId } from "@/types/chess";
-import { toPieceInfo } from "@/utils/board";
 
-type CapturedPiece = { src: string; alt: string };
-
-const calculatePieceValue = (pieces: { src: string; alt: string }[]) => {
-    let value = pieces.filter(piece => [wp, bp].indexOf(piece.src) > 0).length;
-    value += pieces.filter(piece => [wn, bn].indexOf(piece.src) > 0).length * 3;
-    value += pieces.filter(piece => [wb, bb].indexOf(piece.src) > 0).length * 3;
-    value += pieces.filter(piece => [wr, br].indexOf(piece.src) > 0).length * 5;
-    value += pieces.filter(piece => [wq, bq].indexOf(piece.src) > 0).length * 9;
+const calculatePieceValue = (pieceIds: PieceId[]) => {
+    const pieceInfos = pieceIds.map(pieceId => asPieceInfo(pieceId));
+    let value = pieceInfos.filter(piece => piece.pieceName === 'p').length;
+    value += pieceInfos.filter(piece => piece.pieceName === 'n').length * 3;
+    value += pieceInfos.filter(piece => piece.pieceName === 'b').length * 3;
+    value += pieceInfos.filter(piece => piece.pieceName === 'r').length * 5;
+    value += pieceInfos.filter(piece => piece.pieceName === 'q').length * 9;
     return value;
 };
 
@@ -42,55 +24,19 @@ interface BoardPaperElProps {
     black: {
         name: string;
     }
-    whitePlayerName: string;
-    blackPlayerName: string;
 }
-
-function pieceToCapturedPiece(pieceId: PieceId): CapturedPiece {
-    const pieceInfo = toPieceInfo(pieceId);
-    if (pieceInfo.colorName === 'w') {
-    switch (pieceInfo.pieceName) {
-        case 'p':
-            return { src: wp, alt: `${pieceInfo.colorName}${pieceInfo.pieceName}` };
-        case 'n':
-            return { src: wn, alt: `${pieceInfo.colorName}${pieceInfo.pieceName}` };
-        case 'b':
-            return { src: wb, alt: `${pieceInfo.colorName}${pieceInfo.pieceName}` };
-        case 'r':
-            return { src: wr, alt: `${pieceInfo.colorName}${pieceInfo.pieceName}` };
-        case 'q':
-            return { src: wq, alt: `${pieceInfo.colorName}${pieceInfo.pieceName}` };
-    }
-    } else {
-        switch (pieceInfo.pieceName) {
-            case 'p':
-                return { src: bp, alt: `${pieceInfo.colorName}${pieceInfo.pieceName}` };
-            case 'n':
-                return { src: bn, alt: `${pieceInfo.colorName}${pieceInfo.pieceName}` };
-            case 'b':
-                return { src: bb, alt: `${pieceInfo.colorName}${pieceInfo.pieceName}` };
-            case 'r':   
-                return { src: br, alt: `${pieceInfo.colorName}${pieceInfo.pieceName}` };
-            case 'q':
-                return { src: bq, alt: `${pieceInfo.colorName}${pieceInfo.pieceName}` };
-        }   
-    }
-
-    return { src: '', alt: '' };
-}
-
 
 const BoardPaperEl: React.FC<BoardPaperElProps> = ({
     moves,
-    whitePlayerName,
-    blackPlayerName
+    white,
+    black
 }) => {
-    const [whiteCaptures, setWhiteCaptures] = useState<CapturedPiece[]>([]);
-    const [blackCaptures, setBlackCaptures] = useState<CapturedPiece[]>([]);
-    const [whiteValue, setWhiteValue] = useState(0);
-    const [blackValue, setBlackValue] = useState(0);
     const [whiteClock, setWhiteClock] = useState("");
     const [blackClock, setBlackClock] = useState("");
+    const [capturedWhitePieces, setCapturedWhitePieces] = useState<PieceId[]>([]);
+    const [capturedBlackPieces, setCapturedBlackPieces] = useState<PieceId[]>([]);
+    const [whiteScore, setWhiteScore] = useState(0);
+    const [blackScore, setBlackScore] = useState(0);
 
     const [boardStates, setBoardStates] = useState<ChessGameState[]>([]);
     const [currentBoardStateIndex, setCurrentBoardStateIndex] = useState(-1);
@@ -100,37 +46,32 @@ const BoardPaperEl: React.FC<BoardPaperElProps> = ({
         const boardState = getDefaultChessGameState();
         setBoardStates([boardState]);
         setCurrentBoardStateIndex(0);
-        console.log(boardState);
     }, []);
 
     useEffect(() => {
         const boardState = boardStates[currentBoardStateIndex];
-        if (!boardState || !boardState.getCapturedPieceIds) {
+        if (!boardState) {
             return;
         }
 
-        setBlackCaptures(boardState.getCapturedPieceIds()
-            .filter(pieceId => {
-                const pieceInfo = toPieceInfo(pieceId);
-                return pieceInfo.colorName === 'w';
-            })
-            .map(pieceId => pieceToCapturedPiece(pieceId)));
-
-        setWhiteCaptures(boardState.getCapturedPieceIds()
-            .filter(pieceId => {
-                const pieceInfo = toPieceInfo(pieceId);
-                return pieceInfo.colorName === 'b';
-            })
-            .map(pieceId => pieceToCapturedPiece(pieceId)));
+        const capturedWhitePieces = boardState.getCapturedWhitePieceIds()
+        const capturedBlackPieces = boardState.getCapturedBlackPieceIds()
+        const capturedWhitePiecesValue = calculatePieceValue(capturedWhitePieces);
+        const capturedBlackPiecesValue = calculatePieceValue(capturedBlackPieces);
+        
+        setCapturedWhitePieces(capturedWhitePieces);
+        setCapturedBlackPieces(capturedBlackPieces);
+        setWhiteScore(capturedBlackPiecesValue-capturedWhitePiecesValue);
+        setBlackScore(capturedWhitePiecesValue-capturedBlackPiecesValue);
 }, [currentBoardStateIndex]);
 
 useEffect(() => {
-    setWhiteCaptures([]);
-    setBlackCaptures([]);
-    setWhiteValue(0);
-    setBlackValue(0);
+    setCapturedWhitePieces([]);
+    setCapturedBlackPieces([]);
     setWhiteClock("");
     setBlackClock("");
+    setWhiteScore(0);
+    setBlackScore(0);
 }, [moves]);
 
 const handleMovePiece = (sourceSquareId: SquareId, targetSquareId: SquareId) => {
@@ -153,8 +94,6 @@ const handleMovePiece = (sourceSquareId: SquareId, targetSquareId: SquareId) => 
                     toSquareId: targetSquareId,
                     promotionPieceName: 'q'
                 });
-                console.log(newBoardState.pgnMoves);
-                // Create a new array with states up to the current index, plus the new state
                 newBoardStates = [
                     ...currentBoardStates.slice(0, currentIndex + 1),
                     newBoardState
@@ -176,6 +115,22 @@ if (boardStates.length === 0) {
 }
 
 const boardState = boardStates[currentBoardStateIndex];
+
+const top = {
+    color: asWhite ? 'black' : 'white',
+    name: asWhite ? black.name : white.name,
+    clock: asWhite ? blackClock : whiteClock,
+    captures: asWhite ? capturedWhitePieces : capturedBlackPieces,
+    value: asWhite ? blackScore : whiteScore
+}
+
+const bottom = {
+    color: asWhite ? 'white' : 'black',
+    name: asWhite ? white.name : black.name,
+    clock: asWhite ? whiteClock : blackClock,
+    captures: asWhite ? capturedBlackPieces : capturedWhitePieces,
+    value: asWhite ? whiteScore : blackScore
+}
 
 return (
     <Paper className='chessboard-paper'
@@ -200,25 +155,25 @@ return (
             sx={{
                 gridArea: 'head',
             }}
-            color='black'
-            name={blackPlayerName}
-            clock={blackClock}
-            captures={blackCaptures}
-            value={calculatePieceValue(blackCaptures) - calculatePieceValue(whiteCaptures)} />
+            color={top.color}
+            name={top.name}
+            clock={top.clock}
+            pieceIds={top.captures}
+            pieceValue={top.value} />
         <PlayerInfoEl
             sx={{
                 gridArea: 'foot',
             }}
-            color='white'
-            name={whitePlayerName}
-            clock={whiteClock}
-            captures={whiteCaptures}
-            value={calculatePieceValue(whiteCaptures) - calculatePieceValue(blackCaptures)} />
+            color={bottom.color}
+            name={bottom.name}
+            clock={bottom.clock}
+            pieceIds={bottom.captures}
+            pieceValue={bottom.value} />
 
         <BoardEl
             sx={{ gridArea: 'body' }}
             chessGameState={boardState}
-            asWhite={true}
+            asWhite={asWhite}
             movePiece={handleMovePiece}
         />
         {/* <BoardEl sx={{ gridArea: 'body' }} /> */}
