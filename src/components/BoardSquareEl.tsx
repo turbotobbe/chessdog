@@ -1,4 +1,3 @@
-import { BoardState } from "@/models/BoardState"
 import { Box } from "@mui/material"
 import { useDrop } from "react-dnd"
 import BoardPieceEl from "./BoardPieceEl"

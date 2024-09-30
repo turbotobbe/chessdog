@@ -17,13 +17,9 @@ import bq from '../assets/bq.png';
 import { ChessGameState, getDefaultChessGameState, nextChessGameState } from "@/models/chess";
 
 import { PgnTurn } from "@/utils/pgn";
-import ScoreSheetEl from "./ScoreSheetEl";
-import BoardPlayerEl from "./BoardPlayerEl";
-import BoardToolsEl from "./BoardToolsEl";
 
 
 import BoardEl from "./BoardEl";
-import { BoardState } from "@/models/BoardState";
 import { PieceId, SquareId } from "@/types/chess";
 import { toPieceInfo } from "@/utils/board";
 
