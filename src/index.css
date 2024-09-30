@@ -18,7 +18,7 @@
   --board-brown-light-hover: #f3e0c1;
   --board-brown-dark: #b58863;
   --board-brown-dark-hover: #c19a74;
-  
+
   --board-blue-light: #87b6e0;
   --board-blue-dark: #1c4587;
 
@@ -30,6 +30,13 @@
 
   --board-yellow-light: rgb(255, 255, 51);
   --board-yellow-dark: #b5b563;
+
+  --mui-primary-main: var(--mui-palette-primary-main);
+  --mui-secondary-main: var(--mui-palette-secondary-main);
+  --mui-error-main: var(--mui-palette-error-main);
+  --mui-warning-main: var(--mui-palette-warning-main);
+  --mui-info-main: var(--mui-palette-info-main);
+  --mui-success-main: var(--mui-palette-success-main);
 
 }
 

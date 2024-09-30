@@ -71,6 +71,19 @@ const BoardSquareEl: React.FC<BoardSquareElProps> = ({
     const pieceState = chessGameState.getPieceAt(squareId);
     let canDrag = false;
     if (pieceState) {
+        if (pieceState.pieceName === 'k') {
+            if (chessGameState.whiteKingInCheckMate || chessGameState.blackKingInCheckMate) {
+                classNames.push(
+                    (pieceState.colorName === 'w' && chessGameState.whiteKingInCheckMate) ||
+                    (pieceState.colorName === 'b' && chessGameState.blackKingInCheckMate)
+                        ? 'lose'
+                        : 'win'
+                );
+            } else if (chessGameState.isStalemate) {
+                classNames.push('draw');
+            }
+        }
+
         canDrag = (pieceState.colorName === 'w' && chessGameState.whitesTurn) ||
             (pieceState.colorName === 'b' && !chessGameState.whitesTurn);
     }

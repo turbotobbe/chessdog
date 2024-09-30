@@ -11,6 +11,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 
 const darkTheme = createTheme({
+  cssVariables: true,
   palette: {
     mode: 'dark',
     primary: {
