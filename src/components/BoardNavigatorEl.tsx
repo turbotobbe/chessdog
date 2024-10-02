@@ -24,14 +24,10 @@ const BoardNavigatorEl: React.FC<BoardNavigatorElProps> = ({
         setPathIndex(path.length - 1);
     }
     const handleClickPrev = () => {
-        if (pathIndex - 1 >= -1) {
-            setPathIndex(pathIndex - 1);
-        }
+        setPathIndex(pathIndex - 1);
     }
     const handleClickNext = () => {
-        if (pathIndex + 1 < path.length) {
-            setPathIndex(pathIndex + 1);
-        }
+        setPathIndex(pathIndex + 1);
     }
     return (
         <Box sx={{
@@ -41,16 +37,16 @@ const BoardNavigatorEl: React.FC<BoardNavigatorElProps> = ({
             alignItems: 'center',
             ...sx
         }}>
-            <IconButton onClick={handleClickFirst} disabled={pathIndex < 0}>
+            <IconButton onClick={handleClickFirst} disabled={path.length === 0 || pathIndex < 0}>
                 <FirstPageIcon />
             </IconButton>
-            <IconButton onClick={handleClickPrev} disabled={pathIndex < 0}>
+            <IconButton onClick={handleClickPrev} disabled={path.length === 0 || pathIndex < 0}>
                 <NavigateBeforeIcon />
             </IconButton>
-            <IconButton onClick={handleClickNext} disabled={pathIndex >= path.length - 1}>
+            <IconButton onClick={handleClickNext} disabled={path.length === 0 || pathIndex >= path.length - 1}>
                 <NavigateNextIcon />
             </IconButton>
-            <IconButton onClick={handleClickLast} disabled={pathIndex >= path.length - 1}>
+            <IconButton onClick={handleClickLast} disabled={path.length === 0 || pathIndex >= path.length - 1}>
                 <LastPageIcon />
             </IconButton>
         </Box>

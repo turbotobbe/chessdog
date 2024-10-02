@@ -50,13 +50,13 @@ export function loadBoardState(pgnGames: PgnGame[]): BoardState {
 
       // find the node in the board state
       let node = nodes.find(node => node.sourceSquareId === sourceSquareId && node.targetSquareId === targetSquareId);
-      console.log(sourceSquareId, node?.sourceSquareId, targetSquareId, node?.targetSquareId);
+      // console.log(sourceSquareId, node?.sourceSquareId, targetSquareId, node?.targetSquareId);
       if (node === undefined) {
         // create a new node if it doesn't exist
         node = new BoardNodeState(chessGameState.clone(), sourceSquareId, targetSquareId, turn.white.move);
         nodes.push(node);
-      } else {
-        console.log("node already exists", node.sourceSquareId, node.targetSquareId, node.pgn);
+      // } else {
+        // console.log("node already exists", node.sourceSquareId, node.targetSquareId, node.pgn);
       }
       node.count++;
       node.index = 0;
@@ -77,8 +77,8 @@ export function loadBoardState(pgnGames: PgnGame[]): BoardState {
           // create a new node if it doesn't exist
           node = new BoardNodeState(chessGameState.clone(), sourceSquareId, targetSquareId, turn.black.move);
           nodes.push(node);
-        } else {
-          console.log("node already exists", node.sourceSquareId, node.targetSquareId, node.pgn);
+        // } else {
+        //   console.log("node already exists", node.sourceSquareId, node.targetSquareId, node.pgn);
         }
         node.count++;
         node.index = 0;

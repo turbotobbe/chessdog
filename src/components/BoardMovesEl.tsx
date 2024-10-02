@@ -28,9 +28,6 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
     }[]>([]);
 
     useEffect(() => {
-        if (boardState.nodes.length === 0) {
-            return;
-        }
         let line: {
             white: BoardNodeState,
             whiteLineCount: number,
@@ -40,12 +37,22 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
             blackLineIndex: number
         }[] = [];
 
-        // select first node by path or main line
-        let node = path.length > 0 ? boardState.nodes[path[0]] : boardState.nodes[0];
+        // early return if path is empty
+        if (path.length == 0) {
+            return;
+        }
+
+        // select first node by path
+        let node = boardState.nodes[path[0]];
+        if (!node) {
+            throw new Error('node not found');
+        }
+
+        // add first node to line
         line.push({
             white: node,
             whiteLineCount: boardState.nodes.length,
-            whiteLineIndex: path.length > 0 ? path[0] : 0,
+            whiteLineIndex: path[0],
             black: null,
             blackLineCount: 0,
             blackLineIndex: -1
@@ -55,46 +62,34 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
         for (let i = 1; i < path.length; i++) {
             const alternatives = node.nodes.length;
             node = node.nodes[path[i]];
-            if (node) {
-                if (line[line.length - 1].black === null) {
-                    line[line.length - 1].black = node;
-                    line[line.length - 1].blackLineCount = alternatives;
-                    line[line.length - 1].blackLineIndex = path[i];
-                } else {
-                    line.push({
-                        white: node,
-                        whiteLineCount: alternatives,
-                        whiteLineIndex: path[i],
-                        black: null,
-                        blackLineCount: 0,
-                        blackLineIndex: -1
-                    });
-                }    
+            if (!node) {
+                throw new Error('node not found');
             }
-        }
 
-        console.log('node', node);
-        while (node && node.nodes.length > 0) {
-            const alternatives = node.nodes.length;
-            node = node.nodes[0];
             if (line[line.length - 1].black === null) {
+                // add black node if it doesn't exist
                 line[line.length - 1].black = node;
                 line[line.length - 1].blackLineCount = alternatives;
-                line[line.length - 1].blackLineIndex = 0;
+                line[line.length - 1].blackLineIndex = path[i];
             } else {
+                // add new line and white node otherwise
                 line.push({
                     white: node,
                     whiteLineCount: alternatives,
-                    whiteLineIndex: 0,
+                    whiteLineIndex: path[i],
                     black: null,
                     blackLineCount: 0,
                     blackLineIndex: -1
                 });
             }
         }
+
+        if (node.nodes.length > 0) {
+            throw new Error('node has alternatives');
+        }
         console.log('line', line);
         setLine(line);
-    }, [boardState, path, pathIndex]);
+    }, [boardState, path]);
 
 
     const handleMoveClick = (d: number) => {
@@ -138,9 +133,15 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
                 <Table stickyHeader size="small">
                     <TableHead>
                         <TableRow>
-                            <TableCell><Box sx={{ width: 'calc(var(--text-size))' }}>#</Box></TableCell>
-                            <TableCell sx={{ textAlign: 'right', }}><Box sx={{ width: 'calc(var(--text-size))*2' }}></Box>White</TableCell>
-                            <TableCell sx={{ textAlign: 'right', }}><Box sx={{ width: 'calc(var(--text-size))*2' }}></Box>Black</TableCell>
+                            <TableCell>
+                                <Box sx={{ width: 'calc(var(--text-size))' }}>#</Box>
+                            </TableCell>
+                            <TableCell sx={{ textAlign: 'right'}}>
+                                <Box sx={{ width: 'calc(var(--text-size)*4)', paddingRight: 'calc(var(--text-size)/2)' }} >White</Box>
+                            </TableCell>
+                            <TableCell sx={{ textAlign: 'right', }}>
+                                <Box sx={{ width: 'calc(var(--text-size)*4)', paddingRight: 'calc(var(--text-size)/2)' }}>Black</Box>
+                            </TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
@@ -153,12 +154,11 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
                                     <TableCell
                                         className={`white-${i} ${isWhiteCurrentMove ? 'current-move' : ''}`}
                                         sx={{
+                                            textAlign: 'right',
                                             color: 'inherit',
                                             cursor: 'pointer',
                                             '&:hover': { backgroundColor: 'action.hover' },
-                                            textAlign: 'right',
                                             backgroundColor: isWhiteCurrentMove ? 'action.selected' : 'inherit',
-
                                         }}
                                     >
                                         <Button
@@ -166,7 +166,7 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
                                             variant="text"
                                             sx={{ textTransform: 'none', color: "white" }}
                                             onClick={() => handleMoveClick(i * 2)}>
-                                            <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                                            <Box>
                                                 {item.white.pgn}
                                                 {item.whiteLineCount > 1 &&
                                                     <Typography
@@ -194,7 +194,6 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
                                                 '&:hover': { backgroundColor: 'action.hover' },
                                                 textAlign: 'right',
                                                 backgroundColor: isBlackCurrentMove ? 'action.selected' : 'inherit',
-
                                             }}
                                         >
                                             <Button
