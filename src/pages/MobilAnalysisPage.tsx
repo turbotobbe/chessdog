@@ -1,8 +1,6 @@
 import React from 'react';
 import { Box, Paper, Typography } from '@mui/material';
 
-import wp from '../assets/wp.png';
-
 const MobilAnalysisPage: React.FC = () => {
     return (
         <Box>

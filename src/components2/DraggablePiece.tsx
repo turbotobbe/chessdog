@@ -14,8 +14,8 @@ import br from '../assets/br.png';
 import bb from '../assets/bb.png';
 import bn from '../assets/bn.png';
 import bp from '../assets/bp.png';
-import { PieceInfo } from '@/models/BoardState';
 import { Box } from '@mui/material';
+import { PieceInfo } from '@/types/chess';
 
 function getPieceImage(piece: PieceInfo) {
     

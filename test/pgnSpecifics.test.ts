@@ -1,9 +1,8 @@
 import { expect, test } from 'vitest'
 import { parsePgn, parseMove, PgnTurn } from '../src/utils/pgn'
-import { getDefaultBoard, movePiece } from '../src/utils/board'
-import {  BoardState } from '../src/models/BoardState';
-import { SquareId } from '../src/types/chess';
-function checkMoves(boards: BoardState[], turns: PgnTurn[], expecteds: string[][]) {
+import { ChessGameState, nextChessGameState } from '../src/models/chess';
+
+function checkMoves(boards: ChessGameState[], turns: PgnTurn[], expecteds: string[][]) {
     // expect(turns.length).toBe(expecteds.length/2)
     console.log(turns);
     try {
@@ -16,7 +15,11 @@ function checkMoves(boards: BoardState[], turns: PgnTurn[], expecteds: string[][
                 expect(sourceSquareId).toBe(expected[0])
                 expect(targetSquareId).toBe(expected[1])
     
-                const newBoard = movePiece(boards[boards.length - 1], sourceSquareId as SquareId, targetSquareId as SquareId);
+                const newBoard = nextChessGameState(boards[boards.length - 1], {
+                    sourceSquareId: sourceSquareId,
+                    targetSquareId: targetSquareId,
+                    promotionPieceName: null
+                });
                 boards.push(newBoard);
             }
 
@@ -27,7 +30,11 @@ function checkMoves(boards: BoardState[], turns: PgnTurn[], expecteds: string[][
                 expect(sourceSquareId).toBe(expected[0])
                 expect(targetSquareId).toBe(expected[1])
     
-                const newBoard = movePiece(boards[boards.length - 1], sourceSquareId as SquareId, targetSquareId as SquareId);
+                const newBoard = nextChessGameState(boards[boards.length - 1], {
+                    sourceSquareId: sourceSquareId,
+                    targetSquareId: targetSquareId,
+                    promotionPieceName: null
+                });
                 boards.push(newBoard);
             }
     
@@ -38,9 +45,11 @@ function checkMoves(boards: BoardState[], turns: PgnTurn[], expecteds: string[][
     }
     return true
 }
+import { getDefaultChessGameState } from '../src/models/chess';
+import { SquareId } from '../src/types/chess';
 
 test('validate basic pawn movement', () => {
-    const boards = [getDefaultBoard()];
+    const boards = [getDefaultChessGameState()];
     const pgnGame = parsePgn('1. e4 1... e5 2. d4 2... d5')
     const expecteds = [
         ['e2', 'e4'],
@@ -53,7 +62,7 @@ test('validate basic pawn movement', () => {
 })
 
 test('validate illegal pawn movement', () => {
-    const boards = [getDefaultBoard()];
+    const boards = [getDefaultChessGameState()];
     const pgnGame = parsePgn('1. e4 1... e5 2. d5') // Pawn moving two squares after first move
     const expecteds = [
         ['e2', 'e4'],
@@ -66,7 +75,7 @@ test('validate illegal pawn movement', () => {
 })
 
 test('validate basic knight movement', () => {
-    const boards = [getDefaultBoard()];
+    const boards = [getDefaultChessGameState()];
     const pgnGame = parsePgn('1. Nf3 1... Nc6')
     const expecteds = [
         ['g1', 'f3'],
@@ -77,7 +86,7 @@ test('validate basic knight movement', () => {
 })
 
 test('validate illegal knight movement', () => {
-    const boards = [getDefaultBoard()];
+    const boards = [getDefaultChessGameState()];
     const pgnGame = parsePgn('1. Ng3') // Knight can't move to g3 from starting position
     const expecteds = []
     const isValid = checkMoves(boards, pgnGame.turns, expecteds)
@@ -85,7 +94,7 @@ test('validate illegal knight movement', () => {
 })
 
 test('validate king side castling', () => {
-    const boards = [getDefaultBoard()];
+    const boards = [getDefaultChessGameState()];
     const pgnGame = parsePgn('1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. O-O 4... O-O')
     const expecteds = [
         ['e2', 'e4'],
@@ -101,7 +110,7 @@ test('validate king side castling', () => {
 })
 
 test('validate queen side castling', () => {
-    const boards = [getDefaultBoard()];
+    const boards = [getDefaultChessGameState()];
     const pgnGame = parsePgn('1. d4 1... d5 2. Nc3 2... Nc6 3. Bf4 3... Bf5 4. Qd2 4... Qd7 5. O-O-O 5... O-O-O')
     const expecteds = [
         ['d2', 'd4'],

@@ -1,4 +1,4 @@
-import { SquareId } from '@/models/BoardState';
+import { SquareId } from '@/types/chess';
 import { Box } from '@mui/material';
 import React from 'react';
 import { useDrop } from 'react-dnd';

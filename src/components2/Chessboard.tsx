@@ -1,60 +1,68 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Grid } from '@mui/material';
-import SquareEl from './Square';
-import { BoardState, SquareId } from '../models/BoardState';
-import { movePiece } from '@/utils/board';
+import { BoardState } from '@/models/BoardState';
+import { SquareId } from '@/types/chess';
 
 const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
   const [selectedSquare, setSelectedSquare] = useState<SquareId | null>(null);
-  const [hoveredSquare, setHoveredSquare] = useState<SquareId | null>(null);
+  // const [hoveredSquare, setHoveredSquare] = useState<SquareId | null>(null);
+
+  useEffect(() => {
+    console.log('Board state:', boardState);
+    setSelectedSquare(null);
+  }, []);
 
   useEffect(() => {
     console.log('Selected square:', selectedSquare);
   }, [selectedSquare]);
 
-  const handleMouseUp = () => {
-    setSelectedSquare(null);
-    setHoveredSquare(null);
-  };
+  // const handleMouseUp = () => {
+  //   setSelectedSquare(null);
+  //   setHoveredSquare(null);
+  // };
 
-  const handleMouseDown = (squareId: SquareId) => {
-    setSelectedSquare(squareId);
-    setHoveredSquare(null);
-    console.log(boardState.getPiece(squareId));
-  };
+  // const handleMouseDown = (squareId: SquareId) => {
+  //   setSelectedSquare(squareId);
+  //   setHoveredSquare(null);
+  //   console.log(boardState.chessGameState.getPieceAt(squareId));
+  // };
 
-  const handleDragStart = (event: React.DragEvent) => {
-    // setSelectedSquare(squareId);
-    // event.preventDefault();
-    event.dataTransfer.effectAllowed = 'move';
-  };
+  // const handleDragStart = (event: React.DragEvent) => {
+  //   // setSelectedSquare(squareId);
+  //   // event.preventDefault();
+  //   event.dataTransfer.effectAllowed = 'move';
+  // };
 
-  const handleDragOver = (event: React.DragEvent, squareId: SquareId) => {
-    // event.preventDefault();
-    event.dataTransfer.dropEffect = 'move';
-    setHoveredSquare(squareId);
-  };
+  // const handleDragOver = (event: React.DragEvent, squareId: SquareId) => {
+  //   // event.preventDefault();
+  //   event.dataTransfer.dropEffect = 'move';
+  //   setHoveredSquare(squareId);
+  // };
 
-  const handleDrop = (event: React.DragEvent, targetSquareId: SquareId) => {
-    event.preventDefault();
-    if (selectedSquare) {
-        console.log(`Move from ${selectedSquare} to ${targetSquareId}`);
-        try {
-          // TODO: movePiece should return a new BoardState objectc
-          const newBoardState = movePiece(boardState, selectedSquare, targetSquareId);
-            console.log(newBoardState);
-            // rerender the board
-            setSelectedSquare(null);
-            setHoveredSquare(null);
-        } catch (error: unknown) {
-            if (error instanceof Error) {
-                console.log(error.message);
-            } else {
-                console.log('An unknown error occurred');
-            }
-        }
-    }
-  };
+  // const handleDrop = (event: React.DragEvent, targetSquareId: SquareId) => {
+  //   event.preventDefault();
+  //   if (selectedSquare) {
+  //       console.log(`Move from ${selectedSquare} to ${targetSquareId}`);
+  //       try {
+  //         // TODO: movePiece should return a new BoardState objectc
+  //         const newBoardState = nextChessGameState(boardState.chessGameState, {
+  //           sourceSquareId: selectedSquare,
+  //           targetSquareId: targetSquareId,
+  //           promotionPieceName: 'q'
+  //         }); 
+  //           console.log(newBoardState);
+  //           // rerender the board
+  //           setSelectedSquare(null);
+  //           setHoveredSquare(null);
+  //       } catch (error: unknown) {
+  //           if (error instanceof Error) {
+  //               console.log(error.message);
+  //           } else {
+  //               console.log('An unknown error occurred');
+  //           }
+  //       }
+  //   }
+  // };
 
   const boardSquares: SquareId[][] = [
     ['a8', 'b8', 'c8', 'd8', 'e8', 'f8', 'g8', 'h8'],
@@ -87,20 +95,20 @@ const Chessboard: React.FC<{ boardState: BoardState }> = ({ boardState }) => {
           {boardSquares.map((row) =>
             row.map((squareId) => (
               <Grid item xs={1.5} key={squareId} sx={{ height: '12.5%' }}>
-                <SquareEl
+                {/* <SquareEl
                   squareId={squareId}
-                  pieceState={boardState.getPiece(squareId) || undefined}
+                  pieceState={boardState.chessGameState.getPieceAt(squareId) || undefined}
                   isSelected={selectedSquare === squareId}
                   isHovered={hoveredSquare === squareId}
-                  isValidMove={selectedSquare !== null && boardState.getPiece(selectedSquare)?.getValidMoves().includes(squareId) || false}
-                  isCaptureMove={selectedSquare !== null && boardState.getPiece(selectedSquare)?.getCaptureMoves().includes(squareId) || false}
-                  isLastMove={boardState.getLastMove()?.sourceSquareId === squareId || boardState.getLastMove()?.targetSquareId === squareId}
+                  isValidMove={selectedSquare !== null && boardState.chessGameState.getPieceAt(selectedSquare)?.validMoveSquareIds.includes(squareId) || false}
+                  isCaptureMove={selectedSquare !== null && boardState.chessGameState.getPieceAt(selectedSquare)?.validMoveSquareIds.includes(squareId) || false}
+                  isLastMove={boardState.chessGameState.lastMove?.fromSquareId === squareId || boardState.chessGameState.lastMove?.toSquareId === squareId}
                   onMouseUp={() => handleMouseUp()}
                   onMouseDown={() => handleMouseDown(squareId)}
                   onDragStart={(e) => handleDragStart(e)}
                   onDragOver={(e)=>handleDragOver(e, squareId)}
                   onDrop={(e) => handleDrop(e, squareId)}
-                />
+                /> */}
               </Grid>
             ))
           )}

@@ -1,6 +1,6 @@
 import * as chess from "@/types/chess";
 import { getPossibleMovesForPiece } from "./chessMoves";
-import { castlingRookMoves, ColorName, FileName, files, PieceId, PieceInfo, PieceName, RankName, ranks, SideName, SquareId, squareIds, SquareInfo } from "@/types/chess";
+import { castlingRookMoves, ColorName, FileName, files, PieceId, PieceInfo, PieceName, RankName, ranks, SquareId, squareIds, SquareInfo } from "@/types/chess";
 
 export function asPieceInfo(pieceId: PieceId): PieceInfo {
     return {

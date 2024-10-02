@@ -141,7 +141,7 @@ export function parseMove(chessGameState: ChessGameState, move: string): {
     const match = move.match(pieceRegex);
 
     if (match) {
-        const [, piece, fromFile, fromRank, capture, toFile, toRank, _, promotion] = match;
+        const [, piece, fromFile, fromRank, _capture, toFile, toRank, _, promotion] = match;
         // console.log(piece, fromFile, fromRank, capture, toFile, toRank, _, promotion)
 
         const targetSquareId = `${toFile}${toRank}` as SquareId;

@@ -1,4 +1,4 @@
-import { Box, Typography, SxProps, Tabs, Tab, TextField, Button, useTheme } from "@mui/material";
+import { Box, Typography, SxProps, Tabs, Tab, TextField } from "@mui/material";
 import React from "react";
 
 interface TabPanelProps {
@@ -27,7 +27,7 @@ const AnalysisSourceComponent: React.FC<{ sx?: SxProps }> = ({ sx }) => {
     const [activeTab, setActiveTab] = React.useState(0);
 
     // Function to handle tab change
-    const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+    const handleChange = (_event: React.SyntheticEvent, newValue: number) => {
         setActiveTab(newValue);
     };
 

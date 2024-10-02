@@ -1,8 +1,7 @@
 import { Paper } from "@mui/material";
 import PlayerInfoEl from "./PlayerInfoEl";
 import { useEffect, useState } from "react";
-import { asPieceInfo, ChessGameState, getDefaultChessGameState, nextChessGameState } from "@/models/chess";
-import { PgnTurn } from "@/utils/pgn";
+import { asPieceInfo, ChessGameState } from "@/models/chess";
 import BoardEl from "./BoardEl";
 import { PieceId, SquareId } from "@/types/chess";
 
@@ -63,6 +62,7 @@ const BoardPaperEl: React.FC<BoardPaperElProps> = ({
         setCapturedBlackPieces(capturedBlackPieces);
         setWhiteScore(capturedBlackPiecesValue-capturedWhitePiecesValue);
         setBlackScore(capturedWhitePiecesValue-capturedBlackPiecesValue);
+        setAsWhite(true);
 }, []);
 
 useEffect(() => {
@@ -75,6 +75,7 @@ useEffect(() => {
 }, []);
 
 const handleMovePiece = (sourceSquareId: SquareId, targetSquareId: SquareId) => {
+    console.log(`handleMovePiece ${sourceSquareId} ${targetSquareId}`);
     // setBoardStates(currentBoardStates => {
     //     let newBoardStates = currentBoardStates;
 
