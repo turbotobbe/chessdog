@@ -6,6 +6,14 @@ export class BoardState {
   public nodes: BoardNodeState[] = [];
   public index: number = -1;
   public chessGameState: ChessGameState = getDefaultChessGameState();
+
+  clone(): BoardState {
+    const clone = new BoardState();
+    clone.nodes = this.nodes.map(node => node.clone());
+    clone.index = this.index;
+    clone.chessGameState = this.chessGameState.clone();
+    return clone;
+  }
 }
 
 export class BoardNodeState {
@@ -27,26 +35,33 @@ export class BoardNodeState {
     this.count = 0;
   }
 
+  clone(): BoardNodeState {
+    const clone = new BoardNodeState(this.chessGameState.clone(), this.sourceSquareId, this.targetSquareId, this.pgn);
+    clone.nodes = this.nodes.map(node => node.clone());
+    clone.index = this.index;
+    clone.count = this.count;
+    return clone;
+  }
 }
 
-export function loadBoardState(pgnGames: PgnGame[]): BoardState {
+export function loadBoardState(boardState: BoardState, pgnGames: PgnGame[]): BoardState {
 
-  const boardState: BoardState = new BoardState();
+  const newBoardState: BoardState = boardState.clone();
 
   for (const game of pgnGames) {
 
     // setup new chess game state
-    let chessGameState = boardState.chessGameState;
-    let nodes = boardState.nodes;
+    let chessGameState = newBoardState.chessGameState;
+    let nodes = newBoardState.nodes;
 
     // go through each turn in the game
     for (const turn of game.turns) {
 
       // parse the move
-      const {sourceSquareId, targetSquareId, promotionPieceName} = parseMove(chessGameState, turn.white.move);
+      const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, turn.white.move);
 
       // update the chess game state
-      chessGameState = nextChessGameState(chessGameState, {sourceSquareId, targetSquareId, promotionPieceName});
+      chessGameState = nextChessGameState(chessGameState, { sourceSquareId, targetSquareId, promotionPieceName });
 
       // find the node in the board state
       let node = nodes.find(node => node.sourceSquareId === sourceSquareId && node.targetSquareId === targetSquareId);
@@ -55,21 +70,21 @@ export function loadBoardState(pgnGames: PgnGame[]): BoardState {
         // create a new node if it doesn't exist
         node = new BoardNodeState(chessGameState.clone(), sourceSquareId, targetSquareId, turn.white.move);
         nodes.push(node);
-      // } else {
+        // } else {
         // console.log("node already exists", node.sourceSquareId, node.targetSquareId, node.pgn);
       }
       node.count++;
       node.index = 0;
       nodes = node.nodes;
-      
+
       // if there is a black move, update the chess game state
-      if (turn.black && turn.black.move.length>0) {
+      if (turn.black && turn.black.move.length > 0) {
 
         // parse the move
-        const {sourceSquareId, targetSquareId, promotionPieceName} = parseMove(chessGameState, turn.black.move);
+        const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, turn.black.move);
 
         // update the chess game state
-        chessGameState = nextChessGameState(chessGameState, {sourceSquareId, targetSquareId, promotionPieceName});
+        chessGameState = nextChessGameState(chessGameState, { sourceSquareId, targetSquareId, promotionPieceName });
 
         // find the node in the board state
         let node = nodes.find(node => node.sourceSquareId === sourceSquareId && node.targetSquareId === targetSquareId);
@@ -77,15 +92,15 @@ export function loadBoardState(pgnGames: PgnGame[]): BoardState {
           // create a new node if it doesn't exist
           node = new BoardNodeState(chessGameState.clone(), sourceSquareId, targetSquareId, turn.black.move);
           nodes.push(node);
-        // } else {
-        //   console.log("node already exists", node.sourceSquareId, node.targetSquareId, node.pgn);
+          // } else {
+          //   console.log("node already exists", node.sourceSquareId, node.targetSquareId, node.pgn);
         }
         node.count++;
         node.index = 0;
         nodes = node.nodes;
       }
     }
-    boardState.index = 0;
+    newBoardState.index = 0;
   }
-  return boardState;
+  return newBoardState;
 }

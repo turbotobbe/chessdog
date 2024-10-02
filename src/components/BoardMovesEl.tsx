@@ -92,31 +92,37 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
     }, [boardState, path]);
 
 
-    const handleMoveClick = (d: number) => {
-        console.log('handleMoveClick', d);
-        if (d === pathIndex) {
+    const handleMoveClick = (index: number) => {
+        console.log('handleMoveClick', index);
+        if (index === pathIndex) {
             console.log("double click");
-            let node = boardState.nodes[path[0]];
-            for (let i = 1; i < d; i++) {
-                if (i < path.length) {
+
+            // initial
+            let alternatives = boardState.nodes.length;
+            let currentIndex = path[pathIndex];
+
+            if (pathIndex > 0) {
+                // traverse to the the correct alternatives
+                let node = boardState.nodes[path[0]];
+                alternatives = node.nodes.length;
+                for (let i = 1; i < pathIndex; i++) {
                     node = node.nodes[path[i]];
-                } else {
-                    node = node.nodes[0];
+                    alternatives = node.nodes.length;
                 }
             }
-            let alternatives = node.nodes.length;
-            let currentIndex = d < path.length ? path[d] : 0;
-            console.log('pathIndex', d, 'path', path, 'currentIndex', currentIndex, 'alternatives', alternatives);
+
+            // round robin through alternatives
+            console.log('pathIndex', index, 'path', path, 'currentIndex', currentIndex, 'alternatives', alternatives);
             if (currentIndex < alternatives - 1) {
                 console.log('set new line index', currentIndex + 1);
-                setLineIndex(d, currentIndex + 1);
+                setLineIndex(index, currentIndex + 1);
             } else {
                 console.log('set new line index', 0);
-                setLineIndex(d, 0);
+                setLineIndex(index, 0);
             }
         } else {
-            console.log('set new path index', d);
-            setPathIndex(d);
+            console.log('set new path index', index);
+            setPathIndex(index);
         }
     }
 
@@ -136,7 +142,7 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
                             <TableCell>
                                 <Box sx={{ width: 'calc(var(--text-size))' }}>#</Box>
                             </TableCell>
-                            <TableCell sx={{ textAlign: 'right'}}>
+                            <TableCell sx={{ textAlign: 'right' }}>
                                 <Box sx={{ width: 'calc(var(--text-size)*4)', paddingRight: 'calc(var(--text-size)/2)' }} >White</Box>
                             </TableCell>
                             <TableCell sx={{ textAlign: 'right', }}>

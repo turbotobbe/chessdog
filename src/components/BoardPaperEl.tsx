@@ -3,7 +3,7 @@ import PlayerInfoEl from "./PlayerInfoEl";
 import { useEffect, useState } from "react";
 import { asPieceInfo, ChessGameState } from "@/models/chess";
 import BoardEl from "./BoardEl";
-import { PieceId, SquareId } from "@/types/chess";
+import { PieceId, PieceName, SquareId } from "@/types/chess";
 
 const calculatePieceValue = (pieceIds: PieceId[]) => {
     const pieceInfos = pieceIds.map(pieceId => asPieceInfo(pieceId));
@@ -22,13 +22,15 @@ interface BoardPaperElProps {
     }
     black: {
         name: string;
-    }
+    },
+    movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId, promotionPieceName: PieceName | null) => void;
 }
 
 const BoardPaperEl: React.FC<BoardPaperElProps> = ({
     chessGameState,
     white,
-    black
+    black,
+    movePiece
 }) => {
     const [whiteClock, setWhiteClock] = useState("");
     const [blackClock, setBlackClock] = useState("");
@@ -76,6 +78,9 @@ useEffect(() => {
 
 const handleMovePiece = (sourceSquareId: SquareId, targetSquareId: SquareId) => {
     console.log(`handleMovePiece ${sourceSquareId} ${targetSquareId}`);
+    movePiece(sourceSquareId, targetSquareId, null);
+
+
     // setBoardStates(currentBoardStates => {
     //     let newBoardStates = currentBoardStates;
 

@@ -1,16 +1,16 @@
 import { expect, test } from "vitest";
-import { loadBoardState } from "../src/models/BoardState";
+import { BoardState, loadBoardState } from "../src/models/BoardState";
 import { parsePgn } from "../src/utils/pgn";
 
 test('empty board state', () => {
-    const boardStates = loadBoardState([]);
+    const boardStates = loadBoardState(new BoardState(), []);
     expect(boardStates.nodes.length).toBe(0);
 });
 
 test('single move', () => {
     const pgnGame = parsePgn("1. e4");
     console.log(pgnGame);
-    const boardStates = loadBoardState([pgnGame]);
+    const boardStates = loadBoardState(new BoardState(), [pgnGame]);
     console.log(boardStates);
 
     let node = boardStates.nodes[0];
@@ -26,7 +26,7 @@ test('single move', () => {
 test('single line', () => {
     const pgnGame = parsePgn("1. e4 1... e5 2. d4 2... d5");
     console.log(pgnGame);
-    const boardStates = loadBoardState([pgnGame]);
+    const boardStates = loadBoardState(new BoardState(), [pgnGame]);
     console.log(boardStates);
 
     let node = boardStates.nodes[0];
@@ -66,7 +66,7 @@ test('double line', () => {
     const pgnGame = parsePgn("1. e4 1... e5 2. d4 2... d5");
     const pgnGame2 = parsePgn("1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4");
     console.log(pgnGame);
-    const boardStates = loadBoardState([pgnGame, pgnGame2]);
+    const boardStates = loadBoardState(new BoardState(), [pgnGame, pgnGame2]);
     console.log(boardStates);
     console.log(JSON.stringify(boardStates, null, 2));
 

@@ -77,11 +77,7 @@ export class ChessGameState {
 
     public lastMove: { fromSquareId: SquareId | null, toSquareId: SquareId | null } = { fromSquareId: null, toSquareId: null };
 
-    public pgnMoves: string[] = [];
-
-    addPgnMove(pgnMove: string): void {
-        this.pgnMoves.push(pgnMove);
-    }
+    public pgn: string = "";
 
     initialize(squareIdPieceIdPairs: { squareId: SquareId, pieceId: PieceId }[]) {
         for (const { squareId, pieceId } of squareIdPieceIdPairs) {
@@ -160,7 +156,7 @@ export class ChessGameState {
         cloneChessGameState.capturedBlackPieceIds = [...this.capturedBlackPieceIds];
         cloneChessGameState.movedPieceIds = [...this.movedPieceIds];
         cloneChessGameState.lastMove = { fromSquareId: this.lastMove.fromSquareId, toSquareId: this.lastMove.toSquareId };
-        cloneChessGameState.pgnMoves = [...this.pgnMoves];
+        cloneChessGameState.pgn = this.pgn;
         return cloneChessGameState;
     }
 
@@ -453,7 +449,7 @@ export function nextChessGameState(
         isCastling,
         isPawnPromotion,
         move.promotionPieceName);
-    newChessGameState.addPgnMove(pgnMove);
+    newChessGameState.pgn = pgnMove;
 
     // console.log(newChessGameState.capturedBlackPieceIds);
     // console.log(newChessGameState.capturedWhitePieceIds);
