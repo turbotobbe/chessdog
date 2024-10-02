@@ -7,11 +7,10 @@ import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import { TouchBackend } from 'react-dnd-touch-backend';
 
-import { toSquareId } from '@/utils/board';
 import { useIsTouchDevice } from '@/contexts/IsTouchDevice';
 import BoardSquareEl from './BoardSquareEl';
 import { SquareId } from '@/types/chess';
-import { ChessGameState } from '@/models/chess';
+import { ChessGameState, asSquareId } from '@/models/chess';
 
 type BoardElProps = {
     sx?: SxProps,
@@ -49,7 +48,7 @@ const BoardEl: React.FC<BoardElProps> = ({
                     Array.from({ length: 8 }, (_, col) => {
                         const fileIndex = asWhite ? col : 7 - col;
                         const rankIndex = asWhite ? 7 - row : row;
-                        const squareId: SquareId = toSquareId(fileIndex, rankIndex);
+                        const squareId: SquareId = asSquareId(fileIndex, rankIndex);
                         return <BoardSquareEl
                             key={squareId}
                             squareId={squareId}

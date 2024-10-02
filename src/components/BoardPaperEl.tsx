@@ -17,7 +17,7 @@ const calculatePieceValue = (pieceIds: PieceId[]) => {
 };
 
 interface BoardPaperElProps {
-    moves: PgnTurn[];
+    chessGameState: ChessGameState,
     white: {
         name: string;
     }
@@ -27,7 +27,7 @@ interface BoardPaperElProps {
 }
 
 const BoardPaperEl: React.FC<BoardPaperElProps> = ({
-    moves,
+    chessGameState,
     white,
     black
 }) => {
@@ -38,24 +38,24 @@ const BoardPaperEl: React.FC<BoardPaperElProps> = ({
     const [whiteScore, setWhiteScore] = useState(0);
     const [blackScore, setBlackScore] = useState(0);
 
-    const [boardStates, setBoardStates] = useState<ChessGameState[]>([]);
-    const [currentBoardStateIndex, setCurrentBoardStateIndex] = useState(-1);
+    // const [boardStates, setBoardStates] = useState<ChessGameState[]>([]);
+    // const [currentBoardStateIndex, setCurrentBoardStateIndex] = useState(-1);
     const [asWhite, setAsWhite] = useState(true);
 
-    useEffect(() => {
-        const boardState = getDefaultChessGameState();
-        setBoardStates([boardState]);
-        setCurrentBoardStateIndex(0);
-    }, []);
+    // useEffect(() => {
+    //     chessGameState.
+    //     const boardState = getDefaultChessGameState();
+    //     setBoardStates([boardState]);
+    //     setCurrentBoardStateIndex(0);
+    // }, [chessGameState]);
 
     useEffect(() => {
-        const boardState = boardStates[currentBoardStateIndex];
-        if (!boardState) {
+        if (!chessGameState) {
             return;
         }
 
-        const capturedWhitePieces = boardState.getCapturedWhitePieceIds()
-        const capturedBlackPieces = boardState.getCapturedBlackPieceIds()
+        const capturedWhitePieces = chessGameState.capturedWhitePieceIds;
+        const capturedBlackPieces = chessGameState.capturedBlackPieceIds;
         const capturedWhitePiecesValue = calculatePieceValue(capturedWhitePieces);
         const capturedBlackPiecesValue = calculatePieceValue(capturedBlackPieces);
         
@@ -63,7 +63,7 @@ const BoardPaperEl: React.FC<BoardPaperElProps> = ({
         setCapturedBlackPieces(capturedBlackPieces);
         setWhiteScore(capturedBlackPiecesValue-capturedWhitePiecesValue);
         setBlackScore(capturedWhitePiecesValue-capturedBlackPiecesValue);
-}, [currentBoardStateIndex]);
+}, []);
 
 useEffect(() => {
     setCapturedWhitePieces([]);
@@ -72,49 +72,47 @@ useEffect(() => {
     setBlackClock("");
     setWhiteScore(0);
     setBlackScore(0);
-}, [moves]);
+}, []);
 
 const handleMovePiece = (sourceSquareId: SquareId, targetSquareId: SquareId) => {
-    setBoardStates(currentBoardStates => {
-        let newBoardStates = currentBoardStates;
+    // setBoardStates(currentBoardStates => {
+    //     let newBoardStates = currentBoardStates;
 
-        setCurrentBoardStateIndex(currentIndex => {
-            console.log(`handleMovePiece ${currentIndex} ${currentBoardStates.length} ${sourceSquareId} ${targetSquareId}`);
+    //     setCurrentBoardStateIndex(currentIndex => {
+    //         console.log(`handleMovePiece ${currentIndex} ${currentBoardStates.length} ${sourceSquareId} ${targetSquareId}`);
 
-            if (currentBoardStates.length === 0) {
-                console.warn('No board states available to move pieces.');
-                return currentIndex;
-            }
+    //         if (currentBoardStates.length === 0) {
+    //             console.warn('No board states available to move pieces.');
+    //             return currentIndex;
+    //         }
 
-            const currentBoardState = currentBoardStates[currentIndex];
+    //         const currentBoardState = currentBoardStates[currentIndex];
 
-            try {
-                const newBoardState = nextChessGameState(currentBoardState, {
-                    fromSquareId: sourceSquareId,
-                    toSquareId: targetSquareId,
-                    promotionPieceName: 'q'
-                });
-                newBoardStates = [
-                    ...currentBoardStates.slice(0, currentIndex + 1),
-                    newBoardState
-                ];
+    //         try {
+    //             const newBoardState = nextChessGameState(currentBoardState, {
+    //                 sourceSquareId: sourceSquareId,
+    //                 targetSquareId: targetSquareId,
+    //                 promotionPieceName: 'q'
+    //             });
+    //             newBoardStates = [
+    //                 ...currentBoardStates.slice(0, currentIndex + 1),
+    //                 newBoardState
+    //             ];
 
-                return newBoardStates.length - 1; // New index
-            } catch (error) {
-                console.error('Error moving piece:', error);
-                return currentIndex;
-            }
-        });
+    //             return newBoardStates.length - 1; // New index
+    //         } catch (error) {
+    //             console.error('Error moving piece:', error);
+    //             return currentIndex;
+    //         }
+    //     });
 
-        return newBoardStates; // Return the new board states
-    });
+    //     return newBoardStates; // Return the new board states
+    // });
 }
 
-if (boardStates.length === 0) {
+if (!chessGameState) {
     return <div>loading...</div>;
 }
-
-const boardState = boardStates[currentBoardStateIndex];
 
 const top = {
     color: asWhite ? 'black' : 'white',
@@ -172,7 +170,7 @@ return (
 
         <BoardEl
             sx={{ gridArea: 'body' }}
-            chessGameState={boardState}
+            chessGameState={chessGameState}
             asWhite={asWhite}
             movePiece={handleMovePiece}
         />

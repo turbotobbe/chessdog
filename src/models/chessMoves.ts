@@ -1,5 +1,4 @@
-import { toSquareInfo } from '@/utils/board';
-import { ChessPieceState, toSquareId } from './chess';
+import { ChessPieceState, asSquareId, asSquareInfo } from './chess';
 import { ColorName, PieceId, SquareId, SquareInfo } from '@/types/chess';
 import { ChessGameState } from '@/models/chess';
 import * as chess from '@/types/chess';
@@ -40,7 +39,7 @@ function getPossibleMovesInDirection(
             if (x >= 8 || y >= 8 || x < 0 || y < 0) {
                 break;
             } else {
-                const newSquareId = toSquareId(x, y);
+                const newSquareId = asSquareId(x, y);
                 const pieceOnSquare = chessGameState.getPieceAt(newSquareId);
                 if (!pieceOnSquare) {
                     possibleMoves.push(newSquareId);
@@ -57,7 +56,7 @@ function getPossibleMovesInDirection(
 }
 
 export function getPossibleMovesForRook(chessGameState: ChessGameState, squareId: SquareId, colorName: ColorName): SquareId[] {
-    const squareInfo = toSquareInfo(squareId);
+    const squareInfo = asSquareInfo(squareId);
     const directions = [
         { x: 1, y: 0 }, // right
         { x: -1, y: 0 }, // left
@@ -69,18 +68,18 @@ export function getPossibleMovesForRook(chessGameState: ChessGameState, squareId
 
 
 export function getPossibleMovesForPawn(chessGameState: ChessGameState, squareId: SquareId, colorName: ColorName): SquareId[] {
-    const squareInfo = toSquareInfo(squareId);
+    const squareInfo = asSquareInfo(squareId);
     const direction = colorName === 'w' ? 1 : -1;
     const possibleMoves: SquareId[] = [];
 
     // Move forward one square
-    const oneSquareForward = toSquareId(squareInfo.fileIndex, squareInfo.rankIndex + direction);
+    const oneSquareForward = asSquareId(squareInfo.fileIndex, squareInfo.rankIndex + direction);
     if (oneSquareForward && !chessGameState.getPieceAt(oneSquareForward)) {
         possibleMoves.push(oneSquareForward);
 
         // Move forward two squares if it's the pawn's first move
         if ((colorName === 'w' && squareInfo.rankIndex === 1) || (colorName === 'b' && squareInfo.rankIndex === 6)) {
-            const twoSquaresForward = toSquareId(squareInfo.fileIndex, squareInfo.rankIndex + 2 * direction);
+            const twoSquaresForward = asSquareId(squareInfo.fileIndex, squareInfo.rankIndex + 2 * direction);
             if (twoSquaresForward && !chessGameState.getPieceAt(twoSquaresForward)) {
                 possibleMoves.push(twoSquaresForward);
             }
@@ -89,8 +88,8 @@ export function getPossibleMovesForPawn(chessGameState: ChessGameState, squareId
 
     // Capture diagonally
     const captureSquares = [
-        toSquareId(squareInfo.fileIndex + 1, squareInfo.rankIndex + direction),
-        toSquareId(squareInfo.fileIndex - 1, squareInfo.rankIndex + direction)
+        asSquareId(squareInfo.fileIndex + 1, squareInfo.rankIndex + direction),
+        asSquareId(squareInfo.fileIndex - 1, squareInfo.rankIndex + direction)
     ];
 
     for (const captureSquare of captureSquares) {
@@ -104,8 +103,8 @@ export function getPossibleMovesForPawn(chessGameState: ChessGameState, squareId
 
     // En passant
     if ((colorName === 'w' && squareInfo.rankName === '5') || (colorName === 'b' && squareInfo.rankName === '4')) {
-        const leftSquare = toSquareId(squareInfo.fileIndex - 1, squareInfo.rankIndex);
-        const rightSquare = toSquareId(squareInfo.fileIndex + 1, squareInfo.rankIndex);
+        const leftSquare = asSquareId(squareInfo.fileIndex - 1, squareInfo.rankIndex);
+        const rightSquare = asSquareId(squareInfo.fileIndex + 1, squareInfo.rankIndex);
 
         [leftSquare, rightSquare].forEach(adjacentSquare => {
             if (adjacentSquare) {
@@ -123,8 +122,8 @@ export function getPossibleMovesForPawn(chessGameState: ChessGameState, squareId
                     return;
                 }
                 
-                const adjacentToSquareInfo = toSquareInfo(chessGameState.lastMove.toSquareId);
-                const adjacentFromSquareInfo = toSquareInfo(chessGameState.lastMove.fromSquareId);
+                const adjacentToSquareInfo = asSquareInfo(chessGameState.lastMove.toSquareId);
+                const adjacentFromSquareInfo = asSquareInfo(chessGameState.lastMove.fromSquareId);
 
                 if (chessGameState.lastMove.toSquareId !== adjacentSquare) {
                     // last move was not to the adjacent square
@@ -135,7 +134,7 @@ export function getPossibleMovesForPawn(chessGameState: ChessGameState, squareId
                     return;
                 }
 
-                const enPassantSquare = toSquareId(adjacentToSquareInfo.fileIndex, adjacentToSquareInfo.rankIndex + direction);
+                const enPassantSquare = asSquareId(adjacentToSquareInfo.fileIndex, adjacentToSquareInfo.rankIndex + direction);
                 if (enPassantSquare) {
                     possibleMoves.push(enPassantSquare);
                 }
@@ -149,7 +148,7 @@ export function getPossibleMovesForPawn(chessGameState: ChessGameState, squareId
 
 
 export function getPossibleMovesForKnight(chessGameState: ChessGameState, squareId: SquareId, colorName: ColorName): SquareId[] {
-    const squareInfo = toSquareInfo(squareId);
+    const squareInfo = asSquareInfo(squareId);
     const possibleMoves: SquareId[] = [];
     const knightMoves = [
         { x: 2, y: 1 }, { x: 2, y: -1 },
@@ -162,7 +161,7 @@ export function getPossibleMovesForKnight(chessGameState: ChessGameState, square
         const x = squareInfo.fileIndex + move.x;
         const y = squareInfo.rankIndex + move.y;
         if (x >= 0 && x < 8 && y >= 0 && y < 8) {
-            const newSquareId = toSquareId(x, y);
+            const newSquareId = asSquareId(x, y);
             const pieceOnSquare = chessGameState.getPieceAt(newSquareId);
             if (!pieceOnSquare || pieceOnSquare.colorName !== colorName) {
                 possibleMoves.push(newSquareId);
@@ -174,7 +173,7 @@ export function getPossibleMovesForKnight(chessGameState: ChessGameState, square
 }
 
 export function getPossibleMovesForBishop(chessGameState: ChessGameState, squareId: SquareId, colorName: ColorName): SquareId[] {
-    const squareInfo = toSquareInfo(squareId);
+    const squareInfo = asSquareInfo(squareId);
     const directions = [
         { x: 1, y: 1 }, // up right
         { x: -1, y: -1 }, // down left
@@ -185,7 +184,7 @@ export function getPossibleMovesForBishop(chessGameState: ChessGameState, square
 }
 
 export function getPossibleMovesForQueen(chessGameState: ChessGameState, squareId: SquareId, colorName: ColorName): SquareId[] {
-    const squareInfo = toSquareInfo(squareId);
+    const squareInfo = asSquareInfo(squareId);
     const directions = [
         { x: 1, y: 0 }, // right
         { x: -1, y: 0 }, // left
@@ -200,7 +199,7 @@ export function getPossibleMovesForQueen(chessGameState: ChessGameState, squareI
 }
 
 export function getPossibleMovesForKing(chessGameState: ChessGameState, squareId: SquareId, colorName: ColorName): SquareId[] {
-    const squareInfo = toSquareInfo(squareId);
+    const squareInfo = asSquareInfo(squareId);
     const directions = [
         { x: 1, y: 0 }, // right
         { x: -1, y: 0 }, // left
@@ -241,12 +240,12 @@ function canCastle(chessGameState: ChessGameState, colorName: ColorName, side: '
     if (!kingSquareId) {
         throw new Error('King square not found');
     }
-    const kingSquareInfo = toSquareInfo(kingSquareId);
+    const kingSquareInfo = asSquareInfo(kingSquareId);
     const {fileIndex, rankIndex} = kingSquareInfo;
 
     const middleSquares = side === 'kingside' 
-        ? [toSquareId(fileIndex+1, rankIndex), toSquareId(fileIndex+2, rankIndex)] as SquareId[]
-        : [toSquareId(fileIndex-1, rankIndex), toSquareId(fileIndex-2, rankIndex), toSquareId(fileIndex-3, rankIndex)] as SquareId[];
+        ? [asSquareId(fileIndex+1, rankIndex), asSquareId(fileIndex+2, rankIndex)] as SquareId[]
+        : [asSquareId(fileIndex-1, rankIndex), asSquareId(fileIndex-2, rankIndex), asSquareId(fileIndex-3, rankIndex)] as SquareId[];
 
     for (const square of middleSquares) {
         if (chessGameState.getPieceAt(square) !== null) {
@@ -255,7 +254,7 @@ function canCastle(chessGameState: ChessGameState, colorName: ColorName, side: '
     }
 
     // Check if king is in check or passes through check
-    const passThrough = side === 'kingside' ? toSquareId(fileIndex+1, rankIndex) : toSquareId(fileIndex-1, rankIndex);
+    const passThrough = side === 'kingside' ? asSquareId(fileIndex+1, rankIndex) : asSquareId(fileIndex-1, rankIndex);
     if (isSquareUnderAttack(chessGameState, kingSquareId, colorName) ||
         isSquareUnderAttack(chessGameState, passThrough, colorName)) {
         return false;

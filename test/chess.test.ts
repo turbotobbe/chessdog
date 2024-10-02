@@ -10,16 +10,16 @@ function handlePgn(chessGameState: ChessGameState, pgnText: string): ChessGameSt
         const move = turn.white.move;
         const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, move);
         chessGameState = nextChessGameState(chessGameState, {
-            fromSquareId: sourceSquareId,
-            toSquareId: targetSquareId,
+            sourceSquareId: sourceSquareId,
+            targetSquareId: targetSquareId,
             promotionPieceName: promotionPieceName?.toLowerCase()
         });
         if (turn.black.move.length > 0) {
             const move = turn.black.move;
             const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, move);
             chessGameState = nextChessGameState(chessGameState, {
-                fromSquareId: sourceSquareId,
-                toSquareId: targetSquareId,
+                sourceSquareId: sourceSquareId,
+                targetSquareId: targetSquareId,
                 promotionPieceName: promotionPieceName?.toLowerCase()
             });
         }
@@ -108,11 +108,11 @@ test('test 1. e4 1... e5 2. f4', () => {
     let chessGameState = getDefaultChessGameState();
 
     expect(chessGameState.whitesTurn).toBe(true);
-    chessGameState = nextChessGameState(chessGameState, { fromSquareId: chess.e2, toSquareId: chess.e4, promotionPieceName: null });
+    chessGameState = nextChessGameState(chessGameState, { sourceSquareId: chess.e2, targetSquareId: chess.e4, promotionPieceName: null });
     expect(chessGameState.whitesTurn).toBe(false);
-    chessGameState = nextChessGameState(chessGameState, { fromSquareId: chess.e7, toSquareId: chess.e5, promotionPieceName: null });
+    chessGameState = nextChessGameState(chessGameState, { sourceSquareId: chess.e7, targetSquareId: chess.e5, promotionPieceName: null });
     expect(chessGameState.whitesTurn).toBe(true);
-    chessGameState = nextChessGameState(chessGameState, { fromSquareId: chess.f2, toSquareId: chess.f4, promotionPieceName: null });
+    chessGameState = nextChessGameState(chessGameState, { sourceSquareId: chess.f2, targetSquareId: chess.f4, promotionPieceName: null });
     expect(chessGameState.whitesTurn).toBe(false);
 
     expect(chessGameState.whiteKingInCheck).toBe(false);
@@ -206,7 +206,8 @@ test('simple capture 1. e4 1... d5 2. xd5', () => {
     expect(chessGameState.getPieceAt(chess.d5)?.id).toBe(chess.whitePawn5);
     expect(chessGameState.getPieceAt(chess.e4)).toBe(null);
     // expect(chessGameState.getCapturedPieceIds().length).toBe(1);
-    expect(chessGameState.getCapturedPieceIds()).toEqual([chess.blackPawn4]);
+    expect(chessGameState.capturedBlackPieceIds).toEqual([chess.blackPawn4]);
+    expect(chessGameState.capturedWhitePieceIds).toEqual([]);
 })
 
 test('Stalemate scenario', () => {
@@ -257,11 +258,12 @@ test('queen side castling 1. d4 1... d5 2. Bf4 2... Bf5 3. Nc3 3... Nc6 4. Qd2 4
 
 test('en passant', () => {
     let chessGameState = getDefaultChessGameState();
-    const pgnText = "1. e4 1... d5 2. d5 2... e5 3. e6"
+    const pgnText = "1. e4 1... d5 2. exd5 2... e5 3. e6"
     chessGameState = handlePgn(chessGameState, pgnText);
 
     expect(chessGameState.getPieceAt(chess.e6)?.id).toBe(chess.whitePawn5);
-    expect(chessGameState.getCapturedPieceIds()).toEqual([chess.blackPawn4, chess.blackPawn5]);
+    expect(chessGameState.capturedBlackPieceIds).toEqual([chess.blackPawn4, chess.blackPawn5]);
+    expect(chessGameState.capturedWhitePieceIds).toEqual([]);
     expect(chessGameState.getPieceAt(chess.e5)).toBe(null);
 })
 
@@ -276,7 +278,8 @@ test('promotion', () => {
          chess.blackPawn4, 
          chess.blackQueensideRook
         ]
-    expect(chessGameState.getCapturedPieceIds().sort()).toEqual(captures.sort());
+    expect(chessGameState.capturedBlackPieceIds.sort()).toEqual(captures.sort());
+    expect(chessGameState.capturedWhitePieceIds).toEqual([]);
 
     expect(chessGameState.getPieceAt(chess.a7)?.pieceName).toBe('p'); // Black pawn on a7
 

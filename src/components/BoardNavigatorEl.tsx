@@ -4,26 +4,53 @@ import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import LastPageIcon from '@mui/icons-material/LastPage';
 
-const BoardNavigatorEl: React.FC<{ sx?: SxProps }> = ({ sx }) => {
+type BoardNavigatorElProps = {
+    path: number[],
+    pathIndex: number,
+    setPathIndex: (pathIndex: number) => void
+    sx?: SxProps
+}
+const BoardNavigatorEl: React.FC<BoardNavigatorElProps> = ({
+    path,
+    pathIndex,
+    setPathIndex,
+    sx
+}) => {
+
+    const handleClickFirst = () => {
+        setPathIndex(-1);
+    }
+    const handleClickLast = () => {
+        setPathIndex(path.length - 1);
+    }
+    const handleClickPrev = () => {
+        if (pathIndex - 1 >= -1) {
+            setPathIndex(pathIndex - 1);
+        }
+    }
+    const handleClickNext = () => {
+        if (pathIndex + 1 < path.length) {
+            setPathIndex(pathIndex + 1);
+        }
+    }
     return (
         <Box sx={{
-            gridArea: 'se',
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'center',
             alignItems: 'center',
             ...sx
         }}>
-            <IconButton>
+            <IconButton onClick={handleClickFirst} disabled={pathIndex < 0}>
                 <FirstPageIcon />
             </IconButton>
-            <IconButton>
+            <IconButton onClick={handleClickPrev} disabled={pathIndex < 0}>
                 <NavigateBeforeIcon />
             </IconButton>
-            <IconButton>
+            <IconButton onClick={handleClickNext} disabled={pathIndex >= path.length - 1}>
                 <NavigateNextIcon />
             </IconButton>
-            <IconButton>
+            <IconButton onClick={handleClickLast} disabled={pathIndex >= path.length - 1}>
                 <LastPageIcon />
             </IconButton>
         </Box>

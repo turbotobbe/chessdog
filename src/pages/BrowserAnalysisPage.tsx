@@ -1,5 +1,5 @@
 import { Autocomplete, Box, Button, CircularProgress, IconButton, Paper, SxProps, Tab, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Tabs, TextField, Typography, useTheme } from '@mui/material';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 
@@ -10,6 +10,9 @@ import { ChessComGame } from '@/types/chess';
 import titledPlayers from '../assets/titled_players.json';
 import { parsePgn, PgnTurn } from '@/utils/pgn';
 import BoardPaperEl from '@/components/BoardPaperEl';
+import AnalysisPaperEl from '@/components/AnalysisPaperEl';
+import { BoardNodeState, BoardState, loadBoardState } from '@/models/BoardState';
+import { ChessGameState } from '@/models/chess';
 
 const loggedInUser = 'PhonkCheck'
 
@@ -143,7 +146,7 @@ function CustomTabPanel(props: TabPanelProps) {
             id={`simple-tabpanel-${index}`}
             aria-labelledby={`simple-tab-${index}`}
             sx={{ flexGrow: 1, display: value === index ? 'flex' : 'none', flexDirection: 'column' }} // Ensure the panel grows and is displayed as a flex container
-            
+
             {...other}
         >
             {value === index && children}
@@ -159,13 +162,13 @@ const AnalysisSource: React.FC<{ sx?: SxProps }> = ({ sx }) => {
     return (
         <Box
             className='analysis-source'
-         sx={{
-            gridArea: 'source',
-            display: 'flex',
-            flexDirection: 'column',
-            flexGrow: 1,
-            ...sx
-        }}>
+            sx={{
+                gridArea: 'source',
+                display: 'flex',
+                flexDirection: 'column',
+                flexGrow: 1,
+                ...sx
+            }}>
             <Box className='analysis-source-tabs' sx={{ borderBottom: 1, borderColor: 'divider' }}>
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                     <Tab label="PGN" />
@@ -187,15 +190,15 @@ const AnalysisSource: React.FC<{ sx?: SxProps }> = ({ sx }) => {
 
 const PgnSource: React.FC<{ sx?: SxProps }> = ({ sx }) => {
     return (
-        <Box className='analysis-source-pgn' 
-        sx={{
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 2,
-            height: '100%',
-            marginTop: 2,
-            ...sx
-        }}>
+        <Box className='analysis-source-pgn'
+            sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                gap: 2,
+                height: '100%',
+                marginTop: 2,
+                ...sx
+            }}>
             <TextField
                 className='analysis-source-pgn-url'
                 fullWidth
@@ -299,7 +302,7 @@ const AnalysisBody: React.FC<{ sx?: SxProps, setMoves: (moves: PgnTurn[]) => voi
         }
     }, [archives])
 
-    useEffect(()=> {
+    useEffect(() => {
         setMoves([]);
         setGames([]);
         setSelectedGame(null);
@@ -430,9 +433,9 @@ const AnalysisBody: React.FC<{ sx?: SxProps, setMoves: (moves: PgnTurn[]) => voi
                                 }
 
                                 return (
-                                    <TableRow 
-                                        hover 
-                                        key={index} 
+                                    <TableRow
+                                        hover
+                                        key={index}
                                         onClick={() => handleRowSelect(game)}
                                         sx={{ cursor: 'pointer' }}
                                     >
@@ -542,7 +545,122 @@ const AnalysisComponent: React.FC<{ setMoves: (moves: PgnTurn[]) => void }> = ({
 
 const BrowserAnalysisPage: React.FC = () => {
     const theme = useTheme();
-    const [moves, setMoves] = useState<PgnTurn[]>([]);
+    const [boardState, setBoardState] = useState<BoardState>(new BoardState());
+    const [chessGameState, setChessGameState] = useState<ChessGameState>(new ChessGameState());
+    const [path, setPath] = useState<number[]>([]);
+    const [pathIndex, setPathIndex] = useState<number>(-1);
+
+    const handleSetPathIndex = (index: number) => {
+        console.log(`handle set path index ${index}`);
+        setPathIndex(index);
+    }
+
+    const handleSetLineIndex = (pathIndex: number, lineIndex: number) => {
+        console.log(`handle set line index path ${pathIndex} line ${lineIndex}`);
+        setLineIndex(pathIndex, lineIndex);
+    }
+
+    useEffect(() => {
+        const pgnGame = parsePgn("1. e4 1... e5 2. d4 2... d5");
+        const pgnGame2 = parsePgn("1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4");
+        const pgnGame3 = parsePgn("1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5");
+        const boardState = loadBoardState([pgnGame, pgnGame2, pgnGame3]);
+        setBoardState(boardState); // only here!
+
+        // set initial main line path ([0, 0, 0, 0, 0, 0, 0, 0]...)
+        const newPath = [];
+        let node = boardState.nodes[0];
+        while (node) {
+            newPath.push(0);
+            node = node.nodes[0];
+        }
+        setPath(newPath);
+        setChessGameState(boardState.chessGameState);
+        setPathIndex(-1);
+    }, []);
+
+    useEffect(() => {
+        console.log(`pathIndex ${pathIndex} path ${path}`);
+        if (pathIndex >= 0) {
+            let node = boardState.nodes[path[0]];
+            for (let i = 1; i <= pathIndex; i++) {
+                node = node.nodes[path[i]];
+            }
+            setChessGameState(node.chessGameState);
+        } else {
+            setChessGameState(boardState.chessGameState);
+        }
+    }, [pathIndex, path]);
+
+    const setLineIndex = (pathIndex: number, lineIndex: number) => {
+        console.log(`setLineIndex pathIndex ${pathIndex} lineIndex ${lineIndex}`);
+        if (pathIndex >= 0) {
+            let newPath = [...path.slice(0, pathIndex + 1)];
+            newPath[pathIndex] = lineIndex;
+            let node = boardState.nodes[path[0]];
+            for (let i = 1; i <= pathIndex; i++) {
+                node = node.nodes[path[i]];
+            }
+            console.log('newPath', newPath);
+            while (node && node.nodes.length > 0) {
+                newPath.push(0);
+                node = node.nodes[0];
+            }
+            console.log('newPath', newPath);
+            setPath(newPath);
+        }
+    }
+    // useEffect(() => {
+    //     console.log(`pathIndex ${indexes.path} lineIndex ${indexes.line} path ${path}`);
+
+    //     let newPath : number[] = [...path];
+    //     let newChessGameState = chessGameState;
+
+    //     if (indexes.path !== prevIndexes.current.path) {
+    //         console.log('path index has changed');
+    //         // only path index has changed
+    //         newPath = [...path];
+    //         // traverse old path
+    //         if (indexes.path !== null) {
+    //             let node = boardState.nodes[path[0]];
+    //             for (let i = 1; i <= indexes.path; i++) {
+    //                 node = node.nodes[path[i]];
+    //             }
+    //             newChessGameState = node.chessGameState;
+    //         }
+    //     } else if (indexes.line !== prevIndexes.current.line) {
+    //         console.log('line index has changed');
+    //         // only line index has changed
+    //         if (indexes.path) {
+    //             newPath = [...path.slice(0, indexes.path + 1)];
+    //             newPath[indexes.path] = indexes.line || 0;    
+    //         }
+
+    //         console.log('newPath', newPath);
+    //         let node;
+    //         if (newPath) {
+    //             node = boardState.nodes[newPath[0]];
+    //             for (let i = 1; i < newPath.length; i++) {
+    //                 node = node.nodes[newPath[i]];
+    //             }
+    //             if (node) {
+    //                 newChessGameState = node.chessGameState;
+    //             }
+    //         }
+
+    //         // Recalculate the rest of the path
+    //         while (node && node.nodes.length > 0) {
+    //             newPath.push(0);
+    //             node = node.nodes[0];
+    //         }
+    //     }
+
+    //     setChessGameState(newChessGameState);
+    //     setPath(newPath);
+
+    //     prevIndexes.current = indexes;
+    // }, [indexes]);
+
     return (
         <Box
             sx={{
@@ -566,13 +684,20 @@ const BrowserAnalysisPage: React.FC = () => {
         >
             <Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
 
-                <BoardPaperEl moves={moves} white={{
+                <BoardPaperEl chessGameState={chessGameState} white={{
                     name: 'Mr.White'
                 }} black={{
                     name: 'Mr.Black'
-                }} />
+                }}
+                />
 
-                <AnalysisComponent setMoves={setMoves} />
+                <AnalysisPaperEl
+                    boardState={boardState}
+                    path={path}
+                    pathIndex={pathIndex}
+                    setPathIndex={handleSetPathIndex}
+                    setLineIndex={handleSetLineIndex}
+                />
 
                 {Array.from({ length: 8 }, (_, index) => (
                     <Typography variant='body1' key={index} p={2}>

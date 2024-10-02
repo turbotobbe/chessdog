@@ -25,7 +25,7 @@ export function asSquareInfo(squareId: SquareId): SquareInfo {
     };
 }
 
-export function toSquareId(fileIndex: number, rankIndex: number): SquareId {
+export function asSquareId(fileIndex: number, rankIndex: number): SquareId {
     const fileName = files[fileIndex];
     const rankName = ranks[rankIndex];
     return `${fileName}${rankName}` as SquareId;
@@ -375,13 +375,13 @@ function handlePawnPromotion(chessGameState: ChessGameState, toSquareInfo: Squar
 export function nextChessGameState(
     chessGameState: ChessGameState,
     move: {
-        fromSquareId: SquareId,
-        toSquareId: SquareId,
+        sourceSquareId: SquareId,
+        targetSquareId: SquareId,
         promotionPieceName: PieceName | null
     }): ChessGameState {
 
-    const toSquareInfo = asSquareInfo(move.toSquareId);
-    const fromSquareInfo = asSquareInfo(move.fromSquareId);
+    const toSquareInfo = asSquareInfo(move.targetSquareId);
+    const fromSquareInfo = asSquareInfo(move.sourceSquareId);
 
     // console.log(`next chess game state for move ${move.fromSquareId} to ${move.toSquareId}`);
     // console.log(chessGameState);
@@ -390,9 +390,9 @@ export function nextChessGameState(
     const newChessGameState = chessGameState.clone();
 
     // Validate the move
-    const pieceToMove = newChessGameState.getPieceAt(move.fromSquareId);
-    if (!pieceToMove || !pieceToMove.validMoveSquareIds.includes(move.toSquareId)) {
-        console.log(`Invalid move: ${move.fromSquareId} to ${move.toSquareId}`);
+    const pieceToMove = newChessGameState.getPieceAt(move.sourceSquareId);
+    if (!pieceToMove || !pieceToMove.validMoveSquareIds.includes(move.targetSquareId)) {
+        console.log(`Invalid move: ${move.sourceSquareId} to ${move.targetSquareId}`);
         console.log(pieceToMove);
         console.log(pieceToMove?.validMoveSquareIds);
         throw new Error("Invalid move");
@@ -406,28 +406,28 @@ export function nextChessGameState(
     // Handle en passant capture
     if (handleEnPassant(newChessGameState, fromSquareInfo, toSquareInfo, pieceToMove)) {
         isEnPassant = true;
-        console.log(`en passant move ${move.fromSquareId} to ${move.toSquareId}`);
+        console.log(`en passant move ${move.sourceSquareId} to ${move.targetSquareId}`);
     }
 
     // Handle capture
-    if (newChessGameState.getPieceAt(move.toSquareId)) {
+    if (newChessGameState.getPieceAt(move.targetSquareId)) {
         isCapture = true;
-        console.log(`capture move ${move.toSquareId}`);
-        newChessGameState.capturePieceAt(move.toSquareId);
+        console.log(`capture move ${move.targetSquareId}`);
+        newChessGameState.capturePieceAt(move.targetSquareId);
     }
 
     // move the piece
-    newChessGameState.movePiece(move.fromSquareId, move.toSquareId);
+    newChessGameState.movePiece(move.sourceSquareId, move.targetSquareId);
 
     // Handle castling
     if (handleCastling(newChessGameState, fromSquareInfo, toSquareInfo, pieceToMove)) {
         isCastling = toSquareInfo.fileIndex - fromSquareInfo.fileIndex === 2 ? chess.kingside : chess.queenside;
-        console.log(`castling move ${move.fromSquareId} to ${move.toSquareId}`);
+        console.log(`castling move ${move.sourceSquareId} to ${move.targetSquareId}`);
     }
 
     if (handlePawnPromotion(newChessGameState, toSquareInfo, pieceToMove, move.promotionPieceName)) {
         isPawnPromotion = true;
-        console.log(`pawn promotion move ${move.fromSquareId} to ${move.toSquareId}`);
+        console.log(`pawn promotion move ${move.sourceSquareId} to ${move.targetSquareId}`);
     }
 
     // switch turns
@@ -455,10 +455,12 @@ export function nextChessGameState(
         move.promotionPieceName);
     newChessGameState.addPgnMove(pgnMove);
 
-    if (newChessGameState.blackKingSquareId) {
-        const blackKingPieceInfo = newChessGameState.getPieceAt(newChessGameState.blackKingSquareId);
-        console.log("black king valid moves", blackKingPieceInfo?.validMoveSquareIds);
-    }
+    // console.log(newChessGameState.capturedBlackPieceIds);
+    // console.log(newChessGameState.capturedWhitePieceIds);
+    // if (newChessGameState.blackKingSquareId) {
+    //     const blackKingPieceInfo = newChessGameState.getPieceAt(newChessGameState.blackKingSquareId);
+    //     console.log("black king valid moves", blackKingPieceInfo?.validMoveSquareIds);
+    // }
     return newChessGameState;
 }
 
@@ -602,7 +604,6 @@ function getDisambiguation(
                pieceInfo.validMoveSquareIds.includes(toSquareInfo.id);
     }).map(squareId => asSquareInfo(squareId));
 
-    console.log("ssis",sourceSquareInfos);
     if (sourceSquareInfos.length < 2) {
         return "";
     }
