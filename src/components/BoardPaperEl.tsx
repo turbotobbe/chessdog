@@ -59,134 +59,99 @@ const BoardPaperEl: React.FC<BoardPaperElProps> = ({
         const capturedBlackPieces = chessGameState.capturedBlackPieceIds;
         const capturedWhitePiecesValue = calculatePieceValue(capturedWhitePieces);
         const capturedBlackPiecesValue = calculatePieceValue(capturedBlackPieces);
-        
+
         setCapturedWhitePieces(capturedWhitePieces);
         setCapturedBlackPieces(capturedBlackPieces);
-        setWhiteScore(capturedBlackPiecesValue-capturedWhitePiecesValue);
-        setBlackScore(capturedWhitePiecesValue-capturedBlackPiecesValue);
+        setWhiteScore(capturedBlackPiecesValue - capturedWhitePiecesValue);
+        setBlackScore(capturedWhitePiecesValue - capturedBlackPiecesValue);
         setAsWhite(true);
-}, []);
+    }, [chessGameState]);
 
-useEffect(() => {
-    setCapturedWhitePieces([]);
-    setCapturedBlackPieces([]);
-    setWhiteClock("");
-    setBlackClock("");
-    setWhiteScore(0);
-    setBlackScore(0);
-}, []);
+    useEffect(() => {
+        setCapturedWhitePieces([]);
+        setCapturedBlackPieces([]);
+        setWhiteClock("");
+        setBlackClock("");
+        setWhiteScore(0);
+        setBlackScore(0);
+    }, []);
 
-const handleMovePiece = (sourceSquareId: SquareId, targetSquareId: SquareId) => {
-    console.log(`handleMovePiece ${sourceSquareId} ${targetSquareId}`);
-    movePiece(sourceSquareId, targetSquareId, 'q');
+    const handleMovePiece = (sourceSquareId: SquareId, targetSquareId: SquareId) => {
+        console.log(`handleMovePiece ${sourceSquareId} ${targetSquareId}`);
+        movePiece(sourceSquareId, targetSquareId, 'q');
+    }
 
+    if (!chessGameState) {
+        return <div>loading...</div>;
+    }
 
-    // setBoardStates(currentBoardStates => {
-    //     let newBoardStates = currentBoardStates;
+    const top = {
+        color: asWhite ? 'black' : 'white',
+        name: asWhite ? black.name : white.name,
+        clock: asWhite ? blackClock : whiteClock,
+        captures: asWhite ? capturedWhitePieces : capturedBlackPieces,
+        value: asWhite ? blackScore : whiteScore
+    }
 
-    //     setCurrentBoardStateIndex(currentIndex => {
-    //         console.log(`handleMovePiece ${currentIndex} ${currentBoardStates.length} ${sourceSquareId} ${targetSquareId}`);
+    const bottom = {
+        color: asWhite ? 'white' : 'black',
+        name: asWhite ? white.name : black.name,
+        clock: asWhite ? whiteClock : blackClock,
+        captures: asWhite ? capturedBlackPieces : capturedWhitePieces,
+        value: asWhite ? whiteScore : blackScore
+    }
 
-    //         if (currentBoardStates.length === 0) {
-    //             console.warn('No board states available to move pieces.');
-    //             return currentIndex;
-    //         }
-
-    //         const currentBoardState = currentBoardStates[currentIndex];
-
-    //         try {
-    //             const newBoardState = nextChessGameState(currentBoardState, {
-    //                 sourceSquareId: sourceSquareId,
-    //                 targetSquareId: targetSquareId,
-    //                 promotionPieceName: 'q'
-    //             });
-    //             newBoardStates = [
-    //                 ...currentBoardStates.slice(0, currentIndex + 1),
-    //                 newBoardState
-    //             ];
-
-    //             return newBoardStates.length - 1; // New index
-    //         } catch (error) {
-    //             console.error('Error moving piece:', error);
-    //             return currentIndex;
-    //         }
-    //     });
-
-    //     return newBoardStates; // Return the new board states
-    // });
-}
-
-if (!chessGameState) {
-    return <div>loading...</div>;
-}
-
-const top = {
-    color: asWhite ? 'black' : 'white',
-    name: asWhite ? black.name : white.name,
-    clock: asWhite ? blackClock : whiteClock,
-    captures: asWhite ? capturedWhitePieces : capturedBlackPieces,
-    value: asWhite ? blackScore : whiteScore
-}
-
-const bottom = {
-    color: asWhite ? 'white' : 'black',
-    name: asWhite ? white.name : black.name,
-    clock: asWhite ? whiteClock : blackClock,
-    captures: asWhite ? capturedBlackPieces : capturedWhitePieces,
-    value: asWhite ? whiteScore : blackScore
-}
-
-return (
-    <Paper className='chessboard-paper'
-        elevation={1}
-        sx={{
-            display: 'grid',
-            p: 'var(--chessboard-paper-padding)',
-            m: 'var(--chessboard-paper-margin)',
-            gap: 'var(--chessboard-paper-gap)',
-            width: 'fit-content',
-            height: 'fit-content',
-            gridTemplateColumns: 'auto 1fr auto',
-            gridTemplateRows: 'auto 1fr auto',
-            gridTemplateAreas: `
+    return (
+        <Paper className='chessboard-paper'
+            elevation={1}
+            sx={{
+                display: 'grid',
+                p: 'var(--chessboard-paper-padding)',
+                m: 'var(--chessboard-paper-margin)',
+                gap: 'var(--chessboard-paper-gap)',
+                width: 'fit-content',
+                height: 'fit-content',
+                gridTemplateColumns: 'auto 1fr auto',
+                gridTemplateRows: 'auto 1fr auto',
+                gridTemplateAreas: `
             "nw head ne"
             "west body east"
             "sw foot se"
         `,
-        }}
-    >
-        <PlayerInfoEl
-            sx={{
-                gridArea: 'head',
             }}
-            color={top.color}
-            name={top.name}
-            clock={top.clock}
-            pieceIds={top.captures}
-            pieceValue={top.value} />
-        <PlayerInfoEl
-            sx={{
-                gridArea: 'foot',
-            }}
-            color={bottom.color}
-            name={bottom.name}
-            clock={bottom.clock}
-            pieceIds={bottom.captures}
-            pieceValue={bottom.value} />
+        >
+            <PlayerInfoEl
+                sx={{
+                    gridArea: 'head',
+                }}
+                color={top.color}
+                name={top.name}
+                clock={top.clock}
+                pieceIds={top.captures}
+                pieceValue={top.value} />
+            <PlayerInfoEl
+                sx={{
+                    gridArea: 'foot',
+                }}
+                color={bottom.color}
+                name={bottom.name}
+                clock={bottom.clock}
+                pieceIds={bottom.captures}
+                pieceValue={bottom.value} />
 
-        <BoardEl
-            sx={{ gridArea: 'body' }}
-            chessGameState={chessGameState}
-            asWhite={asWhite}
-            movePiece={handleMovePiece}
-        />
-        {/* <BoardEl sx={{ gridArea: 'body' }} /> */}
+            <BoardEl
+                sx={{ gridArea: 'body' }}
+                chessGameState={chessGameState}
+                asWhite={asWhite}
+                movePiece={handleMovePiece}
+            />
+            {/* <BoardEl sx={{ gridArea: 'body' }} /> */}
 
-        {/* <ScoreSheetEl sx={{ gridArea: 'east' }} moves={moves} /> */}
-        {/* <BoardPlayerEl sx={{ gridArea: 'se' }} /> */}
-        {/* <BoardToolsEl sx={{ gridArea: 'ne' }} /> */}
-    </Paper>
-)
+            {/* <ScoreSheetEl sx={{ gridArea: 'east' }} moves={moves} /> */}
+            {/* <BoardPlayerEl sx={{ gridArea: 'se' }} /> */}
+            {/* <BoardToolsEl sx={{ gridArea: 'ne' }} /> */}
+        </Paper>
+    )
 }
 
 export default BoardPaperEl;
