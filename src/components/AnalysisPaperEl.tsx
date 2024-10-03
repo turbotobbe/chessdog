@@ -10,6 +10,7 @@ type AnalysisPaperElProps = {
     pathIndex: number,
     setPathIndex: (pathIndex: number) => void,
     setLineIndex: (pathIndex: number, lineIndex: number) => void
+    sx?: React.CSSProperties
 }
 
 const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
@@ -17,13 +18,15 @@ const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
     path,
     pathIndex,
     setPathIndex,
-    setLineIndex
+    setLineIndex,
+    sx
 }) => {
     // console.log('AnalysisPaperEl', path, pathIndex);
     return (
         <Paper className='analysis-paper'
             elevation={1}
             sx={{
+                ...sx,
                 display: 'grid',
                 p: 'var(--chessboard-paper-padding)',
                 m: 'var(--chessboard-paper-margin)',

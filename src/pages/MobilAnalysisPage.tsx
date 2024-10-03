@@ -1,66 +1,68 @@
 import React from 'react';
-import { Box, Paper, Typography } from '@mui/material';
+import { Box, Paper, Typography, useTheme } from '@mui/material';
+import BoardPaperEl from '@/components/BoardPaperEl';
+import { useChessGame } from '@/contexts/ChessGame';
+import AnalysisPaperEl from '@/components/AnalysisPaperEl';
 
 const MobilAnalysisPage: React.FC = () => {
+    const theme = useTheme();
+    const {
+        boardState,
+        chessGameState,
+        path,
+        pathIndex,
+        handleSetPathIndex,
+        handleSetLineIndex,
+        handleMovePiece
+    } = useChessGame();
+
     return (
-        <Box>
+        <Box
+            sx={{
+                '--spacing': `${theme.spacing(1)}`,
+                '--text-size': `calc(${theme.typography.body1.lineHeight} * ${theme.typography.body1.fontSize})`,
 
-            {/* board and sidepanel container */}
-            <Box sx={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'flex-start',
-                // minHeight: '100vh',
-                boxSizing: 'border-box',
-                // padding: 2,
+                '--chessboard-paper-margin': 'calc(var(--spacing) * 2)',
+                '--chessboard-paper-padding': 'calc(var(--spacing) * 1)',
+                '--chessboard-paper-gap': 'calc(var(--spacing) * 1)',
 
-            }}>
-                {/* chess board container */}
-                <Paper elevation={1} sx={{
-                    display: 'flex',
+                '--chessboard-paper-margins': `calc(var(--chessboard-paper-margin) * 2)`,
+                '--chessboard-paper-paddings': `calc(var(--chessboard-paper-padding) * 2)`,
+                '--chessboard-paper-gaps': `calc(var(--chessboard-paper-gap) * 2)`,
 
-                }}>
+                '--player-info-height': `calc(var(--text-size) * 2)`, // 2 lines of text
 
-                    {/* chess board */}
-                    <Box className="chessboard" sx={{
+                '--chessboard-paper-height': `calc(100vh - var(--chessboard-paper-margins))`,
+                '--chessboard-height': `calc(100vw - var(--chessboard-paper-margins) - var(--chessboard-paper-paddings) - var(--chessboard-paper-gaps))`,
+                '--square-size': `calc(var(--chessboard-height) / 8)`,
+            }}
+        >
+            <Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
+
+                <BoardPaperEl
+                    chessGameState={chessGameState}
+                    white={{ name: 'Mr.White' }}
+                    black={{ name: 'Mr.Black' }}
+                    movePiece={handleMovePiece}
+                />
+
+                <AnalysisPaperEl
+                    boardState={boardState}
+                    path={path}
+                    pathIndex={pathIndex}
+                    setPathIndex={handleSetPathIndex}
+                    setLineIndex={handleSetLineIndex}
+                    sx={{
                         width: '100%',
-                        height: '100%',
-                        aspectRatio: '1 / 1'
-                    }}>
-                        {/* chess board grid */}
-                        <Box className="grid" sx={{
-                            display: 'grid',
-                            gridTemplateColumns: 'repeat(8, 1fr)',
-                            gridTemplateRows: 'repeat(8, 1fr)',
-                            height: '100%',
-                            width: '100%',
-                        }}>
-                            {Array.from({ length: 8 }, (_, row) =>
-                                Array.from({ length: 8 }, (_, col) => (
-                                    <Box key={`${row}-${col}`} sx={{
-                                        border: '1px solid #ccc',
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                    }}>
-                                        {row}-{col}
-                                        {/* <img src={wp} alt="wp" style={{ width: '100%', height: '100%' }} /> */}
-                                    </Box>
-                                ))
-                            )}
-                        </Box>
-                    </Box>
-                </Paper>
-            </Box>
+                    }}
+                />
 
-            {/* more stuff Here */}
-            <Box>
-                {Array.from({ length: 8 }, (_, row) =>
-                    Array.from({ length: 8 }, (_, col) => (
-                        <Typography p={2} key={`${row}-${col}`} variant="body1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dolorum quibusdam, quisquam nisi eaque sequi deleniti aperiam consectetur soluta, saepe dignissimos mollitia? Neque accusamus rerum, consequuntur perspiciatis sint similique quisquam.</Typography>
-                    ))
-                )}
+                {Array.from({ length: 8 }, (_, index) => (
+                    <Typography variant='body1' key={index} p={2}>
+                        Chess is a game of strategy and skill that has captivated players for centuries. Its complex rules and infinite possibilities make it a challenging and rewarding pursuit. From the opening moves to the endgame, every decision can have far-reaching consequences. Players must think several steps ahead, anticipating their opponent's moves while planning their own. The beauty of chess lies in its balance of tactical maneuvers and long-term strategic planning.
+                    </Typography>
+                ))}
+
             </Box>
         </Box>
     );
