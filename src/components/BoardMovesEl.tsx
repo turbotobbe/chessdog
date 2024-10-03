@@ -47,7 +47,8 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
                 // If the element is already visible, do nothing
             }
         }
-    }, [pathIndex]);    
+    }, [pathIndex]);
+
     useEffect(() => {
         let line: {
             white: BoardNodeState,
@@ -60,6 +61,7 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
 
         // early return if path is empty
         if (path.length == 0) {
+            setLine([]);
             return;
         }
 

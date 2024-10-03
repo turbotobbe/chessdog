@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { asPieceInfo, ChessGameState } from "@/models/chess";
 import BoardEl from "./BoardEl";
 import { PieceId, PieceName, SquareId } from "@/types/chess";
+import BoardOptionsEl from "./BoardOptionsEl";
+import { BrowserView } from "react-device-detect";
 
 const calculatePieceValue = (pieceIds: PieceId[]) => {
     const pieceInfos = pieceIds.map(pieceId => asPieceInfo(pieceId));
@@ -64,7 +66,6 @@ const BoardPaperEl: React.FC<BoardPaperElProps> = ({
         setCapturedBlackPieces(capturedBlackPieces);
         setWhiteScore(capturedBlackPiecesValue - capturedWhitePiecesValue);
         setBlackScore(capturedWhitePiecesValue - capturedBlackPiecesValue);
-        setAsWhite(true);
     }, [chessGameState]);
 
     useEffect(() => {
@@ -145,6 +146,9 @@ const BoardPaperEl: React.FC<BoardPaperElProps> = ({
                 asWhite={asWhite}
                 movePiece={handleMovePiece}
             />
+            <BrowserView>
+            <BoardOptionsEl sx={{ gridArea: 'east' }} isAsWhite={asWhite} asWhite={setAsWhite} />
+            </BrowserView>
             {/* <BoardEl sx={{ gridArea: 'body' }} /> */}
 
             {/* <ScoreSheetEl sx={{ gridArea: 'east' }} moves={moves} /> */}

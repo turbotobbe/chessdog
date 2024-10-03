@@ -10,6 +10,7 @@ type AnalysisPaperElProps = {
     pathIndex: number,
     setPathIndex: (pathIndex: number) => void,
     setLineIndex: (pathIndex: number, lineIndex: number) => void
+    resetBoard: () => void
     sx?: React.CSSProperties
 }
 
@@ -19,6 +20,7 @@ const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
     pathIndex,
     setPathIndex,
     setLineIndex,
+    resetBoard,
     sx
 }) => {
     // console.log('AnalysisPaperEl', path, pathIndex);
@@ -58,6 +60,7 @@ const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
                 path={path}
                 pathIndex={pathIndex}
                 setPathIndex={setPathIndex}
+                resetBoard={resetBoard}
             />
             {/* <AnalysisHeader sx={{ gridArea: 'head' }} />
             <AnalysisBody sx={{ gridArea: 'body' }} setMoves={setMoves} />

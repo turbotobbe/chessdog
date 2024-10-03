@@ -85,6 +85,16 @@ export const useChessGame = () => {
         setPathIndex(pathIndex);
     }
 
+    const handleResetBoard = () => {
+        setBoardState(_prevBoardState => {
+            const newBoardState = new BoardState();
+            setPath([]);
+            setPathIndex(-1);
+            setChessGameState(newBoardState.chessGameState);
+            return newBoardState;
+        });
+    }
+
     const handleSetPathIndex = (index: number) => {
         console.log(`handle set path index ${index}`);
         setPathIndex(index);
@@ -178,7 +188,8 @@ export const useChessGame = () => {
         pathIndex,
         handleSetPathIndex,
         handleSetLineIndex,
-        handleMovePiece
+        handleMovePiece,
+        handleResetBoard
     };
 };
 

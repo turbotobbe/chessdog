@@ -1,19 +1,21 @@
-import { SxProps, Box, IconButton } from "@mui/material";
+import { SxProps, Box, IconButton, Divider } from "@mui/material";
 import FirstPageIcon from '@mui/icons-material/FirstPage';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import LastPageIcon from '@mui/icons-material/LastPage';
-
+import DeleteIcon from '@mui/icons-material/Delete';
 type BoardNavigatorElProps = {
     path: number[],
     pathIndex: number,
     setPathIndex: (pathIndex: number) => void
+    resetBoard: () => void
     sx?: SxProps
 }
 const BoardNavigatorEl: React.FC<BoardNavigatorElProps> = ({
     path,
     pathIndex,
     setPathIndex,
+    resetBoard,
     sx
 }) => {
 
@@ -28,6 +30,9 @@ const BoardNavigatorEl: React.FC<BoardNavigatorElProps> = ({
     }
     const handleClickNext = () => {
         setPathIndex(pathIndex + 1);
+    }
+    const handleClickReset = () => {
+        resetBoard()
     }
     return (
         <Box sx={{
@@ -48,6 +53,10 @@ const BoardNavigatorEl: React.FC<BoardNavigatorElProps> = ({
             </IconButton>
             <IconButton onClick={handleClickLast} disabled={path.length === 0 || pathIndex >= path.length - 1}>
                 <LastPageIcon />
+            </IconButton>
+            <Divider />
+            <IconButton onClick={handleClickReset} disabled={path.length === 0}>
+                <DeleteIcon />
             </IconButton>
         </Box>
     )
