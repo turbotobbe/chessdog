@@ -376,6 +376,7 @@ export function nextChessGameState(
         promotionPieceName: PieceName | null
     }): ChessGameState {
 
+        console.log(move)
     const toSquareInfo = asSquareInfo(move.targetSquareId);
     const fromSquareInfo = asSquareInfo(move.sourceSquareId);
 

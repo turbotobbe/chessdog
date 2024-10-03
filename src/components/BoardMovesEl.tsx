@@ -1,6 +1,6 @@
 import { Box, Button, SxProps, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
 import { BoardNodeState, BoardState } from "@/models/BoardState";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 type BoardMovesElProps = {
     boardState: BoardState,
@@ -18,6 +18,8 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
     setLineIndex,
     sx
 }) => {
+    const tableRef = useRef<HTMLTableElement>(null);
+    
     const [line, setLine] = useState<{
         white: BoardNodeState,
         whiteLineCount: number,
@@ -27,6 +29,25 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
         blackLineIndex: number
     }[]>([]);
 
+    useEffect(() => {
+        if (tableRef.current) {
+            const currentMoveElement = tableRef.current.querySelector('.current-line');
+            if (currentMoveElement) {
+                const headerHeight = tableRef.current.querySelector('thead')?.clientHeight || 0;
+                const containerRect = tableRef.current.getBoundingClientRect();
+                const elementRect = currentMoveElement.getBoundingClientRect();
+                
+                if (elementRect.top < containerRect.top + headerHeight) {
+                    // Element is hidden behind the header, scroll it into view
+                    tableRef.current.scrollTop = tableRef.current.scrollTop + (elementRect.top - containerRect.top - headerHeight) - 10;
+                } else if (elementRect.bottom > containerRect.bottom) {
+                    // Element is below the visible area, scroll it into view
+                    currentMoveElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+                // If the element is already visible, do nothing
+            }
+        }
+    }, [pathIndex]);    
     useEffect(() => {
         let line: {
             white: BoardNodeState,
@@ -132,10 +153,11 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
             justifyContent: 'center',
             alignItems: 'center',
             height: 'var(--chessboard-height)',
+            position: 'relative',
             ...sx
         }}>
 
-            <TableContainer sx={{ height: '100%', overflowY: 'scroll' }}>
+            <TableContainer ref={tableRef} sx={{ height: '100%', overflowY: 'scroll' }}>
                 <Table stickyHeader size="small">
                     <TableHead>
                         <TableRow>
@@ -152,11 +174,14 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
                     </TableHead>
                     <TableBody>
                         {line.map((item, i) => {
+                            const isFirstLineCurrentLine = i === 0 && pathIndex < 0;
                             const isWhiteCurrentMove = (i * 2) === pathIndex;
                             const isBlackCurrentMove = (i * 2 + 1) === pathIndex;
                             return (
                                 <TableRow key={i}>
-                                    <TableCell>{i + 1}.</TableCell>
+                                    <TableCell
+                                        className={`move-number ${isFirstLineCurrentLine || isWhiteCurrentMove || isBlackCurrentMove ? 'current-line' : ''}`}
+                                    >{i + 1}.</TableCell>
                                     <TableCell
                                         className={`white-${i} ${isWhiteCurrentMove ? 'current-move' : ''}`}
                                         sx={{

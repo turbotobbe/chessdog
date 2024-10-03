@@ -1,13 +1,13 @@
 import { Box } from "@mui/material"
 import { useDrop } from "react-dnd"
 import BoardPieceEl from "./BoardPieceEl"
-import { SquareId, lightSquareIds } from "@/types/chess"
+import { PieceName, SquareId, lightSquareIds } from "@/types/chess"
 import { ChessGameState } from "@/models/chess"
 
 type BoardSquareElProps = {
     squareId: SquareId,
     chessGameState: ChessGameState,
-    movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId) => void
+    movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId, promotionPieceName?: PieceName) => void
 }
 
 
@@ -52,7 +52,7 @@ const BoardSquareEl: React.FC<BoardSquareElProps> = ({
         () => ({
             accept: "piece",
             canDrop: (item: { squareId: SquareId }) => handleCanDrop(squareId, item.squareId, chessGameState),
-            drop: (item: { squareId: SquareId }) => movePiece(item.squareId, squareId),
+            drop: (item: { squareId: SquareId }) => movePiece(item.squareId, squareId, 'q'),
             collect: (monitor) => ({
                 isOver: !!monitor.isOver(),
                 canDrop: !!monitor.canDrop()

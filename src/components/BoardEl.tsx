@@ -9,14 +9,14 @@ import { TouchBackend } from 'react-dnd-touch-backend';
 
 import { useIsTouchDevice } from '@/contexts/IsTouchDevice';
 import BoardSquareEl from './BoardSquareEl';
-import { SquareId } from '@/types/chess';
+import { PieceName, SquareId } from '@/types/chess';
 import { ChessGameState, asSquareId } from '@/models/chess';
 
 type BoardElProps = {
     sx?: SxProps,
     chessGameState: ChessGameState,
     asWhite: boolean,
-    movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId) => void
+    movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId, promotionPieceName?: PieceName) => void
 }
 
 

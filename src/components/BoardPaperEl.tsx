@@ -78,7 +78,7 @@ useEffect(() => {
 
 const handleMovePiece = (sourceSquareId: SquareId, targetSquareId: SquareId) => {
     console.log(`handleMovePiece ${sourceSquareId} ${targetSquareId}`);
-    movePiece(sourceSquareId, targetSquareId, null);
+    movePiece(sourceSquareId, targetSquareId, 'q');
 
 
     // setBoardStates(currentBoardStates => {
