@@ -1,9 +1,11 @@
 [
   {
+    "slug": "flank-openings",
     "name": "Flank openings",
     "range": "A00-A99",
     "openings": [
       {
+        "slug": "irregular-openings",
         "name": "Irregular Openings",
         "range": "A00",
         "lines": [
@@ -346,6 +348,7 @@
         ]
       },
       {
+        "slug": "nimzowitsch-larsen-attack",
         "name": "Nimzowitsch-Larsen Attack",
         "range": "A01",
         "lines": [
@@ -408,6 +411,7 @@
         ]
       },
       {
+        "slug": "birds-opening",
         "name": "Bird's Opening",
         "range": "A02-A03",
         "lines": [
@@ -463,6 +467,7 @@
         ]
       },
       {
+        "slug": "reti-opening",
         "name": "Reti Opening",
         "range": "A04-A09",
         "lines": [
@@ -763,6 +768,7 @@
         ]
       },
       {
+        "slug": "english-opening",
         "name": "English opening",
         "range": "A10-A39",
         "lines": [
@@ -1581,11 +1587,13 @@
         ]
       },
       {
+        "slug": "queens-pawn-opening",
         "name": "Queen's Pawn Opening",
         "range": "A40-42",
         "lines": []
       },
       {
+        "slug": "benoni-old-benoni",
         "name": "Benoni/Old Benoni",
         "range": "A43",
         "lines": [
@@ -1662,6 +1670,7 @@
         ]
       },
       {
+        "slug": "queens-pawn-1-d4-nf6",
         "name": "Queen's Pawn 1.d4 Nf6",
         "range": "A45-A50",
         "lines": [
@@ -1962,6 +1971,7 @@
         ]
       },
       {
+        "slug": "budapest-gambit",
         "name": "Budapest Gambit",
         "range": "A51-A52",
         "lines": [
@@ -2024,6 +2034,7 @@
         ]
       },
       {
+        "slug": "old-indian-defence",
         "name": "Old Indian Defence",
         "range": "A53-A55",
         "lines": [
@@ -2114,6 +2125,7 @@
         ]
       },
       {
+        "slug": "czech-benoni",
         "name": "Czech Benoni",
         "range": "A56",
         "lines": [
@@ -2155,6 +2167,7 @@
         ]
       },
       {
+        "slug": "benko-volga-gambit",
         "name": "Benko/Volga Gambit",
         "range": "A57-A59",
         "lines": [
@@ -2287,6 +2300,7 @@
         ]
       },
       {
+        "slug": "modern-benoni",
         "name": "Modern Benoni",
         "range": "A60-A79",
         "lines": [
@@ -2461,6 +2475,7 @@
         ]
       },
       {
+        "slug": "dutch-defence",
         "name": "Dutch Defence",
         "range": "A80-A99",
         "lines": [
@@ -2777,10 +2792,12 @@
     ]
   },
   {
+    "slug": "semi-open-games",
     "name": "Semi-open games (not including the French defence)",
     "range": "B00-B99",
     "openings": [
       {
+        "slug": "kings-pawn-opening",
         "name": "King's Pawn Opening",
         "range": "B00",
         "lines": [
@@ -3011,6 +3028,7 @@
         ]
       },
       {
+        "slug": "scandinavian-defence",
         "name": "Scandinavian Defence",
         "range": "B01",
         "lines": [
@@ -3178,6 +3196,7 @@
         ]
       },
       {
+        "slug": "alekhine-defence",
         "name": "Alekhine Defence",
         "range": "B02-B05",
         "lines": [
@@ -3380,6 +3399,7 @@
         ]
       },
       {
+        "slug": "modern-robatsch-defence",
         "name": "Modern/Robatsch Defence",
         "range": "B06",
         "lines": [
@@ -3575,6 +3595,7 @@
         ]
       },
       {
+        "slug": "pirc-defence",
         "name": "Pirc Defence",
         "range": "B07-B09",
         "lines": [
@@ -3812,6 +3833,7 @@
         ]
       },
       {
+        "slug": "caro-kann-defence",
         "name": "Caro-Kann Defence",
         "range": "B10-B19",
         "lines": [
@@ -4252,6 +4274,7 @@
         ]
       },
       {
+        "slug": "sicilian-defence",
         "name": "Sicilian Defence",
         "range": "B20-B99",
         "lines": [
@@ -6171,10 +6194,12 @@
     ]
   },
   {
+    "slug": "open-games",
     "name": "Open games (including the French defence)",
     "range": "C00-C99",
     "openings": [
       {
+        "slug": "french-defence",
         "name": "French Defence",
         "range": "C00-C19",
         "lines": [
@@ -7070,6 +7095,7 @@
         ]
       },
       {
+        "slug": "kings-pawn-game",
         "name": "King's Pawn Game",
         "range": "C20",
         "lines": [
@@ -7132,6 +7158,7 @@
         ]
       },
       {
+        "slug": "danish-gambit",
         "name": "Danish Gambit",
         "range": "C21",
         "lines": [
@@ -7159,6 +7186,7 @@
         ]
       },
       {
+        "slug": "center-game",
         "name": "Center Game",
         "range": "C22",
         "lines": [
@@ -7186,6 +7214,7 @@
         ]
       },
       {
+        "slug": "bishops-opening",
         "name": "Bishop's Opening",
         "range": "C23-C24",
         "lines": [
@@ -7234,6 +7263,7 @@
         ]
       },
       {
+        "slug": "vienna-game",
         "name": "Vienna Game",
         "range": "C25-C29",
         "lines": [
@@ -7429,6 +7459,7 @@
         ]
       },
       {
+        "slug": "kings-gambit-declined",
         "name": "King's Gambit Declined",
         "range": "C30-C32",
         "lines": [
@@ -7533,6 +7564,7 @@
         ]
       },
       {
+        "slug": "kings-gambit-accepted",
         "name": "King's Gambit Accepted",
         "range": "C33-C39",
         "lines": [
@@ -7700,6 +7732,7 @@
         ]
       },
       {
+        "slug": "latvian-gambit",
         "name": "Latvian Gambit",
         "range": "C40",
         "lines": [
@@ -7790,6 +7823,7 @@
         ]
       },
       {
+        "slug": "philidor-defence",
         "name": "Philidor Defence",
         "range": "C41",
         "lines": [
@@ -7964,6 +7998,7 @@
         ]
       },
       {
+        "slug": "petroff-defence-3-nxe5",
         "name": "Petroff Defence, 3.Nxe5",
         "range": "C42-C43",
         "lines": [
@@ -8180,6 +8215,7 @@
         ]
       },
       {
+        "slug": "ponziani-opening",
         "name": "Ponziani Opening",
         "range": "C44",
         "lines": [
@@ -8368,6 +8404,7 @@
         ]
       },
       {
+        "slug": "scotch-game",
         "name": "Scotch Game",
         "range": "C45",
         "lines": [
@@ -8500,6 +8537,7 @@
         ]
       },
       {
+        "slug": "three-knights-game",
         "name": "Three Knights' Game",
         "range": "C46",
         "lines": [
@@ -8555,6 +8593,7 @@
         ]
       },
       {
+        "slug": "four-knights-game",
         "name": "Four Knights' Game",
         "range": "C47-C49",
         "lines": [
@@ -8708,6 +8747,7 @@
         ]
       },
       {
+        "slug": "italian-game-giuoco-pianissimo",
         "name": "Italian Game - Giuoco Pianissimo",
         "range": "C50",
         "lines": [
@@ -8798,6 +8838,7 @@
         ]
       },
       {
+        "slug": "evans-gambit",
         "name": "Evans' Gambit",
         "range": "C51-C52",
         "lines": [
@@ -8895,6 +8936,7 @@
         ]
       },
       {
+        "slug": "giuoco-piano-4-c3",
         "name": "Giuoco Piano, 4.c3",
         "range": "C53-C54",
         "lines": [
@@ -9020,6 +9062,7 @@
         ]
       },
       {
+        "slug": "two-knights-defence",
         "name": "Two Knights' Defence",
         "range": "C55-C59",
         "lines": [
@@ -9250,6 +9293,7 @@
         ]
       },
       {
+        "slug": "ruy-lopez",
         "name": "Ruy Lopez",
         "range": "C60-C99",
         "lines": [
@@ -10189,10 +10233,12 @@
     ]
   },
   {
+    "slug": "closed-and-semi-closed-games",
     "name": "Closed and semi-closed games",
     "range": "D00-D99",
     "openings": [
       {
+        "slug": "queens-pawn-game",
         "name": "Queen's Pawn Game",
         "range": "D00-D03",
         "lines": [
@@ -10535,6 +10581,7 @@
         ]
       },
       {
+        "slug": "colle-system",
         "name": "Colle System",
         "range": "D04-D05",
         "lines": [
@@ -10604,6 +10651,7 @@
         ]
       },
       {
+        "slug": "queens-gambit-irregular",
         "name": "Queen's Gambit, Irregular",
         "range": "D06-D09",
         "lines": [
@@ -10736,6 +10784,7 @@
         ]
       },
       {
+        "slug": "slav-defence",
         "name": "Slav Defence",
         "range": "D10-D19",
         "lines": [
@@ -11001,6 +11050,7 @@
         ]
       },
       {
+        "slug": "queens-gambit-accepted",
         "name": "Queen's Gambit Accepted",
         "range": "D20-D29",
         "lines": [
@@ -11266,6 +11316,7 @@
         ]
       },
       {
+        "slug": "queens-gambit-declined-slav",
         "name": "Queen's Gambit Declined: Slav",
         "range": "D30",
         "lines": [
@@ -11349,6 +11400,7 @@
         ]
       },
       {
+        "slug": "queens-gambit-declined-semi-slav",
         "name": "Queen's Gambit Declined: Semi-Slav",
         "range": "D31",
         "lines": [
@@ -11439,6 +11491,7 @@
         ]
       },
       {
+        "slug": "queens-gambit-declined-tarrasch-defence",
         "name": "Queen's Gambit Declined: Tarrasch Defence",
         "range": "D32-D34",
         "lines": [
@@ -11571,6 +11624,7 @@
         ]
       },
       {
+        "slug": "queens-gambit-declined",
         "name": "Queen's Gambit Declined",
         "range": "D35-D42",
         "lines": [
@@ -11752,6 +11806,7 @@
         ]
       },
       {
+        "slug": "queens-gambit-declined-semi-slav-main-line",
         "name": "Queen's Gambit Declined: Semi-Slav main line",
         "range": "D43-D49",
         "lines": [
@@ -11989,6 +12044,7 @@
         ]
       },
       {
+        "slug": "queens-gambit-declined-classical",
         "name": "Queen's Gambit Declined: Classical",
         "range": "D50-D69",
         "lines": [
@@ -12247,6 +12303,7 @@
         ]
       },
       {
+        "slug": "grunfeld-defence",
         "name": "Grünfeld Defence",
         "range": "D70-D99",
         "lines": [
@@ -12689,10 +12746,12 @@
     ]
   },
   {
+    "slug": "indian-defences",
     "name": "Indian defences",
     "range": "E00-E99",
     "openings": [
       {
+        "slug": "indian-defences",
         "name": "Indian Defences",
         "range": "E00",
         "lines": [
@@ -12734,6 +12793,7 @@
         ]
       },
       {
+        "slug": "catalan-opening",
         "name": "Catalan Opening",
         "range": "E01-E09",
         "lines": [
@@ -12831,6 +12891,7 @@
         ]
       },
       {
+        "slug": "blumenfeld-gambit",
         "name": "Blumenfeld Gambit",
         "range": "E10",
         "lines": [
@@ -12879,6 +12940,7 @@
         ]
       },
       {
+        "slug": "bogo-indian-defence",
         "name": "Bogo-Indian Defence",
         "range": "E11",
         "lines": [
@@ -12934,6 +12996,7 @@
         ]
       },
       {
+        "slug": "queens-indian-defence",
         "name": "Queen's Indian Defence",
         "range": "E12-E19",
         "lines": [
@@ -13220,6 +13283,7 @@
         ]
       },
       {
+        "slug": "nimzo-indian-defence",
         "name": "Nimzo-Indian Defence",
         "range": "E20-E59",
         "lines": [
@@ -13688,6 +13752,7 @@
         ]
       },
       {
+        "slug": "kings-indian-defence",
         "name": "King's Indian Defence",
         "range": "E60-E99",
         "lines": [
