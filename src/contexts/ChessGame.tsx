@@ -1,11 +1,11 @@
 import { useState, useEffect, useCallback } from 'react';
 import { BoardState, BoardNodeState, loadBoardState } from '@/models/BoardState';
-import { ChessGameState, nextChessGameState } from '@/models/chess';
-import { PieceName, SquareId } from '@/types/chess';
+import { ChessGameState, getDefaultChessGameState, getSetupChessGameState, nextChessGameState } from '@/models/chess';
+import { GameSetup, PieceName, SquareId } from '@/types/chess';
 import { PgnGame } from '@/utils/pgn';
 
 export const useChessGame = () => {
-    const [boardState, setBoardState] = useState<BoardState>(new BoardState());
+    const [boardState, setBoardState] = useState<BoardState>(new BoardState(getDefaultChessGameState()));
     const [chessGameState, setChessGameState] = useState<ChessGameState>(new ChessGameState());
     const [path, setPath] = useState<number[]>([]);
     const [pathIndex, setPathIndex] = useState<number>(-1);
@@ -24,7 +24,9 @@ export const useChessGame = () => {
         // parsePgn("1. e4 1... d5 2. exd5 2... e5 3. e6"),
         // parsePgn("1. e4 1... d5 2. exd5 2... c6 3. dxc6 3... Nf6 4. cxb7 4... Bd7 5. bxa8=Q"),
         // parsePgn("1. e4 1... d5 2. exd5 2... c5 3. d6 3... Qa5 4. d7+ 4... Kd8 5. c3 5... Kc7 6. d8=Q+"),
-        const newBoardState = loadBoardState(new BoardState(), games);
+        const newChessGameState = getDefaultChessGameState();
+        let newBoardState = new BoardState(newChessGameState);
+        newBoardState = loadBoardState(newBoardState, games);
         setBoardState(newBoardState);
 
         // set initial main line path ([0, 0, 0, 0, 0, 0, 0, 0]...)
@@ -87,7 +89,8 @@ export const useChessGame = () => {
 
     const handleResetBoard = () => {
         setBoardState(_prevBoardState => {
-            const newBoardState = new BoardState();
+            const newChessGameState = getDefaultChessGameState();
+            const newBoardState = new BoardState(newChessGameState);
             setPath([]);
             setPathIndex(-1);
             setChessGameState(newBoardState.chessGameState);
@@ -95,13 +98,30 @@ export const useChessGame = () => {
         });
     }
 
-    const handleLoadBoard = (pgnText: string) => {
-        console.log('handleLoadBoard', pgnText);
+    const handleLoadBoard = (setup: GameSetup, pgnGames: PgnGame[]) => {
+        console.log('handleLoadBoard', setup);
+        setBoardState(_prevBoardState => {
+            const newChessGameState = getSetupChessGameState(setup);
+            let newBoardState = new BoardState(newChessGameState);
+            newBoardState = loadBoardState(newBoardState, pgnGames);
+            // set initial main line path ([0, 0, 0, 0, 0, 0, 0, 0]...)
+            const newPath = [];
+            let node = newBoardState.nodes[0];
+            while (node) {
+                newPath.push(0);
+                node = node.nodes[0];
+            }
+            setPath(newPath);
+            setPathIndex(-1);
+            return newBoardState
+        });
     }
 
     const handleLoadPgns = (pgnGames: PgnGame[]) => {
         setBoardState(_prevBoardState => {
-            const newBoardState = loadBoardState(new BoardState(), pgnGames);
+            const newChessGameState = getDefaultChessGameState();
+            let newBoardState = new BoardState(newChessGameState);
+            newBoardState = loadBoardState(newBoardState, pgnGames);
             // set initial main line path ([0, 0, 0, 0, 0, 0, 0, 0]...)
             const newPath = [];
             let node = newBoardState.nodes[0];

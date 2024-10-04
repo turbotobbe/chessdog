@@ -86,6 +86,8 @@ const BrowserOpeningsPage: React.FC = () => {
                     setPathIndex={handleSetPathIndex}
                     setLineIndex={handleSetLineIndex}
                     resetBoard={handleResetBoard}
+                    title="Openings"
+                    subtitle="Learn the openings"
                 />
 
                 <Card>

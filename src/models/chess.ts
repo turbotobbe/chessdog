@@ -1,6 +1,6 @@
 import * as chess from "@/types/chess";
 import { getPossibleMovesForPiece } from "./chessMoves";
-import { castlingRookMoves, ColorName, FileName, files, PieceId, PieceInfo, PieceName, RankName, ranks, SquareId, squareIds, SquareInfo } from "@/types/chess";
+import { castlingRookMoves, ColorName, FileName, files, GameSetup, PieceId, PieceInfo, PieceName, RankName, ranks, SquareId, squareIds, SquareInfo } from "@/types/chess";
 
 export function asPieceInfo(pieceId: PieceId): PieceInfo {
     return {
@@ -459,6 +459,28 @@ export function nextChessGameState(
     //     console.log("black king valid moves", blackKingPieceInfo?.validMoveSquareIds);
     // }
     return newChessGameState;
+}
+
+export function getSetupChessGameState(setup: GameSetup): ChessGameState {
+    const initialChessGameState = new ChessGameState();
+    const squareIdPieceIdMap = setup.white.concat(setup.black).map(position => {
+        return { squareId: position.square, pieceId: position.piece };
+    });
+    initialChessGameState.initialize(squareIdPieceIdMap);
+
+    // update the valid moves
+    updateValidMoves(initialChessGameState);
+
+    // remove moves that put the king in check
+    filterValidMoves(initialChessGameState);
+
+    // update the king check status
+    updateChecksAndMatesStatuses(initialChessGameState);
+
+    // console.log(`initial chess game state`);
+    // console.log(initialChessGameState);
+
+    return initialChessGameState;
 }
 
 export function getDefaultChessGameState(): ChessGameState {

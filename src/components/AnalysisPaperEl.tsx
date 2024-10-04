@@ -5,22 +5,28 @@ import BoardMovesEl from "./BoardMovesEl";
 import { BoardState } from "@/models/BoardState";
 
 type AnalysisPaperElProps = {
+    title: string,
+    subtitle?: string,
     boardState: BoardState,
     path: number[],
     pathIndex: number,
     setPathIndex: (pathIndex: number) => void,
     setLineIndex: (pathIndex: number, lineIndex: number) => void
+    restartBoard?: () => void
     resetBoard: () => void
     sx?: React.CSSProperties
 }
 
 const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
+    title,
+    subtitle,
     boardState,
     path,
     pathIndex,
     setPathIndex,
     setLineIndex,
     resetBoard,
+    restartBoard,
     sx
 }) => {
     // console.log('AnalysisPaperEl', path, pathIndex);
@@ -46,7 +52,7 @@ const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
         `,
             }}
         >
-            <PaperHeaderEl sx={{ gridArea: 'head' }} title='Analysis' />
+            <PaperHeaderEl sx={{ gridArea: 'head' }} title={title} />            
             <BoardMovesEl
                 sx={{ gridArea: 'body' }}
                 boardState={boardState}
@@ -62,6 +68,7 @@ const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
                 pathIndex={pathIndex}
                 setPathIndex={setPathIndex}
                 resetBoard={resetBoard}
+                restartBoard={restartBoard}
             />
             {/* <AnalysisHeader sx={{ gridArea: 'head' }} />
             <AnalysisBody sx={{ gridArea: 'body' }} setMoves={setMoves} />

@@ -4,10 +4,12 @@ import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import LastPageIcon from '@mui/icons-material/LastPage';
 import DeleteIcon from '@mui/icons-material/Delete';
+import RestartAltIcon from '@mui/icons-material/RestartAlt';
 type BoardNavigatorElProps = {
     path: number[],
     pathIndex: number,
     setPathIndex: (pathIndex: number) => void
+    restartBoard?: () => void
     resetBoard: () => void
     sx?: SxProps
 }
@@ -15,10 +17,14 @@ const BoardNavigatorEl: React.FC<BoardNavigatorElProps> = ({
     path,
     pathIndex,
     setPathIndex,
+    restartBoard,
     resetBoard,
     sx
 }) => {
 
+    const handleClickRestart = () => {
+        restartBoard && restartBoard()
+    }
     const handleClickFirst = () => {
         setPathIndex(-1);
     }
@@ -42,6 +48,9 @@ const BoardNavigatorEl: React.FC<BoardNavigatorElProps> = ({
             alignItems: 'center',
             ...sx
         }}>
+            {restartBoard && <IconButton onClick={handleClickRestart}>
+                <RestartAltIcon />
+            </IconButton>}
             <IconButton onClick={handleClickFirst} disabled={path.length === 0 || pathIndex < 0}>
                 <FirstPageIcon />
             </IconButton>

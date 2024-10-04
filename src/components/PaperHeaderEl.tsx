@@ -10,7 +10,7 @@ const PaperHeaderEl: React.FC<{ sx?: SxProps, title: string }> = ({ sx, title })
             alignItems: 'center',
             ...sx
         }}>
-            <Typography variant='h4'>{title}</Typography>
+            <Typography variant='h5'>{title}</Typography>
         </Box>
     )
 }

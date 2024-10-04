@@ -5,13 +5,16 @@ import { ChessGameState, getDefaultChessGameState, nextChessGameState } from "./
 export class BoardState {
   public nodes: BoardNodeState[] = [];
   public index: number = -1;
-  public chessGameState: ChessGameState = getDefaultChessGameState();
+  public chessGameState: ChessGameState;
+
+  constructor(chessGameState: ChessGameState) {
+    this.chessGameState = chessGameState;
+  }
 
   clone(): BoardState {
-    const clone = new BoardState();
+    const clone = new BoardState(this.chessGameState.clone());
     clone.nodes = this.nodes.map(node => node.clone());
     clone.index = this.index;
-    clone.chessGameState = this.chessGameState.clone();
     return clone;
   }
 }
@@ -51,7 +54,7 @@ export function loadBoardState(boardState: BoardState, pgnGames: PgnGame[]): Boa
   for (const game of pgnGames) {
     console.log('game', game);
     // setup new chess game state
-    let chessGameState = getDefaultChessGameState();
+    let chessGameState = boardState.chessGameState.clone();
     let nodes = newBoardState.nodes;
 
     // go through each turn in the game

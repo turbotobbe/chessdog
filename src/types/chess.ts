@@ -265,17 +265,27 @@ export type Line = {
   moves: string;
   count: number;
 }
-// export type OpeningGroups = {
-//   [key: string]: Opening[]
-// }
-// export type Opening = {
-//   name: string;
-//   link: string;
-//   total_games: string;
-//   eco: string;
-//   last_played: string;
-//   performance: string;
-//   avg_player: string;
-//   player_wins: string;
-//   moves: string;
-// }
+
+export type Position = {
+  piece: PieceId;
+  square: SquareId;
+}
+
+export type GameSetup = {
+  white: Position[];
+  black: Position[];
+}
+
+export type Drill = {
+  white: PieceId[];
+  black: PieceId[];
+}
+
+export type Endgame = {
+  slug: string;
+  name: string;
+  description: string;
+  setup: GameSetup;
+  pgn: string;
+  drill: Drill;
+}
