@@ -247,12 +247,14 @@ export const castlingRookMoves: Record<ColorName, Record<SideName, { fromSquareI
 }
 
 export type OpeningCategory = {
+  slug: string;
   name: string;
   range: string;
   openings: Opening[];
 }
 
 export type Opening = {
+  slug: string;
   name: string;
   range: string;
   lines: Line[];
