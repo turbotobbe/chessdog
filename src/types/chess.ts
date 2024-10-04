@@ -245,3 +245,37 @@ export const castlingRookMoves: Record<ColorName, Record<SideName, { fromSquareI
       queenside: { fromSquareId: a8, toSquareId: d8 }
   }
 }
+
+export type OpeningCategory = {
+  name: string;
+  range: string;
+  openings: Opening[];
+}
+
+export type Opening = {
+  name: string;
+  range: string;
+  lines: Line[];
+}
+
+export type Line = {
+  eco: string;
+  name: string;
+  color: string;
+  moves: string;
+  count: number;
+}
+// export type OpeningGroups = {
+//   [key: string]: Opening[]
+// }
+// export type Opening = {
+//   name: string;
+//   link: string;
+//   total_games: string;
+//   eco: string;
+//   last_played: string;
+//   performance: string;
+//   avg_player: string;
+//   player_wins: string;
+//   moves: string;
+// }

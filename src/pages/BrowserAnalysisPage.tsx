@@ -1,7 +1,8 @@
 import AnalysisPaperEl from '@/components/AnalysisPaperEl';
 import BoardPaperEl from '@/components/BoardPaperEl';
+import PgnSourcePaperEl from '@/components/PgnSourcePaperEl';
 import { useChessGame } from '@/contexts/ChessGame';
-import { Box, Typography, useTheme } from '@mui/material';
+import { Box, useTheme } from '@mui/material';
 import React from 'react';
 
 const BrowserAnalysisPage: React.FC = () => {
@@ -14,7 +15,8 @@ const BrowserAnalysisPage: React.FC = () => {
         handleSetPathIndex,
         handleSetLineIndex,
         handleMovePiece,
-        handleResetBoard
+        handleResetBoard,
+        handleLoadBoard
     } = useChessGame();
 
     return (
@@ -38,7 +40,14 @@ const BrowserAnalysisPage: React.FC = () => {
                 '--square-size': `calc(var(--chessboard-height) / 8)`,
             }}
         >
-            <Box sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
+            <Box sx={{
+                display: 'flex',
+                flexDirection: 'row',
+                flexWrap: 'wrap',
+                gap: 1,
+                m: 2
+            }}
+            >
 
                 <BoardPaperEl
                     chessGameState={chessGameState}
@@ -56,11 +65,7 @@ const BrowserAnalysisPage: React.FC = () => {
                     resetBoard={handleResetBoard}
                 />
 
-                {Array.from({ length: 8 }, (_, index) => (
-                    <Typography variant='body1' key={index} p={2}>
-                        Chess is a game of strategy and skill that has captivated players for centuries. Its complex rules and infinite possibilities make it a challenging and rewarding pursuit. From the opening moves to the endgame, every decision can have far-reaching consequences. Players must think several steps ahead, anticipating their opponent's moves while planning their own. The beauty of chess lies in its balance of tactical maneuvers and long-term strategic planning.
-                    </Typography>
-                ))}
+                {/* <PgnSourcePaperEl loadBoard={handleLoadBoard} /> */}
 
             </Box>
         </Box>

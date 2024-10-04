@@ -1,0 +1,274 @@
+{
+    "openingCategories": [
+        {
+            "name": "Flank openings",
+            "range": "A00-A99",
+            "openings": [
+                {
+                    "name": "Irregular Openings",
+                    "range": "A00"
+                },
+                {
+                    "name": "Nimzowitsch-Larsen Attack",
+                    "range": "A01"
+                },
+                {
+                    "name": "Bird's Opening",
+                    "range": "A02-A03"
+                },
+                {
+                    "name": "Reti Opening",
+                    "range": "A04-A09"
+                },
+                {
+                    "name": "English opening",
+                    "range": "A10-A39"
+                },
+                {
+                    "name": "Queen's Pawn Opening",
+                    "range": "A40-42"
+                },
+                {
+                    "name": "Benoni/Old Benoni",
+                    "range": "A43"
+                },
+                {
+                    "name": "Queen's Pawn 1.d4 Nf6",
+                    "range": "A45-A50"
+                },
+                {
+                    "name": "Budapest Gambit",
+                    "range": "A51-A52"
+                },
+                {
+                    "name": "Old Indian Defence",
+                    "range": "A53-A55"
+                },
+                {
+                    "name": "Czech Benoni",
+                    "range": "A56"
+                },
+                {
+                    "name": "Benko/Volga Gambit",
+                    "range": "A57-A59"
+                },
+                {
+                    "name": "Modern Benoni",
+                    "range": "A60-A79"
+                },
+                {
+                    "name": "Dutch Defence",
+                    "range": "A80-A99"
+                }
+            ]
+        },
+        {
+            "name": "Semi-open games (not including the French defence)",
+            "range": "B00-B99",
+            "openings": [
+                {
+                    "name": "King's Pawn Opening",
+                    "range": "B00"
+                },
+                {
+                    "name": "Scandinavian Defence",
+                    "range": "B01"
+                },
+                {
+                    "name": "Alekhine Defence",
+                    "range": "B02-B05"
+                },
+                {
+                    "name": "Modern/Robatsch Defence",
+                    "range": "B06"
+                },
+                {
+                    "name": "Pirc Defence",
+                    "range": "B07-B09"
+                },
+                {
+                    "name": "Caro-Kann Defence",
+                    "range": "B10-B19"
+                },
+                {
+                    "name": "Sicilian Defence",
+                    "range": "B20-B99"
+                }
+            ]
+        },
+        {
+            "name": "Open games (including the French defence)",
+            "range": "C00-C99",
+            "openings": [
+                {
+                    "name": "French Defence",
+                    "range": "C00-C19"
+                },
+                {
+                    "name": "King's Pawn Game",
+                    "range": "C20"
+                },
+                {
+                    "name": "Danish Gambit",
+                    "range": "C21"
+                },
+                {
+                    "name": "Center Game",
+                    "range": "C22"
+                },
+                {
+                    "name": "Bishop's Opening",
+                    "range": "C23-C24"
+                },
+                {
+                    "name": "Vienna Game",
+                    "range": "C25-C29"
+                },
+                {
+                    "name": "King's Gambit Declined",
+                    "range": "C30-C32"
+                },
+                {
+                    "name": "King's Gambit Accepted",
+                    "range": "C33-C39"
+                },
+                {
+                    "name": "Latvian Gambit",
+                    "range": "C40"
+                },
+                {
+                    "name": "Philidor Defence",
+                    "range": "C41"
+                },
+                {
+                    "name": "Petroff Defence, 3.Nxe5",
+                    "range": "C42-C43"
+                },
+                {
+                    "name": "Ponziani Opening",
+                    "range": "C44"
+                },
+                {
+                    "name": "Scotch Game",
+                    "range": "C45"
+                },
+                {
+                    "name": "Three Knights' Game",
+                    "range": "C46"
+                },
+                {
+                    "name": "Four Knights' Game",
+                    "range": "C47-C49"
+                },
+                {
+                    "name": "Italian Game - Giuoco Pianissimo",
+                    "range": "C50"
+                },
+                {
+                    "name": "Evans' Gambit",
+                    "range": "C51-C52"
+                },
+                {
+                    "name": "Giuoco Piano, 4.c3",
+                    "range": "C53-C54"
+                },
+                {
+                    "name": "Two Knights' Defence",
+                    "range": "C55-C59"
+                },
+                {
+                    "name": "Ruy Lopez",
+                    "range": "C60-C99"
+                }
+            ]
+        },
+        {
+            "name": "Closed and semi-closed games",
+            "range": "D00-D99",
+            "openings": [
+                {
+                    "name": "Queen's Pawn Game",
+                    "range": "D00-D03"
+                },
+                {
+                    "name": "Colle System",
+                    "range": "D04-D05"
+                },
+                {
+                    "name": "Queen's Gambit, Irregular",
+                    "range": "D06-D09"
+                },
+                {
+                    "name": "Slav Defence",
+                    "range": "D10-D19"
+                },
+                {
+                    "name": "Queen's Gambit Accepted",
+                    "range": "D20-D29"
+                },
+                {
+                    "name": "Queen's Gambit Declined: Slav",
+                    "range": "D30"
+                },
+                {
+                    "name": "Queen's Gambit Declined: Semi-Slav",
+                    "range": "D31"
+                },
+                {
+                    "name": "Queen's Gambit Declined: Tarrasch Defence",
+                    "range": "D32-D34"
+                },
+                {
+                    "name": "Queen's Gambit Declined",
+                    "range": "D35-D42"
+                },
+                {
+                    "name": "Queen's Gambit Declined: Semi-Slav main line",
+                    "range": "D43-D49"
+                },
+                {
+                    "name": "Queen's Gambit Declined: Classical",
+                    "range": "D50-D69"
+                },
+                {
+                    "name": "Grünfeld Defence",
+                    "range": "D70-D99"
+                }
+            ]
+        },
+        {
+            "name": "Indian defences",
+            "range": "E00-E99",
+            "openings": [
+                {
+                    "name": "Indian Defences",
+                    "range": "E00"
+                },
+                {
+                    "name": "Catalan Opening",
+                    "range": "E01-E09"
+                },
+                {
+                    "name": "Blumenfeld Gambit",
+                    "range": "E10"
+                },
+                {
+                    "name": "Bogo-Indian Defence",
+                    "range": "E11"
+                },
+                {
+                    "name": "Queen's Indian Defence",
+                    "range": "E12-E19"
+                },
+                {
+                    "name": "Nimzo-Indian Defence",
+                    "range": "E20-E59"
+                },
+                {
+                    "name": "King's Indian Defence",
+                    "range": "E60-E99"
+                }
+            ]
+        }
+    ]
+}

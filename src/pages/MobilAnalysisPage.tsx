@@ -13,7 +13,8 @@ const MobilAnalysisPage: React.FC = () => {
         pathIndex,
         handleSetPathIndex,
         handleSetLineIndex,
-        handleMovePiece
+        handleMovePiece,
+        handleResetBoard
     } = useChessGame();
 
     return (
@@ -52,6 +53,7 @@ const MobilAnalysisPage: React.FC = () => {
                     pathIndex={pathIndex}
                     setPathIndex={handleSetPathIndex}
                     setLineIndex={handleSetLineIndex}
+                    resetBoard={handleResetBoard}
                     sx={{
                         width: '100%',
                     }}

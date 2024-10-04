@@ -49,9 +49,9 @@ export function loadBoardState(boardState: BoardState, pgnGames: PgnGame[]): Boa
   const newBoardState: BoardState = boardState.clone();
 
   for (const game of pgnGames) {
-
+    console.log('game', game);
     // setup new chess game state
-    let chessGameState = newBoardState.chessGameState;
+    let chessGameState = getDefaultChessGameState();
     let nodes = newBoardState.nodes;
 
     // go through each turn in the game

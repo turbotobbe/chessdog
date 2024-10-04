@@ -1,7 +1,7 @@
 import { Box, SxProps, Typography } from "@mui/material";
 
 
-const AnalysisHeaderEl: React.FC<{ sx?: SxProps }> = ({ sx }) => {
+const PaperHeaderEl: React.FC<{ sx?: SxProps, title: string }> = ({ sx, title }) => {
     return (
         <Box sx={{
             height: 'var(--player-info-height)',
@@ -10,9 +10,9 @@ const AnalysisHeaderEl: React.FC<{ sx?: SxProps }> = ({ sx }) => {
             alignItems: 'center',
             ...sx
         }}>
-            <Typography variant='h4'>Analysis</Typography>
+            <Typography variant='h4'>{title}</Typography>
         </Box>
     )
 }
 
-export default AnalysisHeaderEl;
+export default PaperHeaderEl;

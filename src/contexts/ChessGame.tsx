@@ -11,20 +11,20 @@ export const useChessGame = () => {
     const [pathIndex, setPathIndex] = useState<number>(-1);
 
     useEffect(() => {
-        const games: PgnGame[] = [
-            // parsePgn("1. a3 1... a6 2. b3 2... b6 3. c3 3... c6 4. d3 4... d6 5. e3 5... e6 6. f3 6... f6 7. g3 7... g6 8. h3 8... h6 9. a4 9... a5 10. b4 10... b5 11. c4 11... c5 12. d4 12... d5 13. e4 13... e5 14. f4 14... f5 15. g4 15... g5 16. h4 16... h5"),
-            // parsePgn("1. e4 1... e5"),
-            // parsePgn("1. f4 1... f5"),
-            // parsePgn("1. e4"),
-            // parsePgn("1. e4 1... e5 2. d4 2... d5"),
-            // parsePgn("1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4"),
-            // parsePgn("1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5"),
-            // parsePgn("1. d4 1... d5 2. Bf4 2... Bf5 3. Nc3 3... Nc6 4. Qd2 4... Qd7 5. O-O-O 5... O-O-O"),
-            // parsePgn("1. e4 1... d5 2. exd5 2... e5 3. e6"),
-            // parsePgn("1. e4 1... d5 2. exd5 2... c6 3. dxc6 3... Nf6 4. cxb7 4... Bd7 5. bxa8=Q"),
-            // parsePgn("1. e4 1... d5 2. exd5 2... c5 3. d6 3... Qa5 4. d7+ 4... Kd8 5. c3 5... Kc7 6. d8=Q+"),
-        ]
-        const newBoardState = loadBoardState(boardState, games);
+
+        let games: PgnGame[] = []
+        // parsePgn("1. a3 1... a6 2. b3 2... b6 3. c3 3... c6 4. d3 4... d6 5. e3 5... e6 6. f3 6... f6 7. g3 7... g6 8. h3 8... h6 9. a4 9... a5 10. b4 10... b5 11. c4 11... c5 12. d4 12... d5 13. e4 13... e5 14. f4 14... f5 15. g4 15... g5 16. h4 16... h5"),
+        // parsePgn("1. e4 1... e5"),
+        // parsePgn("1. f4 1... f5"),
+        // parsePgn("1. e4"),
+        // parsePgn("1. e4 1... e5 2. d4 2... d5"),
+        // parsePgn("1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4"),
+        // parsePgn("1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5"),
+        // parsePgn("1. d4 1... d5 2. Bf4 2... Bf5 3. Nc3 3... Nc6 4. Qd2 4... Qd7 5. O-O-O 5... O-O-O"),
+        // parsePgn("1. e4 1... d5 2. exd5 2... e5 3. e6"),
+        // parsePgn("1. e4 1... d5 2. exd5 2... c6 3. dxc6 3... Nf6 4. cxb7 4... Bd7 5. bxa8=Q"),
+        // parsePgn("1. e4 1... d5 2. exd5 2... c5 3. d6 3... Qa5 4. d7+ 4... Kd8 5. c3 5... Kc7 6. d8=Q+"),
+        const newBoardState = loadBoardState(new BoardState(), games);
         setBoardState(newBoardState);
 
         // set initial main line path ([0, 0, 0, 0, 0, 0, 0, 0]...)
@@ -92,6 +92,26 @@ export const useChessGame = () => {
             setPathIndex(-1);
             setChessGameState(newBoardState.chessGameState);
             return newBoardState;
+        });
+    }
+
+    const handleLoadBoard = (pgnText: string) => {
+        console.log('handleLoadBoard', pgnText);
+    }
+
+    const handleLoadPgns = (pgnGames: PgnGame[]) => {
+        setBoardState(_prevBoardState => {
+            const newBoardState = loadBoardState(new BoardState(), pgnGames);
+            // set initial main line path ([0, 0, 0, 0, 0, 0, 0, 0]...)
+            const newPath = [];
+            let node = newBoardState.nodes[0];
+            while (node) {
+                newPath.push(0);
+                node = node.nodes[0];
+            }
+            setPath(newPath);
+            setPathIndex(-1);
+            return newBoardState
         });
     }
 
@@ -189,7 +209,9 @@ export const useChessGame = () => {
         handleSetPathIndex,
         handleSetLineIndex,
         handleMovePiece,
-        handleResetBoard
+        handleResetBoard,
+        handleLoadBoard,
+        handleLoadPgns
     };
 };
 

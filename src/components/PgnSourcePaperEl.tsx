@@ -1,26 +1,13 @@
 import { Paper } from "@mui/material";
 import PaperHeaderEl from "./PaperHeaderEl";
-import BoardNavigatorEl from "./BoardNavigatorEl";
-import BoardMovesEl from "./BoardMovesEl";
-import { BoardState } from "@/models/BoardState";
 
-type AnalysisPaperElProps = {
-    boardState: BoardState,
-    path: number[],
-    pathIndex: number,
-    setPathIndex: (pathIndex: number) => void,
-    setLineIndex: (pathIndex: number, lineIndex: number) => void
-    resetBoard: () => void
+type PgnSourcePaperElProps = {
+    loadBoard: (pgnText: string) => void
     sx?: React.CSSProperties
 }
 
-const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
-    boardState,
-    path,
-    pathIndex,
-    setPathIndex,
-    setLineIndex,
-    resetBoard,
+const PgnSourcePaperEl: React.FC<PgnSourcePaperElProps> = ({
+    loadBoard,
     sx
 }) => {
     // console.log('AnalysisPaperEl', path, pathIndex);
@@ -46,23 +33,23 @@ const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
         `,
             }}
         >
-            <PaperHeaderEl sx={{ gridArea: 'head' }} title='Analysis' />
-            <BoardMovesEl
+            <PaperHeaderEl sx={{ gridArea: 'head' }} title='Load PGN' />
+            {/* <BoardMovesEl
                 sx={{ gridArea: 'body' }}
                 boardState={boardState}
                 path={path}
                 pathIndex={pathIndex}
                 setPathIndex={setPathIndex}
                 setLineIndex={setLineIndex}
-            />
+            /> */}
             {/* <AnalysisBodyEl sx={{ gridArea: 'body' }} setMoves={setMoves} /> */}
-            <BoardNavigatorEl
+            {/* <BoardNavigatorEl
                 sx={{ gridArea: 'foot' }}
                 path={path}
                 pathIndex={pathIndex}
                 setPathIndex={setPathIndex}
-                resetBoard={resetBoard}
-            />
+                resetBoard={resetBoard} />*/}
+            
             {/* <AnalysisHeader sx={{ gridArea: 'head' }} />
             <AnalysisBody sx={{ gridArea: 'body' }} setMoves={setMoves} />
             <AnalysisFooter sx={{ gridArea: 'foot' }} /> */}
@@ -70,4 +57,4 @@ const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
     )
 }
 
-export default AnalysisPaperEl;
+export default PgnSourcePaperEl;

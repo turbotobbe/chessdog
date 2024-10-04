@@ -47,6 +47,14 @@ export interface PgnGame {
     turns: PgnTurn[];
 }
 
+export function fixPgn(pgn: string ): string {
+    let newPgn = pgn.replace(/(\d+)\.(\S+)\s+(\S+)/g, '$1. $2 $1... $3')
+    // Replace last move number if it exists
+    newPgn = newPgn.replace(/(\d+)\.\s*(\S+)\s*$/g, '$1. $2');
+    console.log(pgn, 'XXXXX', newPgn)
+    return newPgn;
+}   
+
 export function parsePgn(content: string): PgnGame {
     // console.log(content)
     const game: PgnGame = {
@@ -177,7 +185,10 @@ export function parseMove(chessGameState: ChessGameState, move: string): {
                 return { sourceSquareId: disambiguatedSquare, targetSquareId, promotionPieceName: promotion ? promotion.toLowerCase() as PieceName : null };
             }
         }
+        console.log('Possible source squares:', possibleSourceSquareIds);
+        console.log('Move:', move);
+        console.log('Match:', match);
     }
 
-    throw new Error(`Invalid move '${move}'`);
+    throw new Error(`Invalid move '${move} '${match}'`);
 }
