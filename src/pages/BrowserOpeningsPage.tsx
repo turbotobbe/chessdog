@@ -1,7 +1,7 @@
 import AnalysisPaperEl from '@/components/AnalysisPaperEl';
 import BoardPaperEl from '@/components/BoardPaperEl';
 import { useChessGame } from '@/contexts/ChessGame';
-import { Box, Button, Card, CardActions, CardContent, CardHeader, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography, useTheme } from '@mui/material';
+import { Box, Button, Card, CardActions, CardContent, CardHeader, Typography, useTheme } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import React, { useEffect } from 'react';
 import rawOpenings from '../data/openings.json';

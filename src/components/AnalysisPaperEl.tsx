@@ -19,7 +19,6 @@ type AnalysisPaperElProps = {
 
 const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
     title,
-    subtitle,
     boardState,
     path,
     pathIndex,

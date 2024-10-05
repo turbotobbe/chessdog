@@ -7,7 +7,6 @@ type PgnSourcePaperElProps = {
 }
 
 const PgnSourcePaperEl: React.FC<PgnSourcePaperElProps> = ({
-    loadBoard,
     sx
 }) => {
     // console.log('AnalysisPaperEl', path, pathIndex);

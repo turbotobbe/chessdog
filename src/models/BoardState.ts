@@ -1,6 +1,6 @@
 import { SquareId } from "@/types/chess";
 import { parseMove, PgnGame } from "@/utils/pgn";
-import { ChessGameState, getDefaultChessGameState, nextChessGameState } from "./chess";
+import { ChessGameState, nextChessGameState } from "./chess";
 
 export class BoardState {
   public nodes: BoardNodeState[] = [];

@@ -1,6 +1,5 @@
 import AnalysisPaperEl from '@/components/AnalysisPaperEl';
 import BoardPaperEl from '@/components/BoardPaperEl';
-import PgnSourcePaperEl from '@/components/PgnSourcePaperEl';
 import { useChessGame } from '@/contexts/ChessGame';
 import { Box, useTheme } from '@mui/material';
 import React from 'react';

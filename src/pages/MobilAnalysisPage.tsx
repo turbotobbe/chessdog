@@ -57,6 +57,7 @@ const MobilAnalysisPage: React.FC = () => {
                     sx={{
                         width: '100%',
                     }}
+                    title={'Analysis'}
                 />
 
                 {Array.from({ length: 8 }, (_, index) => (

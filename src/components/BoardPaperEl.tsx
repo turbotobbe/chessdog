@@ -6,7 +6,6 @@ import BoardEl from "./BoardEl";
 import { PieceId, PieceName, SquareId } from "@/types/chess";
 import BoardOptionsEl from "./BoardOptionsEl";
 import { isDesktop } from "react-device-detect";
-import { BrowserView } from "react-device-detect";
 
 const calculatePieceValue = (pieceIds: PieceId[]) => {
     const pieceInfos = pieceIds.map(pieceId => asPieceInfo(pieceId));
