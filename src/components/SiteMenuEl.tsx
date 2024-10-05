@@ -4,7 +4,7 @@ import chessdogLogo from '@/assets/chessdog.jpg';
 import { isMobile } from 'react-device-detect';
 import { Link } from 'react-router-dom';
 
-export type PageName = 'Home' | 'Analysis' | 'Basics' | 'Openings' | 'Tactics' | 'Endgames' | 'Endgame' | 'Puzzles' | '404'
+export type PageName = 'Home' | 'Analysis' | 'Basics' | 'Openings' | 'Opening' | 'Tactics' | 'Endgames' | 'Endgame' | 'Puzzles' | '404'
 
 export interface PageInfo {
     name: PageName;
@@ -25,6 +25,10 @@ export const basicsPageInfo: PageInfo = {
 export const openingsPageInfo: PageInfo = {
     name: 'Openings',
     path: '/openings'
+}
+export const openingPageInfo: PageInfo = {
+    name: 'Opening',
+    path: '/openings/:category/:opening'
 }
 export const tacticsPageInfo: PageInfo = {
     name: 'Tactics',

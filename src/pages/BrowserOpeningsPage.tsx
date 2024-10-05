@@ -1,15 +1,18 @@
 import AnalysisPaperEl from '@/components/AnalysisPaperEl';
 import BoardPaperEl from '@/components/BoardPaperEl';
 import { useChessGame } from '@/contexts/ChessGame';
-import { Box, Button, Card, CardContent, CardHeader, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography, useTheme } from '@mui/material';
-import React from 'react';
+import { Box, Button, Card, CardActions, CardContent, CardHeader, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography, useTheme } from '@mui/material';
+import Grid from '@mui/material/Grid2';
+import React, { useEffect } from 'react';
 import rawOpenings from '../data/openings.json';
-import { fixPgn, parsePgn, PgnGame } from '@/utils/pgn';
+import { parsePgn, PgnGame } from '@/utils/pgn';
 import { OpeningCategory } from '@/types/chess';
+import { Link, useParams } from 'react-router-dom';
 
 const openingCategories: OpeningCategory[] = rawOpenings as OpeningCategory[];
 
 const BrowserOpeningsPage: React.FC = () => {
+    const { category: categoryParam, opening: openingParam } = useParams<{ category?: string, opening?: string }>();
     const theme = useTheme();
     const {
         boardState,
@@ -23,16 +26,33 @@ const BrowserOpeningsPage: React.FC = () => {
         handleLoadPgns
     } = useChessGame();
 
-    function handleExploreOpening(openingCategoryRange: string, openingRange: string) {
-        console.log(openingRange);
-        const openingCategory = openingCategories.find(openingCategory => openingCategoryRange === openingCategory.range);
-        if (!openingCategory) {
-            console.error(`Opening Category not found: ${openingCategoryRange}`);
-            return;
+    useEffect(() => {
+        if (location.hash === '#drill') {
+            handlePracticeOpening();
+        } else {
+            // if (location.hash === '#learn') {
+            handleExploreOpening();
         }
-        const opening = openingCategory.openings.find(opening => openingRange === opening.range);
+    }, [categoryParam, openingParam, location.hash]);
+
+    function handlePracticeOpening() {
+        // const category = openingCategories.find(openingCategory => openingCategory.slug === categoryParam);
+        // const opening = category?.openings.find(opening => opening.slug === openingParam);
+        // if (!opening) {
+        //     handleResetBoard();
+        //     return;
+        // }
+        // const pgnGames: PgnGame[] = opening.lines.map((line) => {
+        //     return parsePgn(line.moves)
+        // })
+        // handleLoadPgns(pgnGames);
+    }
+
+    function handleExploreOpening() {
+        const category = openingCategories.find(openingCategory => openingCategory.slug === categoryParam);
+        const opening = category?.openings.find(opening => opening.slug === openingParam);
         if (!opening) {
-            console.error(`Opening not found: ${openingRange}`);
+            handleResetBoard();
             return;
         }
         const pgnGames: PgnGame[] = opening.lines.map((line) => {
@@ -41,6 +61,10 @@ const BrowserOpeningsPage: React.FC = () => {
         // handleResetBoard();
         handleLoadPgns(pgnGames);
     }
+
+    const category = openingCategories.find(openingCategory => openingCategory.slug === categoryParam);
+    const opening = category?.openings.find(opening => opening.slug === openingParam);
+    const title = opening?.name ?? "Openings";
 
     return (
         <Box
@@ -86,48 +110,43 @@ const BrowserOpeningsPage: React.FC = () => {
                     setPathIndex={handleSetPathIndex}
                     setLineIndex={handleSetLineIndex}
                     resetBoard={handleResetBoard}
-                    title="Openings"
+                    restartBoard={handlePracticeOpening}
+                    title={title}
                     subtitle="Learn the openings"
                 />
 
-                <Card>
-                    <CardHeader title="Openings" />
-                    <CardContent>
-                        {openingCategories.map((openingCategory, index) => (
-                            <Box key={index}>
-                                <Typography variant="h6">{openingCategory.name}</Typography>
-                                <TableContainer>
-                                    <Table size="small">
-                                        <TableHead>
-                                            <TableRow>
-                                                <TableCell>Opening</TableCell>
-                                                <TableCell>ECO range</TableCell>
-                                                <TableCell>Lines</TableCell>
-                                                <TableCell>Explore</TableCell>
-                                                <TableCell>Practice</TableCell>
-                                            </TableRow>
-                                        </TableHead>
-                                        <TableBody>
-                                            {openingCategory.openings.map((opening, index) => (
-                                                <TableRow key={index}>
-                                                    <TableCell>{opening.name}</TableCell>
-                                                    <TableCell>{opening.range}</TableCell>
-                                                    <TableCell>{opening.lines.length}</TableCell>
-                                                    <TableCell>
-                                                        <Button variant="contained" color="primary" onClick={() => handleExploreOpening(openingCategory.range, opening.range)}>Explore</Button>
-                                                    </TableCell>
-                                                    <TableCell>
-                                                        <Button variant="contained" color="secondary">Practice</Button>
-                                                    </TableCell>
-                                                </TableRow>
-                                            ))}
-                                        </TableBody>
-                                    </Table>
-                                </TableContainer>
-                            </Box>
-                        ))}
-                    </CardContent>
-                </Card>
+                <Box sx={{ flexGrow: 1 }}>
+                    <Grid container spacing={1}>
+                        {openingCategories.map((category) => {
+                            return category.openings.map((opening) => {
+                                return (
+                                    <Grid key={opening.slug} size={4}>
+                                        <Card>
+                                            <CardHeader title={opening.name} />
+                                            <CardContent>
+                                                <Typography variant="body1">yada yada</Typography>
+                                            </CardContent>
+                                            <CardActions>
+                                                <Button
+                                                    component={Link}
+                                                    to={`/openings/${category.slug}/${opening.slug}`}
+                                                    variant="contained" color="primary">
+                                                    Explore
+                                                </Button>
+                                                <Button
+                                                    component={Link}
+                                                    to={`/openings/${category.slug}/${opening.slug}#practice`}
+                                                    variant="contained" color="secondary">
+                                                    Practice
+                                                </Button>
+                                            </CardActions>
+                                        </Card>
+                                    </Grid>
+                                )
+                            })
+                        })}
+                    </Grid>
+                </Box>
             </Box>
         </Box>
     )

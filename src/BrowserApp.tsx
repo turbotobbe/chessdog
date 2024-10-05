@@ -5,7 +5,7 @@ import MessagePage from './pages/MessagePage';
 import { Route, Routes } from 'react-router-dom';
 import { useCurrentPage } from './contexts/CurrentPage';
 import BrowserAnalysisPage from './pages/BrowserAnalysisPage';
-import SiteMenuEl, { analysisPageInfo, basicsPageInfo, endgamePageInfo, endgamesPageInfo, noPageInfo, openingsPageInfo, puzzlesPageInfo, tacticsPageInfo } from './components/SiteMenuEl';
+import SiteMenuEl, { analysisPageInfo, basicsPageInfo, endgamePageInfo, endgamesPageInfo, noPageInfo, openingPageInfo, openingsPageInfo, puzzlesPageInfo, tacticsPageInfo } from './components/SiteMenuEl';
 import BrowserOpeningsPage from './pages/BrowserOpeningsPage';
 import BrowserEndgamesPage from './pages/BrowserEndgamesPage';
 
@@ -27,6 +27,7 @@ const BrowserApp: React.FC<{}> = ({ }) => {
           <Route path={analysisPageInfo.path} element={<BrowserAnalysisPage />} />
           <Route path={basicsPageInfo.path} element={<MessagePage title={basicsPageInfo.name} message='This is the basics page.' />} />
           <Route path={openingsPageInfo.path} element={<BrowserOpeningsPage />} />
+          <Route path={openingPageInfo.path} element={<BrowserOpeningsPage />} />
           <Route path={tacticsPageInfo.path} element={<MessagePage title={tacticsPageInfo.name} message='This is the tactics page.' />} />
           <Route path={endgamesPageInfo.path} element={<BrowserEndgamesPage />} />
           <Route path={endgamePageInfo.path} element={<BrowserEndgamesPage/>} />
