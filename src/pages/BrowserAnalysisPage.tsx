@@ -16,7 +16,6 @@ const BrowserAnalysisPage: React.FC = () => {
         handleSetLineIndex,
         handleMovePiece,
         handleResetBoard,
-        handleLoadBoard
     } = useChessGame();
 
     return (
@@ -63,6 +62,7 @@ const BrowserAnalysisPage: React.FC = () => {
                     setPathIndex={handleSetPathIndex}
                     setLineIndex={handleSetLineIndex}
                     resetBoard={handleResetBoard}
+                    title='Analysis'
                 />
 
                 {/* <PgnSourcePaperEl loadBoard={handleLoadBoard} /> */}

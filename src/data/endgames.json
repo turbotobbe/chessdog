@@ -2,26 +2,27 @@
   {
     "slug": "king-vs-king-and-queen",
     "name": "King vs King and Queen",
-    "description": "Use The queen to corner the opponent's king by mirroring its moves. Then bring the king to enable a checkmate.",
+    "href": "https://en.wikibooks.org/wiki/Chess/The_Endgame/King_and_Queen_vs._King",
+    "description": "Delivering checkmate with a king and queen against a lone king is quite easy. The basic technique involves driving the king to the edge of the board, which the queen can do by herself. It's faster if you use your king and queen together, but this increases the probability of a stalemate, so beginners should do it without the king. The technique described below will accomplish the mate in about 10 to 15 moves.",
     "setup": {
       "white": [
         {
           "piece": "wk1",
-          "square": "e1"
+          "square": "a1"
         },
         {
           "piece": "wq1",
-          "square": "d1"
+          "square": "b1"
         }
       ],
       "black": [
         {
           "piece": "bk1",
-          "square": "e8"
+          "square": "d6"
         }
       ]
     },
-    "pgn": "1. Qd6 1... Kf7 2. Qe5 2... Kf8 3. Qe6 3... Kg7 4. Qf5 4... Kh6 5... Qg4 6. Kh7 6... Qg5 7. Kh8 8. Kf2 8... Kh7 9. Kf3 9... Kh8 10. Kf4 10... Kh7 11. Kf5 11... Kh8 12. Kf6 12... Kh7 13. Qg7#",
+    "pgn": "1. Qb5 1... Ke6 2. Qc5 2... Kf6 3. Qd5 3... Kg6 4. Qe5 4... Kf7 5. Qd6 5... Kg7 6. Qe6 6... Kh7 7. Qg4 7... Kh6 8. Kb2 8... Kh7 9. Kc3 9... Kh8 10. Kd4 10... Kh7 11. Ke5 11... Kh8 12. Kf6 12... Kh7 13. Qg7#",
     "drill": {
       "white": [
         "wk1",
@@ -73,12 +74,13 @@
   {
     "slug": "king-vs-king-and-rook",
     "name": "King vs King and Rook",
-    "description": "Use one rook as a guard to push the black king towards the edge of the board. Bring the king and squeeze the black king towards the corner.",
+    "href": "https://en.wikibooks.org/wiki/Chess/The_Endgame/King_and_Rook_vs._King",
+    "description": "This mate takes longer to do than king and queen vs. king, because the king and rook have to work together to trap the opposing king on the edge (often in the corner). The most commonly taught technique involves confining the opposing king into a box using the rook, which is protected by its own king. Then, the box becomes smaller and smaller until the king is forced into the corner.",
     "setup": {
       "white": [
         {
           "piece": "wk1",
-          "square": "e1"
+          "square": "b1"
         },
         {
           "piece": "wr1",
@@ -88,11 +90,11 @@
       "black": [
         {
           "piece": "bk1",
-          "square": "e8"
+          "square": "e4"
         }
       ]
     },
-    "pgn": "1. Ra7 1... Kd8 2. Ke2 2... Kc8 3. Ke3 3... Kb8 4. Rh7 4... Kc8 5. Ke4 5... Kd8 6. Ke5 6... Ke8 7. Kf6 7... Kf8 8. Rh8#",
+    "pgn": "1. Kc2 1... Ke5 2. Kd3 2... Kd5 3. Ra4 3... Ke5 4. Rd4 4... Kf5 5. Re4 5... Kf6 6. Kd4 6... Kf5 7. Kd5 7... Kf6 8. Re5 8... Kf7 9. Re6 9... Kg7 10. Ke5 10... Kf7 11. Kf5 11... Kg7 12. Rf6 12... Kh7 13. Rg6 13... Kh8 14. Kf6 14... Kh7 15. Kf7 15... Kh8 16. Rh6#",
     "drill": {
       "white": [
         "wk1",

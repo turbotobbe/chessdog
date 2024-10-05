@@ -25,13 +25,13 @@ const BrowserApp: React.FC<{}> = ({ }) => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path={analysisPageInfo.path} element={<BrowserAnalysisPage />} />
-          <Route path={basicsPageInfo.path} element={<MessagePage title={basicsPageInfo.name} message='This is the basics page.' />} />
+          <Route path={basicsPageInfo.path} element={<MessagePage title={basicsPageInfo.name} message='Do you want to know how the knight moves?' />} />
           <Route path={openingsPageInfo.path} element={<BrowserOpeningsPage />} />
           <Route path={openingPageInfo.path} element={<BrowserOpeningsPage />} />
-          <Route path={tacticsPageInfo.path} element={<MessagePage title={tacticsPageInfo.name} message='This is the tactics page.' />} />
+          <Route path={tacticsPageInfo.path} element={<MessagePage title={tacticsPageInfo.name} message='Forks, pins, skewers, discoveries and all the rest.' />} />
           <Route path={endgamesPageInfo.path} element={<BrowserEndgamesPage />} />
           <Route path={endgamePageInfo.path} element={<BrowserEndgamesPage/>} />
-          <Route path={puzzlesPageInfo.path} element={<MessagePage title={puzzlesPageInfo.name} message='This is the puzzles page.' />} />
+          <Route path={puzzlesPageInfo.path} element={<MessagePage title={puzzlesPageInfo.name} message='Bring out your A game!' />} />
           <Route path="*" element={<MessagePage title={noPageInfo.name} message='Page not found.' />} />
         </Routes>
       </Box>

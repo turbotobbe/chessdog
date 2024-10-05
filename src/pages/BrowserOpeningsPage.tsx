@@ -27,25 +27,15 @@ const BrowserOpeningsPage: React.FC = () => {
     } = useChessGame();
 
     useEffect(() => {
-        if (location.hash === '#drill') {
+        if (location.hash === '#practice') {
             handlePracticeOpening();
         } else {
-            // if (location.hash === '#learn') {
             handleExploreOpening();
         }
     }, [categoryParam, openingParam, location.hash]);
 
     function handlePracticeOpening() {
-        // const category = openingCategories.find(openingCategory => openingCategory.slug === categoryParam);
-        // const opening = category?.openings.find(opening => opening.slug === openingParam);
-        // if (!opening) {
-        //     handleResetBoard();
-        //     return;
-        // }
-        // const pgnGames: PgnGame[] = opening.lines.map((line) => {
-        //     return parsePgn(line.moves)
-        // })
-        // handleLoadPgns(pgnGames);
+        handleResetBoard();
     }
 
     function handleExploreOpening() {
@@ -124,7 +114,7 @@ const BrowserOpeningsPage: React.FC = () => {
                                         <Card>
                                             <CardHeader title={opening.name} />
                                             <CardContent>
-                                                <Typography variant="body1">yada yada</Typography>
+                                                <Typography variant="body2">ECO {opening.range}, {opening.lines.length} lines</Typography>
                                             </CardContent>
                                             <CardActions>
                                                 <Button
