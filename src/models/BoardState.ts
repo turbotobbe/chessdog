@@ -52,7 +52,7 @@ export function loadBoardState(boardState: BoardState, pgnGames: PgnGame[]): Boa
   const newBoardState: BoardState = boardState.clone();
 
   for (const game of pgnGames) {
-    console.log('game', game);
+    // console.log('game', game);
     // setup new chess game state
     let chessGameState = boardState.chessGameState.clone();
     let nodes = newBoardState.nodes;
