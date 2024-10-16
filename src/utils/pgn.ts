@@ -1,134 +1,411 @@
-// [Event "Let's Play"]
-// [Site "Chess.com"]
-// [Date "2024.09.11"]
-// [Round "-"]
-// [White "Phil0059"]
-// [Black "PhonkCheck"]
-// [Result "1-0"]
-// [CurrentPosition "7k/6Q1/5K2/8/p7/P7/1P6/8 b - - 10 56"]
-// [Timezone "UTC"]
-// [ECO "C45"]
-// [ECOUrl "https://www.chess.com/openings/Scotch-Game-Classical-Variation-5.Be3"]
-// [UTCDate "2024.09.11"]
-// [UTCTime "09:07:02"]
-// [WhiteElo "1333"]
-// [BlackElo "1177"]
-// [TimeControl "1/86400"]
-// [Termination "Phil0059 won by checkmate"]
-// [StartTime "09:07:02"]
-// [EndDate "2024.09.21"]
-// [EndTime "12:48:11"]
-// [Link "https://www.chess.com/game/daily/701520345"]
-
 import { ChessGameState } from "@/models/chess";
-import { squareIds, SquareId, PieceName } from "@/types/chess";
+import { Move, PieceName, SquareId, squareIds } from "@/types/chess";
 
-// 1. e4 {[%clk 23:59:50]} 1... e5 {[%clk 23:53:40]} 2. Nf3 {[%clk 22:42:35]} 2... Nc6 {[%clk 23:01:16]} 3. d4 {[%clk 23:41:22]} 3... exd4 {[%clk 14:49:21]} 4. Nxd4 {[%clk 14:00:58]} 4... Bc5 {[%clk 22:41:23]} 5. Be3 {[%clk 18:17:35]} 5... d6 {[%clk 2:06:15]} 6. Bc4 {[%clk 23:13:38]} 6... Nf6 {[%clk 23:23:00]} 7. Qd3 {[%clk 23:39:31]} 7... Nb4 {[%clk 18:22:02]} 8. Qb3 {[%clk 23:10:35]} 8... O-O {[%clk 23:49:27]} 9. Nd2 {[%clk 13:17:23]} 9... d5 {[%clk 23:45:10]} 10. exd5 {[%clk 18:00:30]} 10... Nfxd5 {[%clk 22:41:40]} 11. a3 {[%clk 22:41:20]} 11... Bxd4 {[%clk 23:37:20]} 12. Bxd4 {[%clk 21:47:23]} 12... Nc6 {[%clk 22:53:25]} 13. Bxg7 {[%clk 23:33:16]} 13... Re8+ {[%clk 23:57:34]} 14. Kd1 {[%clk 23:56:00]} 14... Kxg7 {[%clk 23:56:15]} 15. Bxd5 {[%clk 23:56:49]} 15... Bg4+ {[%clk 23:37:57]} 16. f3 {[%clk 23:53:34]} 16... Be6 {[%clk 23:51:18]} 17. Qc3+ {[%clk 23:50:49]} 17... Kf8 {[%clk 23:56:59]} 18. Bxc6 {[%clk 23:57:08]} 18... bxc6 {[%clk 23:58:37]} 19. Qh8+ {[%clk 23:57:32]} 19... Ke7 {[%clk 21:22:09]} 20. Qxh7 {[%clk 17:31:01]} 20... Qd4 {[%clk 23:08:01]} 21. c3 {[%clk 20:34:02]} 21... Rh8 {[%clk 19:41:46]} 22. Qxf7+ {[%clk 23:36:16]} 22... Bxf7 {[%clk 22:58:25]} 23. Re1+ {[%clk 23:20:37]} 23... Kf6 {[%clk 22:06:05]} 24. cxd4 {[%clk 23:56:51]} 24... Bd5 {[%clk 22:38:58]} 25. h3 {[%clk 14:04:41]} 25... Rh4 {[%clk 23:26:30]} 26. Ne4+ {[%clk 22:41:47]} 26... Kg6 {[%clk 11:36:18]} 27. Kd2 {[%clk 14:17:15]} 27... a5 {[%clk 23:56:19]} 28. Kc3 {[%clk 22:21:10]} 28... a4 {[%clk 20:50:18]} 29. Nc5 {[%clk 23:06:26]} 29... Kf5 {[%clk 17:24:04]} 30. Re7 {[%clk 23:20:23]} 30... Ra7 {[%clk 11:46:58]} 31. Rae1 {[%clk 23:41:11]} 31... Kf4 {[%clk 23:53:51]} 32. Rg7 {[%clk 23:50:58]} 32... Kf5 {[%clk 20:31:18]} 33. Ree7 {[%clk 22:31:14]} 33... Kf6 {[%clk 14:37:14]} 34. Rxc7 {[%clk 16:10:29]} 34... Rxc7 {[%clk 22:52:05]} 35. Rxc7 {[%clk 22:18:54]} 35... Rh8 {[%clk 13:47:59]} 36. Nd7+ {[%clk 23:42:15]} 36... Kg6 {[%clk 23:58:41]} 37. Ne5+ {[%clk 23:58:57]} 37... Kf6 {[%clk 23:59:31]} 38. Nxc6 {[%clk 23:59:47]} 38... Bxc6 {[%clk 21:32:48]} 39. Rxc6+ {[%clk 23:44:51]} 39... Kf5 {[%clk 23:59:21]} 40. d5 {[%clk 23:55:36]} 40... Ke5 {[%clk 23:57:13]} 41. Kc4 {[%clk 23:49:10]} 41... Rh4+ {[%clk 16:23:14]} 42. g4 {[%clk 23:49:18]} 42... Rxh3 {[%clk 23:07:34]} 43. d6 {[%clk 21:12:43]} 43... Rxf3 {[%clk 16:29:28]} 44. d7 {[%clk 22:06:00]} 44... Rf4+ {[%clk 23:52:49]} 45. Kb5 {[%clk 22:57:04]} 45... Rd4 {[%clk 15:33:12]} 46. Rc7 {[%clk 22:52:11]} 46... Kf6 {[%clk 23:58:44]} 47. g5+ {[%clk 23:56:09]} 47... Kxg5 {[%clk 23:59:32]} 48. Kc6 {[%clk 23:59:01]} 48... Rc4+ {[%clk 23:51:22]} 49. Kd5 {[%clk 23:59:11]} 49... Rxc7 {[%clk 23:57:49]} 50. d8=Q+ {[%clk 23:31:55]} 50... Kf5 {[%clk 22:22:44]} 51. Qxc7 {[%clk 23:38:32]} 51... Kf6 {[%clk 21:48:49]} 52. Qe5+ {[%clk 23:10:51]} 52... Kg6 {[%clk 23:59:27]} 53. Ke6 {[%clk 23:58:21]} 53... Kh6 {[%clk 23:49:52]} 54. Kf6 {[%clk 23:58:04]} 54... Kh7 {[%clk 23:46:51]} 55. Qg5 {[%clk 23:41:13]} 55... Kh8 {[%clk 23:47:08]} 56. Qg7# {[%clk 23:59:33]} 1-0
 
-export interface PgnHeader {
-    date: string;
-    white: string;
-    black: string;
-    result: string;
+export type PgnResult = '1-0' | '0-1' | '1/2-1/2' | '*';
+
+export const pgnResults: PgnResult[] = ['1-0', '0-1', '1/2-1/2', '*'];
+
+export class PgnGame {
+    public headers: Record<string, string>;
+    public turns: PgnTurn[];
+    public result: PgnResult | undefined;
+
+    constructor(headers: Record<string, string>, turns: PgnTurn[], result: PgnResult | undefined) {
+        this.headers = headers;
+        this.turns = turns;
+        this.result = result;
+    }
 }
 
-export interface PgnMove {
-    move: string;
-    clk: string;
+export class PgnTurn {
+    public index: number;
+    public white: PgnMove;
+    public black?: PgnMove;
+
+    constructor(index: number, white: PgnMove, black?: PgnMove) {
+        this.index = index;
+        this.white = white;
+        this.black = black;
+    }
 }
 
-export interface PgnTurn {
-    white: PgnMove;
-    black: PgnMove;
+export class PgnMove {
+    public isWhite: boolean;
+    public index: number;
+    public pgn: string;
+    public comments?: string[];
+    public clock?: string;
+    public marks?: SquareId[];
+    public arrows?: PgnArrow[];
+
+    constructor(isWhite: boolean, moveNumber: number) {
+        this.isWhite = isWhite;
+        this.index = moveNumber;
+        this.pgn = '';
+        this.comments = undefined;
+        this.clock = undefined;
+        this.marks = undefined;
+        this.arrows = undefined;
+    }
 }
 
-export interface PgnGame {
-    headers: PgnHeader;
-    turns: PgnTurn[];
+export interface PgnArrow {
+    fromSquareId: SquareId;
+    toSquareId: SquareId;
 }
 
-export function fixPgn(pgn: string ): string {
+export function expandPgnFormat(pgn: string): string {
     let newPgn = pgn.replace(/(\d+)\.(\S+)\s+(\S+)/g, '$1. $2 $1... $3')
     // Replace last move number if it exists
     newPgn = newPgn.replace(/(\d+)\.\s*(\S+)\s*$/g, '$1. $2');
-    console.log(pgn, 'XXXXX', newPgn)
     return newPgn;
-}   
-
-export function parsePgn(content: string): PgnGame {
-    // console.log(content)
-    const game: PgnGame = {
-        headers: {
-            date: '',
-            white: '',
-            black: '',
-            result: ''
-        },
-        turns: []
-    };
-
-    // Split the content on empty lines
-    const sections = content.split(/\n\s*\n/);
-    const headerSection = sections[0].trim();
-
-    const headerRegex = /\[(.*?)\s+"(.*?)"\]/g;
-    let match;
-    while ((match = headerRegex.exec(headerSection)) !== null) {
-        const key = match[1].trim();
-        const value = match[2];
-        if (key === 'Date') {
-            game.headers.date = value;
-        } else if (key === 'White') {
-            game.headers.white = value;
-        } else if (key === 'Black') {
-            game.headers.black = value;
-        } else if (key === 'Result') {
-            game.headers.result = value;
-        }
-    }
-
-    const moveSection = sections[sections.length - 1].trim();
-
-    // Split the moves on valid move numbers (1. or 1...)
-    const turns = moveSection.split(/\d+\.{1,3} /).filter(Boolean);
-    let isWhite = true;
-    for (const turn of turns) {
-        const move: PgnMove = {
-            move: '',
-            clk: ''
-        };
-
-        // extract the step and comment from the current step
-        const [_, moveStr, clkStr] = turn.trim().match(/(.*)\s+\{\[%clk\s+(.+)\]\}/) || [];
-        if (moveStr) {
-            move.move = moveStr;
-            move.clk = clkStr;
-        } else {
-            // extract the step
-            const [_, moveStr] = turn.trim().match(/(.*)/) || [];
-            if (moveStr.length) {
-                move.move = moveStr;
-                move.clk = '';
-            } else {
-                throw new Error('Invalid move');
-            }
-        }
-
-        if (isWhite) {
-            game.turns.push({ white: move, black: { move: '', clk: '' } });
-        } else {
-            game.turns[game.turns.length - 1].black = move;
-        }
-        isWhite = !isWhite;
-    }
-
-    return game;
 }
 
-export function parseMove(chessGameState: ChessGameState, move: string): {
-    sourceSquareId: SquareId,
-    targetSquareId: SquareId
-    promotionPieceName: PieceName | null } {
+export function moveToString(move: PgnMove): string {
+    let result = `${move.index}${move.isWhite ? '.' : '...'} ${move.pgn}`;
+    if (move.comments && move.comments.length > 0) {
+        const comments = move.comments.map(comment => `{${comment}}`).join(' ');
+        result += ` ${comments}`;
+    }
+    if (move.marks && move.marks.length > 0) {
+        const marks = move.marks.join(' ');
+        result += ` {[%marks ${marks}]}`;
+    }
+    if (move.arrows && move.arrows.length > 0) {
+        const arrows = move.arrows.map(({ fromSquareId, toSquareId }) => `{[%arrow ${fromSquareId} ${toSquareId}]}`).join(' ');
+        result += ` ${arrows}`;
+    }
+    if (move.clock) {
+        result += ` {[%clk ${move.clock}]}`;
+    }
+    return result;
+}
+
+export function movesToString(moves: PgnMove[]): string {
+    return moves.map(moveToString).join(' ');
+}
+
+export function tokenize(inputString: string): string[] {
+    const result: string[] = [];
+    let current = '';
+    let braceCount = 0;
+
+    for (const char of inputString) {
+        if (char === '{' && braceCount === 0) {
+            if (current.trim()) {
+                result.push(...current.trim().split(/\s+/));
+            }
+            current = '{';
+            braceCount++;
+        } else if (char === '{' && braceCount > 0) {
+            current += char;
+            braceCount++;
+        } else if (char === '}') {
+            current += char;
+            braceCount--;
+            if (braceCount === 0) {
+                result.push(current.trim());
+                current = '';
+            }
+        } else if (braceCount > 0) {
+            current += char;
+        } else if (/\s/.test(char) && current.trim()) {
+            result.push(...current.trim().split(/\s+/));
+            current = '';
+        } else {
+            current += char;
+        }
+    }
+
+    if (current.trim()) {
+        result.push(...current.trim().split(/\s+/));
+    }
+
+    return result;
+}
+enum LineState {
+    ExpectingHeader,
+    ExpectingPgn,
+    ExpectingNothing
+}
+
+export function parsePgn(content: string, name?: string): PgnGame {
+    let turns: PgnTurn[] = [];
+    const headers: Record<string, string> = {};
+    let result: PgnResult | undefined;
+    let state = LineState.ExpectingHeader;
+
+    let lines = content.split('\n').map(line => line.trim()); // make nice lines
+    lines = lines.filter(line => line.length > 0); // remove empty lines
+    lines = lines.filter(line => !line.startsWith('%')); // remove comments
+    for (const line of lines) {
+        switch (state) {
+            case LineState.ExpectingHeader:
+                if (line.startsWith('[') && line.endsWith(']')) {
+                    const [key] = line.slice(1, -1).split(' ', 1);
+                    let value = line.slice(1, -1).replace(key, '').trim();
+                    if (value.startsWith('"') && value.endsWith('"')) {
+                        value = value.slice(1, -1);
+                    }
+                    headers[key] = value;
+                } else {
+                    state = LineState.ExpectingPgn;
+                    lines.unshift(line);
+                }
+                break;
+            case LineState.ExpectingPgn:
+                const tokens = tokenize(line);
+                const { moves, result: result_ } = tokensToMoves(tokens);
+                result = result_;
+                turns = movesToTurns(moves);
+                state = LineState.ExpectingNothing;
+                break;
+            case LineState.ExpectingNothing:
+                throw new Error(`Unexpected line: ${line}`);
+        }
+    }
+    if (name && turns.length > 0) {
+        if (turns[turns.length - 1]?.black) {
+            turns[turns.length - 1].black!.comments = [name];
+        } else {
+            turns[turns.length - 1].white!.comments = [name];
+        }
+    }
+    return new PgnGame(headers, turns, result);
+}
+
+enum TokenState {
+    ExpectingWhiteLineNumber,
+    ExpectingBlackLineNumber,
+    ExpectingWhiteMove,
+    ExpectingBlackMove,
+    ExpectingWhiteComments,
+    ExpectingBlackComments,
+    ExpectingWhiteGameResult,
+    ExpectingBlackGameResult,
+    ExpectingNothing
+}
+
+
+export function tokensToMoves(tokens: string[]): { moves: PgnMove[], result: PgnResult | undefined } {
+    const moves: PgnMove[] = [];
+    let result: PgnResult | undefined;
+    let currentMove: PgnMove | null = null;
+    let state: TokenState = TokenState.ExpectingWhiteLineNumber;
+
+    for (const token of tokens) {
+        switch (state) {
+
+            case TokenState.ExpectingWhiteLineNumber:
+                if (currentMove) {
+                    moves.push(currentMove);
+                }
+                if (/^\d+\.$/.test(token)) {
+                    currentMove = new PgnMove(true, parseInt(token.slice(0, -1), 10));
+                    state = TokenState.ExpectingWhiteMove;
+                } else {
+                    throw new Error(`Expected white line number, got: ${token}`);
+                }
+                break;
+
+            case TokenState.ExpectingBlackLineNumber:
+                if (currentMove) {
+                    moves.push(currentMove);
+                }
+                if (/^\d+\.{3}$/.test(token)) {
+                    currentMove = new PgnMove(false, parseInt(token.slice(0, -3), 10));
+                    state = TokenState.ExpectingBlackMove;
+                } else {
+                    throw new Error(`Expected black line number, got: ${token}`);
+                }
+                break;
+
+            case TokenState.ExpectingWhiteMove:
+                if (currentMove) {
+                    if (
+                        /^[KQRBN]?[a-h]?[1-8]?x?[a-h][1-8](=[QRBN])?[+#]?$/.test(token) ||
+                        /^O-O(-O)?[+#]?$/.test(token)) {
+                        currentMove.pgn = token;
+                    } else {
+                        throw new Error(`Invalid move: ${token}`);
+                    }
+                } else {
+                    throw new Error(`Unexpected missing current move: ${token}`);
+                }
+                state = TokenState.ExpectingWhiteComments;
+                break;
+
+            case TokenState.ExpectingBlackMove:
+                if (currentMove) {
+                    if (
+                        /^[KQRBN]?[a-h]?[1-8]?x?[a-h][1-8](=[QRBN])?[+#]?$/.test(token) ||
+                        /^O-O(-O)?[+#]?$/.test(token)) {
+                        currentMove.pgn = token;
+                    } else {
+                        throw new Error(`Invalid move: ${token}`);
+                    }
+                } else {
+                    throw new Error(`Unexpected missing current move: ${token}`);
+                }
+                state = TokenState.ExpectingBlackComments;
+                break;
+
+            case TokenState.ExpectingWhiteComments:
+                if (currentMove) {
+                    if (token.startsWith('{[%clk') && token.endsWith(']}')) {
+                        const clk = token.slice(6, -2).trim();
+                        currentMove.clock = clk;
+                    } else if (token.startsWith('{[%marks') && token.endsWith(']}')) {
+                        let squareIds = token.slice(8, -2).trim().split(' ');
+                        squareIds = squareIds.filter(squareId => squareId.trim().length > 0);
+                        if (!currentMove.marks) {
+                            currentMove.marks = [];
+                        }
+                        currentMove.marks.push(...squareIds.map(squareId => squareId.trim() as SquareId));
+                    } else if (token.startsWith('{[%arrow') && token.endsWith(']}')) {
+                        let squareIds = token.slice(8, -2).trim().split(' ');
+                        squareIds = squareIds.filter(squareId => squareId.trim().length > 0);
+                        if (squareIds.length !== 2) {
+                            throw new Error(`Invalid arrow: ${squareIds}, token: ${token}`);
+                        }
+                        if (!currentMove.arrows) {
+                            currentMove.arrows = [];
+                        }
+                        const fromSquareId = squareIds[0] as SquareId;
+                        const toSquareId = squareIds[1] as SquareId;
+                        currentMove.arrows.push({ fromSquareId, toSquareId });
+                    } else if (token.startsWith('{') && token.endsWith('}')) {
+                        if (!currentMove.comments) {
+                            currentMove.comments = [];
+                        }
+                        currentMove.comments.push(token.slice(1, -1).trim());
+                    } else {
+                        state = TokenState.ExpectingWhiteGameResult;
+                        // Reprocess this token as it should be a line number
+                        tokens.unshift(token);
+                    }
+                } else {
+                    throw new Error(`Unexpected missing current move: ${token}`);
+                }
+                break;
+
+            case TokenState.ExpectingBlackComments:
+                if (currentMove) {
+                    if (token.startsWith('{[%clk') && token.endsWith(']}')) {
+                        const clk = token.slice(6, -2).trim();
+                        currentMove.clock = clk;
+                    } else if (token.startsWith('{[%marks') && token.endsWith(']}')) {
+                        let squareIds = token.slice(8, -2).trim().split(' ');
+                        squareIds = squareIds.filter(squareId => squareId.trim().length > 0);
+                        if (!currentMove.marks) {
+                            currentMove.marks = [];
+                        }
+                        currentMove.marks.push(...squareIds.map(squareId => squareId.trim() as SquareId));
+                    } else if (token.startsWith('{[%arrow') && token.endsWith(']}')) {
+                        let squareIds = token.slice(8, -2).trim().split(' ');
+                        squareIds = squareIds.filter(squareId => squareId.trim().length > 0);
+                        if (squareIds.length !== 2) {
+                            throw new Error(`Invalid arrow: ${squareIds}, token: ${token}`);
+                        }
+                        if (!currentMove.arrows) {
+                            currentMove.arrows = [];
+                        }
+                        const fromSquareId = squareIds[0] as SquareId;
+                        const toSquareId = squareIds[1] as SquareId;
+                        currentMove.arrows.push({ fromSquareId, toSquareId });
+                    } else if (token.startsWith('{') && token.endsWith('}')) {
+                        if (!currentMove.comments) {
+                            currentMove.comments = [];
+                        }
+                        currentMove.comments.push(token.slice(1, -1).trim());
+                    } else {
+                        state = TokenState.ExpectingBlackGameResult;
+                        // Reprocess this token as it should be a line number
+                        tokens.unshift(token);
+                    }
+                } else {
+                    throw new Error(`Unexpected missing current move: ${token}`);
+                }
+                break;
+            case TokenState.ExpectingWhiteGameResult:
+                if (['1-0', '0-1', '1/2-1/2', '*'].includes(token)) {
+                    if (currentMove) {
+                        moves.push(currentMove);
+                        currentMove = null;
+                    }
+                    result = token as PgnResult;
+                    state = TokenState.ExpectingNothing;
+                } else {
+                    // switch expectation to black line number
+                    state = TokenState.ExpectingBlackLineNumber;
+                    tokens.unshift(token);
+                }
+                break;
+            case TokenState.ExpectingBlackGameResult:
+                if (['1-0', '0-1', '1/2-1/2', '*'].includes(token)) {
+                    if (currentMove) {
+                        moves.push(currentMove);
+                        currentMove = null;
+                    }
+                    result = token as PgnResult;
+                    state = TokenState.ExpectingNothing;
+                } else {
+                    // switch expectation to white line number
+                    state = TokenState.ExpectingWhiteLineNumber;
+                    tokens.unshift(token);
+                }
+                break;
+
+            case TokenState.ExpectingNothing:
+                throw new Error(`Unexpected token: ${token}`);
+                break;
+        }
+    }
+
+    if (currentMove) {
+        moves.push(currentMove);
+    }
+
+    return { moves, result }
+}
+
+enum MoveState {
+    ExpectingWhiteMove,
+    ExpectingBlackMove,
+}
+
+export function movesToTurns(moves: PgnMove[]): PgnTurn[] {
+    const turns: PgnTurn[] = [];
+    let currentTurn: PgnTurn | null = null;
+    let state: MoveState = MoveState.ExpectingWhiteMove;
+    for (const move of moves) {
+        switch (state) {
+            case MoveState.ExpectingWhiteMove:
+                if (currentTurn) {
+                    turns.push(currentTurn);
+                }
+                currentTurn = new PgnTurn(move.index, move);
+                state = MoveState.ExpectingBlackMove;
+                break;
+            case MoveState.ExpectingBlackMove:
+                if (currentTurn) {
+                    currentTurn.black = move;
+                    turns.push(currentTurn);
+                    currentTurn = null;
+                }
+                state = MoveState.ExpectingWhiteMove;
+                break;
+        }
+    }
+    if (currentTurn) {
+        turns.push(currentTurn);
+    }
+    return turns;
+}
+
+
+export function parseMove(chessGameState: ChessGameState, move: string): Move {
     // Remove any check (+) or checkmate (#) symbols
     move = move.replace(/[+#]/, '');
 
@@ -136,12 +413,12 @@ export function parseMove(chessGameState: ChessGameState, move: string): {
 
     // Castling king side
     if (move === 'O-O' || move === '0-0') {
-        return chessGameState.whitesTurn ? { sourceSquareId: 'e1', targetSquareId: 'g1', promotionPieceName: null } : { sourceSquareId: 'e8', targetSquareId: 'g8', promotionPieceName: null };
+        return chessGameState.whitesTurn ? { sourceSquareId: 'e1', targetSquareId: 'g1' } : { sourceSquareId: 'e8', targetSquareId: 'g8' };
     }
 
     // Castling queen side
     if (move === 'O-O-O' || move === '0-0-0') {
-        return chessGameState.whitesTurn ? { sourceSquareId: 'e1', targetSquareId: 'c1', promotionPieceName: null } : { sourceSquareId: 'e8', targetSquareId: 'c8', promotionPieceName: null };
+        return chessGameState.whitesTurn ? { sourceSquareId: 'e1', targetSquareId: 'c1' } : { sourceSquareId: 'e8', targetSquareId: 'c8' };
     }
 
     // Regular moves
@@ -159,7 +436,7 @@ export function parseMove(chessGameState: ChessGameState, move: string): {
 
         if (fromFile && fromRank) {
             const sourceSquareId = `${fromFile}${fromRank}` as SquareId;
-            return { sourceSquareId, targetSquareId, promotionPieceName: promotion ? promotion.toLowerCase() as PieceName : null };
+            return { sourceSquareId, targetSquareId, promotionPieceName: promotion ? (promotion.toLowerCase() as PieceName) : undefined };
         }
 
         const possibleSourceSquareIds = squareIds.filter((squareId: SquareId) => {
@@ -175,14 +452,14 @@ export function parseMove(chessGameState: ChessGameState, move: string): {
         // console.log('Possible source squares:', possibleSourceSquareIds);
 
         if (possibleSourceSquareIds.length === 1) {
-            return { sourceSquareId: possibleSourceSquareIds[0], targetSquareId, promotionPieceName: promotion ? promotion.toLowerCase() as PieceName : null };
+            return { sourceSquareId: possibleSourceSquareIds[0], targetSquareId, promotionPieceName: promotion ? promotion.toLowerCase() as PieceName : undefined };
         } else if (possibleSourceSquareIds.length > 1) {
             // If there are multiple possible source squares, use fromFile or fromRank to disambiguate
             const disambiguatedSquare = possibleSourceSquareIds.find(squareId =>
                 (!fromFile || squareId[0] === fromFile) && (!fromRank || squareId[1] === fromRank)
             );
             if (disambiguatedSquare) {
-                return { sourceSquareId: disambiguatedSquare, targetSquareId, promotionPieceName: promotion ? promotion.toLowerCase() as PieceName : null };
+                return { sourceSquareId: disambiguatedSquare, targetSquareId, promotionPieceName: promotion ? promotion.toLowerCase() as PieceName : undefined };
             }
         }
         console.log('Possible source squares:', possibleSourceSquareIds);

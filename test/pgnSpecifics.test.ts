@@ -11,7 +11,7 @@ function checkMoves(boards: ChessGameState[], turns: PgnTurn[], expecteds: strin
             // white move is required
             let expected = expecteds[index * 2];
             {
-                const { sourceSquareId, targetSquareId } = parseMove(boards[boards.length - 1], turn.white.move);
+                const { sourceSquareId, targetSquareId } = parseMove(boards[boards.length - 1], turn.white.pgn);
                 expect(sourceSquareId).toBe(expected[0])
                 expect(targetSquareId).toBe(expected[1])
     
@@ -26,7 +26,7 @@ function checkMoves(boards: ChessGameState[], turns: PgnTurn[], expecteds: strin
             // black move is optional
             expected = expecteds[(index * 2)+1];
             if (expected) {
-                const { sourceSquareId, targetSquareId } = parseMove(boards[boards.length - 1], turn.black.move);
+                const { sourceSquareId, targetSquareId } = parseMove(boards[boards.length - 1], turn.black!.pgn);
                 expect(sourceSquareId).toBe(expected[0])
                 expect(targetSquareId).toBe(expected[1])
     
