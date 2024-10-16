@@ -66,8 +66,8 @@ const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
                 path={path}
                 pathIndex={pathIndex}
                 setPathIndex={setPathIndex}
-                resetBoard={resetBoard}
-                restartBoard={restartBoard}
+                // resetBoard={resetBoard}
+                // restartBoard={restartBoard}
             />
             {/* <AnalysisHeader sx={{ gridArea: 'head' }} />
             <AnalysisBody sx={{ gridArea: 'body' }} setMoves={setMoves} />

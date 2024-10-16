@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { BoardState, BoardNodeState, loadBoardState } from '@/models/BoardState';
 import { ChessGameState, getDefaultChessGameState, getSetupChessGameState, nextChessGameState } from '@/models/chess';
-import { GameSetup, PieceName, SquareId } from '@/types/chess';
+import { GameSetup, Move } from '@/types/chess';
 import { PgnGame } from '@/utils/pgn';
 
 export const useChessGame = () => {
@@ -102,6 +102,7 @@ export const useChessGame = () => {
         console.log('handleLoadBoard', setup);
         setBoardState(_prevBoardState => {
             const newChessGameState = getSetupChessGameState(setup);
+            // console.log('newChessGameState', newChessGameState);
             let newBoardState = new BoardState(newChessGameState);
             newBoardState = loadBoardState(newBoardState, pgnGames);
             // set initial main line path ([0, 0, 0, 0, 0, 0, 0, 0]...)
@@ -145,8 +146,8 @@ export const useChessGame = () => {
         setLineIndex(pathIndex, lineIndex);
     };
 
-    const handleMovePiece = useCallback((sourceSquareId: SquareId, targetSquareId: SquareId, promotionPieceName: PieceName | null) => {
-        console.log(`handle move piece ${sourceSquareId} ${targetSquareId} ${promotionPieceName}`);
+    const handleMovePiece = useCallback((move: Move) => {
+        console.log(`handle move piece ${move.sourceSquareId} ${move.targetSquareId} ${move.promotionPieceName}`);
 
         setBoardState(prevBoardState => {
             const newBoardState = prevBoardState.clone();
@@ -156,7 +157,7 @@ export const useChessGame = () => {
 
             // Handle existing move in the tree
             if (pathIndex < 0) {
-                const lineIndex = newBoardState.nodes.findIndex(node => node.sourceSquareId === sourceSquareId && node.targetSquareId === targetSquareId);
+                const lineIndex = newBoardState.nodes.findIndex(node => node.sourceSquareId === move.sourceSquareId && node.targetSquareId === move.targetSquareId);
                 if (lineIndex !== -1) {
                     newPath = [lineIndex];
                     newPathIndex = 0;
@@ -174,7 +175,7 @@ export const useChessGame = () => {
                 for (let i = 1; i <= pathIndex; i++) {
                     node = node.nodes[path[i]];
                 }
-                const lineIndex = node.nodes.findIndex(node => node.sourceSquareId === sourceSquareId && node.targetSquareId === targetSquareId);
+                const lineIndex = node.nodes.findIndex(node => node.sourceSquareId === move.sourceSquareId && node.targetSquareId === move.targetSquareId);
                 if (lineIndex !== -1) {
                     newPath = [...path.slice(0, pathIndex + 1), lineIndex];
                     newPathIndex = pathIndex + 1;
@@ -192,10 +193,8 @@ export const useChessGame = () => {
             // Handle new move
             if (!newChessGameState) {
                 if (pathIndex < 0) {
-                    newChessGameState = nextChessGameState(newBoardState.chessGameState, {
-                        sourceSquareId, targetSquareId, promotionPieceName
-                    });
-                    newBoardState.nodes.push(new BoardNodeState(newChessGameState, sourceSquareId, targetSquareId, newChessGameState.pgn));
+                    newChessGameState = nextChessGameState(newBoardState.chessGameState, move);
+                    newBoardState.nodes.push(new BoardNodeState(newChessGameState, move.sourceSquareId, move.targetSquareId, newChessGameState.pgn));
                     newPath = [newBoardState.nodes.length - 1];
                     newPathIndex = 0;
                 } else {
@@ -203,10 +202,8 @@ export const useChessGame = () => {
                     for (let i = 1; i <= pathIndex; i++) {
                         node = node.nodes[path[i]];
                     }
-                    newChessGameState = nextChessGameState(node.chessGameState, {
-                        sourceSquareId, targetSquareId, promotionPieceName
-                    });
-                    node.nodes.push(new BoardNodeState(newChessGameState, sourceSquareId, targetSquareId, newChessGameState.pgn));
+                    newChessGameState = nextChessGameState(node.chessGameState, move);
+                    node.nodes.push(new BoardNodeState(newChessGameState, move.sourceSquareId, move.targetSquareId, newChessGameState.pgn));
                     newPath = [...path.slice(0, pathIndex + 1), node.nodes.length - 1];
                     newPathIndex = pathIndex + 1;
                 }

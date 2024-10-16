@@ -8,6 +8,7 @@ import rawOpenings from '../data/openings.json';
 import { parsePgn, PgnGame } from '@/utils/pgn';
 import { OpeningCategory } from '@/types/chess';
 import { Link, useNavigate, useParams } from 'react-router-dom';
+import HumanPlayer from '@/players/HumanPlayer';
 
 const openingCategories: OpeningCategory[] = rawOpenings as OpeningCategory[];
 
@@ -51,8 +52,9 @@ const BrowserOpeningsPage: React.FC = () => {
             return;
         }
         const pgnGames: PgnGame[] = opening.lines.map((line) => {
-            return parsePgn(line.moves)
+            return parsePgn(line.moves, line.name)
         })
+        console.log(pgnGames)
         // handleResetBoard();
         handleLoadPgns(pgnGames);
     }
@@ -93,8 +95,8 @@ const BrowserOpeningsPage: React.FC = () => {
 
                 <BoardPaperEl
                     chessGameState={chessGameState}
-                    white={{ name: 'Mr.White' }}
-                    black={{ name: 'Mr.Black' }}
+                    white={new HumanPlayer('w')}
+                    black={new HumanPlayer('b')}
                     movePiece={handleMovePiece}
                 />
 

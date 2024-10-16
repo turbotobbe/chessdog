@@ -1,11 +1,12 @@
 import { Paper } from "@mui/material";
 import PlayerInfoEl from "./PlayerInfoEl";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { asPieceInfo, ChessGameState } from "@/models/chess";
 import BoardEl from "./BoardEl";
-import { PieceId, PieceName, SquareId } from "@/types/chess";
+import { Move, PieceId, PieceName, Player, SquareId } from "@/types/chess";
 import BoardOptionsEl from "./BoardOptionsEl";
 import { isDesktop } from "react-device-detect";
+import HumanPlayer from "@/players/HumanPlayer";
 
 const calculatePieceValue = (pieceIds: PieceId[]) => {
     const pieceInfos = pieceIds.map(pieceId => asPieceInfo(pieceId));
@@ -19,13 +20,9 @@ const calculatePieceValue = (pieceIds: PieceId[]) => {
 
 interface BoardPaperElProps {
     chessGameState: ChessGameState,
-    white: {
-        name: string;
-    }
-    black: {
-        name: string;
-    },
-    movePiece: (sourceSquareId: SquareId, targetSquareId: SquareId, promotionPieceName: PieceName | null) => void;
+    white: Player,
+    black: Player,
+    movePiece: (move: Move) => void;
 }
 
 const BoardPaperEl: React.FC<BoardPaperElProps> = ({
@@ -40,6 +37,7 @@ const BoardPaperEl: React.FC<BoardPaperElProps> = ({
     const [capturedBlackPieces, setCapturedBlackPieces] = useState<PieceId[]>([]);
     const [whiteScore, setWhiteScore] = useState(0);
     const [blackScore, setBlackScore] = useState(0);
+
 
     // const [boardStates, setBoardStates] = useState<ChessGameState[]>([]);
     // const [currentBoardStateIndex, setCurrentBoardStateIndex] = useState(-1);
@@ -77,9 +75,28 @@ const BoardPaperEl: React.FC<BoardPaperElProps> = ({
         setBlackScore(0);
     }, []);
 
+    const currentPlayer = chessGameState.whitesTurn ? white : black;
+
+    const handleTurn = useCallback(async () => {
+        console.log(`handleTurn ${currentPlayer.name}`);
+        if (currentPlayer instanceof HumanPlayer) {
+            // Human players make moves through UI interactions
+            return;
+        }
+
+        const move = currentPlayer.move(chessGameState);
+        if (move) {
+            movePiece(move);
+        }
+    }, [currentPlayer, chessGameState, white, black, movePiece]);
+
+    useEffect(() => {
+        handleTurn();
+    }, [handleTurn, currentPlayer]);
+
     const handleMovePiece = (sourceSquareId: SquareId, targetSquareId: SquareId) => {
         console.log(`handleMovePiece ${sourceSquareId} ${targetSquareId}`);
-        movePiece(sourceSquareId, targetSquareId, 'q');
+        movePiece({sourceSquareId, targetSquareId, promotionPieceName: 'q'});
     }
 
     if (!chessGameState) {

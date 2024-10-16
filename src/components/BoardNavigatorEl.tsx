@@ -10,7 +10,7 @@ type BoardNavigatorElProps = {
     pathIndex: number,
     setPathIndex: (pathIndex: number) => void
     restartBoard?: () => void
-    resetBoard: () => void
+    resetBoard?: () => void
     sx?: SxProps
 }
 const BoardNavigatorEl: React.FC<BoardNavigatorElProps> = ({
@@ -38,7 +38,7 @@ const BoardNavigatorEl: React.FC<BoardNavigatorElProps> = ({
         setPathIndex(pathIndex + 1);
     }
     const handleClickReset = () => {
-        resetBoard()
+        resetBoard && resetBoard()
     }
     return (
         <Box sx={{
@@ -64,9 +64,9 @@ const BoardNavigatorEl: React.FC<BoardNavigatorElProps> = ({
                 <LastPageIcon />
             </IconButton>
             <Divider />
-            <IconButton onClick={handleClickReset} disabled={path.length === 0}>
+            {resetBoard && <IconButton onClick={handleClickReset} disabled={path.length === 0}>
                 <DeleteIcon />
-            </IconButton>
+            </IconButton>}
         </Box>
     )
 }

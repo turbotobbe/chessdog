@@ -19,7 +19,8 @@ const BoardSquareEl: React.FC<BoardSquareElProps> = ({
 
     // mark square
     const isLightSquare = lightSquareIds.includes(squareId);
-    const classNames = ['square', squareId, isLightSquare ? 'white' : 'black'];
+    const isMarked = chessGameState.marks.includes(squareId);
+    const classNames = ['square', squareId, isLightSquare ? 'white' : 'black', isMarked ? 'marked' : ''];
 
     // mark last move square
     if (chessGameState.lastMove) {
@@ -91,6 +92,7 @@ const BoardSquareEl: React.FC<BoardSquareElProps> = ({
 
     return (
         <Box
+            id={squareId}
             key={squareId}
             className={classNames.join(' ')}
             ref={drop}
