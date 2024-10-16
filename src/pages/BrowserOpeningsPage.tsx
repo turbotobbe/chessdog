@@ -1,13 +1,12 @@
 import AnalysisPaperEl from '@/components/AnalysisPaperEl';
 import BoardPaperEl from '@/components/BoardPaperEl';
 import { useChessGame } from '@/contexts/ChessGame';
-import { Box, Button, Card, CardActions, CardContent, CardHeader, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography, useTheme } from '@mui/material';
-import Grid from '@mui/material/Grid2';
+import { Box, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, useTheme } from '@mui/material';
 import React, { useEffect } from 'react';
 import rawOpenings from '../data/openings.json';
 import { parsePgn, PgnGame } from '@/utils/pgn';
 import { OpeningCategory } from '@/types/chess';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import HumanPlayer from '@/players/HumanPlayer';
 
 const openingCategories: OpeningCategory[] = rawOpenings as OpeningCategory[];

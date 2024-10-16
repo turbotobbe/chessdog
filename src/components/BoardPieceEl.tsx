@@ -1,4 +1,4 @@
-import { DragPreviewImage, useDrag } from "react-dnd";
+import { useDrag } from "react-dnd";
 import { ColorName, PieceName, SquareId } from "../types/chess";
 
 import { asImageAlt, asImageSrc } from "@/utils/images";
@@ -15,7 +15,7 @@ const BoardPieceEl: React.FC<BoardPieceElProps> = ({
     squareId,
     colorName,
     pieceName,
-    canDrag,
+    // canDrag,
     overlay
 }) => {
     // const [position, setPosition] = useState({ top: 0, left: 0 });

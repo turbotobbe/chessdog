@@ -24,8 +24,8 @@ const AnalysisPaperEl: React.FC<AnalysisPaperElProps> = ({
     pathIndex,
     setPathIndex,
     setLineIndex,
-    resetBoard,
-    restartBoard,
+    // resetBoard,
+    // restartBoard,
     sx
 }) => {
     // console.log('AnalysisPaperEl', path, pathIndex);

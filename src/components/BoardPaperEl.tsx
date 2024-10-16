@@ -3,7 +3,7 @@ import PlayerInfoEl from "./PlayerInfoEl";
 import { useCallback, useEffect, useState } from "react";
 import { asPieceInfo, ChessGameState } from "@/models/chess";
 import BoardEl from "./BoardEl";
-import { Move, PieceId, PieceName, Player, SquareId } from "@/types/chess";
+import { Move, PieceId, Player, SquareId } from "@/types/chess";
 import BoardOptionsEl from "./BoardOptionsEl";
 import { isDesktop } from "react-device-detect";
 import HumanPlayer from "@/players/HumanPlayer";

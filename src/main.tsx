@@ -8,8 +8,6 @@ import MobileApp from './MobileApp'
 import { createTheme, CssBaseline, ThemeProvider } from '@mui/material'
 import { CurrentPageProvider } from './contexts/CurrentPage'
 import { BrowserRouter } from 'react-router-dom'
-import ExampleApp from './example/ExampleApp'
-import DnDApp from './example/DndApp'
 
 
 const darkTheme = createTheme({

@@ -2,7 +2,6 @@ import AnalysisPaperEl from '@/components/AnalysisPaperEl';
 import BoardPaperEl from '@/components/BoardPaperEl';
 import { useChessGame } from '@/contexts/ChessGame';
 import HumanPlayer from '@/players/HumanPlayer';
-import RandomPlayer from '@/players/RandomPlayer';
 import { Box, useTheme } from '@mui/material';
 import React from 'react';
 

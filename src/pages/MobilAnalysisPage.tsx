@@ -42,8 +42,8 @@ const MobilAnalysisPage: React.FC = () => {
 
                 <BoardPaperEl
                     chessGameState={chessGameState}
-                    white={{ name: 'Mr.White' }}
-                    black={{ name: 'Mr.Black' }}
+                    white={{ name: 'Mr.White', move: () => { throw new Error('I am a neuclear white kitten... boom!') } }}
+                    black={{ name: 'Mr.Black', move: () => { throw new Error('I am a neuclear black kitten... boom!') } }}
                     movePiece={handleMovePiece}
                 />
 

@@ -8,6 +8,7 @@ class HumanPlayer implements Player {
     constructor(colorName: ColorName) {
         this.colorName = colorName;
         this.name = colorName === 'w' ? 'Mr. Human White' : 'Mr. Human Black';
+        console.log('HumanPlayer constructor', this.name, this.colorName);
     }
 
     move(_chessGameState: ChessGameState): Move | null {

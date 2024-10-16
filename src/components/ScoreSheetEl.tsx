@@ -32,7 +32,7 @@ const ScoreSheetEl: React.FC<{ sx?: SxProps, moves: PgnTurn[] }> = ({ sx, moves 
                                         textAlign: 'right'
                                     }}
                                 >
-                                    {move.white.move}
+                                    {move.white.pgn}
                                 </TableCell>
                                 <TableCell
                                     sx={{
@@ -42,7 +42,7 @@ const ScoreSheetEl: React.FC<{ sx?: SxProps, moves: PgnTurn[] }> = ({ sx, moves 
                                         textAlign: 'right'
                                     }}
                                 >
-                                    {move.black.move}
+                                    {move.black?.pgn}
                                 </TableCell>
                             </TableRow>
                         ))}

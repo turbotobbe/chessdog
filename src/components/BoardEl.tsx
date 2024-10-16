@@ -14,7 +14,6 @@ import CommentsEl from './CommentsEl';
 
 import ChessboardImage from '@/assets/chessboard.png';
 import BoardPieceEl from './BoardPieceEl';
-import BoardSquareEl from './BoardSquareEl';
 import SquareEl from './SquareEl';
 
 // Add this function inside the BoardEl component or in a separate utility file
