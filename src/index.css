@@ -33,13 +33,63 @@
 
   --mui-primary-main: var(--mui-palette-primary-main);
   --mui-secondary-main: var(--mui-palette-secondary-main);
+
   --mui-error-main: var(--mui-palette-error-main);
+  --mui-error-light: var(--mui-palette-error-light);
+  --mui-error-dark: var(--mui-palette-error-dark);
+
   --mui-warning-main: var(--mui-palette-warning-main);
+  --mui-warning-light: var(--mui-palette-warning-light);
+  --mui-warning-dark: var(--mui-palette-warning-dark);
+
   --mui-info-main: var(--mui-palette-info-main);
   --mui-success-main: var(--mui-palette-success-main);
 
-}
+  --chess-highlight-red: rgba(235, 97, 80, .8);
+  /* opacity .8 */
 
+  --chess-highlight-yellow: rgba(255, 255, 51, .5);
+  /* opacity .5 */
+
+  --chess-highlight-orange: rgba(255,170,0, .8);
+  /* opacity .8 */
+
+  --chess-highlight-green: rgba(172,206,89, .8);
+  /* opacity .8 */
+
+  --chess-highlight-blue: rgba(82,176,220, .8);
+  /* opacity .8 */
+  
+  --chess-hover: rgba(255,255,255, .65);
+  /* opacity .65 */
+
+
+--chess-move-brilliant: #1baca6;
+--chess-move-great: #5c8bb0;
+--chess-move-best: #96bc4b;
+--chess-move-excellent: #96bc4b;
+--chess-move-good: #96bc4b;
+--chess-move-book: #b4b4b4;
+--chess-move-inaccuracy: #ebc442;
+--chess-move-mistake: #e5902c;
+--chess-move-miss: #e5902c;
+--chess-move-blunder: #d93425;
+
+}
+:root {
+  --theme-spacing: 8px; /* This will be overwritten by the theme */
+  --text-size: 16px;
+  --chessboard-paper-margin: calc(var(--theme-spacing) * 2);
+  --chessboard-paper-padding: calc(var(--theme-spacing) * 1);
+  --chessboard-paper-gap: calc(var(--theme-spacing) * 1);
+  --chessboard-paper-margins: calc(var(--chessboard-paper-margin) * 2);
+  --chessboard-paper-paddings: calc(var(--chessboard-paper-padding) * 2);
+  --chessboard-paper-gaps: calc(var(--chessboard-paper-gap) * 2);
+  --player-info-height: calc(var(--text-size) * 2);
+  --chessboard-paper-height: calc(100vh - var(--chessboard-paper-margins));
+  --chessboard-height: calc(100vh - var(--chessboard-paper-margins) - var(--chessboard-paper-paddings) - var(--chessboard-paper-gaps) - 2 * var(--player-info-height));
+  --square-size: calc(var(--chessboard-height) / 8);
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

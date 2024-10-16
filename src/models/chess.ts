@@ -1,6 +1,6 @@
 import * as chess from "@/types/chess";
 import { getPossibleMovesForPiece } from "./chessMoves";
-import { castlingRookMoves, ColorName, FileName, files, GameSetup, PieceId, PieceInfo, PieceName, RankName, ranks, SquareId, squareIds, SquareInfo } from "@/types/chess";
+import { castlingRookMoves, ColorName, FileName, files, GameSetup, Move, PieceId, pieceIds, PieceInfo, PieceName, RankName, ranks, SquareId, squareIds, SquareInfo } from "@/types/chess";
 
 export function asPieceInfo(pieceId: PieceId): PieceInfo {
     return {
@@ -59,7 +59,7 @@ export class ChessGameState {
     private board: (ChessPieceState | null)[][] = Array.from({ length: 8 }, () => Array(8).fill(null));
 
     // initialize the inactive pieces
-    public capturedWhitePieceIds: PieceId[] = [];  
+    public capturedWhitePieceIds: PieceId[] = [];
     public capturedBlackPieceIds: PieceId[] = [];
     private movedPieceIds: PieceId[] = [];
 
@@ -79,11 +79,27 @@ export class ChessGameState {
 
     public pgn: string = "";
 
-    initialize(squareIdPieceIdPairs: { squareId: SquareId, pieceId: PieceId }[]) {
-        for (const { squareId, pieceId } of squareIdPieceIdPairs) {
-            this.setPieceAt(squareId, new ChessPieceState(pieceId));
+    public comments: string[] = [];
+    public marks: SquareId[] = [];
+    public arrows: { fromSquareId: SquareId, toSquareId: SquareId }[] = [];
+
+    initialize(setup: GameSetup) {
+        for (const [squareId, pieceId] of Object.entries(setup)) {
+            this.setPieceAt(squareId as SquareId, new ChessPieceState(pieceId as PieceId));
         }
         this.updateKingPositions();
+
+        const setupPieceIds = Object.values(setup).map(pieceId => pieceId as PieceId);
+        const excludedPieceIds = pieceIds.filter(pieceId => !setupPieceIds.includes(pieceId));
+        const excludedWhitePieceIds = excludedPieceIds.filter(pieceId => pieceId.charAt(0) === 'w');
+        const excludedBlackPieceIds = excludedPieceIds.filter(pieceId => pieceId.charAt(0) === 'b');
+        this.capturedWhitePieceIds = [...excludedWhitePieceIds];
+        this.capturedBlackPieceIds = [...excludedBlackPieceIds];
+
+        // this is done outside of initialize
+        // updateChecksAndMatesStatuses(this);
+        // updateValidMoves(this);
+        // filterValidMoves(this);
     }
 
     getCapturedWhitePieceIds(): PieceId[] {
@@ -157,6 +173,9 @@ export class ChessGameState {
         cloneChessGameState.movedPieceIds = [...this.movedPieceIds];
         cloneChessGameState.lastMove = { fromSquareId: this.lastMove.fromSquareId, toSquareId: this.lastMove.toSquareId };
         cloneChessGameState.pgn = this.pgn;
+        cloneChessGameState.comments = [...this.comments];
+        cloneChessGameState.marks = [...this.marks];
+        cloneChessGameState.arrows = [...this.arrows];
         return cloneChessGameState;
     }
 
@@ -351,7 +370,7 @@ function handleCastling(chessGameState: ChessGameState, fromSquareInfo: SquareIn
     return true;
 }
 
-function handlePawnPromotion(chessGameState: ChessGameState, toSquareInfo: SquareInfo, movingPiece: ChessPieceState, promotionPieceName: PieceName | null): boolean {
+function handlePawnPromotion(chessGameState: ChessGameState, toSquareInfo: SquareInfo, movingPiece: ChessPieceState, promotionPieceName?: PieceName): boolean {
     // Handle pawn promotion
     if (!movingPiece || movingPiece.pieceName !== 'p') {
         return false;
@@ -370,11 +389,8 @@ function handlePawnPromotion(chessGameState: ChessGameState, toSquareInfo: Squar
 
 export function nextChessGameState(
     chessGameState: ChessGameState,
-    move: {
-        sourceSquareId: SquareId,
-        targetSquareId: SquareId,
-        promotionPieceName: PieceName | null
-    }): ChessGameState {
+    move: Move): ChessGameState {
+
 
     // console.log(move)
     const toSquareInfo = asSquareInfo(move.targetSquareId);
@@ -403,13 +419,13 @@ export function nextChessGameState(
     // Handle en passant capture
     if (handleEnPassant(newChessGameState, fromSquareInfo, toSquareInfo, pieceToMove)) {
         isEnPassant = true;
-        console.log(`en passant move ${move.sourceSquareId} to ${move.targetSquareId}`);
+        // console.log(`en passant move ${move.sourceSquareId} to ${move.targetSquareId}`);
     }
 
     // Handle capture
     if (newChessGameState.getPieceAt(move.targetSquareId)) {
         isCapture = true;
-        console.log(`capture move ${move.targetSquareId}`);
+        // console.log(`capture move ${move.targetSquareId}`);
         newChessGameState.capturePieceAt(move.targetSquareId);
     }
 
@@ -419,12 +435,12 @@ export function nextChessGameState(
     // Handle castling
     if (handleCastling(newChessGameState, fromSquareInfo, toSquareInfo, pieceToMove)) {
         isCastling = toSquareInfo.fileIndex - fromSquareInfo.fileIndex === 2 ? chess.kingside : chess.queenside;
-        console.log(`castling move ${move.sourceSquareId} to ${move.targetSquareId}`);
+        // console.log(`castling move ${move.sourceSquareId} to ${move.targetSquareId}`);
     }
 
     if (handlePawnPromotion(newChessGameState, toSquareInfo, pieceToMove, move.promotionPieceName)) {
         isPawnPromotion = true;
-        console.log(`pawn promotion move ${move.sourceSquareId} to ${move.targetSquareId}`);
+        // console.log(`pawn promotion move ${move.sourceSquareId} to ${move.targetSquareId}`);
     }
 
     // switch turns
@@ -463,10 +479,8 @@ export function nextChessGameState(
 
 export function getSetupChessGameState(setup: GameSetup): ChessGameState {
     const initialChessGameState = new ChessGameState();
-    const squareIdPieceIdMap = setup.white.concat(setup.black).map(position => {
-        return { squareId: position.square, pieceId: position.piece };
-    });
-    initialChessGameState.initialize(squareIdPieceIdMap);
+    // const positions = setup.white.concat(setup.black);
+    initialChessGameState.initialize(setup);
 
     // update the valid moves
     updateValidMoves(initialChessGameState);
@@ -485,40 +499,48 @@ export function getSetupChessGameState(setup: GameSetup): ChessGameState {
 
 export function getDefaultChessGameState(): ChessGameState {
     const initialChessGameState = new ChessGameState();
-    initialChessGameState.initialize([
-        { squareId: chess.a1, pieceId: chess.whiteQueensideRook },
-        { squareId: chess.b1, pieceId: chess.whiteQueensideKnight },
-        { squareId: chess.c1, pieceId: chess.whiteQueensideBishop },
-        { squareId: chess.d1, pieceId: chess.whiteQueen },
-        { squareId: chess.e1, pieceId: chess.whiteKing },
-        { squareId: chess.f1, pieceId: chess.whiteKingsideBishop },
-        { squareId: chess.g1, pieceId: chess.whiteKingsideKnight },
-        { squareId: chess.h1, pieceId: chess.whiteKingsideRook },
-        { squareId: chess.a2, pieceId: chess.whitePawn1 },
-        { squareId: chess.b2, pieceId: chess.whitePawn2 },
-        { squareId: chess.c2, pieceId: chess.whitePawn3 },
-        { squareId: chess.d2, pieceId: chess.whitePawn4 },
-        { squareId: chess.e2, pieceId: chess.whitePawn5 },
-        { squareId: chess.f2, pieceId: chess.whitePawn6 },
-        { squareId: chess.g2, pieceId: chess.whitePawn7 },
-        { squareId: chess.h2, pieceId: chess.whitePawn8 },
-        { squareId: chess.a7, pieceId: chess.blackPawn1 },
-        { squareId: chess.b7, pieceId: chess.blackPawn2 },
-        { squareId: chess.c7, pieceId: chess.blackPawn3 },
-        { squareId: chess.d7, pieceId: chess.blackPawn4 },
-        { squareId: chess.e7, pieceId: chess.blackPawn5 },
-        { squareId: chess.f7, pieceId: chess.blackPawn6 },
-        { squareId: chess.g7, pieceId: chess.blackPawn7 },
-        { squareId: chess.h7, pieceId: chess.blackPawn8 },
-        { squareId: chess.a8, pieceId: chess.blackQueensideRook },
-        { squareId: chess.b8, pieceId: chess.blackQueensideKnight },
-        { squareId: chess.c8, pieceId: chess.blackQueensideBishop },
-        { squareId: chess.d8, pieceId: chess.blackQueen },
-        { squareId: chess.e8, pieceId: chess.blackKing },
-        { squareId: chess.f8, pieceId: chess.blackKingsideBishop },
-        { squareId: chess.g8, pieceId: chess.blackKingsideKnight },
-        { squareId: chess.h8, pieceId: chess.blackKingsideRook },
-    ]);
+    initialChessGameState.initialize({
+        [chess.a1]: chess.whiteQueensideRook,
+        [chess.b1]: chess.whiteQueensideKnight,
+        [chess.c1]: chess.whiteQueensideBishop,
+        [chess.d1]: chess.whiteQueen,
+        [chess.e1]: chess.whiteKing,
+        [chess.f1]: chess.whiteKingsideBishop,
+        [chess.g1]: chess.whiteKingsideKnight,
+        [chess.h1]: chess.whiteKingsideRook,
+        [chess.a2]: chess.whitePawn1,
+        [chess.b2]: chess.whitePawn2,
+        [chess.c2]: chess.whitePawn3,
+        [chess.d2]: chess.whitePawn4,
+        [chess.e2]: chess.whitePawn5,
+        [chess.f2]: chess.whitePawn6,
+        [chess.g2]: chess.whitePawn7,
+        [chess.h1]: chess.whiteKingsideRook,
+        [chess.a2]: chess.whitePawn1,
+        [chess.b2]: chess.whitePawn2,
+        [chess.c2]: chess.whitePawn3,
+        [chess.d2]: chess.whitePawn4,
+        [chess.e2]: chess.whitePawn5,
+        [chess.f2]: chess.whitePawn6,
+        [chess.g2]: chess.whitePawn7,
+        [chess.h2]: chess.whitePawn8,
+        [chess.a7]: chess.blackPawn1,
+        [chess.b7]: chess.blackPawn2,
+        [chess.c7]: chess.blackPawn3,
+        [chess.d7]: chess.blackPawn4,
+        [chess.e7]: chess.blackPawn5,
+        [chess.f7]: chess.blackPawn6,
+        [chess.g7]: chess.blackPawn7,
+        [chess.h7]: chess.blackPawn8,
+        [chess.a8]: chess.blackQueensideRook,
+        [chess.b8]: chess.blackQueensideKnight,
+        [chess.c8]: chess.blackQueensideBishop,
+        [chess.d8]: chess.blackQueen,
+        [chess.e8]: chess.blackKing,
+        [chess.f8]: chess.blackKingsideBishop,
+        [chess.g8]: chess.blackKingsideKnight,
+        [chess.h8]: chess.blackKingsideRook,
+    });
 
 
     // update the valid moves
@@ -536,6 +558,103 @@ export function getDefaultChessGameState(): ChessGameState {
     return initialChessGameState;
 }
 
+function placeOnBoard(pieceIds: PieceId[], squareIds: SquareId[], gameSetup: GameSetup): GameSetup | null {
+    // console.log("placeOnBoard", pieceIds, squareIds);
+    if (pieceIds.length === 0) {
+        return gameSetup; // All pieces have been placed successfully
+    }
+
+    const currentPieceId = pieceIds[0];
+    const remainingPieceIds = pieceIds.slice(1);
+
+    const shuffledSquareIds = [...squareIds].sort(() => 0.5 - Math.random());
+    for (const squareId of shuffledSquareIds) {
+        // Try placing the current piece on this square
+
+        const newGameSetup = { ...gameSetup };
+        newGameSetup[squareId] = currentPieceId;
+
+        // Check if the current setup is valid
+        if (isValidSetup(newGameSetup)) {
+            // Recursively try to place the remaining pieces
+            return placeOnBoard(remainingPieceIds, squareIds.filter(id => id !== squareId), newGameSetup);
+        }
+    }
+
+    return null; // No valid placement found for this piece
+}
+
+function isValidSetup(gameSetup: GameSetup): boolean {
+    // console.log("isValidSetup", gameSetup);
+    const chessGameState = getSetupChessGameState(gameSetup);
+
+    // // Check for basic validity (e.g., kings are present, pawns are not on the first or last rank)
+    // if (!chessGameState.whiteKingSquareId || !chessGameState.blackKingSquareId) {
+    //     return false;
+    // }
+
+    // Get all squares with pawns on them from gameSetup
+    const pawnSquares = Object.entries(gameSetup)
+        .filter(([_, pieceId]) => asPieceInfo(pieceId).pieceName === 'p')
+        .map(([squareId, _]) => squareId as SquareId);
+
+    // Check if any pawns are on the first or last rank
+    const pawnsOnInvalidRanks = pawnSquares.some(squareId => {
+        const squareInfo = asSquareInfo(squareId);
+        return squareInfo.rankName === '1' || squareInfo.rankName === '8';
+    });
+
+    if (pawnsOnInvalidRanks) {
+        return false;
+    }
+
+    // Get all squares with bishops on them from gameSetup
+    const bishopSquares = Object.entries(gameSetup)
+        .filter(([_, pieceId]) => asPieceInfo(pieceId).pieceName === 'b')
+        .map(([squareId, _]) => squareId as SquareId);
+
+    const bishopsOnInvalidSquares = bishopSquares.some(squareId => {
+        const pieceId = gameSetup[squareId];
+        if (!pieceId) {
+            return false;
+        }
+        // Check if light square bishop is on a light square
+        if (['wb1', 'bb1'].includes(pieceId) && chess.lightSquareIds.includes(squareId)) {
+            return true
+        }
+        // check if dark square bishop is on a dark square
+        if (['wb1', 'bb1'].includes(pieceId) && chess.lightSquareIds.includes(squareId)) {
+            return true
+        }
+        return false
+    }
+    );
+
+    if (bishopsOnInvalidSquares) {
+        return false;
+    }
+
+    // Check if either king is in check
+    if (chessGameState.whiteKingInCheck || chessGameState.blackKingInCheck) {
+        return false;
+    }
+
+    return true;
+}
+
+export function getValidRandomSetup(drill: PieceId[]): GameSetup {
+    let pieceIds = [...drill];
+
+    const initialSetup: GameSetup = {};
+    const validSetup = placeOnBoard(pieceIds, squareIds, initialSetup);
+
+    if (!validSetup) {
+        throw new Error("Unable to generate a valid random chess game state");
+    }
+
+    return validSetup;
+}
+
 function generatePGNMove(
     prevChessGameState: ChessGameState,
     chessGameState: ChessGameState,
@@ -546,7 +665,7 @@ function generatePGNMove(
     isCapture: boolean,
     isCastling: chess.SideName | null,
     isPawnPromotion: boolean,
-    promotionPieceName: PieceName | null
+    promotionPieceName?: PieceName
 ): string {
 
     let pgnMove = "";
@@ -559,14 +678,14 @@ function generatePGNMove(
 
         const specifiedSource = getDisambiguation(prevChessGameState, fromSquareInfo, toSquareInfo, pieceToMove);
         if (isPawnPromotion) {
-            if (isCapture){
+            if (isCapture) {
                 pgnMove += fromSquareInfo.fileName;
             }
         } else if (specifiedSource.length > 0) {
             pgnMove += specifiedSource;
         } else if (pieceToMove.pieceName !== 'p') {
             pgnMove += pieceToMove.pieceName.toUpperCase();
-        } else if(isCapture || isEnPassant){
+        } else if (isCapture || isEnPassant) {
             pgnMove += fromSquareInfo.fileName;
         }
 
@@ -618,9 +737,9 @@ function getDisambiguation(
     const sourceSquareInfos = squareIds.filter(squareId => {
         const pieceInfo = chessGameState.getPieceAt(squareId);
         return pieceInfo &&
-               pieceInfo.pieceName === pieceToMove.pieceName &&
-               pieceInfo.colorName === pieceToMove.colorName &&
-               pieceInfo.validMoveSquareIds.includes(toSquareInfo.id);
+            pieceInfo.pieceName === pieceToMove.pieceName &&
+            pieceInfo.colorName === pieceToMove.colorName &&
+            pieceInfo.validMoveSquareIds.includes(toSquareInfo.id);
     }).map(squareId => asSquareInfo(squareId));
 
     if (sourceSquareInfos.length < 2) {

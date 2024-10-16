@@ -230,6 +230,12 @@ function canCastle(chessGameState: ChessGameState, colorName: ColorName, side: '
         ? (side === 'kingside' ? chess.whiteKingsideRook : chess.whiteQueensideRook)
         : (side === 'kingside' ? chess.blackKingsideRook : chess.blackQueensideRook);
 
+
+    // Check if rook i captured
+    if (chessGameState.capturedWhitePieceIds.includes(rookId) || chessGameState.capturedBlackPieceIds.includes(rookId)) {
+        return false;
+    }
+
     // Check if king or rook has moved
     if (chessGameState.hasMoved(kingId) || chessGameState.hasMoved(rookId)) {
         return false;

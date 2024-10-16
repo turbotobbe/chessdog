@@ -52,7 +52,7 @@ export function loadBoardState(boardState: BoardState, pgnGames: PgnGame[]): Boa
   const newBoardState: BoardState = boardState.clone();
 
   for (const game of pgnGames) {
-    // console.log('game', game);
+    console.log('game', game);
     // setup new chess game state
     let chessGameState = boardState.chessGameState.clone();
     let nodes = newBoardState.nodes;
@@ -61,17 +61,21 @@ export function loadBoardState(boardState: BoardState, pgnGames: PgnGame[]): Boa
     for (const turn of game.turns) {
 
       // parse the move
-      const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, turn.white.move);
+      const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, turn.white.pgn);
 
       // update the chess game state
       chessGameState = nextChessGameState(chessGameState, { sourceSquareId, targetSquareId, promotionPieceName });
+
+      chessGameState.comments = turn.white.comments || [];
+      chessGameState.marks = turn.white.marks || [];
+      chessGameState.arrows = turn.white.arrows || [];
 
       // find the node in the board state
       let node = nodes.find(node => node.sourceSquareId === sourceSquareId && node.targetSquareId === targetSquareId);
       // console.log(sourceSquareId, node?.sourceSquareId, targetSquareId, node?.targetSquareId);
       if (node === undefined) {
         // create a new node if it doesn't exist
-        node = new BoardNodeState(chessGameState.clone(), sourceSquareId, targetSquareId, turn.white.move);
+        node = new BoardNodeState(chessGameState.clone(), sourceSquareId, targetSquareId, turn.white.pgn);
         nodes.push(node);
         // } else {
         // console.log("node already exists", node.sourceSquareId, node.targetSquareId, node.pgn);
@@ -81,19 +85,23 @@ export function loadBoardState(boardState: BoardState, pgnGames: PgnGame[]): Boa
       nodes = node.nodes;
 
       // if there is a black move, update the chess game state
-      if (turn.black && turn.black.move.length > 0) {
+      if (turn.black && turn.black.pgn.length > 0) {
 
         // parse the move
-        const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, turn.black.move);
+        const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, turn.black.pgn);
 
         // update the chess game state
         chessGameState = nextChessGameState(chessGameState, { sourceSquareId, targetSquareId, promotionPieceName });
 
+        chessGameState.comments = turn.black?.comments || [];
+        chessGameState.marks = turn.black?.marks || [];
+        chessGameState.arrows = turn.black?.arrows || [];
+  
         // find the node in the board state
         let node = nodes.find(node => node.sourceSquareId === sourceSquareId && node.targetSquareId === targetSquareId);
         if (!node) {
           // create a new node if it doesn't exist
-          node = new BoardNodeState(chessGameState.clone(), sourceSquareId, targetSquareId, turn.black.move);
+          node = new BoardNodeState(chessGameState.clone(), sourceSquareId, targetSquareId, turn.black.pgn);
           nodes.push(node);
           // } else {
           //   console.log("node already exists", node.sourceSquareId, node.targetSquareId, node.pgn);

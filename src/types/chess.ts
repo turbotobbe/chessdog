@@ -1,3 +1,6 @@
+import { ChessGameState } from "@/models/chess";
+import { PgnMove } from "@/utils/pgn";
+
 export interface ChessComGame {
     url: string;
     pgn: string;
@@ -54,6 +57,18 @@ export interface PieceInfo {
   pieceName: PieceName;
   number: number;
 }
+
+export interface Move {
+  sourceSquareId: SquareId;
+  targetSquareId: SquareId;
+  promotionPieceName?: PieceName;
+}
+
+export interface Player {
+  name: string;
+  move(chessGameState: ChessGameState): Move | null;
+}
+
 
 // constants
 
@@ -246,6 +261,10 @@ export const castlingRookMoves: Record<ColorName, Record<SideName, { fromSquareI
   }
 }
 
+export const DnDType = {
+  PIECE: "piece"
+}
+
 export type OpeningCategory = {
   slug: string;
   name: string;
@@ -269,25 +288,20 @@ export type Line = {
 }
 
 export type Position = {
-  piece: PieceId;
-  square: SquareId;
+  pieceId: PieceId;
+  squareId: SquareId;
 }
 
 export type GameSetup = {
-  white: Position[];
-  black: Position[];
-}
-
-export type Drill = {
-  white: PieceId[];
-  black: PieceId[];
-}
+  [squareId in SquareId]?: PieceId;
+};
 
 export type Endgame = {
   slug: string;
   name: string;
+  href?: string;
   description: string;
   setup: GameSetup;
-  pgn: string;
-  drill: Drill;
+  moves: PgnMove[];
+  drill: PieceId[];
 }
