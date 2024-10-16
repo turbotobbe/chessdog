@@ -1,0 +1,231 @@
+{
+  "slug": "kings-pawn-opening",
+  "name": "King's Pawn Opening",
+  "range": "B00",
+  "lines": [
+    {
+      "eco": "B00",
+      "name": "King's Pawn Opening, General",
+      "color": "white",
+      "moves": "1. e4",
+      "count": 10580
+    },
+    {
+      "eco": "B00",
+      "name": "Owen Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... b6",
+      "count": 7759
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Williams Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nc6 2. Nf3 2... d6",
+      "count": 4286
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Declined Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nc6 2. Nf3",
+      "count": 2034
+    },
+    {
+      "eco": "B00",
+      "name": "St. George Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... a6",
+      "count": 1986
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Scandinavian Variation, Advance Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. e5",
+      "count": 1960
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... Nc6",
+      "count": 1383
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Scandinavian Variation, Exchange Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. exd5 3... Qxd5",
+      "count": 1078
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Kennedy Variation, Linksspringer Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nc6 2. d4 2... e5 3. d5",
+      "count": 984
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Mikenas Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nc6 2. d4 2... d6",
+      "count": 739
+    },
+    {
+      "eco": "B00",
+      "name": "St. George Defense, Polish Variation",
+      "color": "black",
+      "moves": "1. e4 1... a6 2. d4 2... b5 3. Nf3 3... Bb7 4. Bd3 4... e6",
+      "count": 545
+    },
+    {
+      "eco": "B00",
+      "name": "Borg Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... g5",
+      "count": 501
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Lean Variation, Colorado Counter Accepted",
+      "color": "white",
+      "moves": "1. e4 1... Nc6 2. Nf3 2... f5 3. exf5",
+      "count": 445
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Scandinavian Variation, Bogoljubow Variation, Vehre Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. Nc3 3... Nf6",
+      "count": 438
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Franco-Nimzowitsch Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nc6 2. Nf3 2... e6",
+      "count": 435
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, French Connection",
+      "color": "black",
+      "moves": "1. e4 1... Nc6 2. Nc3 2... e6",
+      "count": 427
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Kennedy Variation, Paulsen Attack",
+      "color": "white",
+      "moves": "1. e4 1... Nc6 2. d4 2... e5 3. dxe5 3... Nxe5 4. Nf3",
+      "count": 353
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Scandinavian Variation, Bogoljubow Variation, Nimzowitsch Gambit",
+      "color": "black",
+      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. Nc3 3... dxe4 4. d5 4... Ne5",
+      "count": 333
+    },
+    {
+      "eco": "B00",
+      "name": "St. George Defense, New St. George, Traditional Line",
+      "color": "black",
+      "moves": "1. e4 1... a6 2. d4 2... e6 3. Nf3 3... b5 4. Bd3 4... c5 5. c3 5... Bb7 6. O-O 6... Nf6",
+      "count": 264
+    },
+    {
+      "eco": "B00",
+      "name": "Caro-Kann Defense, Hillbilly Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. Bc4",
+      "count": 251
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Scandinavian Variation, Bogoljubow Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. Nc3",
+      "count": 187
+    },
+    {
+      "eco": "B00",
+      "name": "St. George Defense, New St. George, Three Pawn Attack",
+      "color": "white",
+      "moves": "1. e4 1... a6 2. d4 2... e6 3. c4",
+      "count": 144
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Scandinavian Variation, Bogoljubow Variation, Heinola-Deppe Gambit",
+      "color": "black",
+      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. Nc3 3... e5",
+      "count": 136
+    },
+    {
+      "eco": "B00",
+      "name": "Ware Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... a5",
+      "count": 135
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Lean Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nc6 2. Nf3 2... f5",
+      "count": 134
+    },
+    {
+      "eco": "B00",
+      "name": "Carr Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... h6",
+      "count": 128
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Kennedy Variation, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... Nc6 2. d4 2... e5 3. dxe5 3... Nxe5 4. f4 4... Ng6",
+      "count": 123
+    },
+    {
+      "eco": "B00",
+      "name": "Duras Gambit, General",
+      "color": "black",
+      "moves": "1. e4 1... f5",
+      "count": 121
+    },
+    {
+      "eco": "B00",
+      "name": "Goldsmith Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... h5",
+      "count": 119
+    },
+    {
+      "eco": "B00",
+      "name": "Borg Defense, Troon Gambit",
+      "color": "black",
+      "moves": "1. e4 1... g5 2. d4 2... h6 3. h4 3... g4",
+      "count": 110
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Kennedy Variation, Riemann Defense",
+      "color": "black",
+      "moves": "1. e4 1... Nc6 2. d4 2... e5 3. dxe5 3... Nxe5 4. f4 4... Nc6",
+      "count": 108
+    },
+    {
+      "eco": "B00",
+      "name": "Nimzowitsch Defense, Pseudo-Spanish Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nc6 2. Bb5",
+      "count": 103
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "three-knights-game",
+  "name": "Three Knights' Game",
+  "range": "C46",
+  "lines": [
+    {
+      "eco": "C46",
+      "name": "Four Knights Game, General",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... Nf6",
+      "count": 5590
+    },
+    {
+      "eco": "C46",
+      "name": "Four Knights Game, Italian Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... Nf6 4. Bc4",
+      "count": 2643
+    },
+    {
+      "eco": "C46",
+      "name": "Three Knights Opening, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3",
+      "count": 2633
+    },
+    {
+      "eco": "C46",
+      "name": "Four Knights Game, Gunsberg Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... Nf6 4. a3",
+      "count": 1941
+    },
+    {
+      "eco": "C46",
+      "name": "Three Knights Opening, Steinitz Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... g6",
+      "count": 909
+    },
+    {
+      "eco": "C46",
+      "name": "Three Knights Opening, Steinitz - Rosenthal Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... g6 4. d4 4... exd4 5. Nd5",
+      "count": 212
+    },
+    {
+      "eco": "C46",
+      "name": "Four Knights Game, Halloween Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... Nf6 4. Nxe5",
+      "count": 185
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "slug": "vienna-game",
+  "name": "Vienna Game",
+  "range": "C25-C29",
+  "lines": [
+    {
+      "eco": "C28",
+      "name": "Bishop's Opening, Vienna Hybrid",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Bc4 2... Nf6 3. d3 3... Nc6 4. Nc3",
+      "count": 5394
+    },
+    {
+      "eco": "C26",
+      "name": "Vienna Game, Mieses Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. g3",
+      "count": 4165
+    },
+    {
+      "eco": "C26",
+      "name": "Bishop's Opening, Vienna Hybrid, Spielmann Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Bc4 2... Nf6 3. d3 3... Bc5 4. Nc3",
+      "count": 2105
+    },
+    {
+      "eco": "C25",
+      "name": "Vienna Game, Paulsen Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nc6 3. g3",
+      "count": 1611
+    },
+    {
+      "eco": "C27",
+      "name": "Vienna Game, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3",
+      "count": 1329
+    },
+    {
+      "eco": "C29",
+      "name": "Vienna Game, Vienna Gambit, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5",
+      "count": 1181
+    },
+    {
+      "eco": "C25",
+      "name": "Vienna Game, Anderssen Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nc3 2... Bc5",
+      "count": 1085
+    },
+    {
+      "eco": "C28",
+      "name": "Vienna Game, Vienna Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4",
+      "count": 1025
+    },
+    {
+      "eco": "C29",
+      "name": "Vienna Game, Vienna Gambit, Paulsen Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5 4. fxe5 4... Nxe4 5. Qf3",
+      "count": 854
+    },
+    {
+      "eco": "C26",
+      "name": "Vienna Game, Stanley Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4",
+      "count": 813
+    },
+    {
+      "eco": "C28",
+      "name": "Bishop's Opening, Vienna Hybrid, Hromadka Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Bc4 2... Nf6 3. d3 3... Nc6 4. Nc3 4... Bb4 5. Ne2",
+      "count": 765
+    },
+    {
+      "eco": "C26",
+      "name": "Vienna Game, Falkbeer Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6",
+      "count": 724
+    },
+    {
+      "eco": "C29",
+      "name": "Vienna Game, Vienna Gambit, Modern Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5 4. fxe5 4... Nxe4 5. d3",
+      "count": 644
+    },
+    {
+      "eco": "C29",
+      "name": "Vienna Game, Vienna Gambit, Breyer Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5 4. fxe5 4... Nxe4 5. Nf3 5... Be7",
+      "count": 633
+    },
+    {
+      "eco": "C27",
+      "name": "Vienna Game, Stanley Variation, Modern Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nxe4",
+      "count": 477
+    },
+    {
+      "eco": "C25",
+      "name": "Vienna Game, Vienna Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nc6 3. f4",
+      "count": 474
+    },
+    {
+      "eco": "C26",
+      "name": "Vienna Game, Stanley Variation, Reversed Spanish",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Bb4",
+      "count": 454
+    },
+    {
+      "eco": "C27",
+      "name": "Bishop's Opening, Boden-Kieseritsky Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nxe4 4. Nf3",
+      "count": 427
+    },
+    {
+      "eco": "C25",
+      "name": "Vienna Game, Vienna Gambit, Steinitz Gambit, Knight Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nc6 3. f4 3... exf4 4. Nf3",
+      "count": 303
+    },
+    {
+      "eco": "C27",
+      "name": "Vienna Game, Stanley Variation, Monster Declined",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nxe4 4. Qh5 4... Nd6 5. Bb3 5... Be7",
+      "count": 273
+    },
+    {
+      "eco": "C28",
+      "name": "Vienna Game, Stanley Variation, Three Knights Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nc6",
+      "count": 261
+    },
+    {
+      "eco": "C29",
+      "name": "Vienna Game, Vienna Gambit, Bardeleben Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5 4. fxe5 4... Nxe4 5. Qf3 5... f5",
+      "count": 228
+    },
+    {
+      "eco": "C25",
+      "name": "Vienna Game, Omaha Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... d6 3. f4",
+      "count": 200
+    },
+    {
+      "eco": "C27",
+      "name": "Vienna Game, Stanley Variation, Frankenstein-Dracula Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nxe4 4. Qh5 4... Nd6 5. Bb3 5... Nc6 6. Nb5 6... g6 7. Qf3 7... f5 8. Qd5 8... Qe7 9. Nxc7+ 9... Kd8 10. Nxa8 10... b6",
+      "count": 160
+    },
+    {
+      "eco": "C26",
+      "name": "Vienna Game, Mengarini Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. a3",
+      "count": 147
+    },
+    {
+      "eco": "C27",
+      "name": "Vienna Game, Stanley Variation, Alekhine Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nxe4 4. Qh5 4... Nd6 5. Bb3 5... Be7 6. Nf3 6... Nc6 7. Nxe5",
+      "count": 140
+    },
+    {
+      "eco": "C29",
+      "name": "Vienna Game, Vienna Gambit, Kaufmann Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5 4. fxe5 4... Nxe4 5. Nf3 5... Bg4 6. Qe2",
+      "count": 113
+    }
+  ]
+}

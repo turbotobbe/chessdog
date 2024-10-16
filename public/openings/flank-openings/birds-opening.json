@@ -1,0 +1,56 @@
+{
+  "slug": "birds-opening",
+  "name": "Bird's Opening",
+  "range": "A02-A03",
+  "lines": [
+    {
+      "eco": "A03",
+      "name": "Bird Opening, Dutch Variation",
+      "color": "black",
+      "moves": "1. f4 1... d5",
+      "count": 11371
+    },
+    {
+      "eco": "A02",
+      "name": "Bird Opening, General",
+      "color": "white",
+      "moves": "1. f4",
+      "count": 9437
+    },
+    {
+      "eco": "A02",
+      "name": "Bird Opening, From Gambit",
+      "color": "black",
+      "moves": "1. f4 1... e5",
+      "count": 1082
+    },
+    {
+      "eco": "A03",
+      "name": "Bird Opening, Lasker Variation",
+      "color": "black",
+      "moves": "1. f4 1... d5 2. Nf3 2... Nf6 3. e3 3... c5",
+      "count": 762
+    },
+    {
+      "eco": "A02",
+      "name": "Bird Opening, From Gambit, Lasker Variation",
+      "color": "black",
+      "moves": "1. f4 1... e5 2. fxe5 2... d6 3. exd6 3... Bxd6 4. Nf3 4... g5",
+      "count": 714
+    },
+    {
+      "eco": "A03",
+      "name": "Bird Opening, Horsefly Defense",
+      "color": "black",
+      "moves": "1. f4 1... Nh6",
+      "count": 192
+    },
+    {
+      "eco": "A02",
+      "name": "Bird Opening, Schlechter Gambit",
+      "color": "black",
+      "moves": "1. f4 1... e5 2. fxe5 2... Nc6",
+      "count": 117
+    }
+  ]
+}

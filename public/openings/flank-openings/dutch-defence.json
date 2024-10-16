@@ -1,0 +1,315 @@
+{
+  "slug": "dutch-defence",
+  "name": "Dutch Defence",
+  "range": "A80-A99",
+  "lines": [
+    {
+      "eco": "A80",
+      "name": "Dutch Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... f5",
+      "count": 9199
+    },
+    {
+      "eco": "A81",
+      "name": "Dutch Defense, Semi-Leningrad Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. g3 2... Nf6 3. Bg2 3... g6",
+      "count": 6704
+    },
+    {
+      "eco": "A85",
+      "name": "Dutch Defense, Queen's Knight Variation",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. Nc3",
+      "count": 5491
+    },
+    {
+      "eco": "A88",
+      "name": "Dutch Defense, Leningrad Variation, Warsaw Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... c6",
+      "count": 5084
+    },
+    {
+      "eco": "A80",
+      "name": "Dutch Defense, Hopton Attack",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. Bg5",
+      "count": 4662
+    },
+    {
+      "eco": "A80",
+      "name": "Dutch Defense, Raphael Variation",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. Nc3",
+      "count": 4032
+    },
+    {
+      "eco": "A89",
+      "name": "Dutch Defense, Leningrad Variation, Matulovic Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... Nc6",
+      "count": 3464
+    },
+    {
+      "eco": "A84",
+      "name": "Dutch Defense, Rubinstein Variation",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. c4 2... e6 3. Nc3",
+      "count": 3343
+    },
+    {
+      "eco": "A90",
+      "name": "Dutch Defense, Stonewall Variation, Modern Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... e6 3. Nf3 3... Nf6 4. g3 4... c6 5. Bg2 5... d5 6. O-O 6... Bd6",
+      "count": 3026
+    },
+    {
+      "eco": "A90",
+      "name": "Dutch Defense, Classical Variation",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2",
+      "count": 2693
+    },
+    {
+      "eco": "A81",
+      "name": "Dutch Defense, Fianchetto Attack",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. g3",
+      "count": 2422
+    },
+    {
+      "eco": "A84",
+      "name": "Dutch Defense, Classical Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... e6",
+      "count": 2307
+    },
+    {
+      "eco": "A87",
+      "name": "Dutch Defense, Leningrad Variation",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3",
+      "count": 2288
+    },
+    {
+      "eco": "A97",
+      "name": "Dutch Defense, Modern Stonewall Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... d5 5. Nf3 5... c6 6. O-O 6... Bd6",
+      "count": 2133
+    },
+    {
+      "eco": "A80",
+      "name": "Queen Pawn Game, Veresov Atack, Dutch System",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. Nc3 2... f5",
+      "count": 1934
+    },
+    {
+      "eco": "A83",
+      "name": "Dutch Defense, Staunton Gambit, General Variation",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. e4 2... fxe4 3. Nc3 3... Nf6 4. Bg5",
+      "count": 1802
+    },
+    {
+      "eco": "A96",
+      "name": "Dutch Defense, Classical Variation, Huisl Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... Ne4",
+      "count": 1312
+    },
+    {
+      "eco": "A96",
+      "name": "Dutch Defense, Classical Variation, General",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6",
+      "count": 1123
+    },
+    {
+      "eco": "A84",
+      "name": "Dutch Defense, Normal Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6",
+      "count": 1053
+    },
+    {
+      "eco": "A96",
+      "name": "Dutch Defense, Classical Variation, Buenos Aires Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... a5",
+      "count": 999
+    },
+    {
+      "eco": "A95",
+      "name": "Dutch Defense, Classical Variation, Stonewall Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d5 7. Nc3 7... c6",
+      "count": 774
+    },
+    {
+      "eco": "A86",
+      "name": "Dutch Defense, Leningrad Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... g6",
+      "count": 750
+    },
+    {
+      "eco": "A97",
+      "name": "Dutch Defense, Classical Variation, Ilyin-Zhenevsky Variation, General",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... Qe8",
+      "count": 747
+    },
+    {
+      "eco": "A90",
+      "name": "Dutch Defense, Nimzo-Dutch Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Bb4+",
+      "count": 727
+    },
+    {
+      "eco": "A91",
+      "name": "Dutch Defense, Classical Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7",
+      "count": 492
+    },
+    {
+      "eco": "A99",
+      "name": "Dutch Defense, Classical Variation, Ilyin-Zhenevsky Variation, Modern Main Line",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... Qe8 8. b3",
+      "count": 461
+    },
+    {
+      "eco": "A80",
+      "name": "Dutch Defense, Krejcik Gambit",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. g4",
+      "count": 449
+    },
+    {
+      "eco": "A94",
+      "name": "Dutch Defense, Classical Variation, Stonewall Variation",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d5 7. b3 7... c6 8. Ba3",
+      "count": 444
+    },
+    {
+      "eco": "A83",
+      "name": "Dutch Defense, Staunton Gambit, Chigorin Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. e4 2... fxe4 3. Nc3 3... Nf6 4. Bg5 4... c6",
+      "count": 421
+    },
+    {
+      "eco": "A81",
+      "name": "Dutch Defense, Blackburne Variation",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. g3 2... Nf6 3. Bg2 3... e6 4. Nh3",
+      "count": 399
+    },
+    {
+      "eco": "A92",
+      "name": "Dutch Defense, Alekhine Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... Ne4",
+      "count": 378
+    },
+    {
+      "eco": "A93",
+      "name": "Dutch Defense, Classical Variation, Stonewall Variation, Botvinnik Variation",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d5 7. b3",
+      "count": 363
+    },
+    {
+      "eco": "A92",
+      "name": "Dutch Defense, Stonewall Variation, General Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d5",
+      "count": 354
+    },
+    {
+      "eco": "A98",
+      "name": "Dutch Defense, Classical Variation, Ilyin-Zhenevsky Variation, Alatortsev-Lisitsyn Line",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... Qe8 8. Qc2",
+      "count": 352
+    },
+    {
+      "eco": "A80",
+      "name": "Dutch Defense, Blackmar's Second Gambit",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. e4 2... fxe4 3. Nc3 3... Nf6 4. f3",
+      "count": 307
+    },
+    {
+      "eco": "A91",
+      "name": "Dutch Defense, Classical Variation, Blackburne Attack",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nh3",
+      "count": 306
+    },
+    {
+      "eco": "A80",
+      "name": "Dutch Defense, Korchnoi Attack",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. h3",
+      "count": 266
+    },
+    {
+      "eco": "A92",
+      "name": "Dutch Defense, Classical Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O",
+      "count": 261
+    },
+    {
+      "eco": "A82",
+      "name": "Dutch Defense, Staunton Gambit, Accepted",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. e4 2... fxe4",
+      "count": 243
+    },
+    {
+      "eco": "A86",
+      "name": "Dutch Defense, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3",
+      "count": 197
+    },
+    {
+      "eco": "A83",
+      "name": "Dutch Defense, Staunton Gambit, Lasker Variation",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. e4 2... fxe4 3. Nc3 3... Nf6 4. Bg5 4... g6 5. f3",
+      "count": 185
+    },
+    {
+      "eco": "A80",
+      "name": "Dutch Defense, Kmoch Attack",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. Qd3",
+      "count": 161
+    },
+    {
+      "eco": "A80",
+      "name": "Dutch Defense, Janzen-Korchnoi Gambit",
+      "color": "white",
+      "moves": "1. d4 1... f5 2. h3 2... Nf6 3. g4",
+      "count": 160
+    },
+    {
+      "eco": "A90",
+      "name": "Dutch Defense, Nimzo-Dutch Variation, Alekhine Variation",
+      "color": "black",
+      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Bb4+ 5. Bd2 5... Be7",
+      "count": 137
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "indian-defences",
+  "name": "Indian Defences",
+  "range": "E00",
+  "lines": [
+    {
+      "eco": "E00",
+      "name": "Catalan Opening, General",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3",
+      "count": 15690
+    },
+    {
+      "eco": "E00",
+      "name": "Indian Game, Queen's Pawn Opening",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6",
+      "count": 5037
+    },
+    {
+      "eco": "E00",
+      "name": "Kangaroo Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... e6 2. c4 2... Bb4+",
+      "count": 3273
+    },
+    {
+      "eco": "E00",
+      "name": "Kangaroo Defense, Keres Defense, Transpositional Variation",
+      "color": "white",
+      "moves": "1. d4 1... e6 2. c4 2... Bb4+ 3. Nc3",
+      "count": 895
+    },
+    {
+      "eco": "E00",
+      "name": "Indian Game, Seirawan Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Bg5",
+      "count": 857
+    }
+  ]
+}

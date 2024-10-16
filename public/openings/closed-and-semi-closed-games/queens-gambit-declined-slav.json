@@ -1,0 +1,84 @@
+{
+  "slug": "queens-gambit-declined-slav",
+  "name": "Queen's Gambit Declined: Slav",
+  "range": "D30",
+  "lines": [
+    {
+      "eco": "D30",
+      "name": "Queen's Gambit Declined, General",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6",
+      "count": 19363
+    },
+    {
+      "eco": "D30",
+      "name": "Queen's Gambit Declined, Traditional Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nf3 3... Nf6 4. Bg5",
+      "count": 3627
+    },
+    {
+      "eco": "D30",
+      "name": "Queen's Gambit Declined, Tarrasch Defense, Pseudo-Tarrasch",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nf3 3... c5",
+      "count": 2310
+    },
+    {
+      "eco": "D30",
+      "name": "Semi-Slav Defense, Quiet Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nf3 3... Nf6 4. e3 4... c6 5. Nbd2 5... Nbd7",
+      "count": 2108
+    },
+    {
+      "eco": "D30",
+      "name": "Semi-Slav Defense, Quiet Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nf3 3... Nf6 4. e3 4... c6 5. Nbd2",
+      "count": 1252
+    },
+    {
+      "eco": "D30",
+      "name": "Queen's Gambit Declined, Capablanca - General",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nf3 3... Nf6 4. Bg5 4... h6",
+      "count": 953
+    },
+    {
+      "eco": "D30",
+      "name": "Queen's Gambit Declined, Hastings Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nf3 3... Nf6 4. Bg5 4... h6 5. Bxf6 5... Qxf6 6. Nc3 6... c6 7. Qb3",
+      "count": 616
+    },
+    {
+      "eco": "D30",
+      "name": "Queen's Gambit Declined, Vienna Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nf3 3... Nf6 4. Bg5 4... Bb4+",
+      "count": 616
+    },
+    {
+      "eco": "D30",
+      "name": "Queen's Gambit Declined, Tarrasch Defense, Pseudo-Tarrasch, Bishop Attack",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nf3 3... c5 4. cxd5 4... exd5 5. Bg5",
+      "count": 315
+    },
+    {
+      "eco": "D30",
+      "name": "Queen's Gambit Declined, Capablanca Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nf3 3... Nf6 4. Bg5 4... Nbd7 5. e3 5... c6 6. Nbd2",
+      "count": 191
+    },
+    {
+      "eco": "D30",
+      "name": "Queen's Gambit Declined, Semmering Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nf3 3... Nf6 4. e3 4... c6 5. Nbd2 5... Nbd7 6. Bd3 6... c5",
+      "count": 119
+    }
+  ]
+}

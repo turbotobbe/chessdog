@@ -1,0 +1,259 @@
+{
+  "slug": "queens-gambit-declined-classical",
+  "name": "Queen's Gambit Declined: Classical",
+  "range": "D50-D69",
+  "lines": [
+    {
+      "eco": "D50",
+      "name": "Queen's Gambit Declined, Modern Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5",
+      "count": 7814
+    },
+    {
+      "eco": "D58",
+      "name": "Queen's Gambit Declined, Tartakower Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... b6",
+      "count": 5784
+    },
+    {
+      "eco": "D52",
+      "name": "Queen's Gambit Declined, Cambridge Springs Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7 5. Nf3 5... c6 6. e3 6... Qa5",
+      "count": 5764
+    },
+    {
+      "eco": "D55",
+      "name": "Queen's Gambit Declined, Modern Variation, Normal Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3",
+      "count": 3904
+    },
+    {
+      "eco": "D61",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Rubinstein Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Qc2",
+      "count": 2051
+    },
+    {
+      "eco": "D51",
+      "name": "Queen's Gambit Declined, Modern, Knight Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7 5. e3 5... c6",
+      "count": 1927
+    },
+    {
+      "eco": "D63",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Main Line",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6",
+      "count": 1834
+    },
+    {
+      "eco": "D56",
+      "name": "Queen's Gambit Declined, Lasker Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... Ne4",
+      "count": 1692
+    },
+    {
+      "eco": "D59",
+      "name": "Queen's Gambit Declined, Tartakower Defense, Makogonov Exchange Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... b6 8. cxd5 8... Nxd5",
+      "count": 1646
+    },
+    {
+      "eco": "D60",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Botvinnik Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Bd3",
+      "count": 1593
+    },
+    {
+      "eco": "D51",
+      "name": "Queen's Gambit Declined, Modern, Knight Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7",
+      "count": 1520
+    },
+    {
+      "eco": "D60",
+      "name": "Queen's Gambit Declined, Orthodox Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7",
+      "count": 1396
+    },
+    {
+      "eco": "D55",
+      "name": "Queen's Gambit Declined, Neo-Orthodox Variation, Main Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4",
+      "count": 1238
+    },
+    {
+      "eco": "D55",
+      "name": "Queen's Gambit Declined, Anti-Tartakower Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bxf6",
+      "count": 1122
+    },
+    {
+      "eco": "D63",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Hennegerger Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... a6",
+      "count": 988
+    },
+    {
+      "eco": "D63",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Main Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1",
+      "count": 980
+    },
+    {
+      "eco": "D51",
+      "name": "Queen's Gambit Declined, Westphalian Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7 5. e3 5... Bb4 6. Nf3 6... c5",
+      "count": 750
+    },
+    {
+      "eco": "D55",
+      "name": "Queen's Gambit Declined, Anti-Tartakower Variation, Petrosian Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bxf6 7... Bxf6 8. Rc1 8... c6 9. Bd3 9... Nd7 10. O-O 10... dxc4 11. Bxc4",
+      "count": 743
+    },
+    {
+      "eco": "D53",
+      "name": "Queen's Gambit Declined, Miles Variation, Dzhindzhi Attack",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. Nf3 5... O-O 6. Qc2",
+      "count": 658
+    },
+    {
+      "eco": "D56",
+      "name": "Queen's Gambit Declined, Lasker Defense, Teichmann Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... Ne4 8. Bxe7 8... Qxe7 9. Qc2",
+      "count": 648
+    },
+    {
+      "eco": "D57",
+      "name": "Queen's Gambit Declined, Tartakower Variation, Exchange Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... b6 8. cxd5 8... exd5",
+      "count": 575
+    },
+    {
+      "eco": "D51",
+      "name": "Queen's Gambit Declined, Modern, Knight Defense",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7 5. e3",
+      "count": 522
+    },
+    {
+      "eco": "D57",
+      "name": "Queen's Gambit Declined, Lasker Defense, Main Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... Ne4 8. Bxe7 8... Qxe7 9. cxd5 9... Nxc3 10. bxc3",
+      "count": 403
+    },
+    {
+      "eco": "D62",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Rubinstein Variation, Flohr Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Qc2 7... c5 8. cxd5",
+      "count": 370
+    },
+    {
+      "eco": "D67",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Alekhine Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... Nd5 10. Bxe7 10... Qxe7 11. Ne4",
+      "count": 319
+    },
+    {
+      "eco": "D67",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Main Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... Nd5 10. Bxe7 10... Qxe7 11. O-O",
+      "count": 316
+    },
+    {
+      "eco": "D68",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Classical Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... Nd5 10. Bxe7 10... Qxe7 11. O-O 11... Nxc3 12. Rxc3 12... e5",
+      "count": 302
+    },
+    {
+      "eco": "D54",
+      "name": "Queen's Gambit Declined, Neo-Orthodox Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Rc1",
+      "count": 290
+    },
+    {
+      "eco": "D66",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Fianchetto Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... b5",
+      "count": 275
+    },
+    {
+      "eco": "D50",
+      "name": "Queen's Gambit Declined, Pseudo-Tarrasch Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... c5 5. cxd5",
+      "count": 260
+    },
+    {
+      "eco": "D69",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Classical Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... Nd5 10. Bxe7 10... Qxe7 11. O-O 11... Nxc3 12. Rxc3 12... e5 13. dxe5 13... Nxe5 14. Nxe5",
+      "count": 231
+    },
+    {
+      "eco": "D63",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Pillsbury Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... b6 8. cxd5 8... exd5 9. Bd3",
+      "count": 200
+    },
+    {
+      "eco": "D68",
+      "name": "Queen's Gambit Declined, Orthodox Defense, Classical Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... Nd5 10. Bxe7 10... Qxe7 11. O-O 11... Nxc3 12. Rxc3 12... e5 13. Qc2",
+      "count": 195
+    },
+    {
+      "eco": "D55",
+      "name": "Queen's Gambit Declined, Neo-Orthodox Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6",
+      "count": 181
+    },
+    {
+      "eco": "D51",
+      "name": "Queen's Gambit Declined, Manhattan Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7 5. e3 5... Bb4",
+      "count": 176
+    },
+    {
+      "eco": "D50",
+      "name": "Queen's Gambit Declined, Been-Koomen Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... c5",
+      "count": 120
+    }
+  ]
+}

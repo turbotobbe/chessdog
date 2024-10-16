@@ -1,0 +1,217 @@
+{
+  "slug": "petroff-defence-3-nxe5",
+  "name": "Petroff Defence, 3.Nxe5",
+  "range": "C42-C43",
+  "lines": [
+    {
+      "eco": "C42",
+      "name": "Russian Game, Nimzowitsch Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. Nc3",
+      "count": 8262
+    },
+    {
+      "eco": "C43",
+      "name": "Russian Game, Modern Attack, Center Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4 3... Nxe4 4. Bd3",
+      "count": 4454
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Three Knights Game",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nc3",
+      "count": 4130
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Cozio (Lasker) Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. Qe2",
+      "count": 2785
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Classical Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4",
+      "count": 2467
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Classical Attack, Staunton Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Bd6 7. O-O 7... O-O 8. c4 8... c6",
+      "count": 2437
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, General",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6",
+      "count": 2243
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, French Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d3",
+      "count": 1575
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Classical Attack, Chigorin Variation, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... Nc6 8. c4 8... Nb4 9. Be2",
+      "count": 1534
+    },
+    {
+      "eco": "C43",
+      "name": "Russian Game, Modern Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4",
+      "count": 1416
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Classical Attack, Mason-Showalter Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Nc6",
+      "count": 1168
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Kaufmann Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. c4",
+      "count": 1026
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Classical Attack, Chigorin Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... Nc6 8. Re1",
+      "count": 934
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Paulsen Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nc4",
+      "count": 844
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Millenium Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. Bd3",
+      "count": 843
+    },
+    {
+      "eco": "C43",
+      "name": "Russian Game, Modern Attack, Center Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4 3... exd4 4. e5 4... Ne4 5. Qxd4",
+      "count": 826
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Damiano Variation, Kholmov Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... Nxe4 4. Qe2 4... Qe7",
+      "count": 766
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Classical Attack, Marshall Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Bd6",
+      "count": 752
+    },
+    {
+      "eco": "C43",
+      "name": "Russian Game, Modern Attack, Murrey Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4 3... Nxe4 4. Bd3 4... Nc6",
+      "count": 680
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Classical Attack, Mason Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... O-O",
+      "count": 669
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Classical Attack, Jaenisch Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... Nc6 8. c4",
+      "count": 655
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Urusov Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Bc4",
+      "count": 547
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Stafford Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... Nc6",
+      "count": 458
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Karklins-Martinovsky Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nd3",
+      "count": 328
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Cochrane Gambit, Center Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nxf7 4... Kxf7 5. d4",
+      "count": 316
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Classical Attack, Chigorin Variation, Browne Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... Nc6 8. c4 8... Nb4 9. cxd5",
+      "count": 281
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Classical Attack, Berger Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... Nc6 8. Re1 8... Bg4 9. c3 9... f5 10. Nbd2",
+      "count": 239
+    },
+    {
+      "eco": "C42",
+      "name": "Russian Game, Damiano Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... Nxe4",
+      "count": 226
+    },
+    {
+      "eco": "C43",
+      "name": "Russian Game, Modern Attack, Suchting Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4 3... exd4 4. Bc4",
+      "count": 180
+    },
+    {
+      "eco": "C43",
+      "name": "Russian Game, Modern Attack, Trifunovic Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4 3... Nxe4 4. Bd3 4... d5 5. Nxe5 5... Bd6 6. O-O 6... O-O 7. c4 7... Bxe5",
+      "count": 157
+    }
+  ]
+}

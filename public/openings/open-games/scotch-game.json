@@ -1,0 +1,133 @@
+{
+  "slug": "scotch-game",
+  "name": "Scotch Game",
+  "range": "C45",
+  "lines": [
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Mieses Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Nf6 5. Nxc6 5... bxc6 6. e5",
+      "count": 8279
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Bc5",
+      "count": 7365
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Schmidt Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Nf6",
+      "count": 6472
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Scotch Gambit, Advance Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Bc4 4... Nf6 5. e5",
+      "count": 6311
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4",
+      "count": 4470
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Potter Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Bc5 5. Nb3",
+      "count": 3962
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Classical Variation, Intermezzo Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Bc5 5. Nxc6 5... Qf6",
+      "count": 3423
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Malaniuk Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Bb4+",
+      "count": 2080
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Haxo Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Bc4 4... Bc5",
+      "count": 1194
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Modern Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Qh4 5. Nc3 5... Bb4",
+      "count": 612
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Scotch Gambit, Kingside Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Bc4 4... Nf6 5. e5 5... Ng4",
+      "count": 551
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Romanishin Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Bc5 5. Nb3 5... Bb4+",
+      "count": 430
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Tartakower Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Nf6 5. Nxc6 5... bxc6 6. Nd2",
+      "count": 378
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Classical Variation, Millennium Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Bc5 5. Be3 5... Qf6 6. c3 6... Qg6",
+      "count": 333
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Horwitz Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Qh4 5. Nb5",
+      "count": 328
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Meitner Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Bc5 5. Be3 5... Qf6 6. c3 6... Nge7 7. Nc2",
+      "count": 255
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Classical Variation, Blackburne Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Bc5 5. Be3 5... Qf6 6. c3 6... Nge7 7. Qd2",
+      "count": 220
+    },
+    {
+      "eco": "C45",
+      "name": "Scotch Game, Steinitz Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Qh4",
+      "count": 172
+    }
+  ]
+}

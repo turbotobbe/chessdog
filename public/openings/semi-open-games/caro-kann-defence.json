@@ -1,0 +1,441 @@
+{
+  "slug": "caro-kann-defence",
+  "name": "Caro-Kann Defence",
+  "range": "B10-B19",
+  "lines": [
+    {
+      "eco": "B13",
+      "name": "Caro-Kann Defense, Exchange Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5",
+      "count": 17336
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Advance Variation, Short Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. e5 3... Bf5 4. Nf3",
+      "count": 14677
+    },
+    {
+      "eco": "B10",
+      "name": "Caro-Kann Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... c6",
+      "count": 13592
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Advance Variation, Botvinnik-Carls Defense",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. e5 3... c5",
+      "count": 10958
+    },
+    {
+      "eco": "B10",
+      "name": "Caro-Kann Defense, Two Knights Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. Nc3 2... d5 3. Nf3",
+      "count": 10751
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Advance Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. e5",
+      "count": 9921
+    },
+    {
+      "eco": "B18",
+      "name": "Caro-Kann Defense, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Bf5",
+      "count": 9674
+    },
+    {
+      "eco": "B19",
+      "name": "Caro-Kann Defense, Classical Variation, Seirawan Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Bf5 5. Ng3 5... Bg6 6. h4 6... h6 7. Nf3 7... Nd7 8. h5 8... Bh7 9. Bd3 9... Bxd3 10. Qxd3",
+      "count": 9369
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Advance Variation, Tal Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. e5 3... Bf5 4. h4",
+      "count": 9270
+    },
+    {
+      "eco": "B15",
+      "name": "Caro-Kann Defense, Tartakower Variation",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nf6 5. Nxf6+ 5... exf6",
+      "count": 8879
+    },
+    {
+      "eco": "B11",
+      "name": "Caro-Kann Defense, Two Knights Attack, Mindeno Variation, Exchange Line",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. Nc3 2... d5 3. Nf3 3... Bg4 4. h3 4... Bxf3",
+      "count": 7791
+    },
+    {
+      "eco": "B10",
+      "name": "Caro-Kann Defense, Accelerated Panov Attack, Modern Variation",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. c4 2... d5 3. exd5 3... cxd5 4. cxd5 4... Nf6",
+      "count": 6865
+    },
+    {
+      "eco": "B14",
+      "name": "Caro-Kann Defense, Panov Attack",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5 3... cxd5 4. c4 4... Nf6 5. Nc3 5... e6",
+      "count": 6215
+    },
+    {
+      "eco": "B10",
+      "name": "Caro-Kann Defense, Breyer Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d3",
+      "count": 6027
+    },
+    {
+      "eco": "B13",
+      "name": "Caro-Kann Defense, Exchange  Variation, Rubinstein Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5 3... cxd5 4. Bd3 4... Nc6 5. c3 5... Nf6 6. Bf4",
+      "count": 5835
+    },
+    {
+      "eco": "B18",
+      "name": "Caro-Kann Defense, Classical Variation, Main lines",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Bf5 5. Ng3 5... Bg6 6. h4",
+      "count": 5810
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Maroczy Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. f3",
+      "count": 5521
+    },
+    {
+      "eco": "B17",
+      "name": "Caro-Kann Defense, Karpov Variation",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nd7",
+      "count": 4929
+    },
+    {
+      "eco": "B13",
+      "name": "Caro-Kann Defense, Panov Attack, Modern Defense",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5 3... cxd5 4. c4 4... Nf6 5. Nc3 5... Nc6",
+      "count": 4626
+    },
+    {
+      "eco": "B16",
+      "name": "Caro-Kann Defense, Bronstein-Larsen Variation",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nf6 5. Nxf6+ 5... gxf6",
+      "count": 4357
+    },
+    {
+      "eco": "B19",
+      "name": "Caro-Kann Defense, Classical Variation, Lobron System",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Bf5 5. Ng3 5... Bg6 6. h4 6... h6 7. Nf3 7... Nd7 8. h5 8... Bh7 9. Bd3 9... Bxd3 10. Qxd3 10... e6 11. Bd2 11... Ngf6 12. O-O-O 12... Be7",
+      "count": 3794
+    },
+    {
+      "eco": "B15",
+      "name": "Caro-Kann Defense, Gurgenidze System",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... g6",
+      "count": 3606
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Advance Variation, Van der Wiel Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. e5 3... Bf5 4. Nc3",
+      "count": 3203
+    },
+    {
+      "eco": "B14",
+      "name": "Caro-Kann Defense, Panov Attack, Fianchetto Defense",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5 3... cxd5 4. c4 4... Nf6 5. Nc3 5... g6",
+      "count": 3194
+    },
+    {
+      "eco": "B13",
+      "name": "Caro-Kann Defense, Panov Attack, Modern Defense, Mieses Line",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5 3... cxd5 4. c4 4... Nf6 5. Nc3 5... Nc6 6. Nf3 6... Bg4",
+      "count": 2796
+    },
+    {
+      "eco": "B15",
+      "name": "Caro-Kann Defense, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4",
+      "count": 2275
+    },
+    {
+      "eco": "B17",
+      "name": "Caro-Kann Defense, Karpov Variation, Modern Variation, Kasparov Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nd7 5. Nf3 5... Ngf6 6. Ng3",
+      "count": 1985
+    },
+    {
+      "eco": "B17",
+      "name": "Caro-Kann Defense, Karpov Variation, Modern Main Line",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nd7 5. Ng5 5... Ngf6 6. Bd3 6... e6 7. N1f3 7... Bd6 8. Qe2 8... h6 9. Ne4 9... Nxe4 10. Qxe4",
+      "count": 1864
+    },
+    {
+      "eco": "B18",
+      "name": "Caro-Kann Defense, Classical Variation, Flohr Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Bf5 5. Ng3 5... Bg6 6. Nh3",
+      "count": 1796
+    },
+    {
+      "eco": "B10",
+      "name": "Caro-Kann Defense, Accelerated Panov Attack, Open Variation",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. c4 2... e5",
+      "count": 1698
+    },
+    {
+      "eco": "B15",
+      "name": "Caro-Kann Defense, Forgacs Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nf6 5. Nxf6+ 5... exf6 6. Bc4",
+      "count": 1345
+    },
+    {
+      "eco": "B10",
+      "name": "Caro-Kann Defense, Accelerated Panov Attack",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. c4 2... d5",
+      "count": 1320
+    },
+    {
+      "eco": "B11",
+      "name": "Caro-Kann Defense, Two Knights Attack, Mindeno Variation",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. Nc3 2... d5 3. Nf3 3... Bg4",
+      "count": 1306
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Advance Variation, Bayonet Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. e5 3... Bf5 4. g4",
+      "count": 1302
+    },
+    {
+      "eco": "B11",
+      "name": "Caro-Kann Defense, Two Knights Attack, Mindeno Variation, Retreat Line",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. Nc3 2... d5 3. Nf3 3... Bg4 4. h3 4... Bh5",
+      "count": 1288
+    },
+    {
+      "eco": "B15",
+      "name": "Caro-Kann Defense, Standard, Unorthodox Replies",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3",
+      "count": 1216
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Modern Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nd2",
+      "count": 1215
+    },
+    {
+      "eco": "B13",
+      "name": "Caro-Kann Defense, Panov Attack, Fianchetto Defense, Fianchetto Gambit",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5 3... cxd5 4. c4 4... Nf6 5. Nc3 5... g6 6. cxd5 6... Bg7",
+      "count": 1191
+    },
+    {
+      "eco": "B17",
+      "name": "Caro-Kann Defense, Karpov Variation, Smyslov Variation",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nd7 5. Bc4 5... Ngf6 6. Ng5 6... e6 7. Qe2 7... Nb6",
+      "count": 1181
+    },
+    {
+      "eco": "B13",
+      "name": "Caro-Kann Defense, Panov Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5 3... cxd5 4. c4",
+      "count": 1176
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Goldman Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. Nc3 2... d5 3. Qf3",
+      "count": 1154
+    },
+    {
+      "eco": "B17",
+      "name": "Caro-Kann Defense, Karpov Variation, Modern Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nd7 5. Ng5",
+      "count": 1135
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Advance Variation, Van der Wiel Attack, Bishop Hunt",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. e5 3... Bf5 4. Nc3 4... e6 5. g4 5... Bg6 6. Nge2 6... c5 7. h4",
+      "count": 1009
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Advance Variation, Bronstein Variation",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. e5 3... Bf5 4. Ne2",
+      "count": 951
+    },
+    {
+      "eco": "B10",
+      "name": "Caro-Kann Defense, Accelerated Panov Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. c4",
+      "count": 884
+    },
+    {
+      "eco": "B13",
+      "name": "Caro-Kann Defense, Panov Attack, Modern Defense, Carlsbad Line",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5 3... cxd5 4. c4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6",
+      "count": 839
+    },
+    {
+      "eco": "B17",
+      "name": "Caro-Kann Defense, Karpov Variation, Smyslov Variation, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nd7 5. Bc4 5... Ngf6 6. Ng5 6... e6 7. Qe2 7... Nb6 8. Bb3",
+      "count": 803
+    },
+    {
+      "eco": "B17",
+      "name": "Caro-Kann Defense, Karpov Variation, Tiviakov-Fischer Attack",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nd7 5. Bc4 5... Ngf6 6. Nxf6+ 6... Nxf6",
+      "count": 509
+    },
+    {
+      "eco": "B13",
+      "name": "Caro-Kann Defense, Panov Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5 3... cxd5 4. c4 4... Nf6 5. Nc3",
+      "count": 496
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Advance Variation, Van der Wiel Attack, Dreyev Defense",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. e5 3... Bf5 4. Nc3 4... Qb6",
+      "count": 485
+    },
+    {
+      "eco": "B12",
+      "name": "Caro-Kann Defense, Maroczy Variation, Maroczy Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. f3 3... dxe4 4. fxe4 4... e5 5. Nf3 5... exd4 6. Bc4",
+      "count": 409
+    },
+    {
+      "eco": "B15",
+      "name": "Caro-Kann Defense, Gurgenidze Counterattack",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... b5",
+      "count": 333
+    },
+    {
+      "eco": "B10",
+      "name": "Caro-Kann Defense, Euwe Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. b3",
+      "count": 323
+    },
+    {
+      "eco": "B18",
+      "name": "Caro-Kann Defense, Classical Variation, Maroczy Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Bf5 5. Ng3 5... Bg6 6. f4",
+      "count": 321
+    },
+    {
+      "eco": "B13",
+      "name": "Caro-Kann Defense, Panov Attack, Modern Defense, Czerniak Line",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5 3... cxd5 4. c4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... Qa5",
+      "count": 259
+    },
+    {
+      "eco": "B15",
+      "name": "Caro-Kann Defense, Von Hennig Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Bc4",
+      "count": 231
+    },
+    {
+      "eco": "B17",
+      "name": "Caro-Kann Defense, Karpov Variation, Modern Variation, Ivanchuk Defense",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nd7 5. Ng5 5... Ndf6",
+      "count": 186
+    },
+    {
+      "eco": "B15",
+      "name": "Caro-Kann Defense, Rasa-Studier Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. f3",
+      "count": 179
+    },
+    {
+      "eco": "B16",
+      "name": "Caro-Kann Defense, Finnish Variation",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... h6",
+      "count": 166
+    },
+    {
+      "eco": "B13",
+      "name": "Caro-Kann Defense, Panov Attack, Gunderam Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d4 2... d5 3. exd5 3... cxd5 4. c4 4... Nf6 5. c5",
+      "count": 135
+    },
+    {
+      "eco": "B10",
+      "name": "Caro-Kann Defense, Hillbilly Attack, Schaeffer Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. Bc4 2... d5 3. Bb3 3... dxe4 4. Qh5",
+      "count": 122
+    },
+    {
+      "eco": "B10",
+      "name": "Caro-Kann Defense, Breyer Variation, Stein Attack",
+      "color": "white",
+      "moves": "1. e4 1... c6 2. d3 2... d5 3. Nd2 3... g6 4. g3 4... Bg7 5. Bg2 5... e5 6. Ngf3 6... Ne7 7. O-O 7... O-O 8. b4",
+      "count": 112
+    }
+  ]
+}

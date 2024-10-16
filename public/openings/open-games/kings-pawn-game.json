@@ -1,0 +1,63 @@
+{
+  "slug": "kings-pawn-game",
+  "name": "King's Pawn Game",
+  "range": "C20",
+  "lines": [
+    {
+      "eco": "C20",
+      "name": "King Pawn Game, Leonardis Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. d3",
+      "count": 551
+    },
+    {
+      "eco": "C20",
+      "name": "English Opening, The Whale",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. c4",
+      "count": 506
+    },
+    {
+      "eco": "C20",
+      "name": "Bishop's Opening, Boi Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Bc4 2... Bc5",
+      "count": 481
+    },
+    {
+      "eco": "C20",
+      "name": "King Pawn Game, General",
+      "color": "black",
+      "moves": "1. e4 1... e5",
+      "count": 452
+    },
+    {
+      "eco": "C20",
+      "name": "King Pawn Game, Wayward Queen Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Qh5",
+      "count": 205
+    },
+    {
+      "eco": "C20",
+      "name": "King Pawn Game, Macleod Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. c3",
+      "count": 177
+    },
+    {
+      "eco": "C20",
+      "name": "King Pawn Game, Alapin Opening",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Ne2",
+      "count": 167
+    },
+    {
+      "eco": "C20",
+      "name": "Portuguese Opening, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Bb5",
+      "count": 138
+    }
+  ]
+}

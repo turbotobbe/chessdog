@@ -1,0 +1,175 @@
+{
+  "slug": "modern-benoni",
+  "name": "Modern Benoni",
+  "range": "A60-A79",
+  "lines": [
+    {
+      "eco": "A62",
+      "name": "Benoni Defense, Fianchetto Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. Nf3 6... g6 7. g3 7... Bg7 8. Bg2 8... O-O",
+      "count": 4744
+    },
+    {
+      "eco": "A65",
+      "name": "Benoni Defense, King Pawn lines",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4",
+      "count": 4480
+    },
+    {
+      "eco": "A60",
+      "name": "Benoni Defense, Modern Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6",
+      "count": 3617
+    },
+    {
+      "eco": "A70",
+      "name": "Benoni Defense, Classical Variation, New York Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. h3",
+      "count": 3572
+    },
+    {
+      "eco": "A67",
+      "name": "Benoni Defense, Taimanov Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. f4 7... Bg7 8. Bb5+",
+      "count": 3345
+    },
+    {
+      "eco": "A61",
+      "name": "Benoni Defense, Knight's Tour Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. Nf3 6... g6 7. Nd2",
+      "count": 2547
+    },
+    {
+      "eco": "A70",
+      "name": "Benoni Defense, Classical Variation, General",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3",
+      "count": 2504
+    },
+    {
+      "eco": "A64",
+      "name": "Benoni Defense, Fianchetto Variation, Hastings Defense, Main Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. Nf3 6... g6 7. g3 7... Bg7 8. Bg2 8... O-O 9. O-O 9... Nbd7 10. Nd2 10... a6 11. a4 11... Re8",
+      "count": 2145
+    },
+    {
+      "eco": "A69",
+      "name": "Benoni Defense, Four Pawns Attack, Main Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. f4 7... Bg7 8. Nf3 8... O-O 9. Be2 9... Re8",
+      "count": 1475
+    },
+    {
+      "eco": "A77",
+      "name": "Benoni Defense, Classical Variation, Czerniak Defense, Tal Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... Re8 10. Nd2",
+      "count": 1215
+    },
+    {
+      "eco": "A60",
+      "name": "Benoni Defense, Modern Variation, Snake Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... Bd6",
+      "count": 1051
+    },
+    {
+      "eco": "A73",
+      "name": "Benoni Defense, Classical Variation, Main line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O",
+      "count": 690
+    },
+    {
+      "eco": "A61",
+      "name": "Benoni Defense, Uhlmann Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. Nf3 6... g6 7. Bg5",
+      "count": 683
+    },
+    {
+      "eco": "A71",
+      "name": "Benoni Defense, Classical Variation, Averbakh-Grivas Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Bg5",
+      "count": 647
+    },
+    {
+      "eco": "A75",
+      "name": "Benoni Defense, Classical Variation, Argentine Counterattack",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... a6 10. a4 10... Bg4",
+      "count": 557
+    },
+    {
+      "eco": "A68",
+      "name": "Benoni Defense, Four Pawns Attack",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. f4 7... Bg7 8. Nf3 8... O-O",
+      "count": 520
+    },
+    {
+      "eco": "A79",
+      "name": "Benoni Defense, Classical Variation, Czerniak Defense",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... Re8 10. Nd2 10... Na6 11. f3",
+      "count": 504
+    },
+    {
+      "eco": "A63",
+      "name": "Benoni Defense, Fianchetto Variation, Hastings Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. Nf3 6... g6 7. g3 7... Bg7 8. Bg2 8... O-O 9. O-O 9... Nbd7",
+      "count": 474
+    },
+    {
+      "eco": "A72",
+      "name": "Benoni Defense, Classical Variation, Traditional Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2",
+      "count": 384
+    },
+    {
+      "eco": "A78",
+      "name": "Benoni Defense, Classical Variation, Czerniak Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... Re8 10. Nd2 10... Na6",
+      "count": 373
+    },
+    {
+      "eco": "A76",
+      "name": "Benoni Defense, Classical Variation, Czerniak Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... Re8",
+      "count": 262
+    },
+    {
+      "eco": "A66",
+      "name": "Benoni Defense, Mikenas Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. f4 7... Bg7 8. e5",
+      "count": 262
+    },
+    {
+      "eco": "A74",
+      "name": "Benoni Defense, Classical Variation, Full line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... a6 10. a4",
+      "count": 242
+    },
+    {
+      "eco": "A66",
+      "name": "Benoni Defense, Pawn Storm Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. f4",
+      "count": 207
+    }
+  ]
+}

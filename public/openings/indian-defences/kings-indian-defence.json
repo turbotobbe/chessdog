@@ -1,0 +1,679 @@
+{
+  "slug": "kings-indian-defence",
+  "name": "King's Indian Defence",
+  "range": "E60-E99",
+  "lines": [
+    {
+      "eco": "E60",
+      "name": "King's Indian Defense, Normal Variation, King's Knight Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nf3",
+      "count": 18001
+    },
+    {
+      "eco": "E67",
+      "name": "King's Indian Defense, Fianchetto Variation, Classical Fianchetto",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... Nbd7 7. O-O 7... e5",
+      "count": 12718
+    },
+    {
+      "eco": "E91",
+      "name": "King's Indian Defense, Orthodox Variation, General",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2",
+      "count": 11924
+    },
+    {
+      "eco": "E63",
+      "name": "King's Indian Defense, Fianchetto Variation, Panno Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... Nc6 7. O-O 7... a6",
+      "count": 10103
+    },
+    {
+      "eco": "E90",
+      "name": "King's Indian Defense, Normal Variation, Rare Defenses",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3",
+      "count": 10094
+    },
+    {
+      "eco": "E71",
+      "name": "King's Indian Defense, Makagonov Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. h3",
+      "count": 9309
+    },
+    {
+      "eco": "E61",
+      "name": "Indian Game, Kingside Fianchetto",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6",
+      "count": 9229
+    },
+    {
+      "eco": "E94",
+      "name": "King's Indian Defense, Orthodox Variation, Positional Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nbd7",
+      "count": 9089
+    },
+    {
+      "eco": "E81",
+      "name": "King's Indian Defense, Saemisch Variation, Normal Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O",
+      "count": 8930
+    },
+    {
+      "eco": "E92",
+      "name": "King's Indian Defense, Orthodox Variation, Gligoric-Taimanov System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. Be3",
+      "count": 8198
+    },
+    {
+      "eco": "E94",
+      "name": "King's Indian Defense, Orthodox Variation, Glek Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Na6",
+      "count": 6574
+    },
+    {
+      "eco": "E69",
+      "name": "King's Indian Defense, Fianchetto Variation, Classical Main Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... Nbd7 7. O-O 7... e5 8. e4 8... c6 9. h3",
+      "count": 5806
+    },
+    {
+      "eco": "E92",
+      "name": "King's Indian Defense, Petrosian Variation, Stein Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. d5 7... a5",
+      "count": 5574
+    },
+    {
+      "eco": "E97",
+      "name": "King's Indian Defense, Orthodox Variation, Bayonet Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nc6 8. d5 8... Ne7 9. b4",
+      "count": 5375
+    },
+    {
+      "eco": "E60",
+      "name": "King's Indian Defense, Fianchetto Variation, Immediate Fianchetto",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3",
+      "count": 5302
+    },
+    {
+      "eco": "E98",
+      "name": "King's Indian Defense, Orthodox Variation, Classical System, Misc. Lines",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nc6 8. d5 8... Ne7 9. Ne1",
+      "count": 4800
+    },
+    {
+      "eco": "E70",
+      "name": "King's Indian Defense, Normal Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4",
+      "count": 4710
+    },
+    {
+      "eco": "E92",
+      "name": "King's Indian Defense, Exchange Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. dxe5",
+      "count": 4575
+    },
+    {
+      "eco": "E73",
+      "name": "King's Indian Defense, Semi-Averbakh System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Be2 5... O-O 6. Be3",
+      "count": 4550
+    },
+    {
+      "eco": "E62",
+      "name": "King's Indian Defense, Fianchetto Variation, Uhlmann-Szabo System",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... Nc6 7. O-O 7... e5",
+      "count": 4454
+    },
+    {
+      "eco": "E77",
+      "name": "King's Indian Defense, Six Pawns Attack",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6",
+      "count": 4331
+    },
+    {
+      "eco": "E76",
+      "name": "King's Indian Defense, Steiner Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O 6. Bg5",
+      "count": 4320
+    },
+    {
+      "eco": "E94",
+      "name": "King's Indian Defense, Orthodox Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O",
+      "count": 4297
+    },
+    {
+      "eco": "E62",
+      "name": "King's Indian Defense, Fianchetto Variation, Kavalek  Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... c6 7. O-O 7... Qa5",
+      "count": 4102
+    },
+    {
+      "eco": "E97",
+      "name": "King's Indian Defense, Orthodox Variation, Aronin-Taimanov Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nc6",
+      "count": 3877
+    },
+    {
+      "eco": "E80",
+      "name": "King's Indian Defense, Saemisch Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3",
+      "count": 3620
+    },
+    {
+      "eco": "E75",
+      "name": "King's Indian Defense, Averbakh Variation, Benoni Defense, Advance Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Be2 5... O-O 6. Bg5 6... c5 7. d5",
+      "count": 3591
+    },
+    {
+      "eco": "E76",
+      "name": "King's Indian Defense, Four Pawns Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f4",
+      "count": 3494
+    },
+    {
+      "eco": "E70",
+      "name": "King's Indian Defense, Kramer Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nge2",
+      "count": 3273
+    },
+    {
+      "eco": "E83",
+      "name": "King's Indian Defense, Saemisch Variation, Panno Formation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O 6. Be3 6... Nc6 7. Nge2 7... a6",
+      "count": 3092
+    },
+    {
+      "eco": "E97",
+      "name": "King's Indian Defense, Orthodox Variation, Modern System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nc6 8. d5 8... Ne7 9. Nd2",
+      "count": 3040
+    },
+    {
+      "eco": "E81",
+      "name": "King's Indian Defense, Saemisch Variation, Bobotsov-Korchnoi-Petrosian Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O 6. Nge2",
+      "count": 2695
+    },
+    {
+      "eco": "E62",
+      "name": "King's Indian Defense, Fianchetto Variation, Lesser Simagin (Spassky)",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... Nc6 7. O-O 7... Bf5",
+      "count": 2656
+    },
+    {
+      "eco": "E76",
+      "name": "King's Indian Defense, Four Pawns Attack, Dynamic Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f4 5... O-O 6. Nf3 6... c5 7. d5",
+      "count": 2515
+    },
+    {
+      "eco": "E99",
+      "name": "King's Indian Defense, Orthodox Variation, Classical System, Neo-Classsical Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nc6 8. d5 8... Ne7 9. Ne1 9... Nd7 10. Be3",
+      "count": 2513
+    },
+    {
+      "eco": "E61",
+      "name": "King's Indian Defense, Smyslov Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. Bg5",
+      "count": 2438
+    },
+    {
+      "eco": "E62",
+      "name": "King's Indian Defense, Fianchetto Variation, Larsen Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... c6 7. O-O 7... Bf5",
+      "count": 2436
+    },
+    {
+      "eco": "E97",
+      "name": "King's Indian Defense, Orthodox Variation, Bayonet Attack, Sokolov's Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nc6 8. d5 8... Ne7 9. b4 9... Nh5 10. Re1",
+      "count": 2399
+    },
+    {
+      "eco": "E83",
+      "name": "King's Indian Defense, Saemisch Variation, Yates Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O 6. Be3 6... Nc6",
+      "count": 2298
+    },
+    {
+      "eco": "E77",
+      "name": "King's Indian Defense, Four Pawns Attack, Normal Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f4 5... O-O 6. Be2 6... c5 7. d5 7... e6 8. Nf3",
+      "count": 2233
+    },
+    {
+      "eco": "E94",
+      "name": "King's Indian Defense, Orthodox Variation, Positional Defense, Closed Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nbd7 8. d5",
+      "count": 2224
+    },
+    {
+      "eco": "E73",
+      "name": "King's Indian Defense, Averbakh Variation, Modern Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Be2 5... O-O 6. Bg5 6... Na6",
+      "count": 2095
+    },
+    {
+      "eco": "E73",
+      "name": "King's Indian Defense, Averbakh Variation, Flexible Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Be2 5... O-O 6. Bg5 6... h6",
+      "count": 2027
+    },
+    {
+      "eco": "E87",
+      "name": "King's Indian Defense, Saemisch Variation, Closed Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O 6. Be3 6... e5 7. d5",
+      "count": 1972
+    },
+    {
+      "eco": "E62",
+      "name": "King's Indian Defense, Fianchetto Variation, Karlsbad Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... Nc6",
+      "count": 1894
+    },
+    {
+      "eco": "E73",
+      "name": "King's Indian Defense, Normal Variation, Standard Development",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Be2",
+      "count": 1859
+    },
+    {
+      "eco": "E66",
+      "name": "King's Indian Defense, Fianchetto Variation, Yugoslav Variation, Exchange Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... c5 7. O-O 7... Nc6 8. dxc5 8... dxc5",
+      "count": 1820
+    },
+    {
+      "eco": "E62",
+      "name": "King's Indian Defense, Fianchetto Variation, Simagin Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... Nc6 7. O-O 7... Bg4",
+      "count": 1686
+    },
+    {
+      "eco": "E66",
+      "name": "King's Indian Defense, Fianchetto Variation, Yugoslav Variation, Advance Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... c5 7. O-O 7... Nc6 8. d5",
+      "count": 1655
+    },
+    {
+      "eco": "E92",
+      "name": "King's Indian Defense, Petrosian Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. d5",
+      "count": 1523
+    },
+    {
+      "eco": "E73",
+      "name": "King's Indian Defense, Averbakh Variation, Geller Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Be2 5... O-O 6. Bg5 6... Nbd7",
+      "count": 1482
+    },
+    {
+      "eco": "E65",
+      "name": "King's Indian Defense, Fianchetto Variation, Yugoslav Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... c5 7. O-O",
+      "count": 1470
+    },
+    {
+      "eco": "E70",
+      "name": "King's Indian Defense, Accelerated Averbakh Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Bg5",
+      "count": 1401
+    },
+    {
+      "eco": "E67",
+      "name": "King's Indian Defense, Fianchetto Variation, Debrecen Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... Nbd7",
+      "count": 1284
+    },
+    {
+      "eco": "E88",
+      "name": "King's Indian Defense, Saemisch Variation, Closed Variation, 7Âc6",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O 6. Be3 6... e5 7. d5 7... c6",
+      "count": 1284
+    },
+    {
+      "eco": "E68",
+      "name": "King's Indian Defense, Fianchetto Variation, Long Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... Nbd7 7. O-O 7... e5 8. e4 8... Re8 9. h3 9... exd4 10. Nxd4 10... Nc5 11. Re1 11... a5",
+      "count": 1212
+    },
+    {
+      "eco": "E85",
+      "name": "King's Indian Defense, Saemisch Variation, Orthodox Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O 6. Be3 6... e5",
+      "count": 1189
+    },
+    {
+      "eco": "E91",
+      "name": "King's Indian Defense, Kazakh Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... Na6",
+      "count": 1154
+    },
+    {
+      "eco": "E90",
+      "name": "King's Indian Defense, Larsen Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be3",
+      "count": 1153
+    },
+    {
+      "eco": "E86",
+      "name": "King's Indian Defense, Saemisch Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O 6. Be3 6... e5 7. Nge2 7... c6",
+      "count": 1082
+    },
+    {
+      "eco": "E64",
+      "name": "King's Indian Defense, Fianchetto Variation, Yugoslav System w/o Nc3",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nf3 3... Bg7 4. g3 4... d6 5. Bg2 5... O-O 6. O-O 6... c5",
+      "count": 960
+    },
+    {
+      "eco": "E82",
+      "name": "King's Indian Defense, Saemisch Variation, Double Fianchetto",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O 6. Be3 6... b6",
+      "count": 954
+    },
+    {
+      "eco": "E93",
+      "name": "King's Indian Defense, Petrosian Variation, Normal Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. d5 7... Nbd7",
+      "count": 948
+    },
+    {
+      "eco": "E64",
+      "name": "King's Indian Defense, Fianchetto Variation, Double Fianchetto Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nf3 3... Bg7 4. g3 4... d6 5. Bg2 5... O-O 6. O-O 6... Nbd7 7. Nc3 7... e5 8. b3",
+      "count": 905
+    },
+    {
+      "eco": "E61",
+      "name": "King's Indian Defense, Fianchetto Variation, Benjamin Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... c6 7. O-O 7... Qb6",
+      "count": 879
+    },
+    {
+      "eco": "E94",
+      "name": "King's Indian Defense, Orthodox Variation, Donner Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... c6",
+      "count": 878
+    },
+    {
+      "eco": "E64",
+      "name": "King's Indian Defense, Fianchetto Variation, Yugoslav Variation, Rare Lines",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... c5",
+      "count": 747
+    },
+    {
+      "eco": "E99",
+      "name": "King's Indian Defense, Orthodox Variation, Classical System, Benko Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nc6 8. d5 8... Ne7 9. Ne1 9... Nd7 10. f3 10... f5 11. g4",
+      "count": 740
+    },
+    {
+      "eco": "E90",
+      "name": "King's Indian Defense, Zinnowitz Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Bg5",
+      "count": 718
+    },
+    {
+      "eco": "E73",
+      "name": "King's Indian Defense, Averbakh Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Be2 5... O-O 6. Bg5",
+      "count": 643
+    },
+    {
+      "eco": "E62",
+      "name": "King's Indian Defense, Fianchetto Variation, Delayed Fianchetto",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3",
+      "count": 524
+    },
+    {
+      "eco": "E72",
+      "name": "King's Indian Defense, Normal Variation, Deferred Fianchetto",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. g3",
+      "count": 424
+    },
+    {
+      "eco": "E96",
+      "name": "King's Indian Defense, Orthodox Variation, Positional Defense, Main Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nbd7 8. Re1 8... c6 9. Bf1 9... a5",
+      "count": 416
+    },
+    {
+      "eco": "E64",
+      "name": "King's Indian Defense, Fianchetto Variation, Pterodactyl Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nf3 3... Bg7 4. g3 4... c5 5. Bg2 5... Qa5+",
+      "count": 363
+    },
+    {
+      "eco": "E64",
+      "name": "King's Indian Defense, Fianchetto Variation, Hungarian Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nf3 3... Bg7 4. g3 4... d6 5. Bg2 5... O-O 6. O-O 6... Nbd7 7. Nc3 7... a6",
+      "count": 329
+    },
+    {
+      "eco": "E63",
+      "name": "King's Indian Defense, Fianchetto Variation, Panno Variation, Donner Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... Nc6 7. O-O 7... a6 8. d5 8... Na5 9. Nd2 9... c5 10. Qc2 10... Rb8 11. b3 11... b5 12. Bb2 12... bxc4 13. bxc4 13... Bh6",
+      "count": 321
+    },
+    {
+      "eco": "E97",
+      "name": "King's Indian Defense, Orthodox Variation, Korchnoi Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nc6 8. d5 8... Ne7 9. Bd2",
+      "count": 303
+    },
+    {
+      "eco": "E77",
+      "name": "King's Indian Defense, Four Pawns Attack, General",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f4 5... O-O 6. Be2",
+      "count": 299
+    },
+    {
+      "eco": "E74",
+      "name": "King's Indian Defense, Averbakh Variation, Benoni Defense, Exchange Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Be2 5... O-O 6. Bg5 6... c5 7. dxc5",
+      "count": 288
+    },
+    {
+      "eco": "E72",
+      "name": "King's Indian Defense, Pomar System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. g3 5... O-O 6. Bg2 6... e5 7. Nge2",
+      "count": 285
+    },
+    {
+      "eco": "E92",
+      "name": "King's Indian Defense, Orthodox Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5",
+      "count": 284
+    },
+    {
+      "eco": "E99",
+      "name": "King's Indian Defense, Orthodox Variation, Classical System, Traditional Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nc6 8. d5 8... Ne7 9. Ne1 9... Nd7 10. f3 10... f5",
+      "count": 266
+    },
+    {
+      "eco": "E81",
+      "name": "King's Indian Defense, Saemisch Variation, Byrne Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O 6. Be3 6... c6 7. Bd3 7... a6",
+      "count": 259
+    },
+    {
+      "eco": "E79",
+      "name": "King's Indian Defense, Four Pawns Attack, Exchange Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f4 5... O-O 6. Be2 6... c5 7. Nf3 7... cxd4 8. Nxd4 8... Nc6 9. Be3",
+      "count": 257
+    },
+    {
+      "eco": "E60",
+      "name": "Indian Game, Anti-GrÃ¼nfeld, Advance Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. d5",
+      "count": 248
+    },
+    {
+      "eco": "E99",
+      "name": "King's Indian Defense, Orthodox Variation, Classical System, Kozul Gambit",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... Nc6 8. d5 8... Ne7 9. Ne1 9... Nd7 10. Be3 10... f5 11. f3 11... f4 12. Bf2 12... g5 13. Rc1 13... Ng6 14. c5",
+      "count": 248
+    },
+    {
+      "eco": "E89",
+      "name": "King's Indian Defense, Saemisch Variation, Closed Variation, Main Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f3 5... O-O 6. Be3 6... e5 7. d5 7... c6 8. Nge2 8... cxd5",
+      "count": 248
+    },
+    {
+      "eco": "E63",
+      "name": "King's Indian Defense, Fianchetto Variation, Panno Variation, Korchnoi Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. Nf3 4... d6 5. g3 5... O-O 6. Bg2 6... Nc6 7. O-O 7... a6 8. h3 8... Rb8 9. Be3 9... b5 10. Nd2",
+      "count": 227
+    },
+    {
+      "eco": "E73",
+      "name": "King's Indian Defense, Averbakh Variation, Spanish Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Be2 5... O-O 6. Bg5 6... a6",
+      "count": 217
+    },
+    {
+      "eco": "E77",
+      "name": "King's Indian Defense, Four Pawns Attack, Florentine Gambit",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f4 5... O-O 6. Be2 6... c5 7. d5 7... e6 8. Nf3 8... exd5 9. e5",
+      "count": 196
+    },
+    {
+      "eco": "E93",
+      "name": "King's Indian Defense, Petrosian Variation, Keres Defense",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. d5 7... Nbd7 8. Bg5 8... h6 9. Bh4 9... g5 10. Bg3 10... Nh5 11. h4",
+      "count": 194
+    },
+    {
+      "eco": "E73",
+      "name": "King's Indian Defense, Averbakh Variation, 6ÂNc6 Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Be2 5... O-O 6. Bg5 6... Nc6",
+      "count": 191
+    },
+    {
+      "eco": "E73",
+      "name": "King's Indian Defense, Averbakh Variation, Modern Defense, Burgess Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Be2 5... O-O 6. Bg5 6... Na6 7. Qd2 7... c6",
+      "count": 157
+    },
+    {
+      "eco": "E78",
+      "name": "King's Indian Defense, Four Pawns Attack, Fluid Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. f4 5... O-O 6. Be2 6... c5 7. Nf3",
+      "count": 129
+    },
+    {
+      "eco": "E60",
+      "name": "Gruenfeld Defense, Counterthrust Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... Bg7 4. Bg2 4... d5",
+      "count": 122
+    },
+    {
+      "eco": "E94",
+      "name": "King's Indian Defense, Orthodox Variation, Ukranian Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... Bg7 4. e4 4... d6 5. Nf3 5... O-O 6. Be2 6... e5 7. O-O 7... a5",
+      "count": 107
+    }
+  ]
+}

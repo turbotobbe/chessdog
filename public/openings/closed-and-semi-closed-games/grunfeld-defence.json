@@ -1,0 +1,441 @@
+{
+  "slug": "grunfeld-defence",
+  "name": "Grünfeld Defence",
+  "range": "D70-D99",
+  "lines": [
+    {
+      "eco": "D85",
+      "name": "Gruenfeld Defense, Exchange Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5",
+      "count": 12741
+    },
+    {
+      "eco": "D85",
+      "name": "Gruenfeld Defense, Exchange Variation, Modern Exchange Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. e4 5... Nxc3 6. bxc3 6... Bg7 7. Nf3",
+      "count": 11435
+    },
+    {
+      "eco": "D78",
+      "name": "Neo-Gruenfeld Defense, Classical Variation, Original Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. O-O 6... c6",
+      "count": 6472
+    },
+    {
+      "eco": "D91",
+      "name": "Gruenfeld Defense, Three Knights Variation, Petrosian System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Bg5",
+      "count": 6367
+    },
+    {
+      "eco": "D80",
+      "name": "Gruenfeld Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5",
+      "count": 5686
+    },
+    {
+      "eco": "D79",
+      "name": "Neo-Gruenfeld Defense, Ultra-delayed Exchange Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. O-O 6... c6 7. cxd5 7... cxd5",
+      "count": 4046
+    },
+    {
+      "eco": "D90",
+      "name": "Gruenfeld Defense, Three Knights Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7",
+      "count": 3916
+    },
+    {
+      "eco": "D78",
+      "name": "Neo-Gruenfeld Defense, Classical Variation, Modern Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. O-O 6... dxc4",
+      "count": 3789
+    },
+    {
+      "eco": "D86",
+      "name": "Gruenfeld Defense, Exchange Variation, Classical Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. e4 5... Nxc3 6. bxc3 6... Bg7 7. Bc4",
+      "count": 3578
+    },
+    {
+      "eco": "D87",
+      "name": "Gruenfeld Defense, Exchange Variation, Spassky Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. e4 5... Nxc3 6. bxc3 6... Bg7 7. Bc4 7... O-O 8. Ne2 8... c5",
+      "count": 3045
+    },
+    {
+      "eco": "D94",
+      "name": "Gruenfeld Defense, Three Knights Variation, Burille Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. e3",
+      "count": 2834
+    },
+    {
+      "eco": "D93",
+      "name": "Gruenfeld Defense, Three Knights Variation, Hungarian Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Bf4 5... O-O 6. e3",
+      "count": 2448
+    },
+    {
+      "eco": "D76",
+      "name": "Neo-Gruenfeld Defense, Delayed Exchange Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. cxd5 6... Nxd5 7. O-O 7... Nb6",
+      "count": 2241
+    },
+    {
+      "eco": "D92",
+      "name": "Gruenfeld Defense, Three Knights Variation, Hungarian Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Bf4",
+      "count": 2196
+    },
+    {
+      "eco": "D82",
+      "name": "Gruenfeld Defense, Brinckmann Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Bf4",
+      "count": 2186
+    },
+    {
+      "eco": "D70",
+      "name": "Neo-GrÃ¼nfeld Defense, Goglidze Attack",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. f3 3... d5",
+      "count": 1775
+    },
+    {
+      "eco": "D74",
+      "name": "Neo-Gruenfeld Defense, Delayed Exchange Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. cxd5 6... Nxd5 7. O-O",
+      "count": 1721
+    },
+    {
+      "eco": "D70",
+      "name": "Indian Game, Anti-GrÃ¼nfeld, Alekhine Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. f3",
+      "count": 1702
+    },
+    {
+      "eco": "D73",
+      "name": "Neo-Gruenfeld Defense, Misc. with 5.Nf3",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. Nf3",
+      "count": 1610
+    },
+    {
+      "eco": "D97",
+      "name": "Gruenfeld Defense, Russian Variation, Hungarian Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Qb3 5... dxc4 6. Qxc4 6... O-O 7. e4 7... a6",
+      "count": 1524
+    },
+    {
+      "eco": "D94",
+      "name": "Gruenfeld Defense, Three Knights Variation, Burille Variation, Reversed Tarrasch",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. e3 5... c5 6. Be2 6... cxd4 7. exd4 7... Nc6 8. O-O 8... O-O",
+      "count": 1459
+    },
+    {
+      "eco": "D72",
+      "name": "Neo-Gruenfeld Defense, Exchange Variation with 6.e4",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. cxd5 5... Nxd5 6. e4 6... Nb6 7. Ne2",
+      "count": 1249
+    },
+    {
+      "eco": "D96",
+      "name": "Gruenfeld Defense, Russian Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Qb3",
+      "count": 1213
+    },
+    {
+      "eco": "D71",
+      "name": "Neo-Gruenfeld Defense, Exchange Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. cxd5 5... Nxd5",
+      "count": 1073
+    },
+    {
+      "eco": "D88",
+      "name": "Gruenfeld Defense, Exchange Variation, Spassky Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. e4 5... Nxc3 6. bxc3 6... Bg7 7. Bc4 7... O-O 8. Ne2 8... c5 9. O-O 9... Nc6 10. Be3 10... cxd4 11. cxd4",
+      "count": 958
+    },
+    {
+      "eco": "D97",
+      "name": "Gruenfeld Defense, Russian Variation, Prins Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Qb3 5... dxc4 6. Qxc4 6... O-O 7. e4 7... Na6",
+      "count": 952
+    },
+    {
+      "eco": "D94",
+      "name": "Gruenfeld Defense, Smyslov Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. e3 5... O-O 6. Bd3 6... c6 7. O-O 7... Bg4",
+      "count": 890
+    },
+    {
+      "eco": "D97",
+      "name": "Gruenfeld Defense, Russian Variation, Byrne (Simagin) Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Qb3 5... dxc4 6. Qxc4 6... O-O 7. e4 7... Nc6",
+      "count": 846
+    },
+    {
+      "eco": "D83",
+      "name": "Gruenfeld Defense, Brinckmann Attack, GrÃ¼nfeld Gambit, Capablanca Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Bf4 4... Bg7 5. e3 5... O-O 6. Rc1",
+      "count": 829
+    },
+    {
+      "eco": "D78",
+      "name": "Neo-Gruenfeld Defense, Classical Variation, Polgar Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. O-O 6... Nc6",
+      "count": 717
+    },
+    {
+      "eco": "D94",
+      "name": "Gruenfeld Defense, Opocensky Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. e3 5... O-O 6. Bd2",
+      "count": 596
+    },
+    {
+      "eco": "D94",
+      "name": "Gruenfeld Defense, Makogonov Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. e3 5... O-O 6. b4",
+      "count": 593
+    },
+    {
+      "eco": "D86",
+      "name": "Gruenfeld Defense, Exchange Variation, Simagin's Improved Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. e4 5... Nxc3 6. bxc3 6... Bg7 7. Bc4 7... O-O 8. Ne2 8... Nc6",
+      "count": 587
+    },
+    {
+      "eco": "D81",
+      "name": "Gruenfeld Defense, Russian Variation, Accelerated Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Qb3",
+      "count": 578
+    },
+    {
+      "eco": "D94",
+      "name": "Gruenfeld Defense, Three Knights Variation, Paris Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. e3 5... O-O 6. Bd3",
+      "count": 571
+    },
+    {
+      "eco": "D70",
+      "name": "Neo-GrÃ¼nfeld Defense, Non- or Delayed Fianchetto",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nf3 3... d5",
+      "count": 549
+    },
+    {
+      "eco": "D85",
+      "name": "Gruenfeld Defense, Exchange Variation, Modern Exchange Variation, Kramnik's line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. e4 5... Nxc3 6. bxc3 6... Bg7 7. Nf3 7... c5 8. h3",
+      "count": 540
+    },
+    {
+      "eco": "D75",
+      "name": "Neo-Gruenfeld Defense, Delayed Exchange Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. cxd5 6... Nxd5 7. O-O 7... c5 8. Nc3",
+      "count": 540
+    },
+    {
+      "eco": "D98",
+      "name": "Gruenfeld Defense, Russian Variation, Smyslov Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Qb3 5... dxc4 6. Qxc4 6... O-O 7. e4 7... Bg4",
+      "count": 511
+    },
+    {
+      "eco": "D97",
+      "name": "Gruenfeld Defense, Russian Variation, Szabo (Boleslavsky)",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Qb3 5... dxc4 6. Qxc4 6... O-O 7. e4 7... c6",
+      "count": 507
+    },
+    {
+      "eco": "D90",
+      "name": "Gruenfeld Defense, Flohr Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Qa4+",
+      "count": 505
+    },
+    {
+      "eco": "D95",
+      "name": "Gruenfeld Defense, Three Knights Variation, Vienna Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. e3 5... O-O 6. Qb3",
+      "count": 500
+    },
+    {
+      "eco": "D85",
+      "name": "Gruenfeld Defense, Exchange Variation, Nadanian Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. Na4",
+      "count": 496
+    },
+    {
+      "eco": "D84",
+      "name": "Gruenfeld Defense, Brinckmann Attack, GrÃ¼nfeld Gambit, Accepted",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Bf4 4... Bg7 5. e3 5... O-O 6. cxd5 6... Nxd5 7. Nxd5 7... Qxd5 8. Bxc7",
+      "count": 488
+    },
+    {
+      "eco": "D89",
+      "name": "Gruenfeld Defense, Exchange Variation, Spassky Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. e4 5... Nxc3 6. bxc3 6... Bg7 7. Bc4 7... O-O 8. Ne2 8... c5 9. O-O 9... Nc6 10. Be3 10... cxd4 11. cxd4 11... Bg4 12. f3 12... Na5 13. Bd3 13... Be6",
+      "count": 485
+    },
+    {
+      "eco": "D89",
+      "name": "Gruenfeld Defense, Exchange Variation, Sokolsky Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. e4 5... Nxc3 6. bxc3 6... Bg7 7. Bc4 7... O-O 8. Ne2 8... c5 9. O-O 9... Nc6 10. Be3 10... cxd4 11. cxd4 11... Bg4 12. f3 12... Na5 13. Bd3 13... Be6 14. d5",
+      "count": 471
+    },
+    {
+      "eco": "D95",
+      "name": "Gruenfeld Defense, Botvinnik Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. e3 5... O-O 6. Qb3 6... e6",
+      "count": 453
+    },
+    {
+      "eco": "D77",
+      "name": "Neo-Gruenfeld Defense, Classical Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. O-O",
+      "count": 391
+    },
+    {
+      "eco": "D97",
+      "name": "Gruenfeld Defense, Russian Variation, With e4",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Qb3 5... dxc4 6. Qxc4 6... O-O 7. e4",
+      "count": 348
+    },
+    {
+      "eco": "D87",
+      "name": "Gruenfeld Defense, Exchange Variation, Seville Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. e4 5... Nxc3 6. bxc3 6... Bg7 7. Bc4 7... O-O 8. Ne2 8... c5 9. O-O 9... Nc6 10. Be3 10... Bg4 11. f3 11... Na5 12. Bxf7+",
+      "count": 323
+    },
+    {
+      "eco": "D85",
+      "name": "Gruenfeld Defense, Exchange Variation, Modern Exchange Variation, Pawn Grab line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. e4 5... Nxc3 6. bxc3 6... Bg7 7. Nf3 7... c5 8. Rb1 8... O-O 9. Be2 9... Nc6 10. d5 10... Bxc3+",
+      "count": 318
+    },
+    {
+      "eco": "D80",
+      "name": "Gruenfeld Defense, Zaitsev Gambit",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. h4",
+      "count": 292
+    },
+    {
+      "eco": "D75",
+      "name": "Neo-Gruenfeld Defense, Delayed Exchange Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. cxd5 6... Nxd5 7. O-O 7... c5 8. dxc5",
+      "count": 264
+    },
+    {
+      "eco": "D83",
+      "name": "Gruenfeld Defense, Brinckmann Attack, GrÃ¼nfeld Gambit",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Bf4 4... Bg7 5. e3 5... O-O",
+      "count": 256
+    },
+    {
+      "eco": "D83",
+      "name": "Gruenfeld Defense, Brinckmann Attack, GrÃ¼nfeld Gambit, Botvinnik Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Bf4 4... Bg7 5. e3 5... O-O 6. Rc1 6... c5 7. dxc5 7... Be6",
+      "count": 202
+    },
+    {
+      "eco": "D83",
+      "name": "Gruenfeld Defense, Brinckmann Attack, Reshevsky Gambit",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Bf4 4... Bg7 5. e3 5... O-O 6. Rc1 6... c5 7. dxc5 7... Qa5",
+      "count": 194
+    },
+    {
+      "eco": "D99",
+      "name": "Gruenfeld Defense, Russian Variation, Smyslov Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. Qb3 5... dxc4 6. Qxc4 6... O-O 7. e4 7... Bg4 8. Be3 8... Nfd7 9. Qb3",
+      "count": 186
+    },
+    {
+      "eco": "D70",
+      "name": "Gruenfeld Defense, Lutikov Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. f3",
+      "count": 158
+    },
+    {
+      "eco": "D94",
+      "name": "Gruenfeld Defense, Flohr Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. Nf3 4... Bg7 5. e3 5... O-O 6. Bd3 6... c6 7. O-O 7... Bf5",
+      "count": 139
+    },
+    {
+      "eco": "D70",
+      "name": "Neo-Gruenfeld Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. g3 3... d5",
+      "count": 135
+    },
+    {
+      "eco": "D86",
+      "name": "Gruenfeld Defense, Exchange Variation, Larsen Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. Nc3 3... d5 4. cxd5 4... Nxd5 5. e4 5... Nxc3 6. bxc3 6... Bg7 7. Bc4 7... O-O 8. Ne2 8... Qd7",
+      "count": 105
+    },
+    {
+      "eco": "D70",
+      "name": "Indian Game, Anti-GrÃ¼nfeld, Alekhine Variation, Leko Gambit",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... g6 3. f3 3... e5",
+      "count": 104
+    }
+  ]
+}

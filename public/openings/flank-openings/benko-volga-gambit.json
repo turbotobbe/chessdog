@@ -1,0 +1,133 @@
+{
+  "slug": "benko-volga-gambit",
+  "name": "Benko/Volga Gambit",
+  "range": "A57-A59",
+  "lines": [
+    {
+      "eco": "A58",
+      "name": "Benko Gambit, Accepted, Fully Accepted Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6",
+      "count": 7007
+    },
+    {
+      "eco": "A57",
+      "name": "Benko Gambit, Accepted, Pawn Return Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. b6",
+      "count": 4738
+    },
+    {
+      "eco": "A57",
+      "name": "Benko Gambit, Declined, Main Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. Nf3",
+      "count": 3821
+    },
+    {
+      "eco": "A57",
+      "name": "Benko Gambit, Accepted, Modern Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. e3",
+      "count": 3252
+    },
+    {
+      "eco": "A58",
+      "name": "Benko Gambit, Accepted, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6 5... Bxa6 6. Nc3 6... g6 7. Nf3 7... d6 8. g3 8... Bg7 9. Bg2",
+      "count": 3228
+    },
+    {
+      "eco": "A57",
+      "name": "Benoni Defense, Hromodka System",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... d6",
+      "count": 3009
+    },
+    {
+      "eco": "A57",
+      "name": "Benko Gambit, General",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5",
+      "count": 2991
+    },
+    {
+      "eco": "A59",
+      "name": "Benko Gambit, Accepted, King Walk Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6 5... Bxa6 6. Nc3 6... d6 7. e4 7... Bxf1 8. Kxf1 8... g6 9. g3 9... Bg7 10. Kg2 10... O-O 11. Nf3",
+      "count": 2611
+    },
+    {
+      "eco": "A57",
+      "name": "Benko Gambit, Accepted, Dlugy Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. f3",
+      "count": 1797
+    },
+    {
+      "eco": "A58",
+      "name": "Benko Gambit, Zaitsev System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. Nc3",
+      "count": 953
+    },
+    {
+      "eco": "A57",
+      "name": "Benko Gambit, Declined, Quiet Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. Nd2",
+      "count": 921
+    },
+    {
+      "eco": "A57",
+      "name": "Benko Gambit, Declined, Sosonko Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. a4",
+      "count": 837
+    },
+    {
+      "eco": "A57",
+      "name": "Benko Gambit, Zaitsev Variation, Nescafe Frappe Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. Nc3 5... axb5 6. e4 6... b4 7. Nb5",
+      "count": 808
+    },
+    {
+      "eco": "A59",
+      "name": "Benko Gambit, Accepted, Yugoslav without 7...Bxf1",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6 5... Bxa6 6. Nc3 6... d6 7. e4",
+      "count": 497
+    },
+    {
+      "eco": "A57",
+      "name": "Benko Gambit, Declined, Pseudo-Saemisch",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. f3",
+      "count": 264
+    },
+    {
+      "eco": "A57",
+      "name": "Benko Gambit, Accepted, Central Storming Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6 5... g6 6. Nc3 6... Bxa6 7. f4",
+      "count": 220
+    },
+    {
+      "eco": "A59",
+      "name": "Benko Gambit, Accepted, Yugoslav with 7...Bxf1, Nge2",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6 5... Bxa6 6. Nc3 6... d6 7. e4 7... Bxf1 8. Kxf1 8... g6 9. Nge2",
+      "count": 207
+    },
+    {
+      "eco": "A57",
+      "name": "Benko Gambit, Declined, Bishop Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. Bg5",
+      "count": 187
+    }
+  ]
+}

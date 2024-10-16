@@ -1,0 +1,203 @@
+{
+  "slug": "alekhine-defence",
+  "name": "Alekhine Defence",
+  "range": "B02-B05",
+  "lines": [
+    {
+      "eco": "B03",
+      "name": "Alekhine Defense, Exchange Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. c4 4... Nb6 5. exd6",
+      "count": 9265
+    },
+    {
+      "eco": "B02",
+      "name": "Alekhine Defense, Scandinavian Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. Nc3 2... d5",
+      "count": 6465
+    },
+    {
+      "eco": "B05",
+      "name": "Alekhine Defense, Modern Variation, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... Bg4",
+      "count": 5873
+    },
+    {
+      "eco": "B04",
+      "name": "Alekhine Defense, Modern Variation, Alburt Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... g6",
+      "count": 3523
+    },
+    {
+      "eco": "B04",
+      "name": "Alekhine Defense, Modern Variation, Larsen Variation, Miles Line",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... dxe5 5. Nxe5 5... c6",
+      "count": 2361
+    },
+    {
+      "eco": "B02",
+      "name": "Alekhine Defense, Saemisch Attack",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. Nc3",
+      "count": 2027
+    },
+    {
+      "eco": "B03",
+      "name": "Alekhine Defense, Normal Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6",
+      "count": 1688
+    },
+    {
+      "eco": "B03",
+      "name": "Alekhine Defense, Four Pawns Attack, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. c4 4... Nb6 5. f4 5... dxe5 6. fxe5 6... Nc6 7. Be3",
+      "count": 1625
+    },
+    {
+      "eco": "B04",
+      "name": "Alekhine Defense, Modern Variation, Larsen Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... dxe5",
+      "count": 1520
+    },
+    {
+      "eco": "B02",
+      "name": "Alekhine Defense, Normal Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5",
+      "count": 1484
+    },
+    {
+      "eco": "B03",
+      "name": "Alekhine Defense, Four Pawns Attack",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. c4 4... Nb6 5. f4",
+      "count": 1393
+    },
+    {
+      "eco": "B02",
+      "name": "Alekhine Defense, Maroczy Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. d3",
+      "count": 1290
+    },
+    {
+      "eco": "B02",
+      "name": "Alekhine Defense, Two Pawn Attack, Lasker Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. c4 3... Nb6 4. c5",
+      "count": 1209
+    },
+    {
+      "eco": "B04",
+      "name": "Alekhine Defense, Modern Variation, Schmid Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... Nb6",
+      "count": 979
+    },
+    {
+      "eco": "B03",
+      "name": "Alekhine Defense, Balogh Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Bc4",
+      "count": 916
+    },
+    {
+      "eco": "B04",
+      "name": "Alekhine Defense, Modern Variation, Larsen-Haakert Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... Nc6",
+      "count": 866
+    },
+    {
+      "eco": "B02",
+      "name": "Alekhine Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... Nf6",
+      "count": 737
+    },
+    {
+      "eco": "B02",
+      "name": "Alekhine Defense, Two Pawn Attack",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. c4",
+      "count": 618
+    },
+    {
+      "eco": "B04",
+      "name": "Alekhine Defense, Modern Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3",
+      "count": 598
+    },
+    {
+      "eco": "B03",
+      "name": "Alekhine Defense, Four Pawns Attack, Fianchetto Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. c4 4... Nb6 5. f4 5... g6",
+      "count": 502
+    },
+    {
+      "eco": "B03",
+      "name": "Alekhine Defense, Four Pawns Attack, Trifunovic Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. c4 4... Nb6 5. f4 5... Bf5",
+      "count": 448
+    },
+    {
+      "eco": "B02",
+      "name": "Alekhine Defense, Brooklyn Variation",
+      "color": "black",
+      "moves": "1. e4 1... Nf6 2. e5 2... Ng8",
+      "count": 408
+    },
+    {
+      "eco": "B02",
+      "name": "Alekhine Defense, Hunt Variation, Lasker Simul Gambit",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. c4 3... Nb6 4. c5 4... Nd5 5. Nc3 5... e6 6. Bc4",
+      "count": 387
+    },
+    {
+      "eco": "B04",
+      "name": "Alekhine Defense, Modern Variation, Keres Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... g6 5. Bc4 5... Nb6 6. Bb3 6... Bg7 7. a4",
+      "count": 307
+    },
+    {
+      "eco": "B05",
+      "name": "Alekhine Defense, Modern Variation, Panov Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... Bg4 5. h3",
+      "count": 241
+    },
+    {
+      "eco": "B02",
+      "name": "Alekhine Defense, Spielmann Gambit",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. Nc3 2... d5 3. e5 3... Nfd7 4. e6",
+      "count": 208
+    },
+    {
+      "eco": "B04",
+      "name": "Alekhine Defense, Modern Variation, Alekhine Gambit",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... Bg4 5. c4 5... Nb6 6. Be2",
+      "count": 142
+    },
+    {
+      "eco": "B02",
+      "name": "Alekhine Defense, Steiner Variation",
+      "color": "white",
+      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. c4 3... Nb6 4. b3",
+      "count": 108
+    }
+  ]
+}

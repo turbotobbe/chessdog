@@ -1,0 +1,77 @@
+{
+  "slug": "benoni-old-benoni",
+  "name": "Benoni/Old Benoni",
+  "range": "A43",
+  "lines": [
+    {
+      "eco": "A43",
+      "name": "Benoni Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... c5",
+      "count": 7447
+    },
+    {
+      "eco": "A43",
+      "name": "Benoni Defense, Benoni-Indian Defense, Kingside move order",
+      "color": "white",
+      "moves": "1. d4 1... c5 2. d5 2... Nf6 3. Nf3",
+      "count": 5237
+    },
+    {
+      "eco": "A43",
+      "name": "Benoni Defense, Old Benoni",
+      "color": "black",
+      "moves": "1. d4 1... c5 2. d5 2... d6",
+      "count": 1847
+    },
+    {
+      "eco": "A43",
+      "name": "Benoni Defense, Benoni-Indian Defense",
+      "color": "black",
+      "moves": "1. d4 1... c5 2. d5 2... Nf6",
+      "count": 1632
+    },
+    {
+      "eco": "A43",
+      "name": "Benoni Defense, Franco-Sicilian Defense",
+      "color": "white",
+      "moves": "1. d4 1... c5 2. d5 2... e6 3. e4",
+      "count": 1019
+    },
+    {
+      "eco": "A43",
+      "name": "Benoni Defense, Benoni Gambit Accepted",
+      "color": "white",
+      "moves": "1. d4 1... c5 2. dxc5",
+      "count": 951
+    },
+    {
+      "eco": "A43",
+      "name": "Benoni Defense, Old Benoni Defense, Clarendon Court Variation",
+      "color": "black",
+      "moves": "1. d4 1... c5 2. d5 2... f5",
+      "count": 685
+    },
+    {
+      "eco": "A43",
+      "name": "Benoni Defense, Old Benoni, Schmid  Variation",
+      "color": "black",
+      "moves": "1. d4 1... c5 2. d5 2... d6 3. Nc3 3... g6",
+      "count": 161
+    },
+    {
+      "eco": "A43",
+      "name": "Benoni Defense, Benoni Gambit, Schlenker Defense",
+      "color": "black",
+      "moves": "1. d4 1... c5 2. dxc5 2... Na6",
+      "count": 146
+    },
+    {
+      "eco": "A43",
+      "name": "Benoni Defense, Woozle",
+      "color": "black",
+      "moves": "1. d4 1... c5 2. d5 2... Nf6 3. Nc3 3... Qa5",
+      "count": 108
+    }
+  ]
+}

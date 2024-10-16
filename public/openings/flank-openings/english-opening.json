@@ -1,0 +1,819 @@
+{
+  "slug": "english-opening",
+  "name": "English opening",
+  "range": "A10-A39",
+  "lines": [
+    {
+      "eco": "A20",
+      "name": "English Opening, King's English Variation, General",
+      "color": "black",
+      "moves": "1. c4 1... e5",
+      "count": 23245
+    },
+    {
+      "eco": "A15",
+      "name": "English Opening, Anglo-Indian Defense, King's Knight Variation",
+      "color": "white",
+      "moves": "1. c4 1... Nf6 2. Nf3",
+      "count": 20405
+    },
+    {
+      "eco": "A15",
+      "name": "English Opening, Anglo-Indian Defense, King's Indian Formation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nf3 2... g6",
+      "count": 19935
+    },
+    {
+      "eco": "A16",
+      "name": "English Opening, Anglo-Indian Defense, Queen's Knight Variation",
+      "color": "white",
+      "moves": "1. c4 1... Nf6 2. Nc3",
+      "count": 15372
+    },
+    {
+      "eco": "A15",
+      "name": "English Opening, Anglo-Indian Defense, Mikenas-Carls Variation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6",
+      "count": 14139
+    },
+    {
+      "eco": "A14",
+      "name": "English Opening, Agincourt Defense, Neo Catalan Declined",
+      "color": "white",
+      "moves": "1. c4 1... e6 2. Nf3 2... d5 3. g3 3... Nf6 4. Bg2 4... Be7 5. O-O",
+      "count": 13796
+    },
+    {
+      "eco": "A13",
+      "name": "English Opening, Agincourt Defense",
+      "color": "black",
+      "moves": "1. c4 1... e6",
+      "count": 12432
+    },
+    {
+      "eco": "A10",
+      "name": "English Opening, Great Snake Variation",
+      "color": "black",
+      "moves": "1. c4 1... g6",
+      "count": 12036
+    },
+    {
+      "eco": "A30",
+      "name": "English Opening, Symmetrical Variation, General",
+      "color": "black",
+      "moves": "1. c4 1... c5",
+      "count": 10406
+    },
+    {
+      "eco": "A11",
+      "name": "English Opening, Anglo-Slav Variation, General",
+      "color": "black",
+      "moves": "1. c4 1... c6",
+      "count": 10310
+    },
+    {
+      "eco": "A31",
+      "name": "English Opening, Symmetrical Variation, Anti-Benoni Variation",
+      "color": "white",
+      "moves": "1. c4 1... c5 2. Nf3 2... Nf6 3. d4",
+      "count": 8782
+    },
+    {
+      "eco": "A37",
+      "name": "English Opening, Symmetrical Variation, Two Knights Line",
+      "color": "white",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3",
+      "count": 8227
+    },
+    {
+      "eco": "A36",
+      "name": "English Opening, Symmetrical Variation, Symmetrical Variation",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7",
+      "count": 8075
+    },
+    {
+      "eco": "A30",
+      "name": "English Opening, Symmetrical Variation, Hedgehog Defense",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nf3 2... Nf6 3. g3 3... b6 4. Bg2 4... Bb7 5. O-O 5... e6 6. Nc3 6... Be7",
+      "count": 7972
+    },
+    {
+      "eco": "A13",
+      "name": "English Opening, Agincourt Defense, King's Knight",
+      "color": "black",
+      "moves": "1. c4 1... e6 2. Nf3 2... d5",
+      "count": 7441
+    },
+    {
+      "eco": "A10",
+      "name": "English Opening, General",
+      "color": "white",
+      "moves": "1. c4",
+      "count": 7383
+    },
+    {
+      "eco": "A29",
+      "name": "English Opening, King's English Variation, Four Knights Variation, Fianchetto Lines",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. Nf3 3... Nf6 4. g3",
+      "count": 7223
+    },
+    {
+      "eco": "A10",
+      "name": "English Opening, Anglo-Dutch Defense",
+      "color": "black",
+      "moves": "1. c4 1... f5",
+      "count": 6734
+    },
+    {
+      "eco": "A13",
+      "name": "English Opening, Agincourt Defense, Catalan Defense Accepted",
+      "color": "black",
+      "moves": "1. c4 1... e6 2. Nf3 2... d5 3. g3 3... Nf6 4. Bg2 4... dxc4",
+      "count": 6441
+    },
+    {
+      "eco": "A35",
+      "name": "English Opening, Symmetrical Variation, Four Knights Variation",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6 3. Nf3 3... Nf6",
+      "count": 6018
+    },
+    {
+      "eco": "A25",
+      "name": "English Opening, King's English Variation, Reversed Closed Sicilian",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6",
+      "count": 5153
+    },
+    {
+      "eco": "A21",
+      "name": "English Opening, King's English Variation, Reversed Sicilian",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3",
+      "count": 5106
+    },
+    {
+      "eco": "A21",
+      "name": "English Opening, King's English Variation, Kramnik-Shirov Counter",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Bb4",
+      "count": 4907
+    },
+    {
+      "eco": "A22",
+      "name": "English Opening, King's English Variation, Two Knights' Variation, Reversed Dragon",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nf6 3. g3 3... d5",
+      "count": 4712
+    },
+    {
+      "eco": "A13",
+      "name": "English Opening, Anglo-Indian Defense, Queen's Indian Formation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nf3 2... e6 3. g3 3... b6 4. Bg2 4... Bb7",
+      "count": 4471
+    },
+    {
+      "eco": "A37",
+      "name": "English Opening, Symmetrical Variation, Botvinnik System Reversed",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3 5... e5",
+      "count": 4404
+    },
+    {
+      "eco": "A10",
+      "name": "English Opening, English Defense, General",
+      "color": "black",
+      "moves": "1. c4 1... e6 2. d4 2... b6",
+      "count": 4289
+    },
+    {
+      "eco": "A34",
+      "name": "English Opening, Symmetrical Variation, Three Knights Variation",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nf6 3. Nf3 3... d5 4. cxd5 4... Nxd5",
+      "count": 4285
+    },
+    {
+      "eco": "A25",
+      "name": "English Opening, King's English Variation, Taimanov Variation",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7",
+      "count": 4138
+    },
+    {
+      "eco": "A17",
+      "name": "English Opening, Anglo-Indian Defense, Nimzo-English Opening",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... e6 3. Nf3 3... Bb4",
+      "count": 4078
+    },
+    {
+      "eco": "A33",
+      "name": "English Opening, Symmetrical Variation, Anti-Benoni Variation, Spielmann Defense",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nf3 2... Nf6 3. d4 3... cxd4 4. Nxd4 4... e6 5. Nc3 5... Nc6",
+      "count": 4063
+    },
+    {
+      "eco": "A27",
+      "name": "English Opening, King's English Variation, Three Knights System, General",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. Nf3",
+      "count": 3830
+    },
+    {
+      "eco": "A22",
+      "name": "English Opening, King's English Variation, Two Knights' Variation, General",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nf6",
+      "count": 3734
+    },
+    {
+      "eco": "A22",
+      "name": "English Opening, King's English Variation, Two Knights' Variation, Smyslov System",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nf6 3. g3 3... Bb4",
+      "count": 3608
+    },
+    {
+      "eco": "A13",
+      "name": "English Opening, Agincourt Defense, Agincourt Variation",
+      "color": "white",
+      "moves": "1. c4 1... e6 2. Nf3 2... d5 3. g3",
+      "count": 3457
+    },
+    {
+      "eco": "A39",
+      "name": "English Opening, Symmetrical Variation, Mecking Variation",
+      "color": "white",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3 5... Nf6 6. O-O 6... O-O 7. d4",
+      "count": 3456
+    },
+    {
+      "eco": "A28",
+      "name": "English Opening, King's English Variation, Four Knights Variation, Quiet Line",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. Nf3 3... Nf6 4. e3",
+      "count": 3401
+    },
+    {
+      "eco": "A36",
+      "name": "English Opening, Symmetrical Variation, Botvinnik System",
+      "color": "white",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. e4",
+      "count": 3259
+    },
+    {
+      "eco": "A22",
+      "name": "English Opening, King's English Variation, Two Knights' Variation, Fianchetto Line",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nf6 3. g3",
+      "count": 3087
+    },
+    {
+      "eco": "A34",
+      "name": "English Opening, Symmetrical Variation, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nf6 3. g3",
+      "count": 3066
+    },
+    {
+      "eco": "A17",
+      "name": "English Opening, Anglo-Indian Defense, Hedgehog System",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... e6",
+      "count": 3027
+    },
+    {
+      "eco": "A18",
+      "name": "English Opening, Anglo-Indian Defense, Flohr-Mikenas-Carls Variation",
+      "color": "white",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... e6 3. e4 3... d5 4. e5",
+      "count": 3007
+    },
+    {
+      "eco": "A28",
+      "name": "English Opening, King's English Variation, Four Knights Variation, Botvinnik Line",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. Nf3 3... Nf6 4. e4",
+      "count": 2719
+    },
+    {
+      "eco": "A15",
+      "name": "English Opening, Anglo-Indian Defense, Queen's Indian Formation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nf3 2... b6",
+      "count": 2648
+    },
+    {
+      "eco": "A34",
+      "name": "English Opening, Symmetrical Variation, Rubinstein Variation",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nf6 3. g3 3... d5 4. cxd5 4... Nxd5 5. Bg2 5... Nc7",
+      "count": 2590
+    },
+    {
+      "eco": "A38",
+      "name": "English Opening, Symmetrical Variation, Full Symmetry Line",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3 5... Nf6",
+      "count": 2502
+    },
+    {
+      "eco": "A13",
+      "name": "English Opening, Agincourt Defense, Catalan Defense, Semi-Slav Defense",
+      "color": "black",
+      "moves": "1. c4 1... e6 2. Nf3 2... d5 3. g3 3... Nf6 4. Bg2 4... c6",
+      "count": 2440
+    },
+    {
+      "eco": "A34",
+      "name": "English Opening, Symmetrical Variation, Normal Variation",
+      "color": "white",
+      "moves": "1. c4 1... c5 2. Nc3",
+      "count": 2394
+    },
+    {
+      "eco": "A18",
+      "name": "English Opening, Anglo-Indian Defense, Flohr-Mikenas-Carls Variation",
+      "color": "white",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... e6 3. e4",
+      "count": 2238
+    },
+    {
+      "eco": "A23",
+      "name": "English Opening, King's English Variation, Two Knights' Variation, Keres Variation",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nf6 3. g3 3... c6",
+      "count": 2069
+    },
+    {
+      "eco": "A38",
+      "name": "English Opening, Symmetrical Variation, Duchamp Variation",
+      "color": "white",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3 5... Nf6 6. O-O 6... O-O 7. d3",
+      "count": 1954
+    },
+    {
+      "eco": "A15",
+      "name": "English Opening, Anglo-Indian Defense, Old Indian Formation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nf3 2... d6",
+      "count": 1814
+    },
+    {
+      "eco": "A13",
+      "name": "English Opening, Agincourt Defense, Wimpy System",
+      "color": "white",
+      "moves": "1. c4 1... e6 2. Nf3 2... d5 3. b3 3... Nf6 4. Bb2 4... c5 5. e3",
+      "count": 1795
+    },
+    {
+      "eco": "A26",
+      "name": "English Opening, King's English Variation, Closed System, Full Symmetry",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. d3 5... d6",
+      "count": 1758
+    },
+    {
+      "eco": "A16",
+      "name": "English Opening, Anglo-Indian Defense, Anglo-GrÃ¼nfeld Variation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... d5 3. cxd5 3... Nxd5 4. g3 4... g6 5. Bg2 5... Nb6",
+      "count": 1697
+    },
+    {
+      "eco": "A16",
+      "name": "English Opening, Golombek Defense",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... d5",
+      "count": 1639
+    },
+    {
+      "eco": "A28",
+      "name": "English Opening, King's English Variation, Four Knights Variation, Flexible Line",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. Nf3 3... Nf6 4. d3",
+      "count": 1637
+    },
+    {
+      "eco": "A35",
+      "name": "English Opening, Symmetrical Variation, Two Knights Variation",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6",
+      "count": 1443
+    },
+    {
+      "eco": "A21",
+      "name": "English Opening, King's English Variation, General Variation",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... d6 3. Nf3",
+      "count": 1427
+    },
+    {
+      "eco": "A32",
+      "name": "English Opening, Symmetrical Variation, Anti-Benoni Variation, Spielmann Defense",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nf3 2... Nf6 3. d4 3... cxd4 4. Nxd4 4... e6",
+      "count": 1414
+    },
+    {
+      "eco": "A28",
+      "name": "English Opening, King's English Variation, Four Knights Variation, Korchnoi Line",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. Nf3 3... Nf6 4. a3",
+      "count": 1410
+    },
+    {
+      "eco": "A12",
+      "name": "Reti Opening, Anglo-Slav Variation, Bogoljubow Variation, Stonewall Line",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. c4 2... c6 3. b3 3... Nf6 4. Bb2 4... e6 5. g3 5... Be7 6. Bg2 6... O-O 7. O-O",
+      "count": 1357
+    },
+    {
+      "eco": "A28",
+      "name": "English Opening, King's English Variation, Four Knights Variation, General",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. Nf3 3... Nf6",
+      "count": 1293
+    },
+    {
+      "eco": "A25",
+      "name": "English Opening, King's English Variation, Hungarian Attack",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. Rb1",
+      "count": 1288
+    },
+    {
+      "eco": "A16",
+      "name": "English Opening, Anglo-Indian Defense, Anglo-GrÃ¼nfeld Variation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... d5 3. cxd5 3... Nxd5 4. g3 4... g6 5. Bg2 5... Nxc3",
+      "count": 1268
+    },
+    {
+      "eco": "A28",
+      "name": "English Opening, King's English Variation, Four Knights Variation, Quiet Line",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. Nf3 3... Nf6 4. e3 4... Bb4 5. Qc2 5... Bxc3",
+      "count": 1250
+    },
+    {
+      "eco": "A13",
+      "name": "English Opening, Anglo-Indian Defense, Romanishin Gambit",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nf3 2... e6 3. g3 3... a6 4. Bg2 4... b5",
+      "count": 1248
+    },
+    {
+      "eco": "A16",
+      "name": "English Opening, Anglo-Indian Defense, Anglo-GrÃ¼nfeld Variation",
+      "color": "white",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... d5 3. cxd5 3... Nxd5 4. Nf3",
+      "count": 1229
+    },
+    {
+      "eco": "A33",
+      "name": "English Opening, Symmetrical Variation, Anti-Benoni Variation, Geller Variation",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nf3 2... Nf6 3. d4 3... cxd4 4. Nxd4 4... e6 5. Nc3 5... Nc6 6. g3 6... Qb6",
+      "count": 1215
+    },
+    {
+      "eco": "A17",
+      "name": "English Opening, Anglo-Indian Defense, Anti-Anti-GrÃ¼nfeld",
+      "color": "white",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... g6 3. Nf3 3... Bg7 4. e4",
+      "count": 1168
+    },
+    {
+      "eco": "A15",
+      "name": "English Opening, Anglo-Indian Defense, King's Indian Formation, Double Fianchetto",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nf3 2... g6 3. g3 3... b6 4. Bg2 4... Bb7",
+      "count": 1158
+    },
+    {
+      "eco": "A14",
+      "name": "English Opening, Agincourt Defense, Keres Defense",
+      "color": "black",
+      "moves": "1. c4 1... e6 2. Nf3 2... d5 3. g3 3... Nf6 4. Bg2 4... Be7 5. O-O 5... c5 6. cxd5 6... Nxd5 7. Nc3 7... Nc6",
+      "count": 1109
+    },
+    {
+      "eco": "A26",
+      "name": "English Opening, King's English Variation, Botvinnik System",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. d3 5... d6 6. e4",
+      "count": 1084
+    },
+    {
+      "eco": "A19",
+      "name": "English Opening, Anglo-Indian Defense, Flohr-Mikenas-Carls Variation, Nei Gambit",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... e6 3. e4 3... c5 4. e5 4... Ng8",
+      "count": 1071
+    },
+    {
+      "eco": "A12",
+      "name": "Reti Opening, Anglo-Slav Variation, New York System",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. c4 2... c6 3. b3 3... Nf6 4. Bb2 4... Bf5",
+      "count": 1022
+    },
+    {
+      "eco": "A36",
+      "name": "English Opening, Symmetrical Variation, Botvinnik System Reversed",
+      "color": "black",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. e3 5... e5",
+      "count": 931
+    },
+    {
+      "eco": "A21",
+      "name": "English Opening, King's English Variation, Troger Defense",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... d6 3. g3 3... Be6 4. Bg2 4... Nc6",
+      "count": 927
+    },
+    {
+      "eco": "A14",
+      "name": "English Opening, Agincourt Defense, Tarrasch Defense",
+      "color": "black",
+      "moves": "1. c4 1... e6 2. Nf3 2... d5 3. g3 3... Nf6 4. Bg2 4... c5 5. b3 5... Nc6 6. O-O 6... Be7",
+      "count": 886
+    },
+    {
+      "eco": "A36",
+      "name": "English Opening, Symmetrical Variation, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6 3. g3",
+      "count": 846
+    },
+    {
+      "eco": "A12",
+      "name": "Reti Opening, Anglo-Slav Variation, Bogoljubow Variation III",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. c4 2... c6 3. b3",
+      "count": 837
+    },
+    {
+      "eco": "A17",
+      "name": "English Opening, Anglo-Indian Defense, Queens Indian Formation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... e6 3. Nf3 3... b6",
+      "count": 835
+    },
+    {
+      "eco": "A12",
+      "name": "Reti Opening, Anglo-Slav Variation, London Defensive System",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. c4 2... c6 3. b3 3... Nf6 4. g3 4... Bf5",
+      "count": 770
+    },
+    {
+      "eco": "A12",
+      "name": "Reti Opening, Anglo-Slav Variation, Bogoljubow Variation II",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. c4 2... c6 3. b3 3... Bg4",
+      "count": 701
+    },
+    {
+      "eco": "A25",
+      "name": "English Opening, King's English Variation, Closed System",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. d3",
+      "count": 682
+    },
+    {
+      "eco": "A13",
+      "name": "English Opening, Agincourt Defense, Kurajica Defense",
+      "color": "black",
+      "moves": "1. c4 1... e6 2. Nf3 2... d5 3. g3 3... c6",
+      "count": 621
+    },
+    {
+      "eco": "A15",
+      "name": "English Opening, Anglo-Indian Defense, Scandavian Defense, Exchange Variation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nf3 2... d5 3. cxd5 3... Nxd5",
+      "count": 598
+    },
+    {
+      "eco": "A12",
+      "name": "Reti Opening, Anglo-Slav Variation, Capablanca Variation",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. c4 2... c6 3. b3 3... Nf6 4. Bb2 4... Bg4",
+      "count": 559
+    },
+    {
+      "eco": "A12",
+      "name": "Reti Opening, Anglo-Slav Variation, Torre System",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. c4 2... c6 3. b3 3... Nf6 4. g3 4... Bg4",
+      "count": 530
+    },
+    {
+      "eco": "A10",
+      "name": "English Opening, Anglo-Lithuanian Variation",
+      "color": "black",
+      "moves": "1. c4 1... Nc6",
+      "count": 521
+    },
+    {
+      "eco": "A24",
+      "name": "English Opening, King's English Variation, Two Knights' Variation, Fianchetto Lines",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nf6 3. g3 3... g6",
+      "count": 481
+    },
+    {
+      "eco": "A25",
+      "name": "English Opening, King's English Variation, Bremen-Hort Variation",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. e3 5... d6 6. Nge2 6... Be6",
+      "count": 480
+    },
+    {
+      "eco": "A15",
+      "name": "English Opening, Anglo-Indian Defense, Slav Formation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nf3 2... g6 3. g3 3... c6",
+      "count": 463
+    },
+    {
+      "eco": "A19",
+      "name": "English Opening, Anglo-Indian Defense, Flohr-Mikenas-Carls Variation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... e6 3. e4 3... c5",
+      "count": 453
+    },
+    {
+      "eco": "A13",
+      "name": "English Opening, Agincourt Defense, Bogoljubow Defense",
+      "color": "black",
+      "moves": "1. c4 1... e6 2. Nf3 2... d5 3. g3 3... Nf6 4. Bg2 4... Bd6",
+      "count": 451
+    },
+    {
+      "eco": "A15",
+      "name": "English Opening, Anglo-Indian Defense, Scandinavian Defense",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nf3 2... d5",
+      "count": 418
+    },
+    {
+      "eco": "A20",
+      "name": "English Opening, King's English Variation, Nimzowitsch Variation, General",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nf3",
+      "count": 410
+    },
+    {
+      "eco": "A12",
+      "name": "Reti Opening, Anglo-Slav Variation, Bled Variation",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. c4 2... c6 3. b3 3... Nf6 4. Bb2 4... g6",
+      "count": 409
+    },
+    {
+      "eco": "A11",
+      "name": "English Opening, Anglo-Indian Defense, Romanishin Variation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nf3 2... e6 3. g3 3... a6",
+      "count": 388
+    },
+    {
+      "eco": "A12",
+      "name": "Reti Opening, Anglo-Slav Variation, Bogoljubow Variation",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. c4 2... c6 3. b3 3... Nf6 4. Bb2",
+      "count": 323
+    },
+    {
+      "eco": "A20",
+      "name": "English Opening, Drill Variation",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. g3 2... h5",
+      "count": 322
+    },
+    {
+      "eco": "A18",
+      "name": "English Opening, Anglo-Indian Defense, Zviagintsev-Krasenkov Attack",
+      "color": "white",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... e6 3. Nf3 3... Bb4 4. g4",
+      "count": 314
+    },
+    {
+      "eco": "A20",
+      "name": "English Opening, King's English Variation, Nimzowitsch-Flohr Variation",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nf3 2... e4",
+      "count": 286
+    },
+    {
+      "eco": "A28",
+      "name": "English Opening, King's English Variation, Four Knights Variation, Quiet Line",
+      "color": "white",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. Nf3 3... Nf6 4. e3 4... Bb4 5. Qc2 5... O-O 6. Nd5 6... Re8 7. Qf5",
+      "count": 272
+    },
+    {
+      "eco": "A10",
+      "name": "English Opening, Adorjan Defense",
+      "color": "black",
+      "moves": "1. c4 1... g6 2. e4 2... e5",
+      "count": 264
+    },
+    {
+      "eco": "A10",
+      "name": "English Opening, Anglo-Scandinavian Defense, General",
+      "color": "black",
+      "moves": "1. c4 1... d5",
+      "count": 244
+    },
+    {
+      "eco": "A18",
+      "name": "English Opening, Anglo-Indian Defense, Flohr-Mikenas-Carls Variation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... e6 3. e4 3... Nc6",
+      "count": 241
+    },
+    {
+      "eco": "A17",
+      "name": "English Opening, Anglo-Indian Defense, Queens Indian Variation",
+      "color": "white",
+      "moves": "1. c4 1... Nf6 2. Nc3 2... e6 3. Nf3 3... b6 4. e4 4... Bb7 5. Bd3",
+      "count": 225
+    },
+    {
+      "eco": "A22",
+      "name": "English Opening, King's English Variation, Bellon Gambit",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nf6 3. Nf3 3... e4 4. Ng5 4... b5",
+      "count": 205
+    },
+    {
+      "eco": "A26",
+      "name": "English Opening, King's English Variation, Botvinnik System, Prickly Pawn Pass System",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nf6 3. g3 3... g6 4. Bg2 4... Bg7 5. d3 5... d6 6. e4 6... O-O 7. Nge2 7... c6 8. O-O 8... a6",
+      "count": 184
+    },
+    {
+      "eco": "A28",
+      "name": "English Opening, King's English Variation, Four Knights Variation, Bradley Beach Variation",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. Nf3 3... Nf6 4. d4 4... e4",
+      "count": 171
+    },
+    {
+      "eco": "A38",
+      "name": "English Opening, Symmetrical Variation, Double Fianchetto",
+      "color": "white",
+      "moves": "1. c4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3 5... Nf6 6. O-O 6... O-O 7. b3",
+      "count": 151
+    },
+    {
+      "eco": "A28",
+      "name": "English Opening, King's English Variation, Four Knights Variation",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... Nc6 3. Nf3 3... Nf6 4. d4 4... exd4 5. Nxd4 5... Bb4 6. Bg5 6... h6 7. Bh4 7... Bxc3+ 8. bxc3 8... Ne5",
+      "count": 132
+    },
+    {
+      "eco": "A15",
+      "name": "English Opening, Anglo-Indian Defense, Gruenfeld Formation",
+      "color": "black",
+      "moves": "1. c4 1... Nf6 2. Nf3 2... g6 3. g3 3... d5",
+      "count": 122
+    },
+    {
+      "eco": "A10",
+      "name": "English Opening, Anglo-Scandinavian Defense, Malvinas Variation",
+      "color": "black",
+      "moves": "1. c4 1... d5 2. cxd5 2... Qxd5 3. Nc3 3... Qa5",
+      "count": 115
+    },
+    {
+      "eco": "A21",
+      "name": "English Opening, King's English Variation, Keres Defense",
+      "color": "black",
+      "moves": "1. c4 1... e5 2. Nc3 2... d6 3. g3 3... c6",
+      "count": 110
+    },
+    {
+      "eco": "A10",
+      "name": "English Opening, Anglo-Scandinavian Defense, Schulz Gambit",
+      "color": "black",
+      "moves": "1. c4 1... d5 2. cxd5 2... Nf6",
+      "count": 101
+    }
+  ]
+}

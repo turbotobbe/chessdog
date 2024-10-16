@@ -1,0 +1,91 @@
+{
+  "slug": "italian-game-giuoco-pianissimo",
+  "name": "Italian Game - Giuoco Pianissimo",
+  "range": "C50",
+  "lines": [
+    {
+      "eco": "C50",
+      "name": "Italian Game, Giuoco Pianissimo, Normal",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. d3 4... Nf6",
+      "count": 9240
+    },
+    {
+      "eco": "C50",
+      "name": "Italian Game, Italian Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5",
+      "count": 8878
+    },
+    {
+      "eco": "C50",
+      "name": "Italian Game, Hungarian Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Be7",
+      "count": 4579
+    },
+    {
+      "eco": "C50",
+      "name": "Italian Game, Giuoco Pianissimo, Italian Four Knights Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. d3 4... Nf6 5. Nc3",
+      "count": 4518
+    },
+    {
+      "eco": "C50",
+      "name": "Italian Game, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4",
+      "count": 2397
+    },
+    {
+      "eco": "C50",
+      "name": "Italian Game, Giuoco Pianissimo",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. d3",
+      "count": 1913
+    },
+    {
+      "eco": "C50",
+      "name": "Four Knights Game, Italian Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. Nc3 4... Nf6",
+      "count": 1411
+    },
+    {
+      "eco": "C50",
+      "name": "Italian Game, Giuoco Pianissimo, Canal Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. d3 4... Nf6 5. Nc3 5... d6 6. Bg5",
+      "count": 1356
+    },
+    {
+      "eco": "C50",
+      "name": "Italian Game, Schilling-Kostic Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nd4",
+      "count": 342
+    },
+    {
+      "eco": "C50",
+      "name": "Italian Game, Rosentreter Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. d4",
+      "count": 148
+    },
+    {
+      "eco": "C50",
+      "name": "Italian Game, Rousseau Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... f5",
+      "count": 141
+    },
+    {
+      "eco": "C50",
+      "name": "Italian Game, Hungarian Defense, Tartakower Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Be7 4. d4 4... exd4 5. c3 5... Nf6 6. e5 6... Ne4",
+      "count": 138
+    }
+  ]
+}

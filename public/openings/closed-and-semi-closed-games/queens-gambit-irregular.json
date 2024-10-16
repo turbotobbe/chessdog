@@ -1,0 +1,133 @@
+{
+  "slug": "queens-gambit-irregular",
+  "name": "Queen's Gambit, Irregular",
+  "range": "D06-D09",
+  "lines": [
+    {
+      "eco": "D07",
+      "name": "Queen's Gambit Refused, Chigorin Defense, Main Line",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nf3 3... Bg4",
+      "count": 3386
+    },
+    {
+      "eco": "D06",
+      "name": "Queen's Gambit Refused, Marshall Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... Nf6",
+      "count": 3237
+    },
+    {
+      "eco": "D07",
+      "name": "Queen's Gambit Refused, Chigorin Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... Nc6",
+      "count": 2005
+    },
+    {
+      "eco": "D08",
+      "name": "Queen's Gambit Refused, Albin Countergambit, Normal Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e5 3. dxe5 3... d4 4. Nf3",
+      "count": 1655
+    },
+    {
+      "eco": "D08",
+      "name": "Queen's Gambit Refused, Albin Countergambit",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e5",
+      "count": 1193
+    },
+    {
+      "eco": "D07",
+      "name": "Queen's Gambit Refused, Chigorin Defense, Exchange Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. cxd5 3... Qxd5",
+      "count": 1190
+    },
+    {
+      "eco": "D06",
+      "name": "Queen's Gambit Refused, Chigorin Defense, Modern Gambit",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nc3 3... Nf6 4. Nf3 4... dxc4",
+      "count": 897
+    },
+    {
+      "eco": "D09",
+      "name": "Queen's Gambit Refused, Albin Countergambit, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e5 3. dxe5 3... d4 4. Nf3 4... Nc6 5. g3",
+      "count": 865
+    },
+    {
+      "eco": "D06",
+      "name": "Queen's Gambit Refused, Austrian Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c5",
+      "count": 575
+    },
+    {
+      "eco": "D08",
+      "name": "Queen's Gambit Refused, Albin Countergambit, Modern Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e5 3. dxe5 3... d4 4. Nf3 4... Nc6 5. Nbd2",
+      "count": 522
+    },
+    {
+      "eco": "D09",
+      "name": "Queen's Gambit Refused, Albin Countergambit, Fianchetto Variation, Be6 Line",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e5 3. dxe5 3... d4 4. Nf3 4... Nc6 5. g3 5... Be6",
+      "count": 403
+    },
+    {
+      "eco": "D06",
+      "name": "Queen's Gambit Refused, Chigorin Defense, Lazard Gambit",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nf3 3... e5",
+      "count": 393
+    },
+    {
+      "eco": "D09",
+      "name": "Queen's Gambit Refused, Albin Countergambit, Fianchetto Variation, Bg4 Line",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e5 3. dxe5 3... d4 4. Nf3 4... Nc6 5. g3 5... Bg4",
+      "count": 379
+    },
+    {
+      "eco": "D07",
+      "name": "Queen's Gambit Refused, Chigorin Defense, Exchange Variation, Costa's Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. cxd5 3... Qxd5 4. e3 4... e5 5. Nc3 5... Bb4 6. Bd2 6... Bxc3 7. Bxc3 7... exd4 8. Ne2",
+      "count": 366
+    },
+    {
+      "eco": "D07",
+      "name": "Queen's Gambit Refused, Chigorin Defense, Janowski Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nc3 3... dxc4 4. Nf3",
+      "count": 258
+    },
+    {
+      "eco": "D06",
+      "name": "Queen's Gambit Refused, Chigorin Defense, Tartakower Gambit",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nc3 3... e5",
+      "count": 217
+    },
+    {
+      "eco": "D06",
+      "name": "Queen's Gambit Refused, Austrian Defense, Gusev Countergambit",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c5 3. cxd5 3... Nf6",
+      "count": 163
+    },
+    {
+      "eco": "D07",
+      "name": "Queen's Gambit Refused, Chigorin Defense, Main Line, Alekhine Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nf3 3... Bg4 4. Qa4",
+      "count": 108
+    }
+  ]
+}

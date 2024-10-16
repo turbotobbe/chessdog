@@ -1,0 +1,63 @@
+{
+  "slug": "budapest-gambit",
+  "name": "Budapest Gambit",
+  "range": "A51-A52",
+  "lines": [
+    {
+      "eco": "A52",
+      "name": "Budapest Defense, Adler Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e5 3. dxe5 3... Ng4 4. Nf3",
+      "count": 3858
+    },
+    {
+      "eco": "A52",
+      "name": "Budapest Defense, Rubinstein Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e5 3. dxe5 3... Ng4 4. Bf4",
+      "count": 3467
+    },
+    {
+      "eco": "A51",
+      "name": "Budapest Defense, Fajarowicz Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e5 3. dxe5 3... Ne4",
+      "count": 1488
+    },
+    {
+      "eco": "A51",
+      "name": "Indian Game, Budapest Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e5",
+      "count": 1388
+    },
+    {
+      "eco": "A52",
+      "name": "Budapest Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e5 3. dxe5 3... Ng4",
+      "count": 1192
+    },
+    {
+      "eco": "A52",
+      "name": "Budapest Defense, Alekhine Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e5 3. dxe5 3... Ng4 4. e4",
+      "count": 460
+    },
+    {
+      "eco": "A52",
+      "name": "Budapest Defense, Alekhine Variation, Abonyi Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e5 3. dxe5 3... Ng4 4. e4 4... Nxe5 5. f4 5... Nec6",
+      "count": 406
+    },
+    {
+      "eco": "A51",
+      "name": "Budapest Defense, Fajarowicz - Steiner Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e5 3. dxe5 3... Ne4 4. Qc2",
+      "count": 102
+    }
+  ]
+}

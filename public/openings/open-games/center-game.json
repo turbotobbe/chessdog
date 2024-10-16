@@ -1,0 +1,28 @@
+{
+  "slug": "center-game",
+  "name": "Center Game",
+  "range": "C22",
+  "lines": [
+    {
+      "eco": "C22",
+      "name": "Center Game, Berger Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. d4 2... exd4 3. Qxd4 3... Nc6 4. Qe3 4... Nf6",
+      "count": 1886
+    },
+    {
+      "eco": "C22",
+      "name": "Center Game, Paulsen Attack Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. d4 2... exd4 3. Qxd4 3... Nc6 4. Qe3",
+      "count": 1621
+    },
+    {
+      "eco": "C22",
+      "name": "Center Game, Normal Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. d4 2... exd4 3. Qxd4 3... Nc6",
+      "count": 513
+    }
+  ]
+}

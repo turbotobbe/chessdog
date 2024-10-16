@@ -1,0 +1,105 @@
+{
+  "slug": "kings-gambit-declined",
+  "name": "King's Gambit Declined",
+  "range": "C30-C32",
+  "lines": [
+    {
+      "eco": "C30",
+      "name": "King's Gambit, Declined, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... Bc5",
+      "count": 1250
+    },
+    {
+      "eco": "C30",
+      "name": "King's Gambit, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4",
+      "count": 915
+    },
+    {
+      "eco": "C30",
+      "name": "King's Gambit, Declined, Classical Variation, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4 2... Bc5 3. Nf3 3... d6 4. c3",
+      "count": 614
+    },
+    {
+      "eco": "C31",
+      "name": "King's Gambit, Falkbeer Countergambit, Nimzowitsch-Marshall Countergambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... d5 3. exd5 3... c6",
+      "count": 516
+    },
+    {
+      "eco": "C32",
+      "name": "King's Gambit, Falkbeer Countergambit, Modern Transfer",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... d5 3. exd5 3... exf4",
+      "count": 425
+    },
+    {
+      "eco": "C30",
+      "name": "King's Gambit, Declined, Queen's Knight Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... Nc6",
+      "count": 401
+    },
+    {
+      "eco": "C32",
+      "name": "King's Gambit, Falkbeer Countergambit, Charousek Gambit, Accepted",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4 2... d5 3. exd5 3... e4 4. d3 4... Nf6 5. dxe4",
+      "count": 345
+    },
+    {
+      "eco": "C31",
+      "name": "King's Gambit, Falkbeer Countergambit, Staunton Line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... d5 3. exd5 3... e4",
+      "count": 233
+    },
+    {
+      "eco": "C31",
+      "name": "King's Gambit, Falkbeer Countergambit, Charousek Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4 2... d5 3. exd5 3... e4 4. d3",
+      "count": 218
+    },
+    {
+      "eco": "C30",
+      "name": "King's Gambit, Declined, Keene Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... Qh4+ 3. g3 3... Qe7",
+      "count": 165
+    },
+    {
+      "eco": "C30",
+      "name": "King's Gambit, Declined, Miles Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... Nc6 3. Nf3 3... f5",
+      "count": 154
+    },
+    {
+      "eco": "C31",
+      "name": "King's Gambit, Falkbeer Countergambit, Blackburne Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4 2... d5 3. Nf3",
+      "count": 132
+    },
+    {
+      "eco": "C31",
+      "name": "King's Gambit, Falkbeer Countergambit, Accepted",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4 2... d5 3. exd5",
+      "count": 125
+    },
+    {
+      "eco": "C30",
+      "name": "King's Gambit, Declined, Petrov's Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... Nf6",
+      "count": 124
+    }
+  ]
+}

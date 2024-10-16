@@ -1,0 +1,168 @@
+{
+  "slug": "kings-gambit-accepted",
+  "name": "King's Gambit Accepted",
+  "range": "C33-C39",
+  "lines": [
+    {
+      "eco": "C36",
+      "name": "King's Gambit, Accepted, Abbazia Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... d5 4. exd5 4... Nf6",
+      "count": 1768
+    },
+    {
+      "eco": "C34",
+      "name": "King's Gambit, Accepted, Fischer Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... d6",
+      "count": 1125
+    },
+    {
+      "eco": "C34",
+      "name": "King's Gambit, Accepted, Schallop Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... Nf6",
+      "count": 609
+    },
+    {
+      "eco": "C33",
+      "name": "King's Gambit, Accepted, Bishop's Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4",
+      "count": 605
+    },
+    {
+      "eco": "C34",
+      "name": "King's Gambit, Accepted, Bonsch-Osmolovsky Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... Ne7",
+      "count": 401
+    },
+    {
+      "eco": "C35",
+      "name": "King's Gambit, Accepted, Cunningham Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... Be7",
+      "count": 377
+    },
+    {
+      "eco": "C33",
+      "name": "King's Gambit, Accepted, Bishop's Gambit, Bogoljubow Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4 3... Nf6 4. Nc3 4... c6",
+      "count": 333
+    },
+    {
+      "eco": "C34",
+      "name": "King's Gambit, Accepted, Becker Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... h6",
+      "count": 279
+    },
+    {
+      "eco": "C34",
+      "name": "King's Gambit, Accepted, MacLeod Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... Nc6",
+      "count": 279
+    },
+    {
+      "eco": "C36",
+      "name": "King's Gambit, Accepted, Modern Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... d5",
+      "count": 269
+    },
+    {
+      "eco": "C35",
+      "name": "King's Gambit, Accepted, Cunningham Defense, McCormick Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... Be7 4. Bc4 4... Nf6",
+      "count": 261
+    },
+    {
+      "eco": "C33",
+      "name": "King's Gambit, Accepted, Bishop's Gambit, Bogoljubow Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4 3... Nf6 4. Nc3",
+      "count": 234
+    },
+    {
+      "eco": "C39",
+      "name": "King's Gambit, Accepted, Kieseritsky Gambit, Kolisch Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. h4 4... g4 5. Ne5 5... d6",
+      "count": 200
+    },
+    {
+      "eco": "C33",
+      "name": "King's Gambit, Accepted, Bishop's Gambit, Bledow Countergambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4 3... d5 4. Bxd5 4... Nf6",
+      "count": 168
+    },
+    {
+      "eco": "C33",
+      "name": "King's Gambit, Accepted, Mason-Keres Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nc3",
+      "count": 160
+    },
+    {
+      "eco": "C34",
+      "name": "King's Gambit, Accepted, King's Knight Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3",
+      "count": 159
+    },
+    {
+      "eco": "C38",
+      "name": "King's Gambit, Accepted, Hanstein Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. Bc4 4... Bg7 5. O-O",
+      "count": 152
+    },
+    {
+      "eco": "C33",
+      "name": "King's Gambit, Accepted, Bishop's Gambit, Cozio Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4 3... Qh4+ 4. Kf1 4... d6",
+      "count": 151
+    },
+    {
+      "eco": "C33",
+      "name": "King's Gambit, Accepted, Bishop's Gambit, Maurian Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4 3... Nc6",
+      "count": 139
+    },
+    {
+      "eco": "C38",
+      "name": "King's Gambit, Accepted, Traditional Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. Bc4 4... Bg7",
+      "count": 127
+    },
+    {
+      "eco": "C38",
+      "name": "King's Gambit, Accepted, Greco Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. Bc4 4... Bg7 5. h4 5... h6 6. d4 6... d6",
+      "count": 116
+    },
+    {
+      "eco": "C39",
+      "name": "King's Gambit, Accepted, Kieseritsky Gambit, Rubinstein Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. h4 4... g4 5. Ne5 5... Nf6 6. d4",
+      "count": 107
+    },
+    {
+      "eco": "C39",
+      "name": "King's Gambit, Accepted, Kieseritsky Gambit, Long Whip",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. h4 4... g4 5. Ne5 5... h5",
+      "count": 102
+    }
+  ]
+}

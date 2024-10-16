@@ -1,0 +1,28 @@
+{
+  "slug": "danish-gambit",
+  "name": "Danish Gambit",
+  "range": "C21",
+  "lines": [
+    {
+      "eco": "C21",
+      "name": "Danish Gambit, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. d4 2... exd4 3. c3",
+      "count": 768
+    },
+    {
+      "eco": "C21",
+      "name": "Danish Gambit, Declined, Sorensen Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. d4 2... exd4 3. c3 3... d5",
+      "count": 557
+    },
+    {
+      "eco": "C21",
+      "name": "Center Game, Accepted",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. d4 2... exd4",
+      "count": 438
+    }
+  ]
+}

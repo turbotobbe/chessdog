@@ -1,0 +1,343 @@
+{
+  "slug": "irregular-openings",
+  "name": "Irregular Openings",
+  "range": "A00",
+  "lines": [
+    {
+      "eco": "A00",
+      "name": "Hungarian Opening, General",
+      "color": "white",
+      "moves": "1. g3",
+      "count": 11018
+    },
+    {
+      "eco": "A00",
+      "name": "Hungarian Opening, Indian Defense",
+      "color": "black",
+      "moves": "1. g3 1... Nf6",
+      "count": 5650
+    },
+    {
+      "eco": "A00",
+      "name": "Polish Opening, General",
+      "color": "white",
+      "moves": "1. b4",
+      "count": 4690
+    },
+    {
+      "eco": "A00",
+      "name": "Van Geet Opening, General",
+      "color": "white",
+      "moves": "1. Nc3",
+      "count": 4265
+    },
+    {
+      "eco": "A00",
+      "name": "Hungarian Opening, Symmetrical Variation",
+      "color": "black",
+      "moves": "1. g3 1... g6",
+      "count": 4147
+    },
+    {
+      "eco": "A00",
+      "name": "Anderssen Opening, General",
+      "color": "white",
+      "moves": "1. a3",
+      "count": 3622
+    },
+    {
+      "eco": "A00",
+      "name": "Van't Kruijs Opening, General",
+      "color": "white",
+      "moves": "1. e3",
+      "count": 3122
+    },
+    {
+      "eco": "A00",
+      "name": "Hungarian Opening, Slav Formation",
+      "color": "black",
+      "moves": "1. g3 1... d5 2. Bg2 2... c6",
+      "count": 2136
+    },
+    {
+      "eco": "A00",
+      "name": "Hungarian Opening, Sicilian Invitation",
+      "color": "black",
+      "moves": "1. g3 1... c5",
+      "count": 2060
+    },
+    {
+      "eco": "A00",
+      "name": "Mieses Opening, General",
+      "color": "white",
+      "moves": "1. d3",
+      "count": 1946
+    },
+    {
+      "eco": "A00",
+      "name": "Van Geet Opening, Caro-Kann Variation",
+      "color": "black",
+      "moves": "1. Nc3 1... d5 2. e4 2... c6",
+      "count": 1706
+    },
+    {
+      "eco": "A00",
+      "name": "Saragossa Opening, General",
+      "color": "white",
+      "moves": "1. c3",
+      "count": 1493
+    },
+    {
+      "eco": "A00",
+      "name": "Grob Opening, General",
+      "color": "white",
+      "moves": "1. g4",
+      "count": 1279
+    },
+    {
+      "eco": "A00",
+      "name": "Kadas Opening, General",
+      "color": "white",
+      "moves": "1. h4",
+      "count": 1141
+    },
+    {
+      "eco": "A00",
+      "name": "Polish Opening,  Czech Defense",
+      "color": "black",
+      "moves": "1. b4 1... e5 2. Bb2 2... d6",
+      "count": 947
+    },
+    {
+      "eco": "A00",
+      "name": "Hungarian Opening, Dutch Defense",
+      "color": "black",
+      "moves": "1. g3 1... f5",
+      "count": 682
+    },
+    {
+      "eco": "A00",
+      "name": "Polish Opening, Outflank Variation",
+      "color": "black",
+      "moves": "1. b4 1... c6",
+      "count": 587
+    },
+    {
+      "eco": "A00",
+      "name": "Clemenz Opening, General",
+      "color": "white",
+      "moves": "1. h3",
+      "count": 567
+    },
+    {
+      "eco": "A00",
+      "name": "Van Geet Opening, Napoleon Attack",
+      "color": "white",
+      "moves": "1. Nc3 1... e5 2. Nf3 2... Nc6 3. d4",
+      "count": 549
+    },
+    {
+      "eco": "A00",
+      "name": "Polish Opening, Bugayev Attack",
+      "color": "white",
+      "moves": "1. b4 1... e5 2. a3",
+      "count": 486
+    },
+    {
+      "eco": "A00",
+      "name": "Polish Opening, King's Indian Variation, Sokolsky Attack",
+      "color": "white",
+      "moves": "1. b4 1... Nf6 2. Bb2 2... g6 3. c4 3... Bg7 4. e3 4... d6 5. Nf3 5... O-O 6. d4",
+      "count": 457
+    },
+    {
+      "eco": "A00",
+      "name": "Grob Opening, Grob Gambit, Fritz Gambit",
+      "color": "white",
+      "moves": "1. g4 1... d5 2. Bg2 2... Bxg4 3. c4",
+      "count": 438
+    },
+    {
+      "eco": "A00",
+      "name": "Mieses Opening, Reversed Rat",
+      "color": "black",
+      "moves": "1. d3 1... e5",
+      "count": 436
+    },
+    {
+      "eco": "A00",
+      "name": "Grob Opening, Grob Gambit, Declined",
+      "color": "black",
+      "moves": "1. g4 1... d5 2. Bg2 2... c6",
+      "count": 417
+    },
+    {
+      "eco": "A00",
+      "name": "Polish Opening, Schiffler-Sokolsky Variation",
+      "color": "white",
+      "moves": "1. b4 1... Nf6 2. Bb2 2... d5 3. e3 3... e6 4. b5",
+      "count": 391
+    },
+    {
+      "eco": "A00",
+      "name": "Polish Opening, King's Indian Variation",
+      "color": "black",
+      "moves": "1. b4 1... Nf6 2. Bb2 2... g6",
+      "count": 375
+    },
+    {
+      "eco": "A00",
+      "name": "Van Geet Opening, Sicilian Two Knights",
+      "color": "white",
+      "moves": "1. Nc3 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4",
+      "count": 355
+    },
+    {
+      "eco": "A00",
+      "name": "Grob Opening, Keene Defense",
+      "color": "black",
+      "moves": "1. g4 1... d5 2. h3 2... e5 3. Bg2 3... c6",
+      "count": 332
+    },
+    {
+      "eco": "A00",
+      "name": "Polish Opening, Baltic Defense",
+      "color": "black",
+      "moves": "1. b4 1... d5 2. Bb2 2... Bf5",
+      "count": 317
+    },
+    {
+      "eco": "A00",
+      "name": "Ware Opening, General",
+      "color": "white",
+      "moves": "1. a4",
+      "count": 303
+    },
+    {
+      "eco": "A00",
+      "name": "Hungarian Opening, Catalan Formation",
+      "color": "black",
+      "moves": "1. g3 1... d5 2. Bg2 2... e6",
+      "count": 302
+    },
+    {
+      "eco": "A00",
+      "name": "Hungarian Opening, Reversed Modern Defense",
+      "color": "black",
+      "moves": "1. g3 1... d5 2. Bg2 2... c5",
+      "count": 290
+    },
+    {
+      "eco": "A00",
+      "name": "Barnes Opening, General",
+      "color": "white",
+      "moves": "1. f3",
+      "count": 251
+    },
+    {
+      "eco": "A00",
+      "name": "Amar Opening, General",
+      "color": "white",
+      "moves": "1. Nh3",
+      "count": 244
+    },
+    {
+      "eco": "A00",
+      "name": "Grob Opening, Grob Gambit",
+      "color": "white",
+      "moves": "1. g4 1... d5 2. Bg2",
+      "count": 221
+    },
+    {
+      "eco": "A00",
+      "name": "Polish Opening, German Defense",
+      "color": "black",
+      "moves": "1. b4 1... d5 2. Bb2 2... Qd6",
+      "count": 217
+    },
+    {
+      "eco": "A00",
+      "name": "Van Geet Opening, Gruenfeld Defense",
+      "color": "black",
+      "moves": "1. Nc3 1... d5 2. e4 2... dxe4 3. Nxe4 3... e5",
+      "count": 185
+    },
+    {
+      "eco": "A00",
+      "name": "Polish Opening, Tartakower Gambit",
+      "color": "white",
+      "moves": "1. b4 1... e5 2. Bb2 2... f6 3. e4",
+      "count": 147
+    },
+    {
+      "eco": "A00",
+      "name": "Van Geet Opening, Reversed Nimzowitsch",
+      "color": "black",
+      "moves": "1. Nc3 1... e5",
+      "count": 145
+    },
+    {
+      "eco": "A00",
+      "name": "Van Geet Opening, Battambang Variation",
+      "color": "white",
+      "moves": "1. Nc3 1... e5 2. a3",
+      "count": 118
+    },
+    {
+      "eco": "A00",
+      "name": "Sodium Attack, General",
+      "color": "white",
+      "moves": "1. Na3",
+      "count": 117
+    },
+    {
+      "eco": "A00",
+      "name": "Hungarian Opening, Reversed Alekhine",
+      "color": "white",
+      "moves": "1. g3 1... e5 2. Nf3",
+      "count": 109
+    },
+    {
+      "eco": "A00",
+      "name": "Polish Opening, Bugayev Advance Variation",
+      "color": "white",
+      "moves": "1. b4 1... e5 2. Bb2 2... f6 3. b5",
+      "count": 108
+    },
+    {
+      "eco": "A00",
+      "name": "Grob Opening, Spike, Hurst Attack",
+      "color": "white",
+      "moves": "1. g4 1... e5 2. Bg2 2... d5 3. c4",
+      "count": 104
+    },
+    {
+      "eco": "A00",
+      "name": "Creepy Crawly Formation, Classical Defense",
+      "color": "black",
+      "moves": "1. a3 1... e5 2. h3 2... d5",
+      "count": 103
+    },
+    {
+      "eco": "A00",
+      "name": "Van Geet Opening, Berlin Gambit",
+      "color": "white",
+      "moves": "1. Nc3 1... Nc6 2. d4 2... d5 3. e4 3... dxe4 4. d5",
+      "count": 101
+    },
+    {
+      "eco": "A00",
+      "name": "Van Geet Opening, Myers Attack",
+      "color": "white",
+      "moves": "1. Nc3 1... g6 2. h4",
+      "count": 101
+    },
+    {
+      "eco": "A00",
+      "name": "Van Geet Opening, Novosibirsk Variation",
+      "color": "white",
+      "moves": "1. Nc3 1... c5 2. d4 2... cxd4 3. Qxd4 3... Nc6 4. Qh4",
+      "count": 101
+    }
+  ]
+}

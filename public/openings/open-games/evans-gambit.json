@@ -1,0 +1,98 @@
+{
+  "slug": "evans-gambit",
+  "name": "Evans' Gambit",
+  "range": "C51-C52",
+  "lines": [
+    {
+      "eco": "C51",
+      "name": "Italian Game, Evans Gambit, Anderssen Variation, Cordel Line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Be7 6. d4 6... Na5",
+      "count": 761
+    },
+    {
+      "eco": "C51",
+      "name": "Italian Game, Evans Gambit, Declined",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bb6",
+      "count": 636
+    },
+    {
+      "eco": "C52",
+      "name": "Italian Game, Evans Gambit, Tartakower Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Ba5 6. d4 6... d6 7. Qb3",
+      "count": 444
+    },
+    {
+      "eco": "C51",
+      "name": "Italian Game, Evans Gambit, Anderssen Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Be7",
+      "count": 443
+    },
+    {
+      "eco": "C52",
+      "name": "Italian Game, Evans Gambit, Pierce Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Ba5 6. d4 6... exd4",
+      "count": 316
+    },
+    {
+      "eco": "C51",
+      "name": "Italian Game, Evans Gambit, MacDonnell Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Bc5",
+      "count": 262
+    },
+    {
+      "eco": "C51",
+      "name": "Italian Game, Evans Gambit, Stone-Ware Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Bd6",
+      "count": 261
+    },
+    {
+      "eco": "C52",
+      "name": "Italian Game, Evans Gambit, Mieses Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Ba5 6. d4 6... exd4 7. O-O 7... Nge7",
+      "count": 242
+    },
+    {
+      "eco": "C52",
+      "name": "Italian Game, Evans Gambit, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Ba5",
+      "count": 189
+    },
+    {
+      "eco": "C51",
+      "name": "Italian Game, Evans Gambit, MacDonnell Defense, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Bc5 6. d4 6... exd4 7. O-O 7... d6 8. cxd4 8... Bb6",
+      "count": 171
+    },
+    {
+      "eco": "C52",
+      "name": "Italian Game, Evans Gambit, Anderssen Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Ba5 6. d4 6... exd4 7. O-O 7... Nf6",
+      "count": 158
+    },
+    {
+      "eco": "C52",
+      "name": "Italian Game, Evans Gambit, Slow Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Ba5 6. O-O",
+      "count": 134
+    },
+    {
+      "eco": "C51",
+      "name": "Italian Game, Evans Gambit, Bronstein Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. b4 4... Bxb4 5. c3 5... Ba5 6. d4 6... d6",
+      "count": 104
+    }
+  ]
+}

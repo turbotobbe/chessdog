@@ -2,21 +2,21 @@ import { ChessGameState } from "@/models/chess";
 import { PgnMove } from "@/utils/pgn";
 
 export interface ChessComGame {
-    url: string;
-    pgn: string;
-    time_control: string;
-    end_time: number;
-    time_class: string;
-    white: {
-        rating: number;
-        result: string;
-        username: string;
-    };
-    black: {
-        rating: number;
-        result: string;
-        username: string;
-    };
+  url: string;
+  pgn: string;
+  time_control: string;
+  end_time: number;
+  time_class: string;
+  white: {
+    rating: number;
+    result: string;
+    username: string;
+  };
+  black: {
+    rating: number;
+    result: string;
+    username: string;
+  };
 }
 
 // types
@@ -220,8 +220,8 @@ export const squareIds: SquareId[] = [
 ];
 
 export const lightSquareIds: SquareId[] = [
-  a2,a4,a6,a8,
-  b1,b3,b5,b7,
+  a2, a4, a6, a8,
+  b1, b3, b5, b7,
   c2, c4, c6, c8,
   d1, d3, d5, d7,
   e2, e4, e6, e8,
@@ -252,12 +252,12 @@ export const pieceFullNames: Record<PieceName, string> = {
 
 export const castlingRookMoves: Record<ColorName, Record<SideName, { fromSquareId: SquareId, toSquareId: SquareId }>> = {
   'w': {
-      kingside: { fromSquareId: h1, toSquareId: f1 },
-      queenside: { fromSquareId: a1, toSquareId: d1 }
+    kingside: { fromSquareId: h1, toSquareId: f1 },
+    queenside: { fromSquareId: a1, toSquareId: d1 }
   },
   'b': {
-      kingside: { fromSquareId: h8, toSquareId: f8 },
-      queenside: { fromSquareId: a8, toSquareId: d8 }
+    kingside: { fromSquareId: h8, toSquareId: f8 },
+    queenside: { fromSquareId: a8, toSquareId: d8 }
   }
 }
 
@@ -269,7 +269,11 @@ export type OpeningCategory = {
   slug: string;
   name: string;
   range: string;
-  openings: Opening[];
+  openings: {
+    slug: string;
+    name: string;
+    range: string;
+  }[];
 }
 
 export type Opening = {

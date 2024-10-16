@@ -1,0 +1,196 @@
+{
+  "slug": "modern-robatsch-defence",
+  "name": "Modern/Robatsch Defence",
+  "range": "B06",
+  "lines": [
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Standard Defense",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... d6",
+      "count": 21715
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, King Pawn Fianchetto",
+      "color": "black",
+      "moves": "1. e4 1... g6",
+      "count": 20013
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Standard Line",
+      "color": "white",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3",
+      "count": 11255
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Pseudo-Austrian Attack",
+      "color": "white",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... d6 4. f4",
+      "count": 6469
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Two Knights Variation",
+      "color": "white",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... d6 4. Nf3",
+      "count": 4804
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Geller's System",
+      "color": "white",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nf3 3... d6 4. c3",
+      "count": 3653
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Two Knights Variation, Suttles Variation",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... d6 4. Nf3 4... c6",
+      "count": 3370
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Three Pawns Attack",
+      "color": "white",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. f4",
+      "count": 1677
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Gurgenidze Defense",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c6 4. f4 4... d5 5. e5 5... h5",
+      "count": 1324
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Lizard Defense, Mittenberger Gambit",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... d5",
+      "count": 947
+    },
+    {
+      "eco": "B06",
+      "name": "Pterodactyl Defense, Western, Rhamporhynchus",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nf3 3... c5 4. dxc5 4... Qa5+",
+      "count": 857
+    },
+    {
+      "eco": "B06",
+      "name": "Pterodactyl Defense, Eastern, Benoni",
+      "color": "white",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. d5",
+      "count": 839
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Bishop Attack",
+      "color": "white",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Bc4",
+      "count": 700
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Norwegian Defense",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Nf6",
+      "count": 659
+    },
+    {
+      "eco": "B06",
+      "name": "Pterodactyl Defense, Eastern, Pterodactyl",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. dxc5 4... Qa5",
+      "count": 406
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Modern Pterodactyl",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5",
+      "count": 365
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Semi-Averbakh Variation, Pterodactyl Variation",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. c4 3... c5 4. Nf3 4... Qa5+",
+      "count": 333
+    },
+    {
+      "eco": "B06",
+      "name": "Pterodactyl Defense, Eastern, Anhanguera",
+      "color": "white",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. Be3",
+      "count": 312
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Improved Maroczy",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nf3 3... c5 4. c4 4... Qb6",
+      "count": 295
+    },
+    {
+      "eco": "B06",
+      "name": "Pterodactyl Defense, Eastern, Pteronodon",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. dxc5 4... Bxc3+ 5. bxc3 5... Qa5",
+      "count": 240
+    },
+    {
+      "eco": "B06",
+      "name": "Pterodactyl Defense, Eastern, Rhamporhynchus",
+      "color": "white",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. dxc5",
+      "count": 199
+    },
+    {
+      "eco": "B06",
+      "name": "Pterodactyl Defense, Sicilian, Anhanguera",
+      "color": "white",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. Nf3 4... Qa5 5. Be3",
+      "count": 199
+    },
+    {
+      "eco": "B06",
+      "name": "Pterodactyl Defense, Sicilian, Rhamporhynchus",
+      "color": "white",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. Nf3 4... Qa5 5. dxc5",
+      "count": 146
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Norwegian Defense, Norwegian Gambit",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Nf6 3. e5 3... Nh5 4. Be2 4... d6",
+      "count": 142
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Mongredien Defense",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... b6",
+      "count": 139
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Pterodactyl Variation",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. Nf3 4... Qa5",
+      "count": 110
+    },
+    {
+      "eco": "B06",
+      "name": "Modern Defense, Mongredien Defense",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nf3 3... b6",
+      "count": 107
+    }
+  ]
+}

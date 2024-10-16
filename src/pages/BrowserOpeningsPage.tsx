@@ -3,13 +3,13 @@ import BoardPaperEl from '@/components/BoardPaperEl';
 import { useChessGame } from '@/contexts/ChessGame';
 import { Box, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, useTheme } from '@mui/material';
 import React, { useEffect } from 'react';
-import rawOpenings from '../data/openings.json';
+import rawOpenings from '../data/openingGroups.json';
 import { parsePgn, PgnGame } from '@/utils/pgn';
-import { OpeningCategory } from '@/types/chess';
+import { Opening, OpeningCategory } from '@/types/chess';
 import { useNavigate, useParams } from 'react-router-dom';
 import HumanPlayer from '@/players/HumanPlayer';
 
-const openingCategories: OpeningCategory[] = rawOpenings as OpeningCategory[];
+const openingCategories: OpeningCategory[] = rawOpenings.openingCategories as OpeningCategory[];
 
 const BrowserOpeningsPage: React.FC = () => {
     const navigate = useNavigate();
@@ -50,12 +50,21 @@ const BrowserOpeningsPage: React.FC = () => {
             handleResetBoard();
             return;
         }
-        const pgnGames: PgnGame[] = opening.lines.map((line) => {
-            return parsePgn(line.moves, line.name)
-        })
-        console.log(pgnGames)
-        // handleResetBoard();
-        handleLoadPgns(pgnGames);
+
+        // Fetch opening data lazily
+        fetch(`/openings/${categoryParam}/${openingParam}.json`)
+            .then(response => response.json())
+            .then((openingData: Opening) => {
+                console.log(openingData);
+                const pgnGames: PgnGame[] = openingData.lines.map((line) => {
+                    return parsePgn(line.moves, line.name)
+                });
+                handleLoadPgns(pgnGames);
+            })
+            .catch(error => {
+                console.error("Error fetching opening data:", error);
+                handleResetBoard();
+            });
     }
 
     const category = openingCategories.find(openingCategory => openingCategory.slug === categoryParam);
@@ -110,7 +119,7 @@ const BrowserOpeningsPage: React.FC = () => {
                     title={title}
                     subtitle="Learn the openings"
                 />
-                <Paper elevation={1} sx={{p:1}}>
+                <Paper elevation={1} sx={{ p: 1 }}>
                     <TableContainer>
                         <Table size='small'>
                             <TableHead>
@@ -118,9 +127,9 @@ const BrowserOpeningsPage: React.FC = () => {
                                     <TableCell>Category</TableCell>
                                     <TableCell>Name</TableCell>
                                     <TableCell>ECO</TableCell>
-                                    <TableCell>White</TableCell>
+                                    {/* <TableCell>White</TableCell>
                                     <TableCell>Black</TableCell>
-                                    <TableCell>Lines</TableCell>
+                                    <TableCell>Lines</TableCell> */}
                                 </TableRow>
                             </TableHead>
                             <TableBody>
@@ -128,21 +137,21 @@ const BrowserOpeningsPage: React.FC = () => {
                                 {openingCategories.map((category) => {
                                     return category.openings.map((opening) => {
                                         const isSelected = category.slug === categoryParam && opening.slug === openingParam;
-                                        const numWhite = opening.lines.filter(line => line.color === 'white').length;
-                                        const numBlack = opening.lines.filter(line => line.color === 'black').length;
+                                        // const numWhite = opening.lines.filter(line => line.color === 'white').length;
+                                        // const numBlack = opening.lines.filter(line => line.color === 'black').length;
                                         return (
                                             <TableRow
                                                 key={opening.slug}
                                                 hover={true}
                                                 selected={isSelected}
-                                                onClick={()=>handleSelectOpening(category.slug, opening.slug)}
-                                                >
+                                                onClick={() => handleSelectOpening(category.slug, opening.slug)}
+                                            >
                                                 <TableCell>{category.name}</TableCell>
                                                 <TableCell>{opening.name}</TableCell>
                                                 <TableCell>{opening.range}</TableCell>
-                                                <TableCell>{numWhite>0 ? numWhite : ''}</TableCell>
+                                                {/* <TableCell>{numWhite>0 ? numWhite : ''}</TableCell>
                                                 <TableCell>{numBlack>0 ? numBlack : ''}</TableCell>
-                                                <TableCell>{opening.lines.length}</TableCell>
+                                                <TableCell>{opening.lines.length}</TableCell> */}
                                             </TableRow>
                                         )
                                     })

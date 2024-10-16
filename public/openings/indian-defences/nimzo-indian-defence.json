@@ -1,0 +1,469 @@
+{
+  "slug": "nimzo-indian-defence",
+  "name": "Nimzo-Indian Defence",
+  "range": "E20-E59",
+  "lines": [
+    {
+      "eco": "E32",
+      "name": "Nimzo-Indian Defense, Classical Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2",
+      "count": 14670
+    },
+    {
+      "eco": "E20",
+      "name": "Nimzo-Indian Defense, Kmoch Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. f3",
+      "count": 7163
+    },
+    {
+      "eco": "E21",
+      "name": "Nimzo-Indian Defense, Three Knights Variation, Duchamp Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Nf3 4... b6",
+      "count": 6661
+    },
+    {
+      "eco": "E46",
+      "name": "Nimzo-Indian Defense, Reshevsky Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Ne2",
+      "count": 6597
+    },
+    {
+      "eco": "E32",
+      "name": "Nimzo-Indian Defense, Classical Variation, Keres Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2 4... O-O 5. a3 5... Bxc3+ 6. Qxc3 6... b6",
+      "count": 5388
+    },
+    {
+      "eco": "E38",
+      "name": "Nimzo-Indian Defense, Classical Variation, Berlin Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2 4... c5",
+      "count": 5196
+    },
+    {
+      "eco": "E54",
+      "name": "Nimzo-Indian Defense, Panov Attack, Main Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... c5 5. Nf3 5... cxd4 6. exd4 6... d5",
+      "count": 4715
+    },
+    {
+      "eco": "E21",
+      "name": "Nimzo-Indian Defense, Three Knights Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Nf3",
+      "count": 4671
+    },
+    {
+      "eco": "E34",
+      "name": "Nimzo-Indian Defense, Classical Variation, Noa Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2 4... d5",
+      "count": 3679
+    },
+    {
+      "eco": "E48",
+      "name": "Nimzo-Indian Defense, Normal Variation, Bishop Attack, Classical Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Bd3 5... d5",
+      "count": 3570
+    },
+    {
+      "eco": "E47",
+      "name": "Nimzo-Indian Defense, Normal Variation, Bishop Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Bd3",
+      "count": 3330
+    },
+    {
+      "eco": "E43",
+      "name": "Nimzo-Indian Defense, St. Petersburg Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... b6",
+      "count": 3330
+    },
+    {
+      "eco": "E30",
+      "name": "Nimzo-Indian Defense, Leningrad Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Bg5",
+      "count": 3236
+    },
+    {
+      "eco": "E20",
+      "name": "Nimzo-Indian Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4",
+      "count": 3051
+    },
+    {
+      "eco": "E44",
+      "name": "Nimzo-Indian Defense, Fischer Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... b6 5. Ne2",
+      "count": 2969
+    },
+    {
+      "eco": "E20",
+      "name": "Nimzo-Indian Defense, Ragozin Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Nf3 4... d5",
+      "count": 2930
+    },
+    {
+      "eco": "E41",
+      "name": "Nimzo-Indian Defense, Huebner Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... c5",
+      "count": 2906
+    },
+    {
+      "eco": "E42",
+      "name": "Nimzo-Indian Defense, Huebner Variation, Rubinstein Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... c5 5. Ne2",
+      "count": 2708
+    },
+    {
+      "eco": "E46",
+      "name": "Nimzo-Indian Defense, Normal Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O",
+      "count": 2488
+    },
+    {
+      "eco": "E24",
+      "name": "Nimzo-Indian Defense, Saemisch Variation, Accelerated",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. a3 4... Bxc3+ 5. bxc3",
+      "count": 2486
+    },
+    {
+      "eco": "E39",
+      "name": "Nimzo-Indian Defense, Classical Variation, Lisitsyn-Bondarevsky Gambit",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2 4... c5 5. dxc5 5... O-O",
+      "count": 2434
+    },
+    {
+      "eco": "E20",
+      "name": "Nimzo-Indian Defense, Romanishin Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. g3",
+      "count": 2223
+    },
+    {
+      "eco": "E40",
+      "name": "Nimzo-Indian Defense, Normal Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3",
+      "count": 2213
+    },
+    {
+      "eco": "E53",
+      "name": "Nimzo-Indian Defense, Normal Variation, Bernstein Defense, Except Gligoric System",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5 6. Bd3 6... c5",
+      "count": 2178
+    },
+    {
+      "eco": "E33",
+      "name": "Nimzo-Indian Defense, Classical Variation, Milner-Barry Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2 4... Nc6 5. Nf3 5... d6",
+      "count": 1935
+    },
+    {
+      "eco": "E54",
+      "name": "Nimzo-Indian Defense, Normal Variation, Gligoric System, Exchange at c4",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5 6. Bd3 6... c5 7. O-O 7... dxc4 8. Bxc4",
+      "count": 1759
+    },
+    {
+      "eco": "E49",
+      "name": "Nimzo-Indian Defense, Normal Variation, Botvinnik System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Bd3 5... d5 6. a3 6... Bxc3+ 7. bxc3",
+      "count": 1657
+    },
+    {
+      "eco": "E59",
+      "name": "Nimzo-Indian Defense, Normal Variation, Bernstein Defense",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5 6. Bd3 6... c5 7. O-O 7... Nc6 8. a3 8... Bxc3 9. bxc3 9... dxc4 10. Bxc4",
+      "count": 1609
+    },
+    {
+      "eco": "E45",
+      "name": "Nimzo-Indian Defense, Normal Variation, Bronstein (Byrne) Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... b6 5. Ne2 5... Ba6",
+      "count": 1514
+    },
+    {
+      "eco": "E36",
+      "name": "Nimzo-Indian Defense, Classical Variation, Noa Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2 4... d5 5. a3",
+      "count": 1474
+    },
+    {
+      "eco": "E52",
+      "name": "Nimzo-Indian Defense, Normal Variation, Schlechter Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5 6. Bd3 6... b6",
+      "count": 1462
+    },
+    {
+      "eco": "E25",
+      "name": "Nimzo-Indian Defense, Saemisch Variation, Keres Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. a3 4... Bxc3+ 5. bxc3 5... c5 6. f3 6... d5 7. cxd5 7... Nxd5 8. dxc5",
+      "count": 1288
+    },
+    {
+      "eco": "E35",
+      "name": "Nimzo-Indian Defense, Classical Variation, Noa Variation, Modern Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2 4... d5 5. cxd5 5... Qxd5",
+      "count": 1276
+    },
+    {
+      "eco": "E41",
+      "name": "Nimzo-Indian Defense, Huebner Variation, Main Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... c5 5. Bd3 5... Nc6 6. Nf3 6... Bxc3+ 7. bxc3 7... d6",
+      "count": 1255
+    },
+    {
+      "eco": "E51",
+      "name": "Nimzo-Indian Defense, Normal Variation, Ragozin Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5",
+      "count": 1226
+    },
+    {
+      "eco": "E58",
+      "name": "Nimzo-Indian Defense, Normal Variation, Bernstein Defense, Exchange Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5 6. Bd3 6... c5 7. O-O 7... Nc6 8. a3 8... Bxc3 9. bxc3",
+      "count": 1178
+    },
+    {
+      "eco": "E55",
+      "name": "Nimzo-Indian Defense, Normal Variation, Gligoric System, Bronstein Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5 6. Bd3 6... c5 7. O-O 7... dxc4 8. Bxc4 8... Nbd7",
+      "count": 1177
+    },
+    {
+      "eco": "E46",
+      "name": "Nimzo-Indian Defense, Simagin Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Ne2 5... d5 6. a3 6... Bd6",
+      "count": 1039
+    },
+    {
+      "eco": "E25",
+      "name": "Nimzo-Indian Defense, Saemisch Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. a3 4... Bxc3+ 5. bxc3 5... c5 6. f3 6... d5 7. cxd5",
+      "count": 947
+    },
+    {
+      "eco": "E56",
+      "name": "Nimzo-Indian Defense, Normal Variation, Gligoric System, Bernstein Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5 6. Bd3 6... c5 7. O-O 7... Nc6",
+      "count": 898
+    },
+    {
+      "eco": "E42",
+      "name": "Nimzo-Indian Defense, Huebner Variation, Rubinstein Variation, Main Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... c5 5. Ne2 5... cxd4 6. exd4 6... O-O 7. a3",
+      "count": 891
+    },
+    {
+      "eco": "E37",
+      "name": "Nimzo-Indian Defense, Classical Variation, Noa Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2 4... d5 5. a3 5... Bxc3+ 6. Qxc3 6... Ne4 7. Qc2",
+      "count": 816
+    },
+    {
+      "eco": "E26",
+      "name": "Nimzo-Indian Defense, Saemisch Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. a3 4... Bxc3+ 5. bxc3 5... c5 6. e3",
+      "count": 787
+    },
+    {
+      "eco": "E22",
+      "name": "Nimzo-Indian Defense, Spielmann Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qb3",
+      "count": 767
+    },
+    {
+      "eco": "E28",
+      "name": "Nimzo-Indian Defense, Saemisch Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. a3 4... Bxc3+ 5. bxc3 5... O-O 6. e3",
+      "count": 735
+    },
+    {
+      "eco": "E33",
+      "name": "Nimzo-Indian Defense, Classical Variation, Zurich Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2 4... Nc6",
+      "count": 728
+    },
+    {
+      "eco": "E21",
+      "name": "Nimzo-Indian Defense, Three Knights Variation, Duchamp Variation, Modern Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Nf3 4... b6 5. Bg5 5... Bb7 6. Nd2",
+      "count": 712
+    },
+    {
+      "eco": "E20",
+      "name": "Nimzo-Indian Defense, Romanishin Variation, English Hybrid",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Nf3 4... c5 5. g3 5... O-O 6. Bg2 6... cxd4 7. Nxd4 7... d5 8. cxd5 8... Nxd5",
+      "count": 685
+    },
+    {
+      "eco": "E32",
+      "name": "Nimzo-Indian Defense, Classical Variation, Vitolinsh-Adorjan Gambit",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2 4... O-O 5. a3 5... Bxc3+ 6. Qxc3 6... b5",
+      "count": 642
+    },
+    {
+      "eco": "E27",
+      "name": "Nimzo-Indian Defense, Saemisch Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. a3 4... Bxc3+ 5. bxc3 5... O-O",
+      "count": 603
+    },
+    {
+      "eco": "E29",
+      "name": "Nimzo-Indian Defense, Saemisch Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. a3 4... Bxc3+ 5. bxc3 5... O-O 6. e3 6... c5 7. Bd3 7... Nc6",
+      "count": 565
+    },
+    {
+      "eco": "E31",
+      "name": "Nimzo-Indian Defense, Leningrad Variation, Benoni Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Bg5 4... h6 5. Bh4 5... c5 6. d5 6... d6",
+      "count": 546
+    },
+    {
+      "eco": "E50",
+      "name": "Nimzo-Indian Defense, Normal Variation, HÃ¼bner Deferred",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... c5",
+      "count": 522
+    },
+    {
+      "eco": "E39",
+      "name": "Nimzo-Indian Defense, Classical Variation, Berlin Variation, Macieja System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qc2 4... c5 5. dxc5 5... O-O 6. a3 6... Bxc5 7. Nf3 7... b6 8. Bf4",
+      "count": 444
+    },
+    {
+      "eco": "E40",
+      "name": "Nimzo-Indian Defense, Normal Variation, Taimanov Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... Nc6",
+      "count": 439
+    },
+    {
+      "eco": "E29",
+      "name": "Nimzo-Indian Defense, Saemisch Variation, Capablanca Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. a3 4... Bxc3+ 5. bxc3 5... O-O 6. e3 6... c5 7. Bd3 7... Nc6 8. Ne2 8... b6 9. e4 9... Ne8",
+      "count": 376
+    },
+    {
+      "eco": "E20",
+      "name": "Nimzo-Indian Defense, Romanishin Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Nf3 4... c5 5. g3 5... O-O 6. Bg2",
+      "count": 375
+    },
+    {
+      "eco": "E46",
+      "name": "Nimzo-Indian Defense, Ragozin Defense",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... Nc6 5. Nf3 5... O-O 6. Bd3 6... d5 7. O-O",
+      "count": 352
+    },
+    {
+      "eco": "E51",
+      "name": "Nimzo-Indian Defense, Normal Variation, Saemisch Deferred",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5 6. a3",
+      "count": 328
+    },
+    {
+      "eco": "E26",
+      "name": "Nimzo-Indian Defense, Saemisch Variation, O'Kelly Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. a3 4... Bxc3+ 5. bxc3 5... c5 6. e3 6... b6",
+      "count": 305
+    },
+    {
+      "eco": "E53",
+      "name": "Nimzo-Indian Defense, Normal Variation, Gligoric System",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5 6. Bd3 6... c5 7. O-O 7... Nbd7",
+      "count": 239
+    },
+    {
+      "eco": "E53",
+      "name": "Nimzo-Indian Defense, Normal Variation, Gligoric System, Keres Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5 6. Bd3 6... c5 7. O-O 7... b6",
+      "count": 233
+    },
+    {
+      "eco": "E30",
+      "name": "Nimzo-Indian Defense, Leningrad Variation, Averbakh Gambit",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Bg5 4... h6 5. Bh4 5... c5 6. d5 6... b5",
+      "count": 208
+    },
+    {
+      "eco": "E23",
+      "name": "Nimzo-Indian Defense, Spielmann Variation, Romanovsky Gambit",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qb3 4... c5 5. dxc5 5... Nc6",
+      "count": 171
+    },
+    {
+      "eco": "E23",
+      "name": "Nimzo-Indian Defense, Spielmann Variation, Karlsbad Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. Qb3 4... c5 5. dxc5 5... Nc6 6. Nf3 6... Ne4 7. Bd2 7... Nxd2",
+      "count": 161
+    },
+    {
+      "eco": "E54",
+      "name": "Nimzo-Indian Defense, Normal Variation, Gligoric System, Smyslov Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nc3 3... Bb4 4. e3 4... O-O 5. Nf3 5... d5 6. Bd3 6... c5 7. O-O 7... dxc4 8. Bxc4 8... Qe7",
+      "count": 133
+    }
+  ]
+}

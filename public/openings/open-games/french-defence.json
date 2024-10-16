@@ -1,0 +1,896 @@
+{
+  "slug": "french-defence",
+  "name": "French Defence",
+  "range": "C00-C19",
+  "lines": [
+    {
+      "eco": "C01",
+      "name": "French Defense, Exchange Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. exd5",
+      "count": 25129
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, King's Indian Attack",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d3",
+      "count": 20234
+    },
+    {
+      "eco": "C11",
+      "name": "French Defense, Steinitz Variation, Boleslavsky Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. e5 4... Nfd7 5. f4 5... c5 6. Nf3 6... Nc6 7. Be3",
+      "count": 14678
+    },
+    {
+      "eco": "C10",
+      "name": "French Defense, Rubinstein Variation, Blackburne Defense",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nd7",
+      "count": 10918
+    },
+    {
+      "eco": "C06",
+      "name": "French Defense, Tarrasch Variation, Closed Variation, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... Nf6 4. e5 4... Nfd7 5. Bd3 5... c5 6. c3 6... Nc6 7. Ne2 7... cxd4 8. cxd4",
+      "count": 10790
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation, Euwe Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. c3 4... Nc6 5. Nf3 5... Bd7",
+      "count": 9426
+    },
+    {
+      "eco": "C03",
+      "name": "French Defense, Tarrasch Variation, Morozevich Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... Be7",
+      "count": 7377
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation, Paulsen Attack",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. c3 4... Nc6 5. Nf3",
+      "count": 7327
+    },
+    {
+      "eco": "C07",
+      "name": "French Defense, Tarrasch Variation, Open System, Euwe-Keres Line",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... c5 4. Ngf3",
+      "count": 7067
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. c3 4... Nc6 5. Nf3 5... Qb6 6. a3",
+      "count": 7045
+    },
+    {
+      "eco": "C05",
+      "name": "French Defense, Tarrasch Variation, Closed Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... Nf6 4. e5 4... Nfd7 5. Bd3 5... c5 6. c3 6... Nc6",
+      "count": 7024
+    },
+    {
+      "eco": "C07",
+      "name": "French Defense, Tarrasch Variation, Chistyakov Defense",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... c5 4. exd5 4... Qxd5",
+      "count": 6497
+    },
+    {
+      "eco": "C16",
+      "name": "French Defense, Winawer Variation, Advance Variation, General",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5",
+      "count": 5830
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Chigorin Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. Qe2",
+      "count": 5773
+    },
+    {
+      "eco": "C10",
+      "name": "French Defense, Rubinstein Variation, Fort Knox Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Bd7 5. Nf3 5... Bc6",
+      "count": 5606
+    },
+    {
+      "eco": "C18",
+      "name": "French Defense, Winawer Variation, Poisoned Pawn Variation, General",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... Bxc3+ 6. bxc3 6... Ne7 7. Qg4",
+      "count": 5570
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Two Knights Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. Nc3 2... d5 3. Nf3",
+      "count": 5538
+    },
+    {
+      "eco": "C05",
+      "name": "French Defense, Tarrasch Variation, Closed Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... Nf6",
+      "count": 5220
+    },
+    {
+      "eco": "C11",
+      "name": "French Defense, Classical Variation, Burn Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... dxe4",
+      "count": 5130
+    },
+    {
+      "eco": "C04",
+      "name": "French Defense, Tarrasch Variation, Guimard Defense, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... Nc6 4. Ngf3 4... Nf6",
+      "count": 5097
+    },
+    {
+      "eco": "C01",
+      "name": "French Defense, Winawer Variation, Delayed Exchange Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. exd5",
+      "count": 5010
+    },
+    {
+      "eco": "C11",
+      "name": "French Defense, Classical Variation, Steinitz Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. e5",
+      "count": 4816
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Schlechter Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Bd3",
+      "count": 4624
+    },
+    {
+      "eco": "C10",
+      "name": "French Defense, Normal Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3",
+      "count": 4362
+    },
+    {
+      "eco": "C01",
+      "name": "French Defense, Exchange Variation, Monte Carlo Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. exd5 3... exd5 4. c4",
+      "count": 4337
+    },
+    {
+      "eco": "C05",
+      "name": "French Defense, Tarrasch Variation, Pawn Center Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... Nf6 4. e5 4... Nfd7 5. f4",
+      "count": 4320
+    },
+    {
+      "eco": "C07",
+      "name": "French Defense, Tarrasch Variation, Open System",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... c5",
+      "count": 4280
+    },
+    {
+      "eco": "C18",
+      "name": "French Defense, Winawer Variation, Advance Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... Bxc3+ 6. bxc3",
+      "count": 4241
+    },
+    {
+      "eco": "C09",
+      "name": "French Defense, Tarrasch Variation, Open System, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... c5 4. exd5 4... exd5 5. Ngf3 5... Nc6",
+      "count": 3959
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation, Wade Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. c3 4... Qb6 5. Nf3 5... Bd7",
+      "count": 3831
+    },
+    {
+      "eco": "C03",
+      "name": "French Defense, Tarrasch Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2",
+      "count": 3793
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation, Milner-Barry Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. c3 4... Nc6 5. Nf3 5... Qb6 6. Bd3",
+      "count": 3717
+    },
+    {
+      "eco": "C14",
+      "name": "French Defense, Classical Variation, Steinitz Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e5 5... Nfd7 6. Bxe7 6... Qxe7 7. f4",
+      "count": 3610
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Knight Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. Nf3",
+      "count": 3561
+    },
+    {
+      "eco": "C19",
+      "name": "French Defense, Winawer Variation, Positional Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... Bxc3+ 6. bxc3 6... Ne7 7. Nf3",
+      "count": 3497
+    },
+    {
+      "eco": "C11",
+      "name": "French Defense, Classical Variation, Burn Variation, Morozevich Line",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... dxe4 5. Nxe4 5... Be7 6. Bxf6 6... gxf6",
+      "count": 3455
+    },
+    {
+      "eco": "C18",
+      "name": "French Defense, Winawer Variation, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... Bxc3+ 6. bxc3 6... Qc7",
+      "count": 3440
+    },
+    {
+      "eco": "C03",
+      "name": "French Defense, Tarrasch Variation, Modern System",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... a6",
+      "count": 3318
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Normal Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4",
+      "count": 3265
+    },
+    {
+      "eco": "C17",
+      "name": "French Defense, Winawer Variation, Bogoljubow Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. Bd2",
+      "count": 3171
+    },
+    {
+      "eco": "C15",
+      "name": "French Defense, Winawer Variation, Alekhine-Maroczy Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. Ne2",
+      "count": 3112
+    },
+    {
+      "eco": "C18",
+      "name": "French Defense, Winawer Variation, Poisoned Pawn Variation, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... Bxc3+ 6. bxc3 6... Ne7 7. Qg4 7... Qc7 8. Qxg7 8... Rg8 9. Qxh7 9... cxd4 10. Ne2",
+      "count": 2886
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. c3",
+      "count": 2784
+    },
+    {
+      "eco": "C07",
+      "name": "French Defense, Tarrasch Variation, Chistyakov Defense, Modern Line",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... c5 4. exd5 4... Qxd5 5. Ngf3 5... cxd4 6. Bc4 6... Qd6 7. O-O 7... Nf6 8. Nb3 8... Nc6 9. Nbxd4 9... Nxd4 10. Nxd4 10... a6",
+      "count": 2619
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation, Lputian Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. c3 4... Nc6 5. Nf3 5... Qb6 6. a3 6... Nh6",
+      "count": 2585
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5",
+      "count": 2367
+    },
+    {
+      "eco": "C10",
+      "name": "French Defense, Rubinstein Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... dxe4",
+      "count": 2153
+    },
+    {
+      "eco": "C16",
+      "name": "French Defense, Winawer Variation, Petrosian Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... Qd7",
+      "count": 2121
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Wing Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. Nf3 2... d5 3. e5 3... c5 4. b4",
+      "count": 2111
+    },
+    {
+      "eco": "C18",
+      "name": "French Defense, Winawer Variation, Advance Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... Bxc3+ 6. bxc3 6... Ne7",
+      "count": 2094
+    },
+    {
+      "eco": "C11",
+      "name": "French Defense, Steinitz Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. e5 4... Nfd7 5. f4 5... c5 6. Nf3",
+      "count": 2052
+    },
+    {
+      "eco": "C15",
+      "name": "French Defense, Winawer Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4",
+      "count": 2049
+    },
+    {
+      "eco": "C12",
+      "name": "French Defense, MacCutcheon Variation, Lasker Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Bb4 5. e5 5... h6 6. Bd2 6... Bxc3",
+      "count": 2014
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Horwitz Attack, Papa-Ticulat Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. b3 2... d5 3. Bb2",
+      "count": 1963
+    },
+    {
+      "eco": "C18",
+      "name": "French Defense, Winawer Variation, Retreat  Variation, Armenian Line",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... Ba5 6. b4 6... cxd4",
+      "count": 1840
+    },
+    {
+      "eco": "C15",
+      "name": "French Defense, Winawer Variation, Winckelmann-Riemer Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. a3",
+      "count": 1657
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... e6",
+      "count": 1574
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation, Nimzowitsch System",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. Nf3",
+      "count": 1518
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. c3 4... Nc6",
+      "count": 1479
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Queen's Knight",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. Nc3",
+      "count": 1434
+    },
+    {
+      "eco": "C12",
+      "name": "French Defense, MacCutcheon Variation, Lasker Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Bb4 5. e5 5... h6 6. Bd2 6... Bxc3 7. bxc3 7... Ne4 8. Qg4 8... g6",
+      "count": 1359
+    },
+    {
+      "eco": "C19",
+      "name": "French Defense, Winawer Variation, Advance Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... Bxc3+ 6. bxc3 6... Ne7 7. a4",
+      "count": 1263
+    },
+    {
+      "eco": "C03",
+      "name": "French Defense, Tarrasch Variation, Guimard Defense",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... Nc6",
+      "count": 1252
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, La Bourdonnais Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. f4",
+      "count": 1237
+    },
+    {
+      "eco": "C07",
+      "name": "French Defense, Tarrasch Variation, Open System, Suechting Line",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... c5 4. c3",
+      "count": 1197
+    },
+    {
+      "eco": "C15",
+      "name": "French Defense, Winawer Variation, Alekhine Gambit, Kan Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. Ne2 4... dxe4 5. a3 5... Bxc3+ 6. Nxc3 6... Nc6",
+      "count": 1139
+    },
+    {
+      "eco": "C13",
+      "name": "French Defense, Alekhine-Chatard Attack",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e5 5... Nfd7 6. h4",
+      "count": 1102
+    },
+    {
+      "eco": "C05",
+      "name": "French Defense, Tarrasch Variation, Botvinnik Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... Nf6 4. e5 4... Nfd7 5. Bd3 5... c5 6. c3 6... b6",
+      "count": 1055
+    },
+    {
+      "eco": "C11",
+      "name": "French Defense, Classical Variation, Burn Variation, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... dxe4 5. Nxe4 5... Be7 6. Bxf6 6... Bxf6 7. Nf3 7... O-O",
+      "count": 992
+    },
+    {
+      "eco": "C11",
+      "name": "French Defense, Classical Variation, Delayed Exchange Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. exd5",
+      "count": 919
+    },
+    {
+      "eco": "C12",
+      "name": "French Defense, MacCutcheon Variation, Janowski Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Bb4 5. e5 5... h6 6. Be3",
+      "count": 817
+    },
+    {
+      "eco": "C13",
+      "name": "French Defense, Alekhine-Chatard Attack, Maroczy Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e5 5... Nfd7 6. h4 6... a6",
+      "count": 755
+    },
+    {
+      "eco": "C18",
+      "name": "French Defense, Winawer Variation, Retreat  Variation, General",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... Ba5",
+      "count": 744
+    },
+    {
+      "eco": "C17",
+      "name": "French Defense, Winawer Variation, Advance Variation, Moscow Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. Qg4",
+      "count": 690
+    },
+    {
+      "eco": "C12",
+      "name": "French Defense, MacCutcheon Variation, Exchange Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Bb4 5. exd5",
+      "count": 671
+    },
+    {
+      "eco": "C00",
+      "name": "Queen Pawn Game, Franco-Sicilian Defense",
+      "color": "black",
+      "moves": "1. d4 1... e6 2. e4 2... c5",
+      "count": 660
+    },
+    {
+      "eco": "C13",
+      "name": "French Defense, Alekhine-Chatard Attack, Albin-Chatard Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e5 5... Nfd7 6. h4 6... Bxg5 7. hxg5 7... Qxg5",
+      "count": 657
+    },
+    {
+      "eco": "C00",
+      "name": "Rat Defense, Small Center Defense",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... e6",
+      "count": 657
+    },
+    {
+      "eco": "C17",
+      "name": "French Defense, Winawer Variation, Advance Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5",
+      "count": 594
+    },
+    {
+      "eco": "C11",
+      "name": "French Defense, Classical Variation, Swiss Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bd3",
+      "count": 560
+    },
+    {
+      "eco": "C01",
+      "name": "French Defense, Exchange Variation, Svenonius Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. exd5 3... exd5 4. Nc3 4... Nf6 5. Bg5",
+      "count": 560
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Horwitz Attack",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. b3",
+      "count": 508
+    },
+    {
+      "eco": "C12",
+      "name": "French Defense, MacCutcheon Variation, Wolf Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Bb4 5. Ne2",
+      "count": 501
+    },
+    {
+      "eco": "C13",
+      "name": "French Defense, Alekhine-Chatard Attack, Breyer Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e5 5... Nfd7 6. h4 6... c5",
+      "count": 492
+    },
+    {
+      "eco": "C12",
+      "name": "French Defense, MacCutcheon Variation, Dr. Olland (Dutch) Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Bb4 5. e5 5... h6 6. Bc1",
+      "count": 467
+    },
+    {
+      "eco": "C15",
+      "name": "French Defense, Winawer Variation, Fingerslip Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. Bd2",
+      "count": 427
+    },
+    {
+      "eco": "C06",
+      "name": "French Defense, Tarrasch Variation, Leningrad Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... Nf6 4. e5 4... Nfd7 5. Bd3 5... c5 6. c3 6... Nc6 7. Ne2 7... cxd4 8. cxd4 8... Nb6",
+      "count": 392
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation, Nimzowitsch Attack",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. Qg4",
+      "count": 389
+    },
+    {
+      "eco": "C13",
+      "name": "French Defense, Classical Variation, Richter Attack",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. Bxf6",
+      "count": 386
+    },
+    {
+      "eco": "C12",
+      "name": "French Defense, MacCutcheon Variation, Chigorin Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Bb4 5. e5 5... h6 6. exf6",
+      "count": 362
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Reti-Spielmann Attack",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. g3",
+      "count": 349
+    },
+    {
+      "eco": "C11",
+      "name": "French Defense, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6",
+      "count": 348
+    },
+    {
+      "eco": "C14",
+      "name": "French Defense, Classical Variation, Rubinstein Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e5 5... Nfd7 6. Bxe7 6... Qxe7 7. Qd2",
+      "count": 331
+    },
+    {
+      "eco": "C14",
+      "name": "French Defense, Classical Variation, Alapin Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e5 5... Nfd7 6. Bxe7 6... Qxe7 7. Nb5",
+      "count": 314
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation, Nimzowitsch Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. Qg4 4... cxd4 5. Nf3",
+      "count": 309
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Alapin Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Be3",
+      "count": 308
+    },
+    {
+      "eco": "C13",
+      "name": "French Defense, Classical Variation, Tartakower Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e5 5... Ne4",
+      "count": 308
+    },
+    {
+      "eco": "C15",
+      "name": "French Defense, Winawer Variation, Alekhine Gambit, Accepted",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. Ne2 4... dxe4 5. a3 5... Bxc3+",
+      "count": 307
+    },
+    {
+      "eco": "C18",
+      "name": "French Defense, Winawer Variation, Maroczy-Wallis Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... cxd4 6. axb4 6... dxc3",
+      "count": 298
+    },
+    {
+      "eco": "C13",
+      "name": "French Defense, Classical Variation, Normal Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7",
+      "count": 281
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Steinitz Attack",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. e5",
+      "count": 279
+    },
+    {
+      "eco": "C10",
+      "name": "French Defense, Rubinstein Variation, Maric Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Qd5",
+      "count": 274
+    },
+    {
+      "eco": "C14",
+      "name": "French Defense, Classical Variation, General Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e5 5... Nfd7 6. Bxe7 6... Qxe7",
+      "count": 267
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation, Ruisdonk Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... c5 4. Nf3 4... cxd4 5. Bd3",
+      "count": 246
+    },
+    {
+      "eco": "C02",
+      "name": "French Defense, Advance Variation, Extended Bishop Swap",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. e5 3... Bd7",
+      "count": 239
+    },
+    {
+      "eco": "C01",
+      "name": "French Defense, Winawer Variation, Exchange Variation, Canal Attack",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. exd5 4... exd5 5. Bd3 5... Ne7 6. Qh5",
+      "count": 223
+    },
+    {
+      "eco": "C13",
+      "name": "French Defense, Alekhine-Chatard Attack, Spielmann Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e5 5... Nfd7 6. h4 6... O-O",
+      "count": 220
+    },
+    {
+      "eco": "C14",
+      "name": "French Defense, Classical Variation, Pollock Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e5 5... Nfd7 6. Bxe7 6... Qxe7 7. Qg4",
+      "count": 217
+    },
+    {
+      "eco": "C12",
+      "name": "French Defense, MacCutcheon Variation, Bernstein Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Bb4 5. e5 5... h6 6. Bh4",
+      "count": 207
+    },
+    {
+      "eco": "C18",
+      "name": "French Defense, Winawer Variation, Poisoned Pawn Variation, Paoli Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... Bxc3+ 6. bxc3 6... Ne7 7. Qg4 7... Qc7 8. Qxg7 8... Rg8 9. Qxh7 9... cxd4 10. Kd1",
+      "count": 204
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Orthoschnapp Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. c4 2... d5 3. cxd5 3... exd5 4. Qb3",
+      "count": 184
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Reversed Philidor Formation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d3 2... d5 3. Nd2 3... Nf6 4. Ngf3 4... Nc6 5. Be2",
+      "count": 183
+    },
+    {
+      "eco": "C15",
+      "name": "French Defense, Winawer Variation, Fingerslip Variation, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. Bd2 4... dxe4 5. Qg4 5... Nf6 6. Qxg7 6... Rg8 7. Qh6",
+      "count": 183
+    },
+    {
+      "eco": "C03",
+      "name": "French Defense, Tarrasch Variation, Haberditz Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... f5",
+      "count": 174
+    },
+    {
+      "eco": "C17",
+      "name": "French Defense, Winawer Variation, Bogoljubow Variation, Icelandic Defense",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. Bd2 5... Ne7 6. f4",
+      "count": 171
+    },
+    {
+      "eco": "C12",
+      "name": "French Defense, MacCutcheon Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Bb4",
+      "count": 164
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Pelikan Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. Nc3 2... d5 3. f4",
+      "count": 161
+    },
+    {
+      "eco": "C01",
+      "name": "French Defense, Mediterranean Defense",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... Nf6",
+      "count": 159
+    },
+    {
+      "eco": "C10",
+      "name": "French Defense, Rubinstein Variation, Capablanca Line",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... dxe4 4. Nxe4 4... Nd7 5. Nf3 5... Ngf6 6. Nxf6+ 6... Nxf6 7. Ne5",
+      "count": 159
+    },
+    {
+      "eco": "C15",
+      "name": "French Defense, Winawer Variation, Fingerslip Variation, Kunin Double Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. Bd2 4... dxe4 5. Qg4 5... Qxd4",
+      "count": 159
+    },
+    {
+      "eco": "C13",
+      "name": "French Defense, Classical Variation, Richter Attack",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. Bxf6 5... Bxf6 6. e5 6... Be7 7. Qg4",
+      "count": 146
+    },
+    {
+      "eco": "C11",
+      "name": "French Defense, Steinitz Variation, Gledhill Attack",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. e5 4... Nfd7 5. Qg4",
+      "count": 142
+    },
+    {
+      "eco": "C08",
+      "name": "French Defense, Tarrasch Variation, Open System, Advance Line",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nd2 3... c5 4. exd5 4... exd5 5. Ngf3 5... c4",
+      "count": 135
+    },
+    {
+      "eco": "C17",
+      "name": "French Defense, Winawer Variation, Advance Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3",
+      "count": 134
+    },
+    {
+      "eco": "C12",
+      "name": "French Defense, MacCutcheon Variation, Tartakower Variation",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Nf6 4. Bg5 4... Bb4 5. e5 5... h6 6. Bd2 6... Nfd7",
+      "count": 122
+    },
+    {
+      "eco": "C00",
+      "name": "French Defense, Diemer-Duhm Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. c4 3... dxe4",
+      "count": 115
+    },
+    {
+      "eco": "C17",
+      "name": "French Defense, Winawer Variation, Advance Variation",
+      "color": "white",
+      "moves": "1. e4 1... e6 2. d4 2... d5 3. Nc3 3... Bb4 4. e5 4... c5 5. a3 5... cxd4 6. axb4 6... dxc3 7. Nf3",
+      "count": 108
+    }
+  ]
+}

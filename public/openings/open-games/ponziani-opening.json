@@ -1,0 +1,189 @@
+{
+  "slug": "ponziani-opening",
+  "name": "Ponziani Opening",
+  "range": "C44",
+  "lines": [
+    {
+      "eco": "C44",
+      "name": "Ponziani Opening, Jaenisch Counterattack",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. c3 3... Nf6",
+      "count": 2360
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, Scotch Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Bc4",
+      "count": 2179
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4",
+      "count": 1521
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, Scotch Gambit, GÃ¶ring Gambit, Declined",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. c3 4... d5",
+      "count": 934
+    },
+    {
+      "eco": "C44",
+      "name": "Ponziani Opening, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. c3",
+      "count": 886
+    },
+    {
+      "eco": "C44",
+      "name": "King's Knight Opening, Normal Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6",
+      "count": 876
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, GÃ¶ring Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. c3",
+      "count": 788
+    },
+    {
+      "eco": "C44",
+      "name": "King Pawn Game, Tayler Opening, Inverted Hanham",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Be2 3... Nf6 4. d3 4... d5 5. Nbd2",
+      "count": 685
+    },
+    {
+      "eco": "C44",
+      "name": "King's Knight Opening, Konstantinopolsky Opening",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. g3",
+      "count": 641
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, Scotch Gambit, London Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Bc4 4... Bb4+",
+      "count": 554
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, Scotch Gambit, Saratt Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Bc4 4... Bc5 5. Ng5",
+      "count": 444
+    },
+    {
+      "eco": "C44",
+      "name": "King Pawn Game, Tayler Opening",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Be2",
+      "count": 440
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, GÃ¶ring Gambit, Double Pawn Sacrifice",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. c3 4... dxc3 5. Bc4",
+      "count": 428
+    },
+    {
+      "eco": "C44",
+      "name": "Ponziani Opening, Steinitz Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. c3 3... d5 4. Qa4 4... f6",
+      "count": 413
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, Schmid Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Nxd4 4... Nf6 5. Nc3 5... Nxe4",
+      "count": 317
+    },
+    {
+      "eco": "C44",
+      "name": "Ponziani Opening, Caro Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. c3 3... d5 4. Qa4 4... Bd7",
+      "count": 216
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, GÃ¶ring Gambit, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. c3 4... dxc3 5. Nxc3 5... Bb4",
+      "count": 196
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, Scotch Gambit, Dubois Reti Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Bc4 4... Nf6",
+      "count": 189
+    },
+    {
+      "eco": "C44",
+      "name": "Ponziani Opening, Vukovic Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. c3 3... Nf6 4. d4 4... Nxe4 5. d5 5... Bc5",
+      "count": 126
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, GÃ¶ring Gambit, Bardeleben Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. c3 4... dxc3 5. Nxc3 5... Bb4 6. Bc4 6... Nf6",
+      "count": 121
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, Scotch Gambit, Cochrane-Anderssen Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Bc4 4... Bc5 5. O-O 5... d6 6. c3 6... Bg4",
+      "count": 120
+    },
+    {
+      "eco": "C44",
+      "name": "King Pawn Game, Dresden Opening",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. c4",
+      "count": 119
+    },
+    {
+      "eco": "C44",
+      "name": "Ponziani Opening, Ponziani Countergambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. c3 3... f5",
+      "count": 119
+    },
+    {
+      "eco": "C44",
+      "name": "Ponziani Opening, Spanish Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. c3 3... d5 4. Bb5",
+      "count": 105
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, Lolli Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... Nxd4",
+      "count": 102
+    },
+    {
+      "eco": "C44",
+      "name": "Scotch Game, Relfsson Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. d4 3... exd4 4. Bb5",
+      "count": 102
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "slug": "pirc-defence",
+  "name": "Pirc Defence",
+  "range": "B07-B09",
+  "lines": [
+    {
+      "eco": "B07",
+      "name": "Pirc Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6",
+      "count": 27097
+    },
+    {
+      "eco": "B07",
+      "name": "Czech Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... c6",
+      "count": 10837
+    },
+    {
+      "eco": "B08",
+      "name": "Pirc Defense, Classical Variation, Two Knights System",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7",
+      "count": 5775
+    },
+    {
+      "eco": "B09",
+      "name": "Pirc Defense, Austrian Attack, Weiss Variation",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... O-O 6. Bd3",
+      "count": 5697
+    },
+    {
+      "eco": "B07",
+      "name": "Pirc Defense, Byrne Variation",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Bg5",
+      "count": 4597
+    },
+    {
+      "eco": "B08",
+      "name": "Pirc Defense, Classical Variation, Schlechter Variation",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7 5. h3",
+      "count": 4579
+    },
+    {
+      "eco": "B08",
+      "name": "Pirc Defense, Classical Variation, Quiet System, Czech Defense",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7 5. Be2 5... O-O 6. O-O 6... c6",
+      "count": 4020
+    },
+    {
+      "eco": "B08",
+      "name": "Pirc Defense, Classical Variation, Quiet System",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7 5. Be2",
+      "count": 3836
+    },
+    {
+      "eco": "B09",
+      "name": "Pirc Defense, Austrian Attack, Dragon Formation",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... c5",
+      "count": 3590
+    },
+    {
+      "eco": "B07",
+      "name": "Lion Defense, Lion's Jaw",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. f3",
+      "count": 3008
+    },
+    {
+      "eco": "B08",
+      "name": "Pirc Defense, Classical Variation, Quiet System, Parma Defense",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7 5. Be2 5... O-O 6. O-O 6... Bg4",
+      "count": 2199
+    },
+    {
+      "eco": "B07",
+      "name": "Pirc Defense, 150 Attack",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Be3 4... c6 5. Qd2",
+      "count": 1832
+    },
+    {
+      "eco": "B09",
+      "name": "Pirc Defense, Austrian Attack",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4",
+      "count": 1582
+    },
+    {
+      "eco": "B07",
+      "name": "Pirc Defense, Kholmov System",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Bc4",
+      "count": 1395
+    },
+    {
+      "eco": "B09",
+      "name": "Pirc Defense, Austrian Attack",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... O-O",
+      "count": 1389
+    },
+    {
+      "eco": "B07",
+      "name": "Rat Defense, Accelerated Gurgenidze",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... d6 3. Nc3 3... c6",
+      "count": 1386
+    },
+    {
+      "eco": "B08",
+      "name": "Pirc Defense, Classical Variation, Quiet System, Chigorin Line",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7 5. Be2 5... O-O 6. O-O 6... Nc6",
+      "count": 1373
+    },
+    {
+      "eco": "B07",
+      "name": "Lion Defense, Anti-Philidor, Lion's Cave",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... Nbd7 4. f4 4... e5",
+      "count": 1271
+    },
+    {
+      "eco": "B09",
+      "name": "Pirc Defense, Austrian Attack, Unzicker Attack",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... O-O 6. e5",
+      "count": 1186
+    },
+    {
+      "eco": "B09",
+      "name": "Pirc Defense, Austrian Attack, Kurajica Variation",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... O-O 6. Be3",
+      "count": 1124
+    },
+    {
+      "eco": "B07",
+      "name": "Rat Defense, Harmonist",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. f4",
+      "count": 1092
+    },
+    {
+      "eco": "B07",
+      "name": "Rat Defense, Antal Defense",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... Nd7",
+      "count": 937
+    },
+    {
+      "eco": "B07",
+      "name": "Pirc Defense, Bayonet Attack",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Be2 4... Bg7 5. h4",
+      "count": 883
+    },
+    {
+      "eco": "B07",
+      "name": "Pirc Defense, 150 Attack, Sveshnikov-Jansa Attack",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Be3 4... c6 5. h3",
+      "count": 850
+    },
+    {
+      "eco": "B07",
+      "name": "King Pawn Game, Maroczy Defense",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... e5",
+      "count": 795
+    },
+    {
+      "eco": "B07",
+      "name": "Pirc Defense, Classical Variation",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Be2",
+      "count": 781
+    },
+    {
+      "eco": "B07",
+      "name": "Pirc Defense, Classical Variation",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3",
+      "count": 470
+    },
+    {
+      "eco": "B07",
+      "name": "Lion Defense, Bayonet Attack",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... Nbd7 4. g4",
+      "count": 394
+    },
+    {
+      "eco": "B09",
+      "name": "Pirc Defense, Austrian Attack, Unzicker Attack, Bronstein Variation",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... O-O 6. e5 6... Nfd7 7. h4",
+      "count": 332
+    },
+    {
+      "eco": "B07",
+      "name": "Pirc Defense, Chinese Variation",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Be2 4... Bg7 5. g4",
+      "count": 257
+    },
+    {
+      "eco": "B07",
+      "name": "Rat Defense, Balogh Defense",
+      "color": "black",
+      "moves": "1. e4 1... d6 2. d4 2... f5",
+      "count": 160
+    },
+    {
+      "eco": "B07",
+      "name": "Lion Defense, Anti-Philidor",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... Nbd7 4. f4",
+      "count": 154
+    },
+    {
+      "eco": "B09",
+      "name": "Pirc Defense, Austrian Attack, Ljubojevic Variation",
+      "color": "white",
+      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Bc4",
+      "count": 133
+    }
+  ]
+}

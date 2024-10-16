@@ -1,0 +1,231 @@
+{
+  "slug": "two-knights-defence",
+  "name": "Two Knights' Defence",
+  "range": "C55-C59",
+  "lines": [
+    {
+      "eco": "C55",
+      "name": "Italian Game, Two Knights Defense, Modern Bishop's Opening",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d3",
+      "count": 17468
+    },
+    {
+      "eco": "C58",
+      "name": "Italian Game, Two Knights Defense, Polerio Defense, Bishop Check line",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Na5 6. Bb5+",
+      "count": 2729
+    },
+    {
+      "eco": "C56",
+      "name": "Italian Game, Scotch Gambit, Anderssen Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Nxe4 6. Re1 6... d5 7. Bxd5 7... Qxd5 8. Nc3",
+      "count": 2482
+    },
+    {
+      "eco": "C59",
+      "name": "Italian Game, Two Knights Defense, Polerio Defense, Suhle Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Na5 6. Bb5+ 6... c6 7. dxc6 7... bxc6 8. Be2 8... h6",
+      "count": 1442
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Deutz Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. O-O 4... Nf6 5. d4",
+      "count": 1350
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Two Knights Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6",
+      "count": 1098
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Anti-Fried Liver Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... h6",
+      "count": 1087
+    },
+    {
+      "eco": "C58",
+      "name": "Italian Game, Two Knights Defense, Polerio Defense, Bogoljubow Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Na5 6. Bb5+ 6... c6 7. dxc6 7... bxc6 8. Qf3",
+      "count": 1072
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Scotch Gambit, Max Lange Attack",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Bc5",
+      "count": 794
+    },
+    {
+      "eco": "C57",
+      "name": "Italian Game, Two Knights Defense, Fritz Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Nd4",
+      "count": 703
+    },
+    {
+      "eco": "C57",
+      "name": "Italian Game, Two Knights Defense, Ulvestad Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... b5",
+      "count": 702
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Two Knights Defense, Perreux Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. Ng5",
+      "count": 626
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Scotch Gambit, Janowski Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... d6",
+      "count": 503
+    },
+    {
+      "eco": "C57",
+      "name": "Italian Game, Two Knights Defense, Fried Liver Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Nxd5 6. Nxf7",
+      "count": 437
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Scotch Gambit, De Riviere Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Be7",
+      "count": 369
+    },
+    {
+      "eco": "C58",
+      "name": "Italian Game, Two Knights Defense, Polerio Defense, Kieseritsky Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Na5 6. d3",
+      "count": 324
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Scotch Gambit, Walbrodt-Baird Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Bc5 6. c3",
+      "count": 314
+    },
+    {
+      "eco": "C57",
+      "name": "Italian Game, Two Knights Defense, Traxler Counterattack, Bishop sac line",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... Bc5 5. Bxf7+",
+      "count": 291
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Scotch Gambit, Max Lange Attack, Long Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Bc5 6. e5 6... d5 7. exf6 7... dxc4 8. Re1+ 8... Be6 9. Ng5 9... Qd5 10. Nc3 10... Qf5 11. Nce4",
+      "count": 272
+    },
+    {
+      "eco": "C56",
+      "name": "Italian Game, Scotch Gambit, Nakhmanson Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Nxe4 6. Nc3",
+      "count": 222
+    },
+    {
+      "eco": "C57",
+      "name": "Italian Game, Two Knights Defense, Knight Attack, Normal Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5",
+      "count": 200
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Scotch Gambit, Declined",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... d6",
+      "count": 185
+    },
+    {
+      "eco": "C57",
+      "name": "Italian Game, Two Knights Defense, Traxler Counterattack, Knight sac line",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... Bc5 5. Nxf7",
+      "count": 165
+    },
+    {
+      "eco": "C56",
+      "name": "Italian Game, Scotch Gambit, Max Lange Attack, Spielmann Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Bc5 6. e5 6... Ng4",
+      "count": 135
+    },
+    {
+      "eco": "C56",
+      "name": "Italian Game, Scotch Gambit, Canal Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Nxe4 6. Re1 6... d5 7. Nc3",
+      "count": 124
+    },
+    {
+      "eco": "C56",
+      "name": "Italian Game, Scotch Gambit, Anderssen Attack, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Nxe4 6. Re1 6... d5 7. Bxd5 7... Qxd5 8. Nc3 8... Qa5 9. Nxe4 9... Be6 10. Bd2 10... Qd5 11. Bg5",
+      "count": 116
+    },
+    {
+      "eco": "C57",
+      "name": "Italian Game, Two Knights Defense, Polerio Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Na5",
+      "count": 114
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Scotch Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O",
+      "count": 111
+    },
+    {
+      "eco": "C55",
+      "name": "Italian Game, Two Knights Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... Nxe4",
+      "count": 111
+    },
+    {
+      "eco": "C57",
+      "name": "Italian Game, Two Knights Defense, Knight Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5",
+      "count": 107
+    },
+    {
+      "eco": "C57",
+      "name": "Italian Game, Two Knights Defense, Lolli Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Nxd5 6. d4",
+      "count": 104
+    },
+    {
+      "eco": "C56",
+      "name": "Italian Game, Scotch Gambit, Double Gambit Accepted",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Nxe4",
+      "count": 101
+    }
+  ]
+}

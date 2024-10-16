@@ -1,0 +1,56 @@
+{
+  "slug": "bogo-indian-defence",
+  "name": "Bogo-Indian Defence",
+  "range": "E11",
+  "lines": [
+    {
+      "eco": "E11",
+      "name": "Bogo-Indian Defense, GrÃ¼nfeld Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Nbd2",
+      "count": 12120
+    },
+    {
+      "eco": "E11",
+      "name": "Bogo-Indian Defense, Nimzowitsch Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Bd2 4... Qe7",
+      "count": 10432
+    },
+    {
+      "eco": "E11",
+      "name": "Bogo-Indian Defense, Wade-Smyslov Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Bd2 4... a5",
+      "count": 4106
+    },
+    {
+      "eco": "E11",
+      "name": "Bogo-Indian Defense, Vitolinsh Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Bd2 4... c5",
+      "count": 3204
+    },
+    {
+      "eco": "E11",
+      "name": "Bogo-Indian Defense, Exchange Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Bd2 4... Bxd2+",
+      "count": 2501
+    },
+    {
+      "eco": "E11",
+      "name": "Queen's Indian Defense, Petrosian Variation, Farago Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. a3 4... Ba6 5. Qc2 5... Bb7",
+      "count": 1803
+    },
+    {
+      "eco": "E11",
+      "name": "Bogo-Indian Defense, Retreat Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Bd2 4... Be7",
+      "count": 479
+    }
+  ]
+}

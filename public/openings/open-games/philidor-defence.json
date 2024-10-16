@@ -1,0 +1,175 @@
+{
+  "slug": "philidor-defence",
+  "name": "Philidor Defence",
+  "range": "C41",
+  "lines": [
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Lion Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Nc3 4... Ngf6",
+      "count": 17320
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Exchange Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... exd4 4. Nxd4 4... Nf6",
+      "count": 5714
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6",
+      "count": 4408
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Hanham Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7",
+      "count": 1544
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Lion Variation, Shirov Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Nc3 4... Ngf6 5. g4",
+      "count": 1114
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Exchange Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... exd4",
+      "count": 1064
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4",
+      "count": 1050
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Larsen Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... exd4 4. Nxd4 4... g6",
+      "count": 893
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Exchange Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... exd4 4. Nxd4",
+      "count": 624
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Hanham Variation, Krause Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Bc4 4... c6 5. O-O",
+      "count": 363
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Lion Variation, Lion's Claw II",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Nc3 4... Ngf6 5. Bc4 5... Be7 6. O-O 6... h6",
+      "count": 340
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Hanham Variation, Schlechter Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Bc4 4... c6 5. Nc3",
+      "count": 336
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Nimzowitsch Variation, Rellstab Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6 4. dxe5 4... Nxe4 5. Qd5",
+      "count": 276
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Hanham Variation, Steiner Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Bc4 4... c6 5. O-O 5... Be7 6. dxe5",
+      "count": 273
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Lion Variation, Bishop Sac",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6 4. Nc3 4... Nbd7 5. Bc4 5... Be7 6. Bxf7+",
+      "count": 207
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Nimzowitsch Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6 4. dxe5",
+      "count": 197
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Nimzowitsch Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6",
+      "count": 191
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Lion Variation, Sozin Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6 4. Nc3 4... Nbd7 5. Bc4 5... Be7 6. O-O 6... O-O 7. Qe2 7... c6 8. a4 8... exd4",
+      "count": 186
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Lion Variation, Forcing Line",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6 4. Nc3 4... Nbd7 5. Bc4 5... Be7 6. Ng5 6... O-O 7. Bxf7+ 7... Rxf7 8. Ne6",
+      "count": 179
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Lion Variation, Lion's Claw I",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Nc3 4... Ngf6 5. Be2 5... Be7 6. O-O 6... c6",
+      "count": 176
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Morphy Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... exd4 4. Bc4",
+      "count": 154
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Albin-Blackburne Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Bg4 4. dxe5 4... Nd7",
+      "count": 151
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Philidor Countergambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... f5",
+      "count": 134
+    },
+    {
+      "eco": "C41",
+      "name": "Philidor Defense, Philidor Countergambit, Zukertort Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... f5 4. Nc3",
+      "count": 113
+    }
+  ]
+}

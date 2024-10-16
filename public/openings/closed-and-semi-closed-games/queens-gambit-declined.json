@@ -1,0 +1,182 @@
+{
+  "slug": "queens-gambit-declined",
+  "name": "Queen's Gambit Declined",
+  "range": "D35-D42",
+  "lines": [
+    {
+      "eco": "D35",
+      "name": "Queen's Gambit Declined, Exchange Variation, Positional Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. cxd5 4... exd5 5. Bg5",
+      "count": 18419
+    },
+    {
+      "eco": "D37",
+      "name": "Queen's Gambit Declined, Three Knights Variation, General",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3",
+      "count": 13206
+    },
+    {
+      "eco": "D38",
+      "name": "Queen's Gambit Declined, Ragozin Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Bb4",
+      "count": 8881
+    },
+    {
+      "eco": "D35",
+      "name": "Queen's Gambit Declined, Exchange Variation, Positional Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. cxd5 4... exd5 5. Bg5 5... c6",
+      "count": 8606
+    },
+    {
+      "eco": "D37",
+      "name": "Queen's Gambit Declined, Barmen Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Nbd7",
+      "count": 6319
+    },
+    {
+      "eco": "D37",
+      "name": "Queen's Gambit Declined, Harrwitz Attack",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Be7 5. Bf4",
+      "count": 3926
+    },
+    {
+      "eco": "D35",
+      "name": "Queen's Gambit Declined, Exchange Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. cxd5",
+      "count": 3412
+    },
+    {
+      "eco": "D38",
+      "name": "Queen's Gambit Declined, Ragozin Defense, Alekhine Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Bb4 5. Qa4+",
+      "count": 3381
+    },
+    {
+      "eco": "D36",
+      "name": "Queen's Gambit Declined, Exchange Variation, Reshevsky Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. cxd5 4... exd5 5. Bg5 5... c6 6. Qc2",
+      "count": 3088
+    },
+    {
+      "eco": "D40",
+      "name": "Queen's Gambit Declined, Semi-Tarrasch Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c5",
+      "count": 2826
+    },
+    {
+      "eco": "D41",
+      "name": "Queen's Gambit Declined, Semi-Tarrasch Defense, Exchange Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c5 5. cxd5 5... Nxd5 6. e4",
+      "count": 2776
+    },
+    {
+      "eco": "D37",
+      "name": "Queen's Gambit Declined, Harrwitz Attack, Fianchetto Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Be7 5. Bf4 5... O-O 6. e3 6... b6",
+      "count": 2601
+    },
+    {
+      "eco": "D37",
+      "name": "Queen's Gambit Declined, Harrwitz Attack, Main Line",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Be7 5. Bf4 5... O-O 6. e3 6... c5 7. dxc5 7... Bxc5",
+      "count": 2296
+    },
+    {
+      "eco": "D37",
+      "name": "Queen's Gambit Declined, Harrwitz Attack, Two Knights Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Be7 5. Bf4 5... O-O 6. e3 6... Nbd7",
+      "count": 1950
+    },
+    {
+      "eco": "D37",
+      "name": "Queen's Gambit Declined, Harrwitz Attack, Orthodox Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Be7 5. Bf4 5... O-O 6. e3 6... c6",
+      "count": 1499
+    },
+    {
+      "eco": "D35",
+      "name": "Queen's Gambit Declined, Normal Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6",
+      "count": 1461
+    },
+    {
+      "eco": "D37",
+      "name": "Queen's Gambit Declined, Harrwitz Attack, Two Knights Defense, Blockade Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Be7 5. Bf4 5... O-O 6. e3 6... Nbd7 7. c5",
+      "count": 1233
+    },
+    {
+      "eco": "D39",
+      "name": "Queen's Gambit Declined, Ragozin Defense, Vienna Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Bb4 5. Bg5 5... dxc4",
+      "count": 1170
+    },
+    {
+      "eco": "D35",
+      "name": "Queen's Gambit Declined, Exchange Variation, Saemisch Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. cxd5 4... exd5 5. Nf3 5... Nbd7 6. Bf4",
+      "count": 920
+    },
+    {
+      "eco": "D35",
+      "name": "Queen's Gambit Declined, Harrwitz Attack",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bf4",
+      "count": 906
+    },
+    {
+      "eco": "D42",
+      "name": "Queen's Gambit Declined, Semi-Tarrasch Defense, Main Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c5 5. cxd5 5... Nxd5 6. e3 6... Nc6 7. Bd3",
+      "count": 876
+    },
+    {
+      "eco": "D41",
+      "name": "Queen's Gambit Declined, Semi-Tarrasch Defense, Pillsbury Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c5 5. cxd5 5... Nxd5 6. e3",
+      "count": 842
+    },
+    {
+      "eco": "D37",
+      "name": "Queen's Gambit Declined, Harrwitz Attack, Main Line, Old Main Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Be7 5. Bf4 5... O-O 6. e3 6... c5 7. dxc5 7... Bxc5 8. Qc2 8... Nc6 9. a3 9... Qa5 10. Rd1",
+      "count": 603
+    },
+    {
+      "eco": "D40",
+      "name": "Queen's Gambit Declined, Semi-Tarrasch Defense, Pillsbury Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c5 5. Bg5",
+      "count": 368
+    },
+    {
+      "eco": "D37",
+      "name": "Queen's Gambit Declined, Harrwitz Attack, Main Line, New Main Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... Be7 5. Bf4 5... O-O 6. e3 6... c5 7. dxc5 7... Bxc5 8. Qc2 8... Nc6 9. a3 9... Qa5 10. O-O-O",
+      "count": 353
+    }
+  ]
+}

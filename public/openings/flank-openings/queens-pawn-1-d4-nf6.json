@@ -1,0 +1,301 @@
+{
+  "slug": "queens-pawn-1-d4-nf6",
+  "name": "Queen's Pawn 1.d4 Nf6",
+  "range": "A45-A50",
+  "lines": [
+    {
+      "eco": "A45",
+      "name": "Indian Game, General",
+      "color": "black",
+      "moves": "1. d4 1... Nf6",
+      "count": 48148
+    },
+    {
+      "eco": "A45",
+      "name": "Trompowsky Attack, General",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Bg5",
+      "count": 28999
+    },
+    {
+      "eco": "A48",
+      "name": "Indian Game, London System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. Bf4",
+      "count": 14779
+    },
+    {
+      "eco": "A49",
+      "name": "Indian Game, Pseudo-King's Indian Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... g6",
+      "count": 14179
+    },
+    {
+      "eco": "A46",
+      "name": "Indian Game, London System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. Bf4",
+      "count": 13604
+    },
+    {
+      "eco": "A46",
+      "name": "Indian Game, Knights Variation, General",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Nf3",
+      "count": 12296
+    },
+    {
+      "eco": "A49",
+      "name": "Indian Game, Przepiorka Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. g3",
+      "count": 12007
+    },
+    {
+      "eco": "A46",
+      "name": "Indian Game, Yusupov-Rubinstein System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. e3",
+      "count": 11117
+    },
+    {
+      "eco": "A48",
+      "name": "Torre Attack, Fianchetto Defense",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. Bg5",
+      "count": 11063
+    },
+    {
+      "eco": "A46",
+      "name": "Indian Game, Spielmann-Indian",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... c5",
+      "count": 9747
+    },
+    {
+      "eco": "A46",
+      "name": "Indian Game, Wade-Tarkatower Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... d6",
+      "count": 9692
+    },
+    {
+      "eco": "A46",
+      "name": "Torre Attack, Classical Defense",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. Bg5",
+      "count": 9665
+    },
+    {
+      "eco": "A45",
+      "name": "Trompowsky Attack, Classical Defense, Big Center Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Bg5 2... e6 3. e4",
+      "count": 5875
+    },
+    {
+      "eco": "A45",
+      "name": "Indian Game, Tartakower Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. g3",
+      "count": 5263
+    },
+    {
+      "eco": "A47",
+      "name": "Indian Game, Pseudo-Queen's Indian",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... b6",
+      "count": 4630
+    },
+    {
+      "eco": "A45",
+      "name": "Trompowsky Attack, Classical Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Bg5 2... e6",
+      "count": 3908
+    },
+    {
+      "eco": "A50",
+      "name": "Mexican Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... Nc6",
+      "count": 3792
+    },
+    {
+      "eco": "A46",
+      "name": "Torre Attack, Classical Defense, Nimzowitsch Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. Bg5 3... h6",
+      "count": 3778
+    },
+    {
+      "eco": "A50",
+      "name": "Indian Game, Saemisch-Indian",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... b6",
+      "count": 3168
+    },
+    {
+      "eco": "A46",
+      "name": "Indian Game, Pseudo-Benko",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... c5 3. d5 3... b5",
+      "count": 2675
+    },
+    {
+      "eco": "A50",
+      "name": "Slav Indian",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... c6",
+      "count": 2374
+    },
+    {
+      "eco": "A45",
+      "name": "Trompowsky Attack, Raptor Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Bg5 2... Ne4 3. h4",
+      "count": 1722
+    },
+    {
+      "eco": "A45",
+      "name": "Trompowsky Attack, Edge Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Bg5 2... Ne4 3. Bh4",
+      "count": 1558
+    },
+    {
+      "eco": "A49",
+      "name": "Zukertort Opening, GrÃ¼nfeld Reversed",
+      "color": "white",
+      "moves": "1. Nf3 1... c5 2. g3 2... d5 3. Bg2 3... Nc6 4. d4 4... e6 5. O-O",
+      "count": 1192
+    },
+    {
+      "eco": "A45",
+      "name": "Indian Game, Reversed Chigorin Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nc3 2... c5",
+      "count": 1152
+    },
+    {
+      "eco": "A46",
+      "name": "Indian Game, Polish Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... b5",
+      "count": 977
+    },
+    {
+      "eco": "A48",
+      "name": "Torre Attack, Fianchetto Defense, Euwe Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. Bg5 3... Bg7 4. Nbd2 4... c5",
+      "count": 948
+    },
+    {
+      "eco": "A48",
+      "name": "Queen Pawn Game, Colle System, Gruenfeld Formation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. e3 3... Bg7 4. Bd3 4... d5",
+      "count": 712
+    },
+    {
+      "eco": "A50",
+      "name": "Indian Game, Normal Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4",
+      "count": 697
+    },
+    {
+      "eco": "A45",
+      "name": "Trompowsky Attack, Poisoned Pawn Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Bg5 2... c5 3. d5 3... Qb6 4. Nc3",
+      "count": 679
+    },
+    {
+      "eco": "A47",
+      "name": "Indian Game Defense, Pseudo-Queen's Indian, Marienbad System",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... b6 3. g3 3... Bb7 4. Bg2 4... c5",
+      "count": 635
+    },
+    {
+      "eco": "A45",
+      "name": "System, Canard Formation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. f4",
+      "count": 558
+    },
+    {
+      "eco": "A49",
+      "name": "Zukertort Opening, Double Fianchetto Attack",
+      "color": "white",
+      "moves": "1. Nf3 1... Nf6 2. b3 2... g6 3. Bb2 3... Bg7 4. g3 4... O-O 5. Bg2 5... d6 6. O-O",
+      "count": 515
+    },
+    {
+      "eco": "A46",
+      "name": "Indian Game, Czech-Indian",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... c6",
+      "count": 471
+    },
+    {
+      "eco": "A48",
+      "name": "Indian Game, Colle System, King's Indian Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. e3 3... Bg7 4. Bd3 4... d6",
+      "count": 454
+    },
+    {
+      "eco": "A45",
+      "name": "Indian Game, Paleface Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. f3",
+      "count": 180
+    },
+    {
+      "eco": "A46",
+      "name": "Torre Attack, Classical Defense, Petrosian Gambit",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. Bg5 3... c5 4. e3 4... b6 5. d5",
+      "count": 167
+    },
+    {
+      "eco": "A45",
+      "name": "Trompowsky Attack, Borg Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Bg5 2... Ne4 3. Bf4 3... g5",
+      "count": 153
+    },
+    {
+      "eco": "A45",
+      "name": "Indian Game, Gibbins-Wiedehagen Gambit, Accepted",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. g4 2... Nxg4",
+      "count": 140
+    },
+    {
+      "eco": "A46",
+      "name": "Indian Game, Knights Variation, Alburt-Miles Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... a6",
+      "count": 117
+    },
+    {
+      "eco": "A47",
+      "name": "Queen's Indian Defense, Marienbad System, Berg Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... b6 3. g3 3... Bb7 4. Bg2 4... c5 5. c4 5... cxd4 6. Qxd4",
+      "count": 106
+    },
+    {
+      "eco": "A46",
+      "name": "Torre Attack, Wagner Gambit",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. Bg5 3... c5 4. e4",
+      "count": 103
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "slug": "queens-indian-defence",
+  "name": "Queen's Indian Defence",
+  "range": "E12-E19",
+  "lines": [
+    {
+      "eco": "E15",
+      "name": "Queen's Indian Defense, Fianchetto Variation, Nimzowitsch Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Ba6",
+      "count": 5665
+    },
+    {
+      "eco": "E15",
+      "name": "Queen's Indian Defense, Fianchetto Variation, Check Variation, Intermezzo Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Ba6 5. b3 5... Bb4+ 6. Bd2 6... Be7",
+      "count": 5658
+    },
+    {
+      "eco": "E17",
+      "name": "Queen's Indian Defense, Classical Variation, Traditional Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Be7 6. O-O 6... O-O 7. Nc3",
+      "count": 5357
+    },
+    {
+      "eco": "E14",
+      "name": "Queen's Indian Defense, Spassky System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. e3",
+      "count": 4558
+    },
+    {
+      "eco": "E15",
+      "name": "Queen's Indian Defense, Fianchetto Variation, Nimzowitsch Variation, Quiet Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Ba6 5. b3",
+      "count": 3349
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Petrosian Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. a3",
+      "count": 3230
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Kasparov Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3",
+      "count": 3067
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Kasparov-Petrosian Variation, Main Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. a3 5... d5",
+      "count": 2776
+    },
+    {
+      "eco": "E16",
+      "name": "Queen's Indian Defense, Capablanca Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Bb4+",
+      "count": 2771
+    },
+    {
+      "eco": "E19",
+      "name": "Queen's Indian Defense, Classical Variation, Traditional Variation, Main Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Be7 6. O-O 6... O-O 7. Nc3 7... Ne4 8. Qc2 8... Nxc3 9. Qxc3",
+      "count": 2762
+    },
+    {
+      "eco": "E15",
+      "name": "Queen's Indian Defense, Fianchetto Variation, Nimzowitsch Variation, Nimzowitsch Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Ba6 5. Qa4",
+      "count": 2734
+    },
+    {
+      "eco": "E18",
+      "name": "Queen's Indian Defense, Classical Variation, Traditional Variation, Nimowitsch Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Be7 6. O-O 6... O-O 7. Nc3 7... d5",
+      "count": 2623
+    },
+    {
+      "eco": "E15",
+      "name": "Queen's Indian Defense, Fianchetto Variation, General",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3",
+      "count": 2180
+    },
+    {
+      "eco": "E17",
+      "name": "Queen's Indian Defense, Fianchetto Variation, Kramnik Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Be7 6. O-O 6... O-O 7. Re1",
+      "count": 2037
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Kasparov-Petrosian Variation, Kasparov Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. a3 5... d5 6. cxd5 6... Nxd5 7. Qc2",
+      "count": 2015
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Kasparov-Petrosian Variation, Marco Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. a3 5... Be7",
+      "count": 1627
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Kasparov-Petrosian Variation, Classical Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. a3 5... d5 6. cxd5 6... exd5",
+      "count": 1599
+    },
+    {
+      "eco": "E16",
+      "name": "Queen's Indian Defense, Yates Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Bb4+ 6. Bd2 6... a5",
+      "count": 1573
+    },
+    {
+      "eco": "E17",
+      "name": "Queen's Indian Defense, Classical Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Be7 6. O-O",
+      "count": 1456
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Kasparov-Petrosian Variation, Petrosian Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. a3 5... d5 6. cxd5 6... Nxd5 7. e3",
+      "count": 1269
+    },
+    {
+      "eco": "E15",
+      "name": "Queen's Indian Defense, Fianchetto Traditional",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7",
+      "count": 1260
+    },
+    {
+      "eco": "E16",
+      "name": "Queen's Indian Defense, Riumin Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Bb4+ 6. Bd2 6... Be7",
+      "count": 1239
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Miles Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Bf4",
+      "count": 1216
+    },
+    {
+      "eco": "E17",
+      "name": "Queen's Indian Defense, Classical Variation, Polugayevsky Gambit",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Be7 6. O-O 6... O-O 7. d5 7... exd5 8. Nh4",
+      "count": 1150
+    },
+    {
+      "eco": "E17",
+      "name": "Queen's Indian Defense, Opocensky Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Be7 6. Nc3 6... Ne4 7. Bd2",
+      "count": 1097
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6",
+      "count": 1066
+    },
+    {
+      "eco": "E17",
+      "name": "Queen's Indian Defense, Anti-Queen's Indian System",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Be7 6. Nc3",
+      "count": 982
+    },
+    {
+      "eco": "E17",
+      "name": "Queen's Indian Defense, Kasparov-Petrosian Variation, Hedgehog Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. a3 5... g6",
+      "count": 933
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Kasparov-Petrosian Variation, Andersson Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. a3 5... Ne4",
+      "count": 878
+    },
+    {
+      "eco": "E15",
+      "name": "Queen's Indian Defense, Fianchetto Variation, Saemisch Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... c5",
+      "count": 840
+    },
+    {
+      "eco": "E15",
+      "name": "Queen's Indian Defense, Fianchetto Variation, Nimzowitsch Variation, Timman's Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Ba6 5. Qb3",
+      "count": 799
+    },
+    {
+      "eco": "E13",
+      "name": "Queen's Indian Defense, Kasparov Variation, General",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. Bg5 5... h6 6. Bh4 6... Bb4",
+      "count": 789
+    },
+    {
+      "eco": "E16",
+      "name": "Queen's Indian Defense, Fianchetto Variation, Rubinstein Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... c5 6. d5 6... exd5 7. Nh4",
+      "count": 581
+    },
+    {
+      "eco": "E17",
+      "name": "Queen's Indian Defense, Classical Variation, Tiviakov Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Be7 6. O-O 6... O-O 7. Nc3 7... Na6",
+      "count": 488
+    },
+    {
+      "eco": "E17",
+      "name": "Queen's Indian Defense, Euwe Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Bb7 5. Bg2 5... Be7 6. O-O 6... O-O 7. b3",
+      "count": 434
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Kasparov-Petrosian Variation, Romanishin Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. a3 5... d5 6. cxd5 6... Nxd5 7. Bd2",
+      "count": 409
+    },
+    {
+      "eco": "E17",
+      "name": "Queen's Indian Defense, Kasparov-Petrosian Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. a3",
+      "count": 313
+    },
+    {
+      "eco": "E15",
+      "name": "Queen's Indian Defense, Fianchetto Variation, Check Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. g3 4... Ba6 5. b3 5... Bb4+",
+      "count": 245
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Kasparov Variation, Botvinnik Attack",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. Bg5 5... h6 6. Bh4 6... g5 7. Bg3 7... Nh5",
+      "count": 137
+    },
+    {
+      "eco": "E12",
+      "name": "Queen's Indian Defense, Kasparov-Petrosian Variation, Rashkovsky Attack",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. Nc3 4... Bb7 5. a3 5... d5 6. cxd5 6... Nxd5 7. Qa4+",
+      "count": 123
+    }
+  ]
+}

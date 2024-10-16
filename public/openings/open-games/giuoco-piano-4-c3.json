@@ -1,0 +1,126 @@
+{
+  "slug": "giuoco-piano-4-c3",
+  "name": "Giuoco Piano, 4.c3",
+  "range": "C53-C54",
+  "lines": [
+    {
+      "eco": "C53",
+      "name": "Italian Game, Classical Variation, Giuoco Pianissimo",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. d3",
+      "count": 21287
+    },
+    {
+      "eco": "C54",
+      "name": "Italian Game, Classical Variation, Greco Gambit, Traditional Line",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. d4 5... exd4 6. cxd4",
+      "count": 3453
+    },
+    {
+      "eco": "C53",
+      "name": "Italian Game, Classical Variation, Greco Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. d4 5... exd4 6. e5 6... d5",
+      "count": 2550
+    },
+    {
+      "eco": "C53",
+      "name": "Italian Game, Classical Variation, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3",
+      "count": 1534
+    },
+    {
+      "eco": "C54",
+      "name": "Italian Game, Classical Variation, Greco Gambit, Moeller-Therkatz Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. d4 5... exd4 6. cxd4 6... Bb4+ 7. Nc3 7... Nxe4 8. O-O 8... Bxc3 9. d5",
+      "count": 933
+    },
+    {
+      "eco": "C53",
+      "name": "Italian Game, Classical Variation, Center Atttack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. d4",
+      "count": 923
+    },
+    {
+      "eco": "C53",
+      "name": "Italian Game, Classical Variation, Giuoco Pianissimo, Main line",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. d3 5... a6 6. Bb3 6... Ba7 7. h3 7... O-O 8. O-O 8... d6 9. Re1",
+      "count": 745
+    },
+    {
+      "eco": "C54",
+      "name": "Italian Game, Classical Variation, Greco Gambit, Anderssen Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. d4 5... exd4 6. e5 6... d5 7. Bb5 7... Ne4 8. cxd4 8... Bb4+",
+      "count": 715
+    },
+    {
+      "eco": "C53",
+      "name": "Italian Game, Bird's Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. b4",
+      "count": 692
+    },
+    {
+      "eco": "C53",
+      "name": "Italian Game, Classical Variation, Closed Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Qe7",
+      "count": 684
+    },
+    {
+      "eco": "C53",
+      "name": "Italian Game, Classical Variation, Albin Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. O-O",
+      "count": 583
+    },
+    {
+      "eco": "C53",
+      "name": "Italian Game, Classical Variation, De la Bourdonnais Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... d6 5. d4 5... exd4 6. cxd4 6... Bb6",
+      "count": 386
+    },
+    {
+      "eco": "C53",
+      "name": "Italian Game, Classical Variation, Center Holding Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Qe7 5. d4 5... Bb6",
+      "count": 276
+    },
+    {
+      "eco": "C54",
+      "name": "Italian Game, Classical Variation, Greco Gambit, Mason Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. d4 5... exd4 6. O-O",
+      "count": 235
+    },
+    {
+      "eco": "C54",
+      "name": "Italian Game, Classical Variation, Greco Gambit, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. d4 5... exd4 6. cxd4 6... Bb4+ 7. Nc3 7... Nxe4 8. O-O 8... Bxc3",
+      "count": 210
+    },
+    {
+      "eco": "C54",
+      "name": "Italian Game, Classical Variation, Greco Gambit, Greco Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6 5. d4 5... exd4 6. cxd4 6... Bb4+ 7. Nc3 7... Nxe4 8. O-O 8... Nxc3",
+      "count": 163
+    },
+    {
+      "eco": "C53",
+      "name": "Italian Game, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. c3 4... Nf6",
+      "count": 152
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "slug": "queens-gambit-declined-semi-slav-main-line",
+  "name": "Queen's Gambit Declined: Semi-Slav main line",
+  "range": "D43-D49",
+  "lines": [
+    {
+      "eco": "D43",
+      "name": "Semi-Slav Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6",
+      "count": 20119
+    },
+    {
+      "eco": "D45",
+      "name": "Semi-Slav Defense, Stoltz Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Qc2",
+      "count": 15976
+    },
+    {
+      "eco": "D45",
+      "name": "Semi-Slav Defense, Main Lines",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3",
+      "count": 4450
+    },
+    {
+      "eco": "D44",
+      "name": "Queen's Gambit Declined, Vienna Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... dxc4",
+      "count": 4299
+    },
+    {
+      "eco": "D45",
+      "name": "Semi-Slav Defense, Normal Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7",
+      "count": 3838
+    },
+    {
+      "eco": "D44",
+      "name": "Queen's Gambit Declined, Vienna Variation, Quiet Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... dxc4 5. e3",
+      "count": 3303
+    },
+    {
+      "eco": "D46",
+      "name": "Semi-Slav Defense, Chigorin Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... Bd6",
+      "count": 3272
+    },
+    {
+      "eco": "D47",
+      "name": "Semi-Slav Defense, Meran Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5",
+      "count": 3265
+    },
+    {
+      "eco": "D44",
+      "name": "Semi-Slav Defense, Anti-Moscow Gambit",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... h6 6. Bh4",
+      "count": 3104
+    },
+    {
+      "eco": "D45",
+      "name": "Semi-Slav Defense, Accelerated Meran Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... a6",
+      "count": 2929
+    },
+    {
+      "eco": "D47",
+      "name": "Semi-Slav Defense, Meran Variation, Wade Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... Bb7",
+      "count": 2767
+    },
+    {
+      "eco": "D45",
+      "name": "Semi-Slav Defense, Stoltz Variation, Shabalov Attack",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Qc2 6... Bd6 7. g4",
+      "count": 2180
+    },
+    {
+      "eco": "D44",
+      "name": "Semi-Slav Defense, Botvinnik System",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4 6. e4 6... b5 7. e5 7... h6 8. Bh4 8... g5 9. Nxg5",
+      "count": 1710
+    },
+    {
+      "eco": "D48",
+      "name": "Semi-Slav Defense, Meran Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6",
+      "count": 1511
+    },
+    {
+      "eco": "D46",
+      "name": "Semi-Slav Defense, Bogoljubow Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... Be7",
+      "count": 1212
+    },
+    {
+      "eco": "D44",
+      "name": "Semi-Slav Defense, Botvinnik System, Lilienthal Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4 6. e4 6... b5 7. e5 7... h6 8. Bh4 8... g5 9. Nxg5 9... hxg5 10. Bxg5 10... Nbd7 11. g3",
+      "count": 1067
+    },
+    {
+      "eco": "D48",
+      "name": "Semi-Slav Defense, Meran Variation, Reynolds' Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6 9. e4 9... c5 10. d5",
+      "count": 988
+    },
+    {
+      "eco": "D44",
+      "name": "Semi-Slav Defense, Accepted",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4",
+      "count": 972
+    },
+    {
+      "eco": "D47",
+      "name": "Semi-Slav Defense, Meran Variation, Lundin Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... b4",
+      "count": 791
+    },
+    {
+      "eco": "D47",
+      "name": "Semi-Slav Defense, Meran Variation, Wade Variation, Larsen Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... Bb7 9. e4 9... b4 10. Na4 10... c5 11. e5 11... Nd5",
+      "count": 741
+    },
+    {
+      "eco": "D44",
+      "name": "Semi-Slav Defense, Botvinnik Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4 6. e4",
+      "count": 671
+    },
+    {
+      "eco": "D49",
+      "name": "Semi-Slav Defense, Meran Variation, Blumenfeld Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6 9. e4 9... c5 10. e5 10... cxd4 11. Nxb5",
+      "count": 479
+    },
+    {
+      "eco": "D44",
+      "name": "Semi-Slav Defense, Botvinnik System, Ekstrom Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4 6. e4 6... b5 7. e5 7... h6 8. Bh4 8... g5 9. exf6 9... gxh4 10. Ne5",
+      "count": 433
+    },
+    {
+      "eco": "D46",
+      "name": "Semi-Slav Defense, Romih Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... Bb4",
+      "count": 404
+    },
+    {
+      "eco": "D45",
+      "name": "Semi-Slav Defense, Stoltz Variation, Center Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Qc2 6... Bd6 7. e4",
+      "count": 383
+    },
+    {
+      "eco": "D46",
+      "name": "Semi-Slav Defense, Main Lines",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3",
+      "count": 363
+    },
+    {
+      "eco": "D47",
+      "name": "Semi-Slav Defense, Semi-Meran Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4",
+      "count": 313
+    },
+    {
+      "eco": "D49",
+      "name": "Semi-Slav Defense, Meran Variation, Rabinovich Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6 9. e4 9... c5 10. e5 10... cxd4 11. Nxb5 11... Ng4",
+      "count": 156
+    },
+    {
+      "eco": "D47",
+      "name": "Semi-Slav Defense, Meran Variation, Wade Variation, Kaidanov Gambit",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... Bb7 9. e4 9... b4 10. Na4 10... c5 11. e5 11... Nd5 12. O-O 12... cxd4 13. Nxd4",
+      "count": 155
+    },
+    {
+      "eco": "D44",
+      "name": "Semi-Slav Defense, Botvinnik System, Alatortsev System",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4 6. e4 6... b5 7. e5 7... h6 8. Bh4 8... g5 9. Nxg5 9... Nd5",
+      "count": 142
+    },
+    {
+      "eco": "D49",
+      "name": "Semi-Slav Defense, Meran Variation, Sozin Variation II",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6 9. e4 9... c5 10. e5 10... cxd4 11. Nxb5 11... Nxe5",
+      "count": 131
+    },
+    {
+      "eco": "D45",
+      "name": "Semi-Slav Defense, Stonewall Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Ne4 6. Bd3 6... f5",
+      "count": 124
+    },
+    {
+      "eco": "D48",
+      "name": "Semi-Slav Defense, Meran Variation, Old  Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6 9. e4 9... c5 10. e5",
+      "count": 123
+    }
+  ]
+}

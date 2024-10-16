@@ -1,0 +1,63 @@
+{
+  "slug": "nimzowitsch-larsen-attack",
+  "name": "Nimzowitsch-Larsen Attack",
+  "range": "A01",
+  "lines": [
+    {
+      "eco": "A01",
+      "name": "Nimzo-Larsen Attack, Modern Variation",
+      "color": "black",
+      "moves": "1. b3 1... e5",
+      "count": 12681
+    },
+    {
+      "eco": "A01",
+      "name": "Nimzo-Larsen Attack, Classical Variation",
+      "color": "black",
+      "moves": "1. b3 1... d5",
+      "count": 8939
+    },
+    {
+      "eco": "A01",
+      "name": "Nimzo-Larsen Attack, Indian Variation",
+      "color": "black",
+      "moves": "1. b3 1... Nf6",
+      "count": 6094
+    },
+    {
+      "eco": "A01",
+      "name": "Nimzo-Larsen Attack, General",
+      "color": "white",
+      "moves": "1. b3",
+      "count": 2712
+    },
+    {
+      "eco": "A01",
+      "name": "Nimzo-Larsen Attack, English Variation",
+      "color": "black",
+      "moves": "1. b3 1... c5",
+      "count": 1779
+    },
+    {
+      "eco": "A01",
+      "name": "Nimzo-Larsen Attack, Symmetrical Variation",
+      "color": "black",
+      "moves": "1. b3 1... b6",
+      "count": 881
+    },
+    {
+      "eco": "A01",
+      "name": "Nimzo-Larsen Attack, Dutch Variation",
+      "color": "black",
+      "moves": "1. b3 1... f5",
+      "count": 315
+    },
+    {
+      "eco": "A01",
+      "name": "Nimzo-Larsen Attack, Spike Variation",
+      "color": "white",
+      "moves": "1. b3 1... Nf6 2. Bb2 2... g6 3. g4",
+      "count": 121
+    }
+  ]
+}

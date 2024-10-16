@@ -1,0 +1,91 @@
+{
+  "slug": "queens-gambit-declined-semi-slav",
+  "name": "Queen's Gambit Declined: Semi-Slav",
+  "range": "D31",
+  "lines": [
+    {
+      "eco": "D31",
+      "name": "Queen's Gambit Declined, Charousek (Petrosian) Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Be7",
+      "count": 7280
+    },
+    {
+      "eco": "D31",
+      "name": "Semi-Slav Defense, Accelerated Move Order",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c6",
+      "count": 6019
+    },
+    {
+      "eco": "D31",
+      "name": "Queen's Gambit Declined, Queen's Knight Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3",
+      "count": 5407
+    },
+    {
+      "eco": "D31",
+      "name": "Queen's Gambit Declined, Janowski Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... a6",
+      "count": 3590
+    },
+    {
+      "eco": "D31",
+      "name": "Semi-Slav Defense, Noteboom Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c6 4. Nf3 4... dxc4",
+      "count": 2558
+    },
+    {
+      "eco": "D31",
+      "name": "Semi-Slav Defense, Noteboom Variation, Abrahams Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c6 4. Nf3 4... dxc4 5. a4 5... Bb4 6. e3 6... b5 7. Bd2 7... a5 8. axb5 8... Bxc3 9. Bxc3 9... cxb5 10. b3 10... Bb7",
+      "count": 1600
+    },
+    {
+      "eco": "D31",
+      "name": "Semi-Slav Defense, Marshall Gambit, Main Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c6 4. e4 4... dxe4 5. Nxe4 5... Bb4+ 6. Bd2",
+      "count": 1554
+    },
+    {
+      "eco": "D31",
+      "name": "Semi-Slav Defense, Marshall Gambit",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c6 4. e4",
+      "count": 1074
+    },
+    {
+      "eco": "D31",
+      "name": "Semi-Slav Defense, Marshall Gambit, Forgotten Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c6 4. e4 4... dxe4 5. Nxe4 5... Bb4+ 6. Nc3",
+      "count": 607
+    },
+    {
+      "eco": "D31",
+      "name": "Semi-Slav Defense, Noteboom Variation, Anti-Noteboom Gambit",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. Nf3 2... c6 3. c4 3... e6 4. Nc3 4... dxc4 5. g3",
+      "count": 267
+    },
+    {
+      "eco": "D31",
+      "name": "Queen's Gambit Refused, Baltic Defense, Argentinian Gambit",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... Bf5 3. cxd5 3... Bxb1 4. Qa4+ 4... c6 5. dxc6 5... Nxc6",
+      "count": 208
+    },
+    {
+      "eco": "D31",
+      "name": "Semi-Slav Defense, Anti-Noteboom, Stonewall Variation, Portisch Gambit",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c6 4. e3 4... f5 5. g4",
+      "count": 150
+    }
+  ]
+}

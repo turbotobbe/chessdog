@@ -1,0 +1,91 @@
+{
+  "slug": "latvian-gambit",
+  "name": "Latvian Gambit",
+  "range": "C40",
+  "lines": [
+    {
+      "eco": "C40",
+      "name": "Elephant Gambit, General",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d5",
+      "count": 1123
+    },
+    {
+      "eco": "C40",
+      "name": "Gunderam Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Qe7",
+      "count": 808
+    },
+    {
+      "eco": "C40",
+      "name": "Elephant Gambit, Paulsen Countergambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d5 3. exd5 3... e4",
+      "count": 783
+    },
+    {
+      "eco": "C40",
+      "name": "Latvian Gambit, Accepted, Bilguer Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... f5 3. Nxe5 3... Qf6 4. d4 4... d6 5. Nc4",
+      "count": 342
+    },
+    {
+      "eco": "C40",
+      "name": "Elephant Gambit, Maroczy Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... d5 3. exd5 3... Bd6",
+      "count": 238
+    },
+    {
+      "eco": "C40",
+      "name": "Latvian Gambit, General",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... f5",
+      "count": 224
+    },
+    {
+      "eco": "C40",
+      "name": "Latvian Gambit, Accepted, Leonhardt Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... f5 3. Nxe5 3... Qf6 4. Nc4 4... fxe4 5. Nc3",
+      "count": 189
+    },
+    {
+      "eco": "C40",
+      "name": "Latvian Gambit, Fraser Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... f5 3. Nxe5 3... Nc6",
+      "count": 179
+    },
+    {
+      "eco": "C40",
+      "name": "Latvian Gambit, Accepted",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... f5 3. exf5",
+      "count": 176
+    },
+    {
+      "eco": "C40",
+      "name": "Latvian Gambit, Mason Countergambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... f5 3. d4",
+      "count": 168
+    },
+    {
+      "eco": "C40",
+      "name": "King Pawn Game, Busch-Gass Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Bc5",
+      "count": 158
+    },
+    {
+      "eco": "C40",
+      "name": "King's Knight Opening, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3",
+      "count": 121
+    }
+  ]
+}

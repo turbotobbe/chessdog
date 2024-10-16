@@ -1,0 +1,91 @@
+{
+  "slug": "old-indian-defence",
+  "name": "Old Indian Defence",
+  "range": "A53-A55",
+  "lines": [
+    {
+      "eco": "A53",
+      "name": "Old Indian Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6",
+      "count": 6123
+    },
+    {
+      "eco": "A55",
+      "name": "Old Indian Defense, Normal Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... e5 4. Nf3 4... Nbd7 5. e4",
+      "count": 4519
+    },
+    {
+      "eco": "A54",
+      "name": "Old Indian Defense, Two Knights Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... e5 4. Nf3",
+      "count": 1759
+    },
+    {
+      "eco": "A54",
+      "name": "Old Indian Defense, Ukrainian Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... e5",
+      "count": 1567
+    },
+    {
+      "eco": "A53",
+      "name": "Old Indian, Czech Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... c6 4. Nf3",
+      "count": 1227
+    },
+    {
+      "eco": "A54",
+      "name": "Old Indian Defense, Tartakower-Indian",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nf3 3... Bg4",
+      "count": 1178
+    },
+    {
+      "eco": "A53",
+      "name": "Old Indian, Czech Variation w/Nc3",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... c6",
+      "count": 704
+    },
+    {
+      "eco": "A53",
+      "name": "Old Indian Defense, Janowski Variation, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... Bf5 4. Nf3",
+      "count": 617
+    },
+    {
+      "eco": "A53",
+      "name": "Old Indian Defense, Janowski Variation, Main Line",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... Bf5 4. f3",
+      "count": 382
+    },
+    {
+      "eco": "A53",
+      "name": "Old Indian Defense, Janowski Variation, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... Bf5 4. g3",
+      "count": 270
+    },
+    {
+      "eco": "A53",
+      "name": "Old Indian, Czech Variation w/Nf3",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nf3 3... c6",
+      "count": 145
+    },
+    {
+      "eco": "A53",
+      "name": "Old Indian Defense, Janowski Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... Bf5",
+      "count": 100
+    }
+  ]
+}

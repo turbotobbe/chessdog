@@ -1,0 +1,168 @@
+{
+  "slug": "scandinavian-defence",
+  "name": "Scandinavian Defence",
+  "range": "B01",
+  "lines": [
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Mieses-Kotroc Variation",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Qxd5",
+      "count": 11282
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Main Lines",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5",
+      "count": 10871
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Gubinsky-Melts Defense",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qd6",
+      "count": 9777
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Main Lines, Mieses Variation",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. d4 4... Nf6",
+      "count": 8043
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Modern Variation",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Nf6",
+      "count": 7965
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Marshall Variation",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Nxd5",
+      "count": 4416
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... d5",
+      "count": 3232
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Bronstein Variation",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qd6 4. d4 4... Nf6 5. Nf3 5... a6",
+      "count": 3193
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Portuguese Variation",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Bg4",
+      "count": 2996
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. d4 4... Nf6 5. Nf3 5... Bf5",
+      "count": 2413
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Richter Variation",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Nxd5 4. Nf3 4... g6",
+      "count": 2376
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Modern Variation, Gipslis Variation",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Nxd5 4. Nf3 4... Bg4",
+      "count": 1827
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Lasker Variation",
+      "color": "white",
+      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. d4 4... Nf6 5. Nf3 5... Bg4 6. h3",
+      "count": 1451
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Schiller-Pytel Variation",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qd6 4. d4 4... c6",
+      "count": 1189
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Icelandic-Palme Gambit",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. c4 3... e6",
+      "count": 1052
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Panov Transfer",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. c4 3... c6",
+      "count": 772
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Portuguese Variation, Portuguese Gambit",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Bg4 4. f3 4... Bf5 5. Bb5+ 5... Nbd7",
+      "count": 576
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Modern Variation",
+      "color": "white",
+      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4",
+      "count": 370
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Blackburne Gambit",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... c6 3. dxc6 3... Nxc6",
+      "count": 302
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Anderssen Counterattack",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. d4 4... e5",
+      "count": 290
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Main Lines, Leonhardt Gambit",
+      "color": "white",
+      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. b4",
+      "count": 247
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, Kiel Variation",
+      "color": "black",
+      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Nxd5 4. c4 4... Nb4",
+      "count": 221
+    },
+    {
+      "eco": "B01",
+      "name": "Scandinavian Defense, GrÃ¼nfeld Variation",
+      "color": "white",
+      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. d4 4... Nf6 5. Nf3 5... Bf5 6. Ne5 6... c6 7. g4",
+      "count": 194
+    }
+  ]
+}

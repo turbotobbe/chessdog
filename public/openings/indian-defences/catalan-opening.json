@@ -1,0 +1,98 @@
+{
+  "slug": "catalan-opening",
+  "name": "Catalan Opening",
+  "range": "E01-E09",
+  "lines": [
+    {
+      "eco": "E06",
+      "name": "Catalan Opening, Closed Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... Be7 5. Nf3",
+      "count": 21303
+    },
+    {
+      "eco": "E04",
+      "name": "Catalan Opening, Open Defense",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... dxc4 5. Nf3",
+      "count": 13410
+    },
+    {
+      "eco": "E01",
+      "name": "Catalan Opening, Closed Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2",
+      "count": 4631
+    },
+    {
+      "eco": "E09",
+      "name": "Catalan Opening, Closed Variation, Traditional Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... Nbd7 7. Qc2 7... c6 8. Nbd2 8... b6",
+      "count": 2717
+    },
+    {
+      "eco": "E08",
+      "name": "Catalan Opening, Closed Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... Nbd7 7. Qc2",
+      "count": 1910
+    },
+    {
+      "eco": "E04",
+      "name": "Catalan Opening, Open Defense, Modern Sharp Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... dxc4 5. Nf3 5... Nc6 6. Qa4 6... Bb4+",
+      "count": 1486
+    },
+    {
+      "eco": "E07",
+      "name": "Catalan Opening, Closed Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... Nbd7",
+      "count": 1202
+    },
+    {
+      "eco": "E05",
+      "name": "Catalan Opening, Open Defense, Classical Line",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... dxc4 5. Nf3 5... Be7",
+      "count": 873
+    },
+    {
+      "eco": "E04",
+      "name": "Catalan Opening, Open Defense, Tarrasch Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... c5 5. Nf3 5... Nc6",
+      "count": 789
+    },
+    {
+      "eco": "E07",
+      "name": "Catalan Opening, Closed Variation, Botvinnik Variation",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... Nbd7 7. Nc3 7... c6 8. Qd3",
+      "count": 662
+    },
+    {
+      "eco": "E02",
+      "name": "Catalan Opening, Open Defense",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... dxc4 5. Qa4+",
+      "count": 549
+    },
+    {
+      "eco": "E03",
+      "name": "Catalan Opening, Open Defense",
+      "color": "white",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... dxc4 5. Qa4+ 5... Nbd7 6. Qxc4",
+      "count": 185
+    },
+    {
+      "eco": "E09",
+      "name": "Catalan Opening, Closed Variation, Rabinovich Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. g3 3... d5 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... Nbd7 7. Qc2 7... c6 8. Nbd2 8... b5",
+      "count": 143
+    }
+  ]
+}

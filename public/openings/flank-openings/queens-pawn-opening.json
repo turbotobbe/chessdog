@@ -1,0 +1,231 @@
+{
+  "slug": "queens-pawn-opening",
+  "name": "Queen's Pawn Opening",
+  "range": "A40-A42",
+  "lines": [
+    {
+      "eco": "A40",
+      "name": "Modern Defense, Queen Pawn Fianchetto",
+      "color": "black",
+      "moves": "1. d4 1... g6",
+      "count": 20968
+    },
+    {
+      "eco": "A40",
+      "name": "Horwitz Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... e6",
+      "count": 15871
+    },
+    {
+      "eco": "A41",
+      "name": "Rat Defense, See also,  Modern Defense (for lines with ...g6)",
+      "color": "black",
+      "moves": "1. d4 1... d6",
+      "count": 11859
+    },
+    {
+      "eco": "A41",
+      "name": "Rat Defense, English Rat",
+      "color": "black",
+      "moves": "1. d4 1... d6 2. c4 2... e5",
+      "count": 7418
+    },
+    {
+      "eco": "A42",
+      "name": "Modern Defense, Averbakh Variation",
+      "color": "white",
+      "moves": "1. d4 1... g6 2. c4 2... Bg7 3. Nc3 3... d6 4. e4",
+      "count": 6707
+    },
+    {
+      "eco": "A41",
+      "name": "Wade Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... d6 2. Nf3 2... Bg4",
+      "count": 6374
+    },
+    {
+      "eco": "A42",
+      "name": "Sicilian Defense, Hyperaccelerated Fianchetto",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... g6 3. d4",
+      "count": 6176
+    },
+    {
+      "eco": "A42",
+      "name": "Modern Defense, Averbakh System, Kotov Variation",
+      "color": "black",
+      "moves": "1. d4 1... g6 2. c4 2... Bg7 3. Nc3 3... d6 4. e4 4... Nc6",
+      "count": 3774
+    },
+    {
+      "eco": "A40",
+      "name": "Queen Pawn Opening, General",
+      "color": "white",
+      "moves": "1. d4",
+      "count": 3350
+    },
+    {
+      "eco": "A40",
+      "name": "Queen Pawn Game, Queen Fianchetto",
+      "color": "black",
+      "moves": "1. d4 1... b6",
+      "count": 3027
+    },
+    {
+      "eco": "A40",
+      "name": "Mikenas Defense",
+      "color": "black",
+      "moves": "1. d4 1... Nc6",
+      "count": 2283
+    },
+    {
+      "eco": "A40",
+      "name": "English Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... e6 2. c4 2... b6",
+      "count": 2031
+    },
+    {
+      "eco": "A41",
+      "name": "Modern Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... g6 2. c4 2... Bg7 3. Nc3 3... d6",
+      "count": 1726
+    },
+    {
+      "eco": "A40",
+      "name": "Polish Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... b5",
+      "count": 1511
+    },
+    {
+      "eco": "A40",
+      "name": "Modern Defense, Beefeater Variation",
+      "color": "black",
+      "moves": "1. d4 1... g6 2. c4 2... Bg7 3. Nc3 3... c5 4. d5 4... Bxc3+ 5. bxc3 5... f5",
+      "count": 1132
+    },
+    {
+      "eco": "A40",
+      "name": "Englund Gambit Complex, Englund Gambit",
+      "color": "black",
+      "moves": "1. d4 1... e5 2. dxe5 2... Nc6 3. Nf3 3... Qe7",
+      "count": 956
+    },
+    {
+      "eco": "A41",
+      "name": "Modern Defense, Rossolimo Variation",
+      "color": "black",
+      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nf3 3... d6 4. c4 4... Bg4",
+      "count": 746
+    },
+    {
+      "eco": "A40",
+      "name": "Caro-Kann Defense, De Bruycker Defense",
+      "color": "black",
+      "moves": "1. e4 1... c6 2. d4 2... Na6",
+      "count": 538
+    },
+    {
+      "eco": "A40",
+      "name": "Mikenas Defense, Lithuanian Variation",
+      "color": "black",
+      "moves": "1. d4 1... Nc6 2. c4 2... e5 3. d5 3... Nce7",
+      "count": 481
+    },
+    {
+      "eco": "A41",
+      "name": "Queen Pawn Game, Anglo-Slav Opening",
+      "color": "black",
+      "moves": "1. d4 1... c6 2. c4 2... d6",
+      "count": 394
+    },
+    {
+      "eco": "A40",
+      "name": "Englund Gambit Complex, Hartlaub-Charlick Gambit",
+      "color": "black",
+      "moves": "1. d4 1... e5 2. dxe5 2... d6",
+      "count": 369
+    },
+    {
+      "eco": "A40",
+      "name": "Pterodactyl Defense, Miscellany, Queen Pterodactyl, Quiet",
+      "color": "white",
+      "moves": "1. d4 1... g6 2. c4 2... Bg7 3. Nc3 3... c5 4. e3",
+      "count": 365
+    },
+    {
+      "eco": "A40",
+      "name": "Englund Gambit Complex, General",
+      "color": "black",
+      "moves": "1. d4 1... e5",
+      "count": 357
+    },
+    {
+      "eco": "A40",
+      "name": "English Defense, Perrin Variation",
+      "color": "black",
+      "moves": "1. c4 1... e6 2. d4 2... b6 3. e4 3... Bb7 4. Bd3 4... Nc6",
+      "count": 339
+    },
+    {
+      "eco": "A40",
+      "name": "Englund Gambit, Declined, Reversed French",
+      "color": "white",
+      "moves": "1. d4 1... e5 2. e3",
+      "count": 259
+    },
+    {
+      "eco": "A42",
+      "name": "Modern Defense, Averbakh Variation, Pseudo-Saemisch",
+      "color": "white",
+      "moves": "1. d4 1... g6 2. c4 2... Bg7 3. e4 3... d6 4. Be3 4... Nf6 5. f3",
+      "count": 255
+    },
+    {
+      "eco": "A41",
+      "name": "Zukertort Opening, Wade Defense, Chigorin Plan",
+      "color": "black",
+      "moves": "1. Nf3 1... d6 2. d4 2... Bg4 3. c4 3... Nd7 4. Qb3 4... Rb8",
+      "count": 221
+    },
+    {
+      "eco": "A40",
+      "name": "Polish Defense, Spassky Gambit, Accepted",
+      "color": "white",
+      "moves": "1. d4 1... b5 2. e4 2... Bb7 3. Bxb5",
+      "count": 150
+    },
+    {
+      "eco": "A40",
+      "name": "Englund Gambit Complex, Stockholm Variation",
+      "color": "white",
+      "moves": "1. d4 1... e5 2. dxe5 2... Nc6 3. Nf3 3... Qe7 4. Qd5",
+      "count": 144
+    },
+    {
+      "eco": "A40",
+      "name": "Pterodactyl Defense, Fianchetto, Queen Pteronodon",
+      "color": "black",
+      "moves": "1. d4 1... g6 2. c4 2... Bg7 3. Nc3 3... c5 4. d5 4... Bxc3+ 5. bxc3 5... Qa5",
+      "count": 131
+    },
+    {
+      "eco": "A42",
+      "name": "Modern Defense, Averbakh System, Randspringer Variation",
+      "color": "black",
+      "moves": "1. d4 1... g6 2. c4 2... Bg7 3. Nc3 3... d6 4. e4 4... f5",
+      "count": 124
+    },
+    {
+      "eco": "A40",
+      "name": "Englund Gambit Complex, Declined",
+      "color": "white",
+      "moves": "1. d4 1... e5 2. d5",
+      "count": 110
+    }
+  ]
+}

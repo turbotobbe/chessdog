@@ -1,0 +1,301 @@
+{
+  "slug": "reti-opening",
+  "name": "Reti Opening",
+  "range": "A04-A09",
+  "lines": [
+    {
+      "eco": "A07",
+      "name": "King's Indian Attack, General",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. g3",
+      "count": 35195
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Sicilian Invitation",
+      "color": "black",
+      "moves": "1. Nf3 1... c5",
+      "count": 30073
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Symmetrical Variation",
+      "color": "black",
+      "moves": "1. Nf3 1... Nf6",
+      "count": 24816
+    },
+    {
+      "eco": "A05",
+      "name": "King's Indian Attack, Symmterical Defense",
+      "color": "black",
+      "moves": "1. Nf3 1... Nf6 2. g3 2... g6",
+      "count": 19789
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Kingside Fianchetto",
+      "color": "black",
+      "moves": "1. Nf3 1... g6",
+      "count": 13635
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Nimzo-Larsen Variation",
+      "color": "white",
+      "moves": "1. Nf3 1... Nf6 2. b3",
+      "count": 11301
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Dutch Variation",
+      "color": "black",
+      "moves": "1. Nf3 1... f5",
+      "count": 9172
+    },
+    {
+      "eco": "A06",
+      "name": "Nimzowitsch-Larsen Attack, General",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. b3",
+      "count": 8523
+    },
+    {
+      "eco": "A06",
+      "name": "Zukertort Opening, Queen Pawn Defense",
+      "color": "black",
+      "moves": "1. Nf3 1... d5",
+      "count": 8074
+    },
+    {
+      "eco": "A07",
+      "name": "King's Indian Attack, Yugoslav Variation",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. g3 2... Nf6 3. Bg2 3... c6 4. O-O 4... Bg4",
+      "count": 6483
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Queen's Gambit Invitation",
+      "color": "black",
+      "moves": "1. Nf3 1... e6",
+      "count": 5329
+    },
+    {
+      "eco": "A09",
+      "name": "Reti Opening, General",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. c4",
+      "count": 5312
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Pirc Invitation",
+      "color": "black",
+      "moves": "1. Nf3 1... d6",
+      "count": 5049
+    },
+    {
+      "eco": "A09",
+      "name": "Reti Opening, Advance Variation",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. c4 2... d4",
+      "count": 4877
+    },
+    {
+      "eco": "A08",
+      "name": "King's Indian Attack, Sicilian Variation",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. g3 2... c5 3. Bg2",
+      "count": 4610
+    },
+    {
+      "eco": "A08",
+      "name": "King's Indian Attack, Sicilian Variation",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. g3 2... c5 3. Bg2 3... Nc6 4. O-O 4... e6 5. d3 5... Nf6 6. Nbd2 6... Be7 7. e4 7... O-O 8. Re1",
+      "count": 4457
+    },
+    {
+      "eco": "A05",
+      "name": "King's Indian Attack, Wahls Defense",
+      "color": "black",
+      "moves": "1. Nf3 1... Nf6 2. g3 2... g6 3. Bg2 3... Bg7 4. O-O 4... O-O 5. d3 5... d5",
+      "count": 4089
+    },
+    {
+      "eco": "A05",
+      "name": "King's Indian Attack, Spassky Variation",
+      "color": "black",
+      "moves": "1. Nf3 1... Nf6 2. g3 2... b5",
+      "count": 3773
+    },
+    {
+      "eco": "A07",
+      "name": "King's Indian Attack, Double Fianchetto",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. g3 2... g6",
+      "count": 3695
+    },
+    {
+      "eco": "A07",
+      "name": "King's Indian Attack, Keres Variation",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. g3 2... Bg4 3. Bg2 3... Nd7",
+      "count": 3043
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Queenside Fianchetto Variation",
+      "color": "black",
+      "moves": "1. Nf3 1... b6",
+      "count": 2673
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Quiet system",
+      "color": "white",
+      "moves": "1. Nf3 1... Nf6 2. e3",
+      "count": 2351
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Black Mustang Defense",
+      "color": "black",
+      "moves": "1. Nf3 1... Nc6",
+      "count": 1739
+    },
+    {
+      "eco": "A09",
+      "name": "Reti Opening, Reti Gambit",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. c4 2... dxc4",
+      "count": 1574
+    },
+    {
+      "eco": "A07",
+      "name": "King's Indian Attack, Pachman System",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. g3 2... g6 3. Bg2 3... Bg7 4. O-O 4... e5 5. d3 5... Ne7",
+      "count": 1436
+    },
+    {
+      "eco": "A06",
+      "name": "Zukertort Opening, Old Indian Attack",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. d3",
+      "count": 1346
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Slav Invitation",
+      "color": "black",
+      "moves": "1. Nf3 1... c6",
+      "count": 1053
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Polish Defense",
+      "color": "black",
+      "moves": "1. Nf3 1... b5",
+      "count": 848
+    },
+    {
+      "eco": "A05",
+      "name": "King's Indian Attack, Smyslov Variation",
+      "color": "white",
+      "moves": "1. Nf3 1... Nf6 2. g3 2... g6 3. b4",
+      "count": 783
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Lisitsyn Gambit",
+      "color": "white",
+      "moves": "1. Nf3 1... f5 2. e4",
+      "count": 760
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Lisitsyn Gambit Deferred",
+      "color": "white",
+      "moves": "1. Nf3 1... f5 2. d3 2... Nf6 3. e4",
+      "count": 534
+    },
+    {
+      "eco": "A07",
+      "name": "King's Indian Attack, Sicilian Variation",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. g3 2... c5",
+      "count": 476
+    },
+    {
+      "eco": "A04",
+      "name": "Polish Opening, Zukertort System",
+      "color": "white",
+      "moves": "1. b4 1... Nf6 2. Nf3",
+      "count": 451
+    },
+    {
+      "eco": "A09",
+      "name": "Reti Opening, Reversed Blumenfeld Gambit",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. c4 2... d4 3. e3 3... c5 4. b4",
+      "count": 412
+    },
+    {
+      "eco": "A09",
+      "name": "Reti Opening, Advance Variation, Michel Gambit",
+      "color": "black",
+      "moves": "1. Nf3 1... d5 2. c4 2... d4 3. b4 3... c5",
+      "count": 337
+    },
+    {
+      "eco": "A06",
+      "name": "Zukertort Opening, Santasiere's Folly",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. b4",
+      "count": 334
+    },
+    {
+      "eco": "A06",
+      "name": "Zukertort Opening, Tennison Gambit",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. e4",
+      "count": 288
+    },
+    {
+      "eco": "A06",
+      "name": "Zukertort Opening, Reversed Mexican Defense",
+      "color": "white",
+      "moves": "1. Nf3 1... d5 2. Nc3",
+      "count": 208
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, St. George Defense",
+      "color": "black",
+      "moves": "1. Nf3 1... a6",
+      "count": 207
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Basman Defense",
+      "color": "black",
+      "moves": "1. Nf3 1... h6",
+      "count": 165
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Wade-Tartakower Defense",
+      "color": "black",
+      "moves": "1. Nf3 1... d6 2. e4 2... Bg4",
+      "count": 114
+    },
+    {
+      "eco": "A04",
+      "name": "Zukertort Opening, Herrstrom Gambit",
+      "color": "black",
+      "moves": "1. Nf3 1... g5",
+      "count": 108
+    }
+  ]
+}

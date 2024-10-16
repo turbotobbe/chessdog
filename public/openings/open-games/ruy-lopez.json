@@ -1,0 +1,938 @@
+{
+  "slug": "ruy-lopez",
+  "name": "Ruy Lopez",
+  "range": "C60-C99",
+  "lines": [
+    {
+      "eco": "C60",
+      "name": "Spanish Game, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5",
+      "count": 12816
+    },
+    {
+      "eco": "C77",
+      "name": "Spanish Game, Morphy Defense, Anderssen Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. d3",
+      "count": 11261
+    },
+    {
+      "eco": "C84",
+      "name": "Spanish Game, Closed Variations",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7",
+      "count": 10678
+    },
+    {
+      "eco": "C78",
+      "name": "Spanish Game, Morphy Defense",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O",
+      "count": 9526
+    },
+    {
+      "eco": "C95",
+      "name": "Spanish Game, Morphy Defense, Breyer Defense, Zaitsev Hybrid",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Nb8 10. d4 10... Nbd7",
+      "count": 6654
+    },
+    {
+      "eco": "C78",
+      "name": "Spanish Game, Closed Variations, Martinez Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. d3",
+      "count": 5940
+    },
+    {
+      "eco": "C67",
+      "name": "Spanish Game, Berlin Defense, Rio Gambit Accepted",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... Nxe4",
+      "count": 5197
+    },
+    {
+      "eco": "C67",
+      "name": "Spanish Game, Berlin Defense, l'Hermet Variation, Berlin Wall Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... Nxe4 5. d4 5... Nd6 6. Bxc6 6... dxc6 7. dxe5 7... Nf5 8. Qxd8+ 8... Kxd8",
+      "count": 4980
+    },
+    {
+      "eco": "C91",
+      "name": "Spanish Game, Closed Variations, Bogoljubow Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. d4 9... Bg4",
+      "count": 4937
+    },
+    {
+      "eco": "C60",
+      "name": "Spanish Game, Cozio Defense, General",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nge7",
+      "count": 4815
+    },
+    {
+      "eco": "C92",
+      "name": "Spanish Game, Closed Variations, Flohr System",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Bb7",
+      "count": 4534
+    },
+    {
+      "eco": "C78",
+      "name": "Spanish Game, Morphy Defense, Archangelsk Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... b5 6. Bb3 6... Bb7",
+      "count": 4355
+    },
+    {
+      "eco": "C60",
+      "name": "Spanish Game, Fianchetto Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... g6",
+      "count": 4200
+    },
+    {
+      "eco": "C97",
+      "name": "Spanish Game, Closed Variations, Chigorin Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Na5 10. Bc2 10... c5 11. d4 11... Qc7",
+      "count": 4179
+    },
+    {
+      "eco": "C69",
+      "name": "Spanish Game, Exchange Variation, Gligoric Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Bxc6 4... dxc6 5. O-O 5... f6",
+      "count": 4124
+    },
+    {
+      "eco": "C62",
+      "name": "Spanish Game, Steinitz Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... d6",
+      "count": 3962
+    },
+    {
+      "eco": "C72",
+      "name": "Spanish Game, Morphy Defense, Modern Steinitz Defense",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... d6 5. O-O",
+      "count": 3952
+    },
+    {
+      "eco": "C63",
+      "name": "Spanish Game, Schliemann Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... f5",
+      "count": 3771
+    },
+    {
+      "eco": "C77",
+      "name": "Spanish Game, Morphy Defense, Wormald Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. Qe2",
+      "count": 3751
+    },
+    {
+      "eco": "C77",
+      "name": "Spanish Game, Morphy Defense, Mackenzie Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. d4",
+      "count": 3572
+    },
+    {
+      "eco": "C99",
+      "name": "Spanish Game, Morphy Defense, Chigorin Defense, Panov System",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Na5 10. Bc2 10... c5 11. d4 11... Qc7 12. Nbd2 12... cxd4 13. cxd4",
+      "count": 3253
+    },
+    {
+      "eco": "C90",
+      "name": "Spanish Game, Closed Variations, Pilnik Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. d3",
+      "count": 3240
+    },
+    {
+      "eco": "C85",
+      "name": "Spanish Game, Closed Variations, Delayed Exchange",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Bxc6",
+      "count": 3181
+    },
+    {
+      "eco": "C69",
+      "name": "Spanish Game, Exchange Variation, Normal Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Bxc6 4... dxc6 5. O-O",
+      "count": 3148
+    },
+    {
+      "eco": "C64",
+      "name": "Spanish Game, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Bc5",
+      "count": 3049
+    },
+    {
+      "eco": "C78",
+      "name": "Spanish Game, Morphy Defense, Neo-Archangelsk Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Bc5",
+      "count": 2685
+    },
+    {
+      "eco": "C68",
+      "name": "Spanish Game, Exchange Variation, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Bxc6",
+      "count": 2679
+    },
+    {
+      "eco": "C80",
+      "name": "Spanish Game, Open Variations, Bernstein Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6 9. Nbd2",
+      "count": 2584
+    },
+    {
+      "eco": "C70",
+      "name": "Spanish Game, Morphy Defense, Cozio Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nge7",
+      "count": 2497
+    },
+    {
+      "eco": "C61",
+      "name": "Spanish Game, Bird Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nd4",
+      "count": 2407
+    },
+    {
+      "eco": "C96",
+      "name": "Spanish Game, Closed Variations, Keres Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Na5 10. Bc2 10... c5 11. d4 11... Nd7",
+      "count": 2259
+    },
+    {
+      "eco": "C69",
+      "name": "Spanish Game, Exchange Variation, Alapin Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Bxc6 4... dxc6 5. O-O 5... Bg4 6. h3 6... h5",
+      "count": 2028
+    },
+    {
+      "eco": "C79",
+      "name": "Spanish Game, Morphy Defense, Steinitz Deferred",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... d6",
+      "count": 2007
+    },
+    {
+      "eco": "C68",
+      "name": "Spanish Game, Exchange Variation, Keres Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Bxc6 4... dxc6 5. Nc3",
+      "count": 1923
+    },
+    {
+      "eco": "C70",
+      "name": "Spanish Game, Morphy Defense, Classical Defense Deferred",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Bc5",
+      "count": 1782
+    },
+    {
+      "eco": "C69",
+      "name": "Spanish Game, Exchange Variation, Bronstein Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Bxc6 4... dxc6 5. O-O 5... Qd6",
+      "count": 1724
+    },
+    {
+      "eco": "C77",
+      "name": "Spanish Game, Morphy Defense, Tarrasch Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. Nc3",
+      "count": 1696
+    },
+    {
+      "eco": "C67",
+      "name": "Spanish Game, Berlin Defense, l'Hermet Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... Nxe4 5. d4 5... Nd6",
+      "count": 1643
+    },
+    {
+      "eco": "C68",
+      "name": "Spanish Game, Exchange Variation, King's Bishop Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Bxc6 4... dxc6 5. O-O 5... Bd6",
+      "count": 1608
+    },
+    {
+      "eco": "C96",
+      "name": "Spanish Game, Closed Variations, Closed Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Na5 10. Bc2 10... c5",
+      "count": 1532
+    },
+    {
+      "eco": "C89",
+      "name": "Spanish Game, Marshall Attack, Modern Main Line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d5 9. exd5 9... Nxd5 10. Nxe5 10... Nxe5 11. Rxe5 11... c6 12. d4 12... Bd6 13. Re1 13... Qh4 14. g3 14... Qh3",
+      "count": 1527
+    },
+    {
+      "eco": "C65",
+      "name": "Spanish Game, Berlin Defense, Beverwijk Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... Bc5",
+      "count": 1445
+    },
+    {
+      "eco": "C86",
+      "name": "Spanish Game, Closed Variations, Worrall Attack, Caslting line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Qe2 6... b5 7. Bb3 7... O-O",
+      "count": 1431
+    },
+    {
+      "eco": "C63",
+      "name": "Spanish Game, Schliemann Defense, Tartakower Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... f5 4. Nc3 4... fxe4 5. Nxe4 5... Nf6",
+      "count": 1430
+    },
+    {
+      "eco": "C75",
+      "name": "Spanish Game, Morphy Defense, Modern Steinitz Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... d6 5. c3 5... Bd7",
+      "count": 1426
+    },
+    {
+      "eco": "C92",
+      "name": "Spanish Game, Closed Variations, Keres Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Nd7",
+      "count": 1420
+    },
+    {
+      "eco": "C66",
+      "name": "Spanish Game, Berlin Defense, Improved Steinitz Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... d6",
+      "count": 1375
+    },
+    {
+      "eco": "C76",
+      "name": "Spanish Game, Morphy Defense, Modern Steinitz Defense, Fianchetto Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... d6 5. c3 5... Bd7 6. d4 6... g6",
+      "count": 1340
+    },
+    {
+      "eco": "C63",
+      "name": "Spanish Game, Schliemann Defense, Dyckhoff Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... f5 4. Nc3",
+      "count": 1329
+    },
+    {
+      "eco": "C87",
+      "name": "Spanish Game, Closed Variations, Averbakh Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... d6",
+      "count": 1311
+    },
+    {
+      "eco": "C80",
+      "name": "Spanish Game, Open Variations, Main Lines",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6",
+      "count": 1303
+    },
+    {
+      "eco": "C64",
+      "name": "Spanish Game, Classical Variation, Central Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Bc5 4. c3",
+      "count": 1300
+    },
+    {
+      "eco": "C80",
+      "name": "Spanish Game, Open Variations, Open Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4",
+      "count": 1295
+    },
+    {
+      "eco": "C93",
+      "name": "Spanish Game, Closed Variations, Smyslov Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... h6",
+      "count": 1257
+    },
+    {
+      "eco": "C70",
+      "name": "Spanish Game, Morphy Defense, Caro Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... b5",
+      "count": 1203
+    },
+    {
+      "eco": "C71",
+      "name": "Spanish Game, Morphy Defense, Modern Steinitz Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... d6",
+      "count": 1194
+    },
+    {
+      "eco": "C81",
+      "name": "Spanish Game, Open Variations, Howell Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6 9. Qe2",
+      "count": 1186
+    },
+    {
+      "eco": "C77",
+      "name": "Spanish Game, Morphy Defense, Bayreuth Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. Bxc6",
+      "count": 1117
+    },
+    {
+      "eco": "C83",
+      "name": "Spanish Game, Open Variations, Classical Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6 9. c3 9... Be7",
+      "count": 1103
+    },
+    {
+      "eco": "C89",
+      "name": "Spanish Game, Marshall Attack, Modern Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d5 9. exd5 9... Nxd5 10. Nxe5 10... Nxe5 11. Rxe5 11... c6",
+      "count": 921
+    },
+    {
+      "eco": "C86",
+      "name": "Spanish Game, Closed Variations, Worrall Attack, Delayed castling line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Qe2 6... b5 7. Bb3 7... d6",
+      "count": 900
+    },
+    {
+      "eco": "C64",
+      "name": "Spanish Game, Classical Variation, Zukertort Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Bc5 4. O-O 4... Nf6 5. c3",
+      "count": 887
+    },
+    {
+      "eco": "C98",
+      "name": "Spanish Game, Closed Variations, Chigorin Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Na5 10. Bc2 10... c5 11. d4 11... Qc7 12. Nbd2 12... Nc6",
+      "count": 880
+    },
+    {
+      "eco": "C70",
+      "name": "Spanish Game, Morphy Defense, Norwegian Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... b5 5. Bb3 5... Na5",
+      "count": 861
+    },
+    {
+      "eco": "C92",
+      "name": "Spanish Game, Closed Variations, Zaitsev System",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Re8",
+      "count": 852
+    },
+    {
+      "eco": "C89",
+      "name": "Spanish Game, Marshall Attack, General",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d5",
+      "count": 850
+    },
+    {
+      "eco": "C73",
+      "name": "Spanish Game, Morphy Defense, Modern Steinitz Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... d6 5. Bxc6+ 5... bxc6 6. d4 6... f6",
+      "count": 849
+    },
+    {
+      "eco": "C70",
+      "name": "Spanish Game, Morphy Defense, Fianchetto Defense Deferred",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... g6",
+      "count": 821
+    },
+    {
+      "eco": "C84",
+      "name": "Spanish Game, Closed Variations, Center Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. d4",
+      "count": 759
+    },
+    {
+      "eco": "C75",
+      "name": "Spanish Game, Morphy Defense, Modern Steinitz Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... d6 5. c3 5... Bd7 6. d4 6... Nge7",
+      "count": 722
+    },
+    {
+      "eco": "C93",
+      "name": "Spanish Game, Closed Variations, Smyslov-Breyer-Zaitsev Hybrid",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Re8 10. d4 10... Bb7 11. Nbd2 11... Bf8 12. a3 12... h6",
+      "count": 709
+    },
+    {
+      "eco": "C65",
+      "name": "Spanish Game, Berlin Defense",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O",
+      "count": 672
+    },
+    {
+      "eco": "C73",
+      "name": "Spanish Game, Morphy Defense, Modern Steinitz Defense",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... d6 5. Bxc6+ 5... bxc6 6. d4",
+      "count": 672
+    },
+    {
+      "eco": "C63",
+      "name": "Spanish Game, Schliemann Defense, SchÃ¶nemann Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... f5 4. d4",
+      "count": 660
+    },
+    {
+      "eco": "C67",
+      "name": "Spanish Game, Berlin Defense, Berlin Wall, J. Rogers Line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... Nxe4 5. d4 5... Nd6 6. Bxc6 6... dxc6 7. dxe5 7... Nf5 8. Qxd8+ 8... Kxd8 9. Nc3 9... Bd7",
+      "count": 657
+    },
+    {
+      "eco": "C74",
+      "name": "Spanish Game, Morphy Defense, Modern Steinitz Defense",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... d6 5. c3",
+      "count": 655
+    },
+    {
+      "eco": "C63",
+      "name": "Spanish Game, Schliemann Defense, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... f5 4. Nc3 4... fxe4 5. Nxe4 5... d5 6. Nxe5 6... dxe4 7. Nxc6 7... Qg5",
+      "count": 647
+    },
+    {
+      "eco": "C82",
+      "name": "Spanish Game, Open Variations, St. Petersburg Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6 9. c3 9... Bc5 10. Nbd2",
+      "count": 646
+    },
+    {
+      "eco": "C92",
+      "name": "Spanish Game, Closed Variations, Kholmov Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Be6",
+      "count": 621
+    },
+    {
+      "eco": "C64",
+      "name": "Spanish Game, Classical Variation, Modern Main Line",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Bc5 4. O-O 4... Nf6 5. c3 5... O-O 6. d4 6... Bb6 7. Bg5",
+      "count": 604
+    },
+    {
+      "eco": "C70",
+      "name": "Spanish Game, Morphy Defense, Schliemann Defense Deferred",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... f5",
+      "count": 594
+    },
+    {
+      "eco": "C77",
+      "name": "Spanish Game, Morphy Defense, Duras Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. d3 5... d6 6. c4",
+      "count": 563
+    },
+    {
+      "eco": "C94",
+      "name": "Spanish Game, Morphy Defense, Breyer Defense, Quiet Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Nb8 10. d3",
+      "count": 522
+    },
+    {
+      "eco": "C96",
+      "name": "Spanish Game, Closed Variations, Closed Defense",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Na5 10. Bc2",
+      "count": 504
+    },
+    {
+      "eco": "C82",
+      "name": "Spanish Game, Open Variations, Dilworth Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6 9. c3 9... Bc5 10. Nbd2 10... O-O 11. Bc2 11... Nxf2",
+      "count": 497
+    },
+    {
+      "eco": "C91",
+      "name": "Spanish Game, Closed Variations, Yates Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. d4",
+      "count": 496
+    },
+    {
+      "eco": "C66",
+      "name": "Spanish Game, Berlin Defense, Hedgehog Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... d6 5. d4 5... Bd7 6. Nc3 6... Be7",
+      "count": 484
+    },
+    {
+      "eco": "C71",
+      "name": "Spanish Game, Morphy Defense, Modern Steinitz Defense",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... d6 5. c4",
+      "count": 479
+    },
+    {
+      "eco": "C74",
+      "name": "Spanish Game, Morphy Defense, Modern Steinitz Defense, Siesta Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... d6 5. c3 5... f5",
+      "count": 472
+    },
+    {
+      "eco": "C67",
+      "name": "Spanish Game, Berlin Defense, Rio de Janeiro Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... Nxe4 5. d4 5... Be7",
+      "count": 471
+    },
+    {
+      "eco": "C78",
+      "name": "Spanish Game, Closed Variations, Morphy Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Nc3",
+      "count": 470
+    },
+    {
+      "eco": "C74",
+      "name": "Spanish Game, Morphy Defense, Modern Steinitz Defense",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... d6 5. c3 5... f5 6. exf5 6... Bxf5 7. O-O",
+      "count": 460
+    },
+    {
+      "eco": "C80",
+      "name": "Spanish Game, Open Variations",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3",
+      "count": 459
+    },
+    {
+      "eco": "C64",
+      "name": "Spanish Game, Classical Variation, Cordel Gambit",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Bc5 4. c3 4... f5",
+      "count": 445
+    },
+    {
+      "eco": "C95",
+      "name": "Spanish Game, Closed Variations, Breyer Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Nb8 10. d4 10... Nbd7 11. Nbd2 11... Bb7 12. Bc2 12... c5",
+      "count": 445
+    },
+    {
+      "eco": "C78",
+      "name": "Spanish Game, Morphy Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... b5 6. Bb3 6... d6",
+      "count": 442
+    },
+    {
+      "eco": "C63",
+      "name": "Spanish Game, Schliemann Defense, Exchange Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... f5 4. Bxc6",
+      "count": 429
+    },
+    {
+      "eco": "C96",
+      "name": "Spanish Game, Closed Variations, Borisenko  Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Na5 10. Bc2 10... c5 11. d4 11... Nc6",
+      "count": 428
+    },
+    {
+      "eco": "C60",
+      "name": "Spanish Game, Cozio Defense, Paulsen Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nge7 4. Nc3 4... g6",
+      "count": 428
+    },
+    {
+      "eco": "C90",
+      "name": "Spanish Game, Closed Variations, Closed Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6",
+      "count": 419
+    },
+    {
+      "eco": "C70",
+      "name": "Spanish Game, Morphy Defense, Graz Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... b5 5. Bb3 5... Bc5",
+      "count": 412
+    },
+    {
+      "eco": "C92",
+      "name": "Spanish Game, Closed Variations, Keres Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... a5",
+      "count": 358
+    },
+    {
+      "eco": "C88",
+      "name": "Spanish Game, Closed Variations, Trajkovic Counterattack",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... Bb7",
+      "count": 334
+    },
+    {
+      "eco": "C68",
+      "name": "Spanish Game, Exchange Variation, Lutikov Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Bxc6 4... bxc6",
+      "count": 330
+    },
+    {
+      "eco": "C80",
+      "name": "Spanish Game, Open Variations, Riga Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... exd4",
+      "count": 313
+    },
+    {
+      "eco": "C89",
+      "name": "Spanish Game, Marshall Attack, Original Marshall Attack",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d5 9. exd5 9... Nxd5 10. Nxe5 10... Nxe5 11. Rxe5 11... Nf6",
+      "count": 267
+    },
+    {
+      "eco": "C92",
+      "name": "Spanish Game, Closed Variations, General",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3",
+      "count": 265
+    },
+    {
+      "eco": "C82",
+      "name": "Spanish Game, Open Variations, Italian Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6 9. c3 9... Bc5",
+      "count": 263
+    },
+    {
+      "eco": "C60",
+      "name": "Spanish Game, Alapin Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Bb4",
+      "count": 256
+    },
+    {
+      "eco": "C66",
+      "name": "Spanish Game, Berlin Defense, Closed Wolf Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... d6 5. d4 5... Bd7 6. Nc3 6... exd4",
+      "count": 251
+    },
+    {
+      "eco": "C65",
+      "name": "Spanish Game, Berlin Defense, Nyholm Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. d4 4... exd4 5. O-O",
+      "count": 250
+    },
+    {
+      "eco": "C60",
+      "name": "Spanish Game, Schleimann Defense, Jaenisch Gambit Accepted",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... f5 4. exf5",
+      "count": 234
+    },
+    {
+      "eco": "C63",
+      "name": "Spanish Game, Schliemann Defense, MÃ¶hring Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... f5 4. Nc3 4... fxe4 5. Nxe4 5... d5 6. Nxe5 6... dxe4 7. Nxc6 7... Qd5",
+      "count": 234
+    },
+    {
+      "eco": "C98",
+      "name": "Spanish Game, Closed Variations, Chigorin Defense",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Na5 10. Bc2 10... c5 11. d4 11... Qc7 12. Nbd2 12... Nc6 13. dxc5",
+      "count": 230
+    },
+    {
+      "eco": "C82",
+      "name": "Spanish Game, Open Variations, Motzko Attack II",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6 9. c3 9... Bc5 10. Qd3",
+      "count": 229
+    },
+    {
+      "eco": "C82",
+      "name": "Spanish Game, Open Variations, Berlin Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6 9. c3 9... Nc5",
+      "count": 222
+    },
+    {
+      "eco": "C67",
+      "name": "Spanish Game, Berlin Defense, Minckwitz Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... Nxe4 5. d4 5... Be7 6. dxe5",
+      "count": 194
+    },
+    {
+      "eco": "C89",
+      "name": "Spanish Game, Marshall Attack, Steiner Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d5 9. exd5 9... e4",
+      "count": 193
+    },
+    {
+      "eco": "C78",
+      "name": "Spanish Game, Morphy Defense, Wing Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... b5 6. Bb3 6... Be7 7. a4",
+      "count": 192
+    },
+    {
+      "eco": "C67",
+      "name": "Spanish Game, Berlin Defense, l'Hermet Variation, Westerinen Line",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... Nxe4 5. d4 5... Nd6 6. Bxc6 6... dxc6 7. dxe5 7... Ne4",
+      "count": 187
+    },
+    {
+      "eco": "C89",
+      "name": "Spanish Game, Marshall Attack, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d5 9. exd5 9... Nxd5 10. Nxe5 10... Nxe5 11. Rxe5 11... c6 12. d4",
+      "count": 181
+    },
+    {
+      "eco": "C86",
+      "name": "Spanish Game, Closed Variations, Worrall Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Qe2",
+      "count": 178
+    },
+    {
+      "eco": "C70",
+      "name": "Spanish Game, Columbus Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4",
+      "count": 165
+    },
+    {
+      "eco": "C83",
+      "name": "Spanish Game, Open Variations, Classical Defense, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6 9. c3 9... Be7 10. Re1",
+      "count": 165
+    },
+    {
+      "eco": "C90",
+      "name": "Spanish Game, Closed Variations, Suetin Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. a3",
+      "count": 155
+    },
+    {
+      "eco": "C67",
+      "name": "Spanish Game, Berlin Defense, Rosenthal Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... Nxe4 5. d4 5... a6",
+      "count": 145
+    },
+    {
+      "eco": "C89",
+      "name": "Spanish Game, Marshall Attack, Re3 variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d5 9. exd5 9... Nxd5 10. Nxe5 10... Nxe5 11. Rxe5 11... c6 12. Bxd5 12... cxd5 13. d4 13... Bd6 14. Re3",
+      "count": 138
+    },
+    {
+      "eco": "C68",
+      "name": "Spanish Game, Exchange Variation, Alekhine Variation",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Bxc6 4... dxc6 5. d4 5... exd4 6. Qxd4 6... Qxd4 7. Nxd4 7... Bd6",
+      "count": 131
+    },
+    {
+      "eco": "C66",
+      "name": "Spanish Game, Berlin Defense, Closed Showalter Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... Nf6 4. O-O 4... d6 5. d4 5... Bd7 6. Nc3 6... Be7 7. Bxc6",
+      "count": 127
+    },
+    {
+      "eco": "C94",
+      "name": "Spanish Game, Morphy Defense, Breyer Defense",
+      "color": "black",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Be7 6. Re1 6... b5 7. Bb3 7... O-O 8. c3 8... d6 9. h3 9... Nb8",
+      "count": 125
+    },
+    {
+      "eco": "C83",
+      "name": "Spanish Game, Open Variations, Malkin Variation",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6 9. c3 9... Be7 10. Nbd2 10... O-O 11. Qe2",
+      "count": 109
+    },
+    {
+      "eco": "C62",
+      "name": "Spanish Game, Steinitz Defense, Nimzowitsch Attack",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... d6 4. d4 4... Bd7 5. Nc3 5... Nf6 6. Bxc6",
+      "count": 109
+    },
+    {
+      "eco": "C80",
+      "name": "Spanish Game, Open Variations, Karpov Gambit",
+      "color": "white",
+      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bb5 3... a6 4. Ba4 4... Nf6 5. O-O 5... Nxe4 6. d4 6... b5 7. Bb3 7... d5 8. dxe5 8... Be6 9. Nbd2 9... Nc5 10. c3 10... d4 11. Ng5",
+      "count": 104
+    }
+  ]
+}

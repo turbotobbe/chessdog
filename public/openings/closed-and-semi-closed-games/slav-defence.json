@@ -1,0 +1,266 @@
+{
+  "slug": "slav-defence",
+  "name": "Slav Defence",
+  "range": "D10-D19",
+  "lines": [
+    {
+      "eco": "D10",
+      "name": "Slav Defense, General",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6",
+      "count": 17509
+    },
+    {
+      "eco": "D11",
+      "name": "Slav Defense, Modern Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3",
+      "count": 17183
+    },
+    {
+      "eco": "D10",
+      "name": "Slav Defense, Exchange Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. cxd5",
+      "count": 13363
+    },
+    {
+      "eco": "D12",
+      "name": "Slav Defense, Quiet Variation, Schallopp Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. e3 4... Bf5",
+      "count": 12058
+    },
+    {
+      "eco": "D11",
+      "name": "Slav Defense, Quiet Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. e3",
+      "count": 11438
+    },
+    {
+      "eco": "D15",
+      "name": "Slav Defense, Chameleon Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... a6",
+      "count": 9011
+    },
+    {
+      "eco": "D18",
+      "name": "Slav Defense, Czech Variation, Classical System",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. e3",
+      "count": 6775
+    },
+    {
+      "eco": "D13",
+      "name": "Slav Defense, Exchange Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. cxd5 4... cxd5",
+      "count": 5860
+    },
+    {
+      "eco": "D12",
+      "name": "Slav Defense, Quiet Variation, Pin Defense",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. e3 4... Bg4",
+      "count": 5664
+    },
+    {
+      "eco": "D14",
+      "name": "Slav Defense, Exchange Variation, Symmetrical Line",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. cxd5 4... cxd5 5. Nc3 5... Nc6 6. Bf4 6... Bf5",
+      "count": 4089
+    },
+    {
+      "eco": "D15",
+      "name": "Slav Defense, Chameleon Variation, Advance System",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... a6 5. c5",
+      "count": 3388
+    },
+    {
+      "eco": "D17",
+      "name": "Slav Defense, Czech Variation, Krause Attack",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Ne5",
+      "count": 3364
+    },
+    {
+      "eco": "D15",
+      "name": "Slav Defense, Three Knights Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3",
+      "count": 3107
+    },
+    {
+      "eco": "D15",
+      "name": "Slav Defense, Schlechter Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... g6",
+      "count": 2954
+    },
+    {
+      "eco": "D19",
+      "name": "Slav Defense, Czech Variation, Classical System, Main Line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. e3 6... e6 7. Bxc4 7... Bb4 8. O-O 8... O-O 9. Qe2",
+      "count": 2493
+    },
+    {
+      "eco": "D11",
+      "name": "Slav Defense, Breyer Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nbd2",
+      "count": 2054
+    },
+    {
+      "eco": "D17",
+      "name": "Slav Defense, Czech Variation, Bled Attack",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Nh4",
+      "count": 1611
+    },
+    {
+      "eco": "D16",
+      "name": "Slav Defense, Soultanbeieff Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... e6",
+      "count": 1587
+    },
+    {
+      "eco": "D17",
+      "name": "Slav Defense, Czech Variation, Wiesbaden Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Ne5 6... e6",
+      "count": 1422
+    },
+    {
+      "eco": "D15",
+      "name": "Slav Defense, Alekhine Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. e3",
+      "count": 1286
+    },
+    {
+      "eco": "D16",
+      "name": "Slav Defense, Steiner Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bg4",
+      "count": 1240
+    },
+    {
+      "eco": "D15",
+      "name": "Slav Defense, Geller Gambit",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. e4 5... b5 6. e5",
+      "count": 1090
+    },
+    {
+      "eco": "D17",
+      "name": "Slav Defense, Czech Variation, Carlsbad Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Ne5 6... Nbd7 7. Nxc4 7... Qc7 8. g3 8... e5",
+      "count": 1053
+    },
+    {
+      "eco": "D15",
+      "name": "Slav Defense, Geller Gambit",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. e4",
+      "count": 874
+    },
+    {
+      "eco": "D17",
+      "name": "Slav Defense, Czech Variation, Carlsbad Variation, Morozevich Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Ne5 6... Nbd7 7. Nxc4 7... Qc7 8. g3 8... e5 9. dxe5 9... Nxe5 10. Bf4 10... Nfd7 11. Bg2 11... g5",
+      "count": 851
+    },
+    {
+      "eco": "D10",
+      "name": "Slav Defense, Slav Gambit, Alekhine Attack",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nc3 3... dxc4 4. e4",
+      "count": 811
+    },
+    {
+      "eco": "D14",
+      "name": "Slav Defense, Exchange Variation, Trifunovic Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. cxd5 4... cxd5 5. Nc3 5... Nc6 6. Bf4 6... Bf5 7. e3 7... e6 8. Qb3 8... Bb4",
+      "count": 782
+    },
+    {
+      "eco": "D17",
+      "name": "Slav Defense, Czech Variation, Wiesbaden Variation, Sharp line",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Ne5 6... e6 7. f3 7... Bb4 8. e4",
+      "count": 758
+    },
+    {
+      "eco": "D16",
+      "name": "Slav Defense, Smyslov Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Na6",
+      "count": 712
+    },
+    {
+      "eco": "D16",
+      "name": "Slav Defense, Alapin Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4",
+      "count": 682
+    },
+    {
+      "eco": "D10",
+      "name": "Slav Defense, Winawer Countergambit",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nc3 3... e5",
+      "count": 671
+    },
+    {
+      "eco": "D15",
+      "name": "Slav Defense, Two Knights Attack",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4",
+      "count": 547
+    },
+    {
+      "eco": "D12",
+      "name": "Slav Defense, Exchange Variation, Schallopp Variation",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. e3 4... Bf5 5. cxd5 5... cxd5 6. Nc3",
+      "count": 430
+    },
+    {
+      "eco": "D15",
+      "name": "Slav Defense, Suchting Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... Qb6",
+      "count": 350
+    },
+    {
+      "eco": "D11",
+      "name": "Slav Defense, Bonet Gambit",
+      "color": "white",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Bg5",
+      "count": 208
+    },
+    {
+      "eco": "D17",
+      "name": "Slav Defense, Czech Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5",
+      "count": 202
+    },
+    {
+      "eco": "D18",
+      "name": "Slav Defense, Czech Variation, Lasker Variation",
+      "color": "black",
+      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. e3 6... Na6",
+      "count": 120
+    }
+  ]
+}

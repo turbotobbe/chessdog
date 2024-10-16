@@ -1,0 +1,1918 @@
+{
+  "slug": "sicilian-defence",
+  "name": "Sicilian Defence",
+  "range": "B20-B99",
+  "lines": [
+    {
+      "eco": "B23",
+      "name": "Sicilian Defense, Closed Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nc3",
+      "count": 39480
+    },
+    {
+      "eco": "B22",
+      "name": "Sicilian Defense, Alapin Variation, General",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. c3",
+      "count": 28285
+    },
+    {
+      "eco": "B30",
+      "name": "Sicilian Defense, Nyezhmetdinov-Rossolimo Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. Bb5",
+      "count": 28041
+    },
+    {
+      "eco": "B31",
+      "name": "Sicilian Defense, Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. Bb5 3... g6",
+      "count": 25760
+    },
+    {
+      "eco": "B30",
+      "name": "Sicilian Defense, Old Sicilian, General",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6",
+      "count": 24556
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, French Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6",
+      "count": 24439
+    },
+    {
+      "eco": "B51",
+      "name": "Sicilian Defense, Canal Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. Bb5+",
+      "count": 23303
+    },
+    {
+      "eco": "B90",
+      "name": "Sicilian Defense, Najdorf Variation, English Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Be3",
+      "count": 22704
+    },
+    {
+      "eco": "B52",
+      "name": "Sicilian Defense, Canal Attack, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. Bb5+ 3... Bd7",
+      "count": 21420
+    },
+    {
+      "eco": "B22",
+      "name": "Sicilian Defense, Alapin Variation, Smith-Morra Declined",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. c3 2... Nf6 3. e5 3... Nd5 4. d4 4... cxd4",
+      "count": 20725
+    },
+    {
+      "eco": "B22",
+      "name": "Sicilian Defense, Alapin Variation, Barmen Defense",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. c3 2... d5 3. exd5 3... Qxd5",
+      "count": 20233
+    },
+    {
+      "eco": "B43",
+      "name": "Sicilian Defense, Kan Variation, Knight Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... a6 5. Nc3",
+      "count": 19218
+    },
+    {
+      "eco": "B47",
+      "name": "Sicilian Defense, Paulsen Variation, Bastrikov Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nc3 5... Qc7",
+      "count": 18477
+    },
+    {
+      "eco": "B25",
+      "name": "Sicilian Defense, Closed Variation, Traditional",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nc3 2... Nc6",
+      "count": 17406
+    },
+    {
+      "eco": "B33",
+      "name": "Sicilian Defense, Lasker-Pelikan Variation, Sveshnikov Variation, Chelyabinsk Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e5 6. Ndb5 6... d6 7. Bg5 7... a6 8. Na3 8... b5 9. Nd5",
+      "count": 16766
+    },
+    {
+      "eco": "B50",
+      "name": "Sicilian Defense, Modern Variations",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6",
+      "count": 16463
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Delayed Alapin Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. c3",
+      "count": 16324
+    },
+    {
+      "eco": "B50",
+      "name": "Sicilian Defense, Delayed Alapin",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. c3",
+      "count": 16026
+    },
+    {
+      "eco": "B42",
+      "name": "Sicilian Defense, Kan Variation, Modern Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... a6 5. Bd3",
+      "count": 15671
+    },
+    {
+      "eco": "B53",
+      "name": "Sicilian Defense, Chekhover Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Qxd4",
+      "count": 14854
+    },
+    {
+      "eco": "B23",
+      "name": "Sicilian Defense, Grand Prix Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nc3 2... Nc6 3. f4",
+      "count": 14002
+    },
+    {
+      "eco": "B35",
+      "name": "Sicilian Defense, Accelerated Dragon, Modern  Bc4 Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... g6 5. Nc3 5... Bg7 6. Be3 6... Nf6 7. Bc4",
+      "count": 13167
+    },
+    {
+      "eco": "B24",
+      "name": "Sicilian Defense, Closed Variation, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nc3 2... Nc6 3. g3",
+      "count": 12606
+    },
+    {
+      "eco": "B32",
+      "name": "Sicilian Defense, Kalashnikov Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... e5 5. Nb5 5... d6",
+      "count": 11738
+    },
+    {
+      "eco": "B56",
+      "name": "Sicilian Defense, Classical Variation, General",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6",
+      "count": 11109
+    },
+    {
+      "eco": "B45",
+      "name": "Sicilian Defense, Four Knights Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6",
+      "count": 10974
+    },
+    {
+      "eco": "B90",
+      "name": "Sicilian Defense, Najdorf Variation, Adams Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. h3",
+      "count": 10544
+    },
+    {
+      "eco": "B38",
+      "name": "Sicilian Defense, Accelerated Dragon, Maroczy Bind",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... g6 5. c4 5... Bg7 6. Be3",
+      "count": 10465
+    },
+    {
+      "eco": "B92",
+      "name": "Sicilian Defense, Najdorf Variation, Opocensky Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Be2",
+      "count": 10333
+    },
+    {
+      "eco": "B76",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack, Modern Line",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3 7... O-O 8. Qd2 8... Nc6 9. O-O-O",
+      "count": 10070
+    },
+    {
+      "eco": "B46",
+      "name": "Sicilian Defense, Paulsen Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nc3 5... a6",
+      "count": 9620
+    },
+    {
+      "eco": "B41",
+      "name": "Sicilian Defense, Kan Variation, Maroczy Bind, Reti Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... a6 5. c4",
+      "count": 9142
+    },
+    {
+      "eco": "B84",
+      "name": "Sicilian Defense, Scheveningen Variation, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be2 6... a6",
+      "count": 9111
+    },
+    {
+      "eco": "B48",
+      "name": "Sicilian Defense, Paulsen Variation, Bastrikov Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nc3 5... Qc7 6. Be3",
+      "count": 8999
+    },
+    {
+      "eco": "B34",
+      "name": "Sicilian Defense, Accelerated Dragon, Modern Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... g6 5. Nc3",
+      "count": 8622
+    },
+    {
+      "eco": "B33",
+      "name": "Sicilian Defense, Lasker-Pelikan Variation, General",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e5",
+      "count": 8580
+    },
+    {
+      "eco": "B27",
+      "name": "Sicilian Defense, Hyperaccelerated Dragon",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... g6",
+      "count": 8247
+    },
+    {
+      "eco": "B26",
+      "name": "Sicilian Defense, Closed Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. d3 5... d6 6. Be3",
+      "count": 7730
+    },
+    {
+      "eco": "B94",
+      "name": "Sicilian Defense, Najdorf Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5",
+      "count": 7514
+    },
+    {
+      "eco": "B67",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Neo-Modern Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Qd2 7... a6 8. O-O-O 8... Bd7",
+      "count": 7511
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, French Variation, Westerinen Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. b3",
+      "count": 7291
+    },
+    {
+      "eco": "B42",
+      "name": "Sicilian Defense, Kan Variation, Polugaevsky Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... a6 5. Bd3 5... Bc5",
+      "count": 7281
+    },
+    {
+      "eco": "B36",
+      "name": "Sicilian Defense, Accelerated Dragon, Maroczy Bind, General",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... g6 5. c4",
+      "count": 7016
+    },
+    {
+      "eco": "B93",
+      "name": "Sicilian Defense, Najdorf Variation, Amsterdam Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. f4",
+      "count": 6966
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Snyder Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. b3",
+      "count": 6634
+    },
+    {
+      "eco": "B96",
+      "name": "Sicilian Defense, Najdorf Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6 7. f4",
+      "count": 6534
+    },
+    {
+      "eco": "B80",
+      "name": "Sicilian Defense, Scheveningen Variation, English Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be3 6... a6 7. f3",
+      "count": 6533
+    },
+    {
+      "eco": "B92",
+      "name": "Sicilian Defense, Najdorf Variation, Opocensky Variation, Traditional Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Be2 6... e5 7. Nb3 7... Be7 8. O-O 8... O-O",
+      "count": 6497
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, McDonnell Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. f4",
+      "count": 6347
+    },
+    {
+      "eco": "B81",
+      "name": "Sicilian Defense, Scheveningen Variation, Keres Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. g4",
+      "count": 6265
+    },
+    {
+      "eco": "B32",
+      "name": "Sicilian Defense, Godiva Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Qb6",
+      "count": 6038
+    },
+    {
+      "eco": "B70",
+      "name": "Sicilian Defense, Dragon Variation, General",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6",
+      "count": 6032
+    },
+    {
+      "eco": "B33",
+      "name": "Sicilian Defense, Lasker-Pelikan Variation, Sveshnikov Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e5 6. Ndb5 6... d6 7. Bg5 7... a6 8. Na3 8... b5 9. Bxf6 9... gxf6 10. Nd5 10... f5",
+      "count": 6004
+    },
+    {
+      "eco": "B54",
+      "name": "Sicilian Defense, Prins Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. f3",
+      "count": 5939
+    },
+    {
+      "eco": "B91",
+      "name": "Sicilian Defense, Najdorf Variation, Zagreb (Fianchetto) Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. g3",
+      "count": 5925
+    },
+    {
+      "eco": "B44",
+      "name": "Sicilian Defense, Paulsen Variation, General",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6",
+      "count": 5820
+    },
+    {
+      "eco": "B62",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Neo-Modern Variation, Early deviations",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Qd2 7... a6",
+      "count": 5546
+    },
+    {
+      "eco": "B32",
+      "name": "Sicilian Defense, LÃ¶wenthal Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... e5",
+      "count": 5450
+    },
+    {
+      "eco": "B99",
+      "name": "Sicilian Defense, Najdorf Variation, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6 7. f4 7... Be7 8. Qf3 8... Qc7 9. O-O-O 9... Nbd7",
+      "count": 5417
+    },
+    {
+      "eco": "B43",
+      "name": "Sicilian Defense, Kan Variation, Wing Attack",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... a6 5. Nc3 5... b5",
+      "count": 5067
+    },
+    {
+      "eco": "B25",
+      "name": "Sicilian Defense, Closed Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. d3 5... d6 6. f4",
+      "count": 4999
+    },
+    {
+      "eco": "B48",
+      "name": "Sicilian Defense, Paulsen Variation, Bastrikov Variation, English Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nc3 5... Qc7 6. Be3 6... a6 7. Qd2",
+      "count": 4888
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Kramnik Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. c4",
+      "count": 4838
+    },
+    {
+      "eco": "B22",
+      "name": "Sicilian Defense, Alapin Variation, Barmen Defense, Modern Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. c3 2... d5 3. exd5 3... Qxd5 4. d4 4... Nf6 5. Nf3 5... Bg4",
+      "count": 4710
+    },
+    {
+      "eco": "B45",
+      "name": "Sicilian Defense, Four Knights Variation, Exchange Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Nxc6",
+      "count": 4666
+    },
+    {
+      "eco": "B57",
+      "name": "Sicilian Defense, Classical Variation, Anti-Sozin Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bc4 6... Qb6",
+      "count": 4592
+    },
+    {
+      "eco": "B80",
+      "name": "Sicilian Defense, Scheveningen Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6",
+      "count": 4470
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, French Variation, Normal",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nf6",
+      "count": 4424
+    },
+    {
+      "eco": "B87",
+      "name": "Sicilian Defense, Sozin Attack, Flank Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Bc4 6... a6 7. Bb3 7... b5",
+      "count": 4424
+    },
+    {
+      "eco": "B33",
+      "name": "Sicilian Defense, Lasker-Pelikan Variation, Sveshnikov Variation, Novosibirsk Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e5 6. Ndb5 6... d6 7. Bg5 7... a6 8. Na3 8... b5 9. Bxf6 9... gxf6 10. Nd5 10... Bg7",
+      "count": 4288
+    },
+    {
+      "eco": "B44",
+      "name": "Sicilian Defense, Paulsen Variation, Szen Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nb5",
+      "count": 4209
+    },
+    {
+      "eco": "B95",
+      "name": "Sicilian Defense, Najdorf Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6",
+      "count": 3857
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Lasker-Dunne Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. g3",
+      "count": 3840
+    },
+    {
+      "eco": "B78",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack, Old Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3 7... O-O 8. Qd2 8... Nc6 9. Bc4 9... Bd7 10. O-O-O 10... Rc8",
+      "count": 3759
+    },
+    {
+      "eco": "B77",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3 7... O-O 8. Qd2 8... Nc6 9. Bc4 9... Bd7",
+      "count": 3643
+    },
+    {
+      "eco": "B39",
+      "name": "Sicilian Defense, Accelerated Dragon, Maroczy Bind, Breyer Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... g6 5. c4 5... Bg7 6. Be3 6... Nf6 7. Nc3 7... Ng4",
+      "count": 3602
+    },
+    {
+      "eco": "B78",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3 7... O-O 8. Qd2 8... Nc6 9. Bc4 9... Bd7 10. O-O-O",
+      "count": 3599
+    },
+    {
+      "eco": "B49",
+      "name": "Sicilian Defense, Paulsen Variation, Bastrikov Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nc3 5... Qc7 6. Be3 6... a6 7. Be2",
+      "count": 3570
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Chameleon",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Ne2",
+      "count": 3569
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3",
+      "count": 3560
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Staunton-Cochrane Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. c4",
+      "count": 3354
+    },
+    {
+      "eco": "B33",
+      "name": "Sicilian Defense, Old Sicilian, Normal",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Nf6",
+      "count": 3338
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Normal System, Kan Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. d4 3... cxd4 4. Nxd4 4... e6",
+      "count": 3265
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Venice System",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. c3",
+      "count": 3257
+    },
+    {
+      "eco": "B72",
+      "name": "Sicilian Defense, Dragon Variation, Classical Variation, General",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be2",
+      "count": 3244
+    },
+    {
+      "eco": "B45",
+      "name": "Sicilian Defense, Paulsen Variation, Normal Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nc3",
+      "count": 3187
+    },
+    {
+      "eco": "B36",
+      "name": "Sicilian Defense, Accelerated Dragon, Maroczy Bind, Gurgenidze Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... g6 5. c4 5... Nf6 6. Nc3 6... Nxd4 7. Qxd4 7... d6",
+      "count": 3119
+    },
+    {
+      "eco": "B89",
+      "name": "Sicilian Defense, Sozin Attack, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Bc4 6... Nc6 7. Be3",
+      "count": 3036
+    },
+    {
+      "eco": "B59",
+      "name": "Sicilian Defense, Boleslavsky Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Be2 6... e5 7. Nb3",
+      "count": 2929
+    },
+    {
+      "eco": "B83",
+      "name": "Sicilian Defense, Scheveningen Variation, Modern Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be2 6... Nc6 7. O-O 7... Be7 8. Be3 8... O-O 9. f4",
+      "count": 2909
+    },
+    {
+      "eco": "B27",
+      "name": "Sicilian Defense, Hyperaccelerated Pterodactyl",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... g6 3. d4 3... Bg7",
+      "count": 2867
+    },
+    {
+      "eco": "B90",
+      "name": "Sicilian Defense, Najdorf Variation, English Attack, Anti-English",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Be3 6... Ng4",
+      "count": 2853
+    },
+    {
+      "eco": "B36",
+      "name": "Sicilian Defense, Accelerated Dragon, General",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... g6",
+      "count": 2838
+    },
+    {
+      "eco": "B29",
+      "name": "Sicilian Defense, Nimzowitsch  Variation, Closed Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nf6 3. Nc3",
+      "count": 2834
+    },
+    {
+      "eco": "B63",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Qd2 7... Be7",
+      "count": 2827
+    },
+    {
+      "eco": "B60",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, General",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5",
+      "count": 2784
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Normal System",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. d4",
+      "count": 2750
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Bowdler Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Bc4",
+      "count": 2718
+    },
+    {
+      "eco": "B97",
+      "name": "Sicilian Defense, Najdorf Variation, Poisoned Pawn Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6 7. f4 7... Qb6",
+      "count": 2658
+    },
+    {
+      "eco": "B54",
+      "name": "Sicilian Defense, Modern Variations",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4",
+      "count": 2602
+    },
+    {
+      "eco": "B61",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Modern Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... Bd7 7. Qd2",
+      "count": 2593
+    },
+    {
+      "eco": "B76",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack, Panov Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3 7... O-O 8. Qd2 8... Nc6 9. g4",
+      "count": 2558
+    },
+    {
+      "eco": "B88",
+      "name": "Sicilian Defense, Sozin Attack, Leonhardt Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Bc4 6... Nc6",
+      "count": 2550
+    },
+    {
+      "eco": "B83",
+      "name": "Sicilian Defense, Scheveningen Variation, Classical Variation, General",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be2",
+      "count": 2533
+    },
+    {
+      "eco": "B32",
+      "name": "Sicilian Defense, Old Sicilian, Open",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4",
+      "count": 2491
+    },
+    {
+      "eco": "B23",
+      "name": "Sicilian Defense, Closed Variation, Chameleon Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nc3 2... Nc6 3. Nge2",
+      "count": 2459
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Mengarini Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. a3",
+      "count": 2361
+    },
+    {
+      "eco": "B23",
+      "name": "Sicilian Defense, Closed Variation, Korchnoi Defense",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nc3 2... e6 3. g3 3... d5",
+      "count": 2331
+    },
+    {
+      "eco": "B58",
+      "name": "Sicilian Defense, Boleslavsky Variation, General Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Be2 6... e5",
+      "count": 2192
+    },
+    {
+      "eco": "B22",
+      "name": "Sicilian Defense, Alapin Variation, Stoltz Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. c3 2... Nf6 3. e5 3... Nd5 4. Nf3 4... Nc6 5. Bc4 5... Nb6 6. Bb3",
+      "count": 2175
+    },
+    {
+      "eco": "B29",
+      "name": "Sicilian Defense, Nimzowitsch  Variation, Advance Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nf6 3. e5",
+      "count": 2129
+    },
+    {
+      "eco": "B83",
+      "name": "Sicilian Defense, Scheveningen Variation, Modern Variation, General",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be2 6... Nc6",
+      "count": 2035
+    },
+    {
+      "eco": "B58",
+      "name": "Sicilian Defense, Classical Variation, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. g3",
+      "count": 1982
+    },
+    {
+      "eco": "B89",
+      "name": "Sicilian Defense, Velimirovic Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Bc4 6... Nc6 7. Be3 7... Be7 8. Qe2",
+      "count": 1980
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit, Declined, Push Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3 3... d3",
+      "count": 1935
+    },
+    {
+      "eco": "B70",
+      "name": "Sicilian Defense, Dragon Variation, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. g3",
+      "count": 1917
+    },
+    {
+      "eco": "B45",
+      "name": "Sicilian Defense, Four Knights Variation, Cobra Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Ndb5 6... Bc5",
+      "count": 1859
+    },
+    {
+      "eco": "B65",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Classical Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Qd2 7... Be7 8. O-O-O 8... O-O 9. f4 9... Nxd4 10. Qxd4",
+      "count": 1808
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit, Accepted, Scheveningen Formation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3 3... dxc3 4. Nxc3 4... Nc6 5. Nf3 5... d6 6. Bc4 6... e6",
+      "count": 1676
+    },
+    {
+      "eco": "B86",
+      "name": "Sicilian Defense, Sozin Attack, General Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Bc4",
+      "count": 1662
+    },
+    {
+      "eco": "B33",
+      "name": "Sicilian Defense, Lasker-Pelikan Variation, Bird Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e5 6. Ndb5 6... d6 7. Bg5 7... a6 8. Na3 8... Be6",
+      "count": 1657
+    },
+    {
+      "eco": "B76",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack, Belezky Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3 7... Nc6",
+      "count": 1651
+    },
+    {
+      "eco": "B72",
+      "name": "Sicilian Defense, Dragon Variation, Classical Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be2 6... Bg7 7. Be3",
+      "count": 1645
+    },
+    {
+      "eco": "B92",
+      "name": "Sicilian Defense, Najdorf Variation, Opocensky Variation, Modern Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Be2 6... e5 7. Nb3 7... Be7 8. O-O 8... Be6",
+      "count": 1622
+    },
+    {
+      "eco": "B80",
+      "name": "Sicilian Defense, Scheveningen Variation, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. g3",
+      "count": 1601
+    },
+    {
+      "eco": "B56",
+      "name": "Sicilian Defense, Kupreichik Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Bd7",
+      "count": 1595
+    },
+    {
+      "eco": "B97",
+      "name": "Sicilian Defense, Najdorf Variation, Poisoned Pawn, Accepted",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6 7. f4 7... Qb6 8. Qd2 8... Qxb2 9. Rb1 9... Qa3",
+      "count": 1585
+    },
+    {
+      "eco": "B84",
+      "name": "Sicilian Defense, Scheveningen Variation, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be2 6... a6 7. O-O 7... Qc7",
+      "count": 1547
+    },
+    {
+      "eco": "B98",
+      "name": "Sicilian Defense, Najdorf Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6 7. f4 7... Be7",
+      "count": 1515
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Kveinis Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Qb6",
+      "count": 1495
+    },
+    {
+      "eco": "B81",
+      "name": "Sicilian Defense, Scheveningen Variation, Delayed Keres Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be3 6... a6 7. g4",
+      "count": 1490
+    },
+    {
+      "eco": "B82",
+      "name": "Sicilian Defense, Scheveningen Variation, Matanovic Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. f4",
+      "count": 1464
+    },
+    {
+      "eco": "B90",
+      "name": "Sicilian Defense, Najdorf Variation, Freak Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Rg1",
+      "count": 1463
+    },
+    {
+      "eco": "B41",
+      "name": "Sicilian Defense, Kan Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... a6",
+      "count": 1453
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Maroczy Bind, Paulsen Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. c4 3... e6",
+      "count": 1452
+    },
+    {
+      "eco": "B74",
+      "name": "Sicilian Defense, Dragon Variation, Classical Variation, Normal Line",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be2 6... Bg7 7. Be3 7... Nc6 8. O-O 8... O-O 9. Nb3",
+      "count": 1417
+    },
+    {
+      "eco": "B35",
+      "name": "Sicilian Defense, Dragon Variation, Modern  Bc4 Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... g6 5. Nc3 5... Bg7 6. Be3 6... Nf6 7. Bc4 7... Nc6",
+      "count": 1407
+    },
+    {
+      "eco": "B75",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack, Early deviations",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3",
+      "count": 1405
+    },
+    {
+      "eco": "B57",
+      "name": "Sicilian Defense, Modern Variations, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6",
+      "count": 1339
+    },
+    {
+      "eco": "B73",
+      "name": "Sicilian Defense, Dragon Variation, Classical Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be2 6... Bg7 7. Be3 7... Nc6 8. O-O",
+      "count": 1323
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Yerevan System",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. Nc3",
+      "count": 1321
+    },
+    {
+      "eco": "B71",
+      "name": "Sicilian Defense, Dragon Variation, Levenfish Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. f4",
+      "count": 1309
+    },
+    {
+      "eco": "B73",
+      "name": "Sicilian Defense, Dragon Variation, Classical Variation, Battery Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be2 6... Bg7 7. Be3 7... Nc6 8. O-O 8... O-O 9. Qd2",
+      "count": 1306
+    },
+    {
+      "eco": "B42",
+      "name": "Sicilian Defense, Kan Variation, Swiss Cheese Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... a6 5. Bd3 5... g6",
+      "count": 1293
+    },
+    {
+      "eco": "B68",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Neo-Modern Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Qd2 7... a6 8. O-O-O 8... Bd7 9. f4 9... Be7",
+      "count": 1272
+    },
+    {
+      "eco": "B60",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Modern Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... Bd7",
+      "count": 1245
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit, Accepted, Paulsen Formation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3 3... dxc3 4. Nxc3 4... Nc6 5. Nf3 5... e6 6. Bc4 6... a6",
+      "count": 1241
+    },
+    {
+      "eco": "B27",
+      "name": "Sicilian Defense, Katalimov Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... b6",
+      "count": 1217
+    },
+    {
+      "eco": "B73",
+      "name": "Sicilian Defense, Dragon Variation, Classical Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be2 6... Bg7 7. Be3 7... Nc6",
+      "count": 1216
+    },
+    {
+      "eco": "B33",
+      "name": "Sicilian Defense, Lasker-Pelikan Variation, Schlechter Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e5 6. Nb3",
+      "count": 1215
+    },
+    {
+      "eco": "B23",
+      "name": "Sicilian Defense, Grand Prix Attack, Schofman Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nc3 2... Nc6 3. f4 3... g6 4. Nf3 4... Bg7 5. Bc4 5... e6 6. f5",
+      "count": 1211
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Paulsen-Basman Defense",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Bc5",
+      "count": 1182
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Wing Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. b4",
+      "count": 1137
+    },
+    {
+      "eco": "B98",
+      "name": "Sicilian Defense, Najdorf Variation, Traditional Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6 7. f4 7... Be7 8. Qf3 8... Qc7",
+      "count": 1131
+    },
+    {
+      "eco": "B58",
+      "name": "Sicilian Defense, Classical Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Be2",
+      "count": 1125
+    },
+    {
+      "eco": "B44",
+      "name": "Sicilian Defense, Paulsen Variation, Modern Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nb5 5... d6 6. c4 6... Nf6 7. N1c3 7... a6 8. Na3 8... Be7 9. Be2 9... O-O 10. O-O 10... b6",
+      "count": 1118
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Wing Gambit, Marshall Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. b4 2... cxb4 3. a3",
+      "count": 1118
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Maroczy Bind",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. c4",
+      "count": 1064
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, French Variation, Open",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4",
+      "count": 1041
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Pin Variation, Koch Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Bb4 6. e5",
+      "count": 1012
+    },
+    {
+      "eco": "B69",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Neo-Modern Variation, Nyezhmetdinov Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Qd2 7... a6 8. O-O-O 8... Bd7 9. f4 9... Be7 10. Nf3 10... b5 11. Bxf6",
+      "count": 1007
+    },
+    {
+      "eco": "B62",
+      "name": "Sicilian Defense, Richter-Rauzer Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Qd3",
+      "count": 981
+    },
+    {
+      "eco": "B34",
+      "name": "Sicilian Defense, Accelerated Dragon, Exchange Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... g6 5. Nxc6",
+      "count": 969
+    },
+    {
+      "eco": "B77",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack, Main Line",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3 7... O-O 8. Qd2 8... Nc6 9. Bc4",
+      "count": 938
+    },
+    {
+      "eco": "B64",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Classical Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Qd2 7... Be7 8. O-O-O 8... O-O 9. f4",
+      "count": 927
+    },
+    {
+      "eco": "B22",
+      "name": "Sicilian Defense, Alapin Variation, Barmen Defense, Central Exchange",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. c3 2... d5 3. exd5 3... Qxd5 4. d4 4... cxd4 5. cxd4 5... Nc6 6. Nf3 6... Bg4",
+      "count": 925
+    },
+    {
+      "eco": "B55",
+      "name": "Sicilian Defense, Prins Variation, Venice Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. f3 5... e5 6. Bb5+",
+      "count": 913
+    },
+    {
+      "eco": "B56",
+      "name": "Sicilian Defense, Modern Variations",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3",
+      "count": 901
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Pin Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Bb4",
+      "count": 894
+    },
+    {
+      "eco": "B33",
+      "name": "Sicilian Defense, Lasker-Pelikan Variation, Retreat Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e5 6. Nf3",
+      "count": 884
+    },
+    {
+      "eco": "B80",
+      "name": "Sicilian Defense, Scheveningen Variation, English Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be3 6... a6 7. Qd2",
+      "count": 880
+    },
+    {
+      "eco": "B29",
+      "name": "Sicilian Defense, Nimzowitsch  Variation, Exchange Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nf6 3. e5 3... Nd5 4. Nc3 4... Nxc3",
+      "count": 867
+    },
+    {
+      "eco": "B51",
+      "name": "Sicilian Defense, Canal Attack, Haag Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. Bb5+ 3... Bd7 4. Bxd7+ 4... Qxd7 5. O-O 5... Nc6 6. c3 6... Nf6 7. d4",
+      "count": 862
+    },
+    {
+      "eco": "B32",
+      "name": "Sicilian Defense, Flohr Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Qc7",
+      "count": 853
+    },
+    {
+      "eco": "B50",
+      "name": "Sicilian Defense, Modern Variations, Anti-Qxd4 Move Order",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... Nf6",
+      "count": 838
+    },
+    {
+      "eco": "B62",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Vitolins Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Bb5",
+      "count": 831
+    },
+    {
+      "eco": "B29",
+      "name": "Sicilian Defense, Nimzowitsch  Variation, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nf6 3. e5 3... Nd5 4. Nc3 4... e6 5. Nxd5 5... exd5 6. d4 6... Nc6",
+      "count": 819
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, McDonnell Attack, Tal Gambit",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. f4 2... d5 3. exd5 3... Nf6",
+      "count": 801
+    },
+    {
+      "eco": "B85",
+      "name": "Sicilian Defense, Scheveningen Variation, Classical Variation, Paulsen Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be2 6... a6 7. O-O 7... Qc7 8. f4 8... Nc6 9. Be3",
+      "count": 799
+    },
+    {
+      "eco": "B76",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3 7... O-O",
+      "count": 797
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit, Declined, Scandinavian Formation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3 3... d5",
+      "count": 796
+    },
+    {
+      "eco": "B63",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Ivanov Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Qd2 7... Qb6",
+      "count": 782
+    },
+    {
+      "eco": "B43",
+      "name": "Sicilian Defense, Kan Variation, Wing Attack, Spraggett Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... a6 5. Nc3 5... b5 6. Bd3 6... Qb6 7. Nf3",
+      "count": 763
+    },
+    {
+      "eco": "B96",
+      "name": "Sicilian Defense, Najdorf Variation, Neo-Classical Defense",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6 7. f4 7... Nc6",
+      "count": 757
+    },
+    {
+      "eco": "B43",
+      "name": "Sicilian Defense, Kan Variation, Wing Attack, Fianchetto Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... a6 5. Nc3 5... b5 6. g3",
+      "count": 731
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Kronberger Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Na3",
+      "count": 729
+    },
+    {
+      "eco": "B98",
+      "name": "Sicilian Defense, Najdorf Variation, Browne Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6 7. f4 7... Be7 8. Qf3 8... h6 9. Bh4 9... Qc7",
+      "count": 729
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Maroczy Bind, Robatsch Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. c4 3... d6",
+      "count": 718
+    },
+    {
+      "eco": "B96",
+      "name": "Sicilian Defense, Najdorf Variation, Polugayevsky  Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6 7. f4 7... b5",
+      "count": 681
+    },
+    {
+      "eco": "B41",
+      "name": "Sicilian Defense, Kan Variation, Maroczy Bind, Bronstein Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... a6 5. c4 5... Nf6 6. Nc3 6... Bb4 7. Bd3 7... Nc6",
+      "count": 678
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit, Accepted, Classical Formation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3 3... dxc3 4. Nxc3 4... Nc6 5. Nf3 5... d6 6. Bc4 6... a6 7. O-O 7... Nf6",
+      "count": 626
+    },
+    {
+      "eco": "B77",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack, Sosonko Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3 7... O-O 8. Qd2 8... Nc6 9. Bc4 9... Nd7",
+      "count": 623
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Smith-Morra Gambit Deferred",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. c3",
+      "count": 616
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Reti System",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. g3",
+      "count": 611
+    },
+    {
+      "eco": "B74",
+      "name": "Sicilian Defense, Dragon Variation, Classical Variation, Tartakower Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be2 6... Bg7 7. Be3 7... Nc6 8. O-O 8... O-O 9. Nb3 9... Be6 10. f4 10... Qc8",
+      "count": 605
+    },
+    {
+      "eco": "B31",
+      "name": "Sicilian Defense, Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Gufeld Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. Bb5 3... g6 4. O-O 4... Bg7 5. c3 5... e5 6. d4",
+      "count": 596
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Wing Gambit Deferred",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. b4",
+      "count": 576
+    },
+    {
+      "eco": "B82",
+      "name": "Sicilian Defense, Scheveningen Variation, Tal Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. f4 6... Nc6 7. Be3 7... Be7 8. Qf3",
+      "count": 567
+    },
+    {
+      "eco": "B66",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Classical Variation, Kantscher Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Qd2 7... Be7 8. O-O-O 8... Nxd4 9. Qxd4 9... a6 10. f4 10... b5",
+      "count": 556
+    },
+    {
+      "eco": "B53",
+      "name": "Sicilian Defense, Modern Variations, Tartakower",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. c3",
+      "count": 550
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Maroczy Bind, Geller Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. c4 3... Nc6 4. d4 4... cxd4 5. Nxd4 5... e5",
+      "count": 540
+    },
+    {
+      "eco": "B33",
+      "name": "Sicilian Defense, Lasker-Pelikan Variation, Sveshnikov Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e5 6. Ndb5 6... d6 7. Bg5 7... a6 8. Na3 8... b5",
+      "count": 530
+    },
+    {
+      "eco": "B33",
+      "name": "Sicilian Defense, Lasker-Pelikan Variation, Exchange Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e5 6. Nxc6",
+      "count": 527
+    },
+    {
+      "eco": "B84",
+      "name": "Sicilian Defense, Najdorf Variation, Scheveningen Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be2 6... a6 7. O-O 7... Nbd7",
+      "count": 526
+    },
+    {
+      "eco": "B63",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Traditional Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... e6 7. Qd2",
+      "count": 526
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Normal System, Taimanov Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. d4 3... cxd4 4. Nxd4 4... e5",
+      "count": 525
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Venice System, Steiner Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. c3 3... d6",
+      "count": 519
+    },
+    {
+      "eco": "B25",
+      "name": "Sicilian Defense, Closed Variation, Botvinnik Defense I",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. d3 5... d6 6. f4 6... e5",
+      "count": 501
+    },
+    {
+      "eco": "B46",
+      "name": "Sicilian Defense, Paulsen Variation, Taimanov Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nc3 5... a6 6. Be2 6... Nge7",
+      "count": 494
+    },
+    {
+      "eco": "B83",
+      "name": "Sicilian Defense, Scheveningen Variation, Modern Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be2 6... Nc6 7. O-O 7... Be7 8. Be3 8... O-O 9. f4 9... Bd7 10. Nb3",
+      "count": 483
+    },
+    {
+      "eco": "B60",
+      "name": "Sicilian Defense, Richter-Rauzer Variation, Dragon Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Bg5 6... g6",
+      "count": 478
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Snyder Variation, Queen Fianchetto Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. b3 2... b6",
+      "count": 475
+    },
+    {
+      "eco": "B25",
+      "name": "Sicilian Defense, Closed Variation, Botvinnik Defense II",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. d3 5... d6 6. Nge2 6... e5",
+      "count": 474
+    },
+    {
+      "eco": "B77",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack, Czerniak Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3 7... O-O 8. Qd2 8... Nc6 9. Bc4 9... Nxd4 10. Bxd4 10... Be6",
+      "count": 462
+    },
+    {
+      "eco": "B56",
+      "name": "Sicilian Defense, Venice Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e5 6. Bb5+",
+      "count": 451
+    },
+    {
+      "eco": "B33",
+      "name": "Sicilian Defense, Lasker-Pelikan Variation, Sveshnikov Variation, Peresypkin's Sacrifice",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e5 6. Ndb5 6... d6 7. Bg5 7... a6 8. Na3 8... b5 9. Bxf6 9... gxf6 10. Nd5 10... f5 11. Bxb5",
+      "count": 439
+    },
+    {
+      "eco": "B32",
+      "name": "Sicilian Defense, Nimzo-American Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4 4... d5",
+      "count": 438
+    },
+    {
+      "eco": "B72",
+      "name": "Sicilian Defense, Dragon Variation, Classical Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be2 6... Bg7 7. Be3 7... Nc6 8. Nb3",
+      "count": 437
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit, Accepted, Kan Formation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3 3... dxc3 4. Nxc3 4... e6 5. Nf3 5... a6",
+      "count": 432
+    },
+    {
+      "eco": "B50",
+      "name": "Sicilian Defense, Delayed Alapin, Basman-Palatnik Double Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. c3 3... Nf6 4. Be2 4... Nc6 5. d4 5... cxd4 6. cxd4 6... Nxe4 7. d5 7... Qa5+ 8. Nc3 8... Nxc3 9. bxc3",
+      "count": 426
+    },
+    {
+      "eco": "B29",
+      "name": "Sicilian Defense, Nimzowitsch Variation, General",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nf6",
+      "count": 422
+    },
+    {
+      "eco": "B51",
+      "name": "Sicilian Defense, Canal Attack, Moscow Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. Bb5+ 3... Nc6 4. O-O 4... Bd7 5. c3 5... a6 6. Bxc6 6... Bxc6 7. Re1 7... Nf6 8. d4 8... Bxe4 9. Bg5",
+      "count": 404
+    },
+    {
+      "eco": "B22",
+      "name": "Sicilian Defense, Alapin Variation, Stoltz Attack, Ivanchuk Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. c3 2... Nf6 3. e5 3... Nd5 4. Nf3 4... Nc6 5. Bc4 5... Nb6 6. Bb3 6... c4 7. Bc2 7... Qc7 8. Qe2 8... g5",
+      "count": 403
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit, Declined, Dubois Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3 3... d3 4. c4",
+      "count": 389
+    },
+    {
+      "eco": "B23",
+      "name": "Sicilian Defense, Marshall Gambit",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nc3 2... e6 3. d4 3... d5",
+      "count": 388
+    },
+    {
+      "eco": "B74",
+      "name": "Sicilian Defense, Dragon Variation, Classical Variation, Maroczy Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be2 6... Bg7 7. Be3 7... Nc6 8. O-O 8... O-O 9. Nb3 9... Be6 10. f4 10... Na5",
+      "count": 380
+    },
+    {
+      "eco": "B50",
+      "name": "Sicilian Defense, Modern Variations, Anti-Qxd4 Move Order, Accepted",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... Nf6 4. dxc5 4... Nxe4",
+      "count": 374
+    },
+    {
+      "eco": "B50",
+      "name": "Sicilian Defense, Wing Gambit, Deferred Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. b4",
+      "count": 357
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Morphy Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. Nf3",
+      "count": 354
+    },
+    {
+      "eco": "B77",
+      "name": "Sicilian Defense, Dragon Variation, Yugoslav Attack",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be3 6... Bg7 7. f3 7... O-O 8. Qd2 8... Nc6",
+      "count": 339
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Wing Gambit, Carlsbad Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. b4 2... cxb4 3. a3 3... bxa3",
+      "count": 334
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit, Accepted, Pin Defense",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3 3... dxc3 4. Nxc3 4... Nc6 5. Nf3 5... e6 6. Bc4 6... Bb4",
+      "count": 330
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Venice System, Barcza Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. c3 3... Nf6",
+      "count": 329
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Marshall Counterattack",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... d5",
+      "count": 307
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit, Accepted, Fianchetto Defense",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3 3... dxc3 4. Nxc3 4... Nc6 5. Nf3 5... g6",
+      "count": 302
+    },
+    {
+      "eco": "B25",
+      "name": "Sicilian Defense, Closed Variation, Botvinnik Defense I, Edge Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nc3 2... Nc6 3. g3 3... g6 4. Bg2 4... Bg7 5. d3 5... d6 6. f4 6... e5 7. Nh3 7... Nge7",
+      "count": 301
+    },
+    {
+      "eco": "B85",
+      "name": "Sicilian Defense, Scheveningen Variation, Classical Variation, Paulsen Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be2 6... a6 7. O-O 7... Qc7 8. f4 8... Nc6 9. Kh1 9... Be7 10. a4",
+      "count": 300
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Quiet System",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. d3",
+      "count": 297
+    },
+    {
+      "eco": "B31",
+      "name": "Sicilian Defense, Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Lutikov Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. Bb5 3... g6 4. O-O 4... Bg7 5. c3 5... Nf6 6. d4",
+      "count": 289
+    },
+    {
+      "eco": "B45",
+      "name": "Sicilian Defense, Paulsen Variation, American Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nc3 5... Nf6 6. Ndb5 6... Bb4 7. Nd6+",
+      "count": 287
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Gaw-Paw Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Qb6",
+      "count": 285
+    },
+    {
+      "eco": "B20",
+      "name": "Sicilian Defense, Wing Gambit, Abrahams Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. b4 2... cxb4 3. Bb2",
+      "count": 285
+    },
+    {
+      "eco": "B30",
+      "name": "Sicilian Defense, Closed Sicilian, Anti-Sveshnikov Variation, Kharlov-Kramnik Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nc3 2... Nc6 3. Nf3 3... e5 4. Bc4 4... d6 5. d3 5... Be7 6. Nd2 6... Bg5",
+      "count": 281
+    },
+    {
+      "eco": "B31",
+      "name": "Sicilian Defense, Nyezhmetdinov-Rossolimo Attack, Gurgenidze Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. Bb5 3... g6 4. O-O 4... Bg7 5. Re1 5... e5 6. b4",
+      "count": 273
+    },
+    {
+      "eco": "B22",
+      "name": "Sicilian Defense, Alapin Variation, Sherzer Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. c3 2... Nf6 3. e5 3... Nd5 4. d4 4... e6 5. Nf3 5... Nc6",
+      "count": 265
+    },
+    {
+      "eco": "B96",
+      "name": "Sicilian Defense, Najdorf Variation, Polugayevsky  Variation, Simagin Line",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6 7. f4 7... b5 8. e5 8... dxe5 9. fxe5 9... Qc7 10. Qe2",
+      "count": 257
+    },
+    {
+      "eco": "B98",
+      "name": "Sicilian Defense, Najdorf Variation, Goteborg (Argentine)",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... a6 6. Bg5 6... e6 7. f4 7... Be7 8. Qf3 8... h6 9. Bh4 9... g5",
+      "count": 253
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6",
+      "count": 250
+    },
+    {
+      "eco": "B31",
+      "name": "Sicilian Defense, Nyezhmetdinov-Rossolimo Attack, Fianchetto Variation, Totsky Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. Bb5 3... g6 4. O-O 4... Bg7 5. c3 5... Nf6 6. Qa4",
+      "count": 244
+    },
+    {
+      "eco": "B48",
+      "name": "Sicilian Defense, Paulsen Variation, Bastrikov Variation, Ponomariov Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nc3 5... Qc7 6. Ndb5 6... Qb8 7. Be3 7... a6 8. Bb6",
+      "count": 241
+    },
+    {
+      "eco": "B81",
+      "name": "Sicilian Defense, Scheveningen Variation, Delayed Keres Attack, Perenyi Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Be3 6... a6 7. g4 7... e5 8. Nf5 8... g6 9. g5",
+      "count": 228
+    },
+    {
+      "eco": "B74",
+      "name": "Sicilian Defense, Dragon Variation, Classical Variation, Alekhine Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. Be2 6... Bg7 7. Be3 7... Nc6 8. O-O 8... O-O 9. Nb3 9... a5",
+      "count": 219
+    },
+    {
+      "eco": "B27",
+      "name": "Sicilian Defense, Misc. Defenses",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3",
+      "count": 218
+    },
+    {
+      "eco": "B71",
+      "name": "Sicilian Defense, Dragon Variation, Levenfish Variation, Main Line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... g6 6. f4 6... Nbd7",
+      "count": 214
+    },
+    {
+      "eco": "B53",
+      "name": "Sicilian Defense, Chekhover Variation, Zaitsev Defense",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Qxd4 4... Nc6 5. Bb5 5... Qd7",
+      "count": 200
+    },
+    {
+      "eco": "B32",
+      "name": "Sicilian Defense, Franco-Scilian Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Nc6 3. d4 3... e6",
+      "count": 196
+    },
+    {
+      "eco": "B80",
+      "name": "Sicilian Defense, Scheveningen Variation, Vitolins Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... e6 6. Bb5+",
+      "count": 196
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Venice System, Gambit line",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. c3 3... d5 4. exd5 4... Nf6",
+      "count": 191
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Drazic Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... a6",
+      "count": 182
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Morphy Gambit, Andreaschek Gambit",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. Nf3 3... e5 4. c3",
+      "count": 173
+    },
+    {
+      "eco": "B28",
+      "name": "Sicilian Defense, O'Kelly Variation, Kieseritzky System",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... a6 3. b3",
+      "count": 171
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit, Declined, Alapin Formation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3 3... Nf6",
+      "count": 165
+    },
+    {
+      "eco": "B21",
+      "name": "Sicilian Defense, Smith-Morra Gambit, Declined, Center Formation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. d4 2... cxd4 3. c3 3... e5",
+      "count": 165
+    },
+    {
+      "eco": "B27",
+      "name": "Sicilian Defense, Mongoose Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Qa5",
+      "count": 163
+    },
+    {
+      "eco": "B58",
+      "name": "Sicilian Defense, Boleslavsky Variation, Louma Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Be2 6... e5 7. Nxc6",
+      "count": 152
+    },
+    {
+      "eco": "B22",
+      "name": "Sicilian Defense, Alapin Variation, Barmen Defense, Milner-Barry Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. c3 2... d5 3. exd5 3... Qxd5 4. d4 4... cxd4 5. cxd4 5... Nc6 6. Nf3 6... e5 7. Nc3 7... Bb4 8. Be2",
+      "count": 137
+    },
+    {
+      "eco": "B49",
+      "name": "Sicilian Defense, Paulsen Variation, Bastrikov Variation, English Attack",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nc6 5. Nc3 5... Qc7 6. Be3 6... a6 7. f3",
+      "count": 135
+    },
+    {
+      "eco": "B27",
+      "name": "Sicilian Defense, Quinteros Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... Qc7",
+      "count": 123
+    },
+    {
+      "eco": "B22",
+      "name": "Sicilian Defense, Alapin Variation, Barmen Defense, Endgame Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. c3 2... d5 3. exd5 3... Qxd5 4. d4 4... cxd4 5. cxd4 5... Nc6 6. Nf3 6... Bg4 7. Nc3 7... Bxf3 8. gxf3 8... Qxd4 9. Qxd4 9... Nxd4",
+      "count": 122
+    },
+    {
+      "eco": "B58",
+      "name": "Sicilian Defense, Classical Variation, Dragon Transfer",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Be2 6... Nxd4 7. Qxd4 7... g6",
+      "count": 113
+    },
+    {
+      "eco": "B56",
+      "name": "Sicilian Defense, Spielmann Variation",
+      "color": "white",
+      "moves": "1. e4 1... c5 2. Nf3 2... d6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Nc6 6. Nde2",
+      "count": 107
+    },
+    {
+      "eco": "B27",
+      "name": "Sicilian Defense, Hyperaccelerated Pterodactyl, Exchange Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... g6 3. d4 3... Bg7 4. dxc5 4... Qa5+ 5. Nc3 5... Bxc3+ 6. bxc3 6... Qxc3+",
+      "count": 105
+    },
+    {
+      "eco": "B40",
+      "name": "Sicilian Defense, Pin Variation, Jaffe Variation",
+      "color": "black",
+      "moves": "1. e4 1... c5 2. Nf3 2... e6 3. d4 3... cxd4 4. Nxd4 4... Nf6 5. Nc3 5... Bb4 6. Bd3 6... e5",
+      "count": 103
+    }
+  ]
+}
