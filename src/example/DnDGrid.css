@@ -1,0 +1,100 @@
+.dnd-grid {
+    background-image: url('../assets/chessboard.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.dnd-cell {
+    aspect-ratio: 1 / 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dnd-mark {
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dnd-item {
+    position: absolute;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 1 / 1;
+}
+
+.dnd-badge {
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    width: 40%;
+    height: 40%;
+}
+
+.dnd-item.wk1 {
+    background-image: url('../assets/wk.png');
+}
+.dnd-item.wq1 {
+    background-image: url('../assets/wq.png');
+}
+.dnd-item.wr1,
+.dnd-item.wr2 {
+    background-image: url('../assets/wr.png');
+}
+.dnd-item.wb1,
+.dnd-item.wb2 {
+    background-image: url('../assets/wb.png');
+}
+.dnd-item.wn1,
+.dnd-item.wn2 {
+    background-image: url('../assets/wn.png');
+}
+.dnd-item.wp1,
+.dnd-item.wp2,
+.dnd-item.wp3,
+.dnd-item.wp4,
+.dnd-item.wp5,
+.dnd-item.wp6,
+.dnd-item.wp7,
+.dnd-item.wp8 {
+    background-image: url('../assets/wp.png');
+}
+
+.dnd-item.bk1 {
+    background-image: url('../assets/bk.png');
+}
+.dnd-item.bq1 {
+    background-image: url('../assets/bq.png');
+}
+.dnd-item.br1,
+.dnd-item.br2 {
+    background-image: url('../assets/br.png');
+}
+.dnd-item.bb1,
+.dnd-item.bb2 {
+    background-image: url('../assets/bb.png');
+}
+.dnd-item.bn1,
+.dnd-item.bn2 {
+    background-image: url('../assets/bn.png');
+}
+.dnd-item.bp1,
+.dnd-item.bp2,
+.dnd-item.bp3,
+.dnd-item.bp4,
+.dnd-item.bp5,
+.dnd-item.bp6,
+.dnd-item.bp7,
+.dnd-item.bp8 {
+    background-image: url('../assets/bp.png');
+}
