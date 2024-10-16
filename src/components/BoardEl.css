@@ -176,7 +176,7 @@ img.piece {
 .piece.overlay.draw::after {
     content: '½';
     background-color: var(--mui-warning-main);
-} */
+}
 
 .piece.dragging {
     opacity: 0;
