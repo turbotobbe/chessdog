@@ -1,0 +1,18 @@
+{
+    "slug": "queen-vs-knight",
+    "name": "Queen vs Knight",
+    "description": "A queen vs knight endgame.",
+    "setup": {
+        "d2": "wk1",
+        "g7": "bk1",
+        "c5": "wq1",
+        "f4": "bn1"
+    },
+    "moves": [],
+    "drill": [
+        "wk1",
+        "bk1",
+        "wq1",
+        "bn1"
+    ]
+}

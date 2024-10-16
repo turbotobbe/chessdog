@@ -1,0 +1,18 @@
+{
+    "slug": "queen-vs-rook",
+    "name": "Queen vs Rook",
+    "description": "A queen vs rook endgame.",
+    "setup": {
+        "c8": "wk1",
+        "d6": "bk1",
+        "g7": "wq1",
+        "h1": "br1"
+    },
+    "moves": [],
+    "drill": [
+        "wk1",
+        "bk1",
+        "wq1",
+        "br1"
+    ]
+}

@@ -1,0 +1,179 @@
+{
+  "slug": "king-and-pawn",
+  "name": "King and Pawn",
+  "description": "The goal is to promote the pawn to a queen and use the queen to deliver a checkmate. This is Garanteed if the white King can stand infront of the white Pawn. Then push the black King to a side and advance with the pawn.",
+  "setup": {
+    "d3": "wk1",
+    "c6": "bk1",
+    "b2": "wp1"
+  },
+  "moves": [
+    {
+      "pgn": "Kc4",
+      "comments": [
+        "Step infront of the pawn."
+      ],
+      "marks": ["a3","b3", "b4", "b5", "c3", "c5", "d3", "d4", "d5"],
+      "arrows": []
+    },
+    {
+      "pgn": "Kb6",
+      "comments": [
+        "Black king tries to sneek to the side."
+      ],
+      "marks": ["a3","b3", "b4", "b5", "c3", "c5", "d3", "d4", "d5"]
+    },
+    {
+      "pgn": "Kb4",
+      "comments": [
+        "Put the white King infront of the white pawn."
+      ],
+      "marks": ["a3", "a4", "a5", "b3", "b5", "c3", "c4", "c5"]
+    },
+    {
+      "pgn": "Kc6",
+      "comments": [
+        "Doesn't matter wich way the black king goes, the white king will always be infront of the white pawn."
+      ],
+      "marks": ["a3", "a4", "a5", "b3", "b5", "c3", "c4", "c5"]
+    },
+    {
+      "pgn": "b3",
+      "comments": [
+        "Bring the pawn with us."
+      ],
+      "marks": ["a3", "a4", "a5", "b3", "b5", "c3", "c4", "c5"]
+    },
+    {
+      "pgn": "Kb6",
+      "comments": [
+        "Go back is never a sopid plan."
+      ],
+      "marks": ["a3", "a4", "a5", "b3", "b5", "c3", "c4", "c5"]
+    },
+    {
+      "pgn": "Kc4",
+      "comments": [
+        "Go the opposite way."
+      ],
+      "marks": ["a4", "b3", "b4", "b5", "c5", "c3", "c5", "d3", "d4", "d5"]
+    },
+    {
+      "pgn": "Ka5",
+      "comments": [
+        "The black King is attacking the white pawn."
+      ],
+      "marks": ["a4", "b3", "b4", "b5", "c5", "c3", "c5", "d3", "d4", "d5"]
+    },
+    {
+      "pgn": "b4+",
+      "comments": [
+        "Just bring it forward."
+      ],
+      "marks": ["a5", "b3", "b4", "b5", "c5", "c3", "c5", "d3", "d4", "d5"]
+    },
+    {
+      "pgn": "Kb6",
+      "comments": [
+        "Retrete!"
+      ],
+      "marks": ["a5", "b3", "b4", "b5", "c5", "c3", "c5", "d3", "d4", "d5"]
+    },
+    {
+      "pgn": "b5",
+      "comments": [
+        "Push forward, you bald pawn!"
+      ],
+      "marks": ["a6", "b3", "b4", "b5", "c5", "c3", "c5", "d3", "d4", "d5"]
+    },
+    {
+      "pgn": "Ka5",
+      "comments": [
+        "Push the black King to the side."
+      ],
+      "marks": ["a6", "b3", "b4", "b5", "c5", "c3", "c5", "d3", "d4", "d5"]
+    },
+    {
+      "pgn": "Kc5",
+      "comments": [
+        "Push the black King to the side."
+      ],
+      "marks": ["a6", "b4", "b5", "b6", "c6", "c4", "c6", "d4", "d5", "d6"]
+    },
+    {
+      "pgn": "Ka4",
+      "comments": [
+        "Push the black King to the side."
+      ],
+      "marks": ["a6", "b4", "b5", "b6", "c6", "c4", "c6", "d4", "d5", "d6"]
+    },
+    {
+      "pgn": "Kc6",
+      "comments": [
+        "Push the black King to the side."
+      ],
+      "marks": ["a6", "b5", "b6", "b7", "c7", "c5", "c7", "d5", "d6", "d7"]
+    },
+    {
+      "pgn": "Ka5",
+      "comments": [
+        "Push the black King to the side."
+      ],
+      "marks": ["a6", "b5", "b6", "b7", "c7", "c5", "c7", "d5", "d6", "d7"]
+    },
+    {
+      "pgn": "b6",
+      "comments": [
+        "Push the black King to the side."
+      ],
+      "marks": ["a7", "b5", "b6", "b7", "c7", "c5", "c7", "d5", "d6", "d7"]
+    },
+    {
+      "pgn": "Ka6",
+      "comments": [
+        "Push the black King to the side."
+      ],
+      "marks": ["a7", "b5", "b6", "b7", "c7", "c5", "c7", "d5", "d6", "d7"]
+    },
+    {
+      "pgn": "b7",
+      "comments": [
+        "Push the black King to the side."
+      ],
+      "marks": ["a8", "b5", "b6", "b7", "c7", "c5", "c7", "d5", "d6", "d7"]
+    },
+    {
+      "pgn": "Ka7",
+      "comments": [
+        "Push the black King to the side."
+      ],
+      "marks": ["a8", "b5", "b6", "b7", "c7", "c5", "c7", "d5", "d6", "d7"]
+    },
+    {
+      "pgn": "Kc7",
+      "comments": [
+        "Push the black King to the side."
+      ],
+      "marks": ["a8", "b6", "b7", "b8", "c6", "c8", "d6", "d7", "d8"]
+    },
+    {
+      "pgn": "Ka6",
+      "comments": [
+        "Push the black King to the side."
+      ],
+      "marks": ["a8", "b6", "b7", "b8", "c6", "c8", "d6", "d7", "d8"]
+    },
+    {
+      "pgn": "b8=Q",
+      "comments": [
+        "Finally, the queen! The rest is easy work!"
+      ],
+      "marks": ["a7", "a8", "b8", "c8", "d8", "e8", "f8", "g8", "h8", "b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8", "c6", "c8", "d6", "d7", "d8"]
+    }
+  ],
+  "drill": [
+    "wk1",
+    "bk1",
+    "wp1"
+  ]
+}

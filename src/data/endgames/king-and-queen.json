@@ -1,0 +1,113 @@
+  {
+    "slug": "king-and-queen",
+    "name": "King and Queen",
+    "description": "Garanteed win for white. Put the black King in a small box guarded by the black Queen. Mimic every move made by the black King with the white Queen until the black King only have two squares left. Bring in the white King to finnish the checkmate.",
+    "setup": {
+      "d3": "wk1",
+      "d7": "bk1",
+      "c5": "wq1"
+    },
+    "moves": [
+      {
+        "pgn": "Qb6",
+        "comments": ["Put the black King in a small box."],
+        "marks": ["b7", "b8", "c6", "d6", "e6", "f6", "g6", "h6", "c7", "d8"]
+
+      },
+      {
+        "pgn": "Ke7",
+        "comments": ["Opponents King tries to flee."],
+        "marks": ["b7", "b8", "c6", "d6", "e6", "f6", "g6", "h6", "c7", "d8"]
+      },
+      {
+        "pgn": "Qc6",
+        "comments": ["Mimic the horizontal move."],
+        "marks": ["c7", "c8", "d6", "e6", "f6", "g6", "h6", "d7", "e8"]
+      },
+      {
+        "pgn": "Kd8",
+        "comments": ["King tries another direction."],
+        "marks": ["c7", "c8", "d6", "e6", "f6", "g6", "h6", "d7", "e8"]
+      },
+      {
+        "pgn": "Qb7",
+        "comments": ["Mimic the diagonal move."],
+        "marks": ["b8", "c8", "c7", "d7", "e7", "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Ke8",
+        "comments": ["Forces move."],
+        "marks": ["b8", "c8", "c7", "d7", "e7", "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Qc7",
+        "comments": ["Mimic the King."],
+        "marks": ["c8", "d8", "d7", "e7", "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Kf8",
+        "comments": ["Forced move again."],
+        "marks": ["c8", "d8", "d7", "e7", "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Qd7",
+        "comments": ["Mimic the King again."],
+        "marks": ["d8", "e8",  "e7", "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Kg8",
+        "comments": ["Forced move yet another time."],
+        "marks": ["d8", "e8",  "e7", "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Qe7",
+        "comments": ["Mimic the King for the last time. Watch out for the stalemate."],
+        "marks": ["e8", "f8",  "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Kh8",
+        "comments": ["Not much choice for the black King."],
+        "marks": ["e8", "f8",  "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Ke4",
+        "comments": ["Bring in the white King to finish the checkmate."],
+        "marks": ["e8", "f8",  "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Kg8",
+        "comments": ["Dance King, dance!"],
+        "marks": ["e8", "f8",  "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Kf5",
+        "comments": ["Here I come!"],
+        "marks": ["e8", "f8",  "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Kh8",
+        "comments": ["It's getting crowded here!"],
+        "marks": ["e8", "f8",  "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Kg6",
+        "comments": ["The is the right square for the king. Mate in 1."],
+        "marks": ["e8", "f8",  "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Kg8",
+        "comments": ["I will never surrender!"],
+        "marks": ["e8", "f8",  "f7", "g7", "h7"]
+      },
+      {
+        "pgn": "Qg7#",
+        "comments": ["Good night!"],
+        "marks": ["f8", "h8",  "f7", "g7", "h7"]
+      }
+    ],
+    "drill": [
+      "wk1",
+      "bk1",
+      "wq1"
+    ]
+  }

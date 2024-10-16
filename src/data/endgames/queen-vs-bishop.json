@@ -1,0 +1,18 @@
+{
+    "slug": "queen-vs-bishop",
+    "name": "Queen vs Bishop",
+    "description": "A queen vs bishop endgame.",
+    "setup": {
+        "d2": "wk1",
+        "g7": "bk1",
+        "c5": "wq1",
+        "f6": "bb1"
+    },
+    "moves": [],
+    "drill": [
+        "wk1",
+        "bk1",
+        "wq1",
+        "bb1"
+    ]
+}

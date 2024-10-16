@@ -1,0 +1,18 @@
+{
+    "slug": "rook-vs-knight",
+    "name": "Rook vs Knight",
+    "description": "A rook vs knight endgame.",
+    "setup": {
+        "c4": "wk1",
+        "h6": "bk1",
+        "f2": "wr1",
+        "e6": "bn1"
+    },
+    "moves": [],
+    "drill": [
+        "wk1",
+        "bk1",
+        "wr1",
+        "bn1"
+    ]
+}

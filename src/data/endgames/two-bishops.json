@@ -1,0 +1,18 @@
+{
+    "slug": "two-bishops",
+    "name": "Two Bishops",
+    "description": "A double bishop endgame.",
+    "setup": {
+        "e5": "wk1",
+        "c6": "bk1",
+        "f3": "wb1",
+        "a1": "wb2"
+    },
+    "moves": [],
+    "drill": [
+        "wk1",
+        "bk1",
+        "wb1",
+        "wb2"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "bishop-and-knight",
+  "name": "Bishop and Knight",
+  "description": "A bishop and knight endgame.",
+  "setup": {
+    "e6": "wk1",
+    "d2": "bk1",
+    "g4": "wb1",
+    "c4": "wn1"
+  },
+  "moves": [],
+  "drill": [
+    "wk1",
+    "bk1",
+    "wb1",
+    "wn1"
+  ]
+}

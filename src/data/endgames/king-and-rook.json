@@ -1,0 +1,42 @@
+{
+  "slug": "king-and-rook",
+  "name": "King and Rook",
+  "description": "Garanteed win for white. Use the white rook as a guard, leaving the black King on one side of the board. Keep the rook as far away as possible from the black King. Use the white King to force the black King back. Then move the guard.",
+  "setup": {
+    "e3": "wk1",
+    "h6": "bk1",
+    "f2": "wr1"
+  },
+  "moves": [
+    {
+      "pgn": "Rg2",
+      "comments": ["Force the black King to the edge of the board."],
+      "marks": ["h2", "g2", "g3", "g4", "g5", "g6", "g7", "g8"]
+    },
+    {
+      "pgn": "Kh5",
+      "comments": ["The black King comes to catch the rook."],
+      "marks": ["h2", "g2", "g3", "g4", "g5", "g6", "g7", "g8"]
+    },
+    {
+      "pgn": "Kf4",
+      "comments": ["Use the white King to press the black King against the edge of the board."],
+      "marks": ["h2", "g2", "g3", "g4", "g5", "g6", "g7", "g8"]
+    },
+    {
+      "pgn": "Kh4",
+      "comments": ["The black King tries to reach the white rook."],
+      "marks": ["h2", "g2", "g3", "g4", "g5", "g6", "g7", "g8"]
+    },
+    {
+      "pgn": "Rh2#",
+      "comments": ["Too slow. Deliver the checkmate with the white Rook."],
+      "marks": ["g3", "g4", "g5", "h3", "h5"]
+    }
+  ],
+  "drill": [
+    "wk1",
+    "bk1",
+    "wr1"
+  ]
+}
