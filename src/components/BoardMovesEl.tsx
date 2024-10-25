@@ -6,6 +6,7 @@ type BoardMovesElProps = {
     boardState: BoardState,
     path: number[],
     pathIndex: number,
+    practice: boolean,
     setPathIndex: (pathIndex: number) => void,
     setLineIndex: (pathIndex: number, lineIndex: number) => void,
     sx?: SxProps
@@ -14,12 +15,13 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
     boardState,
     path,
     pathIndex,
+    practice,
     setPathIndex,
     setLineIndex,
     sx
 }) => {
     const tableRef = useRef<HTMLTableElement>(null);
-    
+
     const [line, setLine] = useState<{
         white: BoardNodeState,
         whiteLineCount: number,
@@ -36,7 +38,7 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
                 const headerHeight = tableRef.current.querySelector('thead')?.clientHeight || 0;
                 const containerRect = tableRef.current.getBoundingClientRect();
                 const elementRect = currentMoveElement.getBoundingClientRect();
-                
+
                 if (elementRect.top < containerRect.top + headerHeight) {
                     // Element is hidden behind the header, scroll it into view
                     tableRef.current.scrollTop = tableRef.current.scrollTop + (elementRect.top - containerRect.top - headerHeight) - 10;
@@ -59,12 +61,13 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
             blackLineIndex: number
         }[] = [];
 
-        // early return if path is empty
-        if (path.length == 0) {
+        const visiblePath = practice ? path.slice(0, pathIndex + 1) : path;
+        console.log("path", path, "pathIndex", pathIndex, "practice", practice, "visiblePath", visiblePath);
+
+        if (visiblePath.length === 0) {
             setLine([]);
             return;
         }
-
         // select first node by path
         let node = boardState.nodes[path[0]];
         if (!node) {
@@ -75,16 +78,16 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
         line.push({
             white: node,
             whiteLineCount: boardState.nodes.length,
-            whiteLineIndex: path[0],
+            whiteLineIndex: visiblePath[0],
             black: null,
             blackLineCount: 0,
             blackLineIndex: -1
         });
 
         // step through the path
-        for (let i = 1; i < path.length; i++) {
+        for (let i = 1; i < visiblePath.length; i++) {
             const alternatives = node.nodes.length;
-            node = node.nodes[path[i]];
+            node = node.nodes[visiblePath[i]];
             if (!node) {
                 throw new Error('node not found');
             }
@@ -107,11 +110,12 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
             }
         }
 
-        if (node.nodes.length > 0) {
-            throw new Error('node has alternatives');
+        if (!practice && node.nodes.length > 0) {
+            console.error('node has alternatives', node);
         }
-        console.log('line', line);
+        // console.log('line', line);
         setLine(line);
+
     }, [boardState, path]);
 
 
@@ -154,7 +158,7 @@ const BoardMovesEl: React.FC<BoardMovesElProps> = ({
             display: 'inline-block',
             justifyContent: 'center',
             alignItems: 'center',
-            height: 'var(--chessboard-height)',
+            // height: 'var(--chessboard-height)',
             position: 'relative',
             ...sx
         }}>

@@ -2,35 +2,35 @@ import React, { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material';
 import SiteMenuEl from './components/SiteMenuEl';
-import { useCurrentPage } from './contexts/CurrentPage';
 
 // Lazy load components
 const HomePage = lazy(() => import('./pages/HomePage'));
 const BrowserAnalysisPage = lazy(() => import('./pages/BrowserAnalysisPage'));
 const BrowserOpeningsPage = lazy(() => import('./pages/BrowserOpeningsPage'));
 const BrowserEndgamesPage = lazy(() => import('./pages/BrowserEndgamesPage'));
-const MessagePage = lazy(() => import('./pages/MessagePage'));
+// const MessagePage = lazy(() => import('./pages/MessagePage'));
+import MessagePage from './pages/MessagePage';
 
 // Import page info objects
-import { 
-  analysisPageInfo, basicsPageInfo, endgamePageInfo, endgamesPageInfo, 
-  noPageInfo, openingPageInfo, openingsPageInfo, puzzlesPageInfo, tacticsPageInfo 
+import {
+  analysisPageInfo, basicsPageInfo, endgamePageInfo, endgamesPageInfo,
+  noPageInfo, openingPageInfo, openingsPageInfo, puzzlesPageInfo, tacticsPageInfo
 } from './components/SiteMenuEl';
 
 const BrowserApp: React.FC<{}> = ({ }) => {
 
-  const currentPage = useCurrentPage();
+  // const currentPage = useCurrentPage();
 
   return (
 
     <Box className='body' sx={{ display: 'flex' }}>
-      <SiteMenuEl currentPageName={currentPage.currentPageName} />
+      <SiteMenuEl isMobile={false} />
       <Box className='main' sx={{
         flexGrow: 1,
         height: '100vh',
         overflowY: 'auto'
       }}>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<MessagePage title={"Loading..."} message='soon we will be pushing pawn again!' />}>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path={analysisPageInfo.path} element={<BrowserAnalysisPage />} />

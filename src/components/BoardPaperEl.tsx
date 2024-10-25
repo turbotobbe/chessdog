@@ -78,7 +78,7 @@ const BoardPaperEl: React.FC<BoardPaperElProps> = ({
     const currentPlayer = chessGameState.whitesTurn ? white : black;
 
     const handleTurn = useCallback(async () => {
-        console.log(`handleTurn ${currentPlayer.name}`);
+        // console.log(`handleTurn ${currentPlayer.name}`);
         if (currentPlayer instanceof HumanPlayer) {
             // Human players make moves through UI interactions
             return;

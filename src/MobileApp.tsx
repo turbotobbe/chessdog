@@ -62,7 +62,7 @@ function BrowserApp() {
         }}
       >
         <Box sx={{ mt: 1 }}>
-          <SiteMenuEl currentPageName={currentPage.currentPageName} />
+          <SiteMenuEl isMobile={true} />
         </Box>
       </Drawer>
 
