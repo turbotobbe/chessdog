@@ -1,70 +1,48 @@
 import React from 'react';
-import { Box, Typography, Container, Grid, Card, CardContent, CardHeader, CardActions, Button } from '@mui/material';
-import { menuPageInfos } from '@/components/SiteMenuEl';
-
+import { Box, Typography } from '@mui/material';
+import logo from '../assets/logo.png';
 const HomePage: React.FC = () => {
     return (
-        <Box>
-            {/* Hero Section */}
-            <Box
+        <Box sx={{
+            display: 'flex',
+            flexDirection: 'column',
+            flexGrow: 1,
+            alignItems: 'center',
+            justifyContent: 'center',
+            boxSizing: 'border-box',
+            textAlign: 'center',
+            p: 2
+        }}><Box
+                component="img"
+                src={logo}
+                alt="Chess Dog"
                 sx={{
-                    bgcolor: 'primary.main',
-                    color: 'primary.contrastText',
-                    py: 8,
-                    mb: 6,
+                    maxWidth: '100%',
+                    height: 'auto',
+                    width: {
+                        xs: '80%',  // 0-600px
+                        sm: '60%',  // 600-900px
+                        md: '40%',  // 900-1200px
+                        lg: '30%',  // 1200px+
+                    },
                 }}
-            >
-                <Container maxWidth="md" sx={{ textAlign: 'center' }}>
-                    <Typography variant="h2" component="h1" gutterBottom>
-                        ChessDog
-                    </Typography>
-                    <Typography variant="h6">
-                        Unleash your inner chess dog on the board!
-                    </Typography>
-                </Container>
-            </Box>
-
-            {/* Sections for menu items */}
-            <Container maxWidth="lg">
-                <Grid container spacing={4}>
-                    {menuPageInfos.map((pageInfo) => (
-                        <Grid item xs={12} md={6} key={pageInfo.name}>
-                            <Card>
-                                <CardHeader
-                                    title={pageInfo.name}
-                                />
-                                <CardContent>
-                                {getDescriptionForSection(pageInfo.name)}
-                                </CardContent>
-                                <CardActions>
-                                    <Button variant='contained'>Explore {pageInfo.name} →</Button>
-                                </CardActions>
-                            </Card>
-                        </Grid>
-                    ))}
-                </Grid>
-            </Container>
+            />
+            {/* <img src={logo} alt="Chess Dog" /> */}
+            <Typography variant="body1">Okey, here's the deal.</Typography>
+            <Typography variant="body1">
+                Just hop around in here and try out whatever you like.
+            </Typography>
+            <Typography variant="body1">
+                We got some free <a href="/openings">openings</a>,  <a href="/endgames">endgames</a>,  <a href="/tactics">tactics</a> and  <a href="/puzzles">puzzles</a> for you.
+            </Typography>
+            <Typography variant="body1">
+                If you like it you can <a href="/join">Join</a> to get access to everything.
+            </Typography>
+            <Typography variant="body1">
+                Well... except my prep!
+            </Typography>
         </Box>
-    );
-};
-
-const getDescriptionForSection = (section: string): string => {
-    switch (section) {
-        case 'Analysis':
-            return 'Analyze your games and improve your strategy with our powerful chess engine.';
-        case 'Basics':
-            return 'Learn the fundamentals of chess, from piece movements to basic strategies.';
-        case 'Openings':
-            return 'Explore a wide range of chess openings and master the early game.';
-        case 'Tactics':
-            return 'Sharpen your tactical skills with our collection of chess puzzles and exercises.';
-        case 'Endgames':
-            return 'Study essential endgame techniques to finish your games with confidence.';
-        case 'Puzzles':
-            return 'Challenge yourself with a variety of chess puzzles to enhance your problem-solving skills.';
-        default:
-            return '';
-    }
-};
+    )
+}
 
 export default HomePage;

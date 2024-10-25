@@ -40,7 +40,7 @@ export const useChessGame = () => {
     }, []);
 
     useEffect(() => {
-        console.log(`effect pathIndex ${pathIndex} path ${path}`);
+        // console.log(`effect pathIndex ${pathIndex} path ${path}`);
         if (pathIndex < 0) {
             setChessGameState(boardState.chessGameState);
         } else if (pathIndex < path.length) {

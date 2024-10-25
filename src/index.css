@@ -102,3 +102,19 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.color-icon-red {
+  background-color: var(--chess-highlight-red);
+}
+.color-icon-blue {
+  background-color: var(--chess-highlight-blue);
+}
+.color-icon-yellow {
+  background-color: var(--chess-highlight-yellow);
+}
+.color-icon-green {
+  background-color: var(--chess-highlight-green);
+}
+.color-icon-orange {
+  background-color: var(--chess-highlight-orange);
+} 

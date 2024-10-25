@@ -11,7 +11,7 @@ import br from '../assets/br.png';
 import bb from '../assets/bb.png';
 import bn from '../assets/bn.png';
 import bp from '../assets/bp.png';
-import { ColorName, pieceFullNames, PieceName } from '@/types/chess';
+import { ColorName, fullPieceNames, PieceName } from '@/types/chess';
 
 const pieceImages: Record<ColorName, Record<PieceName, string>> = {
     w: {
@@ -37,7 +37,7 @@ export function asImageSrc(colorName: ColorName, pieceName: PieceName) {
 }
 
 export function asImageAlt(colorName: ColorName, pieceName: PieceName) {
-    return `${colorName === 'w' ? 'white' : 'black'} ${pieceFullNames[pieceName]}`;
+    return `${colorName === 'w' ? 'white' : 'black'} ${fullPieceNames[pieceName]}`;
 }
 
 export default pieceImages;

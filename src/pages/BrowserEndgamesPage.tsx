@@ -3,63 +3,26 @@ import BoardPaperEl from '@/components/BoardPaperEl';
 import { useChessGame } from '@/contexts/ChessGame';
 import { Box, Button, Card, CardActions, CardContent, CardHeader, Typography, useTheme } from '@mui/material';
 import Grid from '@mui/material/Grid2';
-import React, { useEffect, useState } from 'react';
-import { Endgame } from '@/types/chess';
-import { movesToTurns, PgnGame } from '@/utils/pgn';
-import { Link, useLocation, useParams } from 'react-router-dom';
-import RandomPlayer from '@/players/RandomPlayer';
+import React, { useCallback, useEffect, useState } from 'react';
+import { Endgame, Endgames } from '@/types/chess';
+import { useNavigate, useParams } from 'react-router-dom';
 import HumanPlayer from '@/players/HumanPlayer';
 import { getValidRandomSetup } from '@/models/chess';
+import rawEndgames from '@/data/endgames.json';
+import { PgnGame } from '@/utils/pgn';
+import { movesToTurns } from '@/utils/pgn';
+import ErrorEl from '@/components/ErrorEl';
+import RandomPlayer from '@/players/RandomPlayer';
 
-import bishopAndKnightJson from '@/data/endgames/bishop-and-knight.json';
-import kingAndPawnJson from '@/data/endgames/king-and-pawn.json';
-import kingAndQueenJson from '@/data/endgames/king-and-queen.json';
-import kingAndRookJson from '@/data/endgames/king-and-rook.json';
-import queenVsBishopJson from '@/data/endgames/queen-vs-bishop.json';
-import queenVsKnightJson from '@/data/endgames/queen-vs-knight.json';
-import queenVsRookJson from '@/data/endgames/queen-vs-rook.json';
-import rookVsKnightJson from '@/data/endgames/rook-vs-knight.json';
-import twoBishopsJson from '@/data/endgames/two-bishops.json';
-
-type EndgameSlugs =
-    "bishop-and-knight" |
-    "king-and-pawn" |
-    "king-and-queen" |
-    "king-and-rook" |
-    "queen-vs-bishop" |
-    "queen-vs-knight" |
-    "queen-vs-rook" |
-    "rook-vs-knight" |
-    "two-bishops";
-
-const endgameRecord: Record<EndgameSlugs, Endgame> = {
-    "bishop-and-knight": bishopAndKnightJson as Endgame,
-    "king-and-pawn": kingAndPawnJson as Endgame,
-    "king-and-queen": kingAndQueenJson as Endgame,
-    "king-and-rook": kingAndRookJson as Endgame,
-    "queen-vs-bishop": queenVsBishopJson as Endgame,
-    "queen-vs-knight": queenVsKnightJson as Endgame,
-    "queen-vs-rook": queenVsRookJson as Endgame,
-    "rook-vs-knight": rookVsKnightJson as Endgame,
-    "two-bishops": twoBishopsJson as Endgame,
-};
-
-const endgameSlugs: EndgameSlugs[] = [
-    "king-and-queen",
-    "king-and-rook",
-    "king-and-pawn",
-    "queen-vs-rook",
-    "queen-vs-bishop",
-    "queen-vs-knight",
-    "rook-vs-knight",
-    "two-bishops",
-];
+const endgames: Endgames = rawEndgames as Endgames;
 
 const BrowserEndgamesPage: React.FC = () => {
-    const { endgame: endgameParam } = useParams<{ endgame?: string }>();
-    const location = useLocation();
+    const navigate = useNavigate();
+    const { endgameParam } = useParams<{ endgameParam?: string }>();
     const theme = useTheme();
-    const [drillKey, setDrillKey] = useState<number>(0);
+    const [data, setData] = useState<Endgame | null>(null);
+    const [error, setError] = useState<Error | null>(null);
+    const [state, setState] = useState<'explore' | 'practice' | null>(null);
     const {
         boardState,
         chessGameState,
@@ -69,49 +32,80 @@ const BrowserEndgamesPage: React.FC = () => {
         handleSetLineIndex,
         handleMovePiece,
         handleResetBoard,
-        handleLoadBoard,
+        // handleLoadPgns,
+        handleLoadBoard
     } = useChessGame();
+
+
+    // Function to load setup or drill
+    const load = useCallback(async () => {
+        try {
+            console.log("loading endgame", endgameParam);
+            const response = await fetch(`/endgames/${endgameParam}.json`);
+            const data: Endgame = await response.json();
+            setData(data);
+        } catch (error) {
+            console.error("Error fetching endgame data:", error);
+            handleResetBoard();
+            setError(error as Error);
+        }
+    }, [endgameParam]);
 
     useEffect(() => {
         if (!endgameParam) {
-            handleResetBoard();
+            setData(null);
             return;
         }
-        try {
-            const endgame = endgameRecord[endgameParam as EndgameSlugs];
-            if (location.hash === '#drill') {
-                const gameSetup = getValidRandomSetup(endgame.drill);
-                handleLoadBoard(gameSetup, [])
-            } else {
-                const turns = movesToTurns(endgame.moves)
-                const pgnGame = new PgnGame({}, turns, undefined);
-                handleLoadBoard(endgame.setup, [pgnGame]);
-            }
-            return;
-        } catch (error) {
-            console.error(error);
-            handleResetBoard();
-        }
-    }, [endgameParam, location.hash, drillKey]);
+        load();
+    }, [endgameParam, load]);
 
     useEffect(() => {
-        if (location.hash === '#drill') {
-            setDrillKey(prev => prev + 1);
+        if (!data) {
+            handleResetBoard();
+            return;
         }
-    }, [path, pathIndex]);
+        handlePracticeEndgame();
+    }, [data]);
 
-    const handleDrillClick = () => {
-        setDrillKey(prev => prev + 1);
-    };
-
-    let endgame: Endgame | null = null;
-    try {
-        endgame = endgameRecord[endgameParam as EndgameSlugs];
-    } catch (error) {
-        return;
+    function handleSelectEndgame(endgame: string) {
+        console.log("select endgame", endgame);
+        navigate(`/endgames/${endgame}`);
     }
+
+    function handleExploreEndgame() {
+        console.log("explore endgame", endgameParam);
+        if (data) {
+            setState('explore');
+            const turns = movesToTurns(data.moves)
+            const pgnGame = new PgnGame({}, turns, undefined);
+            handleLoadBoard(data.setup, [pgnGame]);
+        } else {
+            setState(null);
+            handleResetBoard();
+        }
+    }
+
+    function handlePracticeEndgame() {
+        console.log("practice endgame", endgameParam);
+        if (data) {
+            setState('practice');
+            const gameSetup = getValidRandomSetup(data.drill);
+            handleLoadBoard(gameSetup, []);
+        } else {
+            setState(null);
+            handleResetBoard();
+        }
+    }
+
+    const endgame = endgames?.endgames.find(endgame => endgame.slug === endgameParam);
     const title = endgame?.name ?? "Endgames";
-    const isDrill = location.hash === '#drill';
+
+    if (error) {
+        return <ErrorEl error={error} />;
+    }
+
+    console.log("endgames page rendering", endgameParam);
+
     return (
         <Box
             sx={{
@@ -144,7 +138,7 @@ const BrowserEndgamesPage: React.FC = () => {
                 <BoardPaperEl
                     chessGameState={chessGameState}
                     white={new HumanPlayer('w')}
-                    black={isDrill ? new RandomPlayer('b') : new HumanPlayer('b')}
+                    black={state === 'practice' && pathIndex === path.length - 1 ? new RandomPlayer('b') : new HumanPlayer('b')}
                     movePiece={handleMovePiece}
                 />
 
@@ -152,18 +146,28 @@ const BrowserEndgamesPage: React.FC = () => {
                     boardState={boardState}
                     path={path}
                     pathIndex={pathIndex}
+                    practice={state === 'practice'}
                     setPathIndex={handleSetPathIndex}
                     setLineIndex={handleSetLineIndex}
-                    resetBoard={handleResetBoard}
-                    // restartBoard={handleRestartBoard}
+                    actions={[
+                        {
+                            label: 'Explore',
+                            onClick: () => handleExploreEndgame(),
+                            disabled: !data,
+                        },
+                        {
+                            label: 'Practice',
+                            onClick: () => handlePracticeEndgame(),
+                            disabled: !data,
+                        }
+                    ]}
                     title={title}
                     subtitle="Learn the endgame skills"
                 />
 
                 <Box sx={{ flexGrow: 1 }}>
                     <Grid container spacing={1}>
-                        {endgameSlugs.map((endgameSlug, index) => {
-                            const endgame = endgameRecord[endgameSlug];
+                        {endgames.endgames.map((endgame, index) => {
                             return (
                                 <Grid key={index} size={4}>
                                     <Card>
@@ -173,18 +177,10 @@ const BrowserEndgamesPage: React.FC = () => {
                                         </CardContent>
                                         <CardActions>
                                             <Button
-                                                component={Link}
-                                                to={`/endgames/${endgame.slug}`}
-                                                variant="contained" color="primary">
-                                                Learn
-                                            </Button>
-                                            <Button
-                                                component={Link}
-                                                to={`/endgames/${endgame.slug}#drill`}
-                                                variant="contained" color="secondary"
-                                                onClick={handleDrillClick}
+                                                variant="contained" color="primary"
+                                                onClick={() => handleSelectEndgame(endgame.slug)}
                                             >
-                                                Drill
+                                                Explore
                                             </Button>
                                         </CardActions>
                                     </Card>

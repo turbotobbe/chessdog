@@ -1,20 +1,25 @@
 import AnalysisPaperEl from '@/components/AnalysisPaperEl';
 import BoardPaperEl from '@/components/BoardPaperEl';
 import { useChessGame } from '@/contexts/ChessGame';
-import { Box, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, useTheme } from '@mui/material';
-import React, { useEffect } from 'react';
+import { Box, Button, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, useTheme } from '@mui/material';
+import React, { useCallback, useEffect, useState } from 'react';
 import rawOpenings from '../data/openingGroups.json';
-import { parsePgn, PgnGame } from '@/utils/pgn';
+import { parsePgn } from '@/utils/pgn';
 import { Opening, OpeningCategory } from '@/types/chess';
 import { useNavigate, useParams } from 'react-router-dom';
 import HumanPlayer from '@/players/HumanPlayer';
+import ErrorEl from '@/components/ErrorEl';
+import OpeningPlayer from '@/players/OpeningPlayer';
 
 const openingCategories: OpeningCategory[] = rawOpenings.openingCategories as OpeningCategory[];
 
 const BrowserOpeningsPage: React.FC = () => {
     const navigate = useNavigate();
-    const { category: categoryParam, opening: openingParam } = useParams<{ category?: string, opening?: string }>();
+    const { categoryParam, openingParam } = useParams<{ categoryParam?: string, openingParam?: string }>();
     const theme = useTheme();
+    const [data, setData] = useState<Opening | null>(null);
+    const [error, setError] = useState<Error | null>(null);
+    const [state, setState] = useState<'explore' | 'practice' | null>(null);
     const {
         boardState,
         chessGameState,
@@ -24,53 +29,79 @@ const BrowserOpeningsPage: React.FC = () => {
         handleSetLineIndex,
         handleMovePiece,
         handleResetBoard,
-        handleLoadPgns
+        handleLoadPgns,
     } = useChessGame();
 
-    useEffect(() => {
-        if (location.hash === '#practice') {
-            handlePracticeOpening();
-        } else {
-            handleExploreOpening();
+    // Function to load setup or drill
+    const load = useCallback(async () => {
+        try {
+            console.log("loading opening", categoryParam, openingParam);
+            const response = await fetch(`/openings/${categoryParam}/${openingParam}.json`);
+            const data: Opening = await response.json();
+            setData(data);
+        } catch (error) {
+            console.error("Error fetching opening data:", error);
+            handleResetBoard();
+            setError(error as Error);
         }
-    }, [categoryParam, openingParam, location.hash]);
+    }, [categoryParam, openingParam]);
 
-    function handlePracticeOpening() {
-        handleResetBoard();
-    }
+    useEffect(() => {
+        if (!categoryParam || !openingParam) {
+            setData(null);
+            return;
+        }
+        load();
+    }, [categoryParam, openingParam, load]);
+
+    useEffect(() => {
+        if (!data) {
+            handleResetBoard();
+            return;
+        }
+        handleExploreOpening();
+    }, [data]);
 
     function handleSelectOpening(category: string, opening: string) {
+        console.log("select opening", category, opening);
         navigate(`/openings/${category}/${opening}`);
     }
 
     function handleExploreOpening() {
-        const category = openingCategories.find(openingCategory => openingCategory.slug === categoryParam);
-        const opening = category?.openings.find(opening => opening.slug === openingParam);
-        if (!opening) {
+        console.log("explore opening", categoryParam, openingParam);
+        if (data) {
+            setState('explore');
+            handleLoadPgns(data.lines.map((line) => {
+                return parsePgn(line.moves, line.name)
+            }));
+        } else {
+            setState(null);
             handleResetBoard();
-            return;
         }
+    }
 
-        // Fetch opening data lazily
-        fetch(`/openings/${categoryParam}/${openingParam}.json`)
-            .then(response => response.json())
-            .then((openingData: Opening) => {
-                console.log(openingData);
-                const pgnGames: PgnGame[] = openingData.lines.map((line) => {
-                    return parsePgn(line.moves, line.name)
-                });
-                handleLoadPgns(pgnGames);
-            })
-            .catch(error => {
-                console.error("Error fetching opening data:", error);
-                handleResetBoard();
-            });
+    function handlePracticeOpening() {
+        console.log("practice opening", categoryParam, openingParam);
+        if (data) {
+            setState("practice")
+            handleLoadPgns(data.lines.map((line) => {
+                return parsePgn(line.moves, line.name)
+            }));
+        } else {
+            setState(null);
+            handleResetBoard();
+        }
     }
 
     const category = openingCategories.find(openingCategory => openingCategory.slug === categoryParam);
     const opening = category?.openings.find(opening => opening.slug === openingParam);
     const title = opening?.name ?? "Openings";
 
+    if (error) {
+        return <ErrorEl error={error} />;
+    }
+
+    console.log("openings page rendering", openingParam, state);
     return (
         <Box
             sx={{
@@ -104,7 +135,7 @@ const BrowserOpeningsPage: React.FC = () => {
                 <BoardPaperEl
                     chessGameState={chessGameState}
                     white={new HumanPlayer('w')}
-                    black={new HumanPlayer('b')}
+                    black={new OpeningPlayer('b', boardState, path, pathIndex)}
                     movePiece={handleMovePiece}
                 />
 
@@ -114,8 +145,19 @@ const BrowserOpeningsPage: React.FC = () => {
                     pathIndex={pathIndex}
                     setPathIndex={handleSetPathIndex}
                     setLineIndex={handleSetLineIndex}
-                    resetBoard={handleResetBoard}
-                    restartBoard={handlePracticeOpening}
+                    practice={state === 'practice'}
+                    actions={[
+                        {
+                            label: 'Explore',
+                            onClick: () => handleExploreOpening(),
+                            disabled: !data,
+                        },
+                        {
+                            label: 'Practice',
+                            onClick: () => handlePracticeOpening(),
+                            disabled: !data,
+                        }
+                    ]}
                     title={title}
                     subtitle="Learn the openings"
                 />
@@ -127,6 +169,7 @@ const BrowserOpeningsPage: React.FC = () => {
                                     <TableCell>Category</TableCell>
                                     <TableCell>Name</TableCell>
                                     <TableCell>ECO</TableCell>
+                                    <TableCell>Explore</TableCell>
                                     {/* <TableCell>White</TableCell>
                                     <TableCell>Black</TableCell>
                                     <TableCell>Lines</TableCell> */}
@@ -144,11 +187,18 @@ const BrowserOpeningsPage: React.FC = () => {
                                                 key={opening.slug}
                                                 hover={true}
                                                 selected={isSelected}
-                                                onClick={() => handleSelectOpening(category.slug, opening.slug)}
                                             >
                                                 <TableCell>{category.name}</TableCell>
                                                 <TableCell>{opening.name}</TableCell>
                                                 <TableCell>{opening.range}</TableCell>
+                                                <TableCell>
+                                                    <Button
+                                                        variant="contained" color="primary"
+                                                        onClick={() => handleSelectOpening(category.slug, opening.slug)}
+                                                    >
+                                                        Explore
+                                                    </Button>
+                                                </TableCell>
                                                 {/* <TableCell>{numWhite>0 ? numWhite : ''}</TableCell>
                                                 <TableCell>{numBlack>0 ? numBlack : ''}</TableCell>
                                                 <TableCell>{opening.lines.length}</TableCell> */}

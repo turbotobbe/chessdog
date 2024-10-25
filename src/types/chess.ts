@@ -30,6 +30,15 @@ export type SideName = 'kingside' | 'queenside';
 export type PieceId =
   'wk1' | 'wq1' | 'wr1' | 'wr2' | 'wn1' | 'wn2' | 'wb1' | 'wb2' | 'wp1' | 'wp2' | 'wp3' | 'wp4' | 'wp5' | 'wp6' | 'wp7' | 'wp8' |
   'bk1' | 'bq1' | 'br1' | 'br2' | 'bn1' | 'bn2' | 'bb1' | 'bb2' | 'bp1' | 'bp2' | 'bp3' | 'bp4' | 'bp5' | 'bp6' | 'bp7' | 'bp8';
+  // 'wp1q' | 'wp1r' | 'wp1b' | 'wp1n' | 'bp1q' | 'bp1r' | 'bp1b' | 'bp1n' |
+
+  // 'wp2q' | 'wp2r' | 'wp2b' | 'wp2n' | 'bp2q' | 'bp2r' | 'bp2b' | 'bp2n' |
+  // 'wp3q' | 'wp3r' | 'wp3b' | 'wp3n' | 'bp3q' | 'bp3r' | 'bp3b' | 'bp3n' |
+  // 'wp4q' | 'wp4r' | 'wp4b' | 'wp4n' | 'bp4q' | 'bp4r' | 'bp4b' | 'bp4n' |
+  // 'wp5q' | 'wp5r' | 'wp5b' | 'wp5n' | 'bp5q' | 'bp5r' | 'bp5b' | 'bp5n' |
+  // 'wp6q' | 'wp6r' | 'wp6b' | 'wp6n' | 'bp6q' | 'bp6r' | 'bp6b' | 'bp6n' |
+  // 'wp7q' | 'wp7r' | 'wp7b' | 'wp7n' | 'bp7q' | 'bp7r' | 'bp7b' | 'bp7n' |
+  // 'wp8q' | 'wp8r' | 'wp8b' | 'wp8n' | 'bp8q' | 'bp8r' | 'bp8b' | 'bp8n';
 
 export type SquareId =
   'a1' | 'a2' | 'a3' | 'a4' | 'a5' | 'a6' | 'a7' | 'a8' |
@@ -56,6 +65,7 @@ export interface PieceInfo {
   colorName: ColorName;
   pieceName: PieceName;
   number: number;
+  promotionPieceName?: PieceName;
 }
 
 export interface Move {
@@ -134,6 +144,56 @@ export const pieceIds: PieceId[] = [
   blackKingsideRook,
   blackPawn1, blackPawn2, blackPawn3, blackPawn4, blackPawn5, blackPawn6, blackPawn7, blackPawn8,
 ];
+export const whitePieceIds: PieceId[] = [
+  'wk1', 'wq1',
+  'wr1', 'wr2',
+  'wn1', 'wn2',
+  'wb1', 'wb2',
+  'wp1', 'wp2', 'wp3', 'wp4', 'wp5', 'wp6', 'wp7', 'wp8',
+];
+
+export const blackPieceIds: PieceId[] = [
+  'bk1', 'bq1',
+  'br1', 'br2',
+  'bn1', 'bn2',
+  'bb1', 'bb2',
+  'bp1', 'bp2', 'bp3', 'bp4', 'bp5', 'bp6', 'bp7', 'bp8',
+];
+
+export const castelingSquareIds = {
+  white: {
+      kingSquareId: 'e1' as SquareId,
+      rookSquareId: 'a1' as SquareId,
+      queenSide: {
+          castleSquareId: 'c1' as SquareId,
+          middleSquareId: 'd1' as SquareId,
+          middleSquares: ['b1' as SquareId, 'c1' as SquareId, 'd1' as SquareId],
+          targetSquares: ['c1' as SquareId, 'd1' as SquareId, 'e1' as SquareId],
+      },
+      kingSide: {
+          castleSquareId: 'g1' as SquareId,
+          middleSquareId: 'f1' as SquareId,
+          middleSquares: ['f1' as SquareId, 'g1' as SquareId],
+          targetSquares: ['e1' as SquareId, 'f1' as SquareId, 'g1' as SquareId],
+      },
+  },
+  black: {
+      kingSquareId: 'e8' as SquareId,
+      rookSquareId: 'a8' as SquareId,
+      queenSide: {
+          castleSquareId: 'c8' as SquareId,
+          middleSquareId: 'd8' as SquareId,
+          middleSquares: ['b8' as SquareId, 'c8' as SquareId, 'd8' as SquareId],
+          targetSquares: ['c8' as SquareId, 'd8' as SquareId, 'e8' as SquareId],
+      },
+      kingSide: {
+          castleSquareId: 'g8' as SquareId,
+          middleSquareId: 'f8' as SquareId,
+          middleSquares: ['f8' as SquareId, 'g8' as SquareId],
+          targetSquares: ['e8' as SquareId, 'f8' as SquareId, 'g8' as SquareId],
+      },
+  },
+}
 
 export const a1: SquareId = 'a1';
 export const a2: SquareId = 'a2';
@@ -241,13 +301,27 @@ export const darkSquareIds: SquareId[] = [
   h2, h4, h6, h8,
 ];
 
-export const pieceFullNames: Record<PieceName, string> = {
+export const fullColorNames: Record<ColorName, string> = {
+  w: 'white',
+  b: 'black'
+};
+
+export const fullPieceNames: Record<PieceName, string> = {
   k: 'king',
   q: 'queen',
   r: 'rook',
   b: 'bishop',
   n: 'knight',
   p: 'pawn'
+};
+
+export const pieceValues: Record<PieceName, number> = {
+  k: 0,
+  q: 9,
+  r: 5,
+  b: 3,
+  n: 3,
+  p: 1
 };
 
 export const castlingRookMoves: Record<ColorName, Record<SideName, { fromSquareId: SquareId, toSquareId: SquareId }>> = {
@@ -263,6 +337,14 @@ export const castlingRookMoves: Record<ColorName, Record<SideName, { fromSquareI
 
 export const DnDType = {
   PIECE: "piece"
+}
+
+export type Endgames = {
+  endgames: {
+    slug: string;
+    name: string;
+    description: string;
+  }[];
 }
 
 export type OpeningCategory = {
@@ -303,8 +385,6 @@ export type GameSetup = {
 export type Endgame = {
   slug: string;
   name: string;
-  href?: string;
-  description: string;
   setup: GameSetup;
   moves: PgnMove[];
   drill: PieceId[];

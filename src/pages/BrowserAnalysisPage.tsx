@@ -15,7 +15,7 @@ const BrowserAnalysisPage: React.FC = () => {
         handleSetPathIndex,
         handleSetLineIndex,
         handleMovePiece,
-        handleResetBoard,
+        // handleResetBoard,
     } = useChessGame();
 
     return (
@@ -61,7 +61,8 @@ const BrowserAnalysisPage: React.FC = () => {
                     pathIndex={pathIndex}
                     setPathIndex={handleSetPathIndex}
                     setLineIndex={handleSetLineIndex}
-                    resetBoard={handleResetBoard}
+                    // resetBoard={handleResetBoard}
+                    practice={false}
                     title='Analysis'
                 />
 

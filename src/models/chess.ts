@@ -7,8 +7,16 @@ export function asPieceInfo(pieceId: PieceId): PieceInfo {
         id: pieceId,
         colorName: pieceId.charAt(0) as ColorName,
         pieceName: pieceId.charAt(1) as PieceName,
-        number: parseInt(pieceId.charAt(2), 10)
+        number: parseInt(pieceId.charAt(2), 10),
+        promotionPieceName: pieceId.charAt(3) as PieceName | undefined
     };
+}
+
+export function asPieceId(pieceInfo: PieceInfo): PieceId {
+    if (pieceInfo.promotionPieceName) {
+        return `${pieceInfo.colorName}${pieceInfo.pieceName}${pieceInfo.number}${pieceInfo.promotionPieceName}` as PieceId;
+    }
+    return `${pieceInfo.colorName}${pieceInfo.pieceName}${pieceInfo.number}` as PieceId;
 }
 
 export function asSquareInfo(squareId: SquareId): SquareInfo {

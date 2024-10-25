@@ -1,7 +1,11 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 
-const AnalysisPage: React.FC<{ title: string; message: string }> = ({
+type MessagePageProps = {
+    title: string;
+    message: string;
+}
+const MessagePage: React.FC<MessagePageProps> = ({
     title,
     message
 }) => {
@@ -9,10 +13,12 @@ const AnalysisPage: React.FC<{ title: string; message: string }> = ({
         <Box sx={{
             display: 'flex',
             flexDirection: 'column',
+            flexGrow: 1,
             alignItems: 'center',
             justifyContent: 'center',
-            minHeight: '100vh',
-            boxSizing: 'border-box'
+            boxSizing: 'border-box',
+            textAlign: 'center',
+            p: 2
         }}>
             <Typography variant="h4">{title}</Typography>
             <Typography variant="body1">{message}</Typography>
@@ -20,4 +26,4 @@ const AnalysisPage: React.FC<{ title: string; message: string }> = ({
     );
 };
 
-export default AnalysisPage;
+export default MessagePage;
