@@ -1,0 +1,49 @@
+{
+    "endgames": [
+        {
+            "slug": "king-and-pawn",
+            "name": "King and Pawn",
+            "description": "A king and pawn endgame."
+        },
+        {
+            "slug": "king-and-queen",
+            "name": "King and Queen",
+            "description": "A king and queen endgame."
+        },
+        {
+            "slug": "king-and-rook",
+            "name": "King and Rook",
+            "description": "A king and rook endgame."
+        },
+        {
+            "slug": "queen-vs-bishop",
+            "name": "Queen vs Bishop",
+            "description": "A queen and bishop endgame."
+        },
+        {
+            "slug": "queen-vs-knight",
+            "name": "Queen vs Knight",
+            "description": "A queen and knight endgame."
+        },
+        {
+            "slug": "queen-vs-rook",
+            "name": "Queen vs Rook",
+            "description": "A queen and rook endgame."
+        },
+        {
+            "slug": "rook-vs-knight",
+            "name": "Rook vs Knight",
+            "description": "A rook and knight endgame."
+        },
+        {
+            "slug": "two-bishops",
+            "name": "Two Bishops",
+            "description": "Two bishops endgame."
+        },
+        {
+            "slug": "bishop-and-knight",
+            "name": "Bishop and Knight",
+            "description": "A bishop and knight endgame."
+        }
+    ]
+}

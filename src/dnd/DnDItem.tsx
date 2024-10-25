@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Box } from '@mui/material';
-import {  DnDBadgeName, gridZIndexes } from './DnDTypes';
+import { DnDBadgeName, gridZIndexes } from './DnDTypes';
 import { useDnDGridContext } from './DnDContext';
 import DnDBadge from './DnDBadge';
 
@@ -25,7 +25,9 @@ const DnDItem: React.FC<DnDItemProps> = ({
         draggedItemKey,
         mouseOffset,
         toCellId,
-        handleOnDragStart,
+        toItemColor,
+        toItemFace,
+        onDragStart,
     } = useDnDGridContext();
 
     const [isDragging, setIsDragging] = useState(false);
@@ -53,30 +55,39 @@ const DnDItem: React.FC<DnDItemProps> = ({
         }
     }, [isDragging, mouseOffset, cellSize]);
 
-    const handleDragStart = (target: HTMLElement) => {
+    const handleDragStart = (target: HTMLElement, offset: { top: number, left: number }) => {
+        
         target.classList.add('grabbing');
         const cellId = toCellId(cellKey);
-        handleOnDragStart(cellId, itemKey);
+        onDragStart(cellId, itemKey, offset);
     }
 
     return (
         <Box
-            className={`dnd-item ${itemKey}`}
+            className={`dnd-item ${toItemColor(itemKey)} ${toItemFace(itemKey)}`}
             component="div"
             sx={{
-                width: `${cellSize.width}px`,
-                height: `${cellSize.height}px`,
+                width: `var(--cell-size)`,
+                height: `var(--cell-size)`,
                 ...sx,
                 ...style
             }}
             onMouseDown={canDrag ? (event) => {
                 event.preventDefault();
-                handleDragStart(event.target as HTMLElement);
+                const offset = {
+                    top: event.clientY,
+                    left: event.clientX,
+                }
+                handleDragStart(event.target as HTMLElement, offset);
             } : undefined}
 
             onTouchStart={canDrag ? (event) => {
-                event.preventDefault();
-                handleDragStart(event.target as HTMLElement);
+                // event.preventDefault();
+                const offset = {
+                    top: event.touches[0].clientY,  
+                    left: event.touches[0].clientX,
+                }
+                handleDragStart(event.target as HTMLElement, offset);
             } : undefined}
 
             onDragStart={(e: React.DragEvent<HTMLDivElement>) => {

@@ -122,7 +122,6 @@ export const asDnDCellIdString = (cellId: DnDCellId): string => {
 }
 
 export const calculateCellId = (gridSize: DnDSize, rows: number, cols: number, offset: DnDOffset): DnDCellId => {
-    console.log("calculateCellId", gridSize, rows, cols, offset);
     if (gridSize.width <= 0 || gridSize.height <= 0 || rows <= 0 || cols <= 0) {
         return { row: -1, col: -1 };
     }

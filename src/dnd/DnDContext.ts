@@ -13,27 +13,20 @@ interface DnDContextType {
     arrowColorName: GridColorName | null;
     toCellId: (cellKey: string) => DnDCellId;
     fromCellId: (cellId: DnDCellId) => string;
-    handleOnDragStart: (cellId: DnDCellId, itemKey: string) => void;
-    handleOnMark: (colorName: GridColorName, sourceCellKey: string) => void;
-    handleOnArrow: (colorName: GridColorName, sourceCellKey: string, targetCellKey: string) => void;
+
+    toItemColor: (itemKey: string) => string;
+    toItemFace: (itemKey: string) => string;
+
+    canMark: (sourceCellKey: string) => boolean;
+    canArrow: (sourceCellKey: string, targetCellKey: string) => boolean;
+
+    onDragStart: (cellId: DnDCellId, itemKey: string, offset: { top: number, left: number }) => void;
+    onMark: (sourceCellKey: string, colorName: GridColorName) => void;
+    onArrow: (sourceCellKey: string, targetCellKey: string, colorName: GridColorName) => void;
 }
 
 // Create the context with a default value
-export const DnDContext = createContext<DnDContextType | undefined>({
-    rows: -1,
-    cols: -1,
-    gridSize: { width: -1, height: -1 },
-    cellSize: { width: -1, height: -1 },
-    mouseOffset: { top: -Infinity, left: -Infinity },
-    draggedItemKey: null,
-    markColorName: null,
-    arrowColorName: null,
-    toCellId: () => ({ row: -1, col: -1 }),
-    fromCellId: () => '???',
-    handleOnDragStart: () => {},
-    handleOnMark: () => {},
-    handleOnArrow: () => {},
-});
+export const DnDContext = createContext<DnDContextType | undefined>(undefined);
 
 // Custom hook to access the context in any child component
 export const useDnDGridContext = (): DnDContextType => {

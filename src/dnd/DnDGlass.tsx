@@ -17,8 +17,10 @@ const DnDGlass: React.FC<DnDGlassProps> = ({
         markColorName,
         arrowColorName,
         fromCellId,
-        handleOnMark,
-        handleOnArrow,
+        canMark,
+        canArrow,
+        onMark,
+        onArrow,
     } = useDnDGridContext();
 
     // const [isDragging, setIsDragging] = useState(false);
@@ -42,15 +44,15 @@ const DnDGlass: React.FC<DnDGlassProps> = ({
         if (sourceCellId && targetCellId) {
             if (isEqual(sourceCellId, targetCellId)) {
                 const sourceCellKey = fromCellId(sourceCellId);
-                markColorName && handleOnMark(markColorName, sourceCellKey);
+                markColorName && canMark(sourceCellKey) && onMark(sourceCellKey, markColorName);
             } else {
                 const sourceCellKey = fromCellId(sourceCellId);
                 const targetCellKey = fromCellId(targetCellId);
-                arrowColorName && handleOnArrow(arrowColorName, sourceCellKey, targetCellKey);
+                arrowColorName && canArrow(sourceCellKey, targetCellKey) && onArrow(sourceCellKey, targetCellKey, arrowColorName);
             }
         }
         setSourceCellId(null);
-    }, [sourceCellId, markColorName, arrowColorName, handleOnMark, handleOnArrow]);
+    }, [sourceCellId, markColorName, arrowColorName, canMark, canArrow, onMark, onArrow]);
 
     return (
         <Box

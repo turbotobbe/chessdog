@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useState, useEffect } from 'react';
 import { DnDCellId, DnDOffset, DnDSize, GridColorName, gridColors } from './DnDTypes';
 import { useDnDGridContext } from './DnDContext';
 
@@ -202,18 +202,24 @@ const DnDArrow: React.FC<DnDArrowProps> = ({
     sourceKey,
     targetKey,
 }) => {
-    const { gridSize, cellSize, toCellId } = useDnDGridContext();
+    const {cellSize, toCellId} = useDnDGridContext();
+    const [points, setPoints] = useState<string>('');
 
-    if (!colorName || !sourceKey || !targetKey) {
-        return null;
-    }
+    useEffect(() => {
+        if (!colorName || !sourceKey || !targetKey) {
+            setPoints('');
+            return;
+        }
 
-    const points = useMemo(() => {
         const sourceCellId = toCellId(sourceKey);
         const targetCellId = toCellId(targetKey);
-        const points = calculateArrowPoints(sourceCellId, targetCellId, cellSize);
-        return points;
-    }, [sourceKey, targetKey, cellSize, gridSize]);
+        const calculatedPoints = calculateArrowPoints(sourceCellId, targetCellId, cellSize);
+        setPoints(calculatedPoints);
+    }, [colorName, sourceKey, targetKey, cellSize, toCellId]);
+
+    if (!points) {
+        return null;
+    }
 
     return (
         <polygon
@@ -221,7 +227,7 @@ const DnDArrow: React.FC<DnDArrowProps> = ({
             points={points}
             fill={gridColors[colorName]}
         />
-    )
+    );
 };
 
 export default DnDArrow;
