@@ -17,16 +17,19 @@ export const MoveButton: React.FC<{
     selectedMoveKey,
     handleSelectMove
 }) => {
-    return (<Button
-        size='small'
-        onClick={() => handleSelectMove(move.state.key)}
-        variant='text'
-        color={selectedMoveKey === move.state.key ? 'primary' : 'inherit'}
-    >
-        <Typography variant='body1'>{move.state.key}</Typography>
-        {move.lineCount > 1 && <Typography variant='caption'>&nbsp;({move.lineIndex + 1}/{move.lineCount})</Typography>}
-    </Button>)
-};
+        return (<Button
+            size='small'
+            onClick={() => handleSelectMove(move.state.key)}
+            variant='text'
+            sx={{
+                width: '100%',
+            }}
+            color={selectedMoveKey === move.state.key ? 'primary' : 'inherit'}
+        >
+            <Typography variant='body1'>{move.state.key}</Typography>
+            {move.lineCount > 1 && <Typography variant='caption'>&nbsp;({move.lineIndex + 1}/{move.lineCount})</Typography>}
+        </Button>)
+    };
 
 export const MovesPanel: React.FC<MovesPanelProps> = ({
     chessBoardKey,
@@ -85,9 +88,9 @@ export const MovesPanel: React.FC<MovesPanelProps> = ({
                     <Table size='small' stickyHeader>
                         <TableHead>
                             <TableRow>
-                                <TableCell>Move</TableCell>
-                                <TableCell>White</TableCell>
-                                <TableCell>Black</TableCell>
+                                <TableCell style={{ width: '20%' }}>Move</TableCell>
+                                <TableCell style={{ width: '40%', textAlign: 'center' }}>White</TableCell>
+                                <TableCell style={{ width: '40%', textAlign: 'center' }}>Black</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
@@ -95,15 +98,15 @@ export const MovesPanel: React.FC<MovesPanelProps> = ({
                                 const [whiteMove, blackMove] = move;
                                 return (
                                     <TableRow key={index}>
-                                        <TableCell>{index}.</TableCell>
-                                        <TableCell>
-                                        <MoveButton
+                                        <TableCell>{index+1}.</TableCell>
+                                        <TableCell style={{ textAlign: 'right' }}>
+                                            <MoveButton
                                                 move={whiteMove}
                                                 selectedMoveKey={selectedMoveKey}
                                                 handleSelectMove={handleSelectMove}
                                             />
                                         </TableCell>
-                                        <TableCell>
+                                        <TableCell style={{ textAlign: 'right' }}>
                                             {blackMove && <MoveButton
                                                 move={blackMove}
                                                 selectedMoveKey={selectedMoveKey}

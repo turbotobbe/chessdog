@@ -82,7 +82,7 @@ const DnDItem: React.FC<DnDItemProps> = ({
             } : undefined}
 
             onTouchStart={canDrag ? (event) => {
-                event.preventDefault(); // prevent touch scrolling on drag start
+                // event.preventDefault(); // prevent touch scrolling on drag start
                 const offset = {
                     top: event.touches[0].clientY,  
                     left: event.touches[0].clientX,
