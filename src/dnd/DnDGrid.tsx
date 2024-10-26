@@ -236,6 +236,8 @@ const DnDGrid: React.FC<DndGridProps> = ({
                     gridTemplateColumns: `repeat(${cols}, 1fr)`,
                     gridTemplateRows: `repeat(${rows}, 1fr)`,
                     zIndex: gridZIndexes.grid,
+                    width: `${gridSize.width}px`,
+                    height: `${gridSize.height}px`,
                     ...sx
                 }}
             >
