@@ -160,7 +160,7 @@ export const blackPieceIds: PieceId[] = [
   'bp1', 'bp2', 'bp3', 'bp4', 'bp5', 'bp6', 'bp7', 'bp8',
 ];
 
-export const castelingSquareIds = {
+export const castlingSquareIds = {
   white: {
       kingSquareId: 'e1' as SquareId,
       rookSquareId: 'a1' as SquareId,

@@ -1,8 +1,8 @@
 import { ChessBoardController } from "@/contexts/ChessBoardController";
 import { ChessBoardState, defaultChessBoardState, ChessBoardTree, ChessBoardItem } from "@/contexts/ChessBoardState";
 import { GridColorName } from "@/dnd/DnDTypes";
-import { asPieceInfo } from "@/models/chess";
-import { SquareId } from "@/types/chess";
+import { asPieceInfo, asSquareInfo } from "@/models/chess";
+import { PieceId, PieceInfo, SquareId, SquareInfo } from "@/types/chess";
 
 export const historyChessBoardController = (initialState?: ChessBoardState) => {
     return new HistoryChessBoardController(initialState ?? defaultChessBoardState());
@@ -106,6 +106,12 @@ export class HistoryChessBoardController implements ChessBoardController {
     onMove(sourceId: SquareId, targetId: SquareId, state?: ChessBoardState): void {
         const clonedState = state ?? this.currentState().clone();
 
+        const pieceId = clonedState.squares[sourceId];
+        if (!pieceId) {
+            throw new Error(`Piece not found at ${sourceId}`);
+        }
+        const pieceInfo = asPieceInfo(pieceId);
+
         // capture any piece at the target square
         this.captureAtSquare(clonedState, targetId);
 
@@ -187,6 +193,8 @@ export class HistoryChessBoardController implements ChessBoardController {
             delete state.pieces[targetPieceId];
             // remove from squares
             delete state.squares[squareId];
+
+            state.lastMove.isCapture = true;
             return true;
         }
         return false;
@@ -202,7 +210,9 @@ export class HistoryChessBoardController implements ChessBoardController {
             delete state.squares[sourceId];
 
             // Add moved piece to movedPieces
-            state.movedPieces.push(sourcePieceId);
+            if (state.movedPieces.indexOf(sourcePieceId) === -1) {
+                state.movedPieces.push(sourcePieceId);
+            }
 
             // update king square id
             const sourcePieceInfo = asPieceInfo(sourcePieceId);
@@ -218,4 +228,106 @@ export class HistoryChessBoardController implements ChessBoardController {
         return false;
     }
 
+    updatePgn (state: ChessBoardState, prevState: ChessBoardState, sourceId: SquareId, targetId: SquareId, pieceInfo: PieceInfo): void {
+
+        const sourceSquareInfo = asSquareInfo(sourceId);
+        const targetSquareInfo = asSquareInfo(targetId);
+    
+        let pgn = "";
+        if (state.lastMove.isKingsideCastling) {
+            pgn = "O-O";
+        }
+        else if (state.lastMove.isQueensideCastling) {
+            pgn = "O-O-O";
+        } else {
+    
+            const specifiedSource = getDisambiguation(prevState, sourceId, targetId, pieceInfo);
+            if (state.lastMove.promotionPieceName) {
+                if (state.lastMove.isCapture) {
+                    pgn += sourceSquareInfo.fileName;
+                }
+            } else if (specifiedSource.length > 0) {
+                pgn += specifiedSource;
+            } else if (pieceInfo.pieceName !== 'p') {
+                pgn += pieceInfo.pieceName.toUpperCase();
+            } else if (state.lastMove.isCapture || state.lastMove.isEnPassant) {
+                pgn += sourceSquareInfo.fileName;
+            }
+    
+            // source destination
+    
+            if (state.lastMove.isCapture || state.lastMove.isEnPassant) {
+                pgn += "x";
+            }
+    
+            // Bxd3
+            pgn += targetSquareInfo.id;
+    
+            if (state.lastMove.isEnPassant) {
+                pgn += " e.p.";
+            }
+        }
+    
+        if (state.lastMove.promotionPieceName) {
+            // d8=Q
+            pgn += "=" + state.lastMove.promotionPieceName.toUpperCase();
+        }
+    
+        if (state.whitesTurn) {
+            if (state.whiteKingStatus.isInCheckMate) {
+                pgn += "#";
+            } else if (state.whiteKingStatus.isInCheck) {
+                pgn += "+";
+            }
+        } else {
+            if (state.blackKingStatus.isInCheckMate) {
+                pgn += "#";
+            } else if (state.blackKingStatus.isInCheck) {
+                pgn += "+";
+            }
+        }
+    
+        state.pgn = pgn;
+    };
+    
+};
+
+const getDisambiguation = (prevState: ChessBoardState, sourceId: SquareId, targetId: SquareId, pieceInfo: PieceInfo): string => {
+
+    // get all pieces (of the same colar and type) that can move to the target square
+    const validMoves = pieceInfo.colorName === 'w' ? prevState.validWhiteMoves : prevState.validBlackMoves;
+    const candidatePieceInfos = Object.entries(validMoves)
+        .filter(([_pieceId, targetSquareIds]) => targetSquareIds.includes(targetId))
+        .map(([pieceId]) => asPieceInfo(pieceId as PieceId))
+        .filter(candidatePieceInfo => candidatePieceInfo.pieceName === pieceInfo.pieceName);
+
+    if (candidatePieceInfos.length < 2) {
+        return "";
+    }
+
+    // Get the squares of candidate pieces
+    const sourceSquareInfos = Object.entries(prevState.squares)
+        .filter(([_squareId, pieceId]) =>
+            candidatePieceInfos.some(candidatePieceInfo => candidatePieceInfo.id === pieceId)
+        )
+        .map(([squareId]) => asSquareInfo(squareId as SquareId));
+
+
+    const sourceSquareInfo = asSquareInfo(sourceId);
+    let fileDisambiguation = "";
+    let rankDisambiguation = "";
+
+    // Check if file disambiguation is sufficient
+    if (sourceSquareInfos.filter(squareInfo => squareInfo.fileName === sourceSquareInfo.fileName).length === 1) {
+        fileDisambiguation = sourceSquareInfo.fileName;
+    } else {
+        // If file is not enough, use rank
+        rankDisambiguation = sourceSquareInfo.rankName;
+        // If rank is also not enough, use both file and rank
+        if (sourceSquareInfos.filter(squareInfo => squareInfo.rankName === sourceSquareInfo.rankName).length > 1) {
+            fileDisambiguation = sourceSquareInfo.fileName;
+        }
+    }
+
+    return fileDisambiguation + rankDisambiguation;
 };

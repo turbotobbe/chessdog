@@ -1,6 +1,6 @@
 import { ChessBoardController } from "@/contexts/ChessBoardController";
 import { ChessBoardState, ChessBoardTree, defaultChessBoardState } from "@/contexts/ChessBoardState";
-import { castelingSquareIds, PieceId, PieceInfo, SquareId } from "@/types/chess";
+import { castlingSquareIds, PieceId, PieceInfo, SquareId } from "@/types/chess";
 import { asPieceInfo, asSquareInfo } from "@/models/chess";
 import { CastleStatus, getCandidateMoves } from "./CandidateMoves";
 import { HistoryChessBoardController } from "./HistoryChessBoardController";
@@ -131,6 +131,13 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
         // get the last move before we move our piece
         const currentMove: [SquareId, SquareId] = [sourceId, targetId];
 
+        state.lastMove = {
+            isKingsideCastling: false,
+            isQueensideCastling: false,
+            isCapture: false,
+            isEnPassant: false,
+            promotionPieceName: undefined,
+        };
         if (this.handlePromotion(state, sourceId, targetId, sourcePieceInfo)) {
             console.log(`${actualMove ? '(actual)' : '(simulation)'} handled promotion`, sourcePieceId, sourcePieceInfo);
         } else if (this.handleEnPassant(state, sourceId, targetId, sourcePieceInfo)) {
@@ -139,13 +146,18 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
             console.log(`${actualMove ? '(actual)' : '(simulation)'} handled castling`, sourcePieceId, sourcePieceInfo);
         }
 
+        const prevState = this.currentState().clone();
+
         // do the move ...
         super.onMove(sourceId, targetId, state);
 
         // update game state (this is a new state!)
         this.updateGameState(this.currentState(), currentMove, actualMove);
+        this.updatePgn(this.currentState(), prevState, sourceId, targetId, sourcePieceInfo);
+
         if (actualMove) {
             console.log(this.gameTree);
+            console.log(this.currentState().movedPieces);
         }
     }
 
@@ -168,6 +180,8 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
             pieceInfo.promotionPieceName = 'q';
             // update piece info
             state.pieces[pieceInfo.id] = pieceInfo;
+
+            state.lastMove.promotionPieceName = 'q';
             return true;
         }
         return false;
@@ -241,6 +255,8 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
 
         // en passant
         this.captureAtSquare(state, lastMoveTargetId);
+
+        state.lastMove.isEnPassant = true;
         return true;
     };
 
@@ -271,12 +287,15 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
             rookSourceSquareId = castleQueenSide ? 'a1' : 'h1';
             rookTargetSquareId = castleQueenSide ? 'd1' : 'f1';
         } else {
-            rookSourceSquareId = castleKingSide ? 'a8' : 'h8';
-            rookTargetSquareId = castleKingSide ? 'd8' : 'f8';
+            rookSourceSquareId = castleQueenSide ? 'a8' : 'h8';
+            rookTargetSquareId = castleQueenSide ? 'd8' : 'f8';
         }
 
         // all ok, lets castle
         this.moveBetweenSquares(state, rookSourceSquareId, rookTargetSquareId);
+
+        state.lastMove.isKingsideCastling = castleKingSide;
+        state.lastMove.isQueensideCastling = castleQueenSide;
         return true;
     };
 
@@ -325,7 +344,6 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
         state.whiteTargetSquareIds = [...uniqueWhiteTargetSquareIds];
 
         // check if castling squares are in check
-        // this.updateCastleStatus();
         this.updateCastlingMoves(state);
 
         // update check (not checkmate or stalemate, they are reset to false)
@@ -451,15 +469,15 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
 
 
         if (whiteKingsValidMoves) {
-
+            
             // check if king has the queen side castle move
-            if (whiteKingsValidMoves.includes(castelingSquareIds.white.queenSide.castleSquareId)) {
+            if (whiteKingsValidMoves.includes(castlingSquareIds.white.queenSide.castleSquareId)) {
 
-                castelingSquareIds.white.queenSide.middleSquares.forEach(squareId => {
+                castlingSquareIds.white.queenSide.middleSquares.forEach(squareId => {
                     // check to see if any pieces is targeting the castle square
                     if (blackTargetSquareIds.includes(squareId)) {
                         // remove castling move
-                        const index = whiteKingsValidMoves.indexOf(castelingSquareIds.white.queenSide.castleSquareId);
+                        const index = whiteKingsValidMoves.indexOf(castlingSquareIds.white.queenSide.castleSquareId);
                         if (index > -1) {
                             whiteKingsValidMoves.splice(index, 1);
                         }
@@ -467,13 +485,13 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
                 });
             }
             // check if king has the king side castle move
-            if (whiteKingsValidMoves.includes(castelingSquareIds.white.kingSide.castleSquareId)) {
+            if (whiteKingsValidMoves.includes(castlingSquareIds.white.kingSide.castleSquareId)) {
 
-                castelingSquareIds.white.kingSide.middleSquares.forEach(squareId => {
+                castlingSquareIds.white.kingSide.middleSquares.forEach(squareId => {
                     // check to see if any pieces is targeting the castle square
                     if (blackTargetSquareIds.includes(squareId)) {
                         // remove castling move
-                        const index = whiteKingsValidMoves.indexOf(castelingSquareIds.white.kingSide.castleSquareId);
+                        const index = whiteKingsValidMoves.indexOf(castlingSquareIds.white.kingSide.castleSquareId);
                         if (index > -1) {
                             whiteKingsValidMoves.splice(index, 1);
                         }
@@ -485,13 +503,13 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
         if (blackKingsValidMoves) {
 
             // check if king has the queen side castle move
-            if (blackKingsValidMoves.includes(castelingSquareIds.black.queenSide.castleSquareId)) {
+            if (blackKingsValidMoves.includes(castlingSquareIds.black.queenSide.castleSquareId)) {
 
-                castelingSquareIds.black.queenSide.middleSquares.forEach(squareId => {
+                castlingSquareIds.black.queenSide.middleSquares.forEach(squareId => {
                     // check to see if any pieces is targeting the castle square
                     if (whiteTargetSquareIds.includes(squareId)) {
                         // remove castling move
-                        const index = blackKingsValidMoves.indexOf(castelingSquareIds.black.queenSide.castleSquareId);
+                        const index = blackKingsValidMoves.indexOf(castlingSquareIds.black.queenSide.castleSquareId);
                         if (index > -1) {
                             blackKingsValidMoves.splice(index, 1);
                         }
@@ -499,13 +517,13 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
                 });
             }
             // check if king has the king side castle move
-            if (blackKingsValidMoves.includes(castelingSquareIds.black.kingSide.castleSquareId)) {
+            if (blackKingsValidMoves.includes(castlingSquareIds.black.kingSide.castleSquareId)) {
 
-                castelingSquareIds.black.kingSide.middleSquares.forEach(squareId => {
+                castlingSquareIds.black.kingSide.middleSquares.forEach(squareId => {
                     // check to see if any pieces is targeting the castle square
                     if (whiteTargetSquareIds.includes(squareId)) {
                         // remove castling move
-                        const index = blackKingsValidMoves.indexOf(castelingSquareIds.black.kingSide.castleSquareId);
+                        const index = blackKingsValidMoves.indexOf(castlingSquareIds.black.kingSide.castleSquareId);
                         if (index > -1) {
                             blackKingsValidMoves.splice(index, 1);
                         }
@@ -540,69 +558,6 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
         if (state.whiteTargetSquareIds.includes(blackKingSquareId)) {
             state.blackKingStatus.isInCheck = true;
         }
-    }
-
-    getCastleStatus(state: ChessBoardState): CastleStatus {
-
-        const whiteKingHasMoved = state.movedPieces.includes("wk1");
-        const whiteQueenSideRookHasMoved = state.movedPieces.includes('wr1');
-        const whiteKingSideRookHasMoved = state.movedPieces.includes('wr2');
-
-        const isEmptyB1 = !state.squares['b1'];
-        const isEmptyC1 = !state.squares['c1'];
-        const isEmptyD1 = !state.squares['d1'];
-        const whiteQueenSideEmpty = isEmptyB1 && isEmptyC1 && isEmptyD1;
-
-        const isEmptyF1 = !state.squares['f1'];
-        const isEmptyG1 = !state.squares['g1'];
-        const whiteKingSideEmpty = isEmptyF1 && isEmptyG1;
-
-        const blackKingHasMoved = state.movedPieces.includes("bk1");
-        const blackQueenSideRookHasMoved = state.movedPieces.includes('br1');
-        const blackKingSideRookHasMoved = state.movedPieces.includes('br2');
-
-        const isEmptyB8 = !state.squares['b8'];
-        const isEmptyC8 = !state.squares['c8'];
-        const isEmptyD8 = !state.squares['d8'];
-        const blackQueenSideEmpty = isEmptyB8 && isEmptyC8 && isEmptyD8;
-
-        const isEmptyF8 = !state.squares['f8'];
-        const isEmptyG8 = !state.squares['g8'];
-        const blackKingSideEmpty = isEmptyF8 && isEmptyG8;
-
-        const castleStatus = {
-            white: {
-                queenSide: !whiteKingHasMoved && !whiteQueenSideRookHasMoved && whiteQueenSideEmpty,
-                kingSide: !whiteKingHasMoved && !whiteKingSideRookHasMoved && whiteKingSideEmpty,
-            },
-            black: {
-                queenSide: !blackKingHasMoved && !blackQueenSideRookHasMoved && blackQueenSideEmpty,
-                kingSide: !blackKingHasMoved && !blackKingSideRookHasMoved && blackKingSideEmpty,
-            },
-        };
-
-        if (castleStatus.white.queenSide) {
-            const squaresToCheck: SquareId[] = ['b1', 'c1', 'd1'];
-            castleStatus.white.queenSide =
-                squaresToCheck.every(squareId => !state.blackTargetSquareIds.includes(squareId));
-        }
-        if (castleStatus.white.kingSide) {
-            const squaresToCheck: SquareId[] = ['f1', 'g1'];
-            castleStatus.white.kingSide =
-                squaresToCheck.every(squareId => !state.blackTargetSquareIds.includes(squareId));
-        }
-        if (castleStatus.black.queenSide) {
-            const squaresToCheck: SquareId[] = ['b8', 'c8', 'd8'];
-            castleStatus.black.queenSide =
-                squaresToCheck.every(squareId => !state.whiteTargetSquareIds.includes(squareId));
-        }
-        if (castleStatus.black.kingSide) {
-            const squaresToCheck: SquareId[] = ['f8', 'g8'];
-            castleStatus.black.kingSide =
-                squaresToCheck.every(squareId => !state.whiteTargetSquareIds.includes(squareId));
-        }
-
-        return castleStatus;
     }
 
 }

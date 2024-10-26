@@ -23,10 +23,11 @@ export const MoveButton: React.FC<{
             variant='text'
             sx={{
                 width: '100%',
+                textTransform: 'none',
             }}
             color={selectedMoveKey === move.state.key ? 'primary' : 'inherit'}
         >
-            <Typography variant='body1'>{move.state.key}</Typography>
+            <Typography variant='body1'>{move.state.pgn}</Typography>
             {move.lineCount > 1 && <Typography variant='caption'>&nbsp;({move.lineIndex + 1}/{move.lineCount})</Typography>}
         </Button>)
     };
@@ -59,7 +60,7 @@ export const MovesPanel: React.FC<MovesPanelProps> = ({
     if (controller) {
         selectedMoveKey = controller.currentState().key;
         const currentLine = controller.currentLine();
-        console.log('currentLine', currentLine);
+        // console.log('currentLine', currentLine);
         currentLine.forEach((item, index) => {
             if (index % 2 === 0) {
                 moves.push([item, null]);

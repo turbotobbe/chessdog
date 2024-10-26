@@ -1,6 +1,6 @@
 import { DnDBadgeName, GridColorName } from "@/dnd/DnDTypes";
 import { asPieceInfo } from "@/models/chess";
-import { SquareId, PieceId, PieceInfo } from "@/types/chess";
+import { SquareId, PieceId, PieceInfo, PieceName } from "@/types/chess";
 
 export const defaultSquares: Partial<Record<SquareId, PieceId>> = {
     "a1": "wr1",
@@ -121,6 +121,7 @@ export type KingStatus = {
 
 export interface ChessBoardState {
     key: string;
+    pgn: string;
     whitesTurn: boolean;
     squares: Partial<Record<SquareId, PieceId>>;
     pieces: Partial<Record<PieceId, PieceInfo>>;
@@ -138,12 +139,20 @@ export interface ChessBoardState {
     whiteKingStatus: KingStatus;
     blackKingStatus: KingStatus;
     isInStalemate: boolean;
+    lastMove: {
+        isKingsideCastling: boolean;
+        isQueensideCastling: boolean;
+        isCapture: boolean;
+        isEnPassant: boolean;
+        promotionPieceName?: PieceName;
+    };
     clone(): ChessBoardState;
 }
 
 export class DefaultChessBoardState implements ChessBoardState {
 
     key: string;
+    pgn: string;
     whitesTurn: boolean = true;
 
     squares: Partial<Record<SquareId, PieceId>>;
@@ -163,6 +172,13 @@ export class DefaultChessBoardState implements ChessBoardState {
     blackKingStatus: KingStatus;
     isInStalemate: boolean;
 
+    lastMove: {
+        isKingsideCastling: boolean;
+        isQueensideCastling: boolean;
+        isCapture: boolean;
+        isEnPassant: boolean;
+        promotionPieceName?: PieceName;
+    };
     validWhiteMoves: Partial<Record<PieceId, SquareId[]>>;
     validBlackMoves: Partial<Record<PieceId, SquareId[]>>;
 
@@ -171,6 +187,7 @@ export class DefaultChessBoardState implements ChessBoardState {
 
     constructor(
         key: string,
+        pgn: string,
         isWhite: boolean,
         squares: Partial<Record<SquareId, PieceId>>,
         pieces: Partial<Record<PieceId, PieceInfo>>,
@@ -188,8 +205,16 @@ export class DefaultChessBoardState implements ChessBoardState {
         whiteKingStatus: KingStatus,
         blackKingStatus: KingStatus,
         isInStalemate: boolean,
+        lastMove: {
+            isKingsideCastling: boolean;
+            isQueensideCastling: boolean;
+            isCapture: boolean;
+            isEnPassant: boolean;
+            promotionPieceName?: PieceName;
+        }
     ) {
         this.key = key;
+        this.pgn = pgn;
         this.whitesTurn = isWhite;
         this.squares = { ...squares };
         this.pieces = JSON.parse(JSON.stringify(pieces));
@@ -219,11 +244,13 @@ export class DefaultChessBoardState implements ChessBoardState {
         this.whiteKingStatus = JSON.parse(JSON.stringify(whiteKingStatus));
         this.blackKingStatus = JSON.parse(JSON.stringify(blackKingStatus));
         this.isInStalemate = isInStalemate;
+        this.lastMove = JSON.parse(JSON.stringify(lastMove));
     }
 
     clone(): ChessBoardState {
         return new DefaultChessBoardState(
             this.key,
+            this.pgn,
             this.whitesTurn,
             this.squares,
             this.pieces,
@@ -241,6 +268,7 @@ export class DefaultChessBoardState implements ChessBoardState {
             this.whiteKingStatus,
             this.blackKingStatus,
             this.isInStalemate,
+            this.lastMove
         );
     }
 };
@@ -275,7 +303,15 @@ export const defaultChessBoardState = () => {
         isInCheckMate: false,
     };
     const isInStalemate = false;
+    const lastMove = {
+        isKingsideCastling: false,
+        isQueensideCastling: false,
+        isCapture: false,
+        isEnPassant: false,
+        promotionPieceName: undefined,
+    };
     return new DefaultChessBoardState(
+        'root',
         'root',
         asWhite,
         squares,
@@ -294,6 +330,7 @@ export const defaultChessBoardState = () => {
         whiteKingStatus,
         blackKingStatus,
         isInStalemate,
+        lastMove
     );
 };
 
@@ -537,7 +574,7 @@ export class ChessBoardTree implements ChessBoardTreeType {
             }
             if (parentNode.childIds.length > 1) {
                 if (!skip) {
-                    skip = true;    
+                    skip = true;
                 } else {
                     // we found it
                     this.currentNodeId = parentNode.id;

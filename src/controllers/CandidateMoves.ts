@@ -1,5 +1,5 @@
 import { asSquareInfo, asSquareId, asPieceInfo } from "@/models/chess";
-import { PieceInfo, SquareId, PieceId, SquareInfo, castelingSquareIds } from "@/types/chess";
+import { PieceInfo, SquareId, PieceId, SquareInfo, castlingSquareIds } from "@/types/chess";
 
 export type CastleStatus = {
     white: {
@@ -220,18 +220,18 @@ export const getKingCandidateMoves = (
     // if (hasKingMoved) {
     //     console.log(`king ${pieceInfo.id} has moved`, movedPieces);
     // }
-    const hasQueenSideRookMoved = movedPieces.indexOf(isWhite ? 'wr1' : 'wr2') >= 0;
+    const hasQueenSideRookMoved = movedPieces.indexOf(isWhite ? 'wr1' : 'br2') >= 0;
     // if (hasQueenSideRookMoved) {
     //     console.log(`queen side rook ${isWhite ? 'wr1' : 'wr2'} has moved`, movedPieces);
     // }
-    const hasKingSideRookMoved = movedPieces.indexOf(isWhite ? 'br1' : 'br2') >= 0;
+    const hasKingSideRookMoved = movedPieces.indexOf(isWhite ? 'wr2' : 'br2') >= 0;
     // if (hasKingSideRookMoved) {
     //     console.log(`king side rook ${isWhite ? 'br1' : 'br2'} has moved`, movedPieces);
     // }
 
     // must have empty squares between king and rook to castle
-    const queenSideSquareIds: SquareId[] = isWhite ? castelingSquareIds.white.queenSide.middleSquares : castelingSquareIds.black.queenSide.middleSquares;
-    const kingSideSquareIds: SquareId[] = isWhite ? castelingSquareIds.white.kingSide.middleSquares : castelingSquareIds.black.kingSide.middleSquares;
+    const queenSideSquareIds: SquareId[] = isWhite ? castlingSquareIds.white.queenSide.middleSquares : castlingSquareIds.black.queenSide.middleSquares;
+    const kingSideSquareIds: SquareId[] = isWhite ? castlingSquareIds.white.kingSide.middleSquares : castlingSquareIds.black.kingSide.middleSquares;
 
     // count non empty squares between king and rook to castle
     const nonEmptyQueenSideSquares = queenSideSquareIds.reduce((acc, squareId) => acc + (pieces[squareId] ? 1 : 0), 0);
