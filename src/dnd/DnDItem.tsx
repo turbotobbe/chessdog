@@ -82,19 +82,13 @@ const DnDItem: React.FC<DnDItemProps> = ({
             } : undefined}
 
             onTouchStart={canDrag ? (event) => {
-                // event.preventDefault();
+                event.preventDefault(); // prevent touch scrolling on drag start
                 const offset = {
                     top: event.touches[0].clientY,  
                     left: event.touches[0].clientX,
                 }
                 handleDragStart(event.target as HTMLElement, offset);
             } : undefined}
-
-            onDragStart={(e: React.DragEvent<HTMLDivElement>) => {
-                // prevent native drag and drop
-                e.preventDefault();
-                return false;
-            }}
         >
             {badgeName && <DnDBadge badgeName={badgeName} />}
         </Box>
