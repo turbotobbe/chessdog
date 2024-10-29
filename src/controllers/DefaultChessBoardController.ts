@@ -2,7 +2,7 @@ import { ChessBoardController } from "@/contexts/ChessBoardController";
 import { ChessBoardState, ChessBoardTree, defaultChessBoardState } from "@/contexts/ChessBoardState";
 import { castlingSquareIds, PieceId, PieceInfo, SquareId } from "@/types/chess";
 import { asPieceInfo, asSquareInfo } from "@/models/chess";
-import { CastleStatus, getCandidateMoves } from "./CandidateMoves";
+import { getCandidateMoves } from "./CandidateMoves";
 import { HistoryChessBoardController } from "./HistoryChessBoardController";
 
 export const defaultChessBoardController = (canWhiteBeChecked: boolean = true, canBlackBeChecked: boolean = true, initialState?: ChessBoardState) => {
@@ -155,10 +155,10 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
         this.updateGameState(this.currentState(), currentMove, actualMove);
         this.updatePgn(this.currentState(), prevState, sourceId, targetId, sourcePieceInfo);
 
-        if (actualMove) {
-            console.log(this.gameTree);
-            console.log(this.currentState().movedPieces);
-        }
+        // if (actualMove) {
+        //     console.log(this.gameTree);
+        //     console.log(this.currentState().movedPieces);
+        // }
     }
 
     handlePromotion(state: ChessBoardState, _sourceSquareId: SquareId, targetSquareId: SquareId, pieceInfo: PieceInfo): boolean {
@@ -256,6 +256,7 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
         // en passant
         this.captureAtSquare(state, lastMoveTargetId);
 
+        state.lastMove.isCapture = false; // en passant is its own capture
         state.lastMove.isEnPassant = true;
         return true;
     };
@@ -418,9 +419,6 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
     }
 
     simulateMove(state: ChessBoardState, sourceId: SquareId, targetId: SquareId): ChessBoardState {
-        if (targetId === 'h5') {
-            console.log('simulateMove', sourceId, targetId);
-        }
         const simulationController = new DefaultChessBoardController(
             this.enableWhite,
             this.enableBlack,

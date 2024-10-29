@@ -16,7 +16,7 @@ import PushPinIcon from '@mui/icons-material/PushPin';
 import { useMemo, useState } from 'react';
 import logo from './assets/chessdog4-nbg.png';
 import { ChessBoardProvider } from './contexts/ChessBoardContext';
-
+import './MuiApp.css';
 const NAVIGATION: Navigation = [
     {
         segment: 'analysis',

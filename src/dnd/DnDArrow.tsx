@@ -202,7 +202,7 @@ const DnDArrow: React.FC<DnDArrowProps> = ({
     sourceKey,
     targetKey,
 }) => {
-    const {cellSize, toCellId} = useDnDGridContext();
+    const {gridRef, toCellId} = useDnDGridContext();
     const [points, setPoints] = useState<string>('');
 
     useEffect(() => {
@@ -213,9 +213,15 @@ const DnDArrow: React.FC<DnDArrowProps> = ({
 
         const sourceCellId = toCellId(sourceKey);
         const targetCellId = toCellId(targetKey);
-        const calculatedPoints = calculateArrowPoints(sourceCellId, targetCellId, cellSize);
-        setPoints(calculatedPoints);
-    }, [colorName, sourceKey, targetKey, cellSize, toCellId]);
+        if (gridRef.current) {
+            const cellSize = {
+                width: 100, // board viewport width is 100xcols
+                height: 100, // board viewport height is 100xrows
+            }
+            const calculatedPoints = calculateArrowPoints(sourceCellId, targetCellId, cellSize);
+            setPoints(calculatedPoints);
+        }
+    }, [colorName, sourceKey, targetKey, toCellId]);
 
     if (!points) {
         return null;

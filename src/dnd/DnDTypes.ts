@@ -69,7 +69,7 @@ export const gridBadgeNames: DnDBadgeName[] = [
     'winner',
 ];
 
-export const gridColorNames: GridColorName[] = ["red", "blue", "yellow", "green", "orange"];
+export const gridColorNames: GridColorName[] = ["blue", "green", "yellow", "orange", "red"];
 
 export const gridColors: Record<GridColorName, string> = {
     red: "var(--chess-highlight-red)",

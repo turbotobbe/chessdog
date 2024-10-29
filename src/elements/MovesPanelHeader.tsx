@@ -1,7 +1,4 @@
-import { Box, Button, SxProps, Tab, Tabs } from "@mui/material";
-import PlaylistRemoveIcon from '@mui/icons-material/PlaylistRemove';
-import { useChessBoard } from "@/contexts/ChessBoardContext";
-import { useMemo } from "react";
+import { Box, SxProps, Tab, Tabs } from "@mui/material";
 
 type MovesPanelHeaderProps = {
     chessBoardKey: string;
@@ -12,25 +9,14 @@ type MovesPanelHeaderProps = {
 }
 
 export const MovesPanelHeader: React.FC<MovesPanelHeaderProps> = ({
-    chessBoardKey,
     chessBoardKeys,
     chessBoardIndex,
     onSelectChessBoardKey,
     sx
 }) => {
-    const { getController, setController } = useChessBoard();
-
-    const controller = useMemo(() => getController(chessBoardKey), [getController, chessBoardKey]);
 
     const handleOnSelectChessBoardKey = (_event: React.SyntheticEvent, index: number) => {
         onSelectChessBoardKey(chessBoardKeys[index]);
-    };
-
-    const handleOnReset = () => {
-        if (controller) {
-            controller.reset();
-            setController(chessBoardKey, controller);
-        }
     };
 
     return (
@@ -50,9 +36,6 @@ export const MovesPanelHeader: React.FC<MovesPanelHeaderProps> = ({
                         />
                     ))}
                 </Tabs>
-                <Button sx={{ marginLeft: 'auto' }}>
-                    <PlaylistRemoveIcon onClick={handleOnReset} />
-                </Button>
             </Box>
         </Box>
     );

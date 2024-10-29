@@ -1,0 +1,227 @@
+:root {
+    --appbar-height: 64px;
+    /* sm height */
+    --drawer-width: 64px;
+    --spacing: var(--mui-spacing);
+    /* 8px */
+
+    --page-gap: var(--spacing);
+    /* theme.spacing(1) */
+    --page-pad: var(--spacing);
+    /* theme.spacing(1) */
+
+    /* Board related variables */
+    --board-section-height: calc(var(--spacing) * 4);
+    /* theme.spacing(4)*2 */
+    --board-padding-height: calc(var(--spacing) * 4);
+    /* theme.spacing(4) */
+    --board-padding-width: calc(var(--spacing) * 2);
+    /* theme.spacing(2) */
+    --board-gapping-height: calc(var(--spacing) * 2);
+    /* theme.spacing(2) */
+
+    /* Controls related */
+    --controls-section-width: calc(var(--spacing) * 4.5);
+    /* theme.spacing(4.5) */
+    --controls-section-height: calc(var(--spacing) * 4);
+    /* theme.spacing(4) */
+}
+
+/* Mobile (xs) breakpoint */
+@media (max-width: 599px) {
+    :root {
+        --appbar-height: 56px;
+        --drawer-width: 0px;
+        --page-gap: 0px;
+        --page-pad: 0px;
+    }
+}
+
+/* Landscape orientation */
+@media (orientation: landscape) {
+    :root {
+        --board-paper-height: calc(100vh - var(--appbar-height) - calc(var(--page-pad) * 2));
+        --board-paper-width: calc(var(--board-paper-height) - calc(var(--board-section-height) * 2) - var(--board-padding-height) + var(--board-padding-width));
+        --controls-paper-height: var(--board-paper-height);
+        --controls-paper-width: var(--controls-section-width);
+        --sheet-paper-height: var(--board-paper-height);
+        /* --sheet-paper-width: auto; */
+        --sheet-paper-width: 400px;
+    }
+}
+
+/* Portrait orientation */
+@media (orientation: portrait) {
+    :root {
+        --board-paper-height: calc(100vw - var(--page-pad) + calc(var(--board-section-height) * 2) + var(--board-gapping-height));
+        --board-paper-width: calc(100vw - var(--page-pad) - var(--drawer-width));
+        --controls-paper-height: var(--controls-section-height);
+        --controls-paper-width: var(--board-paper-width);
+        --sheet-paper-height: calc(100vh - var(--appbar-height) - var(--board-paper-height) - var(--controls-paper-height) - calc(var(--page-pad) * 2) - calc(var(--page-gap) * 2));
+        --sheet-paper-width: var(--board-paper-width);
+    }
+}
+
+/* Board and grid sizes - these remain constant regardless of orientation */
+:root {
+    --board-size: calc(var(--board-paper-width) - var(--board-padding-width));
+    --board-size-width: var(--board-size);
+    --board-size-height: var(--board-size);
+    --grid-size: var(--board-size);
+    --grid-size-width: var(--grid-size);
+    --grid-size-height: var(--grid-size);
+    --cell-size: calc(var(--board-size) / 8);
+    --cell-size-width: var(--cell-size);
+    --cell-size-height: var(--cell-size);
+}
+
+.dev-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--page-gap);
+    padding: var(--page-pad);
+    /* background-color: red; */
+}
+
+/* For landscape orientation */
+@media (orientation: landscape) {
+    .dev-page {
+        flex-direction: row;
+    }
+}
+
+.board-paper {
+    height: var(--board-paper-height);
+    width: var(--board-paper-width);
+}
+
+.controls-paper {
+    height: var(--controls-paper-height);
+    width: var(--controls-paper-width);
+}
+
+.sheet-paper {
+    height: var(--sheet-paper-height);
+    width: var(--sheet-paper-width);
+}
+
+.board-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    padding: var(--spacing);
+}
+
+.player-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+}
+
+.player-container .player-score {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.player-container .player-name-box {
+    flex-shrink: 0;
+}
+.player-container .player-name-box .player-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: calc(var(--spacing) * .5);
+}
+
+.player-container .captured-pieces-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 1;
+    min-width: 0;
+    width: auto; 
+    margin-left: var(--spacing);
+    margin-right: var(--spacing);
+    overflow: hidden;
+}
+.player-container .captured-pieces-boxes .captured-pieces-box {
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+    margin-right: -6px;
+}
+.player-container .captured-pieces-boxes .captured-pieces-box .captured-pieces-icons {
+    display: flex;
+    flex-direction: row;
+    & img:not(:first-of-type) {
+        margin-left: -18px;
+    }
+}
+.player-container .captured-pieces-boxes .captured-pieces-box .captured-pieces-icons .captured-pieces-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.sheet-container {
+    gap: var(--spacing);
+    padding: var(--spacing);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+}
+
+.sheet-header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sheet-header-container .sheet-header-name-box {
+    flex-grow: 1;
+}
+.sheet-header-container .sheet-header-name-box .sheet-header-name-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.controls-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing);
+    padding: var(--spacing);
+    width: 100%;
+    height: 100%;
+}
+.controls-container .controls-evalbar-box {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 16px;
+    background-color: var(--mui-palette-grey-800);
+}
+.controls-container .controls-evalbar-box .controls-evalbar {
+    /* height: 50%; override with value */
+    /* width: 50%; override with value */
+    background-color: white;
+}
+
+/* For landscape orientation */
+@media (orientation: landscape) {
+    .controls-container  {
+        flex-direction: column;
+    }
+    .controls-container .controls-evalbar-box {
+        flex-direction: row;
+    }
+}

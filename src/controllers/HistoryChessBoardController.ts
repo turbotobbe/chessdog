@@ -1,8 +1,8 @@
 import { ChessBoardController } from "@/contexts/ChessBoardController";
 import { ChessBoardState, defaultChessBoardState, ChessBoardTree, ChessBoardItem } from "@/contexts/ChessBoardState";
 import { GridColorName } from "@/dnd/DnDTypes";
-import { asPieceInfo, asSquareInfo } from "@/models/chess";
-import { PieceId, PieceInfo, SquareId, SquareInfo } from "@/types/chess";
+import { asPieceInfo, asSquareId, asSquareInfo } from "@/models/chess";
+import { PieceId, PieceInfo, SquareId } from "@/types/chess";
 
 export const historyChessBoardController = (initialState?: ChessBoardState) => {
     return new HistoryChessBoardController(initialState ?? defaultChessBoardState());
@@ -72,6 +72,9 @@ export class HistoryChessBoardController implements ChessBoardController {
     isEmpty(): boolean {
         return this.gameTree.isEmpty();
     }
+    isInitialState(): boolean {
+        return this.gameTree.isInitialState();
+    }
     isCurrentNodeRoot(): boolean {
         return this.gameTree.isCurrentNodeRoot();
     }
@@ -110,7 +113,6 @@ export class HistoryChessBoardController implements ChessBoardController {
         if (!pieceId) {
             throw new Error(`Piece not found at ${sourceId}`);
         }
-        const pieceInfo = asPieceInfo(pieceId);
 
         // capture any piece at the target square
         this.captureAtSquare(clonedState, targetId);
@@ -126,6 +128,7 @@ export class HistoryChessBoardController implements ChessBoardController {
 
         // replace in game tree (same key)
         clonedState.key = [sourceId, targetId].join('');
+
         this.gameTree.addChild(clonedState);
     }
 
@@ -263,9 +266,9 @@ export class HistoryChessBoardController implements ChessBoardController {
             // Bxd3
             pgn += targetSquareInfo.id;
     
-            if (state.lastMove.isEnPassant) {
-                pgn += " e.p.";
-            }
+            // if (state.lastMove.isEnPassant) {
+            //     pgn += " e.p.";
+            // }
         }
     
         if (state.lastMove.promotionPieceName) {
@@ -288,6 +291,51 @@ export class HistoryChessBoardController implements ChessBoardController {
         }
     
         state.pgn = pgn;
+
+        // add comment
+        const comments: string[] = [];
+        const name = state.whitesTurn ? 'Black' : 'White';
+        let line = `${pgn}.`;
+        
+        if (state.lastMove.isKingsideCastling) {
+            line += ` ${name} castled kingside`;
+        }
+        else if (state.lastMove.isQueensideCastling) {
+            line += ` ${name} castled queenside`;
+        } else {
+            line += ` ${name} moved from ${sourceId} to ${targetId}`;
+        }
+
+        if (state.lastMove.isCapture) {
+            line += ` and captured a piece at ${targetId}.`;
+        }
+        else if (state.lastMove.isEnPassant) {
+            const targetInfo = asSquareInfo(targetId);
+            const captureSquareId = asSquareId(targetInfo.fileIndex, targetInfo.rankIndex - (state.whitesTurn ? -1 : 1));
+            line += ` and en passant captured a pawn at ${captureSquareId}.`;
+        } else {
+            line += '.';
+        }
+        comments.push(line);
+        if (state.lastMove.promotionPieceName) {
+            comments.push(`${name} promoted to ${state.lastMove.promotionPieceName.toUpperCase()}.`);
+        }
+        if (state.blackKingStatus.isInCheckMate) {
+            comments.push(`The black king at ${state.blackKingStatus.squareId} is checkmated.`);
+        } else if (state.blackKingStatus.isInCheck) {
+            comments.push(`The black king at ${state.blackKingStatus.squareId} is in check.`);
+        }
+
+        if (state.whiteKingStatus.isInCheckMate) {
+            comments.push(`The white king at ${state.whiteKingStatus.squareId} is checkmated.`);
+        } else if (state.whiteKingStatus.isInCheck) {
+            comments.push(`The white king at ${state.whiteKingStatus.squareId} is in check.`);
+        }
+        if (state.isInStalemate) {
+            comments.push(`This is a stalemate.`);
+        }
+
+        state.comments = [comments.join(' ')];
     };
     
 };

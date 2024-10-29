@@ -3,7 +3,6 @@ import DnDGrid from "@/dnd/DnDGrid";
 import { DnDCellId, GridColorName } from "@/dnd/DnDTypes";
 import { asSquareInfo, asSquareId, asPieceInfo } from "@/models/chess";
 import { fullColorNames, fullPieceNames, PieceId, PieceName, SquareId } from "@/types/chess";
-import { SxProps } from "@mui/material";
 import { useCallback, useMemo } from "react";
 
 type ChessBoardProps = {
@@ -11,9 +10,6 @@ type ChessBoardProps = {
     asWhite: boolean
     markColorName: GridColorName
     arrowColorName: GridColorName
-    cellSize: number
-    boardSize: number
-    sx: SxProps
 }
 
 export const ChessBoard: React.FC<ChessBoardProps> = ({
@@ -21,9 +17,6 @@ export const ChessBoard: React.FC<ChessBoardProps> = ({
     asWhite,
     markColorName,
     arrowColorName,
-    cellSize,
-    boardSize,
-    sx
 }) => {
 
     const { getController, setController } = useChessBoard();
@@ -81,19 +74,19 @@ export const ChessBoard: React.FC<ChessBoardProps> = ({
 
     const toCellId = useMemo(() => (sourceId: string): DnDCellId => {
         const sourceInfo = asSquareInfo(sourceId as SquareId);
-        if (asWhite) {
-            return { row: 7 - sourceInfo.rankIndex, col: sourceInfo.fileIndex };
-        } else {
-            return { row: sourceInfo.rankIndex, col: 7 - sourceInfo.fileIndex };
-        }
+        const result = asWhite
+            ? { row: 7 - sourceInfo.rankIndex, col: sourceInfo.fileIndex }
+            : { row: sourceInfo.rankIndex, col: 7 - sourceInfo.fileIndex };
+        // console.log('toCellId', { sourceId, asWhite, result });
+        return result;
     }, [asWhite]);
 
     const fromCellId = useMemo(() => (cellId: DnDCellId): string => {
-        if (asWhite) {
-            return asSquareId(cellId.col, 7 - cellId.row);
-        } else {
-            return asSquareId(7 - cellId.col, cellId.row);
-        }
+        const result = asWhite
+            ? asSquareId(cellId.col, 7 - cellId.row)
+            : asSquareId(7 - cellId.col, cellId.row);
+        // console.log('fromCellId', { cellId, asWhite, result });
+        return result;
     }, [asWhite]);
 
     const toItemColor = useMemo(() => (pieceId: string): string => {
@@ -126,15 +119,15 @@ export const ChessBoard: React.FC<ChessBoardProps> = ({
     const marks = state.marks;
     const arrows = state.arrows;
     const targets = { ...state.validWhiteMoves, ...state.validBlackMoves };
-    // console.log('chessboard marks', chessboard.key, chessboard.marks);
 
-    // console.log('chess board toCellId', toCellId('a1'));
+    // Force re-render when asWhite changes
+    const gridKey = useMemo(() => `${chessBoardKey}-${asWhite}`, [chessBoardKey, asWhite]);
+
     return (
         <DnDGrid
+            key={gridKey}
             rows={8}
             cols={8}
-            cellSize={{ width: cellSize, height: cellSize }}
-            gridSize={{ width: boardSize, height: boardSize }}
             items={pieces}
             badges={badges}
             marks={marks}
@@ -155,8 +148,6 @@ export const ChessBoard: React.FC<ChessBoardProps> = ({
             onMove={handleOnMove}
             onMark={handleOnMark}
             onArrow={handleOnArrow}
-
-            sx={sx}
         >
         </DnDGrid>
     );

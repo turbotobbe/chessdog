@@ -21,7 +21,6 @@ const DnDItem: React.FC<DnDItemProps> = ({
     sx,
 }) => {
     const {
-        cellSize,
         draggedItemKey,
         mouseOffset,
         toCellId,
@@ -39,21 +38,21 @@ const DnDItem: React.FC<DnDItemProps> = ({
     const style = useMemo(() => {
         if (isDragging) {
             return {
-                top: mouseOffset.top - cellSize.height / 2,
-                left: mouseOffset.left - cellSize.width / 2,
+                top: `calc(${mouseOffset.top}px - var(--cell-size-height) / 2)`,
+                left: `calc(${mouseOffset.left}px - var(--cell-size-width) / 2)`,
                 cursor: 'grabbing',
                 zIndex: gridZIndexes.drag,
             }
         } else {
             const cellId = toCellId(cellKey);
             return {
-                top: cellId.row * cellSize.height,
-                left: cellId.col * cellSize.width,
+                top: `calc(${cellId.row} * var(--cell-size-height))`,
+                left: `calc(${cellId.col} * var(--cell-size-width))`,
                 cursor: canDrag ? 'grab' : 'default',
                 zIndex: gridZIndexes.item,
             }
         }
-    }, [isDragging, mouseOffset, cellSize]);
+    }, [isDragging, mouseOffset]);
 
     const handleDragStart = (target: HTMLElement, offset: { top: number, left: number }) => {
         
@@ -67,8 +66,8 @@ const DnDItem: React.FC<DnDItemProps> = ({
             className={`dnd-item ${toItemColor(itemKey)} ${toItemFace(itemKey)}`}
             component="div"
             sx={{
-                width: `var(--cell-size)`,
-                height: `var(--cell-size)`,
+                width: `var(--cell-size-width)`,
+                height: `var(--cell-size-height)`,
                 ...sx,
                 ...style
             }}

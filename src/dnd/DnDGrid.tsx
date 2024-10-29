@@ -11,8 +11,6 @@ import DnDItem from './DnDItem';
 type DndGridProps = {
     rows: number,
     cols: number,
-    cellSize: DnDSize,
-    gridSize: DnDSize,
     items: Record<string, string>,
     marks: Record<GridColorName, string[]>,
     arrows: Record<GridColorName, [string, string][]>,
@@ -36,14 +34,12 @@ type DndGridProps = {
     onArrow: (sourceCellKey: string, targetCellKey: string, colorName: GridColorName) => void,
 
     // children: React.ReactNode,
-    sx: SxProps,
+    sx?: SxProps,
 }
 
 const DnDGrid: React.FC<DndGridProps> = ({
     rows,
     cols,
-    cellSize,
-    gridSize,
     items,
     marks,
     arrows,
@@ -75,7 +71,13 @@ const DnDGrid: React.FC<DndGridProps> = ({
 
     useEffect(() => {
         // Calculate the targetCellId based on the current mouse position
-        if (gridRef.current && cellSize.width > 0 && cellSize.height > 0) {
+        if (mouseOffset && gridRef.current) {
+            const gridRect = gridRef.current.getBoundingClientRect();
+            const cellSize: DnDSize = {
+                width: gridRect.width / cols,
+                height: gridRect.height / rows,
+            }
+
             const col = Math.floor(mouseOffset.left / cellSize.width);
             const row = Math.floor(mouseOffset.top / cellSize.height);
 
@@ -89,24 +91,32 @@ const DnDGrid: React.FC<DndGridProps> = ({
                 setTargetCellId(null);
             }
         }
-    }, [mouseOffset, rows, cols, targetCellId, cellSize]);
+    }, [mouseOffset, rows, cols, targetCellId]);
 
     const isMouseOver = useCallback((row: number, col: number) => {
         // const mouseOffset = mouseOffsetRef.current; // Use ref here
-        if (!mouseOffset) return false;
+        if (mouseOffset && gridRef.current) {
+            const gridRect = gridRef.current.getBoundingClientRect();
+            const cellSize: DnDSize = {
+                width: gridRect.width / cols,
+                height: gridRect.height / rows,
+            }
 
-        const cellLeft = col * cellSize.width;
-        const cellTop = row * cellSize.height;
-        const cellRight = cellLeft + cellSize.width;
-        const cellBottom = cellTop + cellSize.height;
+            const cellLeft = col * cellSize.width;
+            const cellTop = row * cellSize.height;
+            const cellRight = cellLeft + cellSize.width;
+            const cellBottom = cellTop + cellSize.height;
 
-        return (
-            mouseOffset.left >= cellLeft &&
-            mouseOffset.left < cellRight &&
-            mouseOffset.top >= cellTop &&
-            mouseOffset.top < cellBottom
-        );
-    }, [cellSize, mouseOffset]);
+            return (
+                mouseOffset.left >= cellLeft &&
+                mouseOffset.left < cellRight &&
+                mouseOffset.top >= cellTop &&
+                mouseOffset.top < cellBottom
+            );
+        }
+
+        return false;
+    }, [mouseOffset]);
 
     const handleMouseMove = useCallback((event: MouseEvent) => {
         const gridRect = gridRef.current?.getBoundingClientRect();
@@ -213,8 +223,7 @@ const DnDGrid: React.FC<DndGridProps> = ({
         <DnDContext.Provider value={{
             rows,
             cols,
-            gridSize,
-            cellSize,
+            gridRef,
             mouseOffset,
             draggedItemKey,
             markColorName,
@@ -236,8 +245,8 @@ const DnDGrid: React.FC<DndGridProps> = ({
                     gridTemplateColumns: `repeat(${cols}, 1fr)`,
                     gridTemplateRows: `repeat(${rows}, 1fr)`,
                     zIndex: gridZIndexes.grid,
-                    width: `${gridSize.width}px`,
-                    height: `${gridSize.height}px`,
+                    width: `var(--grid-size-width)`,
+                    height: `var(--grid-size-height)`,
                     ...sx
                 }}
             >
@@ -278,7 +287,7 @@ const DnDGrid: React.FC<DndGridProps> = ({
                         })
                     )}
                     <svg
-                        viewBox={`0 0 ${gridSize.width} ${gridSize.height}`}
+                        viewBox={`0 0 ${cols*100} ${rows*100}`}
                         style={{
                             position: 'absolute',
                             top: 0,
@@ -302,7 +311,6 @@ const DnDGrid: React.FC<DndGridProps> = ({
                         ))}
                     </svg>
 
-                    {/* items */}
                     {Object.entries(items).map(([cellKey, itemKey]) => {
                         if (!itemKey) {
                             return null;
@@ -319,7 +327,6 @@ const DnDGrid: React.FC<DndGridProps> = ({
                         )
                     })}
 
-                    {/* glass */}
                     {isShiftKeyPressed && <DnDGlass />}
                 </>
             </Box>

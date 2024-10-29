@@ -119,6 +119,14 @@ export type KingStatus = {
     isInCheckMate: boolean;
 };
 
+export type LastMove = {
+    isKingsideCastling: boolean;
+    isQueensideCastling: boolean;
+    isCapture: boolean;
+    isEnPassant: boolean;
+    promotionPieceName?: PieceName;
+};
+
 export interface ChessBoardState {
     key: string;
     pgn: string;
@@ -128,6 +136,7 @@ export interface ChessBoardState {
     badges: Partial<Record<PieceId, DnDBadgeName>>;
     marks: Record<GridColorName, SquareId[]>;
     arrows: Record<GridColorName, [SquareId, SquareId][]>;
+    comments: string[];
     capturedWhitePieces: PieceId[];
     capturedBlackPieces: PieceId[];
     movedPieces: PieceId[];
@@ -139,13 +148,7 @@ export interface ChessBoardState {
     whiteKingStatus: KingStatus;
     blackKingStatus: KingStatus;
     isInStalemate: boolean;
-    lastMove: {
-        isKingsideCastling: boolean;
-        isQueensideCastling: boolean;
-        isCapture: boolean;
-        isEnPassant: boolean;
-        promotionPieceName?: PieceName;
-    };
+    lastMove: LastMove;
     clone(): ChessBoardState;
 }
 
@@ -162,6 +165,8 @@ export class DefaultChessBoardState implements ChessBoardState {
     marks: Record<GridColorName, SquareId[]>;
     arrows: Record<GridColorName, [SquareId, SquareId][]>;
 
+    comments: string[];
+
     capturedWhitePieces: PieceId[];
     capturedBlackPieces: PieceId[];
 
@@ -172,13 +177,8 @@ export class DefaultChessBoardState implements ChessBoardState {
     blackKingStatus: KingStatus;
     isInStalemate: boolean;
 
-    lastMove: {
-        isKingsideCastling: boolean;
-        isQueensideCastling: boolean;
-        isCapture: boolean;
-        isEnPassant: boolean;
-        promotionPieceName?: PieceName;
-    };
+    lastMove: LastMove;
+
     validWhiteMoves: Partial<Record<PieceId, SquareId[]>>;
     validBlackMoves: Partial<Record<PieceId, SquareId[]>>;
 
@@ -194,6 +194,7 @@ export class DefaultChessBoardState implements ChessBoardState {
         badges: Partial<Record<PieceId, DnDBadgeName>>,
         marks: Record<GridColorName, SquareId[]>,
         arrows: Record<GridColorName, [SquareId, SquareId][]>,
+        comments: string[],
         capturedWhitePieces: PieceId[],
         capturedBlackPieces: PieceId[],
         movedPieces: PieceId[],
@@ -205,13 +206,7 @@ export class DefaultChessBoardState implements ChessBoardState {
         whiteKingStatus: KingStatus,
         blackKingStatus: KingStatus,
         isInStalemate: boolean,
-        lastMove: {
-            isKingsideCastling: boolean;
-            isQueensideCastling: boolean;
-            isCapture: boolean;
-            isEnPassant: boolean;
-            promotionPieceName?: PieceName;
-        }
+        lastMove: LastMove
     ) {
         this.key = key;
         this.pgn = pgn;
@@ -233,6 +228,7 @@ export class DefaultChessBoardState implements ChessBoardState {
             green: [...arrows.green],
             orange: [...arrows.orange]
         };
+        this.comments = [...comments];
         this.capturedWhitePieces = [...capturedWhitePieces];
         this.capturedBlackPieces = [...capturedBlackPieces];
         this.movedPieces = [...movedPieces];
@@ -257,6 +253,7 @@ export class DefaultChessBoardState implements ChessBoardState {
             this.badges,
             this.marks,
             this.arrows,
+            this.comments,
             this.capturedWhitePieces,
             this.capturedBlackPieces,
             this.movedPieces,
@@ -280,6 +277,7 @@ export const defaultChessBoardState = () => {
     const badges = noBadges;
     const marks = noMarks;
     const arrows = noArrows;
+    const comments: string[] = [];
     const capturedWhitePieces: PieceId[] = [];
     const capturedBlackPieces: PieceId[] = [];
     const movedPieces: PieceId[] = [];
@@ -319,6 +317,7 @@ export const defaultChessBoardState = () => {
         badges,
         marks,
         arrows,
+        comments,
         capturedWhitePieces,
         capturedBlackPieces,
         movedPieces,
@@ -411,6 +410,7 @@ export interface ChessBoardTreeType {
     currentLine(): ChessBoardItem[];
     currentChildren(): ChessBoardState[];
     isEmpty(): boolean;
+    isInitialState(): boolean;
     isCurrentNodeRoot(): boolean;
     isCurrentNodeLeaf(): boolean;
     isCurrentNodeSibling(): boolean;
@@ -461,7 +461,7 @@ export class ChessBoardTree implements ChessBoardTreeType {
     // Play game, new states will be added to the current node or replace existing ones
     addChild(state: ChessBoardState): void {
         const currentNode = this.nodes[this.currentNodeId];
-        console.log(`Adding child to tree. Current node key: ${currentNode.state.key}, Children: ${currentNode.childIds.length}`);
+        // console.log(`Adding child to tree. Current node key: ${currentNode.state.key}, Children: ${currentNode.childIds.length}`);
 
         const childNodeId = asHash(currentNode.id, state.key);
         const existingChildIndex = currentNode.childIds.findIndex(childId => childId === childNodeId);
@@ -506,7 +506,7 @@ export class ChessBoardTree implements ChessBoardTreeType {
             const currentNode = this.nodes[currentNodeId];
             if (currentNode.state.key === key) {
                 this.currentNodeId = currentNodeId;
-                console.log(`selected child ${currentNodeId} ${key}`);
+                // console.log(`selected child ${currentNodeId} ${key}`);
                 return;
             }
             currentNodeId = currentNode.childIds[currentNode.childIdx];
@@ -522,13 +522,13 @@ export class ChessBoardTree implements ChessBoardTreeType {
         const nextSiblingIdx = (currentSiblingIdx + 1) % siblingIds.length;
         parentNode.childIdx = nextSiblingIdx;
         this.currentNodeId = siblingIds[nextSiblingIdx];
-        console.log(`selected next sibling ${this.currentNodeId} ${siblingIds[nextSiblingIdx]}`);
+        // console.log(`selected next sibling ${this.currentNodeId} ${siblingIds[nextSiblingIdx]}`);
     }
 
     // goto first or last
     selectFirst(): void {
         this.currentNodeId = this.rootId;
-        console.log(`selected first ${this.currentNodeId}`);
+        // console.log(`selected first ${this.currentNodeId}`);
     }
 
     // goto end of line
@@ -538,7 +538,7 @@ export class ChessBoardTree implements ChessBoardTreeType {
             this.currentNodeId = currentNode.childIds[currentNode.childIdx];
             currentNode = this.nodes[this.currentNodeId];
         }
-        console.log(`selected last ${this.currentNodeId}`);
+        // console.log(`selected last ${this.currentNodeId}`);
     }
 
     // goto previous
@@ -549,7 +549,7 @@ export class ChessBoardTree implements ChessBoardTreeType {
             return;
         }
         this.currentNodeId = currentNode.parentId;
-        console.log(`selected previous ${this.currentNodeId}`);
+        // console.log(`selected previous ${this.currentNodeId}`);
     }
 
     // goto next
@@ -558,7 +558,7 @@ export class ChessBoardTree implements ChessBoardTreeType {
         if (currentNode.childIds.length > 0) {
             this.currentNodeId = currentNode.childIds[currentNode.childIdx];
         }
-        console.log(`selected next ${this.currentNodeId}`);
+        // console.log(`selected next ${this.currentNodeId}`);
     }
 
     // goto previous node with several children (+1)
@@ -586,7 +586,7 @@ export class ChessBoardTree implements ChessBoardTreeType {
             parentNode = this.nodes[parentNode.parentId];
             skip = true;
         }
-        console.log(`selected previous branch ${this.currentNodeId}`);
+        // console.log(`selected previous branch ${this.currentNodeId}`);
     }
 
     // goto next node with several siblings
@@ -609,7 +609,7 @@ export class ChessBoardTree implements ChessBoardTreeType {
             }
             childNodeId = childNode.childIds[childNode.childIdx];
         }
-        console.log(`selected next branch ${this.currentNodeId}`);
+        // console.log(`selected next branch ${this.currentNodeId}`);
     }
 
     // Get the depth of the current node
@@ -655,6 +655,14 @@ export class ChessBoardTree implements ChessBoardTreeType {
 
     isEmpty(): boolean {
         return Object.keys(this.nodes).length === 1;
+    }
+
+    isInitialState(): boolean {
+        if (!this.isEmpty()) {
+            return false;
+        }
+        const currentState = this.currentState();
+        return JSON.stringify(currentState) === JSON.stringify(this.initialState);
     }
 
     isCurrentNodeRoot(): boolean {

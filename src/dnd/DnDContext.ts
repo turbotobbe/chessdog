@@ -1,12 +1,11 @@
 import { createContext, useContext } from 'react';
-import { DnDCellId, DnDOffset, DnDSize, GridColorName } from './DnDTypes';
+import { DnDCellId, DnDOffset, GridColorName } from './DnDTypes';
 
 // Define the context type
 interface DnDContextType {
     rows: number;
     cols: number;
-    gridSize: DnDSize;
-    cellSize: DnDSize;
+    gridRef: React.RefObject<HTMLDivElement>;
     mouseOffset: DnDOffset;
     draggedItemKey: string | null;
     markColorName: GridColorName | null;

@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import { Box } from '@mui/material';
-import { calculateCellId, DnDCellId, gridZIndexes, isEqual } from './DnDTypes';
+import { calculateCellId, DnDCellId, DnDSize, gridZIndexes, isEqual } from './DnDTypes';
 import { useDnDGridContext } from './DnDContext';
 
 export type DnDGlassProps = {
@@ -13,7 +13,7 @@ const DnDGlass: React.FC<DnDGlassProps> = ({
     const {
         rows,
         cols,
-        gridSize,
+        gridRef,
         markColorName,
         arrowColorName,
         fromCellId,
@@ -27,6 +27,15 @@ const DnDGlass: React.FC<DnDGlassProps> = ({
     const [sourceCellId, setSourceCellId] = useState<DnDCellId | null>(null);
 
     const handleOnMouseDown = useCallback((event: React.MouseEvent<HTMLDivElement>) => {
+        if (!gridRef.current) {
+            return;
+        }
+
+        const gridSize: DnDSize = {
+            width: gridRef.current.clientWidth,
+            height: gridRef.current.clientHeight,
+        }
+
         const rect = (event.target as HTMLDivElement).getBoundingClientRect();
         const cellId = calculateCellId(gridSize, rows, cols, {
             top: event.clientY - rect.top,
@@ -36,6 +45,15 @@ const DnDGlass: React.FC<DnDGlassProps> = ({
     }, []);
 
     const handleOnMouseUp = useCallback((event: React.MouseEvent<HTMLDivElement>) => {
+        if (!gridRef.current) {
+            return;
+        }
+
+        const gridSize: DnDSize = {
+            width: gridRef.current.clientWidth,
+            height: gridRef.current.clientHeight,
+        }
+
         const rect = (event.target as HTMLDivElement).getBoundingClientRect();
         const targetCellId = calculateCellId(gridSize, rows, cols, {
             top: event.clientY - rect.top,

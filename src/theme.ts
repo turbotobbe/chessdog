@@ -19,6 +19,7 @@ declare module '@mui/material/styles' {
 // #E06E1B - dark brown
 
 const theme = createTheme({
+    cssVariables: true,
     palette: {
         mode: 'dark',
         primary: {

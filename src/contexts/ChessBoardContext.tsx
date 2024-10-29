@@ -14,7 +14,7 @@ export const ChessBoardProvider = ({ children }: { children: React.ReactNode }) 
     const [chessBoardControllers, setChessBoardControllers] = useState<Record<string, ChessBoardController>>({});
 
     const addController = useCallback((key: string, controller: ChessBoardController) => {
-        console.log("addController", key);
+        // console.log("addController", key);
         if (chessBoardControllers[key]) {
             console.warn(`Chess board with key ${key} already exists`);
             return;

@@ -1,11 +1,12 @@
 import { useChessBoard } from "@/contexts/ChessBoardContext";
 import { ChessBoardItem } from "@/contexts/ChessBoardState";
-import { Box, Button, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
+import { Box, Button, Paper, SxProps, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
 import { useCallback, useMemo } from "react";
 
 interface MovesPanelProps {
     chessBoardKey: string;
     isHidden: boolean;
+    sx?: SxProps;
 }
 
 export const MoveButton: React.FC<{
@@ -35,7 +36,7 @@ export const MoveButton: React.FC<{
 export const MovesPanel: React.FC<MovesPanelProps> = ({
     chessBoardKey,
     isHidden,
-    ...other
+    sx,
 }) => {
     const { getController, setController } = useChessBoard();
     const controller = useMemo(() => getController(chessBoardKey), [getController, chessBoardKey]);
@@ -70,12 +71,12 @@ export const MovesPanel: React.FC<MovesPanelProps> = ({
         });
     }
     return (
-        <div
+        <Box
             role="tabpanel"
             hidden={isHidden}
             id={`simple-tabpanel-${chessBoardKey}`}
             aria-labelledby={`simple-tab-${chessBoardKey}`}
-            {...other}
+            sx={sx}
         >
             {!isHidden && <Box>
                 <TableContainer
@@ -121,6 +122,6 @@ export const MovesPanel: React.FC<MovesPanelProps> = ({
                     </Table>
                 </TableContainer>
             </Box>}
-        </div>
+        </Box>
     );
 }
