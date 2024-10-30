@@ -1,6 +1,8 @@
+import { getCandidateMoves } from "@/controllers/CandidateMoves";
+import { defaultChessBoardController } from "@/controllers/DefaultChessBoardController";
 import { DnDBadgeName, GridColorName } from "@/dnd/DnDTypes";
 import { asPieceInfo } from "@/models/chess";
-import { SquareId, PieceId, PieceInfo, PieceName, whitePieceIds, blackPieceIds, pieceIds } from "@/types/chess";
+import { SquareId, PieceId, PieceInfo, PieceName, whitePieceIds, blackPieceIds } from "@/types/chess";
 
 export const defaultSquares: Partial<Record<SquareId, PieceId>> = {
     "a1": "wr1",
@@ -270,7 +272,7 @@ export class DefaultChessBoardState implements ChessBoardState {
     }
 };
 
-export const setupChessBoardState = (squares: Partial<Record<SquareId, PieceId>>) => {
+export const setupChessBoardState = (squares: Partial<Record<SquareId, PieceId>>, sourceSquareId: SquareId, targetSquareId: SquareId) => {
 
     const pieces: Partial<Record<PieceId, PieceInfo>> = {};
     let whiteKingSquareId: SquareId | null = null;
@@ -296,46 +298,120 @@ export const setupChessBoardState = (squares: Partial<Record<SquareId, PieceId>>
     const capturedWhitePieces: PieceId[] = whitePieceIds.filter(pieceId => !pieces[pieceId]);
     const capturedBlackPieces: PieceId[] = blackPieceIds.filter(pieceId => !pieces[pieceId]);
 
-    // all pieces has moved
-    const movedPieces: PieceId[] = [...pieceIds];
+    // if piece not on home square, it has moved
+    const movedPieces: PieceId[] = [];
+    for (const squareId in defaultSquares) {
+        const originalPieceId = defaultSquares[squareId as SquareId];
+        const currentPieceId = squares[squareId as SquareId];
+        
+        // If current piece is different from original piece at this square
+        if (currentPieceId !== originalPieceId && originalPieceId) {
+            movedPieces.push(originalPieceId);
+        }
+    }
 
-    return new DefaultChessBoardState(
+    const validWhiteMoves: Partial<Record<PieceId, SquareId[]>> = {};
+    const validBlackMoves: Partial<Record<PieceId, SquareId[]>> = {};
+    for (const squareId in squares) {
+        const pieceId = squares[squareId as SquareId];
+        if (pieceId) {
+            const validMoves = getCandidateMoves(squareId as SquareId, asPieceInfo(pieceId), squares, movedPieces);
+            if (asPieceInfo(pieceId).colorName === 'w') {
+                validWhiteMoves[pieceId] = validMoves;
+            } else {
+                validBlackMoves[pieceId] = validMoves;
+            }
+        }
+    }
+
+    // check if move is valid
+    const pieceToMoveId = squares[sourceSquareId];
+    if (!pieceToMoveId) {
+        throw new Error('Piece not found');
+    }
+    const pieceToMove = asPieceInfo(pieceToMoveId);
+    if (pieceToMove.colorName === 'w') {
+        if (!validWhiteMoves[pieceToMoveId]) {
+            throw new Error('Candidate moves not found');
+        }
+        validWhiteMoves[pieceToMoveId].push(targetSquareId);
+    } else {
+        if (!validBlackMoves[pieceToMoveId]) {
+            throw new Error('Candidate moves not found');
+        }
+        validBlackMoves[pieceToMoveId].push(targetSquareId);
+    }
+
+    const asWhite = pieceToMove.colorName === 'w';
+    // const squares = defaultSquares;
+    // const pieces = defaultPieces;
+    const badges = noBadges;
+    const marks = noMarks;
+    const arrows = noArrows;
+    const comments: string[] = [];
+    // const capturedWhitePieces: PieceId[] = [];
+    // const capturedBlackPieces: PieceId[] = [];
+    // const movedPieces: PieceId[] = [];
+    // const validWhiteMoves = defaultValidWhiteMoves;
+    // const validBlackMoves = defaultValidBlackMoves;
+    const blackTargetSquareIds = Object.entries(validBlackMoves)
+        .filter(([pieceId]) => asPieceInfo(pieceId as PieceId).colorName === 'b')
+        .flatMap(([, moves]) => moves);
+    const whiteTargetSquareIDs = Object.entries(validWhiteMoves)
+        .filter(([pieceId]) => asPieceInfo(pieceId as PieceId).colorName === 'w')
+        .flatMap(([, moves]) => moves);
+    const moves: [SquareId, SquareId][] = [];
+    const whiteKingStatus: KingStatus = {
+        squareId: whiteKingSquareId,
+        isInCheck: false,
+        isInCheckMate: false,
+    };
+    const blackKingStatus: KingStatus = {
+        squareId: blackKingSquareId,
+        isInCheck: false,
+        isInCheckMate: false,
+    };
+    const isInStalemate = false;
+    const lastMove = {
+        isKingsideCastling: false,
+        isQueensideCastling: false,
+        isCapture: false,
+        isEnPassant: false,
+        promotionPieceName: undefined,
+    };
+
+    const state =new DefaultChessBoardState(
         'root',
         'root',
-        true,
+        asWhite,
         squares,
         pieces,
-        noBadges,
-        noMarks,
-        noArrows,
-        [],
+        badges,
+        marks,
+        arrows,
+        comments,
         capturedWhitePieces,
         capturedBlackPieces,
         movedPieces,
-        defaultValidWhiteMoves,
-        defaultValidBlackMoves,
-        [],
-        [],
-        [],
-        {
-            squareId: whiteKingSquareId,
-            isInCheck: false,
-            isInCheckMate: false,
-        },
-        {
-            squareId: blackKingSquareId,
-            isInCheck: false,
-            isInCheckMate: false,
-        },
-        false,
-        {
-            isKingsideCastling: false,
-            isQueensideCastling: false,
-            isCapture: false,
-            isEnPassant: false,
-            promotionPieceName: undefined,
-        }
+        validWhiteMoves,
+        validBlackMoves,
+        blackTargetSquareIds,
+        whiteTargetSquareIDs,
+        moves,
+        whiteKingStatus,
+        blackKingStatus,
+        isInStalemate,
+        lastMove
     );
+
+    // create controller and move the piece
+    const controller = defaultChessBoardController(asWhite, true, state);
+    controller.updateGameState(state, [sourceSquareId, targetSquareId], true);
+    // console.log(controller.currentState());
+    controller.onMove(sourceSquareId, targetSquareId);
+
+    // return the new state
+    return controller.currentState();
 }
 
 export const defaultChessBoardState = () => {

@@ -106,6 +106,24 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
     onSimulateOrActualMove(sourceId: SquareId, targetId: SquareId, actualMove: boolean): void {
         const state = this.currentState().clone();
 
+        // reset all arrows, badges, comments, and marks
+        state.arrows = {
+            red: [],
+            blue: [],
+            yellow: [],
+            green: [],
+            orange: []
+        }
+        state.marks = {
+            red: [],
+            blue: [],
+            yellow: [],
+            green: [],
+            orange: []
+        }
+        state.badges = {}
+        state.comments = []
+
         // sanity check
         const sourcePieceId = state.squares[sourceId];
         if (!sourcePieceId) {

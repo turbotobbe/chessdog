@@ -336,6 +336,9 @@ export class HistoryChessBoardController implements ChessBoardController {
         }
 
         state.comments = [comments.join(' ')];
+
+        state.marks.yellow.push(sourceId);
+        state.marks.yellow.push(targetId);
     };
     
 };
