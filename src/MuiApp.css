@@ -152,7 +152,7 @@
     display: flex;
     flex-direction: row;
     height: 24px;
-    margin-right: -6px;
+    margin-left: -6px;
 }
 .player-container .captured-pieces-boxes .captured-pieces-box .captured-pieces-icons {
     display: flex;
@@ -162,8 +162,8 @@
     }
 }
 .player-container .captured-pieces-boxes .captured-pieces-box .captured-pieces-icons .captured-pieces-icon {
-    width: 100%;
-    height: 100%;
+    height: 24px;
+    height: 24px;
 }
 
 .sheet-container {

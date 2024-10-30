@@ -4,9 +4,9 @@ import './index.css'
 import { CssBaseline } from '@mui/material'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import MuiApp from './MuiApp.tsx'
-import HomePage from './pages/HomePage.tsx'
 import AnalysisPage from './pages/AnalysisPage.tsx'
 import MessagePage from './pages/MessagePage.tsx'
+import HomePage from './pages/HomePage.tsx'
 
 // const darkTheme = createTheme({
 //   cssVariables: true,

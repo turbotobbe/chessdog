@@ -1,6 +1,6 @@
 import { DnDBadgeName, GridColorName } from "@/dnd/DnDTypes";
 import { asPieceInfo } from "@/models/chess";
-import { SquareId, PieceId, PieceInfo, PieceName } from "@/types/chess";
+import { SquareId, PieceId, PieceInfo, PieceName, whitePieceIds, blackPieceIds, pieceIds } from "@/types/chess";
 
 export const defaultSquares: Partial<Record<SquareId, PieceId>> = {
     "a1": "wr1",
@@ -269,6 +269,74 @@ export class DefaultChessBoardState implements ChessBoardState {
         );
     }
 };
+
+export const setupChessBoardState = (squares: Partial<Record<SquareId, PieceId>>) => {
+
+    const pieces: Partial<Record<PieceId, PieceInfo>> = {};
+    let whiteKingSquareId: SquareId | null = null;
+    let blackKingSquareId: SquareId | null = null;
+    for (const squareId in squares) {
+        const pieceId = squares[squareId as SquareId];
+        if (pieceId) {
+            pieces[pieceId] = asPieceInfo(pieceId);
+        }
+        if (pieceId === 'wk1') {
+            whiteKingSquareId = squareId as SquareId;
+        }
+        if (pieceId === 'bk1') {
+            blackKingSquareId = squareId as SquareId;
+        }
+    }
+
+    if (!whiteKingSquareId || !blackKingSquareId) {
+        throw new Error('King not found');
+    }
+
+    // capture any pieces not in the setup
+    const capturedWhitePieces: PieceId[] = whitePieceIds.filter(pieceId => !pieces[pieceId]);
+    const capturedBlackPieces: PieceId[] = blackPieceIds.filter(pieceId => !pieces[pieceId]);
+
+    // all pieces has moved
+    const movedPieces: PieceId[] = [...pieceIds];
+
+    return new DefaultChessBoardState(
+        'root',
+        'root',
+        true,
+        squares,
+        pieces,
+        noBadges,
+        noMarks,
+        noArrows,
+        [],
+        capturedWhitePieces,
+        capturedBlackPieces,
+        movedPieces,
+        defaultValidWhiteMoves,
+        defaultValidBlackMoves,
+        [],
+        [],
+        [],
+        {
+            squareId: whiteKingSquareId,
+            isInCheck: false,
+            isInCheckMate: false,
+        },
+        {
+            squareId: blackKingSquareId,
+            isInCheck: false,
+            isInCheckMate: false,
+        },
+        false,
+        {
+            isKingsideCastling: false,
+            isQueensideCastling: false,
+            isCapture: false,
+            isEnPassant: false,
+            promotionPieceName: undefined,
+        }
+    );
+}
 
 export const defaultChessBoardState = () => {
     const asWhite = true;

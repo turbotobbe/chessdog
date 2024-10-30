@@ -64,9 +64,12 @@ export const ControlsPaper: React.FC<ControlsPaperProps> = ({
             .reduce((acc, pieceValue) => acc + pieceValue, 0);
         const totalPiecesValue = playerPiecesValue + opponentPiecesValue;
         const whiteScore = playerPiecesValue - opponentPiecesValue;
-        
-        scorePercentage = (0.5 + (whiteScore / (2 * totalPiecesValue)))*100;
-        scorePercentage = scorePercentage > 50 ? Math.ceil(scorePercentage) : Math.floor(scorePercentage);
+        if (totalPiecesValue > 0) {
+            scorePercentage = (0.5 + (whiteScore / (2 * totalPiecesValue)))*100;
+            scorePercentage = scorePercentage > 50 ? Math.ceil(scorePercentage) : Math.floor(scorePercentage);
+        } else {
+            scorePercentage = 50;
+        }
     }
 
     const arrowColor = colorNames[arrowColorName];
