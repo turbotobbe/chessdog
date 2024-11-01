@@ -23,7 +23,7 @@ const OpeningsPage: React.FC = () => {
                         <Typography variant="h4" p={4}>{openingCategory.name}</Typography>
                         <Grid container spacing={1}>
                         {openingCategory.openings.map((opening, openingIndex) => (
-                            <Grid key={openingIndex} size={4}>
+                            <Grid key={openingIndex} size={{xs:12, sm:6, md:4}}>
                                 <Card>
                                     <CardHeader title={`${openingCategoryIndex+1}.${openingIndex+1} ${opening.name}`} />
                                     <CardContent>

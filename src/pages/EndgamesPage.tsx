@@ -22,7 +22,7 @@ const EndGamesPage: React.FC = () => {
                 <Grid container spacing={1}>
                     {endgames.endgames.map((endgame, index) => {
                         return (
-                            <Grid key={index} size={4}>
+                            <Grid key={index} size={{xs:12, sm:6, md:4}}>
                                 <Card>
                                     <CardHeader title={endgame.name} />
                                     <CardContent>
