@@ -1,23 +1,22 @@
-import { Box, Button, Typography } from "@mui/material";
+import { Box, IconButton, Tooltip, Typography } from "@mui/material";
 import ImageSearchIcon from '@mui/icons-material/ImageSearch';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
-import ClearIcon from '@mui/icons-material/Clear';
+import PlaylistRemoveIcon from '@mui/icons-material/PlaylistRemove';
+import RestartAltIcon from '@mui/icons-material/RestartAlt';
 import { useChessBoard } from "@/contexts/ChessBoardContext";
-import { useCallback, useMemo } from "react";
+import { useMemo } from "react";
+import { ControllerHandler } from "@/contexts/ChessBoardController";
 
 type SheetHeaderContainerProps = {
     chessBoardKey: string
     title: 'Analysis' | 'Basics' | 'Openings' | 'Endgames' | 'Tactics' | 'Puzzle' | 'Prep' | 'Studio'
-    action?: {
-        label: 'Reset' | 'New'
-        onClick: () => void
-    }
+    handler: ControllerHandler
 }
 
 export const SheetHeaderContainer: React.FC<SheetHeaderContainerProps> = ({
     chessBoardKey,
     title,
-    action,
+    handler,
 }) => {
     const { getController, setController } = useChessBoard();
     const controller = useMemo(() => getController(chessBoardKey), [getController, setController, chessBoardKey]);
@@ -28,34 +27,28 @@ export const SheetHeaderContainer: React.FC<SheetHeaderContainerProps> = ({
         case 'Basics': headerIcon = <PlayArrowIcon />; break;
     }
 
-    let actionIcon: React.ReactNode;
-    if (action) {
-        switch (action.label) {
-            case 'Reset': actionIcon = <ClearIcon />; break;
-            case 'New': actionIcon = <PlayArrowIcon />; break;
-        }
-    }
-
-    const handleOnActionClick = useCallback(() => {
-        if (controller) {
-            controller.reset();
-            setController(chessBoardKey, controller);
-        }
-    }, [controller, setController, chessBoardKey]);
-
     return (
         <Box className="sheet-header-container">
             {headerIcon}
             <Box className="sheet-header-name-box">
                 <Typography className="sheet-header-name-text" variant="body1">{title}</Typography>
             </Box>
-            {action &&
-                <Box className="sheet-header-time">
-                    <Button size="small" variant="contained" endIcon={actionIcon} onClick={handleOnActionClick} disabled={!controller || controller?.isInitialState()}>
-                        {action.label}
-                    </Button>
-                </Box>
-            }
+            <Box className="sheet-header-time">
+                {handler.reload &&
+                    <Tooltip title="Reload">
+                        <IconButton size="small" onClick={handler.reload}>
+                            <RestartAltIcon />
+                        </IconButton>
+                    </Tooltip>
+                }
+                {handler.restart && <Tooltip title="Restart">
+                    <span>
+                        <IconButton size="small" onClick={handler.restart} disabled={!controller || controller?.isInitialState()}>
+                            <PlaylistRemoveIcon />
+                        </IconButton>
+                    </span>
+                </Tooltip>}
+            </Box>
         </Box>
     )
 }

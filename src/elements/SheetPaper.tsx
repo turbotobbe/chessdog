@@ -3,29 +3,37 @@ import { ChessNavigator } from "./ChessNavigator";
 import { SheetHeaderContainer } from "./SheetHeaderContainer";
 import { MovesPanelHeader } from "./MovesPanelHeader";
 import { MovesPanel } from "./MovesPanel";
-import { CommentsPanel } from "./CommentsPanel";
+import { ControllerHandler } from "@/contexts/ChessBoardController";
 
 interface SheetPaperProps {
     chessBoardKey: string
     chessBoardKeys: string[]
     onSelectChessBoardKey: (key: string) => void
+    handler: ControllerHandler
 }
 
 export const SheetPaper: React.FC<SheetPaperProps> = ({
     chessBoardKey,
     chessBoardKeys,
     onSelectChessBoardKey,
+    handler,
 }) => {
 
     const handleOnSelectChessBoardKey = (key: string) => {
         console.log('onSelectChessBoardKey', key);
         onSelectChessBoardKey(key);
     };
+
+    // const isPortrait = useMediaQuery('(orientation: portrait)');
     return (
         <Paper className="sheet-paper">
             <Box className="sheet-container">
                 {/* this can differ depending on page */}
-                <SheetHeaderContainer chessBoardKey={chessBoardKey} title='Analysis' action={{ label: 'Reset', onClick: () => { console.log('clear') } }} />
+                <SheetHeaderContainer
+                    chessBoardKey={chessBoardKey}
+                    title='Analysis'
+                    handler={handler}
+                />
 
                 <Box className="sheet-moves-panel-container" sx={{
                     flexGrow: 1,
@@ -55,7 +63,7 @@ export const SheetPaper: React.FC<SheetPaperProps> = ({
                         />
                     ))}
                 </Box>
-                <CommentsPanel chessBoardKey={chessBoardKey} />
+                {/* <CommentsPanel chessBoardKey={chessBoardKey} /> */}
 
                 <ChessNavigator chessBoardKey={chessBoardKey} />
             </Box>

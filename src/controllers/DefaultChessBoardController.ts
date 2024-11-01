@@ -1,12 +1,13 @@
 import { ChessBoardController } from "@/contexts/ChessBoardController";
 import { ChessBoardState, ChessBoardTree, defaultChessBoardState } from "@/contexts/ChessBoardState";
-import { castlingSquareIds, PieceId, PieceInfo, SquareId } from "@/types/chess";
+import { PieceId, PieceInfo, SquareId } from "@/types/chess";
 import { asPieceInfo, asSquareInfo } from "@/models/chess";
 import { getCandidateMoves } from "./CandidateMoves";
 import { HistoryChessBoardController } from "./HistoryChessBoardController";
+import { ChessBoardKind } from "@/contexts/ChessBoardController";
 
-export const defaultChessBoardController = (canWhiteBeChecked: boolean = true, canBlackBeChecked: boolean = true, initialState?: ChessBoardState) => {
-    return new DefaultChessBoardController(canWhiteBeChecked, canBlackBeChecked, initialState ?? defaultChessBoardState());
+export const defaultChessBoardController = (kind: ChessBoardKind, canWhiteBeChecked: boolean = true, canBlackBeChecked: boolean = true, initialState?: ChessBoardState) => {
+    return new DefaultChessBoardController(kind, canWhiteBeChecked, canBlackBeChecked, initialState ?? defaultChessBoardState());
 };
 
 export class DefaultChessBoardController extends HistoryChessBoardController {
@@ -15,12 +16,13 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
     private enableBlack: boolean;
 
     constructor(
+        kind: 'Explore' | 'Play',
         enableWhite: boolean,
         enableBlack: boolean,
         initialState: ChessBoardState,
         gameTree?: ChessBoardTree
     ) {
-        super(initialState, gameTree);
+        super(kind, initialState, gameTree);
         this.enableWhite = enableWhite;
         this.enableBlack = enableBlack;
     }
@@ -157,21 +159,21 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
             promotionPieceName: undefined,
         };
         if (this.handlePromotion(state, sourceId, targetId, sourcePieceInfo)) {
-            console.log(`${actualMove ? '(actual)' : '(simulation)'} handled promotion`, sourcePieceId, sourcePieceInfo);
+            // console.log(`${actualMove ? '(actual)' : '(simulation)'} handled promotion`, sourcePieceId, sourcePieceInfo);
         } else if (this.handleEnPassant(state, sourceId, targetId, sourcePieceInfo)) {
-            console.log(`${actualMove ? '(actual)' : '(simulation)'} handled en passant`, sourcePieceId, sourcePieceInfo);
+            // console.log(`${actualMove ? '(actual)' : '(simulation)'} handled en passant`, sourcePieceId, sourcePieceInfo);
         } else if (this.handleCastling(state, sourceId, targetId, sourcePieceInfo)) {
-            console.log(`${actualMove ? '(actual)' : '(simulation)'} handled castling`, sourcePieceId, sourcePieceInfo);
+            // console.log(`${actualMove ? '(actual)' : '(simulation)'} handled castling`, sourcePieceId, sourcePieceInfo);
         }
 
-        const prevState = this.currentState().clone();
+        const currentState = this.currentState().clone();
 
         // do the move ...
         super.onMove(sourceId, targetId, state);
 
         // update game state (this is a new state!)
-        this.updateGameState(this.currentState(), currentMove, actualMove);
-        this.updatePgn(this.currentState(), prevState, sourceId, targetId, sourcePieceInfo);
+        this.updateGameState(this.currentState(), actualMove, currentMove);
+        this.updatePgn(this.currentState(), currentState, sourceId, targetId, sourcePieceInfo);
 
         // if (actualMove) {
         //     console.log(this.gameTree);
@@ -320,6 +322,7 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
 
     clone(): ChessBoardController {
         const newController = new DefaultChessBoardController(
+            this.kind,
             this.enableWhite,
             this.enableBlack,
             this.initialState,
@@ -328,7 +331,7 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
         return newController;
     }
 
-    updateGameState(state: ChessBoardState, currentMove: [SquareId, SquareId], actualMove: boolean): void {
+    updateGameState(state: ChessBoardState, actualMove: boolean, currentMove?: [SquareId, SquareId]): void {
 
         // reset all valid moves and targets
         state.validWhiteMoves = {};
@@ -363,7 +366,7 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
         state.whiteTargetSquareIds = [...uniqueWhiteTargetSquareIds];
 
         // check if castling squares are in check
-        this.updateCastlingMoves(state);
+        this.removeCastlingMovesNotValid(state);
 
         // update check (not checkmate or stalemate, they are reset to false)
         this.updateChecks(state);
@@ -379,15 +382,24 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
         const hasWhiteValidMoves = Object.keys(filteredValidWhiteMoves).length > 0;
         const hasBlackValidMoves = Object.keys(filteredValidBlackMoves).length > 0;
 
-        // Check for stalemate
+        // Check for stalemate and checkmate only for the current player
         const isWhiteTurn = state.whitesTurn;
-        const isStalemate = (isWhiteTurn && !hasWhiteValidMoves && !state.whiteKingStatus.isInCheck) ||
-            (!isWhiteTurn && !hasBlackValidMoves && !state.blackKingStatus.isInCheck);
-        state.isInStalemate = isStalemate;
-        if (!isStalemate) {
-            // check checkmate and statemate
-            state.whiteKingStatus.isInCheckMate = !hasWhiteValidMoves;
-            state.blackKingStatus.isInCheckMate = !hasBlackValidMoves;
+        if (isWhiteTurn) {
+            if (!hasWhiteValidMoves) {
+                if (state.whiteKingStatus.isInCheck) {
+                    state.whiteKingStatus.isInCheckMate = true;
+                } else {
+                    state.isInStalemate = true;
+                }
+            }
+        } else {
+            if (!hasBlackValidMoves) {
+                if (state.blackKingStatus.isInCheck) {
+                    state.blackKingStatus.isInCheckMate = true;
+                } else {
+                    state.isInStalemate = true;
+                }
+            }
         }
 
         if (state.whiteKingStatus.isInCheckMate) {
@@ -403,151 +415,85 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
     }
 
     updateValidMoves(state: ChessBoardState, validMoves: Partial<Record<PieceId, SquareId[]>>): Partial<Record<PieceId, SquareId[]>> {
+        const validationState = state.clone();
         const newValidMoves: Partial<Record<PieceId, SquareId[]>> = {};
         for (const [pieceId, targetSquareIds] of Object.entries(validMoves)) {
             if (!targetSquareIds) {
                 continue;
             }
-            const sourceId = Object.entries(state.squares).find(([_squareId, id]) => id === pieceId)?.[0] as SquareId;
+            const sourceId = Object.entries(validationState.squares).find(([_squareId, id]) => id === pieceId)?.[0] as SquareId;
             if (!sourceId) {
                 console.warn(`Square not found for piece ${pieceId}`);
                 continue;
             }
             const pieceInfo = asPieceInfo(pieceId as PieceId);
             const filteredTargetSquareIds: SquareId[] = [];
+
             for (const targetId of targetSquareIds) {
 
                 // check if same color king is in check
-                const simulatedState = this.simulateMove(state, sourceId, targetId);
-                if (pieceInfo.colorName === 'w') {
-                    if (!simulatedState.whiteKingStatus.isInCheck) {
-                        filteredTargetSquareIds.push(targetId);
-                    }
-                } else {
-                    if (!simulatedState.blackKingStatus.isInCheck) {
-                        filteredTargetSquareIds.push(targetId);
-                    }
+                const simulatedState = this.simulateMove(validationState, sourceId, targetId);
+                const isInCheck = pieceInfo.colorName === 'w'
+                    ? simulatedState.whiteKingStatus.isInCheck
+                    : simulatedState.blackKingStatus.isInCheck;
+                if (!isInCheck) {
+                    filteredTargetSquareIds.push(targetId);
                 }
             }
             if (filteredTargetSquareIds.length > 0) {
                 newValidMoves[pieceId as PieceId] = filteredTargetSquareIds;
             }
         }
+        // console.log(`updated valid moves`, validMoves, newValidMoves);
         return newValidMoves;
     }
 
     simulateMove(state: ChessBoardState, sourceId: SquareId, targetId: SquareId): ChessBoardState {
+        const clonedState = state.clone();
         const simulationController = new DefaultChessBoardController(
+            this.kind,
             this.enableWhite,
             this.enableBlack,
-            state.clone()
+            clonedState
         );
-        const simulatedState = simulationController.currentState();
-
-        // set checks to false to see if the move puts the king in check
-        simulatedState.whiteKingStatus = {
-            squareId: simulatedState.whiteKingStatus.squareId,
-            isInCheck: false,
-            isInCheckMate: false,
-        }
-        simulatedState.blackKingStatus = {
-            squareId: simulatedState.blackKingStatus.squareId,
-            isInCheck: false,
-            isInCheckMate: false,
-        }
-        simulatedState.isInStalemate = false;
-
         simulationController.onSimulateMove(sourceId, targetId);
         return simulationController.currentState();
     }
 
-    updateCastlingMoves(state: ChessBoardState): void {
-
-        const whiteTargetSquareIds: SquareId[] = state.whiteTargetSquareIds;
-        const blackTargetSquareIds: SquareId[] = state.blackTargetSquareIds;
-
-        const whiteKingSquareId: SquareId = state.whiteKingStatus.squareId;
-        const blackKingSquareId: SquareId = state.blackKingStatus.squareId;
-        const whiteKingPieceId: PieceId | undefined = state.squares[whiteKingSquareId];
-        const blackKingPieceId: PieceId | undefined = state.squares[blackKingSquareId];
-
-        if (!whiteKingPieceId) {
-            console.warn(`whiteKingPieceId not found for ${whiteKingSquareId}`);
-            return;
-        }
-        if (!blackKingPieceId) {
-            console.warn(`blackKingPieceId not found for ${blackKingSquareId}`);
-            return;
-        }
-
-        const whiteKingsValidMoves: SquareId[] | undefined = state.validWhiteMoves[whiteKingPieceId];
-        const blackKingsValidMoves: SquareId[] | undefined = state.validBlackMoves[blackKingPieceId];
-
-
-        if (whiteKingsValidMoves) {
-            
-            // check if king has the queen side castle move
-            if (whiteKingsValidMoves.includes(castlingSquareIds.white.queenSide.castleSquareId)) {
-
-                castlingSquareIds.white.queenSide.middleSquares.forEach(squareId => {
-                    // check to see if any pieces is targeting the castle square
-                    if (blackTargetSquareIds.includes(squareId)) {
-                        // remove castling move
-                        const index = whiteKingsValidMoves.indexOf(castlingSquareIds.white.queenSide.castleSquareId);
-                        if (index > -1) {
-                            whiteKingsValidMoves.splice(index, 1);
-                        }
-                    }
-                });
-            }
-            // check if king has the king side castle move
-            if (whiteKingsValidMoves.includes(castlingSquareIds.white.kingSide.castleSquareId)) {
-
-                castlingSquareIds.white.kingSide.middleSquares.forEach(squareId => {
-                    // check to see if any pieces is targeting the castle square
-                    if (blackTargetSquareIds.includes(squareId)) {
-                        // remove castling move
-                        const index = whiteKingsValidMoves.indexOf(castlingSquareIds.white.kingSide.castleSquareId);
-                        if (index > -1) {
-                            whiteKingsValidMoves.splice(index, 1);
-                        }
-                    }
-                });
+    removeCastlingMovesNotValid(state: ChessBoardState): void {
+        // White king castling check
+        if (state.squares['e1'] === 'wk1' && !state.movedPieces.includes('wk1')) {
+            const whiteKingMoves = state.validWhiteMoves['wk1'];
+            if (whiteKingMoves) {
+                // Remove kingside castling if path is attacked
+                if (whiteKingMoves.includes('g1') && 
+                    state.blackTargetSquareIds.some(id => ['e1', 'f1', 'g1'].includes(id))) {
+                    state.validWhiteMoves['wk1'] = whiteKingMoves.filter(move => move !== 'g1');
+                }
+                // Remove queenside castling if path is attacked
+                if (whiteKingMoves.includes('c1') && 
+                    state.blackTargetSquareIds.some(id => ['e1', 'd1', 'c1'].includes(id))) {
+                    state.validWhiteMoves['wk1'] = whiteKingMoves.filter(move => move !== 'c1');
+                }
             }
         }
-        state.validWhiteMoves[whiteKingPieceId] = whiteKingsValidMoves;
-        if (blackKingsValidMoves) {
-
-            // check if king has the queen side castle move
-            if (blackKingsValidMoves.includes(castlingSquareIds.black.queenSide.castleSquareId)) {
-
-                castlingSquareIds.black.queenSide.middleSquares.forEach(squareId => {
-                    // check to see if any pieces is targeting the castle square
-                    if (whiteTargetSquareIds.includes(squareId)) {
-                        // remove castling move
-                        const index = blackKingsValidMoves.indexOf(castlingSquareIds.black.queenSide.castleSquareId);
-                        if (index > -1) {
-                            blackKingsValidMoves.splice(index, 1);
-                        }
-                    }
-                });
-            }
-            // check if king has the king side castle move
-            if (blackKingsValidMoves.includes(castlingSquareIds.black.kingSide.castleSquareId)) {
-
-                castlingSquareIds.black.kingSide.middleSquares.forEach(squareId => {
-                    // check to see if any pieces is targeting the castle square
-                    if (whiteTargetSquareIds.includes(squareId)) {
-                        // remove castling move
-                        const index = blackKingsValidMoves.indexOf(castlingSquareIds.black.kingSide.castleSquareId);
-                        if (index > -1) {
-                            blackKingsValidMoves.splice(index, 1);
-                        }
-                    }
-                });
+    
+        // Black king castling check
+        if (state.squares['e8'] === 'bk1' && !state.movedPieces.includes('bk1')) {
+            const blackKingMoves = state.validBlackMoves['bk1'];
+            if (blackKingMoves) {
+                // Remove kingside castling if path is attacked
+                if (blackKingMoves.includes('g8') && 
+                    state.whiteTargetSquareIds.some(id => ['e8', 'f8', 'g8'].includes(id))) {
+                    state.validBlackMoves['bk1'] = blackKingMoves.filter(move => move !== 'g8');
+                }
+                // Remove queenside castling if path is attacked
+                if (blackKingMoves.includes('c8') && 
+                    state.whiteTargetSquareIds.some(id => ['e8', 'd8', 'c8'].includes(id))) {
+                    state.validBlackMoves['bk1'] = blackKingMoves.filter(move => move !== 'c8');
+                }
             }
         }
-        state.validBlackMoves[blackKingPieceId] = blackKingsValidMoves;
     }
 
     updateChecks(state: ChessBoardState): void {

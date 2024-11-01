@@ -1,25 +1,27 @@
-import { ChessBoardController } from "@/contexts/ChessBoardController";
+import { ChessBoardController, ChessBoardKind } from "@/contexts/ChessBoardController";
 import { ChessBoardState, defaultChessBoardState, ChessBoardTree, ChessBoardItem } from "@/contexts/ChessBoardState";
 import { GridColorName } from "@/dnd/DnDTypes";
 import { asPieceInfo, asSquareId, asSquareInfo } from "@/models/chess";
 import { PieceId, PieceInfo, SquareId } from "@/types/chess";
 
-export const historyChessBoardController = (initialState?: ChessBoardState) => {
-    return new HistoryChessBoardController(initialState ?? defaultChessBoardState());
+export const historyChessBoardController = (kind: ChessBoardKind, initialState?: ChessBoardState) => {
+    return new HistoryChessBoardController(kind, initialState ?? defaultChessBoardState());
 };
 
 export class HistoryChessBoardController implements ChessBoardController {
 
+    kind: ChessBoardKind;
     protected initialState: ChessBoardState;
     protected gameTree: ChessBoardTree;
 
-    constructor(initialState: ChessBoardState, gameTree?: ChessBoardTree) {
+    constructor(kind: ChessBoardKind, initialState: ChessBoardState, gameTree?: ChessBoardTree) {
+        this.kind = kind;
         this.initialState = initialState.clone();
         this.gameTree = gameTree ? gameTree.clone() : new ChessBoardTree(initialState);
     }
 
     clone(): ChessBoardController {
-        return new HistoryChessBoardController(this.initialState, this.gameTree);
+        return new HistoryChessBoardController(this.kind, this.initialState, this.gameTree);
     }
 
     // methods from ChessBoardTreeType
@@ -142,7 +144,7 @@ export class HistoryChessBoardController implements ChessBoardController {
             const colorMarks = state.marks[colorKey as GridColorName];
             const index = colorMarks.findIndex((s) => s === squareId);
             if (index !== -1) {
-                console.log(`Removing mark from ${squareId} in color ${colorKey}`);
+                // console.log(`Removing mark from ${squareId} in color ${colorKey}`);
                 const newColorMarks = colorMarks.filter(mark => mark !== squareId);
                 state.marks[colorKey as GridColorName] = newColorMarks;
                 markRemoved = true;
@@ -165,7 +167,7 @@ export class HistoryChessBoardController implements ChessBoardController {
             const colorArrows = state.arrows[colorKey as GridColorName];
             const index = colorArrows.findIndex(([s, t]) => s === sourceId && t === targetId);
             if (index !== -1) {
-                console.log(`Removing arrow from ${sourceId} to ${targetId} in color ${colorKey}`);
+                // console.log(`Removing arrow from ${sourceId} to ${targetId} in color ${colorKey}`);
                 const newColorArrows = colorArrows.filter(arrow => arrow[0] !== sourceId || arrow[1] !== targetId);
                 state.arrows[colorKey as GridColorName] = newColorArrows;
                 arrowRemoved = true;
@@ -176,6 +178,11 @@ export class HistoryChessBoardController implements ChessBoardController {
         if (!arrowRemoved && state.arrows[color].indexOf([sourceId as SquareId, targetId as SquareId]) === -1) {
             state.arrows[color].push([sourceId as SquareId, targetId as SquareId]);
         }
+    }
+
+    onComment(comment: string): void {
+        const state = this.currentState();
+        state.comments.push(comment);
     }
 
     captureAtSquare(state: ChessBoardState, squareId: SquareId): boolean {
@@ -231,11 +238,11 @@ export class HistoryChessBoardController implements ChessBoardController {
         return false;
     }
 
-    updatePgn (state: ChessBoardState, prevState: ChessBoardState, sourceId: SquareId, targetId: SquareId, pieceInfo: PieceInfo): void {
+    updatePgn(state: ChessBoardState, prevState: ChessBoardState, sourceId: SquareId, targetId: SquareId, pieceInfo: PieceInfo): void {
 
         const sourceSquareInfo = asSquareInfo(sourceId);
         const targetSquareInfo = asSquareInfo(targetId);
-    
+
         let pgn = "";
         if (state.lastMove.isKingsideCastling) {
             pgn = "O-O";
@@ -243,7 +250,7 @@ export class HistoryChessBoardController implements ChessBoardController {
         else if (state.lastMove.isQueensideCastling) {
             pgn = "O-O-O";
         } else {
-    
+
             const specifiedSource = getDisambiguation(prevState, sourceId, targetId, pieceInfo);
             if (state.lastMove.promotionPieceName) {
                 if (state.lastMove.isCapture) {
@@ -256,26 +263,26 @@ export class HistoryChessBoardController implements ChessBoardController {
             } else if (state.lastMove.isCapture || state.lastMove.isEnPassant) {
                 pgn += sourceSquareInfo.fileName;
             }
-    
+
             // source destination
-    
+
             if (state.lastMove.isCapture || state.lastMove.isEnPassant) {
                 pgn += "x";
             }
-    
+
             // Bxd3
             pgn += targetSquareInfo.id;
-    
+
             // if (state.lastMove.isEnPassant) {
             //     pgn += " e.p.";
             // }
         }
-    
+
         if (state.lastMove.promotionPieceName) {
             // d8=Q
             pgn += "=" + state.lastMove.promotionPieceName.toUpperCase();
         }
-    
+
         if (state.whitesTurn) {
             if (state.whiteKingStatus.isInCheckMate) {
                 pgn += "#";
@@ -289,58 +296,60 @@ export class HistoryChessBoardController implements ChessBoardController {
                 pgn += "+";
             }
         }
-    
+
         state.pgn = pgn;
 
-        // add comment
-        const comments: string[] = [];
-        const name = state.whitesTurn ? 'Black' : 'White';
-        let line = `${pgn}.`;
-        
-        if (state.lastMove.isKingsideCastling) {
-            line += ` ${name} castled kingside`;
-        }
-        else if (state.lastMove.isQueensideCastling) {
-            line += ` ${name} castled queenside`;
-        } else {
-            line += ` ${name} moved from ${sourceId} to ${targetId}`;
-        }
+        if (this.kind === 'Play') {
+            // add comment
+            const comments: string[] = [];
+            const name = state.whitesTurn ? 'Black' : 'White';
+            let line = `${pgn}.`;
 
-        if (state.lastMove.isCapture) {
-            line += ` and captured a piece at ${targetId}.`;
-        }
-        else if (state.lastMove.isEnPassant) {
-            const targetInfo = asSquareInfo(targetId);
-            const captureSquareId = asSquareId(targetInfo.fileIndex, targetInfo.rankIndex - (state.whitesTurn ? -1 : 1));
-            line += ` and en passant captured a pawn at ${captureSquareId}.`;
-        } else {
-            line += '.';
-        }
-        comments.push(line);
-        if (state.lastMove.promotionPieceName) {
-            comments.push(`${name} promoted to ${state.lastMove.promotionPieceName.toUpperCase()}.`);
-        }
-        if (state.blackKingStatus.isInCheckMate) {
-            comments.push(`The black king at ${state.blackKingStatus.squareId} is checkmated.`);
-        } else if (state.blackKingStatus.isInCheck) {
-            comments.push(`The black king at ${state.blackKingStatus.squareId} is in check.`);
-        }
+            if (state.lastMove.isKingsideCastling) {
+                line += ` ${name} castled kingside`;
+            }
+            else if (state.lastMove.isQueensideCastling) {
+                line += ` ${name} castled queenside`;
+            } else {
+                line += ` ${name} moved from ${sourceId} to ${targetId}`;
+            }
 
-        if (state.whiteKingStatus.isInCheckMate) {
-            comments.push(`The white king at ${state.whiteKingStatus.squareId} is checkmated.`);
-        } else if (state.whiteKingStatus.isInCheck) {
-            comments.push(`The white king at ${state.whiteKingStatus.squareId} is in check.`);
-        }
-        if (state.isInStalemate) {
-            comments.push(`This is a stalemate.`);
-        }
+            if (state.lastMove.isCapture) {
+                line += ` and captured a piece at ${targetId}.`;
+            }
+            else if (state.lastMove.isEnPassant) {
+                const targetInfo = asSquareInfo(targetId);
+                const captureSquareId = asSquareId(targetInfo.fileIndex, targetInfo.rankIndex - (state.whitesTurn ? -1 : 1));
+                line += ` and en passant captured a pawn at ${captureSquareId}.`;
+            } else {
+                line += '.';
+            }
+            comments.push(line);
+            if (state.lastMove.promotionPieceName) {
+                comments.push(`${name} promoted to ${state.lastMove.promotionPieceName.toUpperCase()}.`);
+            }
+            if (state.blackKingStatus.isInCheckMate) {
+                comments.push(`The black king at ${state.blackKingStatus.squareId} is checkmated.`);
+            } else if (state.blackKingStatus.isInCheck) {
+                comments.push(`The black king at ${state.blackKingStatus.squareId} is in check.`);
+            }
 
-        state.comments = [comments.join(' ')];
+            if (state.whiteKingStatus.isInCheckMate) {
+                comments.push(`The white king at ${state.whiteKingStatus.squareId} is checkmated.`);
+            } else if (state.whiteKingStatus.isInCheck) {
+                comments.push(`The white king at ${state.whiteKingStatus.squareId} is in check.`);
+            }
+            if (state.isInStalemate) {
+                comments.push(`This is a stalemate.`);
+            }
+
+            state.comments = [comments.join(' ')];
+        }
 
         state.marks.yellow.push(sourceId);
         state.marks.yellow.push(targetId);
     };
-    
+
 };
 
 const getDisambiguation = (prevState: ChessBoardState, sourceId: SquareId, targetId: SquareId, pieceInfo: PieceInfo): string => {

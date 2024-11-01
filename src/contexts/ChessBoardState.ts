@@ -1,8 +1,7 @@
-import { getCandidateMoves } from "@/controllers/CandidateMoves";
 import { defaultChessBoardController } from "@/controllers/DefaultChessBoardController";
 import { DnDBadgeName, GridColorName } from "@/dnd/DnDTypes";
-import { asPieceInfo } from "@/models/chess";
-import { SquareId, PieceId, PieceInfo, PieceName, whitePieceIds, blackPieceIds } from "@/types/chess";
+import { asPieceInfo, asSquareInfo } from "@/models/chess";
+import { SquareId, PieceId, PieceInfo, PieceName, whitePieceIds, blackPieceIds, squareIds, possibleTargetSquareIds } from "@/types/chess";
 
 export const defaultSquares: Partial<Record<SquareId, PieceId>> = {
     "a1": "wr1",
@@ -272,7 +271,11 @@ export class DefaultChessBoardState implements ChessBoardState {
     }
 };
 
-export const setupChessBoardState = (squares: Partial<Record<SquareId, PieceId>>, sourceSquareId: SquareId, targetSquareId: SquareId) => {
+export const setupChessBoardState = (
+    asWhite: boolean,
+    squares: Partial<Record<SquareId, PieceId>>,
+    move?: [SquareId, SquareId]
+) => {
 
     const pieces: Partial<Record<PieceId, PieceInfo>> = {};
     let whiteKingSquareId: SquareId | null = null;
@@ -303,180 +306,190 @@ export const setupChessBoardState = (squares: Partial<Record<SquareId, PieceId>>
     for (const squareId in defaultSquares) {
         const originalPieceId = defaultSquares[squareId as SquareId];
         const currentPieceId = squares[squareId as SquareId];
-        
+
         // If current piece is different from original piece at this square
         if (currentPieceId !== originalPieceId && originalPieceId) {
             movedPieces.push(originalPieceId);
         }
     }
 
-    const validWhiteMoves: Partial<Record<PieceId, SquareId[]>> = {};
-    const validBlackMoves: Partial<Record<PieceId, SquareId[]>> = {};
-    for (const squareId in squares) {
-        const pieceId = squares[squareId as SquareId];
-        if (pieceId) {
-            const validMoves = getCandidateMoves(squareId as SquareId, asPieceInfo(pieceId), squares, movedPieces);
-            if (asPieceInfo(pieceId).colorName === 'w') {
-                validWhiteMoves[pieceId] = validMoves;
-            } else {
-                validBlackMoves[pieceId] = validMoves;
-            }
-        }
-    }
-
-    // check if move is valid
-    const pieceToMoveId = squares[sourceSquareId];
-    if (!pieceToMoveId) {
-        throw new Error('Piece not found');
-    }
-    const pieceToMove = asPieceInfo(pieceToMoveId);
-    if (pieceToMove.colorName === 'w') {
-        if (!validWhiteMoves[pieceToMoveId]) {
-            throw new Error('Candidate moves not found');
-        }
-        validWhiteMoves[pieceToMoveId].push(targetSquareId);
-    } else {
-        if (!validBlackMoves[pieceToMoveId]) {
-            throw new Error('Candidate moves not found');
-        }
-        validBlackMoves[pieceToMoveId].push(targetSquareId);
-    }
-
-    const asWhite = pieceToMove.colorName === 'w';
-    // const squares = defaultSquares;
-    // const pieces = defaultPieces;
-    const badges = noBadges;
-    const marks = noMarks;
-    const arrows = noArrows;
-    const comments: string[] = [];
-    // const capturedWhitePieces: PieceId[] = [];
-    // const capturedBlackPieces: PieceId[] = [];
-    // const movedPieces: PieceId[] = [];
-    // const validWhiteMoves = defaultValidWhiteMoves;
-    // const validBlackMoves = defaultValidBlackMoves;
-    const blackTargetSquareIds = Object.entries(validBlackMoves)
-        .filter(([pieceId]) => asPieceInfo(pieceId as PieceId).colorName === 'b')
-        .flatMap(([, moves]) => moves);
-    const whiteTargetSquareIDs = Object.entries(validWhiteMoves)
-        .filter(([pieceId]) => asPieceInfo(pieceId as PieceId).colorName === 'w')
-        .flatMap(([, moves]) => moves);
-    const moves: [SquareId, SquareId][] = [];
-    const whiteKingStatus: KingStatus = {
-        squareId: whiteKingSquareId,
-        isInCheck: false,
-        isInCheckMate: false,
-    };
-    const blackKingStatus: KingStatus = {
-        squareId: blackKingSquareId,
-        isInCheck: false,
-        isInCheckMate: false,
-    };
-    const isInStalemate = false;
-    const lastMove = {
-        isKingsideCastling: false,
-        isQueensideCastling: false,
-        isCapture: false,
-        isEnPassant: false,
-        promotionPieceName: undefined,
-    };
-
-    const state =new DefaultChessBoardState(
+    let state = new DefaultChessBoardState(
         'root',
         'root',
         asWhite,
         squares,
         pieces,
-        badges,
-        marks,
-        arrows,
-        comments,
+        noBadges,
+        noMarks,
+        noArrows,
+        [],
         capturedWhitePieces,
         capturedBlackPieces,
         movedPieces,
-        validWhiteMoves,
-        validBlackMoves,
-        blackTargetSquareIds,
-        whiteTargetSquareIDs,
-        moves,
-        whiteKingStatus,
-        blackKingStatus,
-        isInStalemate,
-        lastMove
+        {},
+        {},
+        [],
+        [],
+        [],
+        {
+            squareId: whiteKingSquareId,
+            isInCheck: false,
+            isInCheckMate: false,
+        },
+        {
+            squareId: blackKingSquareId,
+            isInCheck: false,
+            isInCheckMate: false,
+        },
+        false,
+        {
+            isKingsideCastling: false,
+            isQueensideCastling: false,
+            isCapture: false,
+            isEnPassant: false,
+            promotionPieceName: undefined,
+        }
     );
 
-    // create controller and move the piece
-    const controller = defaultChessBoardController(asWhite, true, state);
-    controller.updateGameState(state, [sourceSquareId, targetSquareId], true);
-    // console.log(controller.currentState());
-    controller.onMove(sourceSquareId, targetSquareId);
+    // create controller to update the state
+    const controller = defaultChessBoardController('Explore',true, true, state);
+    // update the state
+    controller.updateGameState(state, true);
 
-    // return the new state
-    return controller.currentState();
+    if (move) {
+        // create controller with the updated state
+        const controller = defaultChessBoardController('Explore', true, true, state);
+        // make the move
+        controller.onMove(move[0], move[1]);
+        // extract the updated state
+        state = controller.currentState();
+    }
+    // return the updated state
+    return state;
+}
+
+const getDistance = (squareId1: SquareId, squareId2: SquareId): number => {
+    const squareInfo1 = asSquareInfo(squareId1);
+    const squareInfo2 = asSquareInfo(squareId2);
+    const [x1, y1] = [squareInfo1.fileIndex, squareInfo1.rankIndex];
+    const [x2, y2] = [squareInfo2.fileIndex, squareInfo2.rankIndex];
+    return Math.abs(x1 - x2) + Math.abs(y1 - y2);
+}
+
+const findSolution = (
+    asWhite: boolean,
+    pieceIds: PieceId[],
+    maxIterations: number,
+    squareRestrictions?: Partial<Record<PieceId, SquareId[]>>
+): Partial<Record<SquareId, PieceId>> | null => {
+    let iterations = 0;
+
+    // create array with the kings first.
+    const allPieceIds: PieceId[] = [
+        'wk1', 'bk1',
+        ...pieceIds.filter((pieceId) => pieceId !== 'wk1' && pieceId !== 'bk1')
+    ];
+
+    let whiteKingOnBoard = false;
+    let blackKingOnBoard = false;
+
+    const placePiece = (pieceIds: PieceId[], index: number, setup: Partial<Record<SquareId, PieceId>>): Partial<Record<SquareId, PieceId>> | null => {
+
+        // we are done
+        if (index >= pieceIds.length) return setup;
+
+        const pieceId: PieceId = pieceIds[index];
+        const pieceInfo = asPieceInfo(pieceId);
+
+        // get valid squares for this piece
+        const validSquareIds = [...squareIds].filter((squareId) => {
+            if (setup[squareId as SquareId]) return false;
+
+            const squareInfo = asSquareInfo(squareId as SquareId);
+
+            // King distance check
+            if (pieceId === 'wk1' || pieceId === 'bk1') {
+                for (const [existingSquareId, existingPieceId] of Object.entries(setup)) {
+                    const existingPieceInfo = asPieceInfo(existingPieceId);
+                    if (existingPieceInfo && existingPieceInfo.pieceName === 'k' && getDistance(squareId as SquareId, existingSquareId as SquareId) === 1) {
+                        return false;
+                    }
+                }
+            }
+
+            // restrict pawns to ranks 2..7
+            if (pieceInfo.pieceName === 'p') {
+                if (squareInfo.rankName === '1' || squareInfo.rankName === '8') return false;
+            }
+
+            // restricted squares for this piece
+            if (possibleTargetSquareIds[pieceId]) {
+                if (!possibleTargetSquareIds[pieceId].includes(squareId)) return false;
+            }
+
+            if (squareRestrictions && squareRestrictions[pieceId]) {
+                if (!squareRestrictions[pieceId].includes(squareId)) return false;
+            }
+            return true;
+        });
+
+        validSquareIds.sort(() => Math.random() - 0.5);
+        for (const squareId of validSquareIds) {
+            // console.log(`Placing piece ${pieceId} ${pieceInfo.pieceName} on ${squareId} ... ${validSquareIds.length} valid squares`);
+
+            const newSetup = { ...setup, [squareId]: pieceId };
+
+            blackKingOnBoard = Object.values(newSetup).includes('bk1');
+            whiteKingOnBoard = Object.values(newSetup).includes('wk1');
+
+            // check if valid solution
+            iterations++;
+            if (iterations >= maxIterations) {
+                console.log(`No solution found after ${iterations} iterations`);
+                return null
+            };
+
+            if (blackKingOnBoard && whiteKingOnBoard) {
+                const state = setupChessBoardState(asWhite, newSetup)
+                if (state.isInStalemate || state.blackKingStatus.isInCheck || state.whiteKingStatus.isInCheck) {
+                    console.log(`Solution does not work`, state.isInStalemate, state.blackKingStatus.isInCheck, state.whiteKingStatus.isInCheck);
+                    continue;
+                }
+            }
+
+            const solution = placePiece(pieceIds, index + 1, newSetup);
+            if (solution) return solution;
+        }
+
+        return null;
+    }
+
+    return placePiece(allPieceIds, 0, {});
+};
+
+export const randomChessBoardState = (
+    asWhite: boolean,
+    pieceIds: PieceId[],
+    squareRestrictions?: Partial<Record<PieceId, SquareId[]>>
+): ChessBoardState => {
+
+    const solution: Partial<Record<SquareId, PieceId>> | null = findSolution(asWhite, pieceIds, 40, squareRestrictions);
+    if (!solution) {
+        console.error('No solution found');
+        return setupChessBoardState(asWhite, defaultSquares);
+    }
+    return setupChessBoardState(asWhite, solution);
 }
 
 export const defaultChessBoardState = () => {
-    const asWhite = true;
-    const squares = defaultSquares;
-    const pieces = defaultPieces;
-    const badges = noBadges;
-    const marks = noMarks;
-    const arrows = noArrows;
-    const comments: string[] = [];
-    const capturedWhitePieces: PieceId[] = [];
-    const capturedBlackPieces: PieceId[] = [];
-    const movedPieces: PieceId[] = [];
-    const validWhiteMoves = defaultValidWhiteMoves;
-    const validBlackMoves = defaultValidBlackMoves;
-    const blackTargetSquareIds = Object.entries(defaultValidBlackMoves)
-        .filter(([pieceId]) => asPieceInfo(pieceId as PieceId).colorName === 'b')
-        .flatMap(([, moves]) => moves);
-    const whiteTargetSquareIDs = Object.entries(defaultValidWhiteMoves)
-        .filter(([pieceId]) => asPieceInfo(pieceId as PieceId).colorName === 'w')
-        .flatMap(([, moves]) => moves);
-    const moves: [SquareId, SquareId][] = [];
-    const whiteKingStatus: KingStatus = {
-        squareId: 'e1',
-        isInCheck: false,
-        isInCheckMate: false,
-    };
-    const blackKingStatus: KingStatus = {
-        squareId: 'e8',
-        isInCheck: false,
-        isInCheckMate: false,
-    };
-    const isInStalemate = false;
-    const lastMove = {
-        isKingsideCastling: false,
-        isQueensideCastling: false,
-        isCapture: false,
-        isEnPassant: false,
-        promotionPieceName: undefined,
-    };
-    return new DefaultChessBoardState(
-        'root',
-        'root',
-        asWhite,
-        squares,
-        pieces,
-        badges,
-        marks,
-        arrows,
-        comments,
-        capturedWhitePieces,
-        capturedBlackPieces,
-        movedPieces,
-        validWhiteMoves,
-        validBlackMoves,
-        blackTargetSquareIds,
-        whiteTargetSquareIDs,
-        moves,
-        whiteKingStatus,
-        blackKingStatus,
-        isInStalemate,
-        lastMove
-    );
+    return setupChessBoardState(true, defaultSquares);
 };
-
+export const emptyChessBoardState = () => {
+    return setupChessBoardState(true, {
+        'e1': 'wk1',
+        'e8': 'bk1'
+    });
+};
 export type ChessBoardItem = {
     state: ChessBoardState,
     lineIndex: number,

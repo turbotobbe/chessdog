@@ -109,6 +109,7 @@ export const gridZIndexes: Record<string, number> = {
     arrow: 4,
     drag: 5,
     glass: 6,
+    comment: 7,
 }
 
 export const isEqual = (a: DnDCellId, b: DnDCellId): boolean => {

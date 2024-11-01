@@ -30,15 +30,15 @@ export type SideName = 'kingside' | 'queenside';
 export type PieceId =
   'wk1' | 'wq1' | 'wr1' | 'wr2' | 'wn1' | 'wn2' | 'wb1' | 'wb2' | 'wp1' | 'wp2' | 'wp3' | 'wp4' | 'wp5' | 'wp6' | 'wp7' | 'wp8' |
   'bk1' | 'bq1' | 'br1' | 'br2' | 'bn1' | 'bn2' | 'bb1' | 'bb2' | 'bp1' | 'bp2' | 'bp3' | 'bp4' | 'bp5' | 'bp6' | 'bp7' | 'bp8';
-  // 'wp1q' | 'wp1r' | 'wp1b' | 'wp1n' | 'bp1q' | 'bp1r' | 'bp1b' | 'bp1n' |
+// 'wp1q' | 'wp1r' | 'wp1b' | 'wp1n' | 'bp1q' | 'bp1r' | 'bp1b' | 'bp1n' |
 
-  // 'wp2q' | 'wp2r' | 'wp2b' | 'wp2n' | 'bp2q' | 'bp2r' | 'bp2b' | 'bp2n' |
-  // 'wp3q' | 'wp3r' | 'wp3b' | 'wp3n' | 'bp3q' | 'bp3r' | 'bp3b' | 'bp3n' |
-  // 'wp4q' | 'wp4r' | 'wp4b' | 'wp4n' | 'bp4q' | 'bp4r' | 'bp4b' | 'bp4n' |
-  // 'wp5q' | 'wp5r' | 'wp5b' | 'wp5n' | 'bp5q' | 'bp5r' | 'bp5b' | 'bp5n' |
-  // 'wp6q' | 'wp6r' | 'wp6b' | 'wp6n' | 'bp6q' | 'bp6r' | 'bp6b' | 'bp6n' |
-  // 'wp7q' | 'wp7r' | 'wp7b' | 'wp7n' | 'bp7q' | 'bp7r' | 'bp7b' | 'bp7n' |
-  // 'wp8q' | 'wp8r' | 'wp8b' | 'wp8n' | 'bp8q' | 'bp8r' | 'bp8b' | 'bp8n';
+// 'wp2q' | 'wp2r' | 'wp2b' | 'wp2n' | 'bp2q' | 'bp2r' | 'bp2b' | 'bp2n' |
+// 'wp3q' | 'wp3r' | 'wp3b' | 'wp3n' | 'bp3q' | 'bp3r' | 'bp3b' | 'bp3n' |
+// 'wp4q' | 'wp4r' | 'wp4b' | 'wp4n' | 'bp4q' | 'bp4r' | 'bp4b' | 'bp4n' |
+// 'wp5q' | 'wp5r' | 'wp5b' | 'wp5n' | 'bp5q' | 'bp5r' | 'bp5b' | 'bp5n' |
+// 'wp6q' | 'wp6r' | 'wp6b' | 'wp6n' | 'bp6q' | 'bp6r' | 'bp6b' | 'bp6n' |
+// 'wp7q' | 'wp7r' | 'wp7b' | 'wp7n' | 'bp7q' | 'bp7r' | 'bp7b' | 'bp7n' |
+// 'wp8q' | 'wp8r' | 'wp8b' | 'wp8n' | 'bp8q' | 'bp8r' | 'bp8b' | 'bp8n';
 
 export type SquareId =
   'a1' | 'a2' | 'a3' | 'a4' | 'a5' | 'a6' | 'a7' | 'a8' |
@@ -160,38 +160,240 @@ export const blackPieceIds: PieceId[] = [
   'bp1', 'bp2', 'bp3', 'bp4', 'bp5', 'bp6', 'bp7', 'bp8',
 ];
 
+export const possibleTargetSquareIds: Partial<Record<PieceId, SquareId[]>> = {
+
+  'wp1': [
+    'a8', 'a7', 'a6', 'a5', 'a4', 'a3', 'a2',
+    'b8', 'b7', 'b6', 'b5', 'b4', 'b3',
+    'c8', 'c7', 'c6', 'c5', 'c4',
+    'd8', 'd7', 'd6', 'd5',
+    'e8', 'e7', 'e6',
+    'f8', 'f7',
+    'g8'
+  ],
+  'wp2': [
+    'a8', 'a7', 'a6', 'a5', 'a4', 'a3',
+    'b8', 'b7', 'b6', 'b5', 'b4', 'b3', 'b2',
+    'c8', 'c7', 'c6', 'c5', 'c4', 'c3',
+    'd8', 'd7', 'd6', 'd5', 'd4',
+    'e8', 'e7', 'e6', 'e5',
+    'f8', 'f7', 'f6',
+    'g8', 'g7',
+    'h8'
+  ],
+  'wp3': [
+    'a8', 'a7', 'a6', 'a5', 'a4',
+    'b8', 'b7', 'b6', 'b5', 'b4', 'b3',
+    'c8', 'c7', 'c6', 'c5', 'c4', 'c3', 'c2',
+    'd8', 'd7', 'd6', 'd5', 'd4', 'd3',
+    'e8', 'e7', 'e6', 'e5', 'e4',
+    'f8', 'f7', 'f6', 'f5',
+    'g8', 'g7', 'g6',
+    'h8', 'h7'
+  ],
+  'wp4': [
+    'a8', 'a7', 'a6', 'a5',
+    'b8', 'b7', 'b6', 'b5', 'b4',
+    'c8', 'c7', 'c6', 'c5', 'c4', 'c3',
+    'd8', 'd7', 'd6', 'd5', 'd4', 'd3', 'd2',
+    'e8', 'e7', 'e6', 'e5', 'e4', 'e3',
+    'f8', 'f7', 'f6', 'f5', 'f4',
+    'g8', 'g7', 'g6', 'g5',
+    'h8', 'h7', 'h6'
+  ],
+  'wp5': [
+    'a8', 'a7', 'a6',
+    'b8', 'b7', 'b6', 'b5',
+    'c8', 'c7', 'c6', 'c5', 'c4',
+    'd8', 'd7', 'd6', 'd5', 'd4', 'd3',
+    'e8', 'e7', 'e6', 'e5', 'e4', 'e3', 'e2',
+    'f8', 'f7', 'f6', 'f5', 'f4', 'f3',
+    'g8', 'g7', 'g6', 'g5', 'g4',
+    'h8', 'h7', 'h6', 'h5'
+  ],
+  'wp6': [
+    'a8', 'a7',
+    'b8', 'b7', 'b6',
+    'c8', 'c7', 'c6', 'c5',
+    'd8', 'd7', 'd6', 'd5', 'd4',
+    'e8', 'e7', 'e6', 'e5', 'e4', 'e3',
+    'f8', 'f7', 'f6', 'f5', 'f4', 'f3', 'f2',
+    'g8', 'g7', 'g6', 'g5', 'g4', 'g3',
+    'h8', 'h7', 'h6', 'h5', 'h4'
+  ],
+  'wp7': [
+    'a8',
+    'b8', 'b7',
+    'c8', 'c7', 'c6',
+    'd8', 'd7', 'd6', 'd5',
+    'e8', 'e7', 'e6', 'e5', 'e4',
+    'f8', 'f7', 'f6', 'f5', 'f4', 'f3',
+    'g8', 'g7', 'g6', 'g5', 'g4', 'g3', 'g2',
+    'h8', 'h7', 'h6', 'h5', 'h4', 'h3'
+  ],
+  'wp8': [
+    'b8',
+    'c8', 'c7',
+    'd8', 'd7', 'd6',
+    'e8', 'e7', 'e6', 'e5',
+    'f8', 'f7', 'f6', 'f5', 'f4',
+    'g8', 'g7', 'g6', 'g5', 'g4', 'g3',
+    'h8', 'h7', 'h6', 'h5', 'h4', 'h3', 'h2'
+  ],
+  'bp1': [
+    'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7',
+    'b1', 'b2', 'b3', 'b4', 'b5', 'b6',
+    'c1', 'c2', 'c3', 'c4', 'c5',
+    'd1', 'd2', 'd3', 'd4',
+    'e1', 'e2', 'e3',
+    'f1', 'f2',
+    'g1'
+  ],
+  'bp2': [
+    'a1', 'a2', 'a3', 'a4', 'a5', 'a6',
+    'b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7',
+    'c1', 'c2', 'c3', 'c4', 'c5', 'c6',
+    'd1', 'd2', 'd3', 'd4', 'd5',
+    'e1', 'e2', 'e3', 'e4',
+    'f1', 'f2', 'f3',
+    'g1', 'g2',
+    'h1'
+  ],
+  'bp3': [
+    'a1', 'a2', 'a3', 'a4', 'a5',
+    'b1', 'b2', 'b3', 'b4', 'b5', 'b6',
+    'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7',
+    'd1', 'd2', 'd3', 'd4', 'd5', 'd6',
+    'e1', 'e2', 'e3', 'e4', 'e5',
+    'f1', 'f2', 'f3', 'f4',
+    'g1', 'g2', 'g3',
+    'h1', 'h2'
+  ],
+  'bp4': [
+    'a1', 'a2', 'a3', 'a4',
+    'b1', 'b2', 'b3', 'b4', 'b5',
+    'c1', 'c2', 'c3', 'c4', 'c5', 'c6',
+    'd1', 'd2', 'd3', 'd4', 'd5', 'd6', 'd7',
+    'e1', 'e2', 'e3', 'e4', 'e5', 'e6',
+    'f1', 'f2', 'f3', 'f4', 'f5',
+    'g1', 'g2', 'g3', 'g4',
+    'h1', 'h2', 'h3'
+  ],
+  'bp5': [
+    'a1', 'a2', 'a3',
+    'b1', 'b2', 'b3', 'b4',
+    'c1', 'c2', 'c3', 'c4', 'c5',
+    'd1', 'd2', 'd3', 'd4', 'd5', 'd6',
+    'e1', 'e2', 'e3', 'e4', 'e5', 'e6', 'e7',
+    'f1', 'f2', 'f3', 'f4', 'f5', 'f6',
+    'g1', 'g2', 'g3', 'g4', 'g5',
+    'h1', 'h2', 'h3', 'h4'
+  ],
+  'bp6': [
+    'a1', 'a2',
+    'b1', 'b2', 'b3',
+    'c1', 'c2', 'c3', 'c4',
+    'd1', 'd2', 'd3', 'd4', 'd5',
+    'e1', 'e2', 'e3', 'e4', 'e5', 'e6',
+    'f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7',
+    'g1', 'g2', 'g3', 'g4', 'g5', 'g6',
+    'h1', 'h2', 'h3', 'h4', 'h5'
+  ],
+  'bp7': [
+    'a1',
+    'b1', 'b2',
+    'c1', 'c2', 'c3',
+    'd1', 'd2', 'd3', 'd4',
+    'e1', 'e2', 'e3', 'e4', 'e5',
+    'f1', 'f2', 'f3', 'f4', 'f5', 'f6',
+    'g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'g7',
+    'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
+  ],
+  'bp8': [
+    'b1',
+    'c1', 'c2',
+    'd1', 'd2', 'd3',
+    'e1', 'e2', 'e3', 'e4',
+    'f1', 'f2', 'f3', 'f4', 'f5',
+    'g1', 'g2', 'g3', 'g4', 'g5', 'g6',
+    'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'h7'
+  ],
+  'wb1': [
+    'a1', 'a3', 'a5', 'a7',
+    'b2', 'b4', 'b6', 'b8',
+    'c1', 'c3', 'c5', 'c7',
+    'd2', 'd4', 'd6', 'd8',
+    'e1', 'e3', 'e5', 'e7',
+    'f2', 'f4', 'f6', 'f8',
+    'g1', 'g3', 'g5', 'g7',
+    'h2', 'h4', 'h6', 'h8'
+  ],
+  'wb2': [
+    'a2', 'a4', 'a6', 'a8',
+    'b1', 'b3', 'b5', 'b7',
+    'c2', 'c4', 'c6', 'c8',
+    'd1', 'd3', 'd5', 'd7',
+    'e2', 'e4', 'e6', 'e8',
+    'f1', 'f3', 'f5', 'f7',
+    'g2', 'g4', 'g6', 'g8',
+    'h1', 'h3', 'h5', 'h7'
+  ],
+  'bb1': [
+    'a2', 'a4', 'a6', 'a8',
+    'b1', 'b3', 'b5', 'b7',
+    'c2', 'c4', 'c6', 'c8',
+    'd1', 'd3', 'd5', 'd7',
+    'e2', 'e4', 'e6', 'e8',
+    'f1', 'f3', 'f5', 'f7',
+    'g2', 'g4', 'g6', 'g8',
+    'h1', 'h3', 'h5', 'h7'
+  ],
+  'bb2': [
+    'a1', 'a3', 'a5', 'a7',
+    'b2', 'b4', 'b6', 'b8',
+    'c1', 'c3', 'c5', 'c7',
+    'd2', 'd4', 'd6', 'd8',
+    'e1', 'e3', 'e5', 'e7',
+    'f2', 'f4', 'f6', 'f8',
+    'g1', 'g3', 'g5', 'g7',
+    'h2', 'h4', 'h6', 'h8'
+  ],
+};
+
 export const castlingSquareIds = {
   white: {
-      kingSquareId: 'e1' as SquareId,
+    kingSquareId: 'e1' as SquareId,
+    queenSide: {
       rookSquareId: 'a1' as SquareId,
-      queenSide: {
-          castleSquareId: 'c1' as SquareId,
-          middleSquareId: 'd1' as SquareId,
-          middleSquares: ['b1' as SquareId, 'c1' as SquareId, 'd1' as SquareId],
-          targetSquares: ['c1' as SquareId, 'd1' as SquareId, 'e1' as SquareId],
-      },
-      kingSide: {
-          castleSquareId: 'g1' as SquareId,
-          middleSquareId: 'f1' as SquareId,
-          middleSquares: ['f1' as SquareId, 'g1' as SquareId],
-          targetSquares: ['e1' as SquareId, 'f1' as SquareId, 'g1' as SquareId],
-      },
+      castleSquareId: 'c1' as SquareId,
+      middleSquareId: 'd1' as SquareId,
+      middleSquares: ['b1' as SquareId, 'c1' as SquareId, 'd1' as SquareId],
+      targetSquares: ['c1' as SquareId, 'd1' as SquareId, 'e1' as SquareId],
+    },
+    kingSide: {
+      rookSquareId: 'h1' as SquareId,
+      castleSquareId: 'g1' as SquareId,
+      middleSquareId: 'f1' as SquareId,
+      middleSquares: ['f1' as SquareId, 'g1' as SquareId],
+      targetSquares: ['e1' as SquareId, 'f1' as SquareId, 'g1' as SquareId],
+    },
   },
   black: {
-      kingSquareId: 'e8' as SquareId,
+    kingSquareId: 'e8' as SquareId,
+    queenSide: {
       rookSquareId: 'a8' as SquareId,
-      queenSide: {
-          castleSquareId: 'c8' as SquareId,
-          middleSquareId: 'd8' as SquareId,
-          middleSquares: ['b8' as SquareId, 'c8' as SquareId, 'd8' as SquareId],
-          targetSquares: ['c8' as SquareId, 'd8' as SquareId, 'e8' as SquareId],
-      },
-      kingSide: {
-          castleSquareId: 'g8' as SquareId,
-          middleSquareId: 'f8' as SquareId,
-          middleSquares: ['f8' as SquareId, 'g8' as SquareId],
-          targetSquares: ['e8' as SquareId, 'f8' as SquareId, 'g8' as SquareId],
-      },
+      castleSquareId: 'c8' as SquareId,
+      middleSquareId: 'd8' as SquareId,
+      middleSquares: ['b8' as SquareId, 'c8' as SquareId, 'd8' as SquareId],
+      targetSquares: ['c8' as SquareId, 'd8' as SquareId, 'e8' as SquareId],
+    },
+    kingSide: {
+      rookSquareId: 'h8' as SquareId,
+      castleSquareId: 'g8' as SquareId,
+      middleSquareId: 'f8' as SquareId,
+      middleSquares: ['f8' as SquareId, 'g8' as SquareId],
+      targetSquares: ['e8' as SquareId, 'f8' as SquareId, 'g8' as SquareId],
+    },
   },
 }
 

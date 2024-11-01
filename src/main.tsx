@@ -7,6 +7,9 @@ import MuiApp from './MuiApp.tsx'
 import AnalysisPage from './pages/AnalysisPage.tsx'
 import MessagePage from './pages/MessagePage.tsx'
 import HomePage from './pages/HomePage.tsx'
+import DevPage from './pages/DevPage.tsx'
+import EndGamesPage from './pages/EndgamesPage.tsx'
+import EndgamePage from './pages/EndgamePage.tsx'
 
 // const darkTheme = createTheme({
 //   cssVariables: true,
@@ -39,6 +42,10 @@ const router = createBrowserRouter([
         Component: HomePage,
       },
       {
+        path: '/dev',
+        Component: DevPage,
+      },
+      {
         path: '/analysis',
         Component: AnalysisPage,
       },
@@ -60,11 +67,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/endgames',
-        Component: () => <MessagePage title='Endgames' message='Master the endgames to win more games.' />,
+        Component: EndGamesPage,
       },
       {
         path: '/endgames/:endgameSlug',
-        Component: () => <MessagePage title='Endgames' message='Master the endgames to win more games.' />,
+        Component: EndgamePage,
       },
       {
         path: '/tactics',

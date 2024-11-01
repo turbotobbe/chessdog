@@ -119,7 +119,7 @@ export const ChessBoard: React.FC<ChessBoardProps> = ({
     const marks = state.marks;
     const arrows = state.arrows;
     const targets = { ...state.validWhiteMoves, ...state.validBlackMoves };
-
+    const comment = state.comments.join('\n');
     // Force re-render when asWhite changes
     const gridKey = useMemo(() => `${chessBoardKey}-${asWhite}`, [chessBoardKey, asWhite]);
 
@@ -133,6 +133,7 @@ export const ChessBoard: React.FC<ChessBoardProps> = ({
             marks={marks}
             arrows={arrows}
             targets={targets}
+            comment={comment}
             markColorName={markColorName}
             arrowColorName={arrowColorName}
             toCellId={toCellId}

@@ -58,7 +58,10 @@ export const getPawnCandidateMoves = (squareInfo: SquareInfo, pieceInfo: PieceIn
             const targetSquareRankIndex = squareInfo.rankIndex + (isWhite ? 2 : -2);
             const targetSquareId = asSquareId(targetSquareFileIndex, targetSquareRankIndex);
             const targetPieceId = pieces[targetSquareId];
-            if (!targetPieceId) {
+            // Need to check if the intermediate square is blocked
+            const intermediateSquareId = asSquareId(squareInfo.fileIndex, squareInfo.rankIndex + (isWhite ? 1 : -1));
+            const intermediatePieceId = pieces[intermediateSquareId];
+            if (!targetPieceId && !intermediatePieceId) {
                 candidateMoves.push(targetSquareId);
             }
         }
@@ -216,18 +219,9 @@ export const getKingCandidateMoves = (
     ];
 
     // must not have moved
-    const hasKingMoved = movedPieces.indexOf(pieceInfo.id) >= 0;
-    // if (hasKingMoved) {
-    //     console.log(`king ${pieceInfo.id} has moved`, movedPieces);
-    // }
-    const hasQueenSideRookMoved = movedPieces.indexOf(isWhite ? 'wr1' : 'br2') >= 0;
-    // if (hasQueenSideRookMoved) {
-    //     console.log(`queen side rook ${isWhite ? 'wr1' : 'wr2'} has moved`, movedPieces);
-    // }
+    const hasKingMoved = movedPieces.indexOf(isWhite ? 'wk1' : 'bk1') >= 0;
+    const hasQueenSideRookMoved = movedPieces.indexOf(isWhite ? 'wr1' : 'br1') >= 0;
     const hasKingSideRookMoved = movedPieces.indexOf(isWhite ? 'wr2' : 'br2') >= 0;
-    // if (hasKingSideRookMoved) {
-    //     console.log(`king side rook ${isWhite ? 'br1' : 'br2'} has moved`, movedPieces);
-    // }
 
     // must have empty squares between king and rook to castle
     const queenSideSquareIds: SquareId[] = isWhite ? castlingSquareIds.white.queenSide.middleSquares : castlingSquareIds.black.queenSide.middleSquares;
@@ -241,7 +235,9 @@ export const getKingCandidateMoves = (
     if (!hasKingMoved && !hasQueenSideRookMoved && nonEmptyQueenSideSquares === 0) offsets.push([[-2, 0]]);
     if (!hasKingMoved && !hasKingSideRookMoved && nonEmptyKingSideSquares === 0) offsets.push([[2, 0]]);
 
-    return getCandidateMovesForOffsets(squareInfo, pieceInfo, pieces, offsets);
+    const candidateMoves = getCandidateMovesForOffsets(squareInfo, pieceInfo, pieces, offsets);
+    // console.log(`Candidate moves for ${pieceInfo.colorName}${pieceInfo.pieceName} at ${squareInfo.id}:`, candidateMoves);
+    return candidateMoves;
 };
 
 export const getCandidateMovesForOffsets = (squareInfo: SquareInfo, pieceInfo: PieceInfo, pieces: Partial<Record<SquareId, PieceId>>, offsets: number[][][]): SquareId[] => {

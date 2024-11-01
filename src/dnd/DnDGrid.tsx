@@ -7,6 +7,7 @@ import { GridColorName, DnDSize, gridColorNames, DnDCellId, DnDOffset, gridZInde
 import DnDArrow from './DnDArrow';
 import DnDCell from './DnDCell';
 import DnDItem from './DnDItem';
+import DnDComment from './DnDComment';
 
 type DndGridProps = {
     rows: number,
@@ -15,6 +16,7 @@ type DndGridProps = {
     marks: Record<GridColorName, string[]>,
     arrows: Record<GridColorName, [string, string][]>,
     badges: Record<string, DnDBadgeName>,
+    comment?: string,
     targets: Record<string, string[]>,
     markColorName: GridColorName | null,
     arrowColorName: GridColorName | null,
@@ -44,6 +46,7 @@ const DnDGrid: React.FC<DndGridProps> = ({
     marks,
     arrows,
     badges,
+    comment,
     targets,
     markColorName,
     arrowColorName,
@@ -219,6 +222,33 @@ const DnDGrid: React.FC<DndGridProps> = ({
         }
     }, [isDragging, handleOnDrop]);
 
+    const commentsOnBottom = useCallback(() => {
+        // Count items in first two and last two rows
+        let itemsInTopRows = 0;
+        let itemsOnTopHalf = 0;
+        let itemsInBottomRows = 0;
+        let itemsOnBottomHalf = 0;
+
+        for (const [itemKey, _] of Object.entries(items)) {
+            const cellId = toCellId(itemKey);
+            if (cellId.row < 2) {
+                itemsInTopRows++;
+            } else if (cellId.row >= rows - 2) {
+                itemsInBottomRows++;
+            }
+            if (cellId.row < rows / 2) {
+                itemsOnTopHalf++;
+            } else {
+                itemsOnBottomHalf++;
+            }
+        }
+
+        // Return true if less items in bottom rows
+        if (itemsInBottomRows === itemsInTopRows) {
+            return itemsOnBottomHalf <= itemsOnTopHalf;
+        }
+        return itemsInBottomRows <= itemsInTopRows;
+    }, [items, toCellId, rows]);
     return (
         <DnDContext.Provider value={{
             rows,
@@ -327,6 +357,7 @@ const DnDGrid: React.FC<DndGridProps> = ({
                         )
                     })}
 
+                    {comment && <DnDComment message={comment} bottom={commentsOnBottom()} />}
                     {isShiftKeyPressed && <DnDGlass />}
                 </>
             </Box>
