@@ -10,6 +10,8 @@ import HomePage from './pages/HomePage.tsx'
 import DevPage from './pages/DevPage.tsx'
 import EndGamesPage from './pages/EndgamesPage.tsx'
 import EndgamePage from './pages/EndgamePage.tsx'
+import OpeningsPage from './pages/OpeningsPage.tsx'
+import OpeningPage from './pages/OpeningPage.tsx'
 
 // const darkTheme = createTheme({
 //   cssVariables: true,
@@ -59,11 +61,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/openings',
-        Component: () => <MessagePage title='Openings' message='Study what the best players are playing.' />,
+        Component: OpeningsPage,
       },
       {
-        path: '/openings/:openingSlug',
-        Component: () => <MessagePage title='Openings' message='Study what the best players are playing.' />,
+        path: '/openings/:openingCategorySlug/:openingSlug',
+        Component: OpeningPage,
       },
       {
         path: '/endgames',

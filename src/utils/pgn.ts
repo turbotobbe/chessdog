@@ -1,4 +1,5 @@
-import { ChessGameState } from "@/models/chess";
+import { ChessBoardState } from "@/contexts/ChessBoardState";
+import { asPieceInfo } from "@/models/chess";
 import { Move, PieceName, SquareId, squareIds } from "@/types/chess";
 
 
@@ -405,20 +406,85 @@ export function movesToTurns(moves: PgnMove[]): PgnTurn[] {
 }
 
 
-export function parseMove(chessGameState: ChessGameState, move: string): Move {
+// export function parseMove(chessGameState: ChessGameState, move: string): Move {
+//     // Remove any check (+) or checkmate (#) symbols
+//     move = move.replace(/[+#]/, '');
+
+//     const activeColor = chessGameState.whitesTurn ? 'w' : 'b';
+
+//     // Castling king side
+//     if (move === 'O-O' || move === '0-0') {
+//         return chessGameState.whitesTurn ? { sourceSquareId: 'e1', targetSquareId: 'g1' } : { sourceSquareId: 'e8', targetSquareId: 'g8' };
+//     }
+
+//     // Castling queen side
+//     if (move === 'O-O-O' || move === '0-0-0') {
+//         return chessGameState.whitesTurn ? { sourceSquareId: 'e1', targetSquareId: 'c1' } : { sourceSquareId: 'e8', targetSquareId: 'c8' };
+//     }
+
+//     // Regular moves
+//     const pieceRegex = /^([KQRBN])?([a-h])?([1-8])?(x)?([a-h])([1-8])(=([QRBN]))?$/;
+//     const match = move.match(pieceRegex);
+
+//     if (match) {
+//         const [, piece, fromFile, fromRank, _capture, toFile, toRank, _, promotion] = match;
+//         // console.log(piece, fromFile, fromRank, capture, toFile, toRank, _, promotion)
+
+//         const targetSquareId = `${toFile}${toRank}` as SquareId;
+//         const pieceName = piece ? piece.toLowerCase() : 'p';
+
+//         // console.log(`Looking for ${activeColor}${pieceName} that can move to ${targetSquareId}`);
+
+//         if (fromFile && fromRank) {
+//             const sourceSquareId = `${fromFile}${fromRank}` as SquareId;
+//             return { sourceSquareId, targetSquareId, promotionPieceName: promotion ? (promotion.toLowerCase() as PieceName) : undefined };
+//         }
+
+//         const possibleSourceSquareIds = squareIds.filter((squareId: SquareId) => {
+//             const pieceState = chessGameState.getPieceAt(squareId);
+//             if (!pieceState) return false;
+//             if (pieceState.colorName !== activeColor) return false;
+//             if (pieceState.pieceName !== pieceName) return false;
+
+//             // console.log(`Checking ${squareId}: ${pieceState.colorName}${pieceState.pieceName}`, pieceState.validMoveSquareIds);
+//             return pieceState.validMoveSquareIds.includes(targetSquareId);
+//         });
+
+//         // console.log('Possible source squares:', possibleSourceSquareIds);
+
+//         if (possibleSourceSquareIds.length === 1) {
+//             return { sourceSquareId: possibleSourceSquareIds[0], targetSquareId, promotionPieceName: promotion ? promotion.toLowerCase() as PieceName : undefined };
+//         } else if (possibleSourceSquareIds.length > 1) {
+//             // If there are multiple possible source squares, use fromFile or fromRank to disambiguate
+//             const disambiguatedSquare = possibleSourceSquareIds.find(squareId =>
+//                 (!fromFile || squareId[0] === fromFile) && (!fromRank || squareId[1] === fromRank)
+//             );
+//             if (disambiguatedSquare) {
+//                 return { sourceSquareId: disambiguatedSquare, targetSquareId, promotionPieceName: promotion ? promotion.toLowerCase() as PieceName : undefined };
+//             }
+//         }
+//         console.log('Possible source squares:', possibleSourceSquareIds);
+//         console.log('Move:', move);
+//         console.log('Match:', match);
+//     }
+
+//     throw new Error(`Invalid move '${move} '${match}'`);
+// }
+
+export function parseMove(chessBoardState: ChessBoardState, move: string): Move {
     // Remove any check (+) or checkmate (#) symbols
     move = move.replace(/[+#]/, '');
 
-    const activeColor = chessGameState.whitesTurn ? 'w' : 'b';
+    const activeColor = chessBoardState.whitesTurn ? 'w' : 'b';
 
     // Castling king side
     if (move === 'O-O' || move === '0-0') {
-        return chessGameState.whitesTurn ? { sourceSquareId: 'e1', targetSquareId: 'g1' } : { sourceSquareId: 'e8', targetSquareId: 'g8' };
+        return chessBoardState.whitesTurn ? { sourceSquareId: 'e1', targetSquareId: 'g1' } : { sourceSquareId: 'e8', targetSquareId: 'g8' };
     }
 
     // Castling queen side
     if (move === 'O-O-O' || move === '0-0-0') {
-        return chessGameState.whitesTurn ? { sourceSquareId: 'e1', targetSquareId: 'c1' } : { sourceSquareId: 'e8', targetSquareId: 'c8' };
+        return chessBoardState.whitesTurn ? { sourceSquareId: 'e1', targetSquareId: 'c1' } : { sourceSquareId: 'e8', targetSquareId: 'c8' };
     }
 
     // Regular moves
@@ -440,13 +506,16 @@ export function parseMove(chessGameState: ChessGameState, move: string): Move {
         }
 
         const possibleSourceSquareIds = squareIds.filter((squareId: SquareId) => {
-            const pieceState = chessGameState.getPieceAt(squareId);
-            if (!pieceState) return false;
-            if (pieceState.colorName !== activeColor) return false;
-            if (pieceState.pieceName !== pieceName) return false;
+            const pieceId = chessBoardState.squares[squareId]
+            if (!pieceId) return false;
+            const pieceInfo = asPieceInfo(pieceId);
+            if (pieceInfo.colorName !== activeColor) return false;
+            if (pieceInfo.pieceName !== pieceName) return false;
 
+            const validMoves = chessBoardState.whitesTurn ? chessBoardState.validWhiteMoves[pieceId] : chessBoardState.validBlackMoves[pieceId];
+            if (!validMoves) return false;
             // console.log(`Checking ${squareId}: ${pieceState.colorName}${pieceState.pieceName}`, pieceState.validMoveSquareIds);
-            return pieceState.validMoveSquareIds.includes(targetSquareId);
+            return validMoves.includes(targetSquareId);
         });
 
         // console.log('Possible source squares:', possibleSourceSquareIds);

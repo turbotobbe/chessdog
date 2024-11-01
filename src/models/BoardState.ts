@@ -1,5 +1,5 @@
 import { SquareId } from "@/types/chess";
-import { parseMove, PgnGame } from "@/utils/pgn";
+import { PgnGame } from "@/utils/pgn";
 import { ChessGameState, nextChessGameState } from "./chess";
 
 export class BoardState {
@@ -61,7 +61,10 @@ export function loadBoardState(boardState: BoardState, pgnGames: PgnGame[]): Boa
     for (const turn of game.turns) {
 
       // parse the move
-      const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, turn.white.pgn);
+      // const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, turn.white.pgn);
+      const sourceSquareId = 'a1';
+      const targetSquareId = 'a8';
+      const promotionPieceName = 'q';
 
       // update the chess game state
       chessGameState = nextChessGameState(chessGameState, { sourceSquareId, targetSquareId, promotionPieceName });
@@ -88,7 +91,10 @@ export function loadBoardState(boardState: BoardState, pgnGames: PgnGame[]): Boa
       if (turn.black && turn.black.pgn.length > 0) {
 
         // parse the move
-        const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, turn.black.pgn);
+        // const { sourceSquareId, targetSquareId, promotionPieceName } = parseMove(chessGameState, turn.black.pgn);
+        const sourceSquareId = 'a1';
+        const targetSquareId = 'a8';
+        const promotionPieceName = 'q';
 
         // update the chess game state
         chessGameState = nextChessGameState(chessGameState, { sourceSquareId, targetSquareId, promotionPieceName });

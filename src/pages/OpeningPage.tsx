@@ -6,43 +6,43 @@ import { BoardPaper } from '@/elements/BoardPaper';
 import { SheetPaper } from '@/elements/SheetPaper';
 import { ControlsPaper } from '@/elements/ControlsPaper';
 import { GridColorName } from '@/dnd/DnDTypes';
-import { emptyChessBoardState, randomChessBoardState, setupChessBoardState } from '@/contexts/ChessBoardState';
+import { defaultChessBoardState, emptyChessBoardState } from '@/contexts/ChessBoardState';
 import { ChessBoardController, ControllerHandler } from '@/contexts/ChessBoardController';
 import { useParams } from 'react-router-dom';
-import { Endgame } from '@/types/chess';
-import { parseMove } from '@/utils/pgn';
+import { Opening } from '@/types/chess';
+import { parseMove, parsePgn } from '@/utils/pgn';
 
-const EndgamePage: React.FC = () => {
+const OpeningPage: React.FC = () => {
     const { addController, setController } = useChessBoard();
     const [chessBoardKey, setChessBoardKey] = useState<string | null>(null);
     const [asWhite, setAsWhite] = useState<boolean>(true);
     const [arrowColorName, setArrowColorName] = useState<GridColorName>('orange');
     const [markColorName, setMarkColorName] = useState<GridColorName>('red');
     const [chessBoards, setChessBoards] = useState<{ key: string, controller: ChessBoardController }[]>([]);
-    const { endgameSlug } = useParams<{ endgameSlug?: string }>();
-    const [data, setData] = useState<Endgame | null>(null);
+    const { openingCategorySlug, openingSlug } = useParams<{ openingCategorySlug?: string, openingSlug?: string }>();
+    const [data, setData] = useState<Opening | null>(null);
     // const [error, setError] = useState<Error | null>(null);
 
     const load = useCallback(async () => {
         try {
-            console.log("loading endgame", endgameSlug);
-            const response = await fetch(`/endgames/${endgameSlug}.json`);
-            const data: Endgame = await response.json();
+            console.log("loading opening", openingSlug);
+            const response = await fetch(`/openings/${openingCategorySlug}/${openingSlug}.json`);
+            const data: Opening = await response.json();
             setData(data);
         } catch (error) {
-            console.error("Error fetching endgame data:", error);
+            console.error("Error fetching opening data:", error);
             // setError(error as Error);
         }
-    }, [endgameSlug]);
+    }, [openingSlug]);
 
     useEffect(() => {
         // console.log('chessBoardKey', chessBoardKey);
-        if (!endgameSlug) {
+        if (!openingSlug) {
             setData(null);
             return;
         }
         load();
-    }, [endgameSlug, load]);
+    }, [openingSlug, load]);
 
     useEffect(() => {
         // console.log('data', data);
@@ -65,21 +65,22 @@ const EndgamePage: React.FC = () => {
 
     const loadExploreController = (): ChessBoardController => {
         if (data) {
-            const exploreState = setupChessBoardState(true, data.setup);
+            const exploreState = defaultChessBoardState();
             const exploreController = defaultChessBoardController('Explore', true, true, exploreState.clone());
-            data.moves.forEach(move => {
-                const m = parseMove(exploreController.currentState(), move.pgn);
-                exploreController.onMove(m.sourceSquareId, m.targetSquareId);
-                move.arrows?.forEach((arrow) => {
-                    exploreController.onArrow(arrow.fromSquareId, arrow.toSquareId, 'orange');
+            for (const line of data.lines) {
+                exploreController.selectFirst();
+                const pgnGame = parsePgn(line.moves, line.name);
+                pgnGame.turns.forEach((turn) => {
+                    const move = parseMove(exploreController.currentState(), turn.white.pgn)
+                    // const [sourceSquareId, targetSquareId] = parsePgnMove(exploreController.currentState(), true, turn.white.pgn);
+                    exploreController.onMove(move.sourceSquareId, move.targetSquareId);
+                    if (turn.black) {
+                        const move = parseMove(exploreController.currentState(), turn.black.pgn);
+                        exploreController.onMove(move.sourceSquareId, move.targetSquareId);
+                    }
                 });
-                move.marks?.forEach((mark) => {
-                    exploreController.onMark(mark, 'red');
-                });
-                move.comments?.forEach((comment) => {
-                    exploreController.onComment(comment);
-                });
-            });
+                exploreController.onComment(line.name);
+            };
             exploreController.selectFirst();
             return exploreController;
         } else {
@@ -89,11 +90,25 @@ const EndgamePage: React.FC = () => {
 
     const loadPlayController = (): ChessBoardController => {
         if (data) {
-            const drillState = randomChessBoardState(true, data.drill);
-            const controller = defaultChessBoardController('Play', true, false, drillState.clone());
-            return controller;
+            const playState = defaultChessBoardState();
+            const playController = defaultChessBoardController('Play', true, true, playState.clone());
+            for (const line of data.lines) {
+                playController.selectFirst();
+                const pgnGame = parsePgn(line.moves, line.name);
+                pgnGame.turns.forEach((turn) => {
+                    const move = parseMove(playController.currentState(), turn.white.pgn);
+                    playController.onMove(move.sourceSquareId, move.targetSquareId);
+                    if (turn.black) {
+                        const move = parseMove(playController.currentState(), turn.black.pgn);
+                        playController.onMove(move.sourceSquareId, move.targetSquareId);
+                    }
+                });
+                playController.onComment(line.name);
+            };
+            playController.selectFirst();
+            return playController;
         } else {
-            return defaultChessBoardController('Play', true, false, emptyChessBoardState().clone());
+            return defaultChessBoardController('Play', true, true, emptyChessBoardState().clone());
         }
     }
     const handlers: Record<string, ControllerHandler> = {
@@ -144,4 +159,4 @@ const EndgamePage: React.FC = () => {
     )
 }
 
-export default EndgamePage;
+export default OpeningPage;

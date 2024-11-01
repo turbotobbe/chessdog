@@ -11,9 +11,9 @@ const endgames: Endgames = rawEndgames as Endgames;
 const EndGamesPage: React.FC = () => {
     const navigate = useNavigate();
 
-    function handleSelectEndgame(endgame: string) {
-        console.log("select endgame", endgame);
-        navigate(`/endgames/${endgame}`);
+    function handleSelectEndgame(endgameSlug: string) {
+        console.log("select endgame", endgameSlug);
+        navigate(`/endgames/${endgameSlug}`);
     }
 
     return (
