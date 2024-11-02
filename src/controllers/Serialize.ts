@@ -30,7 +30,7 @@ export function serializeTree(tree: ChessBoardTree): SerializedTree {
     const serializedNodes: { [key: number]: SerializedNode } = {};
 
     // Serialize each node
-    Object.entries(tree.nodes).forEach(([nodeId, node]) => {
+    Object.entries(tree.nodes).forEach(([_nodeId, node]) => {
         // Only store occupied squares
         const squares: { [square: string]: string } = {};
         Object.entries(node.state.squares).forEach(([square, pieceId]) => {
@@ -105,7 +105,7 @@ export function deserializeTree(serialized: SerializedTree, initialState: ChessB
     });
 
     // Deserialize each node
-    Object.entries(serialized.nodes).forEach(([nodeId, node]) => {
+    Object.entries(serialized.nodes).forEach(([_nodeId, node]) => {
         const state = initialState.clone();
 
         // Restore state properties
