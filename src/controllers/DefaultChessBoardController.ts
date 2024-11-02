@@ -325,7 +325,7 @@ export class DefaultChessBoardController extends HistoryChessBoardController {
             this.kind,
             this.enableWhite,
             this.enableBlack,
-            this.initialState,
+            this.gameTree.initialState,
             this.gameTree.clone()
         );
         return newController;

@@ -11,17 +11,17 @@ export const historyChessBoardController = (kind: ChessBoardKind, initialState?:
 export class HistoryChessBoardController implements ChessBoardController {
 
     kind: ChessBoardKind;
-    protected initialState: ChessBoardState;
-    protected gameTree: ChessBoardTree;
+    // initialState: ChessBoardState;
+    gameTree: ChessBoardTree;
 
     constructor(kind: ChessBoardKind, initialState: ChessBoardState, gameTree?: ChessBoardTree) {
         this.kind = kind;
-        this.initialState = initialState.clone();
+        // this.initialState = initialState.clone();
         this.gameTree = gameTree ? gameTree.clone() : new ChessBoardTree(initialState);
     }
 
     clone(): ChessBoardController {
-        return new HistoryChessBoardController(this.kind, this.initialState, this.gameTree);
+        return new HistoryChessBoardController(this.kind, this.gameTree.initialState, this.gameTree);
     }
 
     // methods from ChessBoardTreeType

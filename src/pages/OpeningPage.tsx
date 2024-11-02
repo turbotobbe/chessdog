@@ -9,8 +9,7 @@ import { GridColorName } from '@/dnd/DnDTypes';
 import { defaultChessBoardState, emptyChessBoardState } from '@/contexts/ChessBoardState';
 import { ChessBoardController, ControllerHandler } from '@/contexts/ChessBoardController';
 import { useParams } from 'react-router-dom';
-import { Opening } from '@/types/chess';
-import { parseMove, parsePgn } from '@/utils/pgn';
+import { deserializeTree, SerializedTree } from '@/controllers/Serialize';
 
 const OpeningPage: React.FC = () => {
     const { addController, setController } = useChessBoard();
@@ -20,15 +19,16 @@ const OpeningPage: React.FC = () => {
     const [markColorName, setMarkColorName] = useState<GridColorName>('red');
     const [chessBoards, setChessBoards] = useState<{ key: string, controller: ChessBoardController }[]>([]);
     const { openingCategorySlug, openingSlug } = useParams<{ openingCategorySlug?: string, openingSlug?: string }>();
-    const [data, setData] = useState<Opening | null>(null);
+    const [tree, setTree] = useState<SerializedTree | null>(null);
     // const [error, setError] = useState<Error | null>(null);
 
     const load = useCallback(async () => {
         try {
             console.log("loading opening", openingSlug);
             const response = await fetch(`/openings/${openingCategorySlug}/${openingSlug}.json`);
-            const data: Opening = await response.json();
-            setData(data);
+            const tree = await response.json();
+console.log(tree)
+            setTree(tree);
         } catch (error) {
             console.error("Error fetching opening data:", error);
             // setError(error as Error);
@@ -38,7 +38,7 @@ const OpeningPage: React.FC = () => {
     useEffect(() => {
         // console.log('chessBoardKey', chessBoardKey);
         if (!openingSlug) {
-            setData(null);
+            setTree(null);
             return;
         }
         load();
@@ -47,7 +47,7 @@ const OpeningPage: React.FC = () => {
     useEffect(() => {
         // console.log('data', data);
         let chessBoards: { key: string, controller: ChessBoardController }[] = [];
-        if (data) {
+        if (tree) {
             chessBoards = [{
                 key: "Explore",
                 controller: loadExploreController()
@@ -61,27 +61,28 @@ const OpeningPage: React.FC = () => {
             setChessBoards(chessBoards);
             setChessBoardKey(chessBoards[0].key);
         }
-    }, [data]);
+    }, [tree]);
 
     const loadExploreController = (): ChessBoardController => {
-        if (data) {
+        if (tree) {
             const exploreState = defaultChessBoardState();
             const exploreController = defaultChessBoardController('Explore', true, true, exploreState.clone());
-            for (const line of data.lines) {
-                exploreController.selectFirst();
-                const pgnGame = parsePgn(line.moves, line.name);
-                pgnGame.turns.forEach((turn) => {
-                    const move = parseMove(exploreController.currentState(), turn.white.pgn)
-                    // const [sourceSquareId, targetSquareId] = parsePgnMove(exploreController.currentState(), true, turn.white.pgn);
-                    exploreController.onMove(move.sourceSquareId, move.targetSquareId);
-                    if (turn.black) {
-                        const move = parseMove(exploreController.currentState(), turn.black.pgn);
-                        exploreController.onMove(move.sourceSquareId, move.targetSquareId);
-                    }
-                });
-                exploreController.onComment(line.name);
-            };
-            exploreController.selectFirst();
+            exploreController.gameTree = deserializeTree(tree, exploreState);
+            // for (const line of tree.lines) {
+            //     exploreController.selectFirst();
+            //     const pgnGame = parsePgn(line.moves, line.name);
+            //     pgnGame.turns.forEach((turn) => {
+            //         const move = parseMove(exploreController.currentState(), turn.white.pgn)
+            //         // const [sourceSquareId, targetSquareId] = parsePgnMove(exploreController.currentState(), true, turn.white.pgn);
+            //         exploreController.onMove(move.sourceSquareId, move.targetSquareId);
+            //         if (turn.black) {
+            //             const move = parseMove(exploreController.currentState(), turn.black.pgn);
+            //             exploreController.onMove(move.sourceSquareId, move.targetSquareId);
+            //         }
+            //     });
+            //     exploreController.onComment(line.name);
+            // };
+            // exploreController.selectFirst();
             return exploreController;
         } else {
             return defaultChessBoardController('Explore', true, true, emptyChessBoardState().clone());
@@ -89,23 +90,24 @@ const OpeningPage: React.FC = () => {
     }
 
     const loadPlayController = (): ChessBoardController => {
-        if (data) {
+        if (tree) {
             const playState = defaultChessBoardState();
             const playController = defaultChessBoardController('Play', true, true, playState.clone());
-            for (const line of data.lines) {
-                playController.selectFirst();
-                const pgnGame = parsePgn(line.moves, line.name);
-                pgnGame.turns.forEach((turn) => {
-                    const move = parseMove(playController.currentState(), turn.white.pgn);
-                    playController.onMove(move.sourceSquareId, move.targetSquareId);
-                    if (turn.black) {
-                        const move = parseMove(playController.currentState(), turn.black.pgn);
-                        playController.onMove(move.sourceSquareId, move.targetSquareId);
-                    }
-                });
-                playController.onComment(line.name);
-            };
-            playController.selectFirst();
+            playController.gameTree = deserializeTree(tree, playState);
+            // // for (const line of tree.lines) {
+            // //     playController.selectFirst();
+            //     const pgnGame = parsePgn(line.moves, line.name);
+            //     pgnGame.turns.forEach((turn) => {
+            //         const move = parseMove(playController.currentState(), turn.white.pgn);
+            //         playController.onMove(move.sourceSquareId, move.targetSquareId);
+            //         if (turn.black) {
+            //             const move = parseMove(playController.currentState(), turn.black.pgn);
+            //             playController.onMove(move.sourceSquareId, move.targetSquareId);
+            //         }
+            //     });
+            //     playController.onComment(line.name);
+            // };
+            // playController.selectFirst();
             return playController;
         } else {
             return defaultChessBoardController('Play', true, true, emptyChessBoardState().clone());
@@ -114,14 +116,14 @@ const OpeningPage: React.FC = () => {
     const handlers: Record<string, ControllerHandler> = {
         'Explore': {
             'reload': () => {
-                if (data) {
+                if (tree) {
                     setController('Explore', loadExploreController());
                 }
             }
         },
         'Play': {
             'reload': () => {
-                if (data) {
+                if (tree) {
                     setController('Play', loadPlayController());
                 }
             }
