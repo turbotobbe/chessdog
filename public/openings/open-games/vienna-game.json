@@ -1,196 +1,5075 @@
 {
-  "slug": "vienna-game",
-  "name": "Vienna Game",
-  "range": "C25-C29",
-  "lines": [
-    {
-      "eco": "C28",
-      "name": "Bishop's Opening, Vienna Hybrid",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Bc4 2... Nf6 3. d3 3... Nc6 4. Nc3",
-      "count": 5394
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Vienna Game"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C26",
-      "name": "Vienna Game, Mieses Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. g3",
-      "count": 4165
+    "25345416": {
+      "id": 25345416,
+      "state": {
+        "key": "f8b4",
+        "pgn": "Bb4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d3": "wp4",
+          "c6": "bn1",
+          "c3": "wn1",
+          "b4": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "f8",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 1316410944,
+      "childIds": [
+        804526496
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C26",
-      "name": "Bishop's Opening, Vienna Hybrid, Spielmann Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Bc4 2... Nf6 3. d3 3... Bc5 4. Nc3",
-      "count": 2105
+    "228980790": {
+      "id": 228980790,
+      "state": {
+        "key": "f3d5",
+        "pgn": "Qd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "d6": "bn2",
+          "b3": "wb2",
+          "c6": "bn1",
+          "b5": "wn1",
+          "g6": "bp7",
+          "f5": "bp6",
+          "d5": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c3",
+            "b5"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "h5",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1322979980,
+      "childIds": [
+        674689508
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C25",
-      "name": "Vienna Game, Paulsen Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nc6 3. g3",
-      "count": 1611
+    "244378666": {
+      "id": 244378666,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1877669921,
+      "childIds": [
+        1152113067,
+        1151964019,
+        1152083182,
+        1152022671
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C27",
-      "name": "Vienna Game, General",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3",
-      "count": 1329
+    "244497831": {
+      "id": 244497831,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1877669921,
+      "childIds": [
+        1155807182
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C29",
-      "name": "Vienna Game, Vienna Gambit, Main Line",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5",
-      "count": 1181
+    "272402741": {
+      "id": 272402741,
+      "state": {
+        "key": "c3b5",
+        "pgn": "Nb5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "h5": "wq1",
+          "d6": "bn2",
+          "b3": "wb2",
+          "c6": "bn1",
+          "b5": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c3",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c3",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 1116562575,
+      "childIds": [
+        2020858462
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C25",
-      "name": "Vienna Game, Anderssen Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nc3 2... Bc5",
-      "count": 1085
+    "276216142": {
+      "id": 276216142,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e5": "bp5",
+          "c3": "wn1",
+          "h5": "wq1",
+          "d6": "bn2",
+          "b3": "wb2",
+          "e7": "bb2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1116681802,
+      "childIds": [
+        2138925775
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C28",
-      "name": "Vienna Game, Vienna Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4",
-      "count": 1025
+    "280528808": {
+      "id": 280528808,
+      "state": {
+        "key": "d1e2",
+        "pgn": "Qe2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e5": "wp6",
+          "e4": "bn2",
+          "f3": "wn2",
+          "g4": "bb1",
+          "e2": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "d1",
+            "e2"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Vienna Gambit, Kaufmann Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 493360810,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C29",
-      "name": "Vienna Game, Vienna Gambit, Paulsen Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5 4. fxe5 4... Nxe4 5. Qf3",
-      "count": 854
+    "381784016": {
+      "id": 381784016,
+      "state": {
+        "key": "c4b3",
+        "pgn": "Bb3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c3": "wn1",
+          "h5": "wq1",
+          "d6": "bn2",
+          "b3": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "b3"
+          ]
+        }
+      },
+      "parentId": 496627978,
+      "childIds": [
+        1116681802,
+        1116562575
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C26",
-      "name": "Vienna Game, Stanley Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4",
-      "count": 813
+    "388438826": {
+      "id": 388438826,
+      "state": {
+        "key": "h5f3",
+        "pgn": "Qf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "d6": "bn2",
+          "b3": "wb2",
+          "c6": "bn1",
+          "b5": "wn1",
+          "g6": "bp7",
+          "f3": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c3",
+            "b5"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "h5",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h5",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 2020858462,
+      "childIds": [
+        1322979980
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C28",
-      "name": "Bishop's Opening, Vienna Hybrid, Hromadka Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Bc4 2... Nf6 3. d3 3... Nc6 4. Nc3 4... Bb4 5. Ne2",
-      "count": 765
+    "434197906": {
+      "id": 434197906,
+      "state": {
+        "key": "e8d8",
+        "pgn": "Kd8",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "d6": "bn2",
+          "b3": "wb2",
+          "c6": "bn1",
+          "g6": "bp7",
+          "f5": "bp6",
+          "d5": "wq1",
+          "e7": "bq1",
+          "c7": "wn1",
+          "d8": "bk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c3",
+            "b5"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "h5",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "d5"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "b5",
+            "c7"
+          ],
+          [
+            "e8",
+            "d8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "d8"
+          ]
+        }
+      },
+      "parentId": 1606695357,
+      "childIds": [
+        593938288
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C26",
-      "name": "Vienna Game, Falkbeer Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6",
-      "count": 724
+    "473629355": {
+      "id": 473629355,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Nxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e5": "wp6",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 845956113,
+      "childIds": [
+        1816337382,
+        1816338281,
+        1816426755
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C29",
-      "name": "Vienna Game, Vienna Gambit, Modern Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5 4. fxe5 4... Nxe4 5. d3",
-      "count": 644
+    "490678629": {
+      "id": 490678629,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e5": "wp6",
+          "e4": "bn2",
+          "f3": "wq1",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Vienna Gambit, Bardeleben Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 1816337382,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C29",
-      "name": "Vienna Game, Vienna Gambit, Breyer Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5 4. fxe5 4... Nxe4 5. Nf3 5... Be7",
-      "count": 633
+    "493360810": {
+      "id": 493360810,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e5": "wp6",
+          "e4": "bn2",
+          "f3": "wn2",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1816426755,
+      "childIds": [
+        280528808
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C27",
-      "name": "Vienna Game, Stanley Variation, Modern Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nxe4",
-      "count": 477
+    "493450124": {
+      "id": 493450124,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e5": "wp6",
+          "e4": "bn2",
+          "f3": "wn2",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Vienna Gambit, Breyer Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1816426755,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C25",
-      "name": "Vienna Game, Vienna Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nc6 3. f4",
-      "count": 474
+    "496627978": {
+      "id": 496627978,
+      "state": {
+        "key": "e4d6",
+        "pgn": "Nd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c3": "wn1",
+          "c4": "wb2",
+          "h5": "wq1",
+          "d6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 846699028,
+      "childIds": [
+        381784016
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C26",
-      "name": "Vienna Game, Stanley Variation, Reversed Spanish",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Bb4",
-      "count": 454
+    "593938288": {
+      "id": 593938288,
+      "state": {
+        "key": "c7a8",
+        "pgn": "Nxa8",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "h7": "bp8",
+          "c8": "bb1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "d6": "bn2",
+          "b3": "wb2",
+          "c6": "bn1",
+          "g6": "bp7",
+          "f5": "bp6",
+          "d5": "wq1",
+          "e7": "bq1",
+          "d8": "bk1",
+          "a8": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c3",
+            "b5"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "h5",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "d5"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "b5",
+            "c7"
+          ],
+          [
+            "e8",
+            "d8"
+          ],
+          [
+            "c7",
+            "a8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "a8"
+          ]
+        }
+      },
+      "parentId": 434197906,
+      "childIds": [
+        1250893074
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C27",
-      "name": "Bishop's Opening, Boden-Kieseritsky Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nxe4 4. Nf3",
-      "count": 427
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877669921
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C25",
-      "name": "Vienna Game, Vienna Gambit, Steinitz Gambit, Knight Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nc6 3. f4 3... exf4 4. Nf3",
-      "count": 303
+    "674689508": {
+      "id": 674689508,
+      "state": {
+        "key": "d8e7",
+        "pgn": "Qe7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "d6": "bn2",
+          "b3": "wb2",
+          "c6": "bn1",
+          "b5": "wn1",
+          "g6": "bp7",
+          "f5": "bp6",
+          "d5": "wq1",
+          "e7": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c3",
+            "b5"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "h5",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "d5"
+          ],
+          [
+            "d8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 228980790,
+      "childIds": [
+        1606695357
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C27",
-      "name": "Vienna Game, Stanley Variation, Monster Declined",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nxe4 4. Qh5 4... Nd6 5. Bb3 5... Be7",
-      "count": 273
+    "701527206": {
+      "id": 701527206,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c3": "wn1",
+          "c6": "bn1",
+          "f4": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Vienna Gambit, Steinitz Gambit, Knight Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1684590842,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C28",
-      "name": "Vienna Game, Stanley Variation, Three Knights Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nc6",
-      "count": 261
+    "804526496": {
+      "id": 804526496,
+      "state": {
+        "key": "g1e2",
+        "pgn": "Ne2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d3": "wp4",
+          "c6": "bn1",
+          "c3": "wn1",
+          "b4": "bb2",
+          "e2": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "g1",
+            "e2"
+          ]
+        ],
+        "comments": [
+          "Bishop's Opening, Vienna Hybrid, Hromadka Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 25345416,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C29",
-      "name": "Vienna Game, Vienna Gambit, Bardeleben Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5 4. fxe5 4... Nxe4 5. Qf3 5... f5",
-      "count": 228
+    "845956113": {
+      "id": 845956113,
+      "state": {
+        "key": "f4e5",
+        "pgn": "fxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "d5": "bp4",
+          "e5": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1827798040,
+      "childIds": [
+        473629355
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C25",
-      "name": "Vienna Game, Omaha Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... d6 3. f4",
-      "count": 200
+    "846699028": {
+      "id": 846699028,
+      "state": {
+        "key": "d1h5",
+        "pgn": "Qh5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c3": "wn1",
+          "c4": "wb2",
+          "e4": "bn2",
+          "h5": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "h5"
+          ]
+        }
+      },
+      "parentId": 1827824017,
+      "childIds": [
+        496627978
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C27",
-      "name": "Vienna Game, Stanley Variation, Frankenstein-Dracula Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nxe4 4. Qh5 4... Nd6 5. Bb3 5... Nc6 6. Nb5 6... g6 7. Qf3 7... f5 8. Qd5 8... Qe7 9. Nxc7+ 9... Kd8 10. Nxa8 10... b6",
-      "count": 160
+    "846788337": {
+      "id": 846788337,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c3": "wn1",
+          "c4": "wb2",
+          "e4": "bn2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Bishop's Opening, Boden-Kieseritsky Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1827824017,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C26",
-      "name": "Vienna Game, Mengarini Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. a3",
-      "count": 147
+    "1080967615": {
+      "id": 1080967615,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d3": "wp4",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1489014448,
+      "childIds": [
+        1316410944
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C27",
-      "name": "Vienna Game, Stanley Variation, Alekhine Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. Bc4 3... Nxe4 4. Qh5 4... Nd6 5. Bb3 5... Be7 6. Nf3 6... Nc6 7. Nxe5",
-      "count": 140
+    "1081086778": {
+      "id": 1081086778,
+      "state": {
+        "key": "f8c5",
+        "pgn": "Bc5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d3": "wp4",
+          "c5": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "f8",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1489014448,
+      "childIds": [
+        1320104997
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C29",
-      "name": "Vienna Game, Vienna Gambit, Kaufmann Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nc3 2... Nf6 3. f4 3... d5 4. fxe5 4... Nxe4 5. Nf3 5... Bg4 6. Qe2",
-      "count": 113
+    "1116562575": {
+      "id": 1116562575,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c3": "wn1",
+          "h5": "wq1",
+          "d6": "bn2",
+          "b3": "wb2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 381784016,
+      "childIds": [
+        272402741
+      ],
+      "childIdx": 0
+    },
+    "1116681802": {
+      "id": 1116681802,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e5": "bp5",
+          "c3": "wn1",
+          "h5": "wq1",
+          "d6": "bn2",
+          "b3": "wb2",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 381784016,
+      "childIds": [
+        276216142
+      ],
+      "childIdx": 0
+    },
+    "1151964019": {
+      "id": 1151964019,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 244378666,
+      "childIds": [
+        1369965861,
+        1369936040
+      ],
+      "childIdx": 0
+    },
+    "1152022671": {
+      "id": 1152022671,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 244378666,
+      "childIds": [
+        1371754252
+      ],
+      "childIdx": 0
+    },
+    "1152083182": {
+      "id": 1152083182,
+      "state": {
+        "key": "f8c5",
+        "pgn": "Bc5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "c5": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "f8",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Anderssen Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 244378666,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1152113067": {
+      "id": 1152113067,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 244378666,
+      "childIds": [
+        1374586349,
+        1374556528,
+        1374555474,
+        1374407417
+      ],
+      "childIdx": 0
+    },
+    "1155807182": {
+      "id": 1155807182,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c4": "wb2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 244497831,
+      "childIds": [
+        1489014448
+      ],
+      "childIdx": 0
+    },
+    "1250893074": {
+      "id": 1250893074,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "h7": "bp8",
+          "c8": "bb1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "d6": "bn2",
+          "b3": "wb2",
+          "c6": "bn1",
+          "g6": "bp7",
+          "f5": "bp6",
+          "d5": "wq1",
+          "e7": "bq1",
+          "d8": "bk1",
+          "a8": "wn1",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c3",
+            "b5"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "h5",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "d5"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "b5",
+            "c7"
+          ],
+          [
+            "e8",
+            "d8"
+          ],
+          [
+            "c7",
+            "a8"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Stanley Variation, Frankenstein-Dracula Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 593938288,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1316410944": {
+      "id": 1316410944,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d3": "wp4",
+          "c6": "bn1",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1080967615,
+      "childIds": [
+        25345416
+      ],
+      "childIdx": 0
+    },
+    "1320104997": {
+      "id": 1320104997,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d3": "wp4",
+          "c5": "bb2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Bishop's Opening, Vienna Hybrid, Spielmann Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1081086778,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1322979980": {
+      "id": 1322979980,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "d6": "bn2",
+          "b3": "wb2",
+          "c6": "bn1",
+          "b5": "wn1",
+          "g6": "bp7",
+          "f3": "wq1",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c3",
+            "b5"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "h5",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 388438826,
+      "childIds": [
+        228980790
+      ],
+      "childIdx": 0
+    },
+    "1369936040": {
+      "id": 1369936040,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "c6": "bn1",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1151964019,
+      "childIds": [
+        1684590842
+      ],
+      "childIdx": 0
+    },
+    "1369965861": {
+      "id": 1369965861,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "c6": "bn1",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Paulsen Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1151964019,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1371754252": {
+      "id": 1371754252,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "d6": "bp4",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Omaha Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1152022671,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1374407417": {
+      "id": 1374407417,
+      "state": {
+        "key": "a2a3",
+        "pgn": "a3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "a3": "wp1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "a2",
+            "a3"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Mengarini Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a3"
+          ]
+        }
+      },
+      "parentId": 1152113067,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1374555474": {
+      "id": 1374555474,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1152113067,
+      "childIds": [
+        1827824017,
+        1827825846,
+        1827706715
+      ],
+      "childIdx": 0
+    },
+    "1374556528": {
+      "id": 1374556528,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1152113067,
+      "childIds": [
+        1827798040
+      ],
+      "childIdx": 0
+    },
+    "1374586349": {
+      "id": 1374586349,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Mieses Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1152113067,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1489014448": {
+      "id": 1489014448,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1155807182,
+      "childIds": [
+        1080967615,
+        1081086778
+      ],
+      "childIdx": 0
+    },
+    "1606695357": {
+      "id": 1606695357,
+      "state": {
+        "key": "b5c7",
+        "pgn": "Nxc7+",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "d6": "bn2",
+          "b3": "wb2",
+          "c6": "bn1",
+          "g6": "bp7",
+          "f5": "bp6",
+          "d5": "wq1",
+          "e7": "bq1",
+          "c7": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c3",
+            "b5"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "h5",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "d5"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "b5",
+            "c7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b5",
+            "c7"
+          ]
+        }
+      },
+      "parentId": 674689508,
+      "childIds": [
+        434197906
+      ],
+      "childIdx": 0
+    },
+    "1684590842": {
+      "id": 1684590842,
+      "state": {
+        "key": "e5f4",
+        "pgn": "exf4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c3": "wn1",
+          "c6": "bn1",
+          "f4": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1369936040,
+      "childIds": [
+        701527206
+      ],
+      "childIdx": 0
+    },
+    "1816337382": {
+      "id": 1816337382,
+      "state": {
+        "key": "d1f3",
+        "pgn": "Qf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e5": "wp6",
+          "e4": "bn2",
+          "f3": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 473629355,
+      "childIds": [
+        490678629
+      ],
+      "childIdx": 0
+    },
+    "1816338281": {
+      "id": 1816338281,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e5": "wp6",
+          "e4": "bn2",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Vienna Gambit, Modern Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 473629355,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1816426755": {
+      "id": 1816426755,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e5": "wp6",
+          "e4": "bn2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 473629355,
+      "childIds": [
+        493450124,
+        493360810
+      ],
+      "childIdx": 0
+    },
+    "1827706715": {
+      "id": 1827706715,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c4": "wb2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Stanley Variation, Three Knights Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1374555474,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1827798040": {
+      "id": 1827798040,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f4": "wp6",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1374556528,
+      "childIds": [
+        845956113
+      ],
+      "childIdx": 0
+    },
+    "1827824017": {
+      "id": 1827824017,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Nxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c3": "wn1",
+          "c4": "wb2",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1374555474,
+      "childIds": [
+        846788337,
+        846699028
+      ],
+      "childIdx": 0
+    },
+    "1827825846": {
+      "id": 1827825846,
+      "state": {
+        "key": "f8b4",
+        "pgn": "Bb4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c4": "wb2",
+          "b4": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "b4"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Stanley Variation, Reversed Spanish"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 1374555474,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1877669921": {
+      "id": 1877669921,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        244497831,
+        244378666
+      ],
+      "childIdx": 0
+    },
+    "1900980349": {
+      "id": 1900980349,
+      "state": {
+        "key": "f3e5",
+        "pgn": "Nxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "c3": "wn1",
+          "h5": "wq1",
+          "d6": "bn2",
+          "b3": "wb2",
+          "e7": "bb2",
+          "c6": "bn1",
+          "e5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f3",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Vienna Game, Stanley Variation, Alekhine Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 2138925775,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "2020858462": {
+      "id": 2020858462,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "h5": "wq1",
+          "d6": "bn2",
+          "b3": "wb2",
+          "c6": "bn1",
+          "b5": "wn1",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c3",
+            "b5"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 272402741,
+      "childIds": [
+        388438826
+      ],
+      "childIdx": 0
+    },
+    "2138925775": {
+      "id": 2138925775,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e5": "bp5",
+          "c3": "wn1",
+          "h5": "wq1",
+          "d6": "bn2",
+          "b3": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "h5"
+          ],
+          [
+            "e4",
+            "d6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 276216142,
+      "childIds": [
+        1900980349
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

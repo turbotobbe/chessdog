@@ -1,343 +1,6943 @@
 {
-  "slug": "irregular-openings",
-  "name": "Irregular Openings",
-  "range": "A00",
-  "lines": [
-    {
-      "eco": "A00",
-      "name": "Hungarian Opening, General",
-      "color": "white",
-      "moves": "1. g3",
-      "count": 11018
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "4591516": {
+      "id": 4591516,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c5": "bp3",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 553733243,
+      "childIds": [
+        161040247
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Hungarian Opening, Indian Defense",
-      "color": "black",
-      "moves": "1. g3 1... Nf6",
-      "count": 5650
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Irregular Openings"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614213653,
+        614064544,
+        614063613,
+        614034721,
+        614154009,
+        614124187,
+        614094365,
+        614213654,
+        614243476,
+        614243475,
+        614034722,
+        614183831,
+        614212723,
+        614063551
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Polish Opening, General",
-      "color": "white",
-      "moves": "1. b4",
-      "count": 4690
+    "38077775": {
+      "id": 38077775,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "d5": "bp4",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 693359815,
+      "childIds": [
+        1199175813
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Van Geet Opening, General",
-      "color": "white",
-      "moves": "1. Nc3",
-      "count": 4265
+    "40791609": {
+      "id": 40791609,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "g6": "bp7",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 693449282,
+      "childIds": [
+        1283335482
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Hungarian Opening, Symmetrical Variation",
-      "color": "black",
-      "moves": "1. g3 1... g6",
-      "count": 4147
+    "129921799": {
+      "id": 129921799,
+      "state": {
+        "key": "h2h3",
+        "pgn": "h3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "a3": "wp1",
+          "e5": "bp5",
+          "h3": "wp8"
+        },
+        "moves": [
+          [
+            "a2",
+            "a3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "h2",
+            "h3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 1873971962,
+      "childIds": [
+        1898827087
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Anderssen Opening, General",
-      "color": "white",
-      "moves": "1. a3",
-      "count": 3622
+    "154825061": {
+      "id": 154825061,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c6": "bn1",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1874779141,
+      "childIds": [
+        523344562
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Van't Kruijs Opening, General",
-      "color": "white",
-      "moves": "1. e3",
-      "count": 3122
+    "155718760": {
+      "id": 155718760,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1874807970,
+      "childIds": [
+        551017517
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Hungarian Opening, Slav Formation",
-      "color": "black",
-      "moves": "1. g3 1... d5 2. Bg2 2... c6",
-      "count": 2136
+    "155807233": {
+      "id": 155807233,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c5": "bp3",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1874807970,
+      "childIds": [
+        553733243
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Hungarian Opening, Sicilian Invitation",
-      "color": "black",
-      "moves": "1. g3 1... c5",
-      "count": 2060
+    "156673064": {
+      "id": 156673064,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1874837792,
+      "childIds": [
+        580602834,
+        580630763
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Mieses Opening, General",
-      "color": "white",
-      "moves": "1. d3",
-      "count": 1946
+    "157478257": {
+      "id": 157478257,
+      "state": {
+        "key": "a2a3",
+        "pgn": "a3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "e5": "bp5",
+          "a3": "wp1"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "a2",
+            "a3"
+          ]
+        ],
+        "comments": [
+          "Van Geet Opening, Battambang Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a3"
+          ]
+        }
+      },
+      "parentId": 1874867614,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Van Geet Opening, Caro-Kann Variation",
-      "color": "black",
-      "moves": "1. Nc3 1... d5 2. e4 2... c6",
-      "count": 1706
+    "157507117": {
+      "id": 157507117,
+      "state": {
+        "key": "c1b2",
+        "pgn": "Bb2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2",
+          "d5": "bp4",
+          "b2": "wb1"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c1",
+            "b2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "b2"
+          ]
+        }
+      },
+      "parentId": 1874866653,
+      "childIds": [
+        606459530,
+        606489260
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Saragossa Opening, General",
-      "color": "white",
-      "moves": "1. c3",
-      "count": 1493
+    "157656197": {
+      "id": 157656197,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "e5": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1874867614,
+      "childIds": [
+        611051127
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Grob Opening, General",
-      "color": "white",
-      "moves": "1. g4",
-      "count": 1279
+    "158372948": {
+      "id": 158372948,
+      "state": {
+        "key": "a2a3",
+        "pgn": "a3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2",
+          "e5": "bp5",
+          "a3": "wp1"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "a2",
+            "a3"
+          ]
+        ],
+        "comments": [
+          "Polish Opening, Bugayev Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a3"
+          ]
+        }
+      },
+      "parentId": 1874896475,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Kadas Opening, General",
-      "color": "white",
-      "moves": "1. h4",
-      "count": 1141
+    "158431599": {
+      "id": 158431599,
+      "state": {
+        "key": "c1b2",
+        "pgn": "Bb2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2",
+          "e5": "bp5",
+          "b2": "wb1"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "c1",
+            "b2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "b2"
+          ]
+        }
+      },
+      "parentId": 1874896475,
+      "childIds": [
+        635147241,
+        635206885
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Polish Opening,  Czech Defense",
-      "color": "black",
-      "moves": "1. b4 1... e5 2. Bb2 2... d6",
-      "count": 947
+    "159536007": {
+      "id": 159536007,
+      "state": {
+        "key": "h2h4",
+        "pgn": "h4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "h4": "wp8"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "h2",
+            "h4"
+          ]
+        ],
+        "comments": [
+          "Van Geet Opening, Myers Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 1874927259,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Hungarian Opening, Dutch Defense",
-      "color": "black",
-      "moves": "1. g3 1... f5",
-      "count": 682
+    "160309424": {
+      "id": 160309424,
+      "state": {
+        "key": "c1b2",
+        "pgn": "Bb2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "b2"
+          ]
+        }
+      },
+      "parentId": 1874957050,
+      "childIds": [
+        693449282,
+        693359815
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Polish Opening, Outflank Variation",
-      "color": "black",
-      "moves": "1. b4 1... c6",
-      "count": 587
+    "161040247": {
+      "id": 161040247,
+      "state": {
+        "key": "c5d4",
+        "pgn": "cxd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp3"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 4591516,
+      "childIds": [
+        716071065
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Clemenz Opening, General",
-      "color": "white",
-      "moves": "1. h3",
-      "count": 567
+    "238921970": {
+      "id": 238921970,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wn1",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d5",
+            "e4"
+          ],
+          [
+            "c3",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Van Geet Opening, Gruenfeld Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 838385837,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Van Geet Opening, Napoleon Attack",
-      "color": "white",
-      "moves": "1. Nc3 1... e5 2. Nf3 2... Nc6 3. d4",
-      "count": 549
+    "300890394": {
+      "id": 300890394,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g3": "wp7",
+          "d5": "bp4",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 1879489032,
+      "childIds": [
+        756372770,
+        756432414,
+        756372769
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Polish Opening, Bugayev Attack",
-      "color": "white",
-      "moves": "1. b4 1... e5 2. a3",
-      "count": 486
+    "300891355": {
+      "id": 300891355,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7",
+          "d5": "bp4",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "comments": [
+          "Grob Opening, Grob Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 1879489063,
+      "childIds": [
+        756403644,
+        756402561
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Polish Opening, King's Indian Variation, Sokolsky Attack",
-      "color": "white",
-      "moves": "1. b4 1... Nf6 2. Bb2 2... g6 3. c4 3... Bg7 4. e3 4... d6 5. Nf3 5... O-O 6. d4",
-      "count": 457
+    "300951930": {
+      "id": 300951930,
+      "state": {
+        "key": "h2h3",
+        "pgn": "h3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7",
+          "d5": "bp4",
+          "h3": "wp8"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "h2",
+            "h3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 1879489063,
+      "childIds": [
+        758340029
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Grob Opening, Grob Gambit, Fritz Gambit",
-      "color": "white",
-      "moves": "1. g4 1... d5 2. Bg2 2... Bxg4 3. c4",
-      "count": 438
+    "301815837": {
+      "id": 301815837,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7",
+          "e5": "bp5",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 1879518885,
+      "childIds": [
+        785091324
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Mieses Opening, Reversed Rat",
-      "color": "black",
-      "moves": "1. d3 1... e5",
-      "count": 436
+    "301844637": {
+      "id": 301844637,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g3": "wp7",
+          "e5": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Hungarian Opening, Reversed Alekhine"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1879518854,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Grob Opening, Grob Gambit, Declined",
-      "color": "black",
-      "moves": "1. g4 1... d5 2. Bg2 2... c6",
-      "count": 417
+    "382733050": {
+      "id": 382733050,
+      "state": {
+        "key": "b4b5",
+        "pgn": "b5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e5": "bp5",
+          "b2": "wb1",
+          "f6": "bp6",
+          "b5": "wp2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "f7",
+            "f6"
+          ],
+          [
+            "b4",
+            "b5"
+          ]
+        ],
+        "comments": [
+          "Polish Opening, Bugayev Advance Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b4",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 635206885,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Polish Opening, Schiffler-Sokolsky Variation",
-      "color": "white",
-      "moves": "1. b4 1... Nf6 2. Bb2 2... d5 3. e3 3... e6 4. b5",
-      "count": 391
+    "382820593": {
+      "id": 382820593,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2",
+          "e5": "bp5",
+          "b2": "wb1",
+          "f6": "bp6",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "f7",
+            "f6"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Polish Opening, Tartakower Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 635206885,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Polish Opening, King's Indian Variation",
-      "color": "black",
-      "moves": "1. b4 1... Nf6 2. Bb2 2... g6",
-      "count": 375
+    "523344562": {
+      "id": 523344562,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c6": "bn1",
+          "d4": "wp4",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 154825061,
+      "childIds": [
+        1210055874
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Van Geet Opening, Sicilian Two Knights",
-      "color": "white",
-      "moves": "1. Nc3 1... c5 2. Nf3 2... Nc6 3. d4 3... cxd4 4. Nxd4",
-      "count": 355
+    "551017517": {
+      "id": 551017517,
+      "state": {
+        "key": "c5d4",
+        "pgn": "cxd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d4": "bp3"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 155718760,
+      "childIds": [
+        2067886696
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Grob Opening, Keene Defense",
-      "color": "black",
-      "moves": "1. g4 1... d5 2. h3 2... e5 3. Bg2 3... c6",
-      "count": 332
+    "553733243": {
+      "id": 553733243,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c5": "bp3",
+          "f3": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 155807233,
+      "childIds": [
+        4591516
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Polish Opening, Baltic Defense",
-      "color": "black",
-      "moves": "1. b4 1... d5 2. Bb2 2... Bf5",
-      "count": 317
+    "580602834": {
+      "id": 580602834,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e4": "wp5",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Van Geet Opening, Caro-Kann Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 156673064,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Ware Opening, General",
-      "color": "white",
-      "moves": "1. a4",
-      "count": 303
+    "580630763": {
+      "id": 580630763,
+      "state": {
+        "key": "d5e4",
+        "pgn": "dxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "e4": "bp4"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d5",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 156673064,
+      "childIds": [
+        838385837
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Hungarian Opening, Catalan Formation",
-      "color": "black",
-      "moves": "1. g3 1... d5 2. Bg2 2... e6",
-      "count": 302
+    "606459530": {
+      "id": 606459530,
+      "state": {
+        "key": "c8f5",
+        "pgn": "Bf5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2",
+          "d5": "bp4",
+          "b2": "wb1",
+          "f5": "bb1"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "c8",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Polish Opening, Baltic Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 157507117,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Hungarian Opening, Reversed Modern Defense",
-      "color": "black",
-      "moves": "1. g3 1... d5 2. Bg2 2... c5",
-      "count": 290
+    "606489260": {
+      "id": 606489260,
+      "state": {
+        "key": "d8d6",
+        "pgn": "Qd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2",
+          "d5": "bp4",
+          "b2": "wb1",
+          "d6": "bq1"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "d8",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Polish Opening, German Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 157507117,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Barnes Opening, General",
-      "color": "white",
-      "moves": "1. f3",
-      "count": 251
+    "611051127": {
+      "id": 611051127,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 157656197,
+      "childIds": [
+        1781445920
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Amar Opening, General",
-      "color": "white",
-      "moves": "1. Nh3",
-      "count": 244
+    "614034721": {
+      "id": 614034721,
+      "state": {
+        "key": "a2a3",
+        "pgn": "a3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "a3": "wp1"
+        },
+        "moves": [
+          [
+            "a2",
+            "a3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1873971962
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Grob Opening, Grob Gambit",
-      "color": "white",
-      "moves": "1. g4 1... d5 2. Bg2",
-      "count": 221
+    "614034722": {
+      "id": 614034722,
+      "state": {
+        "key": "a2a4",
+        "pgn": "a4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "a4": "wp1"
+        },
+        "moves": [
+          [
+            "a2",
+            "a4"
+          ]
+        ],
+        "comments": [
+          "Ware Opening, General"
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Polish Opening, German Defense",
-      "color": "black",
-      "moves": "1. b4 1... d5 2. Bb2 2... Qd6",
-      "count": 217
+    "614063551": {
+      "id": 614063551,
+      "state": {
+        "key": "b1a3",
+        "pgn": "Na3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "a3": "wn1"
+        },
+        "moves": [
+          [
+            "b1",
+            "a3"
+          ]
+        ],
+        "comments": [
+          "Sodium Attack, General"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "a3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Van Geet Opening, Gruenfeld Defense",
-      "color": "black",
-      "moves": "1. Nc3 1... d5 2. e4 2... dxe4 3. Nxe4 3... e5",
-      "count": 185
+    "614063613": {
+      "id": 614063613,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1874837792,
+        1874867614,
+        1874807970,
+        1874779141,
+        1874927259
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Polish Opening, Tartakower Gambit",
-      "color": "white",
-      "moves": "1. b4 1... e5 2. Bb2 2... f6 3. e4",
-      "count": 147
+    "614064544": {
+      "id": 614064544,
+      "state": {
+        "key": "b2b4",
+        "pgn": "b4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1874896475,
+        1874836832,
+        1874957050,
+        1874866653
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Van Geet Opening, Reversed Nimzowitsch",
-      "color": "black",
-      "moves": "1. Nc3 1... e5",
-      "count": 145
+    "614094365": {
+      "id": 614094365,
+      "state": {
+        "key": "c2c3",
+        "pgn": "c3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wp3"
+        },
+        "moves": [
+          [
+            "c2",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Saragossa Opening, General"
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Van Geet Opening, Battambang Variation",
-      "color": "white",
-      "moves": "1. Nc3 1... e5 2. a3",
-      "count": 118
+    "614124187": {
+      "id": 614124187,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876745408
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Sodium Attack, General",
-      "color": "white",
-      "moves": "1. Na3",
-      "count": 117
+    "614154009": {
+      "id": 614154009,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "comments": [
+          "Van't Kruijs Opening, General"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Hungarian Opening, Reversed Alekhine",
-      "color": "white",
-      "moves": "1. g3 1... e5 2. Nf3",
-      "count": 109
+    "614183831": {
+      "id": 614183831,
+      "state": {
+        "key": "f2f3",
+        "pgn": "f3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wp6"
+        },
+        "moves": [
+          [
+            "f2",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Barnes Opening, General"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Polish Opening, Bugayev Advance Variation",
-      "color": "white",
-      "moves": "1. b4 1... e5 2. Bb2 2... f6 3. b5",
-      "count": 108
+    "614212723": {
+      "id": 614212723,
+      "state": {
+        "key": "g1h3",
+        "pgn": "Nh3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "h3": "wn2"
+        },
+        "moves": [
+          [
+            "g1",
+            "h3"
+          ]
+        ],
+        "comments": [
+          "Amar Opening, General"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Grob Opening, Spike, Hurst Attack",
-      "color": "white",
-      "moves": "1. g4 1... e5 2. Bg2 2... d5 3. c4",
-      "count": 104
+    "614213653": {
+      "id": 614213653,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1879579429,
+        1879578499,
+        1879489032,
+        1879459210,
+        1879548676,
+        1879518854
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Creepy Crawly Formation, Classical Defense",
-      "color": "black",
-      "moves": "1. a3 1... e5 2. h3 2... d5",
-      "count": 103
+    "614213654": {
+      "id": 614213654,
+      "state": {
+        "key": "g2g4",
+        "pgn": "g4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1879489063,
+        1879518885
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A00",
-      "name": "Van Geet Opening, Berlin Gambit",
-      "color": "white",
-      "moves": "1. Nc3 1... Nc6 2. d4 2... d5 3. e4 3... dxe4 4. d5",
-      "count": 101
+    "614243475": {
+      "id": 614243475,
+      "state": {
+        "key": "h2h3",
+        "pgn": "h3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "h3": "wp8"
+        },
+        "moves": [
+          [
+            "h2",
+            "h3"
+          ]
+        ],
+        "comments": [
+          "Clemenz Opening, General"
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Van Geet Opening, Myers Attack",
-      "color": "white",
-      "moves": "1. Nc3 1... g6 2. h4",
-      "count": 101
+    "614243476": {
+      "id": 614243476,
+      "state": {
+        "key": "h2h4",
+        "pgn": "h4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "h4": "wp8"
+        },
+        "moves": [
+          [
+            "h2",
+            "h4"
+          ]
+        ],
+        "comments": [
+          "Kadas Opening, General"
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A00",
-      "name": "Van Geet Opening, Novosibirsk Variation",
-      "color": "white",
-      "moves": "1. Nc3 1... c5 2. d4 2... cxd4 3. Qxd4 3... Nc6 4. Qh4",
-      "count": 101
+    "635147241": {
+      "id": 635147241,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2",
+          "e5": "bp5",
+          "b2": "wb1",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Polish Opening,  Czech Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 158431599,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "635206885": {
+      "id": 635206885,
+      "state": {
+        "key": "f7f6",
+        "pgn": "f6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2",
+          "e5": "bp5",
+          "b2": "wb1",
+          "f6": "bp6"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "f7",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 158431599,
+      "childIds": [
+        382820593,
+        382733050
+      ],
+      "childIdx": 0
+    },
+    "685900642": {
+      "id": 685900642,
+      "state": {
+        "key": "b4b5",
+        "pgn": "b5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "d5": "bp4",
+          "e3": "wp5",
+          "e6": "bp5",
+          "b5": "wp2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b4",
+            "b5"
+          ]
+        ],
+        "comments": [
+          "Polish Opening, Schiffler-Sokolsky Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b4",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 1199175813,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "693359815": {
+      "id": 693359815,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 160309424,
+      "childIds": [
+        38077775
+      ],
+      "childIdx": 0
+    },
+    "693449282": {
+      "id": 693449282,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "comments": [
+          "Polish Opening, King's Indian Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 160309424,
+      "childIds": [
+        40791609
+      ],
+      "childIdx": 0
+    },
+    "716071065": {
+      "id": 716071065,
+      "state": {
+        "key": "f3d4",
+        "pgn": "Nxd4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c6": "bn1",
+          "d4": "wn2"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "f3",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Van Geet Opening, Sicilian Two Knights"
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 161040247,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "734211264": {
+      "id": 734211264,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7",
+          "e5": "bp5",
+          "g2": "wb2",
+          "d5": "bp4",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Grob Opening, Spike, Hurst Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 785091324,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "756372769": {
+      "id": 756372769,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g3": "wp7",
+          "d5": "bp4",
+          "g2": "wb2",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Hungarian Opening, Reversed Modern Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 300890394,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "756372770": {
+      "id": 756372770,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g3": "wp7",
+          "d5": "bp4",
+          "g2": "wb2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Hungarian Opening, Slav Formation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 300890394,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "756402561": {
+      "id": 756402561,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7",
+          "d5": "bp4",
+          "g2": "wb2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Grob Opening, Grob Gambit, Declined"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 300891355,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "756403644": {
+      "id": 756403644,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bxg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d5": "bp4",
+          "g2": "wb2",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 300891355,
+      "childIds": [
+        1992376831
+      ],
+      "childIdx": 0
+    },
+    "756432414": {
+      "id": 756432414,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g3": "wp7",
+          "d5": "bp4",
+          "g2": "wb2",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Hungarian Opening, Catalan Formation"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 300890394,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "758340029": {
+      "id": 758340029,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7",
+          "d5": "bp4",
+          "h3": "wp8",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "h2",
+            "h3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 300951930,
+      "childIds": [
+        2052493300
+      ],
+      "childIdx": 0
+    },
+    "785091324": {
+      "id": 785091324,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7",
+          "e5": "bp5",
+          "g2": "wb2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 301815837,
+      "childIds": [
+        734211264
+      ],
+      "childIdx": 0
+    },
+    "838385837": {
+      "id": 838385837,
+      "state": {
+        "key": "c3e4",
+        "pgn": "Nxe4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wn1"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d5",
+            "e4"
+          ],
+          [
+            "c3",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c3",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 580630763,
+      "childIds": [
+        238921970
+      ],
+      "childIdx": 0
+    },
+    "1023243168": {
+      "id": 1023243168,
+      "state": {
+        "key": "d5e4",
+        "pgn": "dxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c6": "bn1",
+          "d4": "wp4",
+          "e4": "bp4"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d5",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1210055874,
+      "childIds": [
+        1674499232
+      ],
+      "childIdx": 0
+    },
+    "1147454276": {
+      "id": 1147454276,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "g6": "bp7",
+          "c4": "wp3",
+          "g7": "bb2",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1283335482,
+      "childIds": [
+        1230079170
+      ],
+      "childIdx": 0
+    },
+    "1199175813": {
+      "id": 1199175813,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "d5": "bp4",
+          "e3": "wp5",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 38077775,
+      "childIds": [
+        685900642
+      ],
+      "childIdx": 0
+    },
+    "1210055874": {
+      "id": 1210055874,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c6": "bn1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 523344562,
+      "childIds": [
+        1023243168
+      ],
+      "childIdx": 0
+    },
+    "1230079170": {
+      "id": 1230079170,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "g6": "bp7",
+          "c4": "wp3",
+          "g7": "bb2",
+          "e3": "wp5",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1147454276,
+      "childIds": [
+        1644050903
+      ],
+      "childIdx": 0
+    },
+    "1283335482": {
+      "id": 1283335482,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "g6": "bp7",
+          "c4": "wp3",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 40791609,
+      "childIds": [
+        1147454276
+      ],
+      "childIdx": 0
+    },
+    "1368971681": {
+      "id": 1368971681,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7",
+          "d5": "bp4",
+          "h3": "wp8",
+          "e5": "bp5",
+          "g2": "wb2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "h2",
+            "h3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Grob Opening, Keene Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 2052493300,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1414439320": {
+      "id": 1414439320,
+      "state": {
+        "key": "d4h4",
+        "pgn": "Qh4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c6": "bn1",
+          "h4": "wq1"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "d1",
+            "d4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d4",
+            "h4"
+          ]
+        ],
+        "comments": [
+          "Van Geet Opening, Novosibirsk Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 1846138127,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1592219925": {
+      "id": 1592219925,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "g6": "bp7",
+          "c4": "wp3",
+          "g7": "bb2",
+          "e3": "wp5",
+          "d6": "bp4",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 1644050903,
+      "childIds": [
+        2132907600
+      ],
+      "childIdx": 0
+    },
+    "1644050903": {
+      "id": 1644050903,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "g6": "bp7",
+          "c4": "wp3",
+          "g7": "bb2",
+          "e3": "wp5",
+          "d6": "bp4",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1230079170,
+      "childIds": [
+        1592219925
+      ],
+      "childIdx": 0
+    },
+    "1674499232": {
+      "id": 1674499232,
+      "state": {
+        "key": "d4d5",
+        "pgn": "d5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c6": "bn1",
+          "e4": "bp4",
+          "d5": "wp4"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d5",
+            "e4"
+          ],
+          [
+            "d4",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Van Geet Opening, Berlin Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1023243168,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1781445920": {
+      "id": 1781445920,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Van Geet Opening, Napoleon Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 611051127,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1846138127": {
+      "id": 1846138127,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d4": "wq1",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "d1",
+            "d4"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 2067886696,
+      "childIds": [
+        1414439320
+      ],
+      "childIdx": 0
+    },
+    "1873971962": {
+      "id": 1873971962,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "a3": "wp1",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "a2",
+            "a3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614034721,
+      "childIds": [
+        129921799
+      ],
+      "childIdx": 0
+    },
+    "1874779141": {
+      "id": 1874779141,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 614063613,
+      "childIds": [
+        154825061
+      ],
+      "childIdx": 0
+    },
+    "1874807970": {
+      "id": 1874807970,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 614063613,
+      "childIds": [
+        155807233,
+        155718760
+      ],
+      "childIdx": 0
+    },
+    "1874836832": {
+      "id": 1874836832,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Polish Opening, Outflank Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 614064544,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1874837792": {
+      "id": 1874837792,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614063613,
+      "childIds": [
+        156673064
+      ],
+      "childIdx": 0
+    },
+    "1874866653": {
+      "id": 1874866653,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614064544,
+      "childIds": [
+        157507117
+      ],
+      "childIdx": 0
+    },
+    "1874867614": {
+      "id": 1874867614,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614063613,
+      "childIds": [
+        157656197,
+        157478257
+      ],
+      "childIdx": 0
+    },
+    "1874896475": {
+      "id": 1874896475,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614064544,
+      "childIds": [
+        158431599,
+        158372948
+      ],
+      "childIdx": 0
+    },
+    "1874927259": {
+      "id": 1874927259,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 614063613,
+      "childIds": [
+        159536007
+      ],
+      "childIdx": 0
+    },
+    "1874957050": {
+      "id": 1874957050,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614064544,
+      "childIds": [
+        160309424
+      ],
+      "childIdx": 0
+    },
+    "1876745408": {
+      "id": 1876745408,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d3": "wp4",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Mieses Opening, Reversed Rat"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614124187,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879459210": {
+      "id": 1879459210,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g3": "wp7",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Hungarian Opening, Sicilian Invitation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 614213653,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879489032": {
+      "id": 1879489032,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g3": "wp7",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614213653,
+      "childIds": [
+        300890394
+      ],
+      "childIdx": 0
+    },
+    "1879489063": {
+      "id": 1879489063,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614213654,
+      "childIds": [
+        300891355,
+        300951930
+      ],
+      "childIdx": 0
+    },
+    "1879518854": {
+      "id": 1879518854,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g3": "wp7",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614213653,
+      "childIds": [
+        301844637
+      ],
+      "childIdx": 0
+    },
+    "1879518885": {
+      "id": 1879518885,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614213654,
+      "childIds": [
+        301815837
+      ],
+      "childIdx": 0
+    },
+    "1879548676": {
+      "id": 1879548676,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g3": "wp7",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Hungarian Opening, Dutch Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 614213653,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879578499": {
+      "id": 1879578499,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g3": "wp7",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "comments": [
+          "Hungarian Opening, Symmetrical Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 614213653,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879579429": {
+      "id": 1879579429,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "g3": "wp7",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "comments": [
+          "Hungarian Opening, Indian Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614213653,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1898827087": {
+      "id": 1898827087,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "a3": "wp1",
+          "e5": "bp5",
+          "h3": "wp8",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "a2",
+            "a3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "h2",
+            "h3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Creepy Crawly Formation, Classical Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 129921799,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1992376831": {
+      "id": 1992376831,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d5": "bp4",
+          "g2": "wb2",
+          "g4": "bb1",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Grob Opening, Grob Gambit, Fritz Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 756403644,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "2052493300": {
+      "id": 2052493300,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "g4": "wp7",
+          "d5": "bp4",
+          "h3": "wp8",
+          "e5": "bp5",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "h2",
+            "h3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 758340029,
+      "childIds": [
+        1368971681
+      ],
+      "childIdx": 0
+    },
+    "2067886696": {
+      "id": 2067886696,
+      "state": {
+        "key": "d1d4",
+        "pgn": "Qxd4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d4": "wq1"
+        },
+        "moves": [
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "d1",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 551017517,
+      "childIds": [
+        1846138127
+      ],
+      "childIdx": 0
+    },
+    "2132907600": {
+      "id": 2132907600,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "b4": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "g6": "bp7",
+          "c4": "wp3",
+          "g7": "bb2",
+          "e3": "wp5",
+          "d6": "bp4",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Polish Opening, King's Indian Variation, Sokolsky Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1592219925,
+      "childIds": [],
+      "childIdx": -1
     }
-  ]
+  }
 }

@@ -1,175 +1,4878 @@
 {
-  "slug": "philidor-defence",
-  "name": "Philidor Defence",
-  "range": "C41",
-  "lines": [
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Lion Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Nc3 4... Ngf6",
-      "count": 17320
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "5692833": {
+      "id": 5692833,
+      "state": {
+        "key": "c4f7",
+        "pgn": "Bxf7+",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "e7": "bb2",
+          "f7": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "c4",
+            "f7"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Lion Variation, Bishop Sac"
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "f7"
+          ]
+        }
+      },
+      "parentId": 2147063985,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Exchange Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... exd4 4. Nxd4 4... Nf6",
-      "count": 5714
+    "5749557": {
+      "id": 5749557,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "c4": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 2147063985,
+      "childIds": [
+        197002080
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6",
-      "count": 4408
+    "5781274": {
+      "id": 5781274,
+      "state": {
+        "key": "f3g5",
+        "pgn": "Ng5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "c4": "wb2",
+          "e7": "bb2",
+          "g5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "f3",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 2147063985,
+      "childIds": [
+        197985307
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Hanham Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7",
-      "count": 1544
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Philidor Defence"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Lion Variation, Shirov Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Nc3 4... Ngf6 5. g4",
-      "count": 1114
+    "65802433": {
+      "id": 65802433,
+      "state": {
+        "key": "d4e5",
+        "pgn": "dxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d7": "bn1",
+          "c4": "wb2",
+          "c6": "bp3",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e7": "bb2",
+          "e5": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "d4",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Hanham Variation, Steiner Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1248444386,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Exchange Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... exd4",
-      "count": 1064
+    "197002080": {
+      "id": 197002080,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "c4": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 5749557,
+      "childIds": [
+        1830826413
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, General",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4",
-      "count": 1050
+    "197985307": {
+      "id": 197985307,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "e5": "bp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "c4": "wb2",
+          "e7": "bb2",
+          "g5": "wn2",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 5781274,
+      "childIds": [
+        1861279578
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Larsen Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... exd4 4. Nxd4 4... g6",
-      "count": 893
+    "244527714": {
+      "id": 244527714,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1877669921,
+      "childIds": [
+        1156643159
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Exchange Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... exd4 4. Nxd4",
-      "count": 624
+    "413820617": {
+      "id": 413820617,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1121121620,
+      "childIds": [
+        2109816433
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Hanham Variation, Krause Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Bc4 4... c6 5. O-O",
-      "count": 363
+    "413820677": {
+      "id": 413820677,
+      "state": {
+        "key": "f1e2",
+        "pgn": "Be2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "e2": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "e2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 1121121620,
+      "childIds": [
+        2109818293
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Lion Variation, Lion's Claw II",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Nc3 4... Ngf6 5. Bc4 5... Be7 6. O-O 6... h6",
-      "count": 340
+    "413851493": {
+      "id": 413851493,
+      "state": {
+        "key": "g2g4",
+        "pgn": "g4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g4": "wp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Lion Variation, Shirov Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1121121620,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Hanham Variation, Schlechter Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Bc4 4... c6 5. Nc3",
-      "count": 336
+    "437281687": {
+      "id": 437281687,
+      "state": {
+        "key": "g5e6",
+        "pgn": "Ne6",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "e5": "bp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "e7": "bb2",
+          "g8": "bk1",
+          "f7": "br2",
+          "e6": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c4",
+            "f7"
+          ],
+          [
+            "f8",
+            "f7"
+          ],
+          [
+            "g5",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Lion Variation, Forcing Line"
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 1883887668,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Nimzowitsch Variation, Rellstab Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6 4. dxe5 4... Nxe4 5. Qd5",
-      "count": 276
+    "451199940": {
+      "id": 451199940,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1884341575,
+      "childIds": [
+        1121121620
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Hanham Variation, Steiner Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Bc4 4... c6 5. O-O 5... Be7 6. dxe5",
-      "count": 273
+    "451319105": {
+      "id": 451319105,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1884341575,
+      "childIds": [
+        1124695517
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Lion Variation, Bishop Sac",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6 4. Nc3 4... Nbd7 5. Bc4 5... Be7 6. Bxf7+",
-      "count": 207
+    "452188780": {
+      "id": 452188780,
+      "state": {
+        "key": "d4e5",
+        "pgn": "dxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "g4": "bb1",
+          "e5": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "d4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1884371456,
+      "childIds": [
+        1151626644
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Nimzowitsch Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6 4. dxe5",
-      "count": 197
+    "454000202": {
+      "id": 454000202,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "bp5",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Morphy Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1884428062,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Nimzowitsch Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6",
-      "count": 191
+    "454002155": {
+      "id": 454002155,
+      "state": {
+        "key": "f3d4",
+        "pgn": "Nxd4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "f3",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Exchange Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1884428062,
+      "childIds": [
+        1207990285,
+        1207989355
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Lion Variation, Sozin Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6 4. Nc3 4... Nbd7 5. Bc4 5... Be7 6. O-O 6... O-O 7. Qe2 7... c6 8. a4 8... exd4",
-      "count": 186
+    "454866093": {
+      "id": 454866093,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Philidor Countergambit, Zukertort Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1884459838,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Lion Variation, Forcing Line",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nf6 4. Nc3 4... Nbd7 5. Bc4 5... Be7 6. Ng5 6... O-O 7. Bxf7+ 7... Rxf7 8. Ne6",
-      "count": 179
+    "455819436": {
+      "id": 455819436,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1884490591,
+      "childIds": [
+        1264176980
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Lion Variation, Lion's Claw I",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Nd7 4. Nc3 4... Ngf6 5. Be2 5... Be7 6. O-O 6... c6",
-      "count": 176
+    "455881965": {
+      "id": 455881965,
+      "state": {
+        "key": "d4e5",
+        "pgn": "dxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "f6": "bn2",
+          "e5": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d4",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Nimzowitsch Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1884490591,
+      "childIds": [
+        1266232649
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Morphy Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... exd4 4. Bc4",
-      "count": 154
+    "524492259": {
+      "id": 524492259,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c4": "wb2",
+          "c6": "bp3",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Hanham Variation, Schlechter Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1124695517,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Albin-Blackburne Gambit",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... Bg4 4. dxe5 4... Nd7",
-      "count": 151
+    "524581754": {
+      "id": 524581754,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c4": "wb2",
+          "c6": "bp3",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1124695517,
+      "childIds": [
+        1248444386
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Philidor Countergambit",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... f5",
-      "count": 134
+    "553569483": {
+      "id": 553569483,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1264176980,
+      "childIds": [
+        2147063985
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C41",
-      "name": "Philidor Defense, Philidor Countergambit, Zukertort Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... d6 3. d4 3... f5 4. Nc3",
-      "count": 113
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877669921
+      ],
+      "childIdx": 0
+    },
+    "617235672": {
+      "id": 617235672,
+      "state": {
+        "key": "d1d5",
+        "pgn": "Qd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d6": "bp4",
+          "e5": "wp4",
+          "e4": "bn2",
+          "d5": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Nimzowitsch Variation, Rellstab Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1266232649,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "909415048": {
+      "id": 909415048,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c4": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Lion Variation, Lion's Claw II"
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 998559092,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "911053398": {
+      "id": 911053398,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "e2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Lion Variation, Lion's Claw I"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 998616752,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "939749125": {
+      "id": 939749125,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "c4": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "e2": "wq1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d1",
+            "e2"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1830826413,
+      "childIds": [
+        1233576157
+      ],
+      "childIdx": 0
+    },
+    "998559092": {
+      "id": 998559092,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c4": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 2109816433,
+      "childIds": [
+        909415048
+      ],
+      "childIdx": 0
+    },
+    "998616752": {
+      "id": 998616752,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "e2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 2109818293,
+      "childIds": [
+        911053398
+      ],
+      "childIdx": 0
+    },
+    "1121121620": {
+      "id": 1121121620,
+      "state": {
+        "key": "g8f6",
+        "pgn": "gf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c3": "wn1",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 451199940,
+      "childIds": [
+        413851493,
+        413820617,
+        413820677
+      ],
+      "childIdx": 0
+    },
+    "1124695517": {
+      "id": 1124695517,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c4": "wb2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 451319105,
+      "childIds": [
+        524581754,
+        524492259
+      ],
+      "childIdx": 0
+    },
+    "1151626644": {
+      "id": 1151626644,
+      "state": {
+        "key": "b8d7",
+        "pgn": "Nd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "g4": "bb1",
+          "e5": "wp4",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Albin-Blackburne Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 452188780,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1156643159": {
+      "id": 1156643159,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 244527714,
+      "childIds": [
+        1514929736
+      ],
+      "childIdx": 0
+    },
+    "1207989355": {
+      "id": 1207989355,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wn2",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "f3",
+            "d4"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Larsen Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 454002155,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1207990285": {
+      "id": 1207990285,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wn2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "f3",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Exchange Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 454002155,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1233576157": {
+      "id": 1233576157,
+      "state": {
+        "key": "a2a4",
+        "pgn": "a4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "c4": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "e2": "wq1",
+          "c6": "bp3",
+          "a4": "wp1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d1",
+            "e2"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "a2",
+            "a4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a4"
+          ]
+        }
+      },
+      "parentId": 939749125,
+      "childIds": [
+        1752401701
+      ],
+      "childIdx": 0
+    },
+    "1248444386": {
+      "id": 1248444386,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c4": "wb2",
+          "c6": "bp3",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 524581754,
+      "childIds": [
+        65802433
+      ],
+      "childIdx": 0
+    },
+    "1264176980": {
+      "id": 1264176980,
+      "state": {
+        "key": "b8d7",
+        "pgn": "bd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 455819436,
+      "childIds": [
+        553569483
+      ],
+      "childIdx": 0
+    },
+    "1266232649": {
+      "id": 1266232649,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Nxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d6": "bp4",
+          "e5": "wp4",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 455881965,
+      "childIds": [
+        617235672
+      ],
+      "childIdx": 0
+    },
+    "1514929736": {
+      "id": 1514929736,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1156643159,
+      "childIds": [
+        1884341575,
+        1884428062,
+        1884490591,
+        1884371456,
+        1884459838
+      ],
+      "childIdx": 0
+    },
+    "1752401701": {
+      "id": 1752401701,
+      "state": {
+        "key": "e5d4",
+        "pgn": "exd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "c4": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "e2": "wq1",
+          "c6": "bp3",
+          "a4": "wp1",
+          "d4": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d1",
+            "e2"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "e5",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Philidor Defense, Lion Variation, Sozin Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1233576157,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1830826413": {
+      "id": 1830826413,
+      "state": {
+        "key": "d1e2",
+        "pgn": "Qe2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "c4": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "e2": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d1",
+            "e2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 197002080,
+      "childIds": [
+        939749125
+      ],
+      "childIdx": 0
+    },
+    "1861279578": {
+      "id": 1861279578,
+      "state": {
+        "key": "c4f7",
+        "pgn": "Bxf7+",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "e5": "bp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "e7": "bb2",
+          "g5": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f7": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c4",
+            "f7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "f7"
+          ]
+        }
+      },
+      "parentId": 197985307,
+      "childIds": [
+        1883887668
+      ],
+      "childIdx": 0
+    },
+    "1877669921": {
+      "id": 1877669921,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        244527714
+      ],
+      "childIdx": 0
+    },
+    "1883887668": {
+      "id": 1883887668,
+      "state": {
+        "key": "f8f7",
+        "pgn": "Rxf7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "e5": "bp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "e7": "bb2",
+          "g5": "wn2",
+          "g8": "bk1",
+          "f7": "br2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c4",
+            "f7"
+          ],
+          [
+            "f8",
+            "f7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "f7"
+          ]
+        }
+      },
+      "parentId": 1861279578,
+      "childIds": [
+        437281687
+      ],
+      "childIdx": 0
+    },
+    "1884341575": {
+      "id": 1884341575,
+      "state": {
+        "key": "b8d7",
+        "pgn": "Nd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 1514929736,
+      "childIds": [
+        451199940,
+        451319105
+      ],
+      "childIdx": 0
+    },
+    "1884371456": {
+      "id": 1884371456,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1514929736,
+      "childIds": [
+        452188780
+      ],
+      "childIdx": 0
+    },
+    "1884428062": {
+      "id": 1884428062,
+      "state": {
+        "key": "e5d4",
+        "pgn": "exd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1514929736,
+      "childIds": [
+        454002155,
+        454000202
+      ],
+      "childIdx": 0
+    },
+    "1884459838": {
+      "id": 1884459838,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 1514929736,
+      "childIds": [
+        454866093
+      ],
+      "childIdx": 0
+    },
+    "1884490591": {
+      "id": 1884490591,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1514929736,
+      "childIds": [
+        455881965,
+        455819436
+      ],
+      "childIdx": 0
+    },
+    "2109816433": {
+      "id": 2109816433,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c4": "wb2",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 413820617,
+      "childIds": [
+        998559092
+      ],
+      "childIdx": 0
+    },
+    "2109818293": {
+      "id": 2109818293,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "e2": "wb2",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 413820677,
+      "childIds": [
+        998616752
+      ],
+      "childIdx": 0
+    },
+    "2147063985": {
+      "id": 2147063985,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "c4": "wb2",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 553569483,
+      "childIds": [
+        5692833,
+        5749557,
+        5781274
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

@@ -1,238 +1,7476 @@
 {
-  "slug": "queens-gambit-declined-semi-slav-main-line",
-  "name": "Queen's Gambit Declined: Semi-Slav main line",
-  "range": "D43-D49",
-  "lines": [
-    {
-      "eco": "D43",
-      "name": "Semi-Slav Defense, General",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6",
-      "count": 20119
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Queen's Gambit Declined: Semi-Slav main line"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614124188
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D45",
-      "name": "Semi-Slav Defense, Stoltz Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Qc2",
-      "count": 15976
+    "36734509": {
+      "id": 36734509,
+      "state": {
+        "key": "e5f6",
+        "pgn": "exf6",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f3": "wn2",
+          "c6": "bp3",
+          "c4": "bp4",
+          "b5": "bp2",
+          "h6": "bp8",
+          "h4": "wb1",
+          "g5": "bp7",
+          "f6": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "e5",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1247505718,
+      "childIds": [
+        1157592318
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D45",
-      "name": "Semi-Slav Defense, Main Lines",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3",
-      "count": 4450
+    "36762408": {
+      "id": 36762408,
+      "state": {
+        "key": "f3g5",
+        "pgn": "Nxg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c6": "bp3",
+          "c4": "bp4",
+          "b5": "bp2",
+          "e5": "wp5",
+          "h6": "bp8",
+          "h4": "wb1",
+          "g5": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f3",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1247505718,
+      "childIds": [
+        1158487909,
+        1158428234
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D44",
-      "name": "Queen's Gambit Declined, Vienna Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... dxc4",
-      "count": 4299
+    "114665442": {
+      "id": 114665442,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1042200666,
+      "childIds": [
+        1425999309,
+        1425878066
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D45",
-      "name": "Semi-Slav Defense, Normal Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7",
-      "count": 3838
+    "114725921": {
+      "id": 114725921,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1042200666,
+      "childIds": [
+        1427696250,
+        1427665404,
+        1427813520
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D44",
-      "name": "Queen's Gambit Declined, Vienna Variation, Quiet Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... dxc4 5. e3",
-      "count": 3303
+    "115589798": {
+      "id": 115589798,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c4": "bp4",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Vienna Variation, Quiet Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1042228533,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D46",
-      "name": "Semi-Slav Defense, Chigorin Defense",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... Bd6",
-      "count": 3272
+    "124514118": {
+      "id": 124514118,
+      "state": {
+        "key": "c4d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "b5": "bp2",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 419055281,
+      "childIds": [
+        1731160086,
+        1731099511,
+        1731127409
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D47",
-      "name": "Semi-Slav Defense, Meran Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5",
-      "count": 3265
+    "214825995": {
+      "id": 214825995,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1876715617,
+      "childIds": [
+        235919692
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D44",
-      "name": "Semi-Slav Defense, Anti-Moscow Gambit",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... h6 6. Bh4",
-      "count": 3104
+    "235919692": {
+      "id": 235919692,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 214825995,
+      "childIds": [
+        889729095
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D45",
-      "name": "Semi-Slav Defense, Accelerated Meran Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... a6",
-      "count": 2929
+    "290403685": {
+      "id": 290403685,
+      "state": {
+        "key": "c5d4",
+        "pgn": "cxd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e6": "bp5",
+          "f3": "wn2",
+          "d7": "bn1",
+          "d3": "wb2",
+          "b7": "bb1",
+          "b4": "bp2",
+          "a4": "wn1",
+          "e5": "wp5",
+          "d5": "bn2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d4": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "b5",
+            "b4"
+          ],
+          [
+            "c3",
+            "a4"
+          ],
+          [
+            "c6",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "c5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1879153513,
+      "childIds": [
+        431370349
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D47",
-      "name": "Semi-Slav Defense, Meran Variation, Wade Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... Bb7",
-      "count": 2767
+    "373445441": {
+      "id": 373445441,
+      "state": {
+        "key": "f8d6",
+        "pgn": "Bd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "c2": "wq1",
+          "d6": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "d1",
+            "c2"
+          ],
+          [
+            "f8",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1327639975,
+      "childIds": [
+        858210061,
+        858151378
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D45",
-      "name": "Semi-Slav Defense, Stoltz Variation, Shabalov Attack",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Qc2 6... Bd6 7. g4",
-      "count": 2180
+    "375230977": {
+      "id": 375230977,
+      "state": {
+        "key": "d5c4",
+        "pgn": "dxc4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "d3": "wb2",
+          "c4": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1327699589,
+      "childIds": [
+        913473141
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D44",
-      "name": "Semi-Slav Defense, Botvinnik System",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4 6. e4 6... b5 7. e5 7... h6 8. Bh4 8... g5 9. Nxg5",
-      "count": 1710
+    "375293411": {
+      "id": 375293411,
+      "state": {
+        "key": "f8b4",
+        "pgn": "Bb4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "d3": "wb2",
+          "b4": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "b4"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Romih Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 1327699589,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D48",
-      "name": "Semi-Slav Defense, Meran Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6",
-      "count": 1511
+    "375293475": {
+      "id": 375293475,
+      "state": {
+        "key": "f8d6",
+        "pgn": "Bd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "d3": "wb2",
+          "d6": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Chigorin Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1327699589,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D46",
-      "name": "Semi-Slav Defense, Bogoljubow Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... Be7",
-      "count": 1212
+    "375293507": {
+      "id": 375293507,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "d3": "wb2",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Bogoljubow Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1327699589,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D44",
-      "name": "Semi-Slav Defense, Botvinnik System, Lilienthal Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4 6. e4 6... b5 7. e5 7... h6 8. Bh4 8... g5 9. Nxg5 9... hxg5 10. Bxg5 10... Nbd7 11. g3",
-      "count": 1067
+    "405612319": {
+      "id": 405612319,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "g5": "wb1",
+          "c4": "bp4",
+          "b5": "bp2",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 774489372,
+      "childIds": [
+        1855417908
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D48",
-      "name": "Semi-Slav Defense, Meran Variation, Reynolds' Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6 9. e4 9... c5 10. d5",
-      "count": 988
+    "419055281": {
+      "id": 419055281,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "c4": "wb2",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 913473141,
+      "childIds": [
+        124514118
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D44",
-      "name": "Semi-Slav Defense, Accepted",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4",
-      "count": 972
+    "431370349": {
+      "id": 431370349,
+      "state": {
+        "key": "f3d4",
+        "pgn": "Nxd4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e6": "bp5",
+          "d7": "bn1",
+          "d3": "wb2",
+          "b7": "bb1",
+          "b4": "bp2",
+          "a4": "wn1",
+          "e5": "wp5",
+          "d5": "bn2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d4": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "b5",
+            "b4"
+          ],
+          [
+            "c3",
+            "a4"
+          ],
+          [
+            "c6",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "f3",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Meran Variation, Wade Variation, Kaidanov Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 290403685,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D47",
-      "name": "Semi-Slav Defense, Meran Variation, Lundin Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... b4",
-      "count": 791
+    "469828334": {
+      "id": 469828334,
+      "state": {
+        "key": "c3a4",
+        "pgn": "Na4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "d7": "bn1",
+          "d3": "wb2",
+          "b7": "bb1",
+          "e4": "wp5",
+          "b4": "bp2",
+          "a4": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "b5",
+            "b4"
+          ],
+          [
+            "c3",
+            "a4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c3",
+            "a4"
+          ]
+        }
+      },
+      "parentId": 2092762468,
+      "childIds": [
+        1698480654
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D47",
-      "name": "Semi-Slav Defense, Meran Variation, Wade Variation, Larsen Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... Bb7 9. e4 9... b4 10. Na4 10... c5 11. e5 11... Nd5",
-      "count": 741
+    "487989045": {
+      "id": 487989045,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "e4": "bn2",
+          "d3": "wb2",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Stonewall Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 1331334959,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D44",
-      "name": "Semi-Slav Defense, Botvinnik Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4 6. e4",
-      "count": 671
+    "492318604": {
+      "id": 492318604,
+      "state": {
+        "key": "d7e5",
+        "pgn": "Nxe5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e6": "bp5",
+          "f6": "bn2",
+          "f3": "wn2",
+          "d3": "wb2",
+          "a6": "bp1",
+          "d4": "bp3",
+          "b5": "wn1",
+          "e5": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "c6",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "c3",
+            "b5"
+          ],
+          [
+            "d7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Meran Variation, Sozin Variation II"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 915834549,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D49",
-      "name": "Semi-Slav Defense, Meran Variation, Blumenfeld Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6 9. e4 9... c5 10. e5 10... cxd4 11. Nxb5",
-      "count": 479
+    "492377286": {
+      "id": 492377286,
+      "state": {
+        "key": "f6g4",
+        "pgn": "Ng4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e6": "bp5",
+          "f3": "wn2",
+          "d7": "bn1",
+          "d3": "wb2",
+          "a6": "bp1",
+          "e5": "wp5",
+          "d4": "bp3",
+          "b5": "wn1",
+          "g4": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "c6",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "c3",
+            "b5"
+          ],
+          [
+            "f6",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Meran Variation, Rabinovich Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 915834549,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D44",
-      "name": "Semi-Slav Defense, Botvinnik System, Ekstrom Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4 6. e4 6... b5 7. e5 7... h6 8. Bh4 8... g5 9. exf6 9... gxh4 10. Ne5",
-      "count": 433
+    "614124188": {
+      "id": 614124188,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876715617
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D46",
-      "name": "Semi-Slav Defense, Romih Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... Bb4",
-      "count": 404
+    "752749384": {
+      "id": 752749384,
+      "state": {
+        "key": "f6d5",
+        "pgn": "Nd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f3": "wn2",
+          "d7": "bn1",
+          "d3": "wb2",
+          "b7": "bb1",
+          "b4": "bp2",
+          "a4": "wn1",
+          "c5": "bp3",
+          "e5": "wp5",
+          "d5": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "b5",
+            "b4"
+          ],
+          [
+            "c3",
+            "a4"
+          ],
+          [
+            "c6",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1132054650,
+      "childIds": [
+        1879153513
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D45",
-      "name": "Semi-Slav Defense, Stoltz Variation, Center Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Qc2 6... Bd6 7. e4",
-      "count": 383
+    "774489372": {
+      "id": 774489372,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "g5": "wb1",
+          "c4": "bp4",
+          "e4": "wp5",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 1271307087,
+      "childIds": [
+        405612319
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D46",
-      "name": "Semi-Slav Defense, Main Lines",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3",
-      "count": 363
+    "813707306": {
+      "id": 813707306,
+      "state": {
+        "key": "d4d5",
+        "pgn": "d5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "d7": "bn1",
+          "b5": "bp2",
+          "d3": "wb2",
+          "a6": "bp1",
+          "e4": "wp5",
+          "c5": "bp3",
+          "d5": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "c6",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Meran Variation, Reynolds' Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 2034580677,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D47",
-      "name": "Semi-Slav Defense, Semi-Meran Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4",
-      "count": 313
+    "813737128": {
+      "id": 813737128,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "d7": "bn1",
+          "b5": "bp2",
+          "d3": "wb2",
+          "a6": "bp1",
+          "c5": "bp3",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "c6",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Meran Variation, Old  Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 2034580677,
+      "childIds": [
+        1622234102
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D49",
-      "name": "Semi-Slav Defense, Meran Variation, Rabinovich Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6 9. e4 9... c5 10. e5 10... cxd4 11. Nxb5 11... Ng4",
-      "count": 156
+    "858151378": {
+      "id": 858151378,
+      "state": {
+        "key": "e3e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "d7": "bn1",
+          "c2": "wq1",
+          "d6": "bb2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "d1",
+            "c2"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "e3",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Stoltz Variation, Center Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e3",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 373445441,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D47",
-      "name": "Semi-Slav Defense, Meran Variation, Wade Variation, Kaidanov Gambit",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... Bb7 9. e4 9... b4 10. Na4 10... c5 11. e5 11... Nd5 12. O-O 12... cxd4 13. Nxd4",
-      "count": 155
+    "858210061": {
+      "id": 858210061,
+      "state": {
+        "key": "g2g4",
+        "pgn": "g4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "c2": "wq1",
+          "d6": "bb2",
+          "g4": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "d1",
+            "c2"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "g2",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Stoltz Variation, Shabalov Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 373445441,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D44",
-      "name": "Semi-Slav Defense, Botvinnik System, Alatortsev System",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. Bg5 5... dxc4 6. e4 6... b5 7. e5 7... h6 8. Bh4 8... g5 9. Nxg5 9... Nd5",
-      "count": 142
+    "889729095": {
+      "id": 889729095,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 235919692,
+      "childIds": [
+        1830623543
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D49",
-      "name": "Semi-Slav Defense, Meran Variation, Sozin Variation II",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6 9. e4 9... c5 10. e5 10... cxd4 11. Nxb5 11... Nxe5",
-      "count": 131
+    "913473141": {
+      "id": 913473141,
+      "state": {
+        "key": "d3c4",
+        "pgn": "Bxc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d3",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 375230977,
+      "childIds": [
+        419055281
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D45",
-      "name": "Semi-Slav Defense, Stonewall Defense",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Ne4 6. Bd3 6... f5",
-      "count": 124
+    "915834549": {
+      "id": 915834549,
+      "state": {
+        "key": "c3b5",
+        "pgn": "Nxb5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e6": "bp5",
+          "f6": "bn2",
+          "f3": "wn2",
+          "d7": "bn1",
+          "d3": "wb2",
+          "a6": "bp1",
+          "e5": "wp5",
+          "d4": "bp3",
+          "b5": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "c6",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "c3",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c3",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 1622234102,
+      "childIds": [
+        492377286,
+        492318604
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D48",
-      "name": "Semi-Slav Defense, Meran Variation, Old  Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Nf3 4... c6 5. e3 5... Nbd7 6. Bd3 6... dxc4 7. Bxc4 7... b5 8. Bd3 8... a6 9. e4 9... c5 10. e5",
-      "count": 123
+    "933573643": {
+      "id": 933573643,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1830623543,
+      "childIds": [
+        1042200666,
+        1042228533
+      ],
+      "childIdx": 0
+    },
+    "1042200666": {
+      "id": 1042200666,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 933573643,
+      "childIds": [
+        114725921,
+        114665442
+      ],
+      "childIdx": 0
+    },
+    "1042228533": {
+      "id": 1042228533,
+      "state": {
+        "key": "d5c4",
+        "pgn": "dxc4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c4": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d5",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 933573643,
+      "childIds": [
+        115589798
+      ],
+      "childIdx": 0
+    },
+    "1132054650": {
+      "id": 1132054650,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f6": "bn2",
+          "f3": "wn2",
+          "d7": "bn1",
+          "d3": "wb2",
+          "b7": "bb1",
+          "b4": "bp2",
+          "a4": "wn1",
+          "c5": "bp3",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "b5",
+            "b4"
+          ],
+          [
+            "c3",
+            "a4"
+          ],
+          [
+            "c6",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1698480654,
+      "childIds": [
+        752749384
+      ],
+      "childIdx": 0
+    },
+    "1157592318": {
+      "id": 1157592318,
+      "state": {
+        "key": "g5h4",
+        "pgn": "gxh4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f3": "wn2",
+          "c6": "bp3",
+          "c4": "bp4",
+          "b5": "bp2",
+          "h6": "bp8",
+          "f6": "wp5",
+          "h4": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "e5",
+            "f6"
+          ],
+          [
+            "g5",
+            "h4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 36734509,
+      "childIds": [
+        1544414240
+      ],
+      "childIdx": 0
+    },
+    "1158428234": {
+      "id": 1158428234,
+      "state": {
+        "key": "f6d5",
+        "pgn": "Nd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "c6": "bp3",
+          "c4": "bp4",
+          "b5": "bp2",
+          "e5": "wp5",
+          "h6": "bp8",
+          "h4": "wb1",
+          "g5": "wn2",
+          "d5": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "f6",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Botvinnik System, Alatortsev System"
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 36762408,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1158487909": {
+      "id": 1158487909,
+      "state": {
+        "key": "h6g5",
+        "pgn": "hxg5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c6": "bp3",
+          "c4": "bp4",
+          "b5": "bp2",
+          "e5": "wp5",
+          "h4": "wb1",
+          "g5": "bp8"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "h6",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h6",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 36762408,
+      "childIds": [
+        1572238166
+      ],
+      "childIdx": 0
+    },
+    "1247505718": {
+      "id": 1247505718,
+      "state": {
+        "key": "g7g5",
+        "pgn": "g5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "c4": "bp4",
+          "b5": "bp2",
+          "e5": "wp5",
+          "h6": "bp8",
+          "h4": "wb1",
+          "g5": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "g7",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1702202865,
+      "childIds": [
+        36762408,
+        36734509
+      ],
+      "childIdx": 0
+    },
+    "1271307087": {
+      "id": 1271307087,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "g5": "wb1",
+          "c4": "bp4",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1425878066,
+      "childIds": [
+        774489372
+      ],
+      "childIdx": 0
+    },
+    "1275128178": {
+      "id": 1275128178,
+      "state": {
+        "key": "g5h4",
+        "pgn": "Bh4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "h6": "bp8",
+          "h4": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Anti-Moscow Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 1425999309,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1327639975": {
+      "id": 1327639975,
+      "state": {
+        "key": "d1c2",
+        "pgn": "Qc2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "c2": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "d1",
+            "c2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "c2"
+          ]
+        }
+      },
+      "parentId": 1427696250,
+      "childIds": [
+        373445441
+      ],
+      "childIdx": 0
+    },
+    "1327699589": {
+      "id": 1327699589,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1427696250,
+      "childIds": [
+        375293475,
+        375230977,
+        375293507,
+        375293411
+      ],
+      "childIdx": 0
+    },
+    "1331334959": {
+      "id": 1331334959,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "e4": "bn2",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1427813520,
+      "childIds": [
+        487989045
+      ],
+      "childIdx": 0
+    },
+    "1425878066": {
+      "id": 1425878066,
+      "state": {
+        "key": "d5c4",
+        "pgn": "dxc4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "g5": "wb1",
+          "c4": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 114665442,
+      "childIds": [
+        1271307087
+      ],
+      "childIdx": 0
+    },
+    "1425999309": {
+      "id": 1425999309,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "g5": "wb1",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 114665442,
+      "childIds": [
+        1275128178
+      ],
+      "childIdx": 0
+    },
+    "1427665404": {
+      "id": 1427665404,
+      "state": {
+        "key": "a7a6",
+        "pgn": "a6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "a6": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "a7",
+            "a6"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Accelerated Meran Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 114725921,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1427696250": {
+      "id": 1427696250,
+      "state": {
+        "key": "b8d7",
+        "pgn": "bd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 114725921,
+      "childIds": [
+        1327639975,
+        1327699589
+      ],
+      "childIdx": 0
+    },
+    "1427813520": {
+      "id": 1427813520,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Ne4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 114725921,
+      "childIds": [
+        1331334959
+      ],
+      "childIdx": 0
+    },
+    "1513419258": {
+      "id": 1513419258,
+      "state": {
+        "key": "b8d7",
+        "pgn": "bd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c6": "bp3",
+          "c4": "bp4",
+          "b5": "bp2",
+          "e5": "wp5",
+          "g5": "wb1",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "h6",
+            "g5"
+          ],
+          [
+            "h4",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 1572238166,
+      "childIds": [
+        1837660035
+      ],
+      "childIdx": 0
+    },
+    "1544414240": {
+      "id": 1544414240,
+      "state": {
+        "key": "f3e5",
+        "pgn": "Ne5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "c6": "bp3",
+          "c4": "bp4",
+          "b5": "bp2",
+          "h6": "bp8",
+          "f6": "wp5",
+          "h4": "bp7",
+          "e5": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "e5",
+            "f6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "f3",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Botvinnik System, Ekstrom Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1157592318,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1572238166": {
+      "id": 1572238166,
+      "state": {
+        "key": "h4g5",
+        "pgn": "Bxg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c6": "bp3",
+          "c4": "bp4",
+          "b5": "bp2",
+          "e5": "wp5",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "h6",
+            "g5"
+          ],
+          [
+            "h4",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h4",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1158487909,
+      "childIds": [
+        1513419258
+      ],
+      "childIdx": 0
+    },
+    "1622234102": {
+      "id": 1622234102,
+      "state": {
+        "key": "c5d4",
+        "pgn": "cxd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "d7": "bn1",
+          "b5": "bp2",
+          "d3": "wb2",
+          "a6": "bp1",
+          "e5": "wp5",
+          "d4": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "c6",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "c5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 813737128,
+      "childIds": [
+        915834549
+      ],
+      "childIdx": 0
+    },
+    "1698480654": {
+      "id": 1698480654,
+      "state": {
+        "key": "c6c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f6": "bn2",
+          "f3": "wn2",
+          "d7": "bn1",
+          "d3": "wb2",
+          "b7": "bb1",
+          "e4": "wp5",
+          "b4": "bp2",
+          "a4": "wn1",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "b5",
+            "b4"
+          ],
+          [
+            "c3",
+            "a4"
+          ],
+          [
+            "c6",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c6",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 469828334,
+      "childIds": [
+        1132054650
+      ],
+      "childIdx": 0
+    },
+    "1702202865": {
+      "id": 1702202865,
+      "state": {
+        "key": "g5h4",
+        "pgn": "Bh4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "c4": "bp4",
+          "b5": "bp2",
+          "e5": "wp5",
+          "h6": "bp8",
+          "h4": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 1855417908,
+      "childIds": [
+        1247505718
+      ],
+      "childIdx": 0
+    },
+    "1731099511": {
+      "id": 1731099511,
+      "state": {
+        "key": "a7a6",
+        "pgn": "a6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "b5": "bp2",
+          "d3": "wb2",
+          "a6": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "a7",
+            "a6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 124514118,
+      "childIds": [
+        2143238255
+      ],
+      "childIdx": 0
+    },
+    "1731127409": {
+      "id": 1731127409,
+      "state": {
+        "key": "b5b4",
+        "pgn": "b4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "d3": "wb2",
+          "b4": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "b5",
+            "b4"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Meran Variation, Lundin Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b5",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 124514118,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1731160086": {
+      "id": 1731160086,
+      "state": {
+        "key": "c8b7",
+        "pgn": "Bb7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "d7": "bn1",
+          "b5": "bp2",
+          "d3": "wb2",
+          "b7": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "c8",
+            "b7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "b7"
+          ]
+        }
+      },
+      "parentId": 124514118,
+      "childIds": [
+        2145116080
+      ],
+      "childIdx": 0
+    },
+    "1830623543": {
+      "id": 1830623543,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 889729095,
+      "childIds": [
+        933573643
+      ],
+      "childIdx": 0
+    },
+    "1837660035": {
+      "id": 1837660035,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c6": "bp3",
+          "c4": "bp4",
+          "b5": "bp2",
+          "e5": "wp5",
+          "g5": "wb1",
+          "d7": "bn1",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "h6",
+            "g5"
+          ],
+          [
+            "h4",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "comments": [
+          "Semi-Slav Defense, Botvinnik System, Lilienthal Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1513419258,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1855417908": {
+      "id": 1855417908,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "g5": "wb1",
+          "c4": "bp4",
+          "b5": "bp2",
+          "e5": "wp5",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 405612319,
+      "childIds": [
+        1702202865
+      ],
+      "childIdx": 0
+    },
+    "1876715617": {
+      "id": 1876715617,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        214825995
+      ],
+      "childIdx": 0
+    },
+    "1879153513": {
+      "id": 1879153513,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f3": "wn2",
+          "d7": "bn1",
+          "d3": "wb2",
+          "b7": "bb1",
+          "b4": "bp2",
+          "a4": "wn1",
+          "c5": "bp3",
+          "e5": "wp5",
+          "d5": "bn2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "b5",
+            "b4"
+          ],
+          [
+            "c3",
+            "a4"
+          ],
+          [
+            "c6",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 752749384,
+      "childIds": [
+        290403685
+      ],
+      "childIdx": 0
+    },
+    "2034580677": {
+      "id": 2034580677,
+      "state": {
+        "key": "c6c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "d7": "bn1",
+          "b5": "bp2",
+          "d3": "wb2",
+          "a6": "bp1",
+          "e4": "wp5",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "c6",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c6",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 2143238255,
+      "childIds": [
+        813707306,
+        813737128
+      ],
+      "childIdx": 0
+    },
+    "2092762468": {
+      "id": 2092762468,
+      "state": {
+        "key": "b5b4",
+        "pgn": "b4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "d7": "bn1",
+          "d3": "wb2",
+          "b7": "bb1",
+          "e4": "wp5",
+          "b4": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "e3",
+            "e4"
+          ],
+          [
+            "b5",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b5",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 2145116080,
+      "childIds": [
+        469828334
+      ],
+      "childIdx": 0
+    },
+    "2143238255": {
+      "id": 2143238255,
+      "state": {
+        "key": "e3e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "d7": "bn1",
+          "b5": "bp2",
+          "d3": "wb2",
+          "a6": "bp1",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "e3",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e3",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1731099511,
+      "childIds": [
+        2034580677
+      ],
+      "childIdx": 0
+    },
+    "2145116080": {
+      "id": 2145116080,
+      "state": {
+        "key": "e3e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3",
+          "d7": "bn1",
+          "b5": "bp2",
+          "d3": "wb2",
+          "b7": "bb1",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "d3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "e3",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e3",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1731160086,
+      "childIds": [
+        2092762468
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

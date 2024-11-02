@@ -1,231 +1,6815 @@
 {
-  "slug": "two-knights-defence",
-  "name": "Two Knights' Defence",
-  "range": "C55-C59",
-  "lines": [
-    {
-      "eco": "C55",
-      "name": "Italian Game, Two Knights Defense, Modern Bishop's Opening",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d3",
-      "count": 17468
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "4829563": {
+      "id": 4829563,
+      "state": {
+        "key": "b5e2",
+        "pgn": "Be2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f6": "bn2",
+          "g5": "wn2",
+          "a5": "bn1",
+          "c6": "bp2",
+          "e2": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c6",
+            "a5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "d5",
+            "c6"
+          ],
+          [
+            "b7",
+            "c6"
+          ],
+          [
+            "b5",
+            "e2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b5",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 553742750,
+      "childIds": [
+        168570707
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C58",
-      "name": "Italian Game, Two Knights Defense, Polerio Defense, Bishop Check line",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Na5 6. Bb5+",
-      "count": 2729
+    "4885333": {
+      "id": 4885333,
+      "state": {
+        "key": "d1f3",
+        "pgn": "Qf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f6": "bn2",
+          "g5": "wn2",
+          "a5": "bn1",
+          "b5": "wb2",
+          "c6": "bp2",
+          "f3": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c6",
+            "a5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "d5",
+            "c6"
+          ],
+          [
+            "b7",
+            "c6"
+          ],
+          [
+            "d1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Polerio Defense, Bogoljubow Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 553742750,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C56",
-      "name": "Italian Game, Scotch Gambit, Anderssen Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Nxe4 6. Re1 6... d5 7. Bxd5 7... Qxd5 8. Nc3",
-      "count": 2482
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Two Knights' Defence"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C59",
-      "name": "Italian Game, Two Knights Defense, Polerio Defense, Suhle Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Na5 6. Bb5+ 6... c6 7. dxc6 7... bxc6 8. Be2 8... h6",
-      "count": 1442
+    "113089080": {
+      "id": 113089080,
+      "state": {
+        "key": "c3e4",
+        "pgn": "Nxe4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e1": "wr2",
+          "a5": "bq1",
+          "e4": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "c3",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c3",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1804160082,
+      "childIds": [
+        1376984000
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Deutz Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Bc5 4. O-O 4... Nf6 5. d4",
-      "count": 1350
+    "168570707": {
+      "id": 168570707,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f6": "bn2",
+          "g5": "wn2",
+          "a5": "bn1",
+          "c6": "bp2",
+          "e2": "wb2",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c6",
+            "a5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "d5",
+            "c6"
+          ],
+          [
+            "b7",
+            "c6"
+          ],
+          [
+            "b5",
+            "e2"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Polerio Defense, Suhle Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 4829563,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Two Knights Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6",
-      "count": 1098
+    "244527714": {
+      "id": 244527714,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1877669921,
+      "childIds": [
+        1156584507
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Anti-Fried Liver Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... h6",
-      "count": 1087
+    "252950547": {
+      "id": 252950547,
+      "state": {
+        "key": "c8e6",
+        "pgn": "Be6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "c5": "bb2",
+          "f6": "wp5",
+          "c4": "bp4",
+          "e1": "wr2",
+          "e6": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e5",
+            "f6"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "c8",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 1462303257,
+      "childIds": [
+        1417806812
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C58",
-      "name": "Italian Game, Two Knights Defense, Polerio Defense, Bogoljubow Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Na5 6. Bb5+ 6... c6 7. dxc6 7... bxc6 8. Qf3",
-      "count": 1072
+    "351082766": {
+      "id": 351082766,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "c5": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f6": "bn2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Deutz Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 357089382,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Scotch Gambit, Max Lange Attack",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Bc5",
-      "count": 794
+    "357089382": {
+      "id": 357089382,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "c5": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 911469401,
+      "childIds": [
+        351082766
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C57",
-      "name": "Italian Game, Two Knights Defense, Fritz Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Nd4",
-      "count": 703
+    "371217741": {
+      "id": 371217741,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e4": "bn2",
+          "e1": "wr2",
+          "d5": "bp4",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Scotch Gambit, Canal Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1743214172,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C57",
-      "name": "Italian Game, Two Knights Defense, Ulvestad Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... b5",
-      "count": 702
+    "371250448": {
+      "id": 371250448,
+      "state": {
+        "key": "c4d5",
+        "pgn": "Bxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e4": "bn2",
+          "e1": "wr2",
+          "d5": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1743214172,
+      "childIds": [
+        790081579
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Two Knights Defense, Perreux Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. Ng5",
-      "count": 626
+    "384821951": {
+      "id": 384821951,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d4": "wp4",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Scotch Gambit, Declined"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 912366916,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Scotch Gambit, Janowski Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... d6",
-      "count": 503
+    "384849818": {
+      "id": 384849818,
+      "state": {
+        "key": "e5d4",
+        "pgn": "exd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d4": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 912366916,
+      "childIds": [
+        1211685202,
+        1211716919
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C57",
-      "name": "Italian Game, Two Knights Defense, Fried Liver Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Nxd5 6. Nxf7",
-      "count": 437
+    "384880601": {
+      "id": 384880601,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Nxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "d4": "wp4",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 912366916,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Scotch Gambit, De Riviere Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Be7",
-      "count": 369
+    "386701697": {
+      "id": 386701697,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "g5": "wn2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 912427553,
+      "childIds": [
+        1269096245
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C58",
-      "name": "Italian Game, Two Knights Defense, Polerio Defense, Kieseritsky Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Na5 6. d3",
-      "count": 324
+    "386762209": {
+      "id": 386762209,
+      "state": {
+        "key": "f8c5",
+        "pgn": "Bc5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "g5": "wn2",
+          "c5": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "f8",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 912427553,
+      "childIds": [
+        1270912599,
+        1271032724
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Scotch Gambit, Walbrodt-Baird Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Bc5 6. c3",
-      "count": 314
+    "400897361": {
+      "id": 400897361,
+      "state": {
+        "key": "e5f6",
+        "pgn": "exf6",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c5": "bb2",
+          "d5": "bp4",
+          "f6": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e5",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1744168569,
+      "childIds": [
+        1709132967
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C57",
-      "name": "Italian Game, Two Knights Defense, Traxler Counterattack, Bishop sac line",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... Bc5 5. Bxf7+",
-      "count": 291
+    "429309898": {
+      "id": 429309898,
+      "state": {
+        "key": "c4b5",
+        "pgn": "Bb5+",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f6": "bn2",
+          "g5": "wn2",
+          "d5": "wp5",
+          "a5": "bn1",
+          "b5": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c6",
+            "a5"
+          ],
+          [
+            "c4",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 705982069,
+      "childIds": [
+        442410100
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Scotch Gambit, Max Lange Attack, Long Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Bc5 6. e5 6... d5 7. exf6 7... dxc4 8. Re1+ 8... Be6 9. Ng5 9... Qd5 10. Nc3 10... Qf5 11. Nce4",
-      "count": 272
+    "429337827": {
+      "id": 429337827,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "g5": "wn2",
+          "d5": "wp5",
+          "a5": "bn1",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c6",
+            "a5"
+          ],
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Polerio Defense, Kieseritsky Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 705982069,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C56",
-      "name": "Italian Game, Scotch Gambit, Nakhmanson Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Nxe4 6. Nc3",
-      "count": 222
+    "432111274": {
+      "id": 432111274,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c6": "bn1",
+          "c4": "wb2",
+          "g5": "wn2",
+          "d5": "bn2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Lolli Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 706071535,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C57",
-      "name": "Italian Game, Two Knights Defense, Knight Attack, Normal Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5",
-      "count": 200
+    "432203595": {
+      "id": 432203595,
+      "state": {
+        "key": "g5f7",
+        "pgn": "Nxf7",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c6": "bn1",
+          "c4": "wb2",
+          "d5": "bn2",
+          "f7": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "f7"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Fried Liver Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "f7"
+          ]
+        }
+      },
+      "parentId": 706071535,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Scotch Gambit, Declined",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... d6",
-      "count": 185
+    "442410100": {
+      "id": 442410100,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f6": "bn2",
+          "g5": "wn2",
+          "d5": "wp5",
+          "a5": "bn1",
+          "b5": "wb2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c6",
+            "a5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 429309898,
+      "childIds": [
+        848544231
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C57",
-      "name": "Italian Game, Two Knights Defense, Traxler Counterattack, Knight sac line",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... Bc5 5. Nxf7",
-      "count": 165
+    "449729368": {
+      "id": 449729368,
+      "state": {
+        "key": "d5f5",
+        "pgn": "Qf5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "h8": "br2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "c5": "bb2",
+          "f6": "wp5",
+          "c4": "bp4",
+          "e1": "wr2",
+          "e6": "bb1",
+          "g5": "wn2",
+          "c3": "wn1",
+          "f5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e5",
+            "f6"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "c8",
+            "e6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 1607197424,
+      "childIds": [
+        1075409886
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C56",
-      "name": "Italian Game, Scotch Gambit, Max Lange Attack, Spielmann Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Bc5 6. e5 6... Ng4",
-      "count": 135
+    "553742750": {
+      "id": 553742750,
+      "state": {
+        "key": "b7c6",
+        "pgn": "bxc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f6": "bn2",
+          "g5": "wn2",
+          "a5": "bn1",
+          "b5": "wb2",
+          "c6": "bp2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c6",
+            "a5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "d5",
+            "c6"
+          ],
+          [
+            "b7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 848544231,
+      "childIds": [
+        4829563,
+        4885333
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C56",
-      "name": "Italian Game, Scotch Gambit, Canal Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Nxe4 6. Re1 6... d5 7. Nc3",
-      "count": 124
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877669921
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C56",
-      "name": "Italian Game, Scotch Gambit, Anderssen Attack, Main Line",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Nxe4 6. Re1 6... d5 7. Bxd5 7... Qxd5 8. Nc3 8... Qa5 9. Nxe4 9... Be6 10. Bd2 10... Qd5 11. Bg5",
-      "count": 116
+    "705953270": {
+      "id": 705953270,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "g5": "wn2",
+          "d5": "wp5",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Ulvestad Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 1269096245,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C57",
-      "name": "Italian Game, Two Knights Defense, Polerio Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Na5",
-      "count": 114
+    "705982069": {
+      "id": 705982069,
+      "state": {
+        "key": "c6a5",
+        "pgn": "Na5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "g5": "wn2",
+          "d5": "wp5",
+          "a5": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c6",
+            "a5"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Polerio Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "c6",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 1269096245,
+      "childIds": [
+        429309898,
+        429337827
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Scotch Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O",
-      "count": 111
+    "705982161": {
+      "id": 705982161,
+      "state": {
+        "key": "c6d4",
+        "pgn": "Nd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "g5": "wn2",
+          "d5": "wp5",
+          "d4": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Fritz Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c6",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1269096245,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C55",
-      "name": "Italian Game, Two Knights Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... Nxe4",
-      "count": 111
+    "706071535": {
+      "id": 706071535,
+      "state": {
+        "key": "f6d5",
+        "pgn": "Nxd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c6": "bn1",
+          "c4": "wb2",
+          "g5": "wn2",
+          "d5": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "f6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1269096245,
+      "childIds": [
+        432203595,
+        432111274
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C57",
-      "name": "Italian Game, Two Knights Defense, Knight Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5",
-      "count": 107
+    "790081579": {
+      "id": 790081579,
+      "state": {
+        "key": "d8d5",
+        "pgn": "Qxd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e4": "bn2",
+          "e1": "wr2",
+          "d5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 371250448,
+      "childIds": [
+        888878416
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C57",
-      "name": "Italian Game, Two Knights Defense, Lolli Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. Ng5 4... d5 5. exd5 5... Nxd5 6. d4",
-      "count": 104
+    "848544231": {
+      "id": 848544231,
+      "state": {
+        "key": "d5c6",
+        "pgn": "dxc6",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f6": "bn2",
+          "g5": "wn2",
+          "a5": "bn1",
+          "b5": "wb2",
+          "c6": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c6",
+            "a5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "d5",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 442410100,
+      "childIds": [
+        553742750
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C56",
-      "name": "Italian Game, Scotch Gambit, Double Gambit Accepted",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Bc4 3... Nf6 4. d4 4... exd4 5. O-O 5... Nxe4",
-      "count": 101
+    "888878416": {
+      "id": 888878416,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e4": "bn2",
+          "e1": "wr2",
+          "d5": "bq1",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 790081579,
+      "childIds": [
+        1804160082
+      ],
+      "childIdx": 0
+    },
+    "911469401": {
+      "id": 911469401,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "c5": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1829912424,
+      "childIds": [
+        357089382
+      ],
+      "childIdx": 0
+    },
+    "912366915": {
+      "id": 912366915,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Modern Bishop's Opening"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1829942309,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "912366916": {
+      "id": 912366916,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1829942309,
+      "childIds": [
+        384849818,
+        384821951,
+        384880601
+      ],
+      "childIdx": 0
+    },
+    "912427553": {
+      "id": 912427553,
+      "state": {
+        "key": "f3g5",
+        "pgn": "Ng5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "g5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1829942309,
+      "childIds": [
+        386701697,
+        386762209
+      ],
+      "childIdx": 0
+    },
+    "1021074158": {
+      "id": 1021074158,
+      "state": {
+        "key": "d8d5",
+        "pgn": "Qd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "h8": "br2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "c5": "bb2",
+          "f6": "wp5",
+          "c4": "bp4",
+          "e1": "wr2",
+          "e6": "bb1",
+          "g5": "wn2",
+          "d5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e5",
+            "f6"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "c8",
+            "e6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d8",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1417806812,
+      "childIds": [
+        1607197424
+      ],
+      "childIdx": 0
+    },
+    "1030022673": {
+      "id": 1030022673,
+      "state": {
+        "key": "a5d5",
+        "pgn": "Qd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e1": "wr2",
+          "e4": "wn1",
+          "e6": "bb1",
+          "d2": "wb1",
+          "d5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "c3",
+            "e4"
+          ],
+          [
+            "c8",
+            "e6"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "a5",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a5",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1903014112,
+      "childIds": [
+        1884662058
+      ],
+      "childIdx": 0
+    },
+    "1073754229": {
+      "id": 1073754229,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Scotch Gambit, Janowski Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1211685202,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1073812879": {
+      "id": 1073812879,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Nxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Scotch Gambit, Double Gambit Accepted"
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1211685202,
+      "childIds": [
+        1094733352,
+        1094614128
+      ],
+      "childIdx": 0
+    },
+    "1073814740": {
+      "id": 1073814740,
+      "state": {
+        "key": "f8c5",
+        "pgn": "Bc5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c5": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1211685202,
+      "childIds": [
+        1094702571,
+        1094764139
+      ],
+      "childIdx": 0
+    },
+    "1073814804": {
+      "id": 1073814804,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Scotch Gambit, De Riviere Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1211685202,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1075409886": {
+      "id": 1075409886,
+      "state": {
+        "key": "c3e4",
+        "pgn": "ce4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "h8": "br2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "c5": "bb2",
+          "f6": "wp5",
+          "c4": "bp4",
+          "e1": "wr2",
+          "e6": "bb1",
+          "g5": "wn2",
+          "f5": "bq1",
+          "e4": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e5",
+            "f6"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "c8",
+            "e6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "f5"
+          ],
+          [
+            "c3",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Scotch Gambit, Max Lange Attack, Long Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c3",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 449729368,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1094614128": {
+      "id": 1094614128,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e4": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Scotch Gambit, Nakhmanson Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1073812879,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1094702571": {
+      "id": 1094702571,
+      "state": {
+        "key": "c2c3",
+        "pgn": "c3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c5": "bb2",
+          "c3": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "c2",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Scotch Gambit, Walbrodt-Baird Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1073814740,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1094733352": {
+      "id": 1094733352,
+      "state": {
+        "key": "f1e1",
+        "pgn": "Re1",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e4": "bn2",
+          "e1": "wr2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "e1"
+          ]
+        }
+      },
+      "parentId": 1073812879,
+      "childIds": [
+        1743214172
+      ],
+      "childIdx": 0
+    },
+    "1094764139": {
+      "id": 1094764139,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c5": "bb2",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1073814740,
+      "childIds": [
+        1744168569,
+        1744227282
+      ],
+      "childIdx": 0
+    },
+    "1156584507": {
+      "id": 1156584507,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 244527714,
+      "childIds": [
+        1513170114
+      ],
+      "childIdx": 0
+    },
+    "1211685202": {
+      "id": 1211685202,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 384849818,
+      "childIds": [
+        1073812879,
+        1073814740,
+        1073754229,
+        1073814804
+      ],
+      "childIdx": 0
+    },
+    "1211716919": {
+      "id": 1211716919,
+      "state": {
+        "key": "f3g5",
+        "pgn": "Ng5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d4": "bp5",
+          "g5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "f3",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Perreux Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 384849818,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1269096245": {
+      "id": 1269096245,
+      "state": {
+        "key": "e4d5",
+        "pgn": "exd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "g5": "wn2",
+          "d5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 386701697,
+      "childIds": [
+        705982069,
+        705982161,
+        705953270,
+        706071535
+      ],
+      "childIdx": 0
+    },
+    "1270912599": {
+      "id": 1270912599,
+      "state": {
+        "key": "c4f7",
+        "pgn": "Bxf7+",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c6": "bn1",
+          "f6": "bn2",
+          "g5": "wn2",
+          "c5": "bb2",
+          "f7": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "c4",
+            "f7"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Traxler Counterattack, Bishop sac line"
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "f7"
+          ]
+        }
+      },
+      "parentId": 386762209,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1271032724": {
+      "id": 1271032724,
+      "state": {
+        "key": "g5f7",
+        "pgn": "Nxf7",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "c5": "bb2",
+          "f7": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "g5",
+            "f7"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Two Knights Defense, Traxler Counterattack, Knight sac line"
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "f7"
+          ]
+        }
+      },
+      "parentId": 386762209,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1376984000": {
+      "id": 1376984000,
+      "state": {
+        "key": "c8e6",
+        "pgn": "Be6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e1": "wr2",
+          "a5": "bq1",
+          "e4": "wn1",
+          "e6": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "c3",
+            "e4"
+          ],
+          [
+            "c8",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 113089080,
+      "childIds": [
+        1903014112
+      ],
+      "childIdx": 0
+    },
+    "1417806812": {
+      "id": 1417806812,
+      "state": {
+        "key": "f3g5",
+        "pgn": "Ng5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "c5": "bb2",
+          "f6": "wp5",
+          "c4": "bp4",
+          "e1": "wr2",
+          "e6": "bb1",
+          "g5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e5",
+            "f6"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "c8",
+            "e6"
+          ],
+          [
+            "f3",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 252950547,
+      "childIds": [
+        1021074158
+      ],
+      "childIdx": 0
+    },
+    "1462303257": {
+      "id": 1462303257,
+      "state": {
+        "key": "f1e1",
+        "pgn": "Re1+",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "c5": "bb2",
+          "f6": "wp5",
+          "c4": "bp4",
+          "e1": "wr2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e5",
+            "f6"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "f1",
+            "e1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "e1"
+          ]
+        }
+      },
+      "parentId": 1709132967,
+      "childIds": [
+        252950547
+      ],
+      "childIdx": 0
+    },
+    "1513170114": {
+      "id": 1513170114,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1156584507,
+      "childIds": [
+        1829942309,
+        1829912424,
+        1829971201
+      ],
+      "childIdx": 0
+    },
+    "1607197424": {
+      "id": 1607197424,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "h8": "br2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "c5": "bb2",
+          "f6": "wp5",
+          "c4": "bp4",
+          "e1": "wr2",
+          "e6": "bb1",
+          "g5": "wn2",
+          "d5": "bq1",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e5",
+            "f6"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "c8",
+            "e6"
+          ],
+          [
+            "f3",
+            "g5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1021074158,
+      "childIds": [
+        449729368
+      ],
+      "childIdx": 0
+    },
+    "1709132967": {
+      "id": 1709132967,
+      "state": {
+        "key": "d5c4",
+        "pgn": "dxc4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c5": "bb2",
+          "f6": "wp5",
+          "c4": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e5",
+            "f6"
+          ],
+          [
+            "d5",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 400897361,
+      "childIds": [
+        1462303257
+      ],
+      "childIdx": 0
+    },
+    "1743214172": {
+      "id": 1743214172,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e4": "bn2",
+          "e1": "wr2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1094733352,
+      "childIds": [
+        371250448,
+        371217741
+      ],
+      "childIdx": 0
+    },
+    "1744168569": {
+      "id": 1744168569,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c5": "bb2",
+          "e5": "wp5",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1094764139,
+      "childIds": [
+        400897361
+      ],
+      "childIdx": 0
+    },
+    "1744227282": {
+      "id": 1744227282,
+      "state": {
+        "key": "f6g4",
+        "pgn": "Ng4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "d4": "bp5",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c5": "bb2",
+          "e5": "wp5",
+          "g4": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "c5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Scotch Gambit, Max Lange Attack, Spielmann Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1094764139,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1804160082": {
+      "id": 1804160082,
+      "state": {
+        "key": "d5a5",
+        "pgn": "Qa5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e4": "bn2",
+          "e1": "wr2",
+          "c3": "wn1",
+          "a5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 888878416,
+      "childIds": [
+        113089080
+      ],
+      "childIdx": 0
+    },
+    "1829912424": {
+      "id": 1829912424,
+      "state": {
+        "key": "f8c5",
+        "pgn": "Bc5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "c5": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1513170114,
+      "childIds": [
+        911469401
+      ],
+      "childIdx": 0
+    },
+    "1829942309": {
+      "id": 1829942309,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1513170114,
+      "childIds": [
+        912366915,
+        912427553,
+        912366916
+      ],
+      "childIdx": 0
+    },
+    "1829971201": {
+      "id": 1829971201,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c4": "wb2",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Anti-Fried Liver Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 1513170114,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1877669921": {
+      "id": 1877669921,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        244527714
+      ],
+      "childIdx": 0
+    },
+    "1884662058": {
+      "id": 1884662058,
+      "state": {
+        "key": "d2g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e1": "wr2",
+          "e4": "wn1",
+          "e6": "bb1",
+          "d5": "bq1",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "c3",
+            "e4"
+          ],
+          [
+            "c8",
+            "e6"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "a5",
+            "d5"
+          ],
+          [
+            "d2",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Italian Game, Scotch Gambit, Anderssen Attack, Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1030022673,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1903014112": {
+      "id": 1903014112,
+      "state": {
+        "key": "c1d2",
+        "pgn": "Bd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d4": "bp5",
+          "g1": "wk1",
+          "e1": "wr2",
+          "a5": "bq1",
+          "e4": "wn1",
+          "e6": "bb1",
+          "d2": "wb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "c3",
+            "e4"
+          ],
+          [
+            "c8",
+            "e6"
+          ],
+          [
+            "c1",
+            "d2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 1376984000,
+      "childIds": [
+        1030022673
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

@@ -1,231 +1,4516 @@
 {
-  "slug": "kings-pawn-opening",
-  "name": "King's Pawn Opening",
-  "range": "B00",
-  "lines": [
-    {
-      "eco": "B00",
-      "name": "King's Pawn Opening, General",
-      "color": "white",
-      "moves": "1. e4",
-      "count": 10580
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "King's Pawn Opening"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Owen Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... b6",
-      "count": 7759
+    "21951291": {
+      "id": 21951291,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "b5": "bp2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1039206044,
+      "childIds": [
+        699196096
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Williams Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nc6 2. Nf3 2... d6",
-      "count": 4286
+    "24606473": {
+      "id": 24606473,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "St. George Defense, New St. George, Three Pawn Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1039295511,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Declined Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nc6 2. Nf3",
-      "count": 2034
+    "24724768": {
+      "id": 24724768,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1039295511,
+      "childIds": [
+        785143129
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "St. George Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... a6",
-      "count": 1986
+    "216508745": {
+      "id": 216508745,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bn1",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "c6",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1322577685,
+      "childIds": [
+        288083082,
+        288082958
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Scandinavian Variation, Advance Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. e5",
-      "count": 1960
+    "216537574": {
+      "id": 216537574,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bn1",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "c6",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Kennedy Variation, Paulsen Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1322577685,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... Nc6",
-      "count": 1383
+    "219031285": {
+      "id": 219031285,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "b5": "bp2",
+          "f3": "wn2",
+          "b7": "bb1",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 699196096,
+      "childIds": [
+        366283682
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Scandinavian Variation, Exchange Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. exd5 3... Qxd5",
-      "count": 1078
+    "240741344": {
+      "id": 240741344,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1877550634,
+      "childIds": [
+        1039206044,
+        1039295511
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Kennedy Variation, Linksspringer Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nc6 2. d4 2... e5 3. d5",
-      "count": 984
+    "241636003": {
+      "id": 241636003,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1877581448,
+      "childIds": [
+        1067029940
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Mikenas Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nc6 2. d4 2... d6",
-      "count": 739
+    "241696578": {
+      "id": 241696578,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1877581448,
+      "childIds": [
+        1068877942,
+        1068907764,
+        1068877943
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "St. George Defense, Polish Variation",
-      "color": "black",
-      "moves": "1. e4 1... a6 2. d4 2... b5 3. Nf3 3... Bb7 4. Bd3 4... e6",
-      "count": 545
+    "241755138": {
+      "id": 241755138,
+      "state": {
+        "key": "f1b5",
+        "pgn": "Bb5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "b5": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "b5"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Pseudo-Spanish Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 1877581448,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Borg Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... g5",
-      "count": 501
+    "241785051": {
+      "id": 241785051,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1877581448,
+      "childIds": [
+        1071620606,
+        1071680249,
+        1071650428
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Lean Variation, Colorado Counter Accepted",
-      "color": "white",
-      "moves": "1. e4 1... Nc6 2. Nf3 2... f5 3. exf5",
-      "count": 445
+    "242648898": {
+      "id": 242648898,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bp3",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Caro-Kann Defense, Hillbilly Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1877610278,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Scandinavian Variation, Bogoljubow Variation, Vehre Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. Nc3 3... Nf6",
-      "count": 438
+    "246288205": {
+      "id": 246288205,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g5": "bp7",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1877729565,
+      "childIds": [
+        1211337668
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Franco-Nimzowitsch Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nc6 2. Nf3 2... e6",
-      "count": 435
+    "288082958": {
+      "id": 288082958,
+      "state": {
+        "key": "e5c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "wp6",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "c6",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Kennedy Variation, Riemann Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 216508745,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, French Connection",
-      "color": "black",
-      "moves": "1. e4 1... Nc6 2. Nc3 2... e6",
-      "count": 427
+    "288083082": {
+      "id": 288083082,
+      "state": {
+        "key": "e5g6",
+        "pgn": "Ng6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "wp6",
+          "g6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "c6",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "g6"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Kennedy Variation, Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 216508745,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Kennedy Variation, Paulsen Attack",
-      "color": "white",
-      "moves": "1. e4 1... Nc6 2. d4 2... e5 3. dxe5 3... Nxe5 4. Nf3",
-      "count": 353
+    "354578213": {
+      "id": 354578213,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b5": "bp2",
+          "d3": "wb2",
+          "c5": "bp3",
+          "c3": "wp3",
+          "b7": "bb1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c2",
+            "c3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "comments": [
+          "St. George Defense, New St. George, Traditional Line"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1881219720,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Scandinavian Variation, Bogoljubow Variation, Nimzowitsch Gambit",
-      "color": "black",
-      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. Nc3 3... dxe4 4. d5 4... Ne5",
-      "count": 333
+    "366283682": {
+      "id": 366283682,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "b5": "bp2",
+          "f3": "wn2",
+          "b7": "bb1",
+          "d3": "wb2",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "St. George Defense, Polish Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 219031285,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "St. George Defense, New St. George, Traditional Line",
-      "color": "black",
-      "moves": "1. e4 1... a6 2. d4 2... e6 3. Nf3 3... b5 4. Bd3 4... c5 5. c3 5... Bb7 6. O-O 6... Nf6",
-      "count": 264
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877580456,
+        1877581448,
+        1877550634,
+        1877729565,
+        1877610278,
+        1877550633,
+        1877759388,
+        1877699743,
+        1877759387
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Caro-Kann Defense, Hillbilly Attack",
-      "color": "white",
-      "moves": "1. e4 1... c6 2. Bc4",
-      "count": 251
+    "699196096": {
+      "id": 699196096,
+      "state": {
+        "key": "c8b7",
+        "pgn": "Bb7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "b5": "bp2",
+          "f3": "wn2",
+          "b7": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "b7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "b7"
+          ]
+        }
+      },
+      "parentId": 21951291,
+      "childIds": [
+        219031285
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Scandinavian Variation, Bogoljubow Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. Nc3",
-      "count": 187
+    "735905661": {
+      "id": 735905661,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b5": "bp2",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 785143129,
+      "childIds": [
+        1356944164
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "St. George Defense, New St. George, Three Pawn Attack",
-      "color": "white",
-      "moves": "1. e4 1... a6 2. d4 2... e6 3. c4",
-      "count": 144
+    "762517639": {
+      "id": 762517639,
+      "state": {
+        "key": "g5g4",
+        "pgn": "g4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d4": "wp4",
+          "h6": "bp8",
+          "h4": "wp8",
+          "g4": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "h2",
+            "h4"
+          ],
+          [
+            "g5",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Borg Defense, Troon Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1063095156,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Scandinavian Variation, Bogoljubow Variation, Heinola-Deppe Gambit",
-      "color": "black",
-      "moves": "1. e4 1... Nc6 2. d4 2... d5 3. Nc3 3... e5",
-      "count": 136
+    "785143129": {
+      "id": 785143129,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 24724768,
+      "childIds": [
+        735905661
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Ware Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... a5",
-      "count": 135
+    "941631081": {
+      "id": 941631081,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1068877942,
+      "childIds": [
+        1292101462,
+        1292009173,
+        1292040887
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Lean Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nc6 2. Nf3 2... f5",
-      "count": 134
+    "941723370": {
+      "id": 941723370,
+      "state": {
+        "key": "e4d5",
+        "pgn": "exd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c6": "bn1",
+          "d4": "wp4",
+          "d5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1068877942,
+      "childIds": [
+        1294872985
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Carr Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... h6",
-      "count": 128
+    "941723401": {
+      "id": 941723401,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c6": "bn1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Scandinavian Variation, Advance Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1068877942,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Kennedy Variation, Main Line",
-      "color": "black",
-      "moves": "1. e4 1... Nc6 2. d4 2... e5 3. dxe5 3... Nxe5 4. f4 4... Ng6",
-      "count": 123
+    "942618061": {
+      "id": 942618061,
+      "state": {
+        "key": "d4d5",
+        "pgn": "d5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "e5": "bp5",
+          "d5": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Kennedy Variation, Linksspringer Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1068907764,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Duras Gambit, General",
-      "color": "black",
-      "moves": "1. e4 1... f5",
-      "count": 121
+    "942618092": {
+      "id": 942618092,
+      "state": {
+        "key": "d4e5",
+        "pgn": "dxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "e5": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1068907764,
+      "childIds": [
+        1322577685
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Goldsmith Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... h5",
-      "count": 119
+    "974666073": {
+      "id": 974666073,
+      "state": {
+        "key": "c6e5",
+        "pgn": "Ne5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "e4": "bp4",
+          "d5": "wp4",
+          "e5": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "e4"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "c6",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Scandinavian Variation, Bogoljubow Variation, Nimzowitsch Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "c6",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1416310799,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Borg Defense, Troon Gambit",
-      "color": "black",
-      "moves": "1. e4 1... g5 2. d4 2... h6 3. h4 3... g4",
-      "count": 110
+    "1028594949": {
+      "id": 1028594949,
+      "state": {
+        "key": "e4f5",
+        "pgn": "exf5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c6": "bn1",
+          "f3": "wn2",
+          "f5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e4",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Lean Variation, Colorado Counter Accepted"
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 1071680249,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Kennedy Variation, Riemann Defense",
-      "color": "black",
-      "moves": "1. e4 1... Nc6 2. d4 2... e5 3. dxe5 3... Nxe5 4. f4 4... Nc6",
-      "count": 108
+    "1039206044": {
+      "id": 1039206044,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 240741344,
+      "childIds": [
+        21951291
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B00",
-      "name": "Nimzowitsch Defense, Pseudo-Spanish Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nc6 2. Bb5",
-      "count": 103
+    "1039295511": {
+      "id": 1039295511,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 240741344,
+      "childIds": [
+        24724768,
+        24606473
+      ],
+      "childIdx": 0
+    },
+    "1063095156": {
+      "id": 1063095156,
+      "state": {
+        "key": "h2h4",
+        "pgn": "h4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g5": "bp7",
+          "d4": "wp4",
+          "h6": "bp8",
+          "h4": "wp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "h2",
+            "h4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 1211337668,
+      "childIds": [
+        762517639
+      ],
+      "childIdx": 0
+    },
+    "1067029940": {
+      "id": 1067029940,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "c3": "wn1",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, French Connection"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 241636003,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1068877942": {
+      "id": 1068877942,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "d4": "wp4",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 241696578,
+      "childIds": [
+        941723401,
+        941723370,
+        941631081
+      ],
+      "childIdx": 0
+    },
+    "1068877943": {
+      "id": 1068877943,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "d4": "wp4",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Mikenas Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 241696578,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1068907764": {
+      "id": 1068907764,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "d4": "wp4",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 241696578,
+      "childIds": [
+        942618061,
+        942618092
+      ],
+      "childIdx": 0
+    },
+    "1071620606": {
+      "id": 1071620606,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "f3": "wn2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Williams Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 241785051,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1071650428": {
+      "id": 1071650428,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "f3": "wn2",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Franco-Nimzowitsch Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 241785051,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1071680249": {
+      "id": 1071680249,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "f3": "wn2",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Lean Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 241785051,
+      "childIds": [
+        1028594949
+      ],
+      "childIdx": 0
+    },
+    "1099184366": {
+      "id": 1099184366,
+      "state": {
+        "key": "c8b7",
+        "pgn": "Bb7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b5": "bp2",
+          "d3": "wb2",
+          "c5": "bp3",
+          "c3": "wp3",
+          "b7": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c2",
+            "c3"
+          ],
+          [
+            "c8",
+            "b7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "b7"
+          ]
+        }
+      },
+      "parentId": 1281780127,
+      "childIds": [
+        1881219720
+      ],
+      "childIdx": 0
+    },
+    "1211337668": {
+      "id": 1211337668,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g5": "bp7",
+          "d4": "wp4",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 246288205,
+      "childIds": [
+        1063095156
+      ],
+      "childIdx": 0
+    },
+    "1281780127": {
+      "id": 1281780127,
+      "state": {
+        "key": "c2c3",
+        "pgn": "c3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b5": "bp2",
+          "d3": "wb2",
+          "c5": "bp3",
+          "c3": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c2",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1356944164,
+      "childIds": [
+        1099184366
+      ],
+      "childIdx": 0
+    },
+    "1292009173": {
+      "id": 1292009173,
+      "state": {
+        "key": "d5e4",
+        "pgn": "dxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c6": "bn1",
+          "d4": "wp4",
+          "c3": "wn1",
+          "e4": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 941631081,
+      "childIds": [
+        1416310799
+      ],
+      "childIdx": 0
+    },
+    "1292040887": {
+      "id": 1292040887,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c3": "wn1",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Scandinavian Variation, Bogoljubow Variation, Heinola-Deppe Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 941631081,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1292101462": {
+      "id": 1292101462,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c3": "wn1",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Scandinavian Variation, Bogoljubow Variation, Vehre Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 941631081,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1294872985": {
+      "id": 1294872985,
+      "state": {
+        "key": "d8d5",
+        "pgn": "Qxd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c6": "bn1",
+          "d4": "wp4",
+          "d5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch Defense, Scandinavian Variation, Exchange Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 941723370,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1322577685": {
+      "id": 1322577685,
+      "state": {
+        "key": "c6e5",
+        "pgn": "Nxe5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "c6",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c6",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 942618092,
+      "childIds": [
+        216537574,
+        216508745
+      ],
+      "childIdx": 0
+    },
+    "1356944164": {
+      "id": 1356944164,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b5": "bp2",
+          "d3": "wb2",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 735905661,
+      "childIds": [
+        1281780127
+      ],
+      "childIdx": 0
+    },
+    "1416310799": {
+      "id": 1416310799,
+      "state": {
+        "key": "d4d5",
+        "pgn": "d5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c6": "bn1",
+          "c3": "wn1",
+          "e4": "bp4",
+          "d5": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "e4"
+          ],
+          [
+            "d4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1292009173,
+      "childIds": [
+        974666073
+      ],
+      "childIdx": 0
+    },
+    "1877550633": {
+      "id": 1877550633,
+      "state": {
+        "key": "a7a5",
+        "pgn": "a5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a5": "bp1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a5"
+          ]
+        ],
+        "comments": [
+          "Ware Defense, General"
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1877550634": {
+      "id": 1877550634,
+      "state": {
+        "key": "a7a6",
+        "pgn": "a6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        240741344
+      ],
+      "childIdx": 0
+    },
+    "1877580456": {
+      "id": 1877580456,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "comments": [
+          "Owen Defense, General"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1877581448": {
+      "id": 1877581448,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        241785051,
+        241696578,
+        241636003,
+        241755138
+      ],
+      "childIdx": 0
+    },
+    "1877610278": {
+      "id": 1877610278,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        242648898
+      ],
+      "childIdx": 0
+    },
+    "1877699743": {
+      "id": 1877699743,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Duras Gambit, General"
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1877729565": {
+      "id": 1877729565,
+      "state": {
+        "key": "g7g5",
+        "pgn": "g5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g5": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        246288205
+      ],
+      "childIdx": 0
+    },
+    "1877759387": {
+      "id": 1877759387,
+      "state": {
+        "key": "h7h5",
+        "pgn": "h5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "h5": "bp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "h7",
+            "h5"
+          ]
+        ],
+        "comments": [
+          "Goldsmith Defense, General"
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1877759388": {
+      "id": 1877759388,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "comments": [
+          "Carr Defense, General"
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1881219720": {
+      "id": 1881219720,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "a6": "bp1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b5": "bp2",
+          "d3": "wb2",
+          "c5": "bp3",
+          "c3": "wp3",
+          "b7": "bb1",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c2",
+            "c3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1099184366,
+      "childIds": [
+        354578213
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

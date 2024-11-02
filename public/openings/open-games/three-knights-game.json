@@ -1,56 +1,1064 @@
 {
-  "slug": "three-knights-game",
-  "name": "Three Knights' Game",
-  "range": "C46",
-  "lines": [
-    {
-      "eco": "C46",
-      "name": "Four Knights Game, General",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... Nf6",
-      "count": 5590
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Three Knights' Game"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C46",
-      "name": "Four Knights Game, Italian Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... Nf6 4. Bc4",
-      "count": 2643
+    "244527714": {
+      "id": 244527714,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1877669921,
+      "childIds": [
+        1156584507
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C46",
-      "name": "Three Knights Opening, General",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3",
-      "count": 2633
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877669921
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C46",
-      "name": "Four Knights Game, Gunsberg Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... Nf6 4. a3",
-      "count": 1941
+    "654207855": {
+      "id": 654207855,
+      "state": {
+        "key": "c3d5",
+        "pgn": "Nd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g6": "bp7",
+          "d4": "bp5",
+          "d5": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "c3",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Three Knights Opening, Steinitz - Rosenthal Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c3",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1128878867,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C46",
-      "name": "Three Knights Opening, Steinitz Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... g6",
-      "count": 909
+    "797759884": {
+      "id": 797759884,
+      "state": {
+        "key": "a2a3",
+        "pgn": "a3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "a3": "wp1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "a2",
+            "a3"
+          ]
+        ],
+        "comments": [
+          "Four Knights Game, Gunsberg Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a3"
+          ]
+        }
+      },
+      "parentId": 1826248194,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C46",
-      "name": "Three Knights Opening, Steinitz - Rosenthal Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... g6 4. d4 4... exd4 5. Nd5",
-      "count": 212
+    "797820521": {
+      "id": 797820521,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c3": "wn1",
+          "g6": "bp7",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1826247264,
+      "childIds": [
+        1128878867
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C46",
-      "name": "Four Knights Game, Halloween Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nc6 3. Nc3 3... Nf6 4. Nxe5",
-      "count": 185
+    "797907941": {
+      "id": 797907941,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Four Knights Game, Italian Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1826248194,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "797909926": {
+      "id": 797909926,
+      "state": {
+        "key": "f3e5",
+        "pgn": "Nxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "c6": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "e5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Four Knights Game, Halloween Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1826248194,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1128878867": {
+      "id": 1128878867,
+      "state": {
+        "key": "e5d4",
+        "pgn": "exd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c3": "wn1",
+          "g6": "bp7",
+          "d4": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 797820521,
+      "childIds": [
+        654207855
+      ],
+      "childIdx": 0
+    },
+    "1156584507": {
+      "id": 1156584507,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 244527714,
+      "childIds": [
+        1513050949
+      ],
+      "childIdx": 0
+    },
+    "1513050949": {
+      "id": 1513050949,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1156584507,
+      "childIds": [
+        1826248194,
+        1826247264
+      ],
+      "childIdx": 0
+    },
+    "1826247264": {
+      "id": 1826247264,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c3": "wn1",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 1513050949,
+      "childIds": [
+        797820521
+      ],
+      "childIdx": 0
+    },
+    "1826248194": {
+      "id": 1826248194,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "c3": "wn1",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1513050949,
+      "childIds": [
+        797907941,
+        797759884,
+        797909926
+      ],
+      "childIdx": 0
+    },
+    "1877669921": {
+      "id": 1877669921,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        244527714
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

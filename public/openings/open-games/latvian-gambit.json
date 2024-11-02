@@ -1,91 +1,1673 @@
 {
-  "slug": "latvian-gambit",
-  "name": "Latvian Gambit",
-  "range": "C40",
-  "lines": [
-    {
-      "eco": "C40",
-      "name": "Elephant Gambit, General",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d5",
-      "count": 1123
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Latvian Gambit"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C40",
-      "name": "Gunderam Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Qe7",
-      "count": 808
+    "84320331": {
+      "id": 84320331,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f5": "bp6",
+          "e5": "wn2",
+          "f6": "bq1",
+          "d4": "wp4",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 140662989,
+      "childIds": [
+        485209416
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C40",
-      "name": "Elephant Gambit, Paulsen Countergambit",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d5 3. exd5 3... e4",
-      "count": 783
+    "85389953": {
+      "id": 85389953,
+      "state": {
+        "key": "f5e4",
+        "pgn": "fxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f6": "bq1",
+          "c4": "wn2",
+          "e4": "bp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d8",
+            "f6"
+          ],
+          [
+            "e5",
+            "c4"
+          ],
+          [
+            "f5",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f5",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 140695632,
+      "childIds": [
+        518274480
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C40",
-      "name": "Latvian Gambit, Accepted, Bilguer Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... f5 3. Nxe5 3... Qf6 4. d4 4... d6 5. Nc4",
-      "count": 342
+    "140662989": {
+      "id": 140662989,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f5": "bp6",
+          "e5": "wn2",
+          "f6": "bq1",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1943595966,
+      "childIds": [
+        84320331
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C40",
-      "name": "Elephant Gambit, Maroczy Gambit",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... d5 3. exd5 3... Bd6",
-      "count": 238
+    "140695632": {
+      "id": 140695632,
+      "state": {
+        "key": "e5c4",
+        "pgn": "Nc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f5": "bp6",
+          "f6": "bq1",
+          "c4": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d8",
+            "f6"
+          ],
+          [
+            "e5",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1943595966,
+      "childIds": [
+        85389953
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C40",
-      "name": "Latvian Gambit, General",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... f5",
-      "count": 224
+    "244527714": {
+      "id": 244527714,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "King's Knight Opening, General"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1877669921,
+      "childIds": [
+        1156643158,
+        1156644152,
+        1156702802,
+        1156703670
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C40",
-      "name": "Latvian Gambit, Accepted, Leonhardt Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... f5 3. Nxe5 3... Qf6 4. Nc4 4... fxe4 5. Nc3",
-      "count": 189
+    "485209416": {
+      "id": 485209416,
+      "state": {
+        "key": "e5c4",
+        "pgn": "Nc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f5": "bp6",
+          "f6": "bq1",
+          "d4": "wp4",
+          "d6": "bp4",
+          "c4": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Latvian Gambit, Accepted, Bilguer Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 84320331,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C40",
-      "name": "Latvian Gambit, Fraser Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... f5 3. Nxe5 3... Nc6",
-      "count": 179
+    "518274480": {
+      "id": 518274480,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f6": "bq1",
+          "c4": "wn2",
+          "e4": "bp6",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d8",
+            "f6"
+          ],
+          [
+            "e5",
+            "c4"
+          ],
+          [
+            "f5",
+            "e4"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Latvian Gambit, Accepted, Leonhardt Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 85389953,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C40",
-      "name": "Latvian Gambit, Accepted",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... f5 3. exf5",
-      "count": 176
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877669921
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C40",
-      "name": "Latvian Gambit, Mason Countergambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... f5 3. d4",
-      "count": 168
+    "1156643158": {
+      "id": 1156643158,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 244527714,
+      "childIds": [
+        1514961419
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C40",
-      "name": "King Pawn Game, Busch-Gass Gambit",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Bc5",
-      "count": 158
+    "1156644152": {
+      "id": 1156644152,
+      "state": {
+        "key": "d8e7",
+        "pgn": "Qe7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "e7": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d8",
+            "e7"
+          ]
+        ],
+        "comments": [
+          "Gunderam Defense, General"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 244527714,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C40",
-      "name": "King's Knight Opening, General",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3",
-      "count": 121
+    "1156702802": {
+      "id": 1156702802,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 244527714,
+      "childIds": [
+        1516839244,
+        1516810445,
+        1516778669
+      ],
+      "childIdx": 0
+    },
+    "1156703670": {
+      "id": 1156703670,
+      "state": {
+        "key": "f8c5",
+        "pgn": "Bc5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "c5": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "King Pawn Game, Busch-Gass Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 244527714,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1514961419": {
+      "id": 1514961419,
+      "state": {
+        "key": "e4d5",
+        "pgn": "exd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1156643158,
+      "childIds": [
+        1885410266,
+        1885442911
+      ],
+      "childIdx": 0
+    },
+    "1516778669": {
+      "id": 1516778669,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "f5": "bp6",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Latvian Gambit, Mason Countergambit"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1156702802,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1516810445": {
+      "id": 1516810445,
+      "state": {
+        "key": "e4f5",
+        "pgn": "exf5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f3": "wn2",
+          "f5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e4",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Latvian Gambit, Accepted"
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 1156702802,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1516839244": {
+      "id": 1516839244,
+      "state": {
+        "key": "f3e5",
+        "pgn": "Nxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f5": "bp6",
+          "e5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1156702802,
+      "childIds": [
+        1943595966,
+        1943536291
+      ],
+      "childIdx": 0
+    },
+    "1877669921": {
+      "id": 1877669921,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        244527714
+      ],
+      "childIdx": 0
+    },
+    "1885410266": {
+      "id": 1885410266,
+      "state": {
+        "key": "e5e4",
+        "pgn": "e4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "wp5",
+          "e4": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "e5",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Elephant Gambit, Paulsen Countergambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1514961419,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1885442911": {
+      "id": 1885442911,
+      "state": {
+        "key": "f8d6",
+        "pgn": "Bd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d5": "wp5",
+          "d6": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "f8",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Elephant Gambit, Maroczy Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1514961419,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1943536291": {
+      "id": 1943536291,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f5": "bp6",
+          "e5": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Latvian Gambit, Fraser Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1516839244,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1943595966": {
+      "id": 1943595966,
+      "state": {
+        "key": "d8f6",
+        "pgn": "Qf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f5": "bp6",
+          "e5": "wn2",
+          "f6": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1516839244,
+      "childIds": [
+        140662989,
+        140695632
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

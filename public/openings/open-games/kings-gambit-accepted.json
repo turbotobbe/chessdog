@@ -1,168 +1,3629 @@
 {
-  "slug": "kings-gambit-accepted",
-  "name": "King's Gambit Accepted",
-  "range": "C33-C39",
-  "lines": [
-    {
-      "eco": "C36",
-      "name": "King's Gambit, Accepted, Abbazia Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... d5 4. exd5 4... Nf6",
-      "count": 1768
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "King's Gambit Accepted"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C34",
-      "name": "King's Gambit, Accepted, Fischer Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... d6",
-      "count": 1125
+    "83579953": {
+      "id": 83579953,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "d5": "wb2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Bishop's Gambit, Bledow Countergambit"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 487004520,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C34",
-      "name": "King's Gambit, Accepted, Schallop Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... Nf6",
-      "count": 609
+    "86290748": {
+      "id": 86290748,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "c4": "wb2",
+          "h4": "bq1",
+          "f1": "wk1",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "d8",
+            "h4"
+          ],
+          [
+            "e1",
+            "f1"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Bishop's Gambit, Cozio Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 487094881,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C33",
-      "name": "King's Gambit, Accepted, Bishop's Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4",
-      "count": 605
+    "91946251": {
+      "id": 91946251,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "h4": "wp8",
+          "g4": "bp7",
+          "e5": "wn2",
+          "f6": "bn2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "h2",
+            "h4"
+          ],
+          [
+            "g5",
+            "g4"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Kieseritsky Gambit, Rubinstein Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1249287798,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C34",
-      "name": "King's Gambit, Accepted, Bonsch-Osmolovsky Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... Ne7",
-      "count": 401
+    "169317335": {
+      "id": 169317335,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Bishop's Gambit, Bogoljubow Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 489774120,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C35",
-      "name": "King's Gambit, Accepted, Cunningham Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... Be7",
-      "count": 377
+    "244498885": {
+      "id": 244498885,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1877669921,
+      "childIds": [
+        1155777389
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C33",
-      "name": "King's Gambit, Accepted, Bishop's Gambit, Bogoljubow Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4 3... Nf6 4. Nc3 4... c6",
-      "count": 333
+    "487004520": {
+      "id": 487004520,
+      "state": {
+        "key": "c4d5",
+        "pgn": "Bxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "d5": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1054211514,
+      "childIds": [
+        83579953
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C34",
-      "name": "King's Gambit, Accepted, Becker Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... h6",
-      "count": 279
+    "487094881": {
+      "id": 487094881,
+      "state": {
+        "key": "e1f1",
+        "pgn": "Kf1",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "c4": "wb2",
+          "h4": "bq1",
+          "f1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "d8",
+            "h4"
+          ],
+          [
+            "e1",
+            "f1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "f1"
+          ]
+        }
+      },
+      "parentId": 1054212598,
+      "childIds": [
+        86290748
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C34",
-      "name": "King's Gambit, Accepted, MacLeod Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... Nc6",
-      "count": 279
+    "489774120": {
+      "id": 489774120,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "c4": "wb2",
+          "f6": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Bishop's Gambit, Bogoljubow Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1054301911,
+      "childIds": [
+        169317335
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C36",
-      "name": "King's Gambit, Accepted, Modern Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... d5",
-      "count": 269
+    "515781665": {
+      "id": 515781665,
+      "state": {
+        "key": "e4d5",
+        "pgn": "exd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f4": "bp5",
+          "f3": "wn2",
+          "d5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1055137887,
+      "childIds": [
+        975671448
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C35",
-      "name": "King's Gambit, Accepted, Cunningham Defense, McCormick Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... Be7 4. Bc4 4... Nf6",
-      "count": 261
+    "517686397": {
+      "id": 517686397,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "e7": "bb2",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1055198463,
+      "childIds": [
+        1034718140
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C33",
-      "name": "King's Gambit, Accepted, Bishop's Gambit, Bogoljubow Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4 3... Nf6 4. Nc3",
-      "count": 234
+    "518581987": {
+      "id": 518581987,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "g5": "bp7",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1055227353,
+      "childIds": [
+        1062451671
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C39",
-      "name": "King's Gambit, Accepted, Kieseritsky Gambit, Kolisch Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. h4 4... g4 5. Ne5 5... d6",
-      "count": 200
+    "518642685": {
+      "id": 518642685,
+      "state": {
+        "key": "h2h4",
+        "pgn": "h4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "g5": "bp7",
+          "h4": "wp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "h2",
+            "h4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 1055227353,
+      "childIds": [
+        1064360214
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C33",
-      "name": "King's Gambit, Accepted, Bishop's Gambit, Bledow Countergambit",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4 3... d5 4. Bxd5 4... Nf6",
-      "count": 168
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877669921
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C33",
-      "name": "King's Gambit, Accepted, Mason-Keres Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nc3",
-      "count": 160
+    "742506175": {
+      "id": 742506175,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "g5": "bp7",
+          "c4": "wb2",
+          "g7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Hanstein Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1062451671,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C34",
-      "name": "King's Gambit, Accepted, King's Knight Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3",
-      "count": 159
+    "742596543": {
+      "id": 742596543,
+      "state": {
+        "key": "h2h4",
+        "pgn": "h4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "g5": "bp7",
+          "c4": "wb2",
+          "g7": "bb2",
+          "h4": "wp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "h2",
+            "h4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 1062451671,
+      "childIds": [
+        1564510617
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C38",
-      "name": "King's Gambit, Accepted, Hanstein Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. Bc4 4... Bg7 5. O-O",
-      "count": 152
+    "801702663": {
+      "id": 801702663,
+      "state": {
+        "key": "f3e5",
+        "pgn": "Ne5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "h4": "wp8",
+          "g4": "bp7",
+          "e5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "h2",
+            "h4"
+          ],
+          [
+            "g5",
+            "g4"
+          ],
+          [
+            "f3",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1064360214,
+      "childIds": [
+        1249197402,
+        1249287798,
+        1249316689
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C33",
-      "name": "King's Gambit, Accepted, Bishop's Gambit, Cozio Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4 3... Qh4+ 4. Kf1 4... d6",
-      "count": 151
+    "855519932": {
+      "id": 855519932,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "g5": "bp7",
+          "c4": "wb2",
+          "g7": "bb2",
+          "h4": "wp8",
+          "h6": "bp8",
+          "d4": "wp4",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "h2",
+            "h4"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Greco Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1273919052,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C33",
-      "name": "King's Gambit, Accepted, Bishop's Gambit, Maurian Defense",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Bc4 3... Nc6",
-      "count": 139
+    "975671448": {
+      "id": 975671448,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f4": "bp5",
+          "f3": "wn2",
+          "d5": "wp5",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Abbazia Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 515781665,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C38",
-      "name": "King's Gambit, Accepted, Traditional Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. Bc4 4... Bg7",
-      "count": 127
+    "1034718140": {
+      "id": 1034718140,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "e7": "bb2",
+          "c4": "wb2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Cunningham Defense, McCormick Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 517686397,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C38",
-      "name": "King's Gambit, Accepted, Greco Gambit",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. Bc4 4... Bg7 5. h4 5... h6 6. d4 6... d6",
-      "count": 116
+    "1054152863": {
+      "id": 1054152863,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "c4": "wb2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Bishop's Gambit, Maurian Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1488149456,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C39",
-      "name": "King's Gambit, Accepted, Kieseritsky Gambit, Rubinstein Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. h4 4... g4 5. Ne5 5... Nf6 6. d4",
-      "count": 107
+    "1054211514": {
+      "id": 1054211514,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "c4": "wb2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1488149456,
+      "childIds": [
+        487004520
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C39",
-      "name": "King's Gambit, Accepted, Kieseritsky Gambit, Long Whip",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. f4 2... exf4 3. Nf3 3... g5 4. h4 4... g4 5. Ne5 5... h5",
-      "count": 102
+    "1054212598": {
+      "id": 1054212598,
+      "state": {
+        "key": "d8h4",
+        "pgn": "Qh4+",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "c4": "wb2",
+          "h4": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "d8",
+            "h4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 1488149456,
+      "childIds": [
+        487094881
+      ],
+      "childIdx": 0
+    },
+    "1054301911": {
+      "id": 1054301911,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "c4": "wb2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1488149456,
+      "childIds": [
+        489774120
+      ],
+      "childIdx": 0
+    },
+    "1055079236": {
+      "id": 1055079236,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, MacLeod Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1488179339,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1055137887": {
+      "id": 1055137887,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Modern Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1488179339,
+      "childIds": [
+        515781665
+      ],
+      "childIdx": 0
+    },
+    "1055137888": {
+      "id": 1055137888,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Fischer Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1488179339,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1055198463": {
+      "id": 1055198463,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1488179339,
+      "childIds": [
+        517686397
+      ],
+      "childIdx": 0
+    },
+    "1055227353": {
+      "id": 1055227353,
+      "state": {
+        "key": "g7g5",
+        "pgn": "g5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "g5": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1488179339,
+      "childIds": [
+        518642685,
+        518581987
+      ],
+      "childIdx": 0
+    },
+    "1055228254": {
+      "id": 1055228254,
+      "state": {
+        "key": "g8e7",
+        "pgn": "Ne7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "e7": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "e7"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Bonsch-Osmolovsky Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1488179339,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1055228284": {
+      "id": 1055228284,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Schallop Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1488179339,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1055257176": {
+      "id": 1055257176,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Becker Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 1488179339,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1062451671": {
+      "id": 1062451671,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "g5": "bp7",
+          "c4": "wb2",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 518581987,
+      "childIds": [
+        742506175,
+        742596543
+      ],
+      "childIdx": 0
+    },
+    "1064360214": {
+      "id": 1064360214,
+      "state": {
+        "key": "g5g4",
+        "pgn": "g4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "h4": "wp8",
+          "g4": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "h2",
+            "h4"
+          ],
+          [
+            "g5",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 518642685,
+      "childIds": [
+        801702663
+      ],
+      "childIdx": 0
+    },
+    "1155777389": {
+      "id": 1155777389,
+      "state": {
+        "key": "e5f4",
+        "pgn": "exf4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 244498885,
+      "childIds": [
+        1488179339,
+        1488149456,
+        1488030291
+      ],
+      "childIdx": 0
+    },
+    "1249197402": {
+      "id": 1249197402,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "h4": "wp8",
+          "g4": "bp7",
+          "e5": "wn2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "h2",
+            "h4"
+          ],
+          [
+            "g5",
+            "g4"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Kieseritsky Gambit, Kolisch Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 801702663,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1249287798": {
+      "id": 1249287798,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "h4": "wp8",
+          "g4": "bp7",
+          "e5": "wn2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "h2",
+            "h4"
+          ],
+          [
+            "g5",
+            "g4"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 801702663,
+      "childIds": [
+        91946251
+      ],
+      "childIdx": 0
+    },
+    "1249316689": {
+      "id": 1249316689,
+      "state": {
+        "key": "h7h5",
+        "pgn": "h5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "h4": "wp8",
+          "g4": "bp7",
+          "e5": "wn2",
+          "h5": "bp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "h2",
+            "h4"
+          ],
+          [
+            "g5",
+            "g4"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "h7",
+            "h5"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Kieseritsky Gambit, Long Whip"
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h5"
+          ]
+        }
+      },
+      "parentId": 801702663,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1273919052": {
+      "id": 1273919052,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "g5": "bp7",
+          "c4": "wb2",
+          "g7": "bb2",
+          "h4": "wp8",
+          "h6": "bp8",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "h2",
+            "h4"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1564510617,
+      "childIds": [
+        855519932
+      ],
+      "childIdx": 0
+    },
+    "1488030291": {
+      "id": 1488030291,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "King's Gambit, Accepted, Mason-Keres Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1155777389,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1488149456": {
+      "id": 1488149456,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1155777389,
+      "childIds": [
+        1054301911,
+        1054211514,
+        1054212598,
+        1054152863
+      ],
+      "childIdx": 0
+    },
+    "1488179339": {
+      "id": 1488179339,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1155777389,
+      "childIds": [
+        1055137887,
+        1055137888,
+        1055228284,
+        1055228254,
+        1055198463,
+        1055257176,
+        1055079236,
+        1055227353
+      ],
+      "childIdx": 0
+    },
+    "1564510617": {
+      "id": 1564510617,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f4": "bp5",
+          "f3": "wn2",
+          "g5": "bp7",
+          "c4": "wb2",
+          "g7": "bb2",
+          "h4": "wp8",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e5",
+            "f4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "h2",
+            "h4"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 742596543,
+      "childIds": [
+        1273919052
+      ],
+      "childIdx": 0
+    },
+    "1877669921": {
+      "id": 1877669921,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        244498885
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

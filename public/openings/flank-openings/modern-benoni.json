@@ -1,175 +1,5408 @@
 {
-  "slug": "modern-benoni",
-  "name": "Modern Benoni",
-  "range": "A60-A79",
-  "lines": [
-    {
-      "eco": "A62",
-      "name": "Benoni Defense, Fianchetto Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. Nf3 6... g6 7. g3 7... Bg7 8. Bg2 8... O-O",
-      "count": 4744
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Modern Benoni"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614124188
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A65",
-      "name": "Benoni Defense, King Pawn lines",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4",
-      "count": 4480
+    "79889276": {
+      "id": 79889276,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Mikenas Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 625434845,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A60",
-      "name": "Benoni Defense, Modern Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6",
-      "count": 3617
+    "79916091": {
+      "id": 79916091,
+      "state": {
+        "key": "f1b5",
+        "pgn": "Bb5+",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "b5": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "b5"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Taimanov Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 625434845,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A70",
-      "name": "Benoni Defense, Classical Variation, New York Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. h3",
-      "count": 3572
+    "79946004": {
+      "id": 79946004,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 625434845,
+      "childIds": [
+        349608290
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A67",
-      "name": "Benoni Defense, Taimanov Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. f4 7... Bg7 8. Bb5+",
-      "count": 3345
+    "82706608": {
+      "id": 82706608,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 1387534036,
+      "childIds": [
+        435239833,
+        435211004
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A61",
-      "name": "Benoni Defense, Knight's Tour Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. Nf3 6... g6 7. Nd2",
-      "count": 2547
+    "84524789": {
+      "id": 84524789,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 1387592687,
+      "childIds": [
+        491604436,
+        491575512,
+        491484313
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A70",
-      "name": "Benoni Defense, Classical Variation, General",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3",
-      "count": 2504
+    "107531542": {
+      "id": 107531542,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Classical Variation, Averbakh-Grivas Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 626328544,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A64",
-      "name": "Benoni Defense, Fianchetto Variation, Hastings Defense, Main Line",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. Nf3 6... g6 7. g3 7... Bg7 8. Bg2 8... O-O 9. O-O 9... Nbd7 10. Nd2 10... a6 11. a4 11... Re8",
-      "count": 2145
+    "107620850": {
+      "id": 107620850,
+      "state": {
+        "key": "f1e2",
+        "pgn": "Be2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 626328544,
+      "childIds": [
+        1207528516
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A69",
-      "name": "Benoni Defense, Four Pawns Attack, Main Line",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. f4 7... Bg7 8. Nf3 8... O-O 9. Be2 9... Re8",
-      "count": 1475
+    "107681487": {
+      "id": 107681487,
+      "state": {
+        "key": "h2h3",
+        "pgn": "h3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "h3": "wp8"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "h2",
+            "h3"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Classical Variation, New York Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 626328544,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A77",
-      "name": "Benoni Defense, Classical Variation, Czerniak Defense, Tal Line",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... Re8 10. Nd2",
-      "count": 1215
+    "115670627": {
+      "id": 115670627,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "a6": "bp1",
+          "a4": "wp1",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Classical Variation, Argentine Counterattack"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 280222548,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A60",
-      "name": "Benoni Defense, Modern Variation, Snake Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... Bd6",
-      "count": 1051
+    "119227564": {
+      "id": 119227564,
+      "state": {
+        "key": "f1e2",
+        "pgn": "Be2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "e2": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "f1",
+            "e2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 349608290,
+      "childIds": [
+        1567366379
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A73",
-      "name": "Benoni Defense, Classical Variation, Main line",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O",
-      "count": 690
+    "217628302": {
+      "id": 217628302,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [
+        322731564
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A61",
-      "name": "Benoni Defense, Uhlmann Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. Nf3 6... g6 7. Bg5",
-      "count": 683
+    "226147590": {
+      "id": 226147590,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 491604436,
+      "childIds": [
+        586913220
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A71",
-      "name": "Benoni Defense, Classical Variation, Averbakh-Grivas Attack",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Bg5",
-      "count": 647
+    "264481231": {
+      "id": 264481231,
+      "state": {
+        "key": "b8a6",
+        "pgn": "Na6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g7": "bb2",
+          "e2": "wb2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e8": "br2",
+          "d2": "wn2",
+          "a6": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "e8"
+          ],
+          [
+            "f3",
+            "d2"
+          ],
+          [
+            "b8",
+            "a6"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Classical Variation, Czerniak Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 285023857,
+      "childIds": [
+        1775257022
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A75",
-      "name": "Benoni Defense, Classical Variation, Argentine Counterattack",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... a6 10. a4 10... Bg4",
-      "count": 557
+    "280222548": {
+      "id": 280222548,
+      "state": {
+        "key": "a2a4",
+        "pgn": "a4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "a6": "bp1",
+          "a4": "wp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "a2",
+            "a4"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Classical Variation, Full line"
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a4"
+          ]
+        }
+      },
+      "parentId": 1393911445,
+      "childIds": [
+        115670627
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A68",
-      "name": "Benoni Defense, Four Pawns Attack",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. f4 7... Bg7 8. Nf3 8... O-O",
-      "count": 520
+    "285023857": {
+      "id": 285023857,
+      "state": {
+        "key": "f3d2",
+        "pgn": "Nd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g7": "bb2",
+          "e2": "wb2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e8": "br2",
+          "d2": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "e8"
+          ],
+          [
+            "f3",
+            "d2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 1394061487,
+      "childIds": [
+        264481231
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A79",
-      "name": "Benoni Defense, Classical Variation, Czerniak Defense",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... Re8 10. Nd2 10... Na6 11. f3",
-      "count": 504
+    "322731564": {
+      "id": 322731564,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 217628302,
+      "childIds": [
+        1433475978
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A63",
-      "name": "Benoni Defense, Fianchetto Variation, Hastings Defense",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. Nf3 6... g6 7. g3 7... Bg7 8. Bg2 8... O-O 9. O-O 9... Nbd7",
-      "count": 474
+    "349608290": {
+      "id": 349608290,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Four Pawns Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 79946004,
+      "childIds": [
+        119227564
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A72",
-      "name": "Benoni Defense, Classical Variation, Traditional Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2",
-      "count": 384
+    "435211004": {
+      "id": 435211004,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Pawn Storm Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 82706608,
+      "childIds": [
+        625434845
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A78",
-      "name": "Benoni Defense, Classical Variation, Czerniak Defense",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... Re8 10. Nd2 10... Na6",
-      "count": 373
+    "435239833": {
+      "id": 435239833,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 82706608,
+      "childIds": [
+        626328544
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A76",
-      "name": "Benoni Defense, Classical Variation, Czerniak Defense",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... Re8",
-      "count": 262
+    "474218033": {
+      "id": 474218033,
+      "state": {
+        "key": "a7a6",
+        "pgn": "a6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d7": "bn1",
+          "d2": "wn2",
+          "a6": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f3",
+            "d2"
+          ],
+          [
+            "a7",
+            "a6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 1815811205,
+      "childIds": [
+        1834497834
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A66",
-      "name": "Benoni Defense, Mikenas Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. f4 7... Bg7 8. e5",
-      "count": 262
+    "491484313": {
+      "id": 491484313,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Uhlmann Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 84524789,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A74",
-      "name": "Benoni Defense, Classical Variation, Full line",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. Nf3 7... Bg7 8. Be2 8... O-O 9. O-O 9... a6 10. a4",
-      "count": 242
+    "491575512": {
+      "id": 491575512,
+      "state": {
+        "key": "f3d2",
+        "pgn": "Nd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "g6": "bp7",
+          "d2": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f3",
+            "d2"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Knight's Tour Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 84524789,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A66",
-      "name": "Benoni Defense, Pawn Storm Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... e6 4. Nc3 4... exd5 5. cxd5 5... d6 6. e4 6... g6 7. f4",
-      "count": 207
+    "491604436": {
+      "id": 491604436,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 84524789,
+      "childIds": [
+        226147590
+      ],
+      "childIdx": 0
+    },
+    "529069664": {
+      "id": 529069664,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 847746402,
+      "childIds": [
+        1387592687,
+        1387534036
+      ],
+      "childIdx": 0
+    },
+    "529130207": {
+      "id": 529130207,
+      "state": {
+        "key": "f8d6",
+        "pgn": "Bd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "f8",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Modern Variation, Snake Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 847746402,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "586913220": {
+      "id": 586913220,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 226147590,
+      "childIds": [
+        1033206457
+      ],
+      "childIdx": 0
+    },
+    "614124188": {
+      "id": 614124188,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876806014
+      ],
+      "childIdx": 0
+    },
+    "625434845": {
+      "id": 625434845,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 435211004,
+      "childIds": [
+        79916091,
+        79946004,
+        79889276
+      ],
+      "childIdx": 0
+    },
+    "626328544": {
+      "id": 626328544,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 435239833,
+      "childIds": [
+        107681487,
+        107620850,
+        107531542
+      ],
+      "childIdx": 0
+    },
+    "847746402": {
+      "id": 847746402,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1273669347,
+      "childIds": [
+        529069664,
+        529130207
+      ],
+      "childIdx": 0
+    },
+    "944921076": {
+      "id": 944921076,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1207528516,
+      "childIds": [
+        1394061487,
+        1393911445
+      ],
+      "childIdx": 0
+    },
+    "1033206457": {
+      "id": 1033206457,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wb2",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 586913220,
+      "childIds": [
+        1983388188
+      ],
+      "childIdx": 0
+    },
+    "1053653574": {
+      "id": 1053653574,
+      "state": {
+        "key": "f8e8",
+        "pgn": "Re8",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wb2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d7": "bn1",
+          "d2": "wn2",
+          "a6": "bp1",
+          "a4": "wp1",
+          "e8": "br2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f3",
+            "d2"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "f8",
+            "e8"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Fianchetto Variation, Hastings Defense, Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e8"
+          ]
+        }
+      },
+      "parentId": 1834497834,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1207528516": {
+      "id": 1207528516,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 107620850,
+      "childIds": [
+        944921076
+      ],
+      "childIdx": 0
+    },
+    "1273669347": {
+      "id": 1273669347,
+      "state": {
+        "key": "e6d5",
+        "pgn": "exd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1633775143,
+      "childIds": [
+        847746402
+      ],
+      "childIdx": 0
+    },
+    "1374168058": {
+      "id": 1374168058,
+      "state": {
+        "key": "b8d7",
+        "pgn": "bd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Fianchetto Variation, Hastings Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 1983388188,
+      "childIds": [
+        1815811205
+      ],
+      "childIdx": 0
+    },
+    "1387534036": {
+      "id": 1387534036,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 529069664,
+      "childIds": [
+        82706608
+      ],
+      "childIdx": 0
+    },
+    "1387592687": {
+      "id": 1387592687,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 529069664,
+      "childIds": [
+        84524789
+      ],
+      "childIdx": 0
+    },
+    "1393911445": {
+      "id": 1393911445,
+      "state": {
+        "key": "a7a6",
+        "pgn": "a6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "a6": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "a7",
+            "a6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 944921076,
+      "childIds": [
+        280222548
+      ],
+      "childIdx": 0
+    },
+    "1394061487": {
+      "id": 1394061487,
+      "state": {
+        "key": "f8e8",
+        "pgn": "Re8",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e8": "br2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "e8"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Classical Variation, Czerniak Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e8"
+          ]
+        }
+      },
+      "parentId": 944921076,
+      "childIds": [
+        285023857
+      ],
+      "childIdx": 0
+    },
+    "1433475978": {
+      "id": 1433475978,
+      "state": {
+        "key": "d4d5",
+        "pgn": "d5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "d5": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 322731564,
+      "childIds": [
+        1506847166
+      ],
+      "childIdx": 0
+    },
+    "1506847166": {
+      "id": 1506847166,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "d5": "wp4",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 1433475978,
+      "childIds": [
+        1633775143
+      ],
+      "childIdx": 0
+    },
+    "1567366379": {
+      "id": 1567366379,
+      "state": {
+        "key": "f8e8",
+        "pgn": "Re8",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2",
+          "g8": "bk1",
+          "e2": "wb2",
+          "e8": "br2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "f8",
+            "e8"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Four Pawns Attack, Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e8"
+          ]
+        }
+      },
+      "parentId": 119227564,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1633775143": {
+      "id": 1633775143,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "d5": "wp4",
+          "e6": "bp5",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1506847166,
+      "childIds": [
+        1273669347
+      ],
+      "childIdx": 0
+    },
+    "1775257022": {
+      "id": 1775257022,
+      "state": {
+        "key": "f2f3",
+        "pgn": "f3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g7": "bb2",
+          "e2": "wb2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e8": "br2",
+          "d2": "wn2",
+          "a6": "bn1",
+          "f3": "wp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "e8"
+          ],
+          [
+            "f3",
+            "d2"
+          ],
+          [
+            "b8",
+            "a6"
+          ],
+          [
+            "f2",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Classical Variation, Czerniak Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 264481231,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1815811205": {
+      "id": 1815811205,
+      "state": {
+        "key": "f3d2",
+        "pgn": "Nd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d7": "bn1",
+          "d2": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f3",
+            "d2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 1374168058,
+      "childIds": [
+        474218033
+      ],
+      "childIdx": 0
+    },
+    "1834497834": {
+      "id": 1834497834,
+      "state": {
+        "key": "a2a4",
+        "pgn": "a4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d7": "bn1",
+          "d2": "wn2",
+          "a6": "bp1",
+          "a4": "wp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f3",
+            "d2"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "a2",
+            "a4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a4"
+          ]
+        }
+      },
+      "parentId": 474218033,
+      "childIds": [
+        1053653574
+      ],
+      "childIdx": 0
+    },
+    "1876806014": {
+      "id": 1876806014,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        217628302
+      ],
+      "childIdx": 0
+    },
+    "1983388188": {
+      "id": 1983388188,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1033206457,
+      "childIds": [
+        1374168058
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

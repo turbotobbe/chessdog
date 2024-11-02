@@ -1,56 +1,1123 @@
 {
-  "slug": "birds-opening",
-  "name": "Bird's Opening",
-  "range": "A02-A03",
-  "lines": [
-    {
-      "eco": "A03",
-      "name": "Bird Opening, Dutch Variation",
-      "color": "black",
-      "moves": "1. f4 1... d5",
-      "count": 11371
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Bird's Opening"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614183832
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A02",
-      "name": "Bird Opening, General",
-      "color": "white",
-      "moves": "1. f4",
-      "count": 9437
+    "163043143": {
+      "id": 163043143,
+      "state": {
+        "key": "f8d6",
+        "pgn": "Bxd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "d6": "bb2"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "d6"
+          ],
+          [
+            "f8",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1113031806,
+      "childIds": [
+        778188771
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A02",
-      "name": "Bird Opening, From Gambit",
-      "color": "black",
-      "moves": "1. f4 1... e5",
-      "count": 1082
+    "253290482": {
+      "id": 253290482,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f4": "wp6",
+          "d5": "bp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 2016501815,
+      "childIds": [
+        1428259144
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A03",
-      "name": "Bird Opening, Lasker Variation",
-      "color": "black",
-      "moves": "1. f4 1... d5 2. Nf3 2... Nf6 3. e3 3... c5",
-      "count": 762
+    "272262174": {
+      "id": 272262174,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f4": "wp6",
+          "d5": "bp4",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1878564581,
+      "childIds": [
+        2016501815
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A02",
-      "name": "Bird Opening, From Gambit, Lasker Variation",
-      "color": "black",
-      "moves": "1. f4 1... e5 2. fxe5 2... d6 3. exd6 3... Bxd6 4. Nf3 4... g5",
-      "count": 714
+    "273159719": {
+      "id": 273159719,
+      "state": {
+        "key": "f4e5",
+        "pgn": "fxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e5": "wp6"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1878594403,
+      "childIds": [
+        2044235314,
+        2044176662
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A03",
-      "name": "Bird Opening, Horsefly Defense",
-      "color": "black",
-      "moves": "1. f4 1... Nh6",
-      "count": 192
+    "520356215": {
+      "id": 520356215,
+      "state": {
+        "key": "g7g5",
+        "pgn": "g5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "d6": "bb2",
+          "f3": "wn2",
+          "g5": "bp7"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "d6"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Bird Opening, From Gambit, Lasker Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 778188771,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A02",
-      "name": "Bird Opening, Schlechter Gambit",
-      "color": "black",
-      "moves": "1. f4 1... e5 2. fxe5 2... Nc6",
-      "count": 117
+    "614183832": {
+      "id": 614183832,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1878564581,
+        1878594403,
+        1878655040
+      ],
+      "childIdx": 0
+    },
+    "778188771": {
+      "id": 778188771,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "d6": "bb2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "d6"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 163043143,
+      "childIds": [
+        520356215
+      ],
+      "childIdx": 0
+    },
+    "1113031806": {
+      "id": 1113031806,
+      "state": {
+        "key": "e5d6",
+        "pgn": "exd6",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d6": "wp6"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 2044235314,
+      "childIds": [
+        163043143
+      ],
+      "childIdx": 0
+    },
+    "1428259144": {
+      "id": 1428259144,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f4": "wp6",
+          "d5": "bp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "e3": "wp5",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Bird Opening, Lasker Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 253290482,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1878564581": {
+      "id": 1878564581,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f4": "wp6",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614183832,
+      "childIds": [
+        272262174
+      ],
+      "childIdx": 0
+    },
+    "1878594403": {
+      "id": 1878594403,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f4": "wp6",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614183832,
+      "childIds": [
+        273159719
+      ],
+      "childIdx": 0
+    },
+    "1878655040": {
+      "id": 1878655040,
+      "state": {
+        "key": "g8h6",
+        "pgn": "Nh6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f4": "wp6",
+          "h6": "bn2"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "g8",
+            "h6"
+          ]
+        ],
+        "comments": [
+          "Bird Opening, Horsefly Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 614183832,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "2016501815": {
+      "id": 2016501815,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f4": "wp6",
+          "d5": "bp4",
+          "f3": "wn2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 272262174,
+      "childIds": [
+        253290482
+      ],
+      "childIdx": 0
+    },
+    "2044176662": {
+      "id": 2044176662,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e5": "wp6",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Bird Opening, Schlechter Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 273159719,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "2044235314": {
+      "id": 2044235314,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e5": "wp6",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 273159719,
+      "childIds": [
+        1113031806
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

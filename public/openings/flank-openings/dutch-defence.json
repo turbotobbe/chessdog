@@ -1,315 +1,7114 @@
 {
-  "slug": "dutch-defence",
-  "name": "Dutch Defence",
-  "range": "A80-A99",
-  "lines": [
-    {
-      "eco": "A80",
-      "name": "Dutch Defense, General",
-      "color": "black",
-      "moves": "1. d4 1... f5",
-      "count": 9199
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Dutch Defence"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614124188
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A81",
-      "name": "Dutch Defense, Semi-Leningrad Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. g3 2... Nf6 3. Bg2 3... g6",
-      "count": 6704
+    "62407874": {
+      "id": 62407874,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1040513794,
+      "childIds": [
+        1953462726
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A85",
-      "name": "Dutch Defense, Queen's Knight Variation",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. Nc3",
-      "count": 5491
+    "62468354": {
+      "id": 62468354,
+      "state": {
+        "key": "f8b4",
+        "pgn": "Bb4+",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "b4": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 1040513794,
+      "childIds": [
+        1955218379
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A88",
-      "name": "Dutch Defense, Leningrad Variation, Warsaw Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... c6",
-      "count": 5084
+    "62468450": {
+      "id": 62468450,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1040513794,
+      "childIds": [
+        1955340582,
+        1955340644
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A80",
-      "name": "Dutch Defense, Hopton Attack",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. Bg5",
-      "count": 4662
+    "109697441": {
+      "id": 109697441,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bp6",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "f5",
+            "e4"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Staunton Gambit, Chigorin Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1319134890,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A80",
-      "name": "Dutch Defense, Raphael Variation",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. Nc3",
-      "count": 4032
+    "109816729": {
+      "id": 109816729,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bp6",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "f5",
+            "e4"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 1319134890,
+      "childIds": [
+        1275624754
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A89",
-      "name": "Dutch Defense, Leningrad Variation, Matulovic Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... Nc6",
-      "count": 3464
+    "119786396": {
+      "id": 119786396,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 1042362758,
+      "childIds": [
+        1584713261
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A84",
-      "name": "Dutch Defense, Rubinstein Variation",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. c4 2... e6 3. Nc3",
-      "count": 3343
+    "197337732": {
+      "id": 197337732,
+      "state": {
+        "key": "f8d6",
+        "pgn": "Bd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "d5": "bp4",
+          "f3": "wn2",
+          "c6": "bp3",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Modern Stonewall Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 975590751,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A90",
-      "name": "Dutch Defense, Stonewall Variation, Modern Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... e6 3. Nf3 3... Nf6 4. g3 4... c6 5. Bg2 5... d5 6. O-O 6... Bd6",
-      "count": 3026
+    "214795242": {
+      "id": 214795242,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1876715617,
+      "childIds": [
+        234996170
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A90",
-      "name": "Dutch Defense, Classical Variation",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2",
-      "count": 2693
+    "216644206": {
+      "id": 216644206,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Raphael Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1876775261,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A81",
-      "name": "Dutch Defense, Fianchetto Attack",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. g3",
-      "count": 2422
+    "216674123": {
+      "id": 216674123,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Hopton Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1876775261,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A84",
-      "name": "Dutch Defense, Classical Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... e6",
-      "count": 2307
+    "216674959": {
+      "id": 216674959,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1876775261,
+      "childIds": [
+        293298150,
+        293237576
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A87",
-      "name": "Dutch Defense, Leningrad Variation",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... g6 4. Bg2 4... Bg7 5. Nf3",
-      "count": 2288
+    "216703819": {
+      "id": 216703819,
+      "state": {
+        "key": "d1d3",
+        "pgn": "Qd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "d3": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "d1",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Kmoch Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1876775261,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A97",
-      "name": "Dutch Defense, Modern Stonewall Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... d5 5. Nf3 5... c6 6. O-O 6... Bd6",
-      "count": 2133
+    "216734603": {
+      "id": 216734603,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1876775261,
+      "childIds": [
+        295114407
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A80",
-      "name": "Queen Pawn Game, Veresov Atack, Dutch System",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. Nc3 2... f5",
-      "count": 1934
+    "216794246": {
+      "id": 216794246,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1876775261,
+      "childIds": [
+        296996047
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A83",
-      "name": "Dutch Defense, Staunton Gambit, General Variation",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. e4 2... fxe4 3. Nc3 3... Nf6 4. Bg5",
-      "count": 1802
+    "216794247": {
+      "id": 216794247,
+      "state": {
+        "key": "g2g4",
+        "pgn": "g4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "g4": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "g2",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Krejcik Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1876775261,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A96",
-      "name": "Dutch Defense, Classical Variation, Huisl Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... Ne4",
-      "count": 1312
+    "216824068": {
+      "id": 216824068,
+      "state": {
+        "key": "h2h3",
+        "pgn": "h3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "h3": "wp8"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "h2",
+            "h3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 1876775261,
+      "childIds": [
+        297920529
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A96",
-      "name": "Dutch Defense, Classical Variation, General",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6",
-      "count": 1123
+    "234996170": {
+      "id": 234996170,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c3": "wn1",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Queen Pawn Game, Veresov Atack, Dutch System"
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 214795242,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A84",
-      "name": "Dutch Defense, Normal Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6",
-      "count": 1053
+    "293237576": {
+      "id": 293237576,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Classical Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 216674959,
+      "childIds": [
+        519099852,
+        519248900
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A96",
-      "name": "Dutch Defense, Classical Variation, Buenos Aires Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... a5",
-      "count": 999
+    "293298150": {
+      "id": 293298150,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 216674959,
+      "childIds": [
+        520977646,
+        521127686
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A95",
-      "name": "Dutch Defense, Classical Variation, Stonewall Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d5 7. Nc3 7... c6",
-      "count": 774
+    "295114407": {
+      "id": 295114407,
+      "state": {
+        "key": "f5e4",
+        "pgn": "fxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "f5",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f5",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 216734603,
+      "childIds": [
+        577281613
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A86",
-      "name": "Dutch Defense, Leningrad Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... g6",
-      "count": 750
+    "296996047": {
+      "id": 296996047,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "g3": "wp7",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 216794246,
+      "childIds": [
+        635731740
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A97",
-      "name": "Dutch Defense, Classical Variation, Ilyin-Zhenevsky Variation, General",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... Qe8",
-      "count": 747
+    "297920529": {
+      "id": 297920529,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "h3": "wp8",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "h2",
+            "h3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 216824068,
+      "childIds": [
+        664421436
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A90",
-      "name": "Dutch Defense, Nimzo-Dutch Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Bb4+",
-      "count": 727
+    "364213371": {
+      "id": 364213371,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Stonewall Variation, General Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 634607459,
+      "childIds": [
+        571865850,
+        571866780
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A91",
-      "name": "Dutch Defense, Classical Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7",
-      "count": 492
+    "364213372": {
+      "id": 364213372,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 634607459,
+      "childIds": [
+        571865881
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A99",
-      "name": "Dutch Defense, Classical Variation, Ilyin-Zhenevsky Variation, Modern Main Line",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... Qe8 8. b3",
-      "count": 461
+    "364272022": {
+      "id": 364272022,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Ne4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Alekhine Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 634607459,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A80",
-      "name": "Dutch Defense, Krejcik Gambit",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. g4",
-      "count": 449
+    "399095905": {
+      "id": 399095905,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 635731740,
+      "childIds": [
+        1653373514
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A94",
-      "name": "Dutch Defense, Classical Variation, Stonewall Variation",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d5 7. b3 7... c6 8. Ba3",
-      "count": 444
+    "399155549": {
+      "id": 399155549,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Semi-Leningrad Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 635731740,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A83",
-      "name": "Dutch Defense, Staunton Gambit, Chigorin Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. e4 2... fxe4 3. Nc3 3... Nf6 4. Bg5 4... c6",
-      "count": 421
+    "406720725": {
+      "id": 406720725,
+      "state": {
+        "key": "c1a3",
+        "pgn": "Ba3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d5": "bp4",
+          "b3": "wp2",
+          "c6": "bp3",
+          "a3": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c1",
+            "a3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Classical Variation, Stonewall Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "a3"
+          ]
+        }
+      },
+      "parentId": 566706148,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A81",
-      "name": "Dutch Defense, Blackburne Variation",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. g3 2... Nf6 3. Bg2 3... e6 4. Nh3",
-      "count": 399
+    "406783283": {
+      "id": 406783283,
+      "state": {
+        "key": "b2b3",
+        "pgn": "b3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4",
+          "c3": "wn1",
+          "e8": "bq1",
+          "b3": "wp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d8",
+            "e8"
+          ],
+          [
+            "b2",
+            "b3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Classical Variation, Ilyin-Zhenevsky Variation, Modern Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b3"
+          ]
+        }
+      },
+      "parentId": 566709095,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A92",
-      "name": "Dutch Defense, Alekhine Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... Ne4",
-      "count": 378
+    "406841934": {
+      "id": 406841934,
+      "state": {
+        "key": "d1c2",
+        "pgn": "Qc2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4",
+          "c3": "wn1",
+          "e8": "bq1",
+          "c2": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d8",
+            "e8"
+          ],
+          [
+            "d1",
+            "c2"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Classical Variation, Ilyin-Zhenevsky Variation, Alatortsev-Lisitsyn Line"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "c2"
+          ]
+        }
+      },
+      "parentId": 566709095,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A93",
-      "name": "Dutch Defense, Classical Variation, Stonewall Variation, Botvinnik Variation",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d5 7. b3",
-      "count": 363
+    "446507534": {
+      "id": 446507534,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "d5": "bp4",
+          "f3": "wn2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1953462726,
+      "childIds": [
+        975590751
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A92",
-      "name": "Dutch Defense, Stonewall Variation, General Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d5",
-      "count": 354
+    "500900166": {
+      "id": 500900166,
+      "state": {
+        "key": "b4e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "d2": "wb1",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "b4",
+            "e7"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Nimzo-Dutch Variation, Alekhine Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b4",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1955218379,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A98",
-      "name": "Dutch Defense, Classical Variation, Ilyin-Zhenevsky Variation, Alatortsev-Lisitsyn Line",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O 6. O-O 6... d6 7. Nc3 7... Qe8 8. Qc2",
-      "count": 352
+    "504781739": {
+      "id": 504781739,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Classical Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 1955340582,
+      "childIds": [
+        634607459
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A80",
-      "name": "Dutch Defense, Blackmar's Second Gambit",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. e4 2... fxe4 3. Nc3 3... Nf6 4. f3",
-      "count": 307
+    "519099852": {
+      "id": 519099852,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Rubinstein Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 293237576,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A91",
-      "name": "Dutch Defense, Classical Variation, Blackburne Attack",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nh3",
-      "count": 306
+    "519248900": {
+      "id": 519248900,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 293237576,
+      "childIds": [
+        1083155733
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A80",
-      "name": "Dutch Defense, Korchnoi Attack",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. h3",
-      "count": 266
+    "520977646": {
+      "id": 520977646,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Queen's Knight Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 293298150,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A92",
-      "name": "Dutch Defense, Classical Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Be7 5. Nf3 5... O-O",
-      "count": 261
+    "521127686": {
+      "id": 521127686,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 293298150,
+      "childIds": [
+        1141397169,
+        1141337525
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A82",
-      "name": "Dutch Defense, Staunton Gambit, Accepted",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. e4 2... fxe4",
-      "count": 243
+    "566618634": {
+      "id": 566618634,
+      "state": {
+        "key": "a7a5",
+        "pgn": "a5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4",
+          "c3": "wn1",
+          "a5": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "a7",
+            "a5"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Classical Variation, Buenos Aires Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 571865881,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A86",
-      "name": "Dutch Defense, Fianchetto Variation",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3",
-      "count": 197
+    "566677318": {
+      "id": 566677318,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d5": "bp4",
+          "c3": "wn1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Classical Variation, Stonewall Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 571865850,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A83",
-      "name": "Dutch Defense, Staunton Gambit, Lasker Variation",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. e4 2... fxe4 3. Nc3 3... Nf6 4. Bg5 4... g6 5. f3",
-      "count": 185
+    "566706148": {
+      "id": 566706148,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d5": "bp4",
+          "b3": "wp2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 571866780,
+      "childIds": [
+        406720725
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A80",
-      "name": "Dutch Defense, Kmoch Attack",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. Qd3",
-      "count": 161
+    "566709095": {
+      "id": 566709095,
+      "state": {
+        "key": "d8e8",
+        "pgn": "Qe8",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4",
+          "c3": "wn1",
+          "e8": "bq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d8",
+            "e8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "e8"
+          ]
+        }
+      },
+      "parentId": 571865881,
+      "childIds": [
+        406783283,
+        406841934
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A80",
-      "name": "Dutch Defense, Janzen-Korchnoi Gambit",
-      "color": "white",
-      "moves": "1. d4 1... f5 2. h3 2... Nf6 3. g4",
-      "count": 160
+    "566766751": {
+      "id": 566766751,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Ne4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4",
+          "c3": "wn1",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Classical Variation, Huisl Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 571865881,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A90",
-      "name": "Dutch Defense, Nimzo-Dutch Variation, Alekhine Variation",
-      "color": "black",
-      "moves": "1. d4 1... f5 2. c4 2... Nf6 3. g3 3... e6 4. Bg2 4... Bb4+ 5. Bd2 5... Be7",
-      "count": 137
+    "571865850": {
+      "id": 571865850,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d5": "bp4",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 364213371,
+      "childIds": [
+        566677318
+      ],
+      "childIdx": 0
+    },
+    "571865881": {
+      "id": 571865881,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 364213372,
+      "childIds": [
+        566766751,
+        566618634,
+        566709095
+      ],
+      "childIdx": 0
+    },
+    "571866780": {
+      "id": 571866780,
+      "state": {
+        "key": "b2b3",
+        "pgn": "b3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d5": "bp4",
+          "b3": "wp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b2",
+            "b3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Classical Variation, Stonewall Variation, Botvinnik Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b3"
+          ]
+        }
+      },
+      "parentId": 364213371,
+      "childIds": [
+        566706148
+      ],
+      "childIdx": 0
+    },
+    "577281613": {
+      "id": 577281613,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bp6",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "f5",
+            "e4"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 295114407,
+      "childIds": [
+        734686189
+      ],
+      "childIdx": 0
+    },
+    "614124188": {
+      "id": 614124188,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876775261,
+        1876715617
+      ],
+      "childIdx": 0
+    },
+    "634607459": {
+      "id": 634607459,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 504781739,
+      "childIds": [
+        364213372,
+        364213371,
+        364272022
+      ],
+      "childIdx": 0
+    },
+    "635731740": {
+      "id": 635731740,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 296996047,
+      "childIds": [
+        399155549,
+        399095905
+      ],
+      "childIdx": 0
+    },
+    "664421436": {
+      "id": 664421436,
+      "state": {
+        "key": "g2g4",
+        "pgn": "g4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "h3": "wp8",
+          "f6": "bn2",
+          "g4": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "h2",
+            "h3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Janzen-Korchnoi Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 297920529,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "734686189": {
+      "id": 734686189,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bp6",
+          "c3": "wn1",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "f5",
+            "e4"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 577281613,
+      "childIds": [
+        1319134890,
+        1319225191
+      ],
+      "childIdx": 0
+    },
+    "790406328": {
+      "id": 790406328,
+      "state": {
+        "key": "f8d6",
+        "pgn": "Bd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "c6": "bp3",
+          "g2": "wb2",
+          "d5": "bp4",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "f8",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Stonewall Variation, Modern Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 925448330,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "925448330": {
+      "id": 925448330,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "c6": "bp3",
+          "g2": "wb2",
+          "d5": "bp4",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1414721361,
+      "childIds": [
+        790406328
+      ],
+      "childIdx": 0
+    },
+    "944037380": {
+      "id": 944037380,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1900236670,
+      "childIds": [
+        1366606335
+      ],
+      "childIdx": 0
+    },
+    "975590751": {
+      "id": 975590751,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "d5": "bp4",
+          "f3": "wn2",
+          "c6": "bp3",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 446507534,
+      "childIds": [
+        197337732
+      ],
+      "childIdx": 0
+    },
+    "1040513794": {
+      "id": 1040513794,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 1141337525,
+      "childIds": [
+        62407874,
+        62468450,
+        62468354
+      ],
+      "childIdx": 0
+    },
+    "1042362758": {
+      "id": 1042362758,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 1141397169,
+      "childIds": [
+        119786396
+      ],
+      "childIdx": 0
+    },
+    "1083155733": {
+      "id": 1083155733,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 519248900,
+      "childIds": [
+        1384392642
+      ],
+      "childIdx": 0
+    },
+    "1141337525": {
+      "id": 1141337525,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 521127686,
+      "childIds": [
+        1040513794
+      ],
+      "childIdx": 0
+    },
+    "1141397169": {
+      "id": 1141397169,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Leningrad Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 521127686,
+      "childIds": [
+        1042362758
+      ],
+      "childIdx": 0
+    },
+    "1275624754": {
+      "id": 1275624754,
+      "state": {
+        "key": "f2f3",
+        "pgn": "f3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bp6",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "g6": "bp7",
+          "f3": "wp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "f5",
+            "e4"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Staunton Gambit, Lasker Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 109816729,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1319134890": {
+      "id": 1319134890,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bp6",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "f5",
+            "e4"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 734686189,
+      "childIds": [
+        109697441,
+        109816729
+      ],
+      "childIdx": 0
+    },
+    "1319225191": {
+      "id": 1319225191,
+      "state": {
+        "key": "f2f3",
+        "pgn": "f3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bp6",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "f5",
+            "e4"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Blackmar's Second Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 734686189,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1366606335": {
+      "id": 1366606335,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 944037380,
+      "childIds": [
+        1581276676
+      ],
+      "childIdx": 0
+    },
+    "1384392642": {
+      "id": 1384392642,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1083155733,
+      "childIds": [
+        2132687753
+      ],
+      "childIdx": 0
+    },
+    "1414721361": {
+      "id": 1414721361,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "c6": "bp3",
+          "g2": "wb2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1707599804,
+      "childIds": [
+        925448330
+      ],
+      "childIdx": 0
+    },
+    "1581276676": {
+      "id": 1581276676,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1366606335,
+      "childIds": [
+        1793641866,
+        1793613036
+      ],
+      "childIdx": 0
+    },
+    "1584713261": {
+      "id": 1584713261,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Leningrad Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 119786396,
+      "childIds": [
+        1900236670
+      ],
+      "childIdx": 0
+    },
+    "1653373514": {
+      "id": 1653373514,
+      "state": {
+        "key": "g1h3",
+        "pgn": "Nh3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e6": "bp5",
+          "h3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "h3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Blackburne Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 399095905,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1707599804": {
+      "id": 1707599804,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "c6": "bp3",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 2132687753,
+      "childIds": [
+        1414721361
+      ],
+      "childIdx": 0
+    },
+    "1793613036": {
+      "id": 1793613036,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4",
+          "c3": "wn1",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Leningrad Variation, Matulovic Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1581276676,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1793641866": {
+      "id": 1793641866,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "d6": "bp4",
+          "c3": "wn1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Leningrad Variation, Warsaw Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1581276676,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1876715617": {
+      "id": 1876715617,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        214795242
+      ],
+      "childIdx": 0
+    },
+    "1876775261": {
+      "id": 1876775261,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        216794246,
+        216674959,
+        216674123,
+        216644206,
+        216734603,
+        216794247,
+        216824068,
+        216703819
+      ],
+      "childIdx": 0
+    },
+    "1900236670": {
+      "id": 1900236670,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 1584713261,
+      "childIds": [
+        944037380
+      ],
+      "childIdx": 0
+    },
+    "1953462726": {
+      "id": 1953462726,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "d5": "bp4",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 62407874,
+      "childIds": [
+        446507534
+      ],
+      "childIdx": 0
+    },
+    "1955218379": {
+      "id": 1955218379,
+      "state": {
+        "key": "c1d2",
+        "pgn": "Bd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "b4": "bb2",
+          "d2": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 62468354,
+      "childIds": [
+        500900166
+      ],
+      "childIdx": 0
+    },
+    "1955340582": {
+      "id": 1955340582,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 62468450,
+      "childIds": [
+        504781739
+      ],
+      "childIdx": 0
+    },
+    "1955340644": {
+      "id": 1955340644,
+      "state": {
+        "key": "g1h3",
+        "pgn": "Nh3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "f6": "bn2",
+          "g3": "wp7",
+          "e6": "bp5",
+          "g2": "wb2",
+          "e7": "bb2",
+          "h3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "h3"
+          ]
+        ],
+        "comments": [
+          "Dutch Defense, Classical Variation, Blackburne Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 62468450,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "2132687753": {
+      "id": 2132687753,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f5": "bp6",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1384392642,
+      "childIds": [
+        1707599804
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

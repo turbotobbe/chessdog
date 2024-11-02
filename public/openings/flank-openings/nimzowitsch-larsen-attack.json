@@ -1,63 +1,718 @@
 {
-  "slug": "nimzowitsch-larsen-attack",
-  "name": "Nimzowitsch-Larsen Attack",
-  "range": "A01",
-  "lines": [
-    {
-      "eco": "A01",
-      "name": "Nimzo-Larsen Attack, Modern Variation",
-      "color": "black",
-      "moves": "1. b3 1... e5",
-      "count": 12681
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Nimzowitsch-Larsen Attack"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614064543
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A01",
-      "name": "Nimzo-Larsen Attack, Classical Variation",
-      "color": "black",
-      "moves": "1. b3 1... d5",
-      "count": 8939
+    "39987376": {
+      "id": 39987376,
+      "state": {
+        "key": "g2g4",
+        "pgn": "g4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b3": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "g6": "bp7",
+          "g4": "wp7"
+        },
+        "moves": [
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Nimzo-Larsen Attack, Spike Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 693419491,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A01",
-      "name": "Nimzo-Larsen Attack, Indian Variation",
-      "color": "black",
-      "moves": "1. b3 1... Nf6",
-      "count": 6094
+    "160308463": {
+      "id": 160308463,
+      "state": {
+        "key": "c1b2",
+        "pgn": "Bb2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b3": "wp2",
+          "f6": "bn2",
+          "b2": "wb1"
+        },
+        "moves": [
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "b2"
+          ]
+        }
+      },
+      "parentId": 1874957019,
+      "childIds": [
+        693419491
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A01",
-      "name": "Nimzo-Larsen Attack, General",
-      "color": "white",
-      "moves": "1. b3",
-      "count": 2712
+    "614064543": {
+      "id": 614064543,
+      "state": {
+        "key": "b2b3",
+        "pgn": "b3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b3": "wp2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1874896444,
+        1874866622,
+        1874957019,
+        1874836800,
+        1874806979,
+        1874926266
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A01",
-      "name": "Nimzo-Larsen Attack, English Variation",
-      "color": "black",
-      "moves": "1. b3 1... c5",
-      "count": 1779
+    "693419491": {
+      "id": 693419491,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b3": "wp2",
+          "f6": "bn2",
+          "b2": "wb1",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 160308463,
+      "childIds": [
+        39987376
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A01",
-      "name": "Nimzo-Larsen Attack, Symmetrical Variation",
-      "color": "black",
-      "moves": "1. b3 1... b6",
-      "count": 881
+    "1874806979": {
+      "id": 1874806979,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b3": "wp2",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "comments": [
+          "Nimzo-Larsen Attack, Symmetrical Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 614064543,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A01",
-      "name": "Nimzo-Larsen Attack, Dutch Variation",
-      "color": "black",
-      "moves": "1. b3 1... f5",
-      "count": 315
+    "1874836800": {
+      "id": 1874836800,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b3": "wp2",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Nimzo-Larsen Attack, English Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 614064543,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A01",
-      "name": "Nimzo-Larsen Attack, Spike Variation",
-      "color": "white",
-      "moves": "1. b3 1... Nf6 2. Bb2 2... g6 3. g4",
-      "count": 121
+    "1874866622": {
+      "id": 1874866622,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b3": "wp2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Nimzo-Larsen Attack, Classical Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614064543,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1874896444": {
+      "id": 1874896444,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b3": "wp2",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Nimzo-Larsen Attack, Modern Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614064543,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1874926266": {
+      "id": 1874926266,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b3": "wp2",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Nimzo-Larsen Attack, Dutch Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 614064543,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1874957019": {
+      "id": 1874957019,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b3": "wp2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614064543,
+      "childIds": [
+        160308463
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

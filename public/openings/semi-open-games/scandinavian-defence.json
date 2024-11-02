@@ -1,168 +1,3523 @@
 {
-  "slug": "scandinavian-defence",
-  "name": "Scandinavian Defence",
-  "range": "B01",
-  "lines": [
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Mieses-Kotroc Variation",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Qxd5",
-      "count": 11282
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Scandinavian Defence"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Main Lines",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5",
-      "count": 10871
+    "21132273": {
+      "id": 21132273,
+      "state": {
+        "key": "g4f5",
+        "pgn": "Bf5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "wp5",
+          "f6": "bn2",
+          "d4": "wp4",
+          "f3": "wp6",
+          "f5": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "f2",
+            "f3"
+          ],
+          [
+            "g4",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g4",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 1039179531,
+      "childIds": [
+        673889182
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Gubinsky-Melts Defense",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qd6",
-      "count": 9777
+    "102222320": {
+      "id": 102222320,
+      "state": {
+        "key": "d5b4",
+        "pgn": "Nb4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c4": "wp3",
+          "b4": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b4"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Kiel Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 1041798195,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Main Lines, Mieses Variation",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. d4 4... Nf6",
-      "count": 8043
+    "105862712": {
+      "id": 105862712,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bn2",
+          "f3": "wn2",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Modern Variation, Gipslis Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1041916490,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Modern Variation",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Nf6",
-      "count": 7965
+    "105980917": {
+      "id": 105980917,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bn2",
+          "f3": "wn2",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Richter Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 1041916490,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Marshall Variation",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Nxd5",
-      "count": 4416
+    "186475119": {
+      "id": 186475119,
+      "state": {
+        "key": "c8f5",
+        "pgn": "Bf5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "f5": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 628874895,
+      "childIds": [
+        1504552129
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... d5",
-      "count": 3232
+    "186475149": {
+      "id": 186475149,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 628874895,
+      "childIds": [
+        1504611771
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Bronstein Variation",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qd6 4. d4 4... Nf6 5. Nf3 5... a6",
-      "count": 3193
+    "243546473": {
+      "id": 243546473,
+      "state": {
+        "key": "e4d5",
+        "pgn": "exd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1877640099,
+      "childIds": [
+        1126225648,
+        1126315084,
+        1126194866
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Portuguese Variation",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Bg4",
-      "count": 2996
+    "273225396": {
+      "id": 273225396,
+      "state": {
+        "key": "a7a6",
+        "pgn": "a6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d6": "bq1",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "a6": "bp1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "a7",
+            "a6"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Bronstein Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 631675249,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Classical Variation",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. d4 4... Nf6 5. Nf3 5... Bf5",
-      "count": 2413
+    "464771853": {
+      "id": 464771853,
+      "state": {
+        "key": "b2b4",
+        "pgn": "b4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1",
+          "b4": "wp2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "b2",
+            "b4"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Main Lines, Leonhardt Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 568579694,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Richter Variation",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Nxd5 4. Nf3 4... g6",
-      "count": 2376
+    "464831497": {
+      "id": 464831497,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 568579694,
+      "childIds": [
+        1543699887,
+        1543639312
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Modern Variation, Gipslis Variation",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Nxd5 4. Nf3 4... Bg4",
-      "count": 1827
+    "464834411": {
+      "id": 464834411,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d6": "bq1",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 568579788,
+      "childIds": [
+        1543790221,
+        1543670003
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Lasker Variation",
-      "color": "white",
-      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. d4 4... Nf6 5. Nf3 5... Bg4 6. h3",
-      "count": 1451
+    "540907855": {
+      "id": 540907855,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nxc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "d5",
+            "c6"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Blackburne Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 571035507,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Schiller-Pytel Variation",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qd6 4. d4 4... c6",
-      "count": 1189
+    "568579694": {
+      "id": 568579694,
+      "state": {
+        "key": "d5a5",
+        "pgn": "Qa5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 571926320,
+      "childIds": [
+        464831497,
+        464771853
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Icelandic-Palme Gambit",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. c4 3... e6",
-      "count": 1052
+    "568579788": {
+      "id": 568579788,
+      "state": {
+        "key": "d5d6",
+        "pgn": "Qd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d6": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 571926320,
+      "childIds": [
+        464834411
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Panov Transfer",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. c4 3... c6",
-      "count": 772
+    "571035507": {
+      "id": 571035507,
+      "state": {
+        "key": "d5c6",
+        "pgn": "dxc6",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c6": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "d5",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1126194866,
+      "childIds": [
+        540907855
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Portuguese Variation, Portuguese Gambit",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Bg4 4. f3 4... Bf5 5. Bb5+ 5... Nbd7",
-      "count": 576
+    "571926320": {
+      "id": 571926320,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d5": "bq1",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1126225648,
+      "childIds": [
+        568579694,
+        568579788
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Modern Variation",
-      "color": "white",
-      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4",
-      "count": 370
+    "574729589": {
+      "id": 574729589,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "wp5",
+          "f6": "bn2",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1126315084,
+      "childIds": [
+        655512871,
+        655453227
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Blackburne Gambit",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... c6 3. dxc6 3... Nxc6",
-      "count": 302
+    "574759411": {
+      "id": 574759411,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "wp5",
+          "f6": "bn2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1126315084,
+      "childIds": [
+        656466151,
+        656378792
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Anderssen Counterattack",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. d4 4... e5",
-      "count": 290
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877640099
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Main Lines, Leonhardt Gambit",
-      "color": "white",
-      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. b4",
-      "count": 247
+    "628874895": {
+      "id": 628874895,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1543699887,
+      "childIds": [
+        186475119,
+        186475149
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, Kiel Variation",
-      "color": "black",
-      "moves": "1. e4 1... d5 2. exd5 2... Nf6 3. d4 3... Nxd5 4. c4 4... Nb4",
-      "count": 221
+    "631675249": {
+      "id": 631675249,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d6": "bq1",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1543790221,
+      "childIds": [
+        273225396
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B01",
-      "name": "Scandinavian Defense, GrÃ¼nfeld Variation",
-      "color": "white",
-      "moves": "1. e4 1... d5 2. exd5 2... Qxd5 3. Nc3 3... Qa5 4. d4 4... Nf6 5. Nf3 5... Bf5 6. Ne5 6... c6 7. g4",
-      "count": 194
+    "655453227": {
+      "id": 655453227,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "wp5",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Panov Transfer"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 574729589,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "655512871": {
+      "id": 655512871,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "wp5",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Icelandic-Palme Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 574729589,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "656378792": {
+      "id": 656378792,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "wp5",
+          "f6": "bn2",
+          "d4": "wp4",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 574759411,
+      "childIds": [
+        1039179531
+      ],
+      "childIdx": 0
+    },
+    "656466151": {
+      "id": 656466151,
+      "state": {
+        "key": "f6d5",
+        "pgn": "Nxd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 574759411,
+      "childIds": [
+        1041916490,
+        1041798195
+      ],
+      "childIdx": 0
+    },
+    "673889182": {
+      "id": 673889182,
+      "state": {
+        "key": "f1b5",
+        "pgn": "Bb5+",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "wp5",
+          "f6": "bn2",
+          "d4": "wp4",
+          "f3": "wp6",
+          "f5": "bb1",
+          "b5": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "f2",
+            "f3"
+          ],
+          [
+            "g4",
+            "f5"
+          ],
+          [
+            "f1",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 21132273,
+      "childIds": [
+        1581888165
+      ],
+      "childIdx": 0
+    },
+    "1039179531": {
+      "id": 1039179531,
+      "state": {
+        "key": "f2f3",
+        "pgn": "f3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "wp5",
+          "f6": "bn2",
+          "d4": "wp4",
+          "g4": "bb1",
+          "f3": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "f2",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 656378792,
+      "childIds": [
+        21132273
+      ],
+      "childIdx": 0
+    },
+    "1041798195": {
+      "id": 1041798195,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bn2",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 656466151,
+      "childIds": [
+        102222320
+      ],
+      "childIdx": 0
+    },
+    "1041916490": {
+      "id": 1041916490,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bn2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 656466151,
+      "childIds": [
+        105980917,
+        105862712
+      ],
+      "childIdx": 0
+    },
+    "1126194866": {
+      "id": 1126194866,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d5": "wp5",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 243546473,
+      "childIds": [
+        571035507
+      ],
+      "childIdx": 0
+    },
+    "1126225648": {
+      "id": 1126225648,
+      "state": {
+        "key": "d8d5",
+        "pgn": "Qxd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 243546473,
+      "childIds": [
+        571926320
+      ],
+      "childIdx": 0
+    },
+    "1126315084": {
+      "id": 1126315084,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "wp5",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 243546473,
+      "childIds": [
+        574759411,
+        574729589
+      ],
+      "childIdx": 0
+    },
+    "1216780627": {
+      "id": 1216780627,
+      "state": {
+        "key": "g2g4",
+        "pgn": "g4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f5": "bb1",
+          "e5": "wn2",
+          "c6": "bp3",
+          "g4": "wp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g2",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, GrÃ¼nfeld Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1562664556,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1504552129": {
+      "id": 1504552129,
+      "state": {
+        "key": "f3e5",
+        "pgn": "Ne5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f5": "bb1",
+          "e5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 186475119,
+      "childIds": [
+        1562664556
+      ],
+      "childIdx": 0
+    },
+    "1504611771": {
+      "id": 1504611771,
+      "state": {
+        "key": "h2h3",
+        "pgn": "h3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g4": "bb1",
+          "h3": "wp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "h2",
+            "h3"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Lasker Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 186475149,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1543639312": {
+      "id": 1543639312,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1",
+          "d4": "wp4",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Anderssen Counterattack"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 464831497,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1543670003": {
+      "id": 1543670003,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d6": "bq1",
+          "d4": "wp4",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Schiller-Pytel Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 464834411,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1543699887": {
+      "id": 1543699887,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1",
+          "d4": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 464831497,
+      "childIds": [
+        628874895
+      ],
+      "childIdx": 0
+    },
+    "1543790221": {
+      "id": 1543790221,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d6": "bq1",
+          "d4": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 464834411,
+      "childIds": [
+        631675249
+      ],
+      "childIdx": 0
+    },
+    "1562664556": {
+      "id": 1562664556,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "a5": "bq1",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f5": "bb1",
+          "e5": "wn2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "a5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1504552129,
+      "childIds": [
+        1216780627
+      ],
+      "childIdx": 0
+    },
+    "1581888165": {
+      "id": 1581888165,
+      "state": {
+        "key": "b8d7",
+        "pgn": "bd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "wp5",
+          "f6": "bn2",
+          "d4": "wp4",
+          "f3": "wp6",
+          "f5": "bb1",
+          "b5": "wb2",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "f2",
+            "f3"
+          ],
+          [
+            "g4",
+            "f5"
+          ],
+          [
+            "f1",
+            "b5"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "comments": [
+          "Scandinavian Defense, Portuguese Variation, Portuguese Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 673889182,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1877640099": {
+      "id": 1877640099,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        243546473
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

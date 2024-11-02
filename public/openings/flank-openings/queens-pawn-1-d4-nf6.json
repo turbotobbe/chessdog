@@ -1,301 +1,6390 @@
 {
-  "slug": "queens-pawn-1-d4-nf6",
-  "name": "Queen's Pawn 1.d4 Nf6",
-  "range": "A45-A50",
-  "lines": [
-    {
-      "eco": "A45",
-      "name": "Indian Game, General",
-      "color": "black",
-      "moves": "1. d4 1... Nf6",
-      "count": 48148
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "14555723": {
+      "id": 14555723,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "b6": "bp2",
+          "g3": "wp7",
+          "b7": "bb1",
+          "g2": "wb2",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 554055476,
+      "childIds": [
+        469927750
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A45",
-      "name": "Trompowsky Attack, General",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Bg5",
-      "count": 28999
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Queen's Pawn 1.d4 Nf6"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614124188,
+        614212661
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A48",
-      "name": "Indian Game, London System",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. Bf4",
-      "count": 14779
+    "217426321": {
+      "id": 217426321,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c5": "bp3",
+          "g3": "wp7",
+          "d5": "bp4",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 699144320,
+      "childIds": [
+        316441324
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A49",
-      "name": "Indian Game, Pseudo-King's Indian Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... g6",
-      "count": 14179
+    "217597549": {
+      "id": 217597549,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [
+        321778221
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A46",
-      "name": "Indian Game, London System",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. Bf4",
-      "count": 13604
+    "217627466": {
+      "id": 217627466,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [
+        322765293,
+        322794121,
+        322705648
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A46",
-      "name": "Indian Game, Knights Variation, General",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Nf3",
-      "count": 12296
+    "217628302": {
+      "id": 217628302,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Normal Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [
+        322702735,
+        322701743,
+        322731565
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A49",
-      "name": "Indian Game, Przepiorka Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. g3",
-      "count": 12007
+    "217717767": {
+      "id": 217717767,
+      "state": {
+        "key": "f2f3",
+        "pgn": "f3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Paleface Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A46",
-      "name": "Indian Game, Yusupov-Rubinstein System",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. e3",
-      "count": 11117
+    "217717768": {
+      "id": 217717768,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "comments": [
+          "System, Canard Formation"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A48",
-      "name": "Torre Attack, Fianchetto Defense",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. Bg5",
-      "count": 11063
+    "217746597": {
+      "id": 217746597,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [
+        326517998,
+        326458354,
+        326398709,
+        326428532,
+        326368888,
+        326368887,
+        326398710,
+        326339066
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A46",
-      "name": "Indian Game, Spielmann-Indian",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... c5",
-      "count": 9747
+    "217747589": {
+      "id": 217747589,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Tartakower Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A46",
-      "name": "Indian Game, Wade-Tarkatower Defense",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... d6",
-      "count": 9692
+    "217747590": {
+      "id": 217747590,
+      "state": {
+        "key": "g2g4",
+        "pgn": "g4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "g4": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [
+        326518027
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A46",
-      "name": "Torre Attack, Classical Defense",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. Bg5",
-      "count": 9665
+    "299043353": {
+      "id": 299043353,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c5": "bp3",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1879428458,
+      "childIds": [
+        699144320
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A45",
-      "name": "Trompowsky Attack, Classical Defense, Big Center Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Bg5 2... e6 3. e4",
-      "count": 5875
+    "302621032": {
+      "id": 302621032,
+      "state": {
+        "key": "b2b3",
+        "pgn": "b3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "b3": "wp2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b2",
+            "b3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b3"
+          ]
+        }
+      },
+      "parentId": 1879548677,
+      "childIds": [
+        810141836
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A45",
-      "name": "Indian Game, Tartakower Attack",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. g3",
-      "count": 5263
+    "316441324": {
+      "id": 316441324,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c5": "bp3",
+          "g3": "wp7",
+          "d5": "bp4",
+          "g2": "wb2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 217426321,
+      "childIds": [
+        1238476615
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A47",
-      "name": "Indian Game, Pseudo-Queen's Indian",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... b6",
-      "count": 4630
+    "321778221": {
+      "id": 321778221,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Reversed Chigorin Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 217597549,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A45",
-      "name": "Trompowsky Attack, Classical Defense",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Bg5 2... e6",
-      "count": 3908
+    "322701743": {
+      "id": 322701743,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Saemisch-Indian"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 217628302,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A50",
-      "name": "Mexican Defense, General",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... Nc6",
-      "count": 3792
+    "322702735": {
+      "id": 322702735,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Mexican Defense, General"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 217628302,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A46",
-      "name": "Torre Attack, Classical Defense, Nimzowitsch Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. Bg5 3... h6",
-      "count": 3778
+    "322705648": {
+      "id": 322705648,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "g5": "wb1",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 217627466,
+      "childIds": [
+        1432672582
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A50",
-      "name": "Indian Game, Saemisch-Indian",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... b6",
-      "count": 3168
+    "322731565": {
+      "id": 322731565,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Slav Indian"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 217628302,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A46",
-      "name": "Indian Game, Pseudo-Benko",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... c5 3. d5 3... b5",
-      "count": 2675
+    "322765293": {
+      "id": 322765293,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Trompowsky Attack, Classical Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 217627466,
+      "childIds": [
+        1434549476
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A50",
-      "name": "Slav Indian",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c6",
-      "count": 2374
+    "322794121": {
+      "id": 322794121,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Ne4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "g5": "wb1",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 217627466,
+      "childIds": [
+        1435532610,
+        1435505702,
+        1435505640
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A45",
-      "name": "Trompowsky Attack, Raptor Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Bg5 2... Ne4 3. h4",
-      "count": 1722
+    "326339066": {
+      "id": 326339066,
+      "state": {
+        "key": "a7a6",
+        "pgn": "a6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "a6": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "a7",
+            "a6"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Knights Variation, Alburt-Miles Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 217746597,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A45",
-      "name": "Trompowsky Attack, Edge Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Bg5 2... Ne4 3. Bh4",
-      "count": 1558
+    "326368887": {
+      "id": 326368887,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Polish Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 217746597,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A49",
-      "name": "Zukertort Opening, GrÃ¼nfeld Reversed",
-      "color": "white",
-      "moves": "1. Nf3 1... c5 2. g3 2... d5 3. Bg2 3... Nc6 4. d4 4... e6 5. O-O",
-      "count": 1192
+    "326368888": {
+      "id": 326368888,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 217746597,
+      "childIds": [
+        1546320564
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A45",
-      "name": "Indian Game, Reversed Chigorin Defense",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nc3 2... c5",
-      "count": 1152
+    "326398709": {
+      "id": 326398709,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 217746597,
+      "childIds": [
+        1547157473
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A46",
-      "name": "Indian Game, Polish Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... b5",
-      "count": 977
+    "326398710": {
+      "id": 326398710,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Czech-Indian"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 217746597,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A48",
-      "name": "Torre Attack, Fianchetto Defense, Euwe Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. Bg5 3... Bg7 4. Nbd2 4... c5",
-      "count": 948
+    "326428532": {
+      "id": 326428532,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Wade-Tarkatower Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 217746597,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A48",
-      "name": "Queen Pawn Game, Colle System, Gruenfeld Formation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. e3 3... Bg7 4. Bd3 4... d5",
-      "count": 712
+    "326458354": {
+      "id": 326458354,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 217746597,
+      "childIds": [
+        1548973855,
+        1549034366,
+        1548973887
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A50",
-      "name": "Indian Game, Normal Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4",
-      "count": 697
+    "326517998": {
+      "id": 326517998,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 217746597,
+      "childIds": [
+        1550822819,
+        1550942974,
+        1550822851,
+        1550883330
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A45",
-      "name": "Trompowsky Attack, Poisoned Pawn Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Bg5 2... c5 3. d5 3... Qb6 4. Nc3",
-      "count": 679
+    "326518027": {
+      "id": 326518027,
+      "state": {
+        "key": "f6g4",
+        "pgn": "Nxg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "g4": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g4"
+          ],
+          [
+            "f6",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Gibbins-Wiedehagen Gambit, Accepted"
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 217747590,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A47",
-      "name": "Indian Game Defense, Pseudo-Queen's Indian, Marienbad System",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... b6 3. g3 3... Bb7 4. Bg2 4... c5",
-      "count": 635
+    "469927750": {
+      "id": 469927750,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "b6": "bp2",
+          "g3": "wp7",
+          "b7": "bb1",
+          "g2": "wb2",
+          "c5": "bp3",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 14555723,
+      "childIds": [
+        1701561619
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A45",
-      "name": "System, Canard Formation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. f4",
-      "count": 558
+    "534174637": {
+      "id": 534174637,
+      "state": {
+        "key": "d4d5",
+        "pgn": "d5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "f3": "wn2",
+          "e6": "bp5",
+          "g5": "wb1",
+          "c5": "bp3",
+          "e3": "wp5",
+          "b6": "bp2",
+          "d5": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "d4",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Torre Attack, Classical Defense, Petrosian Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1748468830,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A49",
-      "name": "Zukertort Opening, Double Fianchetto Attack",
-      "color": "white",
-      "moves": "1. Nf3 1... Nf6 2. b3 2... g6 3. Bb2 3... Bg7 4. g3 4... O-O 5. Bg2 5... d6 6. O-O",
-      "count": 515
+    "554055476": {
+      "id": 554055476,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "b6": "bp2",
+          "g3": "wp7",
+          "b7": "bb1",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 710003325,
+      "childIds": [
+        14555723
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A46",
-      "name": "Indian Game, Czech-Indian",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... c6",
-      "count": 471
+    "588442100": {
+      "id": 588442100,
+      "state": {
+        "key": "b1d2",
+        "pgn": "bd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g5": "wb1",
+          "g7": "bb2",
+          "d2": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "d2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 849663750,
+      "childIds": [
+        1080541067
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A48",
-      "name": "Indian Game, Colle System, King's Indian Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... g6 3. e3 3... Bg7 4. Bd3 4... d6",
-      "count": 454
+    "614124188": {
+      "id": 614124188,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876806014
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A45",
-      "name": "Indian Game, Paleface Attack",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. f3",
-      "count": 180
+    "614212661": {
+      "id": 614212661,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1879428458,
+        1879548677
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A46",
-      "name": "Torre Attack, Classical Defense, Petrosian Gambit",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. Bg5 3... c5 4. e3 4... b6 5. d5",
-      "count": 167
+    "646681584": {
+      "id": 646681584,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7",
+          "e3": "wp5",
+          "g7": "bb2",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 851538599,
+      "childIds": [
+        738511246,
+        738511247
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A45",
-      "name": "Trompowsky Attack, Borg Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Bg5 2... Ne4 3. Bf4 3... g5",
-      "count": 153
+    "699144320": {
+      "id": 699144320,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c5": "bp3",
+          "g3": "wp7",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 299043353,
+      "childIds": [
+        217426321
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A45",
-      "name": "Indian Game, Gibbins-Wiedehagen Gambit, Accepted",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. g4 2... Nxg4",
-      "count": 140
+    "710003325": {
+      "id": 710003325,
+      "state": {
+        "key": "c8b7",
+        "pgn": "Bb7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "b6": "bp2",
+          "g3": "wp7",
+          "b7": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c8",
+            "b7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "b7"
+          ]
+        }
+      },
+      "parentId": 1546320564,
+      "childIds": [
+        554055476
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A46",
-      "name": "Indian Game, Knights Variation, Alburt-Miles Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... a6",
-      "count": 117
+    "735916750": {
+      "id": 735916750,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Pseudo-Benko"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 1547157473,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A47",
-      "name": "Queen's Indian Defense, Marienbad System, Berg Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... b6 3. g3 3... Bb7 4. Bg2 4... c5 5. c4 5... cxd4 6. Qxd4",
-      "count": 106
+    "738511246": {
+      "id": 738511246,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7",
+          "e3": "wp5",
+          "g7": "bb2",
+          "d3": "wb2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Queen Pawn Game, Colle System, Gruenfeld Formation"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 646681584,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A46",
-      "name": "Torre Attack, Wagner Gambit",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. Nf3 2... e6 3. Bg5 3... c5 4. e4",
-      "count": 103
+    "738511247": {
+      "id": 738511247,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7",
+          "e3": "wp5",
+          "g7": "bb2",
+          "d3": "wb2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Colle System, King's Indian Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 646681584,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "758410407": {
+      "id": 758410407,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "b3": "wp2",
+          "g6": "bp7",
+          "b2": "wb1",
+          "g7": "bb2",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1755699418,
+      "childIds": [
+        2054651960
+      ],
+      "childIdx": 0
+    },
+    "792255406": {
+      "id": 792255406,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "e6": "bp5",
+          "g5": "wb1",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1548973887,
+      "childIds": [
+        956357449,
+        956357450
+      ],
+      "childIdx": 0
+    },
+    "792404517": {
+      "id": 792404517,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "e6": "bp5",
+          "g5": "wb1",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "comments": [
+          "Torre Attack, Classical Defense, Nimzowitsch Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 1548973887,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "810141836": {
+      "id": 810141836,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "b3": "wp2",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 302621032,
+      "childIds": [
+        1510776142
+      ],
+      "childIdx": 0
+    },
+    "849663750": {
+      "id": 849663750,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g5": "wb1",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 1550822851,
+      "childIds": [
+        588442100
+      ],
+      "childIdx": 0
+    },
+    "851538599": {
+      "id": 851538599,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7",
+          "e3": "wp5",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 1550883330,
+      "childIds": [
+        646681584
+      ],
+      "childIdx": 0
+    },
+    "860814974": {
+      "id": 860814974,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "g5": "wb1",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b6": "bq1",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "d8",
+            "b6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Trompowsky Attack, Poisoned Pawn Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1481912967,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "956357449": {
+      "id": 956357449,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "e6": "bp5",
+          "g5": "wb1",
+          "c5": "bp3",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 792255406,
+      "childIds": [
+        1748468830
+      ],
+      "childIdx": 0
+    },
+    "956357450": {
+      "id": 956357450,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "e6": "bp5",
+          "g5": "wb1",
+          "c5": "bp3",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Torre Attack, Wagner Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 792255406,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1070554084": {
+      "id": 1070554084,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c5": "bp3",
+          "g3": "wp7",
+          "d5": "bp4",
+          "g2": "wb2",
+          "c6": "bn1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, GrÃ¼nfeld Reversed"
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1904317854,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1080541067": {
+      "id": 1080541067,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g5": "wb1",
+          "g7": "bb2",
+          "d2": "wn1",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "d2"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Torre Attack, Fianchetto Defense, Euwe Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 588442100,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1227531859": {
+      "id": 1227531859,
+      "state": {
+        "key": "d1d4",
+        "pgn": "Qxd4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "f3": "wn2",
+          "b6": "bp2",
+          "g3": "wp7",
+          "b7": "bb1",
+          "g2": "wb2",
+          "c4": "wp3",
+          "d4": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "d1",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Queen's Indian Defense, Marienbad System, Berg Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1701561619,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1238476615": {
+      "id": 1238476615,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c5": "bp3",
+          "g3": "wp7",
+          "d5": "bp4",
+          "g2": "wb2",
+          "c6": "bn1",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 316441324,
+      "childIds": [
+        1904317854
+      ],
+      "childIdx": 0
+    },
+    "1432672582": {
+      "id": 1432672582,
+      "state": {
+        "key": "d4d5",
+        "pgn": "d5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "g5": "wb1",
+          "c5": "bp3",
+          "d5": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 322705648,
+      "childIds": [
+        1481912967
+      ],
+      "childIdx": 0
+    },
+    "1434549476": {
+      "id": 1434549476,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e6": "bp5",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Trompowsky Attack, Classical Defense, Big Center Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 322765293,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1435505640": {
+      "id": 1435505640,
+      "state": {
+        "key": "g5f4",
+        "pgn": "Bf4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bn2",
+          "f4": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "g5",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 322794121,
+      "childIds": [
+        1569826331
+      ],
+      "childIdx": 0
+    },
+    "1435505702": {
+      "id": 1435505702,
+      "state": {
+        "key": "g5h4",
+        "pgn": "Bh4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bn2",
+          "h4": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "g5",
+            "h4"
+          ]
+        ],
+        "comments": [
+          "Trompowsky Attack, Edge Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 322794121,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1435532610": {
+      "id": 1435532610,
+      "state": {
+        "key": "h2h4",
+        "pgn": "h4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "g5": "wb1",
+          "e4": "bn2",
+          "h4": "wp8"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "h2",
+            "h4"
+          ]
+        ],
+        "comments": [
+          "Trompowsky Attack, Raptor Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 322794121,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1435973868": {
+      "id": 1435973868,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "f6": "bn2",
+          "b3": "wp2",
+          "g6": "bp7",
+          "b2": "wb1",
+          "g7": "bb2",
+          "g3": "wp7",
+          "f8": "br2",
+          "g8": "bk1",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 2054651960,
+      "childIds": [
+        1584251934
+      ],
+      "childIdx": 0
+    },
+    "1481912967": {
+      "id": 1481912967,
+      "state": {
+        "key": "d8b6",
+        "pgn": "Qb6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "g5": "wb1",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b6": "bq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "d8",
+            "b6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 1432672582,
+      "childIds": [
+        860814974
+      ],
+      "childIdx": 0
+    },
+    "1510776142": {
+      "id": 1510776142,
+      "state": {
+        "key": "c1b2",
+        "pgn": "Bb2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "b3": "wp2",
+          "g6": "bp7",
+          "b2": "wb1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "b2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "b2"
+          ]
+        }
+      },
+      "parentId": 810141836,
+      "childIds": [
+        1755699418
+      ],
+      "childIdx": 0
+    },
+    "1546320564": {
+      "id": 1546320564,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "b6": "bp2",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 326368888,
+      "childIds": [
+        710003325
+      ],
+      "childIdx": 0
+    },
+    "1547157473": {
+      "id": 1547157473,
+      "state": {
+        "key": "d4d5",
+        "pgn": "d5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c5": "bp3",
+          "d5": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 326398709,
+      "childIds": [
+        735916750
+      ],
+      "childIdx": 0
+    },
+    "1548973855": {
+      "id": 1548973855,
+      "state": {
+        "key": "c1f4",
+        "pgn": "Bf4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "e6": "bp5",
+          "f4": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "c1",
+            "f4"
+          ]
+        ],
+        "comments": [
+          "Indian Game, London System"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 326458354,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1548973887": {
+      "id": 1548973887,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "e6": "bp5",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 326458354,
+      "childIds": [
+        792404517,
+        792255406
+      ],
+      "childIdx": 0
+    },
+    "1549034366": {
+      "id": 1549034366,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "e6": "bp5",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Yusupov-Rubinstein System"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 326458354,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1550822819": {
+      "id": 1550822819,
+      "state": {
+        "key": "c1f4",
+        "pgn": "Bf4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7",
+          "f4": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "f4"
+          ]
+        ],
+        "comments": [
+          "Indian Game, London System"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 326517998,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1550822851": {
+      "id": 1550822851,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 326517998,
+      "childIds": [
+        849663750
+      ],
+      "childIdx": 0
+    },
+    "1550883330": {
+      "id": 1550883330,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 326517998,
+      "childIds": [
+        851538599
+      ],
+      "childIdx": 0
+    },
+    "1550942974": {
+      "id": 1550942974,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "g6": "bp7",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "comments": [
+          "Indian Game, Przepiorka Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 326517998,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1569826331": {
+      "id": 1569826331,
+      "state": {
+        "key": "g7g5",
+        "pgn": "g5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bn2",
+          "f4": "wb1",
+          "g5": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "g5",
+            "f4"
+          ],
+          [
+            "g7",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Trompowsky Attack, Borg Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1435505640,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1584251934": {
+      "id": 1584251934,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "f6": "bn2",
+          "b3": "wp2",
+          "g6": "bp7",
+          "b2": "wb1",
+          "g7": "bb2",
+          "g3": "wp7",
+          "f8": "br2",
+          "g8": "bk1",
+          "g2": "wb2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1435973868,
+      "childIds": [
+        1885928799
+      ],
+      "childIdx": 0
+    },
+    "1701561619": {
+      "id": 1701561619,
+      "state": {
+        "key": "c5d4",
+        "pgn": "cxd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "f3": "wn2",
+          "b6": "bp2",
+          "g3": "wp7",
+          "b7": "bb1",
+          "g2": "wb2",
+          "c4": "wp3",
+          "d4": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c8",
+            "b7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 469927750,
+      "childIds": [
+        1227531859
+      ],
+      "childIdx": 0
+    },
+    "1748468830": {
+      "id": 1748468830,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wn2",
+          "e6": "bp5",
+          "g5": "wb1",
+          "c5": "bp3",
+          "e3": "wp5",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 956357449,
+      "childIds": [
+        534174637
+      ],
+      "childIdx": 0
+    },
+    "1755699418": {
+      "id": 1755699418,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "b3": "wp2",
+          "g6": "bp7",
+          "b2": "wb1",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 1510776142,
+      "childIds": [
+        758410407
+      ],
+      "childIdx": 0
+    },
+    "1876806014": {
+      "id": 1876806014,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        217627466,
+        217746597,
+        217747589,
+        217628302,
+        217597549,
+        217717768,
+        217717767,
+        217747590
+      ],
+      "childIdx": 0
+    },
+    "1879428458": {
+      "id": 1879428458,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [
+        299043353
+      ],
+      "childIdx": 0
+    },
+    "1879548677": {
+      "id": 1879548677,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [
+        302621032
+      ],
+      "childIdx": 0
+    },
+    "1885928799": {
+      "id": 1885928799,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "f6": "bn2",
+          "b3": "wp2",
+          "g6": "bp7",
+          "b2": "wb1",
+          "g7": "bb2",
+          "g3": "wp7",
+          "f8": "br2",
+          "g8": "bk1",
+          "g2": "wb2",
+          "d6": "bp4",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Double Fianchetto Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1584251934,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1904317854": {
+      "id": 1904317854,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c5": "bp3",
+          "g3": "wp7",
+          "d5": "bp4",
+          "g2": "wb2",
+          "c6": "bn1",
+          "d4": "wp4",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 1238476615,
+      "childIds": [
+        1070554084
+      ],
+      "childIdx": 0
+    },
+    "2054651960": {
+      "id": 2054651960,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "f6": "bn2",
+          "b3": "wp2",
+          "g6": "bp7",
+          "b2": "wb1",
+          "g7": "bb2",
+          "g3": "wp7",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b2",
+            "b3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "b2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 758410407,
+      "childIds": [
+        1435973868
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

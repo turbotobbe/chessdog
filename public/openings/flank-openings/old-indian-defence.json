@@ -1,91 +1,1480 @@
 {
-  "slug": "old-indian-defence",
-  "name": "Old Indian Defence",
-  "range": "A53-A55",
-  "lines": [
-    {
-      "eco": "A53",
-      "name": "Old Indian Defense, General",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6",
-      "count": 6123
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Old Indian Defence"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614124188
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A55",
-      "name": "Old Indian Defense, Normal Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... e5 4. Nf3 4... Nbd7 5. e4",
-      "count": 4519
+    "217628302": {
+      "id": 217628302,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [
+        322761387
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A54",
-      "name": "Old Indian Defense, Two Knights Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... e5 4. Nf3",
-      "count": 1759
+    "312987995": {
+      "id": 312987995,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "c3": "wn1",
+          "c6": "bp3",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Old Indian, Czech Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1533509987,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A54",
-      "name": "Old Indian Defense, Ukrainian Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... e5",
-      "count": 1567
+    "312991808": {
+      "id": 312991808,
+      "state": {
+        "key": "f2f3",
+        "pgn": "f3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "c3": "wn1",
+          "f5": "bb1",
+          "f3": "wp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f2",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Old Indian Defense, Janowski Variation, Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1533511040,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A53",
-      "name": "Old Indian, Czech Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... c6 4. Nf3",
-      "count": 1227
+    "313020638": {
+      "id": 313020638,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "c3": "wn1",
+          "f5": "bb1",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Old Indian Defense, Janowski Variation, Fianchetto Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1533511040,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A54",
-      "name": "Old Indian Defense, Tartakower-Indian",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nf3 3... Bg4",
-      "count": 1178
+    "313021630": {
+      "id": 313021630,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "c3": "wn1",
+          "f5": "bb1",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "comments": [
+          "Old Indian Defense, Janowski Variation, Fianchetto Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1533511040,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A53",
-      "name": "Old Indian, Czech Variation w/Nc3",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... c6",
-      "count": 704
+    "314836928": {
+      "id": 314836928,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "c3": "wn1",
+          "e5": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Old Indian Defense, Two Knights Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1533569630,
+      "childIds": [
+        1188686526
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A53",
-      "name": "Old Indian Defense, Janowski Variation, Fianchetto Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... Bf5 4. Nf3",
-      "count": 617
+    "322761387": {
+      "id": 322761387,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 217628302,
+      "childIds": [
+        1434337993,
+        1434487041
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A53",
-      "name": "Old Indian Defense, Janowski Variation, Main Line",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... Bf5 4. f3",
-      "count": 382
+    "360820288": {
+      "id": 360820288,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "c3": "wn1",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d7": "bn1",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Old Indian Defense, Normal Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1188686526,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A53",
-      "name": "Old Indian Defense, Janowski Variation, Fianchetto Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... Bf5 4. g3",
-      "count": 270
+    "614124188": {
+      "id": 614124188,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876806014
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A53",
-      "name": "Old Indian, Czech Variation w/Nf3",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nf3 3... c6",
-      "count": 145
+    "1188686526": {
+      "id": 1188686526,
+      "state": {
+        "key": "b8d7",
+        "pgn": "bd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "c3": "wn1",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 314836928,
+      "childIds": [
+        360820288
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A53",
-      "name": "Old Indian Defense, Janowski Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... d6 3. Nc3 3... Bf5",
-      "count": 100
+    "1434337993": {
+      "id": 1434337993,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 322761387,
+      "childIds": [
+        1533569630,
+        1533509987,
+        1533511040
+      ],
+      "childIdx": 0
+    },
+    "1434487041": {
+      "id": 1434487041,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 322761387,
+      "childIds": [
+        1538131558,
+        1538130475
+      ],
+      "childIdx": 0
+    },
+    "1533509987": {
+      "id": 1533509987,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "c3": "wn1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Old Indian, Czech Variation w/Nc3"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1434337993,
+      "childIds": [
+        312987995
+      ],
+      "childIdx": 0
+    },
+    "1533511040": {
+      "id": 1533511040,
+      "state": {
+        "key": "c8f5",
+        "pgn": "Bf5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "c3": "wn1",
+          "f5": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c8",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Old Indian Defense, Janowski Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 1434337993,
+      "childIds": [
+        313020638,
+        312991808,
+        313021630
+      ],
+      "childIdx": 0
+    },
+    "1533569630": {
+      "id": 1533569630,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "c3": "wn1",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Old Indian Defense, Ukrainian Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1434337993,
+      "childIds": [
+        314836928
+      ],
+      "childIdx": 0
+    },
+    "1538130475": {
+      "id": 1538130475,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "f3": "wn2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Old Indian, Czech Variation w/Nf3"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1434487041,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1538131558": {
+      "id": 1538131558,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Old Indian Defense, Tartakower-Indian"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1434487041,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1876806014": {
+      "id": 1876806014,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        217628302
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

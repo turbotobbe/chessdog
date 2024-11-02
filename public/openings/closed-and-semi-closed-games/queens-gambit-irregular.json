@@ -1,133 +1,3284 @@
 {
-  "slug": "queens-gambit-irregular",
-  "name": "Queen's Gambit, Irregular",
-  "range": "D06-D09",
-  "lines": [
-    {
-      "eco": "D07",
-      "name": "Queen's Gambit Refused, Chigorin Defense, Main Line",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nf3 3... Bg4",
-      "count": 3386
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Queen's Gambit, Irregular"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614124188
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D06",
-      "name": "Queen's Gambit Refused, Marshall Defense",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... Nf6",
-      "count": 3237
+    "214825995": {
+      "id": 214825995,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1876715617,
+      "childIds": [
+        235831218,
+        235980266,
+        235919691,
+        235860047
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D07",
-      "name": "Queen's Gambit Refused, Chigorin Defense",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... Nc6",
-      "count": 2005
+    "235831218": {
+      "id": 235831218,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 214825995,
+      "childIds": [
+        887135449,
+        887019108,
+        886986401
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D08",
-      "name": "Queen's Gambit Refused, Albin Countergambit, Normal Line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e5 3. dxe5 3... d4 4. Nf3",
-      "count": 1655
+    "235860047": {
+      "id": 235860047,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 214825995,
+      "childIds": [
+        887912807
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D08",
-      "name": "Queen's Gambit Refused, Albin Countergambit",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e5",
-      "count": 1193
+    "235919691": {
+      "id": 235919691,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 214825995,
+      "childIds": [
+        889791593
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D07",
-      "name": "Queen's Gambit Refused, Chigorin Defense, Exchange Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. cxd5 3... Qxd5",
-      "count": 1190
+    "235980266": {
+      "id": 235980266,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Refused, Marshall Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 214825995,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D06",
-      "name": "Queen's Gambit Refused, Chigorin Defense, Modern Gambit",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nc3 3... Nf6 4. Nf3 4... dxc4",
-      "count": 897
+    "305074165": {
+      "id": 305074165,
+      "state": {
+        "key": "c8e6",
+        "pgn": "Be6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c4": "wp3",
+          "e5": "wp4",
+          "d4": "bp4",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "e6": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d5",
+            "d4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c8",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Refused, Albin Countergambit, Fianchetto Variation, Be6 Line"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 1394710998,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D09",
-      "name": "Queen's Gambit Refused, Albin Countergambit, Fianchetto Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e5 3. dxe5 3... d4 4. Nf3 4... Nc6 5. g3",
-      "count": 865
+    "305074225": {
+      "id": 305074225,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c4": "wp3",
+          "e5": "wp4",
+          "d4": "bp4",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d5",
+            "d4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Refused, Albin Countergambit, Fianchetto Variation, Bg4 Line"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1394710998,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D06",
-      "name": "Queen's Gambit Refused, Austrian Defense",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c5",
-      "count": 575
+    "442465475": {
+      "id": 442465475,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "c3": "wn1",
+          "c4": "bp4",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Refused, Chigorin Defense, Janowski Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1745507678,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D08",
-      "name": "Queen's Gambit Refused, Albin Countergambit, Modern Line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e5 3. dxe5 3... d4 4. Nf3 4... Nc6 5. Nbd2",
-      "count": 522
+    "445328356": {
+      "id": 445328356,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1745600029,
+      "childIds": [
+        939010165
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D09",
-      "name": "Queen's Gambit Refused, Albin Countergambit, Fianchetto Variation, Be6 Line",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e5 3. dxe5 3... d4 4. Nf3 4... Nc6 5. g3 5... Be6",
-      "count": 403
+    "473928615": {
+      "id": 473928615,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "d5": "bq1",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1746524510,
+      "childIds": [
+        1825649970
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D06",
-      "name": "Queen's Gambit Refused, Chigorin Defense, Lazard Gambit",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nf3 3... e5",
-      "count": 393
+    "532281379": {
+      "id": 532281379,
+      "state": {
+        "key": "e5d4",
+        "pgn": "exd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "c6": "bn1",
+          "d5": "bq1",
+          "e3": "wp5",
+          "c3": "wb1",
+          "d4": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "b4",
+            "c3"
+          ],
+          [
+            "d2",
+            "c3"
+          ],
+          [
+            "e5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1332764769,
+      "childIds": [
+        1487155820
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D09",
-      "name": "Queen's Gambit Refused, Albin Countergambit, Fianchetto Variation, Bg4 Line",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e5 3. dxe5 3... d4 4. Nf3 4... Nc6 5. g3 5... Bg4",
-      "count": 379
+    "553034120": {
+      "id": 553034120,
+      "state": {
+        "key": "f8b4",
+        "pgn": "Bb4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "d5": "bq1",
+          "e3": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "b4": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "f8",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 779243832,
+      "childIds": [
+        2130371596
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D07",
-      "name": "Queen's Gambit Refused, Chigorin Defense, Exchange Variation, Costa's Line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. cxd5 3... Qxd5 4. e3 4... e5 5. Nc3 5... Bb4 6. Bd2 6... Bxc3 7. Bxc3 7... exd4 8. Ne2",
-      "count": 366
+    "584780772": {
+      "id": 584780772,
+      "state": {
+        "key": "d1a4",
+        "pgn": "Qa4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bn1",
+          "f3": "wn2",
+          "g4": "bb1",
+          "a4": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "d1",
+            "a4"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Refused, Chigorin Defense, Main Line, Alekhine Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "a4"
+          ]
+        }
+      },
+      "parentId": 1750101382,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D07",
-      "name": "Queen's Gambit Refused, Chigorin Defense, Janowski Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nc3 3... dxc4 4. Nf3",
-      "count": 258
+    "614124188": {
+      "id": 614124188,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876715617
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D06",
-      "name": "Queen's Gambit Refused, Chigorin Defense, Tartakower Gambit",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nc3 3... e5",
-      "count": 217
+    "667846587": {
+      "id": 667846587,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c4": "wp3",
+          "e5": "wp4",
+          "d4": "bp4",
+          "f3": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d5",
+            "d4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 990772301,
+      "childIds": [
+        1394710998,
+        1394560988
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D06",
-      "name": "Queen's Gambit Refused, Austrian Defense, Gusev Countergambit",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c5 3. cxd5 3... Nf6",
-      "count": 163
+    "779243832": {
+      "id": 779243832,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "d5": "bq1",
+          "e3": "wp5",
+          "e5": "bp5",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1825649970,
+      "childIds": [
+        553034120
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D07",
-      "name": "Queen's Gambit Refused, Chigorin Defense, Main Line, Alekhine Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... Nc6 3. Nf3 3... Bg4 4. Qa4",
-      "count": 108
+    "886986401": {
+      "id": 886986401,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bn1",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 235831218,
+      "childIds": [
+        1745600029,
+        1745507678,
+        1745539454
+      ],
+      "childIdx": 0
+    },
+    "887019108": {
+      "id": 887019108,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 235831218,
+      "childIds": [
+        1746524510
+      ],
+      "childIdx": 0
+    },
+    "887135449": {
+      "id": 887135449,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bn1",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 235831218,
+      "childIds": [
+        1750101382,
+        1750159942
+      ],
+      "childIdx": 0
+    },
+    "887912807": {
+      "id": 887912807,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c5": "bp3",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 235860047,
+      "childIds": [
+        1774318615
+      ],
+      "childIdx": 0
+    },
+    "889791593": {
+      "id": 889791593,
+      "state": {
+        "key": "d4e5",
+        "pgn": "dxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e5": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 235919691,
+      "childIds": [
+        1832468661
+      ],
+      "childIdx": 0
+    },
+    "939010165": {
+      "id": 939010165,
+      "state": {
+        "key": "d5c4",
+        "pgn": "dxc4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "c3": "wn1",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c4": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d5",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Refused, Chigorin Defense, Modern Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 445328356,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "990772301": {
+      "id": 990772301,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c4": "wp3",
+          "e5": "wp4",
+          "d4": "bp4",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d5",
+            "d4"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1832468661,
+      "childIds": [
+        667846587
+      ],
+      "childIdx": 0
+    },
+    "1332764769": {
+      "id": 1332764769,
+      "state": {
+        "key": "d2c3",
+        "pgn": "Bxc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "d5": "bq1",
+          "e3": "wp5",
+          "e5": "bp5",
+          "c3": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "b4",
+            "c3"
+          ],
+          [
+            "d2",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1635682533,
+      "childIds": [
+        532281379
+      ],
+      "childIdx": 0
+    },
+    "1394560988": {
+      "id": 1394560988,
+      "state": {
+        "key": "b1d2",
+        "pgn": "bd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c4": "wp3",
+          "e5": "wp4",
+          "d4": "bp4",
+          "f3": "wn2",
+          "c6": "bn1",
+          "d2": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d5",
+            "d4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "d2"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Refused, Albin Countergambit, Modern Line"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 667846587,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1394710998": {
+      "id": 1394710998,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c4": "wp3",
+          "e5": "wp4",
+          "d4": "bp4",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d5",
+            "d4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 667846587,
+      "childIds": [
+        305074165,
+        305074225
+      ],
+      "childIdx": 0
+    },
+    "1487155820": {
+      "id": 1487155820,
+      "state": {
+        "key": "g1e2",
+        "pgn": "Ne2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "c6": "bn1",
+          "d5": "bq1",
+          "e3": "wp5",
+          "c3": "wb1",
+          "d4": "bp5",
+          "e2": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "b4",
+            "c3"
+          ],
+          [
+            "d2",
+            "c3"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "g1",
+            "e2"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Refused, Chigorin Defense, Exchange Variation, Costa's Line"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 532281379,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1635682533": {
+      "id": 1635682533,
+      "state": {
+        "key": "b4c3",
+        "pgn": "Bxc3",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "d5": "bq1",
+          "e3": "wp5",
+          "e5": "bp5",
+          "d2": "wb1",
+          "c3": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "b4",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b4",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 2130371596,
+      "childIds": [
+        1332764769
+      ],
+      "childIdx": 0
+    },
+    "1745507678": {
+      "id": 1745507678,
+      "state": {
+        "key": "d5c4",
+        "pgn": "dxc4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "c3": "wn1",
+          "c4": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 886986401,
+      "childIds": [
+        442465475
+      ],
+      "childIdx": 0
+    },
+    "1745539454": {
+      "id": 1745539454,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bn1",
+          "c3": "wn1",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Refused, Chigorin Defense, Tartakower Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 886986401,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1745600029": {
+      "id": 1745600029,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bn1",
+          "c3": "wn1",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 886986401,
+      "childIds": [
+        445328356
+      ],
+      "childIdx": 0
+    },
+    "1746524510": {
+      "id": 1746524510,
+      "state": {
+        "key": "d8d5",
+        "pgn": "Qxd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "d5": "bq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 887019108,
+      "childIds": [
+        473928615
+      ],
+      "childIdx": 0
+    },
+    "1750101382": {
+      "id": 1750101382,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bn1",
+          "f3": "wn2",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 887135449,
+      "childIds": [
+        584780772
+      ],
+      "childIdx": 0
+    },
+    "1750159942": {
+      "id": 1750159942,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bn1",
+          "f3": "wn2",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Refused, Chigorin Defense, Lazard Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 887135449,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1774318615": {
+      "id": 1774318615,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c5": "bp3",
+          "d5": "wp3",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Refused, Austrian Defense, Gusev Countergambit"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 887912807,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1825649970": {
+      "id": 1825649970,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "d5": "bq1",
+          "e3": "wp5",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 473928615,
+      "childIds": [
+        779243832
+      ],
+      "childIdx": 0
+    },
+    "1832468661": {
+      "id": 1832468661,
+      "state": {
+        "key": "d5d4",
+        "pgn": "d4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "c4": "wp3",
+          "e5": "wp4",
+          "d4": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 889791593,
+      "childIds": [
+        990772301
+      ],
+      "childIdx": 0
+    },
+    "1876715617": {
+      "id": 1876715617,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        214825995
+      ],
+      "childIdx": 0
+    },
+    "2130371596": {
+      "id": 2130371596,
+      "state": {
+        "key": "c1d2",
+        "pgn": "Bd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bn1",
+          "d5": "bq1",
+          "e3": "wp5",
+          "e5": "bp5",
+          "c3": "wn1",
+          "b4": "bb2",
+          "d2": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "d8",
+            "d5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 553034120,
+      "childIds": [
+        1635682533
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

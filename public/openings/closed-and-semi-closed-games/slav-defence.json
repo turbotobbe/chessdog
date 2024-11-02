@@ -1,266 +1,6772 @@
 {
-  "slug": "slav-defence",
-  "name": "Slav Defence",
-  "range": "D10-D19",
-  "lines": [
-    {
-      "eco": "D10",
-      "name": "Slav Defense, General",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6",
-      "count": 17509
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Slav Defence"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614124188
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D11",
-      "name": "Slav Defense, Modern Line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3",
-      "count": 17183
+    "80754442": {
+      "id": 80754442,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "d7": "bn1",
+          "c4": "wn2",
+          "c7": "bq1",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e5",
+            "c4"
+          ],
+          [
+            "d8",
+            "c7"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1387471218,
+      "childIds": [
+        374668842
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D10",
-      "name": "Slav Defense, Exchange Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. cxd5",
-      "count": 13363
+    "110089504": {
+      "id": 110089504,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e3": "wp5",
+          "e6": "bp5",
+          "c4": "wb2",
+          "b4": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 557135471,
+      "childIds": [
+        1284056790
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D12",
-      "name": "Slav Defense, Quiet Variation, Schallopp Defense",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. e3 4... Bf5",
-      "count": 12058
+    "214825995": {
+      "id": 214825995,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1876715617,
+      "childIds": [
+        235860048
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D11",
-      "name": "Slav Defense, Quiet Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. e3",
-      "count": 11438
+    "219095430": {
+      "id": 219095430,
+      "state": {
+        "key": "f6d7",
+        "pgn": "fd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c6": "bp3",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "c4": "wn2",
+          "c7": "bq1",
+          "g3": "wp7",
+          "e5": "bn1",
+          "f4": "wb1",
+          "d7": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e5",
+            "c4"
+          ],
+          [
+            "d8",
+            "c7"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d7",
+            "e5"
+          ],
+          [
+            "c1",
+            "f4"
+          ],
+          [
+            "f6",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 560650678,
+      "childIds": [
+        368296260
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D15",
-      "name": "Slav Defense, Chameleon Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... a6",
-      "count": 9011
+    "235860048": {
+      "id": 235860048,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 214825995,
+      "childIds": [
+        888029179,
+        887912838,
+        887880131
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D18",
-      "name": "Slav Defense, Czech Variation, Classical System",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. e3",
-      "count": 6775
+    "368296260": {
+      "id": 368296260,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c6": "bp3",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "c4": "wn2",
+          "c7": "bq1",
+          "g3": "wp7",
+          "e5": "bn1",
+          "f4": "wb1",
+          "d7": "bn2",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e5",
+            "c4"
+          ],
+          [
+            "d8",
+            "c7"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d7",
+            "e5"
+          ],
+          [
+            "c1",
+            "f4"
+          ],
+          [
+            "f6",
+            "d7"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 219095430,
+      "childIds": [
+        698590256
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D13",
-      "name": "Slav Defense, Exchange Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. cxd5 4... cxd5",
-      "count": 5860
+    "374668842": {
+      "id": 374668842,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "d7": "bn1",
+          "c4": "wn2",
+          "c7": "bq1",
+          "g3": "wp7",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e5",
+            "c4"
+          ],
+          [
+            "d8",
+            "c7"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 80754442,
+      "childIds": [
+        896047980
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D12",
-      "name": "Slav Defense, Quiet Variation, Pin Defense",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. e3 4... Bg4",
-      "count": 5664
+    "403213263": {
+      "id": 403213263,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 428043715,
+      "childIds": [
+        1780957706,
+        1780869170
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D14",
-      "name": "Slav Defense, Exchange Variation, Symmetrical Line",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. cxd5 4... cxd5 5. Nc3 5... Nc6 6. Bf4 6... Bf5",
-      "count": 4089
+    "403244017": {
+      "id": 403244017,
+      "state": {
+        "key": "f3e5",
+        "pgn": "Ne5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e5": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 428043715,
+      "childIds": [
+        1781911080,
+        1781822638
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D15",
-      "name": "Slav Defense, Chameleon Variation, Advance System",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... a6 5. c5",
-      "count": 3388
+    "403244109": {
+      "id": 403244109,
+      "state": {
+        "key": "f3h4",
+        "pgn": "Nh4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "f5": "bb1",
+          "h4": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "h4"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Czech Variation, Bled Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 428043715,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D17",
-      "name": "Slav Defense, Czech Variation, Krause Attack",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Ne5",
-      "count": 3364
+    "428013770": {
+      "id": 428013770,
+      "state": {
+        "key": "b8a6",
+        "pgn": "Na6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "a6": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "b8",
+            "a6"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Smyslov Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 2022140751,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D15",
-      "name": "Slav Defense, Three Knights Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3",
-      "count": 3107
+    "428043715": {
+      "id": 428043715,
+      "state": {
+        "key": "c8f5",
+        "pgn": "Bf5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "f5": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 2022140751,
+      "childIds": [
+        403213263,
+        403244017,
+        403244109
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D15",
-      "name": "Slav Defense, Schlechter Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... g6",
-      "count": 2954
+    "428043745": {
+      "id": 428043745,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Steiner Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 2022140751,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D19",
-      "name": "Slav Defense, Czech Variation, Classical System, Main Line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. e3 6... e6 7. Bxc4 7... Bb4 8. O-O 8... O-O 9. Qe2",
-      "count": 2493
+    "428102306": {
+      "id": 428102306,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Soultanbeieff Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 2022140751,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D11",
-      "name": "Slav Defense, Breyer Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nbd2",
-      "count": 2054
+    "431710767": {
+      "id": 431710767,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "e4": "wp5",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 2022260039,
+      "childIds": [
+        516893799
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D17",
-      "name": "Slav Defense, Czech Variation, Bled Attack",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Nh4",
-      "count": 1611
+    "516893799": {
+      "id": 516893799,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "b5": "bp2",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Geller Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 431710767,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D16",
-      "name": "Slav Defense, Soultanbeieff Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... e6",
-      "count": 1587
+    "557135471": {
+      "id": 557135471,
+      "state": {
+        "key": "f8b4",
+        "pgn": "Bb4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e3": "wp5",
+          "e6": "bp5",
+          "c4": "wb2",
+          "b4": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 1541386460,
+      "childIds": [
+        110089504
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D17",
-      "name": "Slav Defense, Czech Variation, Wiesbaden Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Ne5 6... e6",
-      "count": 1422
+    "560650678": {
+      "id": 560650678,
+      "state": {
+        "key": "c1f4",
+        "pgn": "Bf4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "c4": "wn2",
+          "c7": "bq1",
+          "g3": "wp7",
+          "e5": "bn1",
+          "f4": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e5",
+            "c4"
+          ],
+          [
+            "d8",
+            "c7"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d7",
+            "e5"
+          ],
+          [
+            "c1",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 2026418612,
+      "childIds": [
+        219095430
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D15",
-      "name": "Slav Defense, Alekhine Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. e3",
-      "count": 1286
+    "587687144": {
+      "id": 587687144,
+      "state": {
+        "key": "d1b3",
+        "pgn": "Qb3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d5": "bp3",
+          "c3": "wn1",
+          "c6": "bn1",
+          "f4": "wb1",
+          "f5": "bb1",
+          "e3": "wp5",
+          "e6": "bp5",
+          "b3": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c1",
+            "f4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "d1",
+            "b3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "b3"
+          ]
+        }
+      },
+      "parentId": 1819468801,
+      "childIds": [
+        1057227733
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D16",
-      "name": "Slav Defense, Steiner Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bg4",
-      "count": 1240
+    "595779762": {
+      "id": 595779762,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e5": "wn2",
+          "e6": "bp5",
+          "f3": "wp6",
+          "b4": "bb2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f2",
+            "f3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Czech Variation, Wiesbaden Variation, Sharp line"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1473360528,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D15",
-      "name": "Slav Defense, Geller Gambit",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. e4 5... b5 6. e5",
-      "count": 1090
+    "614124188": {
+      "id": 614124188,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876715617
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D17",
-      "name": "Slav Defense, Czech Variation, Carlsbad Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Ne5 6... Nbd7 7. Nxc4 7... Qc7 8. g3 8... e5",
-      "count": 1053
+    "698590256": {
+      "id": 698590256,
+      "state": {
+        "key": "g7g5",
+        "pgn": "g5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c6": "bp3",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "c4": "wn2",
+          "c7": "bq1",
+          "g3": "wp7",
+          "e5": "bn1",
+          "f4": "wb1",
+          "d7": "bn2",
+          "g2": "wb2",
+          "g5": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e5",
+            "c4"
+          ],
+          [
+            "d8",
+            "c7"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d7",
+            "e5"
+          ],
+          [
+            "c1",
+            "f4"
+          ],
+          [
+            "f6",
+            "d7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "g7",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Czech Variation, Carlsbad Variation, Morozevich Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 368296260,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D15",
-      "name": "Slav Defense, Geller Gambit",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. e4",
-      "count": 874
+    "887880131": {
+      "id": 887880131,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 235860048,
+      "childIds": [
+        1773213308,
+        1773245084
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D17",
-      "name": "Slav Defense, Czech Variation, Carlsbad Variation, Morozevich Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Ne5 6... Nbd7 7. Nxc4 7... Qc7 8. g3 8... e5 9. dxe5 9... Nxe5 10. Bf4 10... Nfd7 11. Bg2 11... g5",
-      "count": 851
+    "887912838": {
+      "id": 887912838,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Exchange Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 235860048,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D10",
-      "name": "Slav Defense, Slav Gambit, Alekhine Attack",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nc3 3... dxc4 4. e4",
-      "count": 811
+    "888029179": {
+      "id": 888029179,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 235860048,
+      "childIds": [
+        1777926147
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D14",
-      "name": "Slav Defense, Exchange Variation, Trifunovic Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. cxd5 4... cxd5 5. Nc3 5... Nc6 6. Bf4 6... Bf5 7. e3 7... e6 8. Qb3 8... Bb4",
-      "count": 782
+    "896047980": {
+      "id": 896047980,
+      "state": {
+        "key": "d4e5",
+        "pgn": "dxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "d7": "bn1",
+          "c4": "wn2",
+          "c7": "bq1",
+          "g3": "wp7",
+          "e5": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e5",
+            "c4"
+          ],
+          [
+            "d8",
+            "c7"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 374668842,
+      "childIds": [
+        2026418612
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D17",
-      "name": "Slav Defense, Czech Variation, Wiesbaden Variation, Sharp line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. Ne5 6... e6 7. f3 7... Bb4 8. e4",
-      "count": 758
+    "949686604": {
+      "id": 949686604,
+      "state": {
+        "key": "c6d5",
+        "pgn": "cxd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "e3": "wp5",
+          "f5": "bb1",
+          "d5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 2108241671,
+      "childIds": [
+        1541666897
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D16",
-      "name": "Slav Defense, Smyslov Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Na6",
-      "count": 712
+    "1057227733": {
+      "id": 1057227733,
+      "state": {
+        "key": "f8b4",
+        "pgn": "Bb4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d5": "bp3",
+          "c3": "wn1",
+          "c6": "bn1",
+          "f4": "wb1",
+          "f5": "bb1",
+          "e3": "wp5",
+          "e6": "bp5",
+          "b3": "wq1",
+          "b4": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c1",
+            "f4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "d1",
+            "b3"
+          ],
+          [
+            "f8",
+            "b4"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Exchange Variation, Trifunovic Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 587687144,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D16",
-      "name": "Slav Defense, Alapin Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4",
-      "count": 682
+    "1169784071": {
+      "id": 1169784071,
+      "state": {
+        "key": "d1e2",
+        "pgn": "Qe2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e3": "wp5",
+          "e6": "bp5",
+          "c4": "wb2",
+          "b4": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "e2": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d1",
+            "e2"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Czech Variation, Classical System, Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 1284056790,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D10",
-      "name": "Slav Defense, Winawer Countergambit",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nc3 3... e5",
-      "count": 671
+    "1284056790": {
+      "id": 1284056790,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e3": "wp5",
+          "e6": "bp5",
+          "c4": "wb2",
+          "b4": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 110089504,
+      "childIds": [
+        1169784071
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D15",
-      "name": "Slav Defense, Two Knights Attack",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4",
-      "count": 547
+    "1301281354": {
+      "id": 1301281354,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "c3": "wn1",
+          "c4": "bp4",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Slav Gambit, Alekhine Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1773213308,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D12",
-      "name": "Slav Defense, Exchange Variation, Schallopp Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. e3 4... Bf5 5. cxd5 5... cxd5 6. Nc3",
-      "count": 430
+    "1375608812": {
+      "id": 1375608812,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d5": "bp3",
+          "c3": "wn1",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 2052708331,
+      "childIds": [
+        1860383348
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D15",
-      "name": "Slav Defense, Suchting Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... Qb6",
-      "count": 350
+    "1387471218": {
+      "id": 1387471218,
+      "state": {
+        "key": "d8c7",
+        "pgn": "Qc7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "d7": "bn1",
+          "c4": "wn2",
+          "c7": "bq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e5",
+            "c4"
+          ],
+          [
+            "d8",
+            "c7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "c7"
+          ]
+        }
+      },
+      "parentId": 1568173405,
+      "childIds": [
+        80754442
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D11",
-      "name": "Slav Defense, Bonet Gambit",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Bg5",
-      "count": 208
+    "1447288966": {
+      "id": 1447288966,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1777926147,
+      "childIds": [
+        1934930506,
+        1935018017,
+        1935109438,
+        1935020871
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D17",
-      "name": "Slav Defense, Czech Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5",
-      "count": 202
+    "1447288996": {
+      "id": 1447288996,
+      "state": {
+        "key": "b1d2",
+        "pgn": "bd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d2": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "d2"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Breyer Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 1777926147,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D18",
-      "name": "Slav Defense, Czech Variation, Lasker Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... c6 3. Nf3 3... Nf6 4. Nc3 4... dxc4 5. a4 5... Bf5 6. e3 6... Na6",
-      "count": 120
+    "1447318883": {
+      "id": 1447318883,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Bonet Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1777926147,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1447321673": {
+      "id": 1447321673,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1777926147,
+      "childIds": [
+        1936003136
+      ],
+      "childIdx": 0
+    },
+    "1447379362": {
+      "id": 1447379362,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1777926147,
+      "childIds": [
+        1937793479,
+        1937793509
+      ],
+      "childIdx": 0
+    },
+    "1473360528": {
+      "id": 1473360528,
+      "state": {
+        "key": "f8b4",
+        "pgn": "Bb4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e5": "wn2",
+          "e6": "bp5",
+          "f3": "wp6",
+          "b4": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f2",
+            "f3"
+          ],
+          [
+            "f8",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 1570942107,
+      "childIds": [
+        595779762
+      ],
+      "childIdx": 0
+    },
+    "1541386460": {
+      "id": 1541386460,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bxc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e3": "wp5",
+          "e6": "bp5",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1780957706,
+      "childIds": [
+        557135471
+      ],
+      "childIdx": 0
+    },
+    "1541666897": {
+      "id": 1541666897,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "e3": "wp5",
+          "f5": "bb1",
+          "d5": "bp3",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Exchange Variation, Schallopp Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 949686604,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1568173405": {
+      "id": 1568173405,
+      "state": {
+        "key": "e5c4",
+        "pgn": "Nxc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "d7": "bn1",
+          "c4": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e5",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1781822638,
+      "childIds": [
+        1387471218
+      ],
+      "childIdx": 0
+    },
+    "1570942107": {
+      "id": 1570942107,
+      "state": {
+        "key": "f2f3",
+        "pgn": "f3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e5": "wn2",
+          "e6": "bp5",
+          "f3": "wp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f2",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1781911080,
+      "childIds": [
+        1473360528
+      ],
+      "childIdx": 0
+    },
+    "1720655211": {
+      "id": 1720655211,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d5": "bp3",
+          "c3": "wn1",
+          "c6": "bn1",
+          "f4": "wb1",
+          "f5": "bb1",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c1",
+            "f4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1856015163,
+      "childIds": [
+        1819468801
+      ],
+      "childIdx": 0
+    },
+    "1773213308": {
+      "id": 1773213308,
+      "state": {
+        "key": "d5c4",
+        "pgn": "dxc4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "c3": "wn1",
+          "c4": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 887880131,
+      "childIds": [
+        1301281354
+      ],
+      "childIdx": 0
+    },
+    "1773245084": {
+      "id": 1773245084,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "c3": "wn1",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Winawer Countergambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 887880131,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1777926147": {
+      "id": 1777926147,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 888029179,
+      "childIds": [
+        1447379362,
+        1447288966,
+        1447321673,
+        1447288996,
+        1447318883
+      ],
+      "childIdx": 0
+    },
+    "1780869170": {
+      "id": 1780869170,
+      "state": {
+        "key": "b8a6",
+        "pgn": "Na6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e3": "wp5",
+          "a6": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "b8",
+            "a6"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Czech Variation, Lasker Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 403213263,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1780957706": {
+      "id": 1780957706,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e3": "wp5",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 403213263,
+      "childIds": [
+        1541386460
+      ],
+      "childIdx": 0
+    },
+    "1781822638": {
+      "id": 1781822638,
+      "state": {
+        "key": "b8d7",
+        "pgn": "bd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e5": "wn2",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 403244017,
+      "childIds": [
+        1568173405
+      ],
+      "childIdx": 0
+    },
+    "1781911080": {
+      "id": 1781911080,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1",
+          "f5": "bb1",
+          "e5": "wn2",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 403244017,
+      "childIds": [
+        1570942107
+      ],
+      "childIdx": 0
+    },
+    "1819468801": {
+      "id": 1819468801,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d5": "bp3",
+          "c3": "wn1",
+          "c6": "bn1",
+          "f4": "wb1",
+          "f5": "bb1",
+          "e3": "wp5",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c1",
+            "f4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 1720655211,
+      "childIds": [
+        587687144
+      ],
+      "childIdx": 0
+    },
+    "1856015163": {
+      "id": 1856015163,
+      "state": {
+        "key": "c8f5",
+        "pgn": "Bf5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d5": "bp3",
+          "c3": "wn1",
+          "c6": "bn1",
+          "f4": "wb1",
+          "f5": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c1",
+            "f4"
+          ],
+          [
+            "c8",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 1860383348,
+      "childIds": [
+        1720655211
+      ],
+      "childIdx": 0
+    },
+    "1860383348": {
+      "id": 1860383348,
+      "state": {
+        "key": "c1f4",
+        "pgn": "Bf4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d5": "bp3",
+          "c3": "wn1",
+          "c6": "bn1",
+          "f4": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c1",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1375608812,
+      "childIds": [
+        1856015163
+      ],
+      "childIdx": 0
+    },
+    "1876715617": {
+      "id": 1876715617,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        214825995
+      ],
+      "childIdx": 0
+    },
+    "1934930506": {
+      "id": 1934930506,
+      "state": {
+        "key": "a7a6",
+        "pgn": "a6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a6": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "a7",
+            "a6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 1447288966,
+      "childIds": [
+        2019489477
+      ],
+      "childIdx": 0
+    },
+    "1935018017": {
+      "id": 1935018017,
+      "state": {
+        "key": "d5c4",
+        "pgn": "dxc4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1447288966,
+      "childIds": [
+        2022140751,
+        2022260038,
+        2022260039
+      ],
+      "childIdx": 0
+    },
+    "1935020871": {
+      "id": 1935020871,
+      "state": {
+        "key": "d8b6",
+        "pgn": "Qb6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "b6": "bq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d8",
+            "b6"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Suchting Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 1447288966,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1935109438": {
+      "id": 1935109438,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Schlechter Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 1447288966,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1936003136": {
+      "id": 1936003136,
+      "state": {
+        "key": "c6d5",
+        "pgn": "cxd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1447321673,
+      "childIds": [
+        2052708331
+      ],
+      "childIdx": 0
+    },
+    "1937793479": {
+      "id": 1937793479,
+      "state": {
+        "key": "c8f5",
+        "pgn": "Bf5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "e3": "wp5",
+          "f5": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "c8",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 1447379362,
+      "childIds": [
+        2108241671
+      ],
+      "childIdx": 0
+    },
+    "1937793509": {
+      "id": 1937793509,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "e3": "wp5",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Quiet Variation, Pin Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1447379362,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "2019489477": {
+      "id": 2019489477,
+      "state": {
+        "key": "c4c5",
+        "pgn": "c5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a6": "bp1",
+          "c5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "c4",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Chameleon Variation, Advance System"
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1934930506,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "2022140751": {
+      "id": 2022140751,
+      "state": {
+        "key": "a2a4",
+        "pgn": "a4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "a4": "wp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a4"
+          ]
+        }
+      },
+      "parentId": 1935018017,
+      "childIds": [
+        428043715,
+        428102306,
+        428043745,
+        428013770
+      ],
+      "childIdx": 0
+    },
+    "2022260038": {
+      "id": 2022260038,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Alekhine Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1935018017,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "2022260039": {
+      "id": 2022260039,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c4": "bp4",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Slav Defense, Geller Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1935018017,
+      "childIds": [
+        431710767
+      ],
+      "childIdx": 0
+    },
+    "2026418612": {
+      "id": 2026418612,
+      "state": {
+        "key": "d7e5",
+        "pgn": "Nxe5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c6": "bp3",
+          "f6": "bn2",
+          "c3": "wn1",
+          "a4": "wp1",
+          "f5": "bb1",
+          "c4": "wn2",
+          "c7": "bq1",
+          "g3": "wp7",
+          "e5": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "a2",
+            "a4"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e5",
+            "c4"
+          ],
+          [
+            "d8",
+            "c7"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 896047980,
+      "childIds": [
+        560650678
+      ],
+      "childIdx": 0
+    },
+    "2052708331": {
+      "id": 2052708331,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d5": "bp3",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1936003136,
+      "childIds": [
+        1375608812
+      ],
+      "childIdx": 0
+    },
+    "2108241671": {
+      "id": 2108241671,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c6": "bp3",
+          "f3": "wn2",
+          "f6": "bn2",
+          "e3": "wp5",
+          "f5": "bb1",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "c8",
+            "f5"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1937793479,
+      "childIds": [
+        949686604
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

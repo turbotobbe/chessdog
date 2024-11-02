@@ -1,301 +1,5915 @@
 {
-  "slug": "reti-opening",
-  "name": "Reti Opening",
-  "range": "A04-A09",
-  "lines": [
-    {
-      "eco": "A07",
-      "name": "King's Indian Attack, General",
-      "color": "white",
-      "moves": "1. Nf3 1... d5 2. g3",
-      "count": 35195
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Reti Opening"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614212661,
+        614064544
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Sicilian Invitation",
-      "color": "black",
-      "moves": "1. Nf3 1... c5",
-      "count": 30073
+    "26494251": {
+      "id": 26494251,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 1108627000,
+      "childIds": [
+        840080860
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Symmetrical Variation",
-      "color": "black",
-      "moves": "1. Nf3 1... Nf6",
-      "count": 24816
+    "27297522": {
+      "id": 27297522,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1108655830,
+      "childIds": [
+        864982261
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A05",
-      "name": "King's Indian Attack, Symmterical Defense",
-      "color": "black",
-      "moves": "1. Nf3 1... Nf6 2. g3 2... g6",
-      "count": 19789
+    "101125998": {
+      "id": 101125998,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "d3": "wp4",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "King's Indian Attack, Wahls Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1595952094,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Kingside Fianchetto",
-      "color": "black",
-      "moves": "1. Nf3 1... g6",
-      "count": 13635
+    "120151793": {
+      "id": 120151793,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 1111649172,
+      "childIds": [
+        1595952094
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Nimzo-Larsen Variation",
-      "color": "white",
-      "moves": "1. Nf3 1... Nf6 2. b3",
-      "count": 11301
+    "160428713": {
+      "id": 160428713,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Polish Opening, Zukertort System"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1874957050,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Dutch Variation",
-      "color": "black",
-      "moves": "1. Nf3 1... f5",
-      "count": 9172
+    "252510546": {
+      "id": 252510546,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3",
+          "g2": "wb2",
+          "c6": "bn1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e6": "bp5",
+          "d3": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 561727560,
+      "childIds": [
+        1404045599
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A06",
-      "name": "Nimzowitsch-Larsen Attack, General",
-      "color": "white",
-      "moves": "1. Nf3 1... d5 2. b3",
-      "count": 8523
+    "291467683": {
+      "id": 291467683,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 840080860,
+      "childIds": [
+        464293743
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A06",
-      "name": "Zukertort Opening, Queen Pawn Defense",
-      "color": "black",
-      "moves": "1. Nf3 1... d5",
-      "count": 8074
+    "299817795": {
+      "id": 299817795,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Reversed Mexican Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1879458280,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A07",
-      "name": "King's Indian Attack, Yugoslav Variation",
-      "color": "black",
-      "moves": "1. Nf3 1... d5 2. g3 2... Nf6 3. Bg2 3... c6 4. O-O 4... Bg4",
-      "count": 6483
+    "299818725": {
+      "id": 299818725,
+      "state": {
+        "key": "b2b3",
+        "pgn": "b3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "b3": "wp2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b2",
+            "b3"
+          ]
+        ],
+        "comments": [
+          "Nimzowitsch-Larsen Attack, General"
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b3"
+          ]
+        }
+      },
+      "parentId": 1879458280,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Queen's Gambit Invitation",
-      "color": "black",
-      "moves": "1. Nf3 1... e6",
-      "count": 5329
+    "299818726": {
+      "id": 299818726,
+      "state": {
+        "key": "b2b4",
+        "pgn": "b4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "b4": "wp2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "b2",
+            "b4"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Santasiere's Folly"
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 1879458280,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A09",
-      "name": "Reti Opening, General",
-      "color": "white",
-      "moves": "1. Nf3 1... d5 2. c4",
-      "count": 5312
+    "299848548": {
+      "id": 299848548,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1879458280,
+      "childIds": [
+        724103442,
+        724103411
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Pirc Invitation",
-      "color": "black",
-      "moves": "1. Nf3 1... d6",
-      "count": 5049
+    "299878369": {
+      "id": 299878369,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Old Indian Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1879458280,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A09",
-      "name": "Reti Opening, Advance Variation",
-      "color": "black",
-      "moves": "1. Nf3 1... d5 2. c4 2... d4",
-      "count": 4877
+    "299908192": {
+      "id": 299908192,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Tennison Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1879458280,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A08",
-      "name": "King's Indian Attack, Sicilian Variation",
-      "color": "white",
-      "moves": "1. Nf3 1... d5 2. g3 2... c5 3. Bg2",
-      "count": 4610
+    "299908223": {
+      "id": 299908223,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d6": "bp4",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1879458281,
+      "childIds": [
+        725926552
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A08",
-      "name": "King's Indian Attack, Sicilian Variation",
-      "color": "white",
-      "moves": "1. Nf3 1... d5 2. g3 2... c5 3. Bg2 3... Nc6 4. O-O 4... e6 5. d3 5... Nf6 6. Nbd2 6... Be7 7. e4 7... O-O 8. Re1",
-      "count": 4457
+    "299967835": {
+      "id": 299967835,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1879458280,
+      "childIds": [
+        727893659,
+        727773440,
+        727892729,
+        727774524
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A05",
-      "name": "King's Indian Attack, Wahls Defense",
-      "color": "black",
-      "moves": "1. Nf3 1... Nf6 2. g3 2... g6 3. Bg2 3... Bg7 4. O-O 4... O-O 5. d3 5... d5",
-      "count": 4089
+    "301727333": {
+      "id": 301727333,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f5": "bp6",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1879517924,
+      "childIds": [
+        782438097
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A05",
-      "name": "King's Indian Attack, Spassky Variation",
-      "color": "black",
-      "moves": "1. Nf3 1... Nf6 2. g3 2... b5",
-      "count": 3773
+    "301757156": {
+      "id": 301757156,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f5": "bp6",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Lisitsyn Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1879517924,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A07",
-      "name": "King's Indian Attack, Double Fianchetto",
-      "color": "black",
-      "moves": "1. Nf3 1... d5 2. g3 2... g6",
-      "count": 3695
+    "302621032": {
+      "id": 302621032,
+      "state": {
+        "key": "b2b3",
+        "pgn": "b3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "b3": "wp2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b2",
+            "b3"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Nimzo-Larsen Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b3"
+          ]
+        }
+      },
+      "parentId": 1879548677,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A07",
-      "name": "King's Indian Attack, Keres Variation",
-      "color": "black",
-      "moves": "1. Nf3 1... d5 2. g3 2... Bg4 3. Bg2 3... Nd7",
-      "count": 3043
+    "302710498": {
+      "id": 302710498,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Quiet system"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1879548677,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Queenside Fianchetto Variation",
-      "color": "black",
-      "moves": "1. Nf3 1... b6",
-      "count": 2673
+    "302770142": {
+      "id": 302770142,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1879548677,
+      "childIds": [
+        814764246,
+        814615135
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Quiet system",
-      "color": "white",
-      "moves": "1. Nf3 1... Nf6 2. e3",
-      "count": 2351
+    "464293743": {
+      "id": 464293743,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e5": "bp5",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 291467683,
+      "childIds": [
+        1527029483
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Black Mustang Defense",
-      "color": "black",
-      "moves": "1. Nf3 1... Nc6",
-      "count": 1739
+    "561727560": {
+      "id": 561727560,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3",
+          "g2": "wb2",
+          "c6": "bn1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e6": "bp5",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1680084030,
+      "childIds": [
+        252510546
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A09",
-      "name": "Reti Opening, Reti Gambit",
-      "color": "black",
-      "moves": "1. Nf3 1... d5 2. c4 2... dxc4",
-      "count": 1574
+    "594536170": {
+      "id": 594536170,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3",
+          "g2": "wb2",
+          "c6": "bn1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e6": "bp5",
+          "d3": "wp4",
+          "f6": "bn2",
+          "d2": "wn1",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "d2"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1404045599,
+      "childIds": [
+        1269512075
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A07",
-      "name": "King's Indian Attack, Pachman System",
-      "color": "black",
-      "moves": "1. Nf3 1... d5 2. g3 2... g6 3. Bg2 3... Bg7 4. O-O 4... e5 5. d3 5... Ne7",
-      "count": 1436
+    "614064544": {
+      "id": 614064544,
+      "state": {
+        "key": "b2b4",
+        "pgn": "b4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "b4": "wp2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1874957050
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A06",
-      "name": "Zukertort Opening, Old Indian Attack",
-      "color": "white",
-      "moves": "1. Nf3 1... d5 2. d3",
-      "count": 1346
+    "614212661": {
+      "id": 614212661,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1879458280,
+        1879428458,
+        1879548677,
+        1879547747,
+        1879517924,
+        1879488103,
+        1879458281,
+        1879398637,
+        1879399629,
+        1879428459,
+        1879398636,
+        1879368815,
+        1879577569,
+        1879547746
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Slav Invitation",
-      "color": "black",
-      "moves": "1. Nf3 1... c6",
-      "count": 1053
+    "652020871": {
+      "id": 652020871,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f5": "bp6",
+          "d3": "wp4",
+          "f6": "bn2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Lisitsyn Gambit Deferred"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 782438097,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Polish Defense",
-      "color": "black",
-      "moves": "1. Nf3 1... b5",
-      "count": 848
+    "676197242": {
+      "id": 676197242,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c4": "wp3",
+          "d4": "bp4",
+          "b4": "wp2",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "d4"
+          ],
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Reti Opening, Advance Variation, Michel Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 991040747,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A05",
-      "name": "King's Indian Attack, Smyslov Variation",
-      "color": "white",
-      "moves": "1. Nf3 1... Nf6 2. g3 2... g6 3. b4",
-      "count": 783
+    "678970657": {
+      "id": 678970657,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c4": "wp3",
+          "d4": "bp4",
+          "e3": "wp5",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "d4"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 991130212,
+      "childIds": [
+        1739408059
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Lisitsyn Gambit",
-      "color": "white",
-      "moves": "1. Nf3 1... f5 2. e4",
-      "count": 760
+    "718934492": {
+      "id": 718934492,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3",
+          "g2": "wb2",
+          "c6": "bn1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e6": "bp5",
+          "d3": "wp4",
+          "f6": "bn2",
+          "d2": "wn1",
+          "e7": "bb2",
+          "e4": "wp5",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "d2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 1269512075,
+      "childIds": [
+        830921590
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Lisitsyn Gambit Deferred",
-      "color": "white",
-      "moves": "1. Nf3 1... f5 2. d3 2... Nf6 3. e4",
-      "count": 534
+    "724103411": {
+      "id": 724103411,
+      "state": {
+        "key": "d5c4",
+        "pgn": "dxc4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c4": "bp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Reti Opening, Reti Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 299848548,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A07",
-      "name": "King's Indian Attack, Sicilian Variation",
-      "color": "black",
-      "moves": "1. Nf3 1... d5 2. g3 2... c5",
-      "count": 476
+    "724103442": {
+      "id": 724103442,
+      "state": {
+        "key": "d5d4",
+        "pgn": "d4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c4": "wp3",
+          "d4": "bp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 299848548,
+      "childIds": [
+        991130212,
+        991040747
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Polish Opening, Zukertort System",
-      "color": "white",
-      "moves": "1. b4 1... Nf6 2. Nf3",
-      "count": 451
+    "725926552": {
+      "id": 725926552,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Wade-Tartakower Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 299908223,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A09",
-      "name": "Reti Opening, Reversed Blumenfeld Gambit",
-      "color": "white",
-      "moves": "1. Nf3 1... d5 2. c4 2... d4 3. e3 3... c5 4. b4",
-      "count": 412
+    "727773440": {
+      "id": 727773440,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "King's Indian Attack, Sicilian Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 299967835,
+      "childIds": [
+        1104929041
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A09",
-      "name": "Reti Opening, Advance Variation, Michel Gambit",
-      "color": "black",
-      "moves": "1. Nf3 1... d5 2. c4 2... d4 3. b4 3... c5",
-      "count": 337
+    "727774524": {
+      "id": 727774524,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 299967835,
+      "childIds": [
+        1104962645
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A06",
-      "name": "Zukertort Opening, Santasiere's Folly",
-      "color": "white",
-      "moves": "1. Nf3 1... d5 2. b4",
-      "count": 334
+    "727892729": {
+      "id": 727892729,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 299967835,
+      "childIds": [
+        1108627000
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A06",
-      "name": "Zukertort Opening, Tennison Gambit",
-      "color": "white",
-      "moves": "1. Nf3 1... d5 2. e4",
-      "count": 288
+    "727893659": {
+      "id": 727893659,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 299967835,
+      "childIds": [
+        1108655830
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A06",
-      "name": "Zukertort Opening, Reversed Mexican Defense",
-      "color": "white",
-      "moves": "1. Nf3 1... d5 2. Nc3",
-      "count": 208
+    "782438097": {
+      "id": 782438097,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f5": "bp6",
+          "d3": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 301727333,
+      "childIds": [
+        652020871
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, St. George Defense",
-      "color": "black",
-      "moves": "1. Nf3 1... a6",
-      "count": 207
+    "814615135": {
+      "id": 814615135,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "comments": [
+          "King's Indian Attack, Spassky Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 302770142,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Basman Defense",
-      "color": "black",
-      "moves": "1. Nf3 1... h6",
-      "count": 165
+    "814764246": {
+      "id": 814764246,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 302770142,
+      "childIds": [
+        1654160380,
+        1654042024
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Wade-Tartakower Defense",
-      "color": "black",
-      "moves": "1. Nf3 1... d6 2. e4 2... Bg4",
-      "count": 114
+    "830921590": {
+      "id": 830921590,
+      "state": {
+        "key": "f1e1",
+        "pgn": "Re1",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3",
+          "g2": "wb2",
+          "c6": "bn1",
+          "g1": "wk1",
+          "e6": "bp5",
+          "d3": "wp4",
+          "f6": "bn2",
+          "d2": "wn1",
+          "e7": "bb2",
+          "e4": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "e1": "wr2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "d2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "f1",
+            "e1"
+          ]
+        ],
+        "comments": [
+          "King's Indian Attack, Sicilian Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "e1"
+          ]
+        }
+      },
+      "parentId": 718934492,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A04",
-      "name": "Zukertort Opening, Herrstrom Gambit",
-      "color": "black",
-      "moves": "1. Nf3 1... g5",
-      "count": 108
+    "840080860": {
+      "id": 840080860,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 26494251,
+      "childIds": [
+        291467683
+      ],
+      "childIdx": 0
+    },
+    "864982261": {
+      "id": 864982261,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "c6": "bp3",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 27297522,
+      "childIds": [
+        1063352554
+      ],
+      "childIdx": 0
+    },
+    "991040747": {
+      "id": 991040747,
+      "state": {
+        "key": "b2b4",
+        "pgn": "b4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c4": "wp3",
+          "d4": "bp4",
+          "b4": "wp2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "d4"
+          ],
+          [
+            "b2",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 724103442,
+      "childIds": [
+        676197242
+      ],
+      "childIdx": 0
+    },
+    "991130212": {
+      "id": 991130212,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c4": "wp3",
+          "d4": "bp4",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "d4"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 724103442,
+      "childIds": [
+        678970657
+      ],
+      "childIdx": 0
+    },
+    "1063352554": {
+      "id": 1063352554,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "c6": "bp3",
+          "f1": "wr2",
+          "g1": "wk1",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "King's Indian Attack, Yugoslav Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 864982261,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1104929041": {
+      "id": 1104929041,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 727773440,
+      "childIds": [
+        2059221880
+      ],
+      "childIdx": 0
+    },
+    "1104962645": {
+      "id": 1104962645,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "g4": "bb1",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 727774524,
+      "childIds": [
+        2060263636
+      ],
+      "childIdx": 0
+    },
+    "1108627000": {
+      "id": 1108627000,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 727892729,
+      "childIds": [
+        26494251
+      ],
+      "childIdx": 0
+    },
+    "1108655830": {
+      "id": 1108655830,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 727893659,
+      "childIds": [
+        27297522
+      ],
+      "childIdx": 0
+    },
+    "1111649172": {
+      "id": 1111649172,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1905643502,
+      "childIds": [
+        120151793
+      ],
+      "childIdx": 0
+    },
+    "1269512075": {
+      "id": 1269512075,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3",
+          "g2": "wb2",
+          "c6": "bn1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e6": "bp5",
+          "d3": "wp4",
+          "f6": "bn2",
+          "d2": "wn1",
+          "e7": "bb2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "d2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 594536170,
+      "childIds": [
+        718934492
+      ],
+      "childIdx": 0
+    },
+    "1404045599": {
+      "id": 1404045599,
+      "state": {
+        "key": "b1d2",
+        "pgn": "bd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3",
+          "g2": "wb2",
+          "c6": "bn1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e6": "bp5",
+          "d3": "wp4",
+          "f6": "bn2",
+          "d2": "wn1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "d2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 252510546,
+      "childIds": [
+        594536170
+      ],
+      "childIdx": 0
+    },
+    "1527029483": {
+      "id": 1527029483,
+      "state": {
+        "key": "g8e7",
+        "pgn": "Ne7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e5": "bp5",
+          "d3": "wp4",
+          "e7": "bn2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "d2",
+            "d3"
+          ],
+          [
+            "g8",
+            "e7"
+          ]
+        ],
+        "comments": [
+          "King's Indian Attack, Pachman System"
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 464293743,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1577611596": {
+      "id": 1577611596,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3",
+          "g2": "wb2",
+          "c6": "bn1",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 2059221880,
+      "childIds": [
+        1680084030
+      ],
+      "childIdx": 0
+    },
+    "1595952094": {
+      "id": 1595952094,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 120151793,
+      "childIds": [
+        101125998
+      ],
+      "childIdx": 0
+    },
+    "1654042024": {
+      "id": 1654042024,
+      "state": {
+        "key": "b2b4",
+        "pgn": "b4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "b4": "wp2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "b2",
+            "b4"
+          ]
+        ],
+        "comments": [
+          "King's Indian Attack, Smyslov Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 814764246,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1654160380": {
+      "id": 1654160380,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 814764246,
+      "childIds": [
+        1905643502
+      ],
+      "childIdx": 0
+    },
+    "1680084030": {
+      "id": 1680084030,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3",
+          "g2": "wb2",
+          "c6": "bn1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 1577611596,
+      "childIds": [
+        561727560
+      ],
+      "childIdx": 0
+    },
+    "1739408059": {
+      "id": 1739408059,
+      "state": {
+        "key": "b2b4",
+        "pgn": "b4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c4": "wp3",
+          "d4": "bp4",
+          "e3": "wp5",
+          "c5": "bp3",
+          "b4": "wp2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "d4"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "b2",
+            "b4"
+          ]
+        ],
+        "comments": [
+          "Reti Opening, Reversed Blumenfeld Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 678970657,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1874957050": {
+      "id": 1874957050,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "b4": "wp2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "b2",
+            "b4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614064544,
+      "childIds": [
+        160428713
+      ],
+      "childIdx": 0
+    },
+    "1879368815": {
+      "id": 1879368815,
+      "state": {
+        "key": "a7a6",
+        "pgn": "a6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "a6": "bp1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "a7",
+            "a6"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, St. George Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879398636": {
+      "id": 1879398636,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Polish Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879398637": {
+      "id": 1879398637,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Queenside Fianchetto Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879399629": {
+      "id": 1879399629,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Black Mustang Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879428458": {
+      "id": 1879428458,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Sicilian Invitation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879428459": {
+      "id": 1879428459,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Slav Invitation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879458280": {
+      "id": 1879458280,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [
+        299967835,
+        299818725,
+        299848548,
+        299878369,
+        299818726,
+        299908192,
+        299817795
+      ],
+      "childIdx": 0
+    },
+    "1879458281": {
+      "id": 1879458281,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [
+        299908223
+      ],
+      "childIdx": 0
+    },
+    "1879488103": {
+      "id": 1879488103,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Queen's Gambit Invitation"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879517924": {
+      "id": 1879517924,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [
+        301757156,
+        301727333
+      ],
+      "childIdx": 0
+    },
+    "1879547746": {
+      "id": 1879547746,
+      "state": {
+        "key": "g7g5",
+        "pgn": "g5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "g5": "bp7"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Herrstrom Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879547747": {
+      "id": 1879547747,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Kingside Fianchetto"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1879548677": {
+      "id": 1879548677,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [
+        302770142,
+        302621032,
+        302710498
+      ],
+      "childIdx": 0
+    },
+    "1879577569": {
+      "id": 1879577569,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "comments": [
+          "Zukertort Opening, Basman Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 614212661,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1905643502": {
+      "id": 1905643502,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "g3": "wp7",
+          "g6": "bp7",
+          "g2": "wb2",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 1654160380,
+      "childIds": [
+        1111649172
+      ],
+      "childIdx": 0
+    },
+    "2059221880": {
+      "id": 2059221880,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "c5": "bp3",
+          "g2": "wb2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1104929041,
+      "childIds": [
+        1577611596
+      ],
+      "childIdx": 0
+    },
+    "2060263636": {
+      "id": 2060263636,
+      "state": {
+        "key": "b8d7",
+        "pgn": "Nd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d5": "bp4",
+          "g3": "wp7",
+          "g4": "bb1",
+          "g2": "wb2",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "comments": [
+          "King's Indian Attack, Keres Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 1104962645,
+      "childIds": [],
+      "childIdx": -1
     }
-  ]
+  }
 }

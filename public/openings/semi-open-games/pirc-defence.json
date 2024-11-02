@@ -1,238 +1,4419 @@
 {
-  "slug": "pirc-defence",
-  "name": "Pirc Defence",
-  "range": "B07-B09",
-  "lines": [
-    {
-      "eco": "B07",
-      "name": "Pirc Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6",
-      "count": 27097
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Pirc Defence"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B07",
-      "name": "Czech Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... c6",
-      "count": 10837
+    "73898134": {
+      "id": 73898134,
+      "state": {
+        "key": "d1d2",
+        "pgn": "Qd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "e3": "wb1",
+          "c6": "bp3",
+          "d2": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "e3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "d1",
+            "d2"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, 150 Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 1802894960,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B08",
-      "name": "Pirc Defense, Classical Variation, Two Knights System",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7",
-      "count": 5775
+    "74018384": {
+      "id": 74018384,
+      "state": {
+        "key": "h2h3",
+        "pgn": "h3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "e3": "wb1",
+          "c6": "bp3",
+          "h3": "wp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "e3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "h2",
+            "h3"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, 150 Attack, Sveshnikov-Jansa Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 1802894960,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B09",
-      "name": "Pirc Defense, Austrian Attack, Weiss Variation",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... O-O 6. Bd3",
-      "count": 5697
+    "162679284": {
+      "id": 162679284,
+      "state": {
+        "key": "g2g4",
+        "pgn": "g4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "e2": "wb2",
+          "g7": "bb2",
+          "g4": "wp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g2",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Chinese Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1805755951,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Pirc Defense, Byrne Variation",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Bg5",
-      "count": 4597
+    "162709106": {
+      "id": 162709106,
+      "state": {
+        "key": "h2h4",
+        "pgn": "h4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "e2": "wb2",
+          "g7": "bb2",
+          "h4": "wp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "h2",
+            "h4"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Bayonet Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 1805755951,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B08",
-      "name": "Pirc Defense, Classical Variation, Schlechter Variation",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7 5. h3",
-      "count": 4579
+    "163603642": {
+      "id": 163603642,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Austrian Attack, Ljubojevic Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1805786765,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B08",
-      "name": "Pirc Defense, Classical Variation, Quiet System, Czech Defense",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7 5. Be2 5... O-O 6. O-O 6... c6",
-      "count": 4020
+    "163633525": {
+      "id": 163633525,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1805786765,
+      "childIds": [
+        796437794,
+        796377124
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B08",
-      "name": "Pirc Defense, Classical Variation, Quiet System",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7 5. Be2",
-      "count": 3836
+    "191308371": {
+      "id": 191308371,
+      "state": {
+        "key": "f1e2",
+        "pgn": "Be2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 1806680464,
+      "childIds": [
+        1654358020
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B09",
-      "name": "Pirc Defense, Austrian Attack, Dragon Formation",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... c5",
-      "count": 3590
+    "191369008": {
+      "id": 191369008,
+      "state": {
+        "key": "h2h3",
+        "pgn": "h3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "h3": "wp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "h2",
+            "h3"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Classical Variation, Schlechter Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 1806680464,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Lion Defense, Lion's Jaw",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. f3",
-      "count": 3008
+    "243514790": {
+      "id": 243514790,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1877640100,
+      "childIds": [
+        1125332911,
+        1125183895,
+        1125272336,
+        1125302158
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B08",
-      "name": "Pirc Defense, Classical Variation, Quiet System, Parma Defense",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7 5. Be2 5... O-O 6. O-O 6... Bg4",
-      "count": 2199
+    "243574434": {
+      "id": 243574434,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "comments": [
+          "Rat Defense, Harmonist"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1877640100,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Pirc Defense, 150 Attack",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Be3 4... c6 5. Qd2",
-      "count": 1832
+    "246288236": {
+      "id": 246288236,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1877729566,
+      "childIds": [
+        1211219341
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B09",
-      "name": "Pirc Defense, Austrian Attack",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4",
-      "count": 1582
+    "544251473": {
+      "id": 544251473,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1125332911,
+      "childIds": [
+        1858115278,
+        1858234566,
+        1858086480
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B07",
-      "name": "Pirc Defense, Kholmov System",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Bc4",
-      "count": 1395
+    "544371691": {
+      "id": 544371691,
+      "state": {
+        "key": "f2f3",
+        "pgn": "f3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "f3": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f2",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Lion Defense, Lion's Jaw"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1125332911,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B09",
-      "name": "Pirc Defense, Austrian Attack",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... O-O",
-      "count": 1389
+    "583276594": {
+      "id": 583276594,
+      "state": {
+        "key": "h2h4",
+        "pgn": "h4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d6": "bp4",
+          "d4": "wp4",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "e5": "wp5",
+          "d7": "bn2",
+          "h4": "wp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d7"
+          ],
+          [
+            "h2",
+            "h4"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Austrian Attack, Unzicker Attack, Bronstein Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 1472954314,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Rat Defense, Accelerated Gurgenidze",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... d6 3. Nc3 3... c6",
-      "count": 1386
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877640100,
+        1877729566
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B08",
-      "name": "Pirc Defense, Classical Variation, Quiet System, Chigorin Line",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3 4... Bg7 5. Be2 5... O-O 6. O-O 6... Nc6",
-      "count": 1373
+    "643112275": {
+      "id": 643112275,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "d6": "bp4",
+          "c3": "wn1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Rat Defense, Accelerated Gurgenidze"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1059247156,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Lion Defense, Anti-Philidor, Lion's Cave",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... Nbd7 4. f4 4... e5",
-      "count": 1271
+    "796377124": {
+      "id": 796377124,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Austrian Attack, Dragon Formation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 163633525,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B09",
-      "name": "Pirc Defense, Austrian Attack, Unzicker Attack",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... O-O 6. e5",
-      "count": 1186
+    "796437794": {
+      "id": 796437794,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 163633525,
+      "childIds": [
+        1086040276,
+        1086013401,
+        1085950934
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B09",
-      "name": "Pirc Defense, Austrian Attack, Kurajica Variation",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... O-O 6. Be3",
-      "count": 1124
+    "1059247156": {
+      "id": 1059247156,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "d6": "bp4",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1211219341,
+      "childIds": [
+        643112275
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B07",
-      "name": "Rat Defense, Harmonist",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. f4",
-      "count": 1092
+    "1085950934": {
+      "id": 1085950934,
+      "state": {
+        "key": "c1e3",
+        "pgn": "Be3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "e3": "wb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c1",
+            "e3"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Austrian Attack, Kurajica Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 796437794,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Rat Defense, Antal Defense",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... Nd7",
-      "count": 937
+    "1086013401": {
+      "id": 1086013401,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 796437794,
+      "childIds": [
+        1472954314
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B07",
-      "name": "Pirc Defense, Bayonet Attack",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Be2 4... Bg7 5. h4",
-      "count": 883
+    "1086040276": {
+      "id": 1086040276,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Austrian Attack, Weiss Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 796437794,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Pirc Defense, 150 Attack, Sveshnikov-Jansa Attack",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Be3 4... c6 5. h3",
-      "count": 850
+    "1125183895": {
+      "id": 1125183895,
+      "state": {
+        "key": "b8d7",
+        "pgn": "Nd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "comments": [
+          "Rat Defense, Antal Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 243514790,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "King Pawn Game, Maroczy Defense",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... e5",
-      "count": 795
+    "1125272336": {
+      "id": 1125272336,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "King Pawn Game, Maroczy Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 243514790,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Pirc Defense, Classical Variation",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Be2",
-      "count": 781
+    "1125302158": {
+      "id": 1125302158,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Rat Defense, Balogh Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 243514790,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Pirc Defense, Classical Variation",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Nf3",
-      "count": 470
+    "1125332911": {
+      "id": 1125332911,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 243514790,
+      "childIds": [
+        544251473,
+        544371691
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B07",
-      "name": "Lion Defense, Bayonet Attack",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... Nbd7 4. g4",
-      "count": 394
+    "1211219341": {
+      "id": 1211219341,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 246288236,
+      "childIds": [
+        1059247156
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B09",
-      "name": "Pirc Defense, Austrian Attack, Unzicker Attack, Bronstein Variation",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Nf3 5... O-O 6. e5 6... Nfd7 7. h4",
-      "count": 332
+    "1300366203": {
+      "id": 1300366203,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Classical Variation, Quiet System, Chigorin Line"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1911733818,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Pirc Defense, Chinese Variation",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. Be2 4... Bg7 5. g4",
-      "count": 257
+    "1300395033": {
+      "id": 1300395033,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Classical Variation, Quiet System, Czech Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1911733818,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Rat Defense, Balogh Defense",
-      "color": "black",
-      "moves": "1. e4 1... d6 2. d4 2... f5",
-      "count": 160
+    "1300396116": {
+      "id": 1300396116,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Classical Variation, Quiet System, Parma Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1911733818,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B07",
-      "name": "Lion Defense, Anti-Philidor",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... Nbd7 4. f4",
-      "count": 154
+    "1472954314": {
+      "id": 1472954314,
+      "state": {
+        "key": "f6d7",
+        "pgn": "fd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d6": "bp4",
+          "d4": "wp4",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "e5": "wp5",
+          "d7": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 1086013401,
+      "childIds": [
+        583276594
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B09",
-      "name": "Pirc Defense, Austrian Attack, Ljubojevic Variation",
-      "color": "white",
-      "moves": "1. e4 1... d6 2. d4 2... Nf6 3. Nc3 3... g6 4. f4 4... Bg7 5. Bc4",
-      "count": 133
+    "1654358020": {
+      "id": 1654358020,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 191308371,
+      "childIds": [
+        1911733818
+      ],
+      "childIdx": 0
+    },
+    "1663445303": {
+      "id": 1663445303,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "f4": "wp6",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Lion Defense, Anti-Philidor, Lion's Cave"
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1784895861,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1784895861": {
+      "id": 1784895861,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "comments": [
+          "Lion Defense, Anti-Philidor"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1858086480,
+      "childIds": [
+        1663445303
+      ],
+      "childIdx": 0
+    },
+    "1784925683": {
+      "id": 1784925683,
+      "state": {
+        "key": "g2g4",
+        "pgn": "g4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1",
+          "g4": "wp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "g2",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Lion Defense, Bayonet Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1858086480,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1789396161": {
+      "id": 1789396161,
+      "state": {
+        "key": "c1e3",
+        "pgn": "Be3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "e3": "wb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1858234566,
+      "childIds": [
+        1802894960
+      ],
+      "childIdx": 0
+    },
+    "1789396225": {
+      "id": 1789396225,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Byrne Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1858234566,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1789485473": {
+      "id": 1789485473,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Kholmov System"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1858234566,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1789485533": {
+      "id": 1789485533,
+      "state": {
+        "key": "f1e2",
+        "pgn": "Be2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "e2": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "e2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 1858234566,
+      "childIds": [
+        1805755951
+      ],
+      "childIdx": 0
+    },
+    "1789486527": {
+      "id": 1789486527,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1858234566,
+      "childIds": [
+        1805786765
+      ],
+      "childIdx": 0
+    },
+    "1789515356": {
+      "id": 1789515356,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Pirc Defense, Classical Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1858234566,
+      "childIds": [
+        1806680464
+      ],
+      "childIdx": 0
+    },
+    "1802894960": {
+      "id": 1802894960,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "e3": "wb1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "c1",
+            "e3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1789396161,
+      "childIds": [
+        73898134,
+        74018384
+      ],
+      "childIdx": 0
+    },
+    "1805755951": {
+      "id": 1805755951,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "e2": "wb2",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 1789485533,
+      "childIds": [
+        162709106,
+        162679284
+      ],
+      "childIdx": 0
+    },
+    "1805786765": {
+      "id": 1805786765,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f4": "wp6",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 1789486527,
+      "childIds": [
+        163633525,
+        163603642
+      ],
+      "childIdx": 0
+    },
+    "1806680464": {
+      "id": 1806680464,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 1789515356,
+      "childIds": [
+        191369008,
+        191308371
+      ],
+      "childIdx": 0
+    },
+    "1858086480": {
+      "id": 1858086480,
+      "state": {
+        "key": "b8d7",
+        "pgn": "bd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 544251473,
+      "childIds": [
+        1784895861,
+        1784925683
+      ],
+      "childIdx": 0
+    },
+    "1858115278": {
+      "id": 1858115278,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Czech Defense, General"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 544251473,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1858234566": {
+      "id": 1858234566,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 544251473,
+      "childIds": [
+        1789515356,
+        1789486527,
+        1789396225,
+        1789396161,
+        1789485473,
+        1789485533
+      ],
+      "childIdx": 0
+    },
+    "1877640100": {
+      "id": 1877640100,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        243514790,
+        243574434
+      ],
+      "childIdx": 0
+    },
+    "1877729566": {
+      "id": 1877729566,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        246288236
+      ],
+      "childIdx": 0
+    },
+    "1911733818": {
+      "id": 1911733818,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e4": "wp5",
+          "d6": "bp4",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "g7": "bb2",
+          "e2": "wb2",
+          "f8": "br2",
+          "g8": "bk1",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1654358020,
+      "childIds": [
+        1300395033,
+        1300396116,
+        1300366203
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

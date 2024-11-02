@@ -1,133 +1,3925 @@
 {
-  "slug": "queens-gambit-declined-tarrasch-defence",
-  "name": "Queen's Gambit Declined: Tarrasch Defence",
-  "range": "D32-D34",
-  "lines": [
-    {
-      "eco": "D32",
-      "name": "Tarrasch Defense, Symmetrical Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. e3 4... Nf6 5. Nf3 5... Nc6",
-      "count": 6320
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Queen's Gambit Declined: Tarrasch Defence"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614124188
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D34",
-      "name": "Tarrasch Defense, Classical Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6 7. Bg2 7... Be7 8. O-O 8... O-O",
-      "count": 3710
+    "214825995": {
+      "id": 214825995,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1876715617,
+      "childIds": [
+        235919692
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D32",
-      "name": "Tarrasch Defense, Two Knights Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3",
-      "count": 2423
+    "235919692": {
+      "id": 235919692,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 214825995,
+      "childIds": [
+        889729095
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D32",
-      "name": "Tarrasch Defense, Schara Gambit",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... cxd4",
-      "count": 1810
+    "364863904": {
+      "id": 364863904,
+      "state": {
+        "key": "g5e3",
+        "pgn": "Be3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "c3": "wn1",
+          "d5": "bp5",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "d4": "wn2",
+          "h6": "bp8",
+          "e3": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "f3",
+            "d4"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 634625622,
+      "childIds": [
+        592158331,
+        592069016
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D34",
-      "name": "Tarrasch Defense, Classical Variation, Advance Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6 7. Bg2 7... Be7 8. O-O 8... O-O 9. Bg5 9... c4",
-      "count": 1527
+    "442120741": {
+      "id": 442120741,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "c5": "bp3",
+          "e3": "wp5",
+          "f6": "bn2",
+          "f3": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Tarrasch Defense, Symmetrical Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 775669824,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D34",
-      "name": "Tarrasch Defense, Classical Variation, Main Line",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6 7. Bg2 7... Be7 8. O-O 8... O-O 9. Bg5 9... cxd4 10. Nxd4 10... h6 11. Be3 11... Re8",
-      "count": 1429
+    "592069016": {
+      "id": 592069016,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "d8": "bq1",
+          "c3": "wn1",
+          "d5": "bp5",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "d4": "wn2",
+          "h6": "bp8",
+          "e3": "wb1",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "f3",
+            "d4"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "e3"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Tarrasch Defense, Classical Variation, Spassky Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 364863904,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D33",
-      "name": "Tarrasch Defense, Prague Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6",
-      "count": 1202
+    "592158331": {
+      "id": 592158331,
+      "state": {
+        "key": "f8e8",
+        "pgn": "Re8",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "c3": "wn1",
+          "d5": "bp5",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "g8": "bk1",
+          "d4": "wn2",
+          "h6": "bp8",
+          "e3": "wb1",
+          "e8": "br2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "f3",
+            "d4"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "e3"
+          ],
+          [
+            "f8",
+            "e8"
+          ]
+        ],
+        "comments": [
+          "Tarrasch Defense, Classical Variation, Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e8"
+          ]
+        }
+      },
+      "parentId": 364863904,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D32",
-      "name": "Tarrasch Defense, General",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5",
-      "count": 1103
+    "614124188": {
+      "id": 614124188,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876715617
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D34",
-      "name": "Tarrasch Defense, Classical Variation, Carlsbad Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6 7. Bg2 7... Be7 8. O-O 8... O-O 9. Bg5",
-      "count": 930
+    "634566910": {
+      "id": 634566910,
+      "state": {
+        "key": "f8e8",
+        "pgn": "Re8",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "c3": "wn1",
+          "d5": "bp5",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "g8": "bk1",
+          "g5": "wb1",
+          "d4": "wn2",
+          "e8": "br2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "f3",
+            "d4"
+          ],
+          [
+            "f8",
+            "e8"
+          ]
+        ],
+        "comments": [
+          "Tarrasch Defense, Classical Variation, Petursson Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e8"
+          ]
+        }
+      },
+      "parentId": 1058968583,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D34",
-      "name": "Tarrasch Defense, Classical Variation, Reti Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6 7. Bg2 7... Be7 8. O-O 8... O-O 9. dxc5 9... Bxc5 10. Na4",
-      "count": 886
+    "634625622": {
+      "id": 634625622,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "c3": "wn1",
+          "d5": "bp5",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "g5": "wb1",
+          "d4": "wn2",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "f3",
+            "d4"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 1058968583,
+      "childIds": [
+        364863904
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D33",
-      "name": "Tarrasch Defense, Swedish Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... c4",
-      "count": 505
+    "718322118": {
+      "id": 718322118,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 923122287,
+      "childIds": [
+        811825502
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D34",
-      "name": "Tarrasch Defense, Classical Variation, Endgame Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6 7. Bg2 7... Be7 8. O-O 8... O-O 9. Bg5 9... Be6",
-      "count": 411
+    "775669824": {
+      "id": 775669824,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "c5": "bp3",
+          "e3": "wp5",
+          "f6": "bn2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 924972213,
+      "childIds": [
+        442120741
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D34",
-      "name": "Tarrasch Defense, Classical Variation, Classical Tarrasch Gambit",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6 7. Bg2 7... Be7 8. O-O 8... O-O 9. dxc5 9... d4",
-      "count": 343
+    "811825502": {
+      "id": 811825502,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 718322118,
+      "childIds": [
+        1563090069
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D34",
-      "name": "Tarrasch Defense, Classical Variation, Spassky Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6 7. Bg2 7... Be7 8. O-O 8... O-O 9. Bg5 9... cxd4 10. Nxd4 10... h6 11. Be3 11... Bg4",
-      "count": 281
+    "889729095": {
+      "id": 889729095,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 235919692,
+      "childIds": [
+        1830503324
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D34",
-      "name": "Tarrasch Defense, Prague Variation, Main Line",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6 7. Bg2 7... Be7",
-      "count": 203
+    "923061743": {
+      "id": 923061743,
+      "state": {
+        "key": "c5d4",
+        "pgn": "cxd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e6": "bp5",
+          "c3": "wn1",
+          "d5": "wp3",
+          "d4": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "c5",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Tarrasch Defense, Schara Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "c5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 929730513,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D34",
-      "name": "Tarrasch Defense, Classical Variation, Petursson Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6 7. Bg2 7... Be7 8. O-O 8... O-O 9. Bg5 9... cxd4 10. Nxd4 10... Re8",
-      "count": 165
+    "923122287": {
+      "id": 923122287,
+      "state": {
+        "key": "e6d5",
+        "pgn": "exd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 929730513,
+      "childIds": [
+        718322118
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D33",
-      "name": "Tarrasch Defense, Rubinstein System",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3",
-      "count": 144
+    "924972213": {
+      "id": 924972213,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "c5": "bp3",
+          "e3": "wp5",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 929788202,
+      "childIds": [
+        775669824
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D33",
-      "name": "Tarrasch Defense, Wagner Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... c5 4. cxd5 4... exd5 5. Nf3 5... Nc6 6. g3 6... Nf6 7. Bg2 7... Bg4",
-      "count": 118
+    "929730513": {
+      "id": 929730513,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1830503324,
+      "childIds": [
+        923122287,
+        923061743
+      ],
+      "childIdx": 0
+    },
+    "929788202": {
+      "id": 929788202,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "c5": "bp3",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1830503324,
+      "childIds": [
+        924972213
+      ],
+      "childIdx": 0
+    },
+    "1058968583": {
+      "id": 1058968583,
+      "state": {
+        "key": "f3d4",
+        "pgn": "Nxd4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "c3": "wn1",
+          "d5": "bp5",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "g5": "wb1",
+          "d4": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c5",
+            "d4"
+          ],
+          [
+            "f3",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1765395776,
+      "childIds": [
+        634625622,
+        634566910
+      ],
+      "childIdx": 0
+    },
+    "1092065361": {
+      "id": 1092065361,
+      "state": {
+        "key": "c3a4",
+        "pgn": "Na4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "c5": "bb2",
+          "a4": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d4",
+            "c5"
+          ],
+          [
+            "e7",
+            "c5"
+          ],
+          [
+            "c3",
+            "a4"
+          ]
+        ],
+        "comments": [
+          "Tarrasch Defense, Classical Variation, Reti Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c3",
+            "a4"
+          ]
+        }
+      },
+      "parentId": 1766466300,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1216949141": {
+      "id": 1216949141,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1493398279,
+      "childIds": [
+        1236967185
+      ],
+      "childIdx": 0
+    },
+    "1229855125": {
+      "id": 1229855125,
+      "state": {
+        "key": "c5c4",
+        "pgn": "c4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c3": "wn1",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "c4": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "c5",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Tarrasch Defense, Swedish Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1563090069,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1229977267": {
+      "id": 1229977267,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1563090069,
+      "childIds": [
+        1640862149
+      ],
+      "childIdx": 0
+    },
+    "1236967185": {
+      "id": 1236967185,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 1216949141,
+      "childIds": [
+        1857460237,
+        1857492787
+      ],
+      "childIdx": 0
+    },
+    "1493308965": {
+      "id": 1493308965,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "comments": [
+          "Tarrasch Defense, Wagner Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 1640862149,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1493398279": {
+      "id": 1493398279,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1640862149,
+      "childIds": [
+        1216949141
+      ],
+      "childIdx": 0
+    },
+    "1563090069": {
+      "id": 1563090069,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 811825502,
+      "childIds": [
+        1229977267,
+        1229855125
+      ],
+      "childIdx": 0
+    },
+    "1640862149": {
+      "id": 1640862149,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 1229977267,
+      "childIds": [
+        1493398279,
+        1493308965
+      ],
+      "childIdx": 0
+    },
+    "1765395745": {
+      "id": 1765395745,
+      "state": {
+        "key": "c5c4",
+        "pgn": "c4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "c3": "wn1",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "g5": "wb1",
+          "c4": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c5",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Tarrasch Defense, Classical Variation, Advance Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1857460237,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1765395776": {
+      "id": 1765395776,
+      "state": {
+        "key": "c5d4",
+        "pgn": "cxd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "c3": "wn1",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "g5": "wb1",
+          "d4": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1857460237,
+      "childIds": [
+        1058968583
+      ],
+      "childIdx": 0
+    },
+    "1765398692": {
+      "id": 1765398692,
+      "state": {
+        "key": "c8e6",
+        "pgn": "Be6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "g5": "wb1",
+          "e6": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c8",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Tarrasch Defense, Classical Variation, Endgame Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 1857460237,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1766434617": {
+      "id": 1766434617,
+      "state": {
+        "key": "d5d4",
+        "pgn": "d4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "c3": "wn1",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "c5": "wp4",
+          "d4": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d4",
+            "c5"
+          ],
+          [
+            "d5",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Tarrasch Defense, Classical Variation, Classical Tarrasch Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1857492787,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1766466300": {
+      "id": 1766466300,
+      "state": {
+        "key": "e7c5",
+        "pgn": "Bxc5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "c3": "wn1",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "c5": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d4",
+            "c5"
+          ],
+          [
+            "e7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1857492787,
+      "childIds": [
+        1092065361
+      ],
+      "childIdx": 0
+    },
+    "1830503324": {
+      "id": 1830503324,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 889729095,
+      "childIds": [
+        929788202,
+        929730513
+      ],
+      "childIdx": 0
+    },
+    "1857460237": {
+      "id": 1857460237,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1236967185,
+      "childIds": [
+        1765395745,
+        1765395776,
+        1765398692
+      ],
+      "childIdx": 0
+    },
+    "1857492787": {
+      "id": 1857492787,
+      "state": {
+        "key": "d4c5",
+        "pgn": "dxc5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "c3": "wn1",
+          "d5": "bp5",
+          "f3": "wn2",
+          "c6": "bn1",
+          "g3": "wp7",
+          "f6": "bn2",
+          "g2": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "c5": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d4",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1236967185,
+      "childIds": [
+        1766466300,
+        1766434617
+      ],
+      "childIdx": 0
+    },
+    "1876715617": {
+      "id": 1876715617,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        214825995
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

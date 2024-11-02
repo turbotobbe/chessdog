@@ -1,56 +1,1519 @@
 {
-  "slug": "bogo-indian-defence",
-  "name": "Bogo-Indian Defence",
-  "range": "E11",
-  "lines": [
-    {
-      "eco": "E11",
-      "name": "Bogo-Indian Defense, GrÃ¼nfeld Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Nbd2",
-      "count": 12120
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Bogo-Indian Defence"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614124188
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "E11",
-      "name": "Bogo-Indian Defense, Nimzowitsch Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Bd2 4... Qe7",
-      "count": 10432
+    "83768673": {
+      "id": 83768673,
+      "state": {
+        "key": "a6b7",
+        "pgn": "Bb7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b6": "bp2",
+          "a3": "wp1",
+          "c2": "wq1",
+          "b7": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "a2",
+            "a3"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "d1",
+            "c2"
+          ],
+          [
+            "a6",
+            "b7"
+          ]
+        ],
+        "comments": [
+          "Queen's Indian Defense, Petrosian Variation, Farago Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "a6",
+            "b7"
+          ]
+        }
+      },
+      "parentId": 1110479434,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "E11",
-      "name": "Bogo-Indian Defense, Wade-Smyslov Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Bd2 4... a5",
-      "count": 4106
+    "217628302": {
+      "id": 217628302,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [
+        322791209
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "E11",
-      "name": "Bogo-Indian Defense, Vitolinsh Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Bd2 4... c5",
-      "count": 3204
+    "322791209": {
+      "id": 322791209,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 217628302,
+      "childIds": [
+        1435411523
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "E11",
-      "name": "Bogo-Indian Defense, Exchange Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Bd2 4... Bxd2+",
-      "count": 2501
+    "614124188": {
+      "id": 614124188,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876806014
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "E11",
-      "name": "Queen's Indian Defense, Petrosian Variation, Farago Defense",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... b6 4. a3 4... Ba6 5. Qc2 5... Bb7",
-      "count": 1803
+    "866501743": {
+      "id": 866501743,
+      "state": {
+        "key": "c8a6",
+        "pgn": "Ba6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b6": "bp2",
+          "a3": "wp1",
+          "a6": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "a2",
+            "a3"
+          ],
+          [
+            "c8",
+            "a6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 1343547903,
+      "childIds": [
+        1110479434
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "E11",
-      "name": "Bogo-Indian Defense, Retreat Variation",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... e6 3. Nf3 3... Bb4+ 4. Bd2 4... Be7",
-      "count": 479
+    "983699505": {
+      "id": 983699505,
+      "state": {
+        "key": "a7a5",
+        "pgn": "a5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b4": "bb2",
+          "d2": "wb1",
+          "a5": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "a7",
+            "a5"
+          ]
+        ],
+        "comments": [
+          "Bogo-Indian Defense, Wade-Smyslov Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 1347330429,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "983726503": {
+      "id": 983726503,
+      "state": {
+        "key": "b4d2",
+        "pgn": "Bxd2+",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "d2": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "b4",
+            "d2"
+          ]
+        ],
+        "comments": [
+          "Bogo-Indian Defense, Exchange Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b4",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 1347330429,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "983726539": {
+      "id": 983726539,
+      "state": {
+        "key": "b4e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "d2": "wb1",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "b4",
+            "e7"
+          ]
+        ],
+        "comments": [
+          "Bogo-Indian Defense, Retreat Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b4",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1347330429,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "983759149": {
+      "id": 983759149,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b4": "bb2",
+          "d2": "wb1",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Bogo-Indian Defense, Vitolinsh Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1347330429,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "983789965": {
+      "id": 983789965,
+      "state": {
+        "key": "d8e7",
+        "pgn": "Qe7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b4": "bb2",
+          "d2": "wb1",
+          "e7": "bq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ],
+          [
+            "d8",
+            "e7"
+          ]
+        ],
+        "comments": [
+          "Bogo-Indian Defense, Nimzowitsch Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1347330429,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1110479434": {
+      "id": 1110479434,
+      "state": {
+        "key": "d1c2",
+        "pgn": "Qc2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b6": "bp2",
+          "a3": "wp1",
+          "a6": "bb1",
+          "c2": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "a2",
+            "a3"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "d1",
+            "c2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "c2"
+          ]
+        }
+      },
+      "parentId": 866501743,
+      "childIds": [
+        83768673
+      ],
+      "childIdx": 0
+    },
+    "1343547903": {
+      "id": 1343547903,
+      "state": {
+        "key": "a2a3",
+        "pgn": "a3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b6": "bp2",
+          "a3": "wp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "a2",
+            "a3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a3"
+          ]
+        }
+      },
+      "parentId": 1566759595,
+      "childIds": [
+        866501743
+      ],
+      "childIdx": 0
+    },
+    "1347300638": {
+      "id": 1347300638,
+      "state": {
+        "key": "b1d2",
+        "pgn": "bd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b4": "bb2",
+          "d2": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "b1",
+            "d2"
+          ]
+        ],
+        "comments": [
+          "Bogo-Indian Defense, GrÃ¼nfeld Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 1566879718,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1347330429": {
+      "id": 1347330429,
+      "state": {
+        "key": "c1d2",
+        "pgn": "Bd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b4": "bb2",
+          "d2": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "c1",
+            "d2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 1566879718,
+      "childIds": [
+        983789965,
+        983699505,
+        983759149,
+        983726503,
+        983726539
+      ],
+      "childIdx": 0
+    },
+    "1435411523": {
+      "id": 1435411523,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 322791209,
+      "childIds": [
+        1566879718,
+        1566759595
+      ],
+      "childIdx": 0
+    },
+    "1566759595": {
+      "id": 1566759595,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 1435411523,
+      "childIds": [
+        1343547903
+      ],
+      "childIdx": 0
+    },
+    "1566879718": {
+      "id": 1566879718,
+      "state": {
+        "key": "f8b4",
+        "pgn": "Bb4+",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "e6": "bp5",
+          "f3": "wn2",
+          "b4": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "f8",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 1435411523,
+      "childIds": [
+        1347300638,
+        1347330429
+      ],
+      "childIdx": 0
+    },
+    "1876806014": {
+      "id": 1876806014,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        217628302
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

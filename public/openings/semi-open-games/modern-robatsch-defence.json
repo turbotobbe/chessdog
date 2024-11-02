@@ -1,196 +1,3991 @@
 {
-  "slug": "modern-robatsch-defence",
-  "name": "Modern/Robatsch Defence",
-  "range": "B06",
-  "lines": [
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Standard Defense",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... d6",
-      "count": 21715
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Modern/Robatsch Defence"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, King Pawn Fianchetto",
-      "color": "black",
-      "moves": "1. e4 1... g6",
-      "count": 20013
+    "246288236": {
+      "id": 246288236,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1877729566,
+      "childIds": [
+        1211279978,
+        1211309737
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Standard Line",
-      "color": "white",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3",
-      "count": 11255
+    "286780328": {
+      "id": 286780328,
+      "state": {
+        "key": "c1e3",
+        "pgn": "Be3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c5": "bp3",
+          "e3": "wb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c1",
+            "e3"
+          ]
+        ],
+        "comments": [
+          "Pterodactyl Defense, Eastern, Anhanguera"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 701384431,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Pseudo-Austrian Attack",
-      "color": "white",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... d6 4. f4",
-      "count": 6469
+    "286812942": {
+      "id": 286812942,
+      "state": {
+        "key": "d4c5",
+        "pgn": "dxc5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c5": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Pterodactyl Defense, Eastern, Rhamporhynchus"
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 701384431,
+      "childIds": [
+        320002447,
+        320090919
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Two Knights Variation",
-      "color": "white",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... d6 4. Nf3",
-      "count": 4804
+    "286812973": {
+      "id": 286812973,
+      "state": {
+        "key": "d4d5",
+        "pgn": "d5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c5": "bp3",
+          "d5": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Pterodactyl Defense, Eastern, Benoni"
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 701384431,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Geller's System",
-      "color": "white",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nf3 3... d6 4. c3",
-      "count": 3653
+    "286870725": {
+      "id": 286870725,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c6": "bp3",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 701384432,
+      "childIds": [
+        321792852
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Two Knights Variation, Suttles Variation",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... d6 4. Nf3 4... c6",
-      "count": 3370
+    "286899523": {
+      "id": 286899523,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c5": "bp3",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 701384431,
+      "childIds": [
+        322686458
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Three Pawns Attack",
-      "color": "white",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. f4",
-      "count": 1677
+    "287795207": {
+      "id": 287795207,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "d6": "bp4",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Pseudo-Austrian Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 701414254,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Gurgenidze Defense",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c6 4. f4 4... d5 5. e5 5... h5",
-      "count": 1324
+    "287824036": {
+      "id": 287824036,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "d6": "bp4",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 701414254,
+      "childIds": [
+        351315672
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Lizard Defense, Mittenberger Gambit",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... d5",
-      "count": 947
+    "316453156": {
+      "id": 316453156,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 702337774,
+      "childIds": [
+        1238849081
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Pterodactyl Defense, Western, Rhamporhynchus",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nf3 3... c5 4. dxc5 4... Qa5+",
-      "count": 857
+    "320002447": {
+      "id": 320002447,
+      "state": {
+        "key": "d8a5",
+        "pgn": "Qa5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c5": "wp4",
+          "a5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "c5"
+          ],
+          [
+            "d8",
+            "a5"
+          ]
+        ],
+        "comments": [
+          "Pterodactyl Defense, Eastern, Pterodactyl"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 286812942,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B06",
-      "name": "Pterodactyl Defense, Eastern, Benoni",
-      "color": "white",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. d5",
-      "count": 839
+    "320090919": {
+      "id": 320090919,
+      "state": {
+        "key": "g7c3",
+        "pgn": "Bxc3+",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "c5": "wp4",
+          "c3": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "c5"
+          ],
+          [
+            "g7",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 286812942,
+      "childIds": [
+        1351554446
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Bishop Attack",
-      "color": "white",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Bc4",
-      "count": 700
+    "321792852": {
+      "id": 321792852,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c6": "bp3",
+          "f4": "wp6",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 286870725,
+      "childIds": [
+        1404405728
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Norwegian Defense",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Nf6",
-      "count": 659
+    "322686458": {
+      "id": 322686458,
+      "state": {
+        "key": "d8a5",
+        "pgn": "Qa5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c5": "bp3",
+          "f3": "wn2",
+          "a5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d8",
+            "a5"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Pterodactyl Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 286899523,
+      "childIds": [
+        1432045047,
+        1432077661
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Pterodactyl Defense, Eastern, Pterodactyl",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. dxc5 4... Qa5",
-      "count": 406
+    "351315672": {
+      "id": 351315672,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "d6": "bp4",
+          "f3": "wn2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Two Knights Variation, Suttles Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 287824036,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Modern Pterodactyl",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5",
-      "count": 365
+    "430016356": {
+      "id": 430016356,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "f3": "wn2",
+          "c5": "bp3",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 706004919,
+      "childIds": [
+        464341019
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Semi-Averbakh Variation, Pterodactyl Variation",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. c4 3... c5 4. Nf3 4... Qa5+",
-      "count": 333
+    "430048070": {
+      "id": 430048070,
+      "state": {
+        "key": "d4c5",
+        "pgn": "dxc5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g7": "bb2",
+          "f3": "wn2",
+          "c5": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 706004919,
+      "childIds": [
+        465324121
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Pterodactyl Defense, Eastern, Anhanguera",
-      "color": "white",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. Be3",
-      "count": 312
+    "430940868": {
+      "id": 430940868,
+      "state": {
+        "key": "c2c3",
+        "pgn": "c3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "f3": "wn2",
+          "d6": "bp4",
+          "c3": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "c2",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Geller's System"
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 706034742,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Improved Maroczy",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nf3 3... c5 4. c4 4... Qb6",
-      "count": 295
+    "464341019": {
+      "id": 464341019,
+      "state": {
+        "key": "d8b6",
+        "pgn": "Qb6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "f3": "wn2",
+          "c5": "bp3",
+          "c4": "wp3",
+          "b6": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d8",
+            "b6"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Improved Maroczy"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 430016356,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B06",
-      "name": "Pterodactyl Defense, Eastern, Pteronodon",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. dxc5 4... Bxc3+ 5. bxc3 5... Qa5",
-      "count": 240
+    "465324121": {
+      "id": 465324121,
+      "state": {
+        "key": "d8a5",
+        "pgn": "Qa5+",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g7": "bb2",
+          "f3": "wn2",
+          "c5": "wp4",
+          "a5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "c5"
+          ],
+          [
+            "d8",
+            "a5"
+          ]
+        ],
+        "comments": [
+          "Pterodactyl Defense, Western, Rhamporhynchus"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 430048070,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B06",
-      "name": "Pterodactyl Defense, Eastern, Rhamporhynchus",
-      "color": "white",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. dxc5",
-      "count": 199
+    "575469466": {
+      "id": 575469466,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "g6": "bp7",
+          "d4": "wp4",
+          "e5": "wp5",
+          "h5": "bn2",
+          "e2": "wb2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "h5"
+          ],
+          [
+            "f1",
+            "e2"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Norwegian Defense, Norwegian Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1264885166,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B06",
-      "name": "Pterodactyl Defense, Sicilian, Anhanguera",
-      "color": "white",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. Nf3 4... Qa5 5. Be3",
-      "count": 199
+    "605758881": {
+      "id": 605758881,
+      "state": {
+        "key": "h7h5",
+        "pgn": "h5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c6": "bp3",
+          "f4": "wp6",
+          "d5": "bp4",
+          "e5": "wp5",
+          "h5": "bp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "h7",
+            "h5"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Gurgenidze Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h5"
+          ]
+        }
+      },
+      "parentId": 1404405728,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B06",
-      "name": "Pterodactyl Defense, Sicilian, Rhamporhynchus",
-      "color": "white",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. Nf3 4... Qa5 5. dxc5",
-      "count": 146
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877729566
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Norwegian Defense, Norwegian Gambit",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Nf6 3. e5 3... Nh5 4. Be2 4... d6",
-      "count": 142
+    "701354610": {
+      "id": 701354610,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Mongredien Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 1061126903,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Mongredien Defense",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... b6",
-      "count": 139
+    "701384431": {
+      "id": 701384431,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1061126903,
+      "childIds": [
+        286812973,
+        286812942,
+        286780328,
+        286899523
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Pterodactyl Variation",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nc3 3... c5 4. Nf3 4... Qa5",
-      "count": 110
+    "701384432": {
+      "id": 701384432,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1061126903,
+      "childIds": [
+        286870725
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B06",
-      "name": "Modern Defense, Mongredien Defense",
-      "color": "black",
-      "moves": "1. e4 1... g6 2. d4 2... Bg7 3. Nf3 3... b6",
-      "count": 107
+    "701414253": {
+      "id": 701414253,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Lizard Defense, Mittenberger Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1061126903,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "701414254": {
+      "id": 701414254,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1061126903,
+      "childIds": [
+        287795207,
+        287824036
+      ],
+      "childIdx": 0
+    },
+    "702337774": {
+      "id": 702337774,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c4": "wp3",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1061157656,
+      "childIds": [
+        316453156
+      ],
+      "childIdx": 0
+    },
+    "705975098": {
+      "id": 705975098,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "f3": "wn2",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Mongredien Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 1061275951,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "706004919": {
+      "id": 706004919,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "f3": "wn2",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1061275951,
+      "childIds": [
+        430048070,
+        430016356
+      ],
+      "childIdx": 0
+    },
+    "706034742": {
+      "id": 706034742,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "f3": "wn2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1061275951,
+      "childIds": [
+        430940868
+      ],
+      "childIdx": 0
+    },
+    "732933317": {
+      "id": 732933317,
+      "state": {
+        "key": "f6h5",
+        "pgn": "Nh5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "g6": "bp7",
+          "d4": "wp4",
+          "e5": "wp5",
+          "h5": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "h5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "h5"
+          ]
+        }
+      },
+      "parentId": 1062141752,
+      "childIds": [
+        1264885166
+      ],
+      "childIdx": 0
+    },
+    "1061126903": {
+      "id": 1061126903,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1211279978,
+      "childIds": [
+        701414254,
+        701384432,
+        701414253,
+        701384431,
+        701354610
+      ],
+      "childIdx": 0
+    },
+    "1061157656": {
+      "id": 1061157656,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1211279978,
+      "childIds": [
+        702337774
+      ],
+      "childIdx": 0
+    },
+    "1061246068": {
+      "id": 1061246068,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Bishop Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1211279978,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1061247122": {
+      "id": 1061247122,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Three Pawns Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1211279978,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1061275951": {
+      "id": 1061275951,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1211279978,
+      "childIds": [
+        706034742,
+        706004919,
+        705975098
+      ],
+      "childIdx": 0
+    },
+    "1062141752": {
+      "id": 1062141752,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "g6": "bp7",
+          "d4": "wp4",
+          "f6": "bn2",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1211309737,
+      "childIds": [
+        732933317
+      ],
+      "childIdx": 0
+    },
+    "1114734366": {
+      "id": 1114734366,
+      "state": {
+        "key": "d8a5",
+        "pgn": "Qa5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "c5": "wp4",
+          "c3": "wp2",
+          "a5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "c5"
+          ],
+          [
+            "g7",
+            "c3"
+          ],
+          [
+            "b2",
+            "c3"
+          ],
+          [
+            "d8",
+            "a5"
+          ]
+        ],
+        "comments": [
+          "Pterodactyl Defense, Eastern, Pteronodon"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 1351554446,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1211279978": {
+      "id": 1211279978,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 246288236,
+      "childIds": [
+        1061126903,
+        1061275951,
+        1061247122,
+        1061246068,
+        1061157656
+      ],
+      "childIdx": 0
+    },
+    "1211309737": {
+      "id": 1211309737,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 246288236,
+      "childIds": [
+        1062141752
+      ],
+      "childIdx": 0
+    },
+    "1238849081": {
+      "id": 1238849081,
+      "state": {
+        "key": "d8a5",
+        "pgn": "Qa5+",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "f3": "wn2",
+          "a5": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d8",
+            "a5"
+          ]
+        ],
+        "comments": [
+          "Modern Defense, Semi-Averbakh Variation, Pterodactyl Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 316453156,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1264885166": {
+      "id": 1264885166,
+      "state": {
+        "key": "f1e2",
+        "pgn": "Be2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "g6": "bp7",
+          "d4": "wp4",
+          "e5": "wp5",
+          "h5": "bn2",
+          "e2": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "h5"
+          ],
+          [
+            "f1",
+            "e2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 732933317,
+      "childIds": [
+        575469466
+      ],
+      "childIdx": 0
+    },
+    "1351554446": {
+      "id": 1351554446,
+      "state": {
+        "key": "b2c3",
+        "pgn": "bxc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "c5": "wp4",
+          "c3": "wp2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "c5"
+          ],
+          [
+            "g7",
+            "c3"
+          ],
+          [
+            "b2",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 320090919,
+      "childIds": [
+        1114734366
+      ],
+      "childIdx": 0
+    },
+    "1404405728": {
+      "id": 1404405728,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c6": "bp3",
+          "f4": "wp6",
+          "d5": "bp4",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 321792852,
+      "childIds": [
+        605758881
+      ],
+      "childIdx": 0
+    },
+    "1432045047": {
+      "id": 1432045047,
+      "state": {
+        "key": "c1e3",
+        "pgn": "Be3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "d4": "wp4",
+          "g7": "bb2",
+          "c3": "wn1",
+          "c5": "bp3",
+          "f3": "wn2",
+          "a5": "bq1",
+          "e3": "wb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d8",
+            "a5"
+          ],
+          [
+            "c1",
+            "e3"
+          ]
+        ],
+        "comments": [
+          "Pterodactyl Defense, Sicilian, Anhanguera"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 322686458,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1432077661": {
+      "id": 1432077661,
+      "state": {
+        "key": "d4c5",
+        "pgn": "dxc5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g7": "bb2",
+          "c3": "wn1",
+          "f3": "wn2",
+          "a5": "bq1",
+          "c5": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d8",
+            "a5"
+          ],
+          [
+            "d4",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Pterodactyl Defense, Sicilian, Rhamporhynchus"
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 322686458,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1877729566": {
+      "id": 1877729566,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        246288236
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

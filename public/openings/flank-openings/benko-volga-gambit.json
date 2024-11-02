@@ -1,133 +1,4530 @@
 {
-  "slug": "benko-volga-gambit",
-  "name": "Benko/Volga Gambit",
-  "range": "A57-A59",
-  "lines": [
-    {
-      "eco": "A58",
-      "name": "Benko Gambit, Accepted, Fully Accepted Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6",
-      "count": 7007
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Benko/Volga Gambit"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614124188
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A57",
-      "name": "Benko Gambit, Accepted, Pawn Return Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. b6",
-      "count": 4738
+    "217628302": {
+      "id": 217628302,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1876806014,
+      "childIds": [
+        322731564
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A57",
-      "name": "Benko Gambit, Declined, Main Line",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. Nf3",
-      "count": 3821
+    "322731564": {
+      "id": 322731564,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 217628302,
+      "childIds": [
+        1433475978
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A57",
-      "name": "Benko Gambit, Accepted, Modern Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. e3",
-      "count": 3252
+    "357590645": {
+      "id": 357590645,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "wp3",
+          "a6": "bp1",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1188585260,
+      "childIds": [
+        366536329
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A58",
-      "name": "Benko Gambit, Accepted, Fianchetto Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6 5... Bxa6 6. Nc3 6... g6 7. Nf3 7... d6 8. g3 8... Bg7 9. Bg2",
-      "count": 3228
+    "357594430": {
+      "id": 357594430,
+      "state": {
+        "key": "b5a6",
+        "pgn": "bxa6",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b5",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 1188585260,
+      "childIds": [
+        366715138,
+        366833527
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A57",
-      "name": "Benoni Defense, Hromodka System",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... d6",
-      "count": 3009
+    "357594461": {
+      "id": 357594461,
+      "state": {
+        "key": "b5b6",
+        "pgn": "b6",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "bp1",
+          "b6": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "b6"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Accepted, Pawn Return Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b5",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 1188585260,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A57",
-      "name": "Benko Gambit, General",
-      "color": "black",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5",
-      "count": 2991
+    "357681041": {
+      "id": 357681041,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "wp3",
+          "a6": "bp1",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Accepted, Modern Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1188585260,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A59",
-      "name": "Benko Gambit, Accepted, King Walk Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6 5... Bxa6 6. Nc3 6... d6 7. e4 7... Bxf1 8. Kxf1 8... g6 9. g3 9... Bg7 10. Kg2 10... O-O 11. Nf3",
-      "count": 2611
+    "357710863": {
+      "id": 357710863,
+      "state": {
+        "key": "f2f3",
+        "pgn": "f3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "wp3",
+          "a6": "bp1",
+          "f3": "wp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "f2",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Accepted, Dlugy Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1188585260,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "A57",
-      "name": "Benko Gambit, Accepted, Dlugy Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. f3",
-      "count": 1797
+    "366536329": {
+      "id": 366536329,
+      "state": {
+        "key": "a6b5",
+        "pgn": "axb5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "b5": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "a6",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a6",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 357590645,
+      "childIds": [
+        643967945
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A58",
-      "name": "Benko Gambit, Zaitsev System",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. Nc3",
-      "count": 953
+    "366715138": {
+      "id": 366715138,
+      "state": {
+        "key": "c8a6",
+        "pgn": "Bxa6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 357594430,
+      "childIds": [
+        649420627
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A57",
-      "name": "Benko Gambit, Declined, Quiet Line",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. Nd2",
-      "count": 921
+    "366833527": {
+      "id": 366833527,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "wp3",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 357594430,
+      "childIds": [
+        653090686
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A57",
-      "name": "Benko Gambit, Declined, Sosonko Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. a4",
-      "count": 837
+    "614124188": {
+      "id": 614124188,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876806014
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A57",
-      "name": "Benko Gambit, Zaitsev Variation, Nescafe Frappe Attack",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. Nc3 5... axb5 6. e4 6... b4 7. Nb5",
-      "count": 808
+    "643967945": {
+      "id": 643967945,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "b5": "bp1",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "a6",
+            "b5"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 366536329,
+      "childIds": [
+        654326870
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A59",
-      "name": "Benko Gambit, Accepted, Yugoslav without 7...Bxf1",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6 5... Bxa6 6. Nc3 6... d6 7. e4",
-      "count": 497
+    "649420627": {
+      "id": 649420627,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "bb1",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 366715138,
+      "childIds": [
+        823511046,
+        823421580
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A57",
-      "name": "Benko Gambit, Declined, Pseudo-Saemisch",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. f3",
-      "count": 264
+    "653090686": {
+      "id": 653090686,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "wp3",
+          "g6": "bp7",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 366833527,
+      "childIds": [
+        937164486
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A57",
-      "name": "Benko Gambit, Accepted, Central Storming Variation",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6 5... g6 6. Nc3 6... Bxa6 7. f4",
-      "count": 220
+    "654326870": {
+      "id": 654326870,
+      "state": {
+        "key": "b5b4",
+        "pgn": "b4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "e4": "wp5",
+          "b4": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "a6",
+            "b5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b5",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b5",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 643967945,
+      "childIds": [
+        975481415
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A59",
-      "name": "Benko Gambit, Accepted, Yugoslav with 7...Bxf1, Nge2",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. cxb5 4... a6 5. bxa6 5... Bxa6 6. Nc3 6... d6 7. e4 7... Bxf1 8. Kxf1 8... g6 9. Nge2",
-      "count": 207
+    "682628197": {
+      "id": 682628197,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "d6": "bp4",
+          "e4": "wp5",
+          "f1": "wk1",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a6",
+            "f1"
+          ],
+          [
+            "e1",
+            "f1"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 783424281,
+      "childIds": [
+        1852910155
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "A57",
-      "name": "Benko Gambit, Declined, Bishop Attack",
-      "color": "white",
-      "moves": "1. d4 1... Nf6 2. c4 2... c5 3. d5 3... b5 4. Bg5",
-      "count": 187
+    "783423257": {
+      "id": 783423257,
+      "state": {
+        "key": "g1e2",
+        "pgn": "ge2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "d6": "bp4",
+          "e4": "wp5",
+          "f1": "wk1",
+          "g6": "bp7",
+          "e2": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a6",
+            "f1"
+          ],
+          [
+            "e1",
+            "f1"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "e2"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Accepted, Yugoslav with 7...Bxf1, Nge2"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 1410137987,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "783424281": {
+      "id": 783424281,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "d6": "bp4",
+          "e4": "wp5",
+          "f1": "wk1",
+          "g6": "bp7",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a6",
+            "f1"
+          ],
+          [
+            "e1",
+            "f1"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1410137987,
+      "childIds": [
+        682628197
+      ],
+      "childIdx": 0
+    },
+    "823421580": {
+      "id": 823421580,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "bb1",
+          "c3": "wn1",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 649420627,
+      "childIds": [
+        1922508844
+      ],
+      "childIdx": 0
+    },
+    "823511046": {
+      "id": 823511046,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "bb1",
+          "c3": "wn1",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 649420627,
+      "childIds": [
+        1925340941
+      ],
+      "childIdx": 0
+    },
+    "937164486": {
+      "id": 937164486,
+      "state": {
+        "key": "c8a6",
+        "pgn": "Bxa6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "g6": "bp7",
+          "c3": "wn1",
+          "a6": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c8",
+            "a6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 653090686,
+      "childIds": [
+        1153601458
+      ],
+      "childIdx": 0
+    },
+    "975481415": {
+      "id": 975481415,
+      "state": {
+        "key": "c3b5",
+        "pgn": "Nb5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "e4": "wp5",
+          "b4": "bp1",
+          "b5": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "a6",
+            "b5"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "b5",
+            "b4"
+          ],
+          [
+            "c3",
+            "b5"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Zaitsev Variation, Nescafe Frappe Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "c3",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 654326870,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "983274427": {
+      "id": 983274427,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a6",
+            "f1"
+          ],
+          [
+            "e1",
+            "f1"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Accepted, King Walk Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1624405796,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1153601458": {
+      "id": 1153601458,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "g6": "bp7",
+          "c3": "wn1",
+          "a6": "bb1",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Accepted, Central Storming Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 937164486,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1188585260": {
+      "id": 1188585260,
+      "state": {
+        "key": "a7a6",
+        "pgn": "a6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "wp3",
+          "a6": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 1631034311,
+      "childIds": [
+        357594430,
+        357594461,
+        357681041,
+        357710863,
+        357590645
+      ],
+      "childIdx": 0
+    },
+    "1248643316": {
+      "id": 1248643316,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Bg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "bb1",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "d6": "bp4",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Accepted, Fianchetto Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 2117882705,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1291807071": {
+      "id": 1291807071,
+      "state": {
+        "key": "e1f1",
+        "pgn": "Kxf1",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "d6": "bp4",
+          "e4": "wp5",
+          "f1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a6",
+            "f1"
+          ],
+          [
+            "e1",
+            "f1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "f1"
+          ]
+        }
+      },
+      "parentId": 1634360384,
+      "childIds": [
+        1410137987
+      ],
+      "childIdx": 0
+    },
+    "1410137987": {
+      "id": 1410137987,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "d6": "bp4",
+          "e4": "wp5",
+          "f1": "wk1",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a6",
+            "f1"
+          ],
+          [
+            "e1",
+            "f1"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 1291807071,
+      "childIds": [
+        783424281,
+        783423257
+      ],
+      "childIdx": 0
+    },
+    "1433475978": {
+      "id": 1433475978,
+      "state": {
+        "key": "d4d5",
+        "pgn": "d5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "d5": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 322731564,
+      "childIds": [
+        1506757699,
+        1506817344
+      ],
+      "childIdx": 0
+    },
+    "1506757699": {
+      "id": 1506757699,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 1433475978,
+      "childIds": [
+        1631034311,
+        1631150714,
+        1631001696,
+        1630972775,
+        1631121884,
+        1631031583
+      ],
+      "childIdx": 0
+    },
+    "1506817344": {
+      "id": 1506817344,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "d5": "wp4",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Benoni Defense, Hromodka System"
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1433475978,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1624405796": {
+      "id": 1624405796,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wk1",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a6",
+            "f1"
+          ],
+          [
+            "e1",
+            "f1"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 1852910155,
+      "childIds": [
+        983274427
+      ],
+      "childIdx": 0
+    },
+    "1630972775": {
+      "id": 1630972775,
+      "state": {
+        "key": "a2a4",
+        "pgn": "a4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "bp2",
+          "a4": "wp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "a2",
+            "a4"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Declined, Sosonko Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a4"
+          ]
+        }
+      },
+      "parentId": 1506757699,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1631001696": {
+      "id": 1631001696,
+      "state": {
+        "key": "b1d2",
+        "pgn": "Nd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "bp2",
+          "d2": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "b1",
+            "d2"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Declined, Quiet Line"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 1506757699,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1631031583": {
+      "id": 1631031583,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "bp2",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Declined, Bishop Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1506757699,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1631034311": {
+      "id": 1631034311,
+      "state": {
+        "key": "c4b5",
+        "pgn": "cxb5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 1506757699,
+      "childIds": [
+        1188585260
+      ],
+      "childIdx": 0
+    },
+    "1631121884": {
+      "id": 1631121884,
+      "state": {
+        "key": "f2f3",
+        "pgn": "f3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "bp2",
+          "f3": "wp6"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "f2",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Declined, Pseudo-Saemisch"
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1506757699,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1631150714": {
+      "id": 1631150714,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c4": "wp3",
+          "c5": "bp3",
+          "d5": "wp4",
+          "b5": "bp2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "comments": [
+          "Benko Gambit, Declined, Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1506757699,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1634360384": {
+      "id": 1634360384,
+      "state": {
+        "key": "a6f1",
+        "pgn": "Bxf1",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "d6": "bp4",
+          "e4": "wp5",
+          "f1": "bb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a6",
+            "f1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a6",
+            "f1"
+          ]
+        }
+      },
+      "parentId": 1922508844,
+      "childIds": [
+        1291807071
+      ],
+      "childIdx": 0
+    },
+    "1722245668": {
+      "id": 1722245668,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "bb1",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1925340941,
+      "childIds": [
+        1868827804
+      ],
+      "childIdx": 0
+    },
+    "1852910155": {
+      "id": 1852910155,
+      "state": {
+        "key": "f1g2",
+        "pgn": "Kg2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "c3": "wn1",
+          "d6": "bp4",
+          "e4": "wp5",
+          "g6": "bp7",
+          "g3": "wp7",
+          "g7": "bb2",
+          "g2": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "a6",
+            "f1"
+          ],
+          [
+            "e1",
+            "f1"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "f1",
+            "g2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "g2"
+          ]
+        }
+      },
+      "parentId": 682628197,
+      "childIds": [
+        1624405796
+      ],
+      "childIdx": 0
+    },
+    "1868827804": {
+      "id": 1868827804,
+      "state": {
+        "key": "g2g3",
+        "pgn": "g3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "bb1",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "d6": "bp4",
+          "g3": "wp7"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g2",
+            "g3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g2",
+            "g3"
+          ]
+        }
+      },
+      "parentId": 1722245668,
+      "childIds": [
+        2117882705
+      ],
+      "childIdx": 0
+    },
+    "1876806014": {
+      "id": 1876806014,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        217628302
+      ],
+      "childIdx": 0
+    },
+    "1922508844": {
+      "id": 1922508844,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "bb1",
+          "c3": "wn1",
+          "d6": "bp4",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 823421580,
+      "childIds": [
+        1634360384
+      ],
+      "childIdx": 0
+    },
+    "1925340941": {
+      "id": 1925340941,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "bb1",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 823511046,
+      "childIds": [
+        1722245668
+      ],
+      "childIdx": 0
+    },
+    "2117882705": {
+      "id": 2117882705,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "h2": "wp8",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f6": "bn2",
+          "c5": "bp3",
+          "d5": "wp4",
+          "a6": "bb1",
+          "c3": "wn1",
+          "g6": "bp7",
+          "f3": "wn2",
+          "d6": "bp4",
+          "g3": "wp7",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "d4",
+            "d5"
+          ],
+          [
+            "b7",
+            "b5"
+          ],
+          [
+            "c4",
+            "b5"
+          ],
+          [
+            "a7",
+            "a6"
+          ],
+          [
+            "b5",
+            "a6"
+          ],
+          [
+            "c8",
+            "a6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g2",
+            "g3"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 1868827804,
+      "childIds": [
+        1248643316
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

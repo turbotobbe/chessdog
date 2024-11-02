@@ -1,259 +1,8572 @@
 {
-  "slug": "queens-gambit-declined-classical",
-  "name": "Queen's Gambit Declined: Classical",
-  "range": "D50-D69",
-  "lines": [
-    {
-      "eco": "D50",
-      "name": "Queen's Gambit Declined, Modern Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5",
-      "count": 7814
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "183310": {
+      "id": 183310,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "c5": "bp3",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Pseudo-Tarrasch Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1038507604,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D58",
-      "name": "Queen's Gambit Declined, Tartakower Defense, General",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... b6",
-      "count": 5784
+    "320408": {
+      "id": 320408,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "d7": "bn1",
+          "f3": "wn2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 2146890591,
+      "childIds": [
+        28692628
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D52",
-      "name": "Queen's Gambit Declined, Cambridge Springs Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7 5. Nf3 5... c6 6. e3 6... Qa5",
-      "count": 5764
+    "3043337": {
+      "id": 3043337,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1038598002,
+      "childIds": [
+        113109260
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D55",
-      "name": "Queen's Gambit Declined, Modern Variation, Normal Line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3",
-      "count": 3904
+    "3101989": {
+      "id": 3101989,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1038598002,
+      "childIds": [
+        114927472
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D61",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Rubinstein Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Qc2",
-      "count": 2051
+    "16822148": {
+      "id": 16822148,
+      "state": {
+        "key": "d8e7",
+        "pgn": "Qxe7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "e4": "bn2",
+          "e7": "bq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "h4",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1801053581,
+      "childIds": [
+        540215753,
+        540188879
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D51",
-      "name": "Queen's Gambit Declined, Modern, Knight Defense",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7 5. e3 5... c6",
-      "count": 1927
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Queen's Gambit Declined: Classical"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614124188
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D63",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Main Line",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6",
-      "count": 1834
+    "28692628": {
+      "id": 28692628,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "d7": "bn1",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 320408,
+      "childIds": [
+        908207301
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D56",
-      "name": "Queen's Gambit Declined, Lasker Defense",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... Ne4",
-      "count": 1692
+    "30757730": {
+      "id": 30757730,
+      "state": {
+        "key": "b2c3",
+        "pgn": "bxc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "e7": "bq1",
+          "d5": "wp3",
+          "c3": "wp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "h4",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e4",
+            "c3"
+          ],
+          [
+            "b2",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Lasker Defense, Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1732231560,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D59",
-      "name": "Queen's Gambit Declined, Tartakower Defense, Makogonov Exchange Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... b6 8. cxd5 8... Nxd5",
-      "count": 1646
+    "91649593": {
+      "id": 91649593,
+      "state": {
+        "key": "d1c2",
+        "pgn": "Qc2",
+        "whitesTurn": false,
+        "squares": {
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "e7": "bq1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c3": "wr1",
+          "e5": "bp5",
+          "c2": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d5",
+            "c3"
+          ],
+          [
+            "c1",
+            "c3"
+          ],
+          [
+            "e6",
+            "e5"
+          ],
+          [
+            "d1",
+            "c2"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Orthodox Defense, Classical Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "c2"
+          ]
+        }
+      },
+      "parentId": 279446936,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D60",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Botvinnik Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Bd3",
-      "count": 1593
+    "91652541": {
+      "id": 91652541,
+      "state": {
+        "key": "d4e5",
+        "pgn": "dxe5",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "e7": "bq1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c3": "wr1",
+          "e5": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d5",
+            "c3"
+          ],
+          [
+            "c1",
+            "c3"
+          ],
+          [
+            "e6",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 279446936,
+      "childIds": [
+        712480120
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D51",
-      "name": "Queen's Gambit Declined, Modern, Knight Defense",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7",
-      "count": 1520
+    "113109260": {
+      "id": 113109260,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 3043337,
+      "childIds": [
+        1377722045,
+        1377543204
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D60",
-      "name": "Queen's Gambit Declined, Orthodox Defense, General",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7",
-      "count": 1396
+    "114927472": {
+      "id": 114927472,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 3101989,
+      "childIds": [
+        1433997150
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D55",
-      "name": "Queen's Gambit Declined, Neo-Orthodox Variation, Main Line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4",
-      "count": 1238
+    "214825995": {
+      "id": 214825995,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1876715617,
+      "childIds": [
+        235919692
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D55",
-      "name": "Queen's Gambit Declined, Anti-Tartakower Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bxf6",
-      "count": 1122
+    "227075835": {
+      "id": 227075835,
+      "state": {
+        "key": "a7a6",
+        "pgn": "a6",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "a6": "bp1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "a7",
+            "a6"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Orthodox Defense, Hennegerger Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a7",
+            "a6"
+          ]
+        }
+      },
+      "parentId": 1738565210,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D63",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Hennegerger Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... a6",
-      "count": 988
+    "227105657": {
+      "id": 227105657,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 1738565210,
+      "childIds": [
+        616526717
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D63",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Main Line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1",
-      "count": 980
+    "227135479": {
+      "id": 227135479,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1738565210,
+      "childIds": [
+        617537687
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D51",
-      "name": "Queen's Gambit Declined, Westphalian Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7 5. e3 5... Bb4 6. Nf3 6... c5",
-      "count": 750
+    "229906072": {
+      "id": 229906072,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c2": "wq1",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "d1",
+            "c2"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 1738654584,
+      "childIds": [
+        703339582
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D55",
-      "name": "Queen's Gambit Declined, Anti-Tartakower Variation, Petrosian Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bxf6 7... Bxf6 8. Rc1 8... c6 9. Bd3 9... Nd7 10. O-O 10... dxc4 11. Bxc4",
-      "count": 743
+    "232848896": {
+      "id": 232848896,
+      "state": {
+        "key": "d5c4",
+        "pgn": "dxc4",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "f6": "bb2",
+          "c1": "wr1",
+          "c6": "bp3",
+          "d3": "wb2",
+          "d7": "bn1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c4": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "f6"
+          ],
+          [
+            "e7",
+            "f6"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d5",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 2085116945,
+      "childIds": [
+        794595924
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D53",
-      "name": "Queen's Gambit Declined, Miles Variation, Dzhindzhi Attack",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. Nf3 5... O-O 6. Qc2",
-      "count": 658
+    "235919692": {
+      "id": 235919692,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 214825995,
+      "childIds": [
+        889729095
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D56",
-      "name": "Queen's Gambit Declined, Lasker Defense, Teichmann Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... Ne4 8. Bxe7 8... Qxe7 9. Qc2",
-      "count": 648
+    "279446936": {
+      "id": 279446936,
+      "state": {
+        "key": "e6e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "e7": "bq1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c3": "wr1",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d5",
+            "c3"
+          ],
+          [
+            "c1",
+            "c3"
+          ],
+          [
+            "e6",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e6",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 908966791,
+      "childIds": [
+        91652541,
+        91649593
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D57",
-      "name": "Queen's Gambit Declined, Tartakower Variation, Exchange Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... b6 8. cxd5 8... exd5",
-      "count": 575
+    "377154889": {
+      "id": 377154889,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "b6": "bp2",
+          "d5": "bp5",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Orthodox Defense, Pillsbury Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1951222846,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D51",
-      "name": "Queen's Gambit Declined, Modern, Knight Defense",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7 5. e3",
-      "count": 522
+    "403740433": {
+      "id": 403740433,
+      "state": {
+        "key": "b7b6",
+        "pgn": "b6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "h4": "wb1",
+          "b6": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "b7",
+            "b6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 1744263106,
+      "childIds": [
+        1797237479
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D57",
-      "name": "Queen's Gambit Declined, Lasker Defense, Main Line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6 7. Bh4 7... Ne4 8. Bxe7 8... Qxe7 9. cxd5 9... Nxc3 10. bxc3",
-      "count": 403
+    "403828070": {
+      "id": 403828070,
+      "state": {
+        "key": "e7f6",
+        "pgn": "Bxf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "f6": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "f6"
+          ],
+          [
+            "e7",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1744263046,
+      "childIds": [
+        1799891726
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D62",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Rubinstein Variation, Flohr Line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Qc2 7... c5 8. cxd5",
-      "count": 370
+    "403858727": {
+      "id": 403858727,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Ne4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "h4": "wb1",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1744263106,
+      "childIds": [
+        1801053581
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D67",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Alekhine Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... Nd5 10. Bxe7 10... Qxe7 11. Ne4",
-      "count": 319
+    "540188879": {
+      "id": 540188879,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "e4": "bn2",
+          "e7": "bq1",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "h4",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 16822148,
+      "childIds": [
+        1732231560
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D67",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Main Line",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... Nd5 10. Bxe7 10... Qxe7 11. O-O",
-      "count": 316
+    "540215753": {
+      "id": 540215753,
+      "state": {
+        "key": "d1c2",
+        "pgn": "Qc2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "e4": "bn2",
+          "e7": "bq1",
+          "c2": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "h4",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "d1",
+            "c2"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Lasker Defense, Teichmann Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "c2"
+          ]
+        }
+      },
+      "parentId": 16822148,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D68",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Classical Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... Nd5 10. Bxe7 10... Qxe7 11. O-O 11... Nxc3 12. Rxc3 12... e5",
-      "count": 302
+    "582907632": {
+      "id": 582907632,
+      "state": {
+        "key": "d5c3",
+        "pgn": "Nxc3",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "e7": "bq1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c3": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d5",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1403672502,
+      "childIds": [
+        908966791
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D54",
-      "name": "Queen's Gambit Declined, Neo-Orthodox Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Rc1",
-      "count": 290
+    "614124188": {
+      "id": 614124188,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1876715617
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D66",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Fianchetto Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... b5",
-      "count": 275
+    "616526717": {
+      "id": 616526717,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "b6": "bp2",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 227105657,
+      "childIds": [
+        1951222846
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D50",
-      "name": "Queen's Gambit Declined, Pseudo-Tarrasch Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... c5 5. cxd5",
-      "count": 260
+    "617537687": {
+      "id": 617537687,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "c6": "bp3",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 227135479,
+      "childIds": [
+        1982532132
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D69",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Classical Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... Nd5 10. Bxe7 10... Qxe7 11. O-O 11... Nxc3 12. Rxc3 12... e5 13. dxe5 13... Nxe5 14. Nxe5",
-      "count": 231
+    "630837984": {
+      "id": 630837984,
+      "state": {
+        "key": "f3e5",
+        "pgn": "Nxe5",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "e7": "bq1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c3": "wr1",
+          "e5": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d5",
+            "c3"
+          ],
+          [
+            "c1",
+            "c3"
+          ],
+          [
+            "e6",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d7",
+            "e5"
+          ],
+          [
+            "f3",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Orthodox Defense, Classical Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 712480120,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D63",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Pillsbury Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... b6 8. cxd5 8... exd5 9. Bd3",
-      "count": 200
+    "703339582": {
+      "id": 703339582,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c2": "wq1",
+          "c5": "bp3",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "d1",
+            "c2"
+          ],
+          [
+            "c7",
+            "c5"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Orthodox Defense, Rubinstein Variation, Flohr Line"
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 229906072,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D68",
-      "name": "Queen's Gambit Declined, Orthodox Defense, Classical Variation",
-      "color": "white",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... Nbd7 7. Rc1 7... c6 8. Bd3 8... dxc4 9. Bxc4 9... Nd5 10. Bxe7 10... Qxe7 11. O-O 11... Nxc3 12. Rxc3 12... e5 13. Qc2",
-      "count": 195
+    "712480120": {
+      "id": 712480120,
+      "state": {
+        "key": "d7e5",
+        "pgn": "Nxe5",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "c6": "bp3",
+          "c4": "wb2",
+          "e7": "bq1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c3": "wr1",
+          "e5": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d5",
+            "c3"
+          ],
+          [
+            "c1",
+            "c3"
+          ],
+          [
+            "e6",
+            "e5"
+          ],
+          [
+            "d4",
+            "e5"
+          ],
+          [
+            "d7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 91652541,
+      "childIds": [
+        630837984
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D55",
-      "name": "Queen's Gambit Declined, Neo-Orthodox Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Be7 5. e3 5... O-O 6. Nf3 6... h6",
-      "count": 181
+    "794131939": {
+      "id": 794131939,
+      "state": {
+        "key": "g5e7",
+        "pgn": "Bxe7",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "d5": "bn2",
+          "e7": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 994841308,
+      "childIds": [
+        1014505951
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "D51",
-      "name": "Queen's Gambit Declined, Manhattan Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... Nbd7 5. e3 5... Bb4",
-      "count": 176
+    "794595924": {
+      "id": 794595924,
+      "state": {
+        "key": "d3c4",
+        "pgn": "Bxc4",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "f6": "bb2",
+          "c1": "wr1",
+          "c6": "bp3",
+          "d7": "bn1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "f6"
+          ],
+          [
+            "e7",
+            "f6"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Anti-Tartakower Variation, Petrosian Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d3",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 232848896,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "D50",
-      "name": "Queen's Gambit Declined, Been-Koomen Variation",
-      "color": "black",
-      "moves": "1. d4 1... d5 2. c4 2... e6 3. Nc3 3... Nf6 4. Bg5 4... c5",
-      "count": 120
+    "889729095": {
+      "id": 889729095,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 235919692,
+      "childIds": [
+        1830623543
+      ],
+      "childIdx": 0
+    },
+    "908207301": {
+      "id": 908207301,
+      "state": {
+        "key": "d8a5",
+        "pgn": "Qa5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "d7": "bn1",
+          "f3": "wn2",
+          "c6": "bp3",
+          "e3": "wp5",
+          "a5": "bq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "d8",
+            "a5"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Cambridge Springs Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "a5"
+          ]
+        }
+      },
+      "parentId": 28692628,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "908966791": {
+      "id": 908966791,
+      "state": {
+        "key": "c1c3",
+        "pgn": "Rxc3",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "e7": "bq1",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c3": "wr1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "d5",
+            "c3"
+          ],
+          [
+            "c1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 582907632,
+      "childIds": [
+        279446936
+      ],
+      "childIdx": 0
+    },
+    "933454512": {
+      "id": 933454512,
+      "state": {
+        "key": "c1g5",
+        "pgn": "Bg5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "g5"
+          ]
+        }
+      },
+      "parentId": 1830623543,
+      "childIds": [
+        1038598002,
+        1038478807,
+        1038507604
+      ],
+      "childIdx": 0
+    },
+    "994723043": {
+      "id": 994723043,
+      "state": {
+        "key": "b7b5",
+        "pgn": "b5",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "b5": "bp2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "b7",
+            "b5"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Orthodox Defense, Fianchetto Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b7",
+            "b5"
+          ]
+        }
+      },
+      "parentId": 1347685065,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "994841308": {
+      "id": 994841308,
+      "state": {
+        "key": "f6d5",
+        "pgn": "Nd5",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "d5": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1347685065,
+      "childIds": [
+        794131939
+      ],
+      "childIdx": 0
+    },
+    "1014505951": {
+      "id": 1014505951,
+      "state": {
+        "key": "d8e7",
+        "pgn": "Qxe7",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "d5": "bn2",
+          "e7": "bq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 794131939,
+      "childIds": [
+        1403614783,
+        1403672502
+      ],
+      "childIdx": 0
+    },
+    "1038478807": {
+      "id": 1038478807,
+      "state": {
+        "key": "b8d7",
+        "pgn": "bd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 933454512,
+      "childIds": [
+        2146890591,
+        2146831939
+      ],
+      "childIdx": 0
+    },
+    "1038507604": {
+      "id": 1038507604,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Been-Koomen Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 933454512,
+      "childIds": [
+        183310
+      ],
+      "childIdx": 0
+    },
+    "1038598002": {
+      "id": 1038598002,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 933454512,
+      "childIds": [
+        3043337,
+        3101989
+      ],
+      "childIdx": 0
+    },
+    "1347685065": {
+      "id": 1347685065,
+      "state": {
+        "key": "d3c4",
+        "pgn": "Bxc4",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "c6": "bp3",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d3",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1982532132,
+      "childIds": [
+        994841308,
+        994723043
+      ],
+      "childIdx": 0
+    },
+    "1377543204": {
+      "id": 1377543204,
+      "state": {
+        "key": "a1c1",
+        "pgn": "Rc1",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "c1": "wr1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "a1",
+            "c1"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Neo-Orthodox Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a1",
+            "c1"
+          ]
+        }
+      },
+      "parentId": 113109260,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1377722045": {
+      "id": 1377722045,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 113109260,
+      "childIds": [
+        1926048356,
+        1925870448
+      ],
+      "childIdx": 0
+    },
+    "1396955999": {
+      "id": 1396955999,
+      "state": {
+        "key": "c7c5",
+        "pgn": "c5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "d7": "bn1",
+          "e3": "wp5",
+          "b4": "bb2",
+          "f3": "wn2",
+          "c5": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c7",
+            "c5"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Westphalian Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 2122669686,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1403614783": {
+      "id": 1403614783,
+      "state": {
+        "key": "c3e4",
+        "pgn": "Ne4",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "d5": "bn2",
+          "e7": "bq1",
+          "e4": "wn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "c3",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Orthodox Defense, Alekhine Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c3",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1014505951,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1403672502": {
+      "id": 1403672502,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "c6": "bp3",
+          "c4": "wb2",
+          "d5": "bn2",
+          "e7": "bq1",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ],
+          [
+            "d3",
+            "c4"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "g5",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1014505951,
+      "childIds": [
+        582907632
+      ],
+      "childIdx": 0
+    },
+    "1433997150": {
+      "id": 1433997150,
+      "state": {
+        "key": "d1c2",
+        "pgn": "Qc2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "f3": "wn2",
+          "f8": "br2",
+          "g8": "bk1",
+          "c2": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "d1",
+            "c2"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Miles Variation, Dzhindzhi Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "c2"
+          ]
+        }
+      },
+      "parentId": 114927472,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1452130026": {
+      "id": 1452130026,
+      "state": {
+        "key": "b8d7",
+        "pgn": "Nd7",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "f6": "bb2",
+          "c1": "wr1",
+          "c6": "bp3",
+          "d3": "wb2",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "f6"
+          ],
+          [
+            "e7",
+            "f6"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 1570261094,
+      "childIds": [
+        2085116945
+      ],
+      "childIdx": 0
+    },
+    "1570261094": {
+      "id": 1570261094,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "f6": "bb2",
+          "c1": "wr1",
+          "c6": "bp3",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "f6"
+          ],
+          [
+            "e7",
+            "f6"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 2128257475,
+      "childIds": [
+        1452130026
+      ],
+      "childIdx": 0
+    },
+    "1732231560": {
+      "id": 1732231560,
+      "state": {
+        "key": "e4c3",
+        "pgn": "Nxc3",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "e7": "bq1",
+          "d5": "wp3",
+          "c3": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "h4",
+            "e7"
+          ],
+          [
+            "d8",
+            "e7"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e4",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 540188879,
+      "childIds": [
+        30757730
+      ],
+      "childIdx": 0
+    },
+    "1738565210": {
+      "id": 1738565210,
+      "state": {
+        "key": "a1c1",
+        "pgn": "Rc1",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a1",
+            "c1"
+          ]
+        }
+      },
+      "parentId": 1925870448,
+      "childIds": [
+        227135479,
+        227075835,
+        227105657
+      ],
+      "childIdx": 0
+    },
+    "1738654584": {
+      "id": 1738654584,
+      "state": {
+        "key": "d1c2",
+        "pgn": "Qc2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c2": "wq1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "d1",
+            "c2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "c2"
+          ]
+        }
+      },
+      "parentId": 1925870448,
+      "childIds": [
+        229906072
+      ],
+      "childIdx": 0
+    },
+    "1738714198": {
+      "id": 1738714198,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Orthodox Defense, Botvinnik Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1925870448,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1744263046": {
+      "id": 1744263046,
+      "state": {
+        "key": "g5f6",
+        "pgn": "Bxf6",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "f6": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 1926048356,
+      "childIds": [
+        403828070
+      ],
+      "childIdx": 0
+    },
+    "1744263106": {
+      "id": 1744263106,
+      "state": {
+        "key": "g5h4",
+        "pgn": "Bh4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "h4": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g5",
+            "h4"
+          ]
+        }
+      },
+      "parentId": 1926048356,
+      "childIds": [
+        403740433,
+        403858727
+      ],
+      "childIdx": 0
+    },
+    "1797237479": {
+      "id": 1797237479,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "h4": "wb1",
+          "b6": "bp2",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 403740433,
+      "childIds": [
+        2046064260,
+        2046034469
+      ],
+      "childIdx": 0
+    },
+    "1799891726": {
+      "id": 1799891726,
+      "state": {
+        "key": "a1c1",
+        "pgn": "Rc1",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "f6": "bb2",
+          "c1": "wr1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "f6"
+          ],
+          [
+            "e7",
+            "f6"
+          ],
+          [
+            "a1",
+            "c1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "a1",
+            "c1"
+          ]
+        }
+      },
+      "parentId": 403828070,
+      "childIds": [
+        2128257475
+      ],
+      "childIdx": 0
+    },
+    "1801053581": {
+      "id": 1801053581,
+      "state": {
+        "key": "h4e7",
+        "pgn": "Bxe7",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "e4": "bn2",
+          "e7": "wb1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "h4",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "h4",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 403858727,
+      "childIds": [
+        16822148
+      ],
+      "childIdx": 0
+    },
+    "1830623543": {
+      "id": 1830623543,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 889729095,
+      "childIds": [
+        933454512
+      ],
+      "childIdx": 0
+    },
+    "1876715617": {
+      "id": 1876715617,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 614124188,
+      "childIds": [
+        214825995
+      ],
+      "childIdx": 0
+    },
+    "1925870448": {
+      "id": 1925870448,
+      "state": {
+        "key": "b8d7",
+        "pgn": "bd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 1377722045,
+      "childIds": [
+        1738654584,
+        1738565210,
+        1738714198
+      ],
+      "childIdx": 0
+    },
+    "1926048356": {
+      "id": 1926048356,
+      "state": {
+        "key": "h7h6",
+        "pgn": "h6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Neo-Orthodox Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "h7",
+            "h6"
+          ]
+        }
+      },
+      "parentId": 1377722045,
+      "childIds": [
+        1744263106,
+        1744263046
+      ],
+      "childIdx": 0
+    },
+    "1951222846": {
+      "id": 1951222846,
+      "state": {
+        "key": "e6d5",
+        "pgn": "exd5",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "b6": "bp2",
+          "d5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 616526717,
+      "childIds": [
+        377154889
+      ],
+      "childIdx": 0
+    },
+    "1982532132": {
+      "id": 1982532132,
+      "state": {
+        "key": "d5c4",
+        "pgn": "dxc4",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "d7": "bn1",
+          "c1": "wr1",
+          "c6": "bp3",
+          "d3": "wb2",
+          "c4": "bp4"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d5",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 617537687,
+      "childIds": [
+        1347685065
+      ],
+      "childIdx": 0
+    },
+    "2046034469": {
+      "id": 2046034469,
+      "state": {
+        "key": "e6d5",
+        "pgn": "exd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "c3": "wn1",
+          "f6": "bn2",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "h4": "wb1",
+          "b6": "bp2",
+          "d5": "bp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "e6",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Tartakower Variation, Exchange Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1797237479,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "2046064260": {
+      "id": 2046064260,
+      "state": {
+        "key": "f6d5",
+        "pgn": "Nxd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e7": "bb2",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "h4": "wb1",
+          "b6": "bp2",
+          "d5": "bn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "h4"
+          ],
+          [
+            "b7",
+            "b6"
+          ],
+          [
+            "c4",
+            "d5"
+          ],
+          [
+            "f6",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Tartakower Defense, Makogonov Exchange Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1797237479,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "2085116945": {
+      "id": 2085116945,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "f6": "bb2",
+          "c1": "wr1",
+          "c6": "bp3",
+          "d3": "wb2",
+          "d7": "bn1",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "f6"
+          ],
+          [
+            "e7",
+            "f6"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1452130026,
+      "childIds": [
+        232848896
+      ],
+      "childIdx": 0
+    },
+    "2122669686": {
+      "id": 2122669686,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "d7": "bn1",
+          "e3": "wp5",
+          "b4": "bb2",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "f8",
+            "b4"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 2146076144,
+      "childIds": [
+        1396955999
+      ],
+      "childIdx": 0
+    },
+    "2128257475": {
+      "id": 2128257475,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "e3": "wp5",
+          "f8": "br2",
+          "g8": "bk1",
+          "f3": "wn2",
+          "h6": "bp8",
+          "f6": "bb2",
+          "c1": "wr1",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "h7",
+            "h6"
+          ],
+          [
+            "g5",
+            "f6"
+          ],
+          [
+            "e7",
+            "f6"
+          ],
+          [
+            "a1",
+            "c1"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1799891726,
+      "childIds": [
+        1570261094
+      ],
+      "childIdx": 0
+    },
+    "2145985843": {
+      "id": 2145985843,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "d7": "bn1",
+          "e3": "wp5",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Modern, Knight Defense"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 2146831939,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "2146076144": {
+      "id": 2146076144,
+      "state": {
+        "key": "f8b4",
+        "pgn": "Bb4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "d7": "bn1",
+          "e3": "wp5",
+          "b4": "bb2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e2",
+            "e3"
+          ],
+          [
+            "f8",
+            "b4"
+          ]
+        ],
+        "comments": [
+          "Queen's Gambit Declined, Manhattan Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 2146831939,
+      "childIds": [
+        2122669686
+      ],
+      "childIdx": 0
+    },
+    "2146831939": {
+      "id": 2146831939,
+      "state": {
+        "key": "e2e3",
+        "pgn": "e3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "d7": "bn1",
+          "e3": "wp5"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "e2",
+            "e3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1038478807,
+      "childIds": [
+        2145985843,
+        2146076144
+      ],
+      "childIdx": 0
+    },
+    "2146890591": {
+      "id": 2146890591,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "c4": "wp3",
+          "e6": "bp5",
+          "c3": "wn1",
+          "f6": "bn2",
+          "g5": "wb1",
+          "d7": "bn1",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "c1",
+            "g5"
+          ],
+          [
+            "b8",
+            "d7"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1038478807,
+      "childIds": [
+        320408
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }

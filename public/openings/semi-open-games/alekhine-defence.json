@@ -1,203 +1,4378 @@
 {
-  "slug": "alekhine-defence",
-  "name": "Alekhine Defence",
-  "range": "B02-B05",
-  "lines": [
-    {
-      "eco": "B03",
-      "name": "Alekhine Defense, Exchange Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. c4 4... Nb6 5. exd6",
-      "count": 9265
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Alekhine Defence"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B02",
-      "name": "Alekhine Defense, Scandinavian Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. Nc3 2... d5",
-      "count": 6465
+    "101882998": {
+      "id": 101882998,
+      "state": {
+        "key": "c8f5",
+        "pgn": "Bf5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d4": "wp4",
+          "d6": "bp4",
+          "c4": "wp3",
+          "b6": "bn2",
+          "f4": "wp6",
+          "f5": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "c8",
+            "f5"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Four Pawns Attack, Trifunovic Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 833967115,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B05",
-      "name": "Alekhine Defense, Modern Variation, Main Line",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... Bg4",
-      "count": 5873
+    "101910836": {
+      "id": 101910836,
+      "state": {
+        "key": "d6e5",
+        "pgn": "dxe5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c4": "wp3",
+          "b6": "bn2",
+          "f4": "wp6",
+          "e5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d6",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d6",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 833967115,
+      "childIds": [
+        1030543964
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B04",
-      "name": "Alekhine Defense, Modern Variation, Alburt Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... g6",
-      "count": 3523
+    "102001233": {
+      "id": 102001233,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d4": "wp4",
+          "d6": "bp4",
+          "c4": "wp3",
+          "b6": "bn2",
+          "f4": "wp6",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Four Pawns Attack, Fianchetto Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 833967115,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B04",
-      "name": "Alekhine Defense, Modern Variation, Larsen Variation, Miles Line",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... dxe5 5. Nxe5 5... c6",
-      "count": 2361
+    "246256491": {
+      "id": 246256491,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1877730496,
+      "childIds": [
+        1210235245
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B02",
-      "name": "Alekhine Defense, Saemisch Attack",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. Nc3",
-      "count": 2027
+    "246317065": {
+      "id": 246317065,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Maroczy Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1877730496,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B03",
-      "name": "Alekhine Defense, Normal Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6",
-      "count": 1688
+    "246348811": {
+      "id": 246348811,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1877730496,
+      "childIds": [
+        1213155786,
+        1213155882
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B03",
-      "name": "Alekhine Defense, Four Pawns Attack, Main Line",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. c4 4... Nb6 5. f4 5... dxe5 6. fxe5 6... Nc6 7. Be3",
-      "count": 1625
+    "357533454": {
+      "id": 357533454,
+      "state": {
+        "key": "d5b6",
+        "pgn": "Nb6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "c4": "wp3",
+          "b6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 1119307704,
+      "childIds": [
+        364821099,
+        364789353
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B04",
-      "name": "Alekhine Defense, Modern Variation, Larsen Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... dxe5",
-      "count": 1520
+    "358459920": {
+      "id": 358459920,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "d4": "wp4",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1119337526,
+      "childIds": [
+        393539622,
+        393657917,
+        393628034
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B02",
-      "name": "Alekhine Defense, Normal Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5",
-      "count": 1484
+    "364789353": {
+      "id": 364789353,
+      "state": {
+        "key": "b2b3",
+        "pgn": "b3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "c4": "wp3",
+          "b6": "bn2",
+          "b3": "wp2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "b2",
+            "b3"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Steiner Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b2",
+            "b3"
+          ]
+        }
+      },
+      "parentId": 357533454,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B03",
-      "name": "Alekhine Defense, Four Pawns Attack",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. c4 4... Nb6 5. f4",
-      "count": 1393
+    "364821099": {
+      "id": 364821099,
+      "state": {
+        "key": "c4c5",
+        "pgn": "c5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "b6": "bn2",
+          "c5": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "c4",
+            "c5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "c5"
+          ]
+        }
+      },
+      "parentId": 357533454,
+      "childIds": [
+        590710256
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B02",
-      "name": "Alekhine Defense, Maroczy Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. d3",
-      "count": 1290
+    "393539622": {
+      "id": 393539622,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "d4": "wp4",
+          "d6": "bp4",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 358459920,
+      "childIds": [
+        1481043029
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B02",
-      "name": "Alekhine Defense, Two Pawn Attack, Lasker Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. c4 3... Nb6 4. c5",
-      "count": 1209
+    "393628034": {
+      "id": 393628034,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "d4": "wp4",
+          "d6": "bp4",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Balogh Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 358459920,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B04",
-      "name": "Alekhine Defense, Modern Variation, Schmid Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... Nb6",
-      "count": 979
+    "393657917": {
+      "id": 393657917,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 358459920,
+      "childIds": [
+        1484683419,
+        1484801624,
+        1484711227,
+        1484710174,
+        1484653506
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B03",
-      "name": "Alekhine Defense, Balogh Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Bc4",
-      "count": 916
+    "526058070": {
+      "id": 526058070,
+      "state": {
+        "key": "f8g7",
+        "pgn": "Bg7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e5": "wp5",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "b6": "bn2",
+          "b3": "wb2",
+          "g7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "f8",
+            "g7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "g7"
+          ]
+        }
+      },
+      "parentId": 1332562960,
+      "childIds": [
+        1294055334
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B04",
-      "name": "Alekhine Defense, Modern Variation, Larsen-Haakert Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... Nc6",
-      "count": 866
+    "582847556": {
+      "id": 582847556,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "c5": "wp3",
+          "d5": "bn2",
+          "c3": "wn1",
+          "e6": "bp5",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "c4",
+            "c5"
+          ],
+          [
+            "b6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e6"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Hunt Variation, Lasker Simul Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1334395100,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B02",
-      "name": "Alekhine Defense, General",
-      "color": "black",
-      "moves": "1. e4 1... Nf6",
-      "count": 737
+    "590710256": {
+      "id": 590710256,
+      "state": {
+        "key": "b6d5",
+        "pgn": "Nd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "c5": "wp3",
+          "d5": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "c4",
+            "c5"
+          ],
+          [
+            "b6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 364821099,
+      "childIds": [
+        1150818344
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B02",
-      "name": "Alekhine Defense, Two Pawn Attack",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. c4",
-      "count": 618
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877730496
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B04",
-      "name": "Alekhine Defense, Modern Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3",
-      "count": 598
+    "833940147": {
+      "id": 833940147,
+      "state": {
+        "key": "e5d6",
+        "pgn": "exd6",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c4": "wp3",
+          "b6": "bn2",
+          "d6": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "e5",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Exchange Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1481043029,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B03",
-      "name": "Alekhine Defense, Four Pawns Attack, Fianchetto Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. c4 4... Nb6 5. f4 5... g6",
-      "count": 502
+    "833967115": {
+      "id": 833967115,
+      "state": {
+        "key": "f2f4",
+        "pgn": "f4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d4": "wp4",
+          "d6": "bp4",
+          "c4": "wp3",
+          "b6": "bn2",
+          "f4": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "f2",
+            "f4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f2",
+            "f4"
+          ]
+        }
+      },
+      "parentId": 1481043029,
+      "childIds": [
+        101910836,
+        102001233,
+        101882998
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B03",
-      "name": "Alekhine Defense, Four Pawns Attack, Trifunovic Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. c4 4... Nb6 5. f4 5... Bf5",
-      "count": 448
+    "946729739": {
+      "id": 946729739,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g4": "bb1",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1484683419,
+      "childIds": [
+        1450067480
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B02",
-      "name": "Alekhine Defense, Brooklyn Variation",
-      "color": "black",
-      "moves": "1. e4 1... Nf6 2. e5 2... Ng8",
-      "count": 408
+    "946878848": {
+      "id": 946878848,
+      "state": {
+        "key": "h2h3",
+        "pgn": "h3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g4": "bb1",
+          "h3": "wp8"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "h2",
+            "h3"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Modern Variation, Panov Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "h2",
+            "h3"
+          ]
+        }
+      },
+      "parentId": 1484683419,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B02",
-      "name": "Alekhine Defense, Hunt Variation, Lasker Simul Gambit",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. c4 3... Nb6 4. c5 4... Nd5 5. Nc3 5... e6 6. Bc4",
-      "count": 387
+    "947682184": {
+      "id": 947682184,
+      "state": {
+        "key": "f3e5",
+        "pgn": "Nxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "bn2",
+          "d4": "wp4",
+          "e5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d6",
+            "e5"
+          ],
+          [
+            "f3",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1484711227,
+      "childIds": [
+        1479565437
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B04",
-      "name": "Alekhine Defense, Modern Variation, Keres Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... g6 5. Bc4 5... Nb6 6. Bb3 6... Bg7 7. a4",
-      "count": 307
+    "950482506": {
+      "id": 950482506,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1484801624,
+      "childIds": [
+        1566403257
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B05",
-      "name": "Alekhine Defense, Modern Variation, Panov Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... Bg4 5. h3",
-      "count": 241
+    "960453308": {
+      "id": 960453308,
+      "state": {
+        "key": "c1e3",
+        "pgn": "Be3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c4": "wp3",
+          "b6": "bn2",
+          "e5": "wp6",
+          "c6": "bn1",
+          "e3": "wb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d6",
+            "e5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c1",
+            "e3"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Four Pawns Attack, Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "c1",
+            "e3"
+          ]
+        }
+      },
+      "parentId": 1900768140,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "B02",
-      "name": "Alekhine Defense, Spielmann Gambit",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. Nc3 2... d5 3. e5 3... Nfd7 4. e6",
-      "count": 208
+    "1028832500": {
+      "id": 1028832500,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1210235245,
+      "childIds": [
+        1847830030
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B04",
-      "name": "Alekhine Defense, Modern Variation, Alekhine Gambit",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. d4 3... d6 4. Nf3 4... Bg4 5. c4 5... Nb6 6. Be2",
-      "count": 142
+    "1030543964": {
+      "id": 1030543964,
+      "state": {
+        "key": "f4e5",
+        "pgn": "fxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c4": "wp3",
+          "b6": "bn2",
+          "e5": "wp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d6",
+            "e5"
+          ],
+          [
+            "f4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 101910836,
+      "childIds": [
+        1900768140
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "B02",
-      "name": "Alekhine Defense, Steiner Variation",
-      "color": "white",
-      "moves": "1. e4 1... Nf6 2. e5 2... Nd5 3. c4 3... Nb6 4. b3",
-      "count": 108
+    "1119276951": {
+      "id": 1119276951,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Saemisch Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1213155786,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1119307704": {
+      "id": 1119307704,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1213155786,
+      "childIds": [
+        357533454
+      ],
+      "childIdx": 0
+    },
+    "1119337526": {
+      "id": 1119337526,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1213155786,
+      "childIds": [
+        358459920
+      ],
+      "childIdx": 0
+    },
+    "1150818344": {
+      "id": 1150818344,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "c5": "wp3",
+          "d5": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "c4",
+            "c5"
+          ],
+          [
+            "b6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 590710256,
+      "childIds": [
+        1334395100
+      ],
+      "childIdx": 0
+    },
+    "1210235245": {
+      "id": 1210235245,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "c3": "wn1",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 246256491,
+      "childIds": [
+        1028832500
+      ],
+      "childIdx": 0
+    },
+    "1213155786": {
+      "id": 1213155786,
+      "state": {
+        "key": "f6d5",
+        "pgn": "Nd5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 246348811,
+      "childIds": [
+        1119337526,
+        1119276951,
+        1119307704
+      ],
+      "childIdx": 0
+    },
+    "1213155882": {
+      "id": 1213155882,
+      "state": {
+        "key": "f6g8",
+        "pgn": "Ng8",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "g8": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "g8"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Brooklyn Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 246348811,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1294055334": {
+      "id": 1294055334,
+      "state": {
+        "key": "a2a4",
+        "pgn": "a4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "e5": "wp5",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "b6": "bn2",
+          "b3": "wb2",
+          "g7": "bb2",
+          "a4": "wp1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "c4",
+            "b3"
+          ],
+          [
+            "f8",
+            "g7"
+          ],
+          [
+            "a2",
+            "a4"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Modern Variation, Keres Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "a2",
+            "a4"
+          ]
+        }
+      },
+      "parentId": 526058070,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1332562960": {
+      "id": 1332562960,
+      "state": {
+        "key": "c4b3",
+        "pgn": "Bb3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "b6": "bn2",
+          "b3": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "c4",
+            "b3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "b3"
+          ]
+        }
+      },
+      "parentId": 1566403257,
+      "childIds": [
+        526058070
+      ],
+      "childIdx": 0
+    },
+    "1334395100": {
+      "id": 1334395100,
+      "state": {
+        "key": "e7e6",
+        "pgn": "e6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "c5": "wp3",
+          "d5": "bn2",
+          "c3": "wn1",
+          "e6": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "c4",
+            "c5"
+          ],
+          [
+            "b6",
+            "d5"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "e7",
+            "e6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 1150818344,
+      "childIds": [
+        582847556
+      ],
+      "childIdx": 0
+    },
+    "1450067480": {
+      "id": 1450067480,
+      "state": {
+        "key": "d5b6",
+        "pgn": "Nb6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g4": "bb1",
+          "c4": "wp3",
+          "b6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 946729739,
+      "childIds": [
+        2021207749
+      ],
+      "childIdx": 0
+    },
+    "1466918974": {
+      "id": 1466918974,
+      "state": {
+        "key": "e5e6",
+        "pgn": "e6",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "d7": "bn2",
+          "e6": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d7"
+          ],
+          [
+            "e5",
+            "e6"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Spielmann Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "e6"
+          ]
+        }
+      },
+      "parentId": 1847830030,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1479565437": {
+      "id": 1479565437,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "bn2",
+          "d4": "wp4",
+          "e5": "wn2",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d6",
+            "e5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Modern Variation, Larsen Variation, Miles Line"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 947682184,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1481043029": {
+      "id": 1481043029,
+      "state": {
+        "key": "d5b6",
+        "pgn": "Nb6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d4": "wp4",
+          "d6": "bp4",
+          "c4": "wp3",
+          "b6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 393539622,
+      "childIds": [
+        833940147,
+        833967115
+      ],
+      "childIdx": 0
+    },
+    "1484653506": {
+      "id": 1484653506,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Modern Variation, Larsen-Haakert Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 393657917,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1484683419": {
+      "id": 1484683419,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 393657917,
+      "childIds": [
+        946878848,
+        946729739
+      ],
+      "childIdx": 0
+    },
+    "1484710174": {
+      "id": 1484710174,
+      "state": {
+        "key": "d5b6",
+        "pgn": "Nb6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "b6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d5",
+            "b6"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Modern Variation, Schmid Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 393657917,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1484711227": {
+      "id": 1484711227,
+      "state": {
+        "key": "d6e5",
+        "pgn": "dxe5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d5": "bn2",
+          "d4": "wp4",
+          "f3": "wn2",
+          "e5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "d6",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Modern Variation, Larsen Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d6",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 393657917,
+      "childIds": [
+        947682184
+      ],
+      "childIdx": 0
+    },
+    "1484801624": {
+      "id": 1484801624,
+      "state": {
+        "key": "g7g6",
+        "pgn": "g6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d5": "bn2",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g7",
+            "g6"
+          ]
+        }
+      },
+      "parentId": 393657917,
+      "childIds": [
+        950482506
+      ],
+      "childIdx": 0
+    },
+    "1566403257": {
+      "id": 1566403257,
+      "state": {
+        "key": "d5b6",
+        "pgn": "Nb6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g6": "bp7",
+          "c4": "wb2",
+          "b6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g7",
+            "g6"
+          ],
+          [
+            "f1",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d5",
+            "b6"
+          ]
+        }
+      },
+      "parentId": 950482506,
+      "childIds": [
+        1332562960
+      ],
+      "childIdx": 0
+    },
+    "1847830030": {
+      "id": 1847830030,
+      "state": {
+        "key": "f6d7",
+        "pgn": "fd7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "c3": "wn1",
+          "d5": "bp4",
+          "e5": "wp5",
+          "d7": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "d7"
+          ]
+        }
+      },
+      "parentId": 1028832500,
+      "childIds": [
+        1466918974
+      ],
+      "childIdx": 0
+    },
+    "1877730496": {
+      "id": 1877730496,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        246348811,
+        246256491,
+        246317065
+      ],
+      "childIdx": 0
+    },
+    "1900768140": {
+      "id": 1900768140,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "c4": "wp3",
+          "b6": "bn2",
+          "e5": "wp6",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "f2",
+            "f4"
+          ],
+          [
+            "d6",
+            "e5"
+          ],
+          [
+            "f4",
+            "e5"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1030543964,
+      "childIds": [
+        960453308
+      ],
+      "childIdx": 0
+    },
+    "2021207749": {
+      "id": 2021207749,
+      "state": {
+        "key": "f1e2",
+        "pgn": "Be2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wp5",
+          "d4": "wp4",
+          "d6": "bp4",
+          "f3": "wn2",
+          "g4": "bb1",
+          "c4": "wp3",
+          "b6": "bn2",
+          "e2": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "d5"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d5",
+            "b6"
+          ],
+          [
+            "f1",
+            "e2"
+          ]
+        ],
+        "comments": [
+          "Alekhine Defense, Modern Variation, Alekhine Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 1450067480,
+      "childIds": [],
+      "childIdx": -1
     }
-  ]
+  }
 }

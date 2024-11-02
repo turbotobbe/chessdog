@@ -1,217 +1,5860 @@
 {
-  "slug": "petroff-defence-3-nxe5",
-  "name": "Petroff Defence, 3.Nxe5",
-  "range": "C42-C43",
-  "lines": [
-    {
-      "eco": "C42",
-      "name": "Russian Game, Nimzowitsch Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. Nc3",
-      "count": 8262
+  "rootId": 19206259,
+  "currentNodeId": 19206259,
+  "nodes": {
+    "19206259": {
+      "id": 19206259,
+      "state": {
+        "key": "root",
+        "pgn": "root",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "e2": "wp5",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2"
+        },
+        "moves": [],
+        "comments": [
+          "Petroff Defence, 3.Nxe5"
+        ]
+      },
+      "parentId": 0,
+      "childIds": [
+        614154010
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C43",
-      "name": "Russian Game, Modern Attack, Center Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4 3... Nxe4 4. Bd3",
-      "count": 4454
+    "244527714": {
+      "id": 244527714,
+      "state": {
+        "key": "g1f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g1",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1877669921,
+      "childIds": [
+        1156733555
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Three Knights Game",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nc3",
-      "count": 4130
+    "288114901": {
+      "id": 288114901,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "d6": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1117067554,
+      "childIds": [
+        360393156
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Cozio (Lasker) Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. Qe2",
-      "count": 2785
+    "288115893": {
+      "id": 288115893,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1117067586,
+      "childIds": [
+        360334409,
+        360423908
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Classical Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4",
-      "count": 2467
+    "360334409": {
+      "id": 360334409,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 288115893,
+      "childIds": [
+        451648781,
+        451737252
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Classical Attack, Staunton Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Bd6 7. O-O 7... O-O 8. c4 8... c6",
-      "count": 2437
+    "360393156": {
+      "id": 360393156,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "d6": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 288114901,
+      "childIds": [
+        453469938
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, General",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6",
-      "count": 2243
+    "360423908": {
+      "id": 360423908,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Classical Attack, Mason Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 288115893,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, French Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d3",
-      "count": 1575
+    "451103457": {
+      "id": 451103457,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "d6": "bp4",
+          "f7": "bk1",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f7"
+          ],
+          [
+            "e8",
+            "f7"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Cochrane Gambit, Center Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 568136854,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Classical Attack, Chigorin Variation, Main Line",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... Nc6 8. c4 8... Nb4 9. Be2",
-      "count": 1534
+    "451648781": {
+      "id": 451648781,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c6": "bn1",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 360334409,
+      "childIds": [
+        1134914479
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C43",
-      "name": "Russian Game, Modern Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4",
-      "count": 1416
+    "451737252": {
+      "id": 451737252,
+      "state": {
+        "key": "f1e1",
+        "pgn": "Re1",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "e7": "bb2",
+          "g1": "wk1",
+          "c6": "bn1",
+          "e1": "wr2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "e1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "e1"
+          ]
+        }
+      },
+      "parentId": 360334409,
+      "childIds": [
+        1137659157
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Classical Attack, Mason-Showalter Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Nc6",
-      "count": 1168
+    "451901923": {
+      "id": 451901923,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d6": "bp4",
+          "f3": "wn2",
+          "e4": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Nimzowitsch Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 568164565,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Kaufmann Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. c4",
-      "count": 1026
+    "451932676": {
+      "id": 451932676,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d6": "bp4",
+          "f3": "wn2",
+          "e4": "bn2",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Kaufmann Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 568164565,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Classical Attack, Chigorin Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... Nc6 8. Re1",
-      "count": 934
+    "451961566": {
+      "id": 451961566,
+      "state": {
+        "key": "d1e2",
+        "pgn": "Qe2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d6": "bp4",
+          "f3": "wn2",
+          "e4": "bn2",
+          "e2": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "e2"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Cozio (Lasker) Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 568164565,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Paulsen Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nc4",
-      "count": 844
+    "451962497": {
+      "id": 451962497,
+      "state": {
+        "key": "d2d3",
+        "pgn": "d3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d6": "bp4",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d3": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Russian Game, French Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 568164565,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Millenium Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. Bd3",
-      "count": 843
+    "451962498": {
+      "id": 451962498,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d6": "bp4",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 568164565,
+      "childIds": [
+        1144669560
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C43",
-      "name": "Russian Game, Modern Attack, Center Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4 3... exd4 4. e5 4... Ne4 5. Qxd4",
-      "count": 826
+    "452021118": {
+      "id": 452021118,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d6": "bp4",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Millenium Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 568164565,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Damiano Variation, Kholmov Gambit",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... Nxe4 4. Qe2 4... Qe7",
-      "count": 766
+    "453469938": {
+      "id": 453469938,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "d6": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 360393156,
+      "childIds": [
+        1191371340
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Classical Attack, Marshall Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Bd6",
-      "count": 752
+    "550162932": {
+      "id": 550162932,
+      "state": {
+        "key": "d6e5",
+        "pgn": "Bxe5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e4": "bn2",
+          "d3": "wb2",
+          "d5": "bp4",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "c4": "wp3",
+          "e5": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "d6",
+            "e5"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Modern Attack, Trifunovic Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "d6",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 779153194,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C43",
-      "name": "Russian Game, Modern Attack, Murrey Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4 3... Nxe4 4. Bd3 4... Nc6",
-      "count": 680
+    "568136854": {
+      "id": 568136854,
+      "state": {
+        "key": "e8f7",
+        "pgn": "Kxf7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "d6": "bp4",
+          "f7": "bk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f7"
+          ],
+          [
+            "e8",
+            "f7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "f7"
+          ]
+        }
+      },
+      "parentId": 1056826638,
+      "childIds": [
+        451103457
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Classical Attack, Mason Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... O-O",
-      "count": 669
+    "568164565": {
+      "id": 568164565,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Nxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d6": "bp4",
+          "f3": "wn2",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1056826634,
+      "childIds": [
+        451901923,
+        451961566,
+        451962498,
+        451962497,
+        451932676,
+        452021118
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Classical Attack, Jaenisch Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... Nc6 8. c4",
-      "count": 655
+    "614154010": {
+      "id": 614154010,
+      "state": {
+        "key": "e2e4",
+        "pgn": "e4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "e7": "bp5",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e2",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 19206259,
+      "childIds": [
+        1877669921
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Urusov Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Bc4",
-      "count": 547
+    "623425881": {
+      "id": 623425881,
+      "state": {
+        "key": "d8e7",
+        "pgn": "Qe7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wn2",
+          "e4": "bn2",
+          "e2": "wq1",
+          "e7": "bq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "e2"
+          ],
+          [
+            "d8",
+            "e7"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Damiano Variation, Kholmov Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "d8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1058611117,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Stafford Gambit",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... Nc6",
-      "count": 458
+    "779153194": {
+      "id": 779153194,
+      "state": {
+        "key": "c2c4",
+        "pgn": "c4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e4": "bn2",
+          "d3": "wb2",
+          "d5": "bp4",
+          "e5": "wn2",
+          "d6": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "c4": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c2",
+            "c4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1479277724,
+      "childIds": [
+        550162932
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Karklins-Martinovsky Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nd3",
-      "count": 328
+    "819778579": {
+      "id": 819778579,
+      "state": {
+        "key": "f7f5",
+        "pgn": "f5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "e7": "bb2",
+          "g1": "wk1",
+          "c6": "bn1",
+          "e1": "wr2",
+          "g4": "bb1",
+          "c3": "wp3",
+          "f5": "bp6"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "c2",
+            "c3"
+          ],
+          [
+            "f7",
+            "f5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f7",
+            "f5"
+          ]
+        }
+      },
+      "parentId": 926395851,
+      "childIds": [
+        1809485446
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Cochrane Gambit, Center Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nxf7 4... Kxf7 5. d4",
-      "count": 316
+    "841312788": {
+      "id": 841312788,
+      "state": {
+        "key": "c4d5",
+        "pgn": "cxd5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d3": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "b4": "bn1",
+          "d5": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c6",
+            "b4"
+          ],
+          [
+            "c4",
+            "d5"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Classical Attack, Chigorin Variation, Browne Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "c4",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1134914479,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Classical Attack, Chigorin Variation, Browne Attack",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... Nc6 8. c4 8... Nb4 9. cxd5",
-      "count": 281
+    "841341646": {
+      "id": 841341646,
+      "state": {
+        "key": "d3e2",
+        "pgn": "Be2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c4": "wp3",
+          "b4": "bn1",
+          "e2": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c6",
+            "b4"
+          ],
+          [
+            "d3",
+            "e2"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Classical Attack, Chigorin Variation, Main Line"
+        ],
+        "marks": {
+          "yellow": [
+            "d3",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 1134914479,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Classical Attack, Berger Variation",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... d6 4. Nf3 4... Nxe4 5. d4 5... d5 6. Bd3 6... Be7 7. O-O 7... Nc6 8. Re1 8... Bg4 9. c3 9... f5 10. Nbd2",
-      "count": 239
+    "926395851": {
+      "id": 926395851,
+      "state": {
+        "key": "c2c3",
+        "pgn": "c3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "e7": "bb2",
+          "g1": "wk1",
+          "c6": "bn1",
+          "e1": "wr2",
+          "g4": "bb1",
+          "c3": "wp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "c2",
+            "c3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c2",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1137659157,
+      "childIds": [
+        819778579
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C42",
-      "name": "Russian Game, Damiano Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. Nxe5 3... Nxe4",
-      "count": 226
+    "937807884": {
+      "id": 937807884,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Ne4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "d4": "bp5",
+          "e5": "wp5",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 999476946,
+      "childIds": [
+        1173486191
+      ],
+      "childIdx": 0
     },
-    {
-      "eco": "C43",
-      "name": "Russian Game, Modern Attack, Suchting Gambit",
-      "color": "white",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4 3... exd4 4. Bc4",
-      "count": 180
+    "968106170": {
+      "id": 968106170,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d4": "wp4",
+          "e4": "bn2",
+          "d3": "wb2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Modern Attack, Murrey Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1000458094,
+      "childIds": [],
+      "childIdx": -1
     },
-    {
-      "eco": "C43",
-      "name": "Russian Game, Modern Attack, Trifunovic Variation",
-      "color": "black",
-      "moves": "1. e4 1... e5 2. Nf3 2... Nf6 3. d4 3... Nxe4 4. Bd3 4... d5 5. Nxe5 5... Bd6 6. O-O 6... O-O 7. c4 7... Bxe5",
-      "count": 157
+    "968164821": {
+      "id": 968164821,
+      "state": {
+        "key": "d7d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d4": "wp4",
+          "e4": "bn2",
+          "d3": "wb2",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d7",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 1000458094,
+      "childIds": [
+        2114612774
+      ],
+      "childIdx": 0
+    },
+    "999476946": {
+      "id": 999476946,
+      "state": {
+        "key": "e4e5",
+        "pgn": "e5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d4": "bp5",
+          "e5": "wp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e4",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e4",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1971298618,
+      "childIds": [
+        937807884
+      ],
+      "childIdx": 0
+    },
+    "999503791": {
+      "id": 999503791,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d4": "bp5",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Modern Attack, Suchting Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1971298618,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1000458094": {
+      "id": 1000458094,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d4": "wp4",
+          "e4": "bn2",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1971329401,
+      "childIds": [
+        968106170,
+        968164821
+      ],
+      "childIdx": 0
+    },
+    "1056826542": {
+      "id": 1056826542,
+      "state": {
+        "key": "e5c4",
+        "pgn": "Nc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "d6": "bp4",
+          "c4": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Paulsen Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1973148576,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1056826572": {
+      "id": 1056826572,
+      "state": {
+        "key": "e5d3",
+        "pgn": "Nd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "d6": "bp4",
+          "d3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "d3"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Karklins-Martinovsky Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1973148576,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1056826634": {
+      "id": 1056826634,
+      "state": {
+        "key": "e5f3",
+        "pgn": "Nf3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "d6": "bp4",
+          "f3": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "f3"
+          ]
+        }
+      },
+      "parentId": 1973148576,
+      "childIds": [
+        568164565
+      ],
+      "childIdx": 0
+    },
+    "1056826638": {
+      "id": 1056826638,
+      "state": {
+        "key": "e5f7",
+        "pgn": "Nxf7",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "d6": "bp4",
+          "f7": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "f7"
+          ]
+        }
+      },
+      "parentId": 1973148576,
+      "childIds": [
+        568136854
+      ],
+      "childIdx": 0
+    },
+    "1058611117": {
+      "id": 1058611117,
+      "state": {
+        "key": "d1e2",
+        "pgn": "Qe2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wn2",
+          "e4": "bn2",
+          "e2": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "e2"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "e2"
+          ]
+        }
+      },
+      "parentId": 1973207226,
+      "childIds": [
+        623425881
+      ],
+      "childIdx": 0
+    },
+    "1116948359": {
+      "id": 1116948359,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Classical Attack, Mason-Showalter Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1143806787,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1117067554": {
+      "id": 1117067554,
+      "state": {
+        "key": "f8d6",
+        "pgn": "Bd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "d6": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "d6"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Classical Attack, Marshall Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1143806787,
+      "childIds": [
+        288114901
+      ],
+      "childIdx": 0
+    },
+    "1117067586": {
+      "id": 1117067586,
+      "state": {
+        "key": "f8e7",
+        "pgn": "Be7",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "e7": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "e7"
+          ]
+        }
+      },
+      "parentId": 1143806787,
+      "childIds": [
+        288115893
+      ],
+      "childIdx": 0
+    },
+    "1134914479": {
+      "id": 1134914479,
+      "state": {
+        "key": "c6b4",
+        "pgn": "Nb4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "e7": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "c4": "wp3",
+          "b4": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c6",
+            "b4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c6",
+            "b4"
+          ]
+        }
+      },
+      "parentId": 451648781,
+      "childIds": [
+        841341646,
+        841312788
+      ],
+      "childIdx": 0
+    },
+    "1137659157": {
+      "id": 1137659157,
+      "state": {
+        "key": "c8g4",
+        "pgn": "Bg4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "e7": "bb2",
+          "g1": "wk1",
+          "c6": "bn1",
+          "e1": "wr2",
+          "g4": "bb1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "c8",
+            "g4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "c8",
+            "g4"
+          ]
+        }
+      },
+      "parentId": 451737252,
+      "childIds": [
+        926395851
+      ],
+      "childIdx": 0
+    },
+    "1143806787": {
+      "id": 1143806787,
+      "state": {
+        "key": "f1d3",
+        "pgn": "Bd3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "d3"
+          ]
+        }
+      },
+      "parentId": 1144669560,
+      "childIds": [
+        1117067554,
+        1117067586,
+        1116948359
+      ],
+      "childIdx": 0
+    },
+    "1144669560": {
+      "id": 1144669560,
+      "state": {
+        "key": "d6d5",
+        "pgn": "d5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d6",
+            "d5"
+          ]
+        }
+      },
+      "parentId": 451962498,
+      "childIds": [
+        1143806787
+      ],
+      "childIdx": 0
+    },
+    "1147282093": {
+      "id": 1147282093,
+      "state": {
+        "key": "f8d6",
+        "pgn": "Bd6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bn2",
+          "d3": "wb2",
+          "d5": "bp4",
+          "e5": "wn2",
+          "d6": "bb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "f8",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f8",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 2114612774,
+      "childIds": [
+        1224765610
+      ],
+      "childIdx": 0
+    },
+    "1156733555": {
+      "id": 1156733555,
+      "state": {
+        "key": "g8f6",
+        "pgn": "Nf6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "f6": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "g8",
+            "f6"
+          ]
+        }
+      },
+      "parentId": 244527714,
+      "childIds": [
+        1517792587,
+        1517732012,
+        1517671437,
+        1517790602
+      ],
+      "childIdx": 0
+    },
+    "1173486191": {
+      "id": 1173486191,
+      "state": {
+        "key": "d1d4",
+        "pgn": "Qxd4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "f3": "wn2",
+          "e5": "wp5",
+          "e4": "bn2",
+          "d4": "wq1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ],
+          [
+            "e4",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d1",
+            "d4"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Modern Attack, Center Attack"
+        ],
+        "marks": {
+          "yellow": [
+            "d1",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 937807884,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1191371340": {
+      "id": 1191371340,
+      "state": {
+        "key": "c7c6",
+        "pgn": "c6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "d6": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1",
+          "c4": "wp3",
+          "c6": "bp3"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ],
+          [
+            "c2",
+            "c4"
+          ],
+          [
+            "c7",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Classical Attack, Staunton Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "c7",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 453469938,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1224765610": {
+      "id": 1224765610,
+      "state": {
+        "key": "e1g1",
+        "pgn": "O-O",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bn2",
+          "d3": "wb2",
+          "d5": "bp4",
+          "e5": "wn2",
+          "d6": "bb2",
+          "f1": "wr2",
+          "g1": "wk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "e1",
+            "g1"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e1",
+            "g1"
+          ]
+        }
+      },
+      "parentId": 1147282093,
+      "childIds": [
+        1479277724
+      ],
+      "childIdx": 0
+    },
+    "1479277724": {
+      "id": 1479277724,
+      "state": {
+        "key": "e8g8",
+        "pgn": "O-O",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "d4": "wp4",
+          "e4": "bn2",
+          "d3": "wb2",
+          "d5": "bp4",
+          "e5": "wn2",
+          "d6": "bb2",
+          "f1": "wr2",
+          "g1": "wk1",
+          "f8": "br2",
+          "g8": "bk1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "f8",
+            "d6"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "e8",
+            "g8"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e8",
+            "g8"
+          ]
+        }
+      },
+      "parentId": 1224765610,
+      "childIds": [
+        779153194
+      ],
+      "childIdx": 0
+    },
+    "1517671437": {
+      "id": 1517671437,
+      "state": {
+        "key": "b1c3",
+        "pgn": "Nc3",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c3": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "b1",
+            "c3"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Three Knights Game"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "c3"
+          ]
+        }
+      },
+      "parentId": 1156733555,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1517732012": {
+      "id": 1517732012,
+      "state": {
+        "key": "d2d4",
+        "pgn": "d4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d4": "wp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d2",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1156733555,
+      "childIds": [
+        1971329401,
+        1971298618
+      ],
+      "childIdx": 0
+    },
+    "1517790602": {
+      "id": 1517790602,
+      "state": {
+        "key": "f1c4",
+        "pgn": "Bc4",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5",
+          "f3": "wn2",
+          "f6": "bn2",
+          "c4": "wb2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f1",
+            "c4"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Urusov Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "f1",
+            "c4"
+          ]
+        }
+      },
+      "parentId": 1156733555,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1517792587": {
+      "id": 1517792587,
+      "state": {
+        "key": "f3e5",
+        "pgn": "Nxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "e5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 1156733555,
+      "childIds": [
+        1973148576,
+        1973207226,
+        1973089924
+      ],
+      "childIdx": 0
+    },
+    "1809485446": {
+      "id": 1809485446,
+      "state": {
+        "key": "b1d2",
+        "pgn": "bd2",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "a2": "wp1",
+          "b2": "wp2",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "h8": "br2",
+          "f3": "wn2",
+          "e4": "bn2",
+          "d4": "wp4",
+          "d5": "bp4",
+          "d3": "wb2",
+          "e7": "bb2",
+          "g1": "wk1",
+          "c6": "bn1",
+          "e1": "wr2",
+          "g4": "bb1",
+          "c3": "wp3",
+          "f5": "bp6",
+          "d2": "wn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ],
+          [
+            "e5",
+            "f3"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "d6",
+            "d5"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "f8",
+            "e7"
+          ],
+          [
+            "e1",
+            "g1"
+          ],
+          [
+            "b8",
+            "c6"
+          ],
+          [
+            "f1",
+            "e1"
+          ],
+          [
+            "c8",
+            "g4"
+          ],
+          [
+            "c2",
+            "c3"
+          ],
+          [
+            "f7",
+            "f5"
+          ],
+          [
+            "b1",
+            "d2"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Classical Attack, Berger Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "b1",
+            "d2"
+          ]
+        }
+      },
+      "parentId": 819778579,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1877669921": {
+      "id": 1877669921,
+      "state": {
+        "key": "e7e5",
+        "pgn": "e5",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "g1": "wn2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "g8": "bn2",
+          "h8": "br2",
+          "e4": "wp5",
+          "e5": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e7",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 614154010,
+      "childIds": [
+        244527714
+      ],
+      "childIdx": 0
+    },
+    "1971298618": {
+      "id": 1971298618,
+      "state": {
+        "key": "e5d4",
+        "pgn": "exd4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f3": "wn2",
+          "f6": "bn2",
+          "d4": "bp5"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "e5",
+            "d4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "e5",
+            "d4"
+          ]
+        }
+      },
+      "parentId": 1517732012,
+      "childIds": [
+        999476946,
+        999503791
+      ],
+      "childIdx": 0
+    },
+    "1971329401": {
+      "id": 1971329401,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Nxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "bp5",
+          "f3": "wn2",
+          "d4": "wp4",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1517732012,
+      "childIds": [
+        1000458094
+      ],
+      "childIdx": 0
+    },
+    "1973089924": {
+      "id": 1973089924,
+      "state": {
+        "key": "b8c6",
+        "pgn": "Nc6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "e5": "wn2",
+          "c6": "bn1"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "b8",
+            "c6"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Stafford Gambit"
+        ],
+        "marks": {
+          "yellow": [
+            "b8",
+            "c6"
+          ]
+        }
+      },
+      "parentId": 1517792587,
+      "childIds": [],
+      "childIdx": -1
+    },
+    "1973148576": {
+      "id": 1973148576,
+      "state": {
+        "key": "d7d6",
+        "pgn": "d6",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e4": "wp5",
+          "f6": "bn2",
+          "e5": "wn2",
+          "d6": "bp4"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "d7",
+            "d6"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "d7",
+            "d6"
+          ]
+        }
+      },
+      "parentId": 1517792587,
+      "childIds": [
+        1056826634,
+        1056826542,
+        1056826572,
+        1056826638
+      ],
+      "childIdx": 0
+    },
+    "1973207226": {
+      "id": 1973207226,
+      "state": {
+        "key": "f6e4",
+        "pgn": "Nxe4",
+        "whitesTurn": true,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "f1": "wb2",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "d2": "wp4",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "d7": "bp4",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "e5": "wn2",
+          "e4": "bn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "f3",
+            "e5"
+          ],
+          [
+            "f6",
+            "e4"
+          ]
+        ],
+        "comments": [
+          "Russian Game, Damiano Variation"
+        ],
+        "marks": {
+          "yellow": [
+            "f6",
+            "e4"
+          ]
+        }
+      },
+      "parentId": 1517792587,
+      "childIds": [
+        1058611117
+      ],
+      "childIdx": 0
+    },
+    "2114612774": {
+      "id": 2114612774,
+      "state": {
+        "key": "f3e5",
+        "pgn": "Nxe5",
+        "whitesTurn": false,
+        "squares": {
+          "a1": "wr1",
+          "b1": "wn1",
+          "c1": "wb1",
+          "d1": "wq1",
+          "e1": "wk1",
+          "h1": "wr2",
+          "a2": "wp1",
+          "b2": "wp2",
+          "c2": "wp3",
+          "f2": "wp6",
+          "g2": "wp7",
+          "h2": "wp8",
+          "a7": "bp1",
+          "b7": "bp2",
+          "c7": "bp3",
+          "f7": "bp6",
+          "g7": "bp7",
+          "h7": "bp8",
+          "a8": "br1",
+          "b8": "bn1",
+          "c8": "bb1",
+          "d8": "bq1",
+          "e8": "bk1",
+          "f8": "bb2",
+          "h8": "br2",
+          "d4": "wp4",
+          "e4": "bn2",
+          "d3": "wb2",
+          "d5": "bp4",
+          "e5": "wn2"
+        },
+        "moves": [
+          [
+            "e2",
+            "e4"
+          ],
+          [
+            "e7",
+            "e5"
+          ],
+          [
+            "g1",
+            "f3"
+          ],
+          [
+            "g8",
+            "f6"
+          ],
+          [
+            "d2",
+            "d4"
+          ],
+          [
+            "f6",
+            "e4"
+          ],
+          [
+            "f1",
+            "d3"
+          ],
+          [
+            "d7",
+            "d5"
+          ],
+          [
+            "f3",
+            "e5"
+          ]
+        ],
+        "marks": {
+          "yellow": [
+            "f3",
+            "e5"
+          ]
+        }
+      },
+      "parentId": 968164821,
+      "childIds": [
+        1147282093
+      ],
+      "childIdx": 0
     }
-  ]
+  }
 }
