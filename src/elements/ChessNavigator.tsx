@@ -1,4 +1,4 @@
-import { Box, Button, SxProps } from "@mui/material";
+import { Box, IconButton, SxProps } from "@mui/material";
 import FirstPageIcon from '@mui/icons-material/FirstPage';
 import LastPageIcon from '@mui/icons-material/LastPage';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
@@ -65,21 +65,21 @@ export const ChessNavigator: React.FC<ChessNavigatorProps> = ({
                 justifyContent: 'center',
                 ...sx
             }}>
-            <Button variant='contained' onClick={handleOnFirst} disabled={!controller || controller?.isCurrentNodeRoot()}>
+            <IconButton onClick={handleOnFirst} disabled={!controller || controller?.isCurrentNodeRoot()}>
                 <FirstPageIcon />
-            </Button>
-            <Button variant='contained' onClick={handleOnPrevious} disabled={!controller || controller?.isCurrentNodeRoot()}>
+            </IconButton>
+            <IconButton onClick={handleOnPrevious} disabled={!controller || controller?.isCurrentNodeRoot()}>
                 <ChevronLeftIcon />
-            </Button>
-            <Button variant='contained' onClick={handleOnRotate} disabled={!controller || !controller?.isCurrentNodeSibling()}>
+            </IconButton>
+            <IconButton onClick={handleOnRotate} disabled={!controller || !controller?.isCurrentNodeSibling()}>
                 <ImportExportIcon />
-            </Button>
-            <Button variant='contained' onClick={handleOnNext} disabled={!controller || controller?.isCurrentNodeLeaf()}>
+            </IconButton>
+            <IconButton onClick={handleOnNext} disabled={!controller || controller?.isCurrentNodeLeaf()}>
                 <ChevronRightIcon />
-            </Button>
-            <Button variant='contained' onClick={handleOnLast} disabled={!controller || controller?.isCurrentNodeLeaf()}>
+            </IconButton>
+            <IconButton onClick={handleOnLast} disabled={!controller || controller?.isCurrentNodeLeaf()}>
                 <LastPageIcon />
-            </Button>
+            </IconButton>
         </Box>
     )
 }

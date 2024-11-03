@@ -25,6 +25,8 @@
     /* theme.spacing(4.5) */
     --controls-section-height: calc(var(--spacing) * 4);
     /* theme.spacing(4) */
+
+    --number-of-gaps: 2;
 }
 
 /* Mobile (xs) breakpoint */
@@ -45,19 +47,20 @@
         --controls-paper-height: var(--board-paper-height);
         --controls-paper-width: var(--controls-section-width);
         --sheet-paper-height: var(--board-paper-height);
-        /* --sheet-paper-width: auto; */
-        --sheet-paper-width: 400px;
+        /* ..400 px */
+        --sheet-paper-width: min(400px, calc(100vw - var(--board-paper-width) - var(--controls-paper-width) - var(--drawer-width) - calc(var(--page-gap) * var(--number-of-gaps)) - calc(var(--page-pad) * 2)));
+        /* --sheet-paper-width: max(300px, min(400px, calc(100vw - var(--board-paper-width) - var(--controls-paper-width) - var(--drawer-width) - calc(var(--page-gap) * var(--number-of-gaps)) - calc(var(--page-pad) * 2)))); */
     }
 }
 
 /* Portrait orientation */
 @media (orientation: portrait) {
     :root {
-        --board-paper-height: calc(100vw - var(--page-pad) + calc(var(--board-section-height) * 2) + var(--board-gapping-height));
-        --board-paper-width: calc(100vw - var(--page-pad) - var(--drawer-width));
+        --board-paper-height: calc(100vw - var(--page-pad) - var(--drawer-width) + calc(var(--board-section-height) * 2) + var(--board-gapping-height));
+        --board-paper-width: calc(100vw - calc(var(--page-pad) * 2) - var(--drawer-width));
         --controls-paper-height: var(--controls-section-height);
         --controls-paper-width: var(--board-paper-width);
-        --sheet-paper-height: calc(100vh - var(--appbar-height) - var(--board-paper-height) - var(--controls-paper-height) - calc(var(--page-pad) * 2) - calc(var(--page-gap) * 2));
+        --sheet-paper-height: calc(100vh - var(--appbar-height) - var(--board-paper-height) - var(--controls-paper-height) - calc(var(--page-pad) * 2) - calc(var(--page-gap) * var(--number-of-gaps)));
         --sheet-paper-width: var(--board-paper-width);
     }
 }
